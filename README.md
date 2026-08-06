@@ -13,7 +13,7 @@ This repository provides the official implementation of the A-CBFI framework, wh
 Existing attribution-based explanations (e.g., SHAP, LIME) are fundamentally descriptive and often fail to provide actionable guidance for users receiving adverse predictions. Furthermore, purely optimization-based counterfactual methods (e.g., Wachter's CE, DiCE) ignore causal dependencies or enforce impractical "diffuse shifts" across numerous features, severely increasing cognitive burden.
 
 **A-CBFI** overcomes these limitations by:
-1. **Discovering Synergistic Bottlenecks:** It isolates critical high-order synergistic interactions ($C\_G_4$) that amplify adverse predictions or suppress positive outcomes.
+1. **Discovering Synergistic Bottlenecks:** It isolates critical high-order synergistic interactions (C_G4) that amplify adverse predictions or suppress positive outcomes.
 2. **Targeted Causal Intervention:** It leverages Structural Causal Models (SCMs) to constrain the counterfactual search space exclusively to the diagnosed root causes.
 3. **Actionable Prescription:** It outputs clear, minimal-effort directives for end-users while allowing the SCM to automatically handle downstream topological ripple effects.
 
