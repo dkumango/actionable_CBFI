@@ -10,7 +10,7 @@ This repository provides the official implementation of the A-CBFI framework, wh
 
 ## 📖 Overview
 
-Existing attribution-based explanations (e.g., SHAP, LIME) are fundamentally descriptive and often fail to provide actionable guidance for users receiving adverse predictions. Furthermore, purely optimization-based counterfactual methods (e.g., Wachter's CE, DiCE) ignore causal dependencies or enforce impractical "diffuse shifts" across numerous features, severely increasing cognitive burden.
+Existing attribution-based explanations (e.g., SHAP, LIME) are fundamentally descriptive and often fail to provide actionable guidance for users receiving adverse predictions[cite: 2]. Furthermore, purely optimization-based counterfactual methods (e.g., Wachter's CE, DiCE) ignore causal dependencies or enforce impractical "diffuse shifts" across numerous features, severely increasing cognitive burden[cite: 2].
 
 **A-CBFI** overcomes these limitations by:
 1. **Discovering Synergistic Bottlenecks & Suppressive Locks:** It explicitly isolates critical high-order synergistic interactions ($C_{G4} > 0$) that amplify adverse predictions and releases suppressive structural locks ($C_{G4} < 0$)[cite: 2].
@@ -32,8 +32,15 @@ cd Actionable_CBFI
 
 # Install dependencies (requires Python 3.14.0+)
 pip install -r requirements.txt
+```
+*Core dependencies include `pandas`, `numpy`, `scikit-learn`, `networkx`, and `matplotlib`.*
 
-Core dependencies include pandas, numpy, scikit-learn, networkx, and matplotlib.🚀 Quick StartThe core causal propagation engine is implemented in Actionable_CBFI.py. Below is a minimal example of diagnosing an adverse prediction and generating targeted recourse.Pythonimport pandas as pd
+## 🚀 Quick Start
+
+The core causal propagation engine is implemented in `Actionable_CBFI.py`. Below is a minimal example of diagnosing an adverse prediction and generating targeted recourse.
+
+```python
+import pandas as pd
 from Actionable_CBFI import ACBFI_Engine, SCM_Model
 from sklearn.ensemble import RandomForestClassifier
 
@@ -62,7 +69,34 @@ print(f"Diagnosed Bottlenecks (Target Set T): {diagnosis.target_features}")
 # Generate actionable recourse restricted to Target Set T using IGBS
 recourse = explainer.generate_recourse(factual_instance, target_set=diagnosis.target_features)
 print(recourse.actionable_prescription())
-📊 Benchmarking SuiteTo reproduce the multi-architecture experiments across Financial and Healthcare domains, run the automated evaluation suite:Bashpython test_benchmark_comparison.py --dataset financial_loan --model xgboost
-This suite compares A-CBFI against Untargeted Causal, Wachter's CE, and SHAP-Targeted CE evaluating Recourse Cost, Sparsity ($L_0$), Active Levers ($L_{active}$), Recourse Concentration Ratio (RCR), and Causal Plausibility MSE ($R_{SCM}$)[cite: 2].📁 Repository StructureActionable_CBFI.py: Core implementation of the diagnosis and SCM forward propagation engine via IGBS.test_benchmark_comparison.py: Automated benchmarking and evaluation script.data/: Sample preprocessing scripts for the 6 benchmark datasets (Financial Loan, German Credit, Adult Income, Medical Insurance, Pima Diabetes, Breast Cancer).configs/: Domain-specific SCM DAG topological specifications.📝 CitationIf you find this framework useful in your research, please consider citing our paper:코드 스니펫@article{under review
+```
+
+## 📊 Benchmarking Suite
+
+To reproduce the multi-architecture experiments across Financial and Healthcare domains, run the automated evaluation suite:
+
+```bash
+python test_benchmark_comparison.py --dataset financial_loan --model xgboost
+```
+*This suite compares A-CBFI against `Untargeted Causal`, `Wachter's CE`, and `SHAP-Targeted CE` evaluating Recourse Cost, Sparsity ($L_0$), Active Levers ($L_{active}$), Recourse Concentration Ratio (RCR), and Causal Plausibility MSE ($R_{SCM}$)[cite: 2].*
+
+## 📁 Repository Structure
+
+* `Actionable_CBFI.py`: Core implementation of the diagnosis and SCM forward propagation engine via IGBS.
+* `Visualize_ACBFI.py`: Implementation of the various plots related with A-CBFI.   
+* `test_benchmark_comparison.py`: Automated benchmarking and evaluation script.
+* `DOMAIN_SCM_CONFIG.txt`: Domain-specific SCM DAG topological specifications for benchmark.
+* 
+* `data/`: Sample preprocessing scripts for the 6 benchmark datasets (Financial Loan, German Credit, Adult Income, Medical Insurance, Pima Diabetes, Breast Cancer).
+
+## 📝 Citation
+
+If you find this framework useful in your research, please consider citing our paper:
+
+```bibtex
+@article{under review
 }
-📬 ContactFor any questions, discussions, or collaboration inquiries regarding Explainable AI (XAI) or Tabular Deep Learning, please open an issue or contact the author.
+```
+
+## 📬 Contact
+For any questions, discussions, or collaboration inquiries regarding Explainable AI (XAI) or Tabular Deep Learning, please open an issue or contact the author.
