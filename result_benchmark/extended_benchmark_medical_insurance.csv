@@ -1,0 +1,1201 @@
+﻿Dataset,Model_Architecture,Instance,Original_Row_Index,Method,Success,Intervention_Nodes,Evaluations,Time (s),Recourse Cost (Pure MAD),Sparsity (L0),R_SCM,R_0,D_M,RCR (%),Reported_Minimum_Cost
+medical_insurance,RandomForest,1,0,Actionable CBFI (Proposed),True,['smoker'],56,0.3158891201019287,2.4780497323146276,1.0,0.0002585153479192284,0.08560152289942329,2.474496316599568,100.0,2.477123531672177
+medical_insurance,RandomForest,1,0,Untargeted Causal (Karimi 2021),True,['smoker'],98,0.5619556903839111,2.4780497323146276,1.0,0.0002585153479192284,0.08560152289942329,2.474496316599568,100.0,2.477123531672177
+medical_insurance,RandomForest,1,0,Wachter's CE,True,"['bmi', 'smoker']",500,0.03403210639953613,1.8723980718989401,2.0,,0.540113795413353,2.6730329282131846,100.0,1.8723980718989401
+medical_insurance,RandomForest,1,0,SHAP-Targeted CE,True,"['bmi', 'smoker']",343,0.018296480178833008,1.3466803685496593,2.0,,0.05143668394493627,2.544089259851697,100.0,1.3466803685496593
+medical_insurance,RandomForest,2,3,Actionable CBFI (Proposed),True,['bmi'],42,0.15282297134399414,0.6270334928229674,1.0,,0.6788338127181783,1.786687053294028,100.0,0.6270334928229674
+medical_insurance,RandomForest,2,3,Untargeted Causal (Karimi 2021),True,['bmi'],134,0.5216801166534424,0.6270334928229674,1.0,,0.6788338127181783,1.786687053294028,100.0,0.6270334928229674
+medical_insurance,RandomForest,2,3,Wachter's CE,True,"['bmi', 'region']",500,0.03337812423706055,0.8594497607655509,2.0,,0.6988474895706421,1.8471757526008226,100.0,0.8594497607655509
+medical_insurance,RandomForest,2,3,SHAP-Targeted CE,True,['bmi'],343,0.01830911636352539,0.13157894736842038,1.0,,1.8066014854834058,2.081743563777709,100.0,0.13157894736842038
+medical_insurance,RandomForest,3,9,Actionable CBFI (Proposed),False,[],62,0.3794534206390381,,,,,,,
+medical_insurance,RandomForest,3,9,Untargeted Causal (Karimi 2021),False,[],96,0.5832574367523193,,,,,,,
+medical_insurance,RandomForest,3,9,Wachter's CE,False,[],500,0.02950310707092285,,,,,,,
+medical_insurance,RandomForest,3,9,SHAP-Targeted CE,False,[],343,0.015740633010864258,,,,,,,
+medical_insurance,RandomForest,4,11,Actionable CBFI (Proposed),False,[],72,0.44109439849853516,,,,,,,
+medical_insurance,RandomForest,4,11,Untargeted Causal (Karimi 2021),False,[],106,0.662553071975708,,,,,,,
+medical_insurance,RandomForest,4,11,Wachter's CE,False,[],500,0.029753923416137695,,,,,,,
+medical_insurance,RandomForest,4,11,SHAP-Targeted CE,False,[],343,0.01572871208190918,,,,,,,
+medical_insurance,RandomForest,5,13,Actionable CBFI (Proposed),False,[],66,0.402493953704834,,,,,,,
+medical_insurance,RandomForest,5,13,Untargeted Causal (Karimi 2021),False,[],98,0.594506025314331,,,,,,,
+medical_insurance,RandomForest,5,13,Wachter's CE,False,[],500,0.029271602630615234,,,,,,,
+medical_insurance,RandomForest,5,13,SHAP-Targeted CE,False,[],343,0.015697240829467773,,,,,,,
+medical_insurance,RandomForest,6,14,Actionable CBFI (Proposed),True,['smoker'],62,0.3572726249694824,2.4780497323146276,1.0,0.0002585153479192248,3.918185896687037,2.582818300969996,100.0,2.477123531672177
+medical_insurance,RandomForest,6,14,Untargeted Causal (Karimi 2021),True,['smoker'],106,0.6107583045959473,2.4780497323146276,1.0,0.0002585153479192248,3.918185896687037,2.582818300969996,100.0,2.477123531672177
+medical_insurance,RandomForest,6,14,Wachter's CE,True,"['bmi', 'region', 'smoker']",500,0.033010244369506836,2.1475176891238217,3.0,,5.069286237001584,2.828592690827654,100.0,2.1475176891238217
+medical_insurance,RandomForest,6,14,SHAP-Targeted CE,True,"['bmi', 'smoker']",343,0.019126415252685547,1.5715607513247778,2.0,,3.0393730238829484,2.4264515526037083,100.0,1.5715607513247778
+medical_insurance,RandomForest,7,16,Actionable CBFI (Proposed),False,[],74,0.4556729793548584,,,,,,,
+medical_insurance,RandomForest,7,16,Untargeted Causal (Karimi 2021),False,[],114,0.6975030899047852,,,,,,,
+medical_insurance,RandomForest,7,16,Wachter's CE,False,[],500,0.029319047927856445,,,,,,,
+medical_insurance,RandomForest,7,16,SHAP-Targeted CE,False,[],343,0.015779495239257812,,,,,,,
+medical_insurance,RandomForest,8,18,Actionable CBFI (Proposed),False,[],64,0.39141368865966797,,,,,,,
+medical_insurance,RandomForest,8,18,Untargeted Causal (Karimi 2021),False,[],102,0.6230370998382568,,,,,,,
+medical_insurance,RandomForest,8,18,Wachter's CE,False,[],500,0.029571056365966797,,,,,,,
+medical_insurance,RandomForest,8,18,SHAP-Targeted CE,False,[],343,0.01570725440979004,,,,,,,
+medical_insurance,RandomForest,9,19,Actionable CBFI (Proposed),True,['smoker'],44,0.24637269973754883,2.4780497323146276,1.0,0.0002585153479192284,0.6982966603516276,2.1734206735907,100.0,2.477123531672177
+medical_insurance,RandomForest,9,19,Untargeted Causal (Karimi 2021),True,['smoker'],100,0.575890064239502,2.4780497323146276,1.0,0.0002585153479192284,0.6982966603516276,2.1734206735907,100.0,2.477123531672177
+medical_insurance,RandomForest,9,19,Wachter's CE,True,"['bmi', 'smoker']",500,0.03319191932678223,2.6586717418840045,2.0,,0.5066419916536204,2.142486492204283,100.0,2.6586717418840045
+medical_insurance,RandomForest,9,19,SHAP-Targeted CE,True,"['bmi', 'smoker']",343,0.017927885055541992,1.4196468757266907,2.0,,0.4952622012942048,2.160119143257267,100.0,1.4196468757266907
+medical_insurance,RandomForest,10,20,Actionable CBFI (Proposed),False,[],56,0.34647631645202637,,,,,,,
+medical_insurance,RandomForest,10,20,Untargeted Causal (Karimi 2021),False,[],90,0.552375316619873,,,,,,,
+medical_insurance,RandomForest,10,20,Wachter's CE,False,[],500,0.02954411506652832,,,,,,,
+medical_insurance,RandomForest,10,20,SHAP-Targeted CE,False,[],343,0.01597738265991211,,,,,,,
+medical_insurance,RandomForest,11,23,Actionable CBFI (Proposed),True,['smoker'],48,0.2811605930328369,2.4780497323146276,1.0,0.0002585153479192275,0.06250186955768301,1.873911180728896,100.0,2.477123531672177
+medical_insurance,RandomForest,11,23,Untargeted Causal (Karimi 2021),True,['smoker'],106,0.6333229541778564,2.4780497323146276,1.0,0.0002585153479192275,0.06250186955768301,1.873911180728896,100.0,2.477123531672177
+medical_insurance,RandomForest,11,23,Wachter's CE,True,"['bmi', 'sex', 'smoker']",500,0.033356428146362305,2.367042669597689,3.0,,0.45236559595511056,1.9312079404822526,100.0,2.367042669597689
+medical_insurance,RandomForest,11,23,SHAP-Targeted CE,True,"['bmi', 'smoker']",343,0.018371105194091797,1.8670152967793237,2.0,,0.45236559595511056,2.143776861786614,100.0,1.8670152967793237
+medical_insurance,RandomForest,12,25,Actionable CBFI (Proposed),False,[],64,0.39276695251464844,,,,,,,
+medical_insurance,RandomForest,12,25,Untargeted Causal (Karimi 2021),False,[],98,0.5983891487121582,,,,,,,
+medical_insurance,RandomForest,12,25,Wachter's CE,False,[],500,0.02912163734436035,,,,,,,
+medical_insurance,RandomForest,12,25,SHAP-Targeted CE,False,[],343,0.015566587448120117,,,,,,,
+medical_insurance,RandomForest,13,26,Actionable CBFI (Proposed),False,[],74,0.45369720458984375,,,,,,,
+medical_insurance,RandomForest,13,26,Untargeted Causal (Karimi 2021),False,[],126,0.7666513919830322,,,,,,,
+medical_insurance,RandomForest,13,26,Wachter's CE,False,[],500,0.02955341339111328,,,,,,,
+medical_insurance,RandomForest,13,26,SHAP-Targeted CE,False,[],343,0.015793323516845703,,,,,,,
+medical_insurance,RandomForest,14,27,Actionable CBFI (Proposed),False,[],58,0.35631847381591797,,,,,,,
+medical_insurance,RandomForest,14,27,Untargeted Causal (Karimi 2021),False,[],100,0.609633207321167,,,,,,,
+medical_insurance,RandomForest,14,27,Wachter's CE,False,[],500,0.029150962829589844,,,,,,,
+medical_insurance,RandomForest,14,27,SHAP-Targeted CE,False,[],343,0.015783071517944336,,,,,,,
+medical_insurance,RandomForest,15,29,Actionable CBFI (Proposed),True,['smoker'],56,0.3254561424255371,2.4780497323146276,1.0,0.0002585153479192248,0.9838539064267129,2.1324471262051317,100.0,2.477123531672177
+medical_insurance,RandomForest,15,29,Untargeted Causal (Karimi 2021),True,['smoker'],100,0.5741360187530518,2.4780497323146276,1.0,0.0002585153479192248,0.9838539064267129,2.1324471262051317,100.0,2.477123531672177
+medical_insurance,RandomForest,15,29,Wachter's CE,True,"['bmi', 'smoker']",500,0.03337526321411133,2.89790619164477,2.0,,0.4956104212054483,2.0487027273675236,100.0,2.89790619164477
+medical_insurance,RandomForest,15,29,SHAP-Targeted CE,True,"['bmi', 'smoker']",343,0.017973661422729492,1.6588813254874564,2.0,,0.48435591136184286,2.060744425993492,100.0,1.6588813254874564
+medical_insurance,RandomForest,16,30,Actionable CBFI (Proposed),True,['smoker'],58,0.33262038230895996,2.4780497323146276,1.0,0.0002585153479192248,0.8971680992134721,2.427808513659495,100.0,2.477123531672177
+medical_insurance,RandomForest,16,30,Untargeted Causal (Karimi 2021),True,['smoker'],98,0.5779337882995605,2.4780497323146276,1.0,0.0002585153479192248,0.8971680992134721,2.427808513659495,100.0,2.477123531672177
+medical_insurance,RandomForest,16,30,Wachter's CE,True,"['bmi', 'smoker']",500,0.033997535705566406,2.7304420768122353,2.0,,0.599265881581115,2.382504045546523,100.0,2.7304420768122353
+medical_insurance,RandomForest,16,30,SHAP-Targeted CE,True,"['bmi', 'smoker']",343,0.018457889556884766,1.4914172106549215,2.0,,0.5868838470952172,2.3912259317996316,100.0,1.4914172106549215
+medical_insurance,RandomForest,17,33,Actionable CBFI (Proposed),False,[],56,0.34757566452026367,,,,,,,
+medical_insurance,RandomForest,17,33,Untargeted Causal (Karimi 2021),False,[],94,0.5887799263000488,,,,,,,
+medical_insurance,RandomForest,17,33,Wachter's CE,False,[],500,0.0303497314453125,,,,,,,
+medical_insurance,RandomForest,17,33,SHAP-Targeted CE,False,[],343,0.016886234283447266,,,,,,,
+medical_insurance,RandomForest,18,34,Actionable CBFI (Proposed),True,['smoker'],48,0.2746281623840332,2.4780497323146276,1.0,0.0002585153479192284,1.0643514213007974,2.0895111638623107,100.0,2.477123531672177
+medical_insurance,RandomForest,18,34,Untargeted Causal (Karimi 2021),True,['smoker'],106,0.6142058372497559,2.4780497323146276,1.0,0.0002585153479192284,1.0643514213007974,2.0895111638623107,100.0,2.477123531672177
+medical_insurance,RandomForest,18,34,Wachter's CE,True,"['bmi', 'smoker']",500,0.033530235290527344,2.9218296366208465,2.0,,0.529069409745141,1.993358907876964,100.0,2.9218296366208465
+medical_insurance,RandomForest,18,34,SHAP-Targeted CE,True,"['bmi', 'smoker']",343,0.01821613311767578,1.6828047704635332,2.0,,0.5174390583541049,2.006354471479514,100.0,1.6828047704635332
+medical_insurance,RandomForest,19,36,Actionable CBFI (Proposed),False,[],58,0.36447834968566895,,,,,,,
+medical_insurance,RandomForest,19,36,Untargeted Causal (Karimi 2021),False,[],96,0.5839788913726807,,,,,,,
+medical_insurance,RandomForest,19,36,Wachter's CE,False,[],500,0.029463529586791992,,,,,,,
+medical_insurance,RandomForest,19,36,SHAP-Targeted CE,False,[],343,0.015726804733276367,,,,,,,
+medical_insurance,RandomForest,20,38,Actionable CBFI (Proposed),True,['smoker'],64,0.3825662136077881,2.4780497323146276,1.0,0.0002585153479192284,1.0433052995725387,2.1851130372573064,100.0,2.477123531672177
+medical_insurance,RandomForest,20,38,Untargeted Causal (Karimi 2021),True,['smoker'],100,0.5980796813964844,2.4780497323146276,1.0,0.0002585153479192284,1.0433052995725387,2.1851130372573064,100.0,2.477123531672177
+medical_insurance,RandomForest,20,38,Wachter's CE,True,"['bmi', 'smoker']",500,0.03330540657043457,1.7473980718989406,2.0,,0.44194500894965066,2.024899895939174,100.0,1.7473980718989406
+medical_insurance,RandomForest,20,38,SHAP-Targeted CE,True,"['bmi', 'smoker']",343,0.018031835556030273,1.7473980718989406,2.0,,0.44194500894965066,2.024899895939174,100.0,1.7473980718989406
+medical_insurance,RandomForest,21,39,Actionable CBFI (Proposed),False,[],48,0.2952001094818115,,,,,,,
+medical_insurance,RandomForest,21,39,Untargeted Causal (Karimi 2021),False,[],108,0.6605024337768555,,,,,,,
+medical_insurance,RandomForest,21,39,Wachter's CE,False,[],500,0.02959132194519043,,,,,,,
+medical_insurance,RandomForest,21,39,SHAP-Targeted CE,False,[],343,0.016295909881591797,,,,,,,
+medical_insurance,RandomForest,22,45,Actionable CBFI (Proposed),False,[],58,0.35915088653564453,,,,,,,
+medical_insurance,RandomForest,22,45,Untargeted Causal (Karimi 2021),False,[],96,0.5852670669555664,,,,,,,
+medical_insurance,RandomForest,22,45,Wachter's CE,False,[],500,0.02973318099975586,,,,,,,
+medical_insurance,RandomForest,22,45,SHAP-Targeted CE,False,[],343,0.015817642211914062,,,,,,,
+medical_insurance,RandomForest,23,48,Actionable CBFI (Proposed),False,[],60,0.3707754611968994,,,,,,,
+medical_insurance,RandomForest,23,48,Untargeted Causal (Karimi 2021),False,[],96,0.5890016555786133,,,,,,,
+medical_insurance,RandomForest,23,48,Wachter's CE,False,[],500,0.029150724411010742,,,,,,,
+medical_insurance,RandomForest,23,48,SHAP-Targeted CE,False,[],343,0.01576066017150879,,,,,,,
+medical_insurance,RandomForest,24,49,Actionable CBFI (Proposed),True,['smoker'],58,0.32834815979003906,2.4780497323146276,1.0,0.0002585153479192248,0.5967345301149458,1.418059062744796,100.0,2.477123531672177
+medical_insurance,RandomForest,24,49,Untargeted Causal (Karimi 2021),True,['smoker'],90,0.5098576545715332,2.4780497323146276,1.0,0.0002585153479192248,0.5967345301149458,1.418059062744796,100.0,2.477123531672177
+medical_insurance,RandomForest,24,49,Wachter's CE,True,"['bmi', 'region', 'smoker']",500,0.0331873893737793,2.5152358638292722,3.0,,0.4369437440989486,1.194305691823448,100.0,2.5152358638292722
+medical_insurance,RandomForest,24,49,SHAP-Targeted CE,True,"['bmi', 'smoker']",343,0.018848896026611328,1.3957234307506154,2.0,,0.43164584767591646,1.3984453123937828,100.0,1.3957234307506154
+medical_insurance,RandomForest,25,52,Actionable CBFI (Proposed),True,['smoker'],58,0.32994842529296875,2.4780497323146276,1.0,0.0002585153479192266,0.2521410331246612,2.03205797437657,100.0,2.477123531672177
+medical_insurance,RandomForest,25,52,Untargeted Causal (Karimi 2021),True,['smoker'],98,0.5581839084625244,2.4780497323146276,1.0,0.0002585153479192266,0.2521410331246612,2.03205797437657,100.0,2.477123531672177
+medical_insurance,RandomForest,25,52,Wachter's CE,True,"['bmi', 'smoker']",500,0.032048702239990234,2.5158339499536737,2.0,,0.9155969070130338,2.1779888701522623,100.0,2.5158339499536737
+medical_insurance,RandomForest,25,52,SHAP-Targeted CE,True,"['bmi', 'smoker']",343,0.017553091049194336,1.3227569235735825,2.0,,0.2049917143283511,2.046360331840266,100.0,1.3227569235735825
+medical_insurance,RandomForest,26,53,Actionable CBFI (Proposed),True,['smoker'],56,0.3161473274230957,2.4780497323146276,1.0,0.0002585153479192248,0.4175378555318823,1.642679474502156,100.0,2.477123531672177
+medical_insurance,RandomForest,26,53,Untargeted Causal (Karimi 2021),True,['smoker'],92,0.5252704620361328,2.4780497323146276,1.0,0.0002585153479192248,0.4175378555318823,1.642679474502156,100.0,2.477123531672177
+medical_insurance,RandomForest,26,53,Wachter's CE,True,"['bmi', 'region', 'smoker']",500,0.03352642059326172,2.386049260958459,3.0,,0.4369437440989486,1.505140143804456,100.0,2.386049260958459
+medical_insurance,RandomForest,26,53,SHAP-Targeted CE,True,"['bmi', 'smoker']",343,0.01799178123474121,1.2665368278798026,2.0,,0.43164584767591646,1.6775513392541146,100.0,1.2665368278798026
+medical_insurance,RandomForest,27,55,Actionable CBFI (Proposed),False,[],76,0.4686393737792969,,,,,,,
+medical_insurance,RandomForest,27,55,Untargeted Causal (Karimi 2021),False,[],124,0.7717244625091553,,,,,,,
+medical_insurance,RandomForest,27,55,Wachter's CE,False,[],500,0.031191110610961914,,,,,,,
+medical_insurance,RandomForest,27,55,SHAP-Targeted CE,False,[],343,0.01627492904663086,,,,,,,
+medical_insurance,RandomForest,28,56,Actionable CBFI (Proposed),False,[],60,0.40139007568359375,,,,,,,
+medical_insurance,RandomForest,28,56,Untargeted Causal (Karimi 2021),False,[],98,0.5979416370391846,,,,,,,
+medical_insurance,RandomForest,28,56,Wachter's CE,False,[],500,0.029122114181518555,,,,,,,
+medical_insurance,RandomForest,28,56,SHAP-Targeted CE,False,[],343,0.015521049499511719,,,,,,,
+medical_insurance,RandomForest,29,57,Actionable CBFI (Proposed),True,['smoker'],44,0.2452857494354248,2.4780497323146276,1.0,0.0002585153479192275,0.11242783469208226,2.1097499909417934,100.0,2.477123531672177
+medical_insurance,RandomForest,29,57,Untargeted Causal (Karimi 2021),True,['smoker'],102,0.5838491916656494,2.4780497323146276,1.0,0.0002585153479192275,0.11242783469208226,2.1097499909417934,100.0,2.477123531672177
+medical_insurance,RandomForest,29,57,Wachter's CE,True,"['bmi', 'region', 'smoker']",500,0.03303217887878418,3.0267042919946343,3.0,,0.528721673449087,2.3330485189724124,91.74019078569295,3.0267042919946343
+medical_insurance,RandomForest,29,57,SHAP-Targeted CE,True,"['bmi', 'smoker']",343,0.017953872680664062,1.924431564721908,2.0,,0.6356088875571356,2.208489463147689,100.0,1.924431564721908
+medical_insurance,RandomForest,30,58,Actionable CBFI (Proposed),False,[],70,0.42718935012817383,,,,,,,
+medical_insurance,RandomForest,30,58,Untargeted Causal (Karimi 2021),False,[],108,0.6985185146331787,,,,,,,
+medical_insurance,RandomForest,30,58,Wachter's CE,False,[],500,0.029469013214111328,,,,,,,
+medical_insurance,RandomForest,30,58,SHAP-Targeted CE,False,[],343,0.015784263610839844,,,,,,,
+medical_insurance,RandomForest,31,62,Actionable CBFI (Proposed),False,[],62,0.38110995292663574,,,,,,,
+medical_insurance,RandomForest,31,62,Untargeted Causal (Karimi 2021),False,[],106,0.6541397571563721,,,,,,,
+medical_insurance,RandomForest,31,62,Wachter's CE,False,[],500,0.029634714126586914,,,,,,,
+medical_insurance,RandomForest,31,62,SHAP-Targeted CE,False,[],343,0.016010522842407227,,,,,,,
+medical_insurance,RandomForest,32,64,Actionable CBFI (Proposed),True,['smoker'],46,0.27085232734680176,2.4780497323146276,1.0,0.0002585153479192248,1.4383995887033068,2.291629090212533,100.0,2.477123531672177
+medical_insurance,RandomForest,32,64,Untargeted Causal (Karimi 2021),True,['smoker'],96,0.5879848003387451,2.4780497323146276,1.0,0.0002585153479192248,1.4383995887033068,2.291629090212533,100.0,2.477123531672177
+medical_insurance,RandomForest,32,64,Wachter's CE,True,"['bmi', 'region', 'smoker']",500,0.03340911865234375,2.4166564451046826,3.0,,0.5516273431093447,2.1781676414919326,71.9599539967703,2.4166564451046826
+medical_insurance,RandomForest,32,64,SHAP-Targeted CE,True,"['bmi', 'smoker']",343,0.017884254455566406,1.302421995343917,2.0,,1.5646106374155275,2.4004756872725026,95.13236651306228,1.302421995343917
+medical_insurance,RandomForest,33,66,Actionable CBFI (Proposed),False,[],68,0.4316446781158447,,,,,,,
+medical_insurance,RandomForest,33,66,Untargeted Causal (Karimi 2021),False,[],102,0.6228420734405518,,,,,,,
+medical_insurance,RandomForest,33,66,Wachter's CE,False,[],500,0.029220104217529297,,,,,,,
+medical_insurance,RandomForest,33,66,SHAP-Targeted CE,False,[],343,0.016267776489257812,,,,,,,
+medical_insurance,RandomForest,34,69,Actionable CBFI (Proposed),True,['smoker'],70,0.41431641578674316,2.4780497323146276,1.0,0.0002585153479192248,1.011549871631104,2.4515713112036575,100.0,2.477123531672177
+medical_insurance,RandomForest,34,69,Untargeted Causal (Karimi 2021),True,['smoker'],128,0.7541284561157227,2.4780497323146276,1.0,0.0002585153479192248,1.011549871631104,2.4515713112036575,100.0,2.477123531672177
+medical_insurance,RandomForest,34,69,Wachter's CE,True,"['bmi', 'region', 'smoker']",500,0.06685662269592285,1.7934507034778884,3.0,,0.6481070510193949,2.428679611822901,100.0,1.7934507034778884
+medical_insurance,RandomForest,34,69,SHAP-Targeted CE,True,"['bmi', 'smoker']",343,0.0178682804107666,1.6756277369707109,2.0,,1.7244384004651352,2.614990117632918,100.0,1.6756277369707109
+medical_insurance,RandomForest,35,70,Actionable CBFI (Proposed),True,['smoker'],58,0.34424686431884766,2.4780497323146276,1.0,0.0002585153479192248,0.759777663522366,1.9424400196584395,100.0,2.477123531672177
+medical_insurance,RandomForest,35,70,Untargeted Causal (Karimi 2021),True,['smoker'],90,0.5094711780548096,2.4780497323146276,1.0,0.0002585153479192248,0.759777663522366,1.9424400196584395,100.0,2.477123531672177
+medical_insurance,RandomForest,35,70,Wachter's CE,True,"['bmi', 'region', 'smoker']",500,0.033334970474243164,1.859240177162099,3.0,,0.6356220974695995,1.935162592154311,100.0,1.859240177162099
+medical_insurance,RandomForest,35,70,SHAP-Targeted CE,True,"['bmi', 'smoker']",343,0.018011808395385742,1.8598382632865003,2.0,,1.7040349400228947,2.27981746542089,100.0,1.8598382632865003
+medical_insurance,RandomForest,36,72,Actionable CBFI (Proposed),False,[],62,0.3962564468383789,,,,,,,
+medical_insurance,RandomForest,36,72,Untargeted Causal (Karimi 2021),False,[],100,0.6175224781036377,,,,,,,
+medical_insurance,RandomForest,36,72,Wachter's CE,False,[],500,0.0622096061706543,,,,,,,
+medical_insurance,RandomForest,36,72,SHAP-Targeted CE,False,[],343,0.016279220581054688,,,,,,,
+medical_insurance,RandomForest,37,73,Actionable CBFI (Proposed),False,[],56,0.3503844738006592,,,,,,,
+medical_insurance,RandomForest,37,73,Untargeted Causal (Karimi 2021),False,[],94,0.5767381191253662,,,,,,,
+medical_insurance,RandomForest,37,73,Wachter's CE,False,[],500,0.046783447265625,,,,,,,
+medical_insurance,RandomForest,37,73,SHAP-Targeted CE,False,[],343,0.01578807830810547,,,,,,,
+medical_insurance,RandomForest,38,75,Actionable CBFI (Proposed),False,[],82,0.5023109912872314,,,,,,,
+medical_insurance,RandomForest,38,75,Untargeted Causal (Karimi 2021),False,[],138,0.8393242359161377,,,,,,,
+medical_insurance,RandomForest,38,75,Wachter's CE,False,[],500,0.029492855072021484,,,,,,,
+medical_insurance,RandomForest,38,75,SHAP-Targeted CE,False,[],343,0.015682697296142578,,,,,,,
+medical_insurance,RandomForest,39,82,Actionable CBFI (Proposed),True,['smoker'],56,0.3157181739807129,2.4780497323146276,1.0,0.00025851534791923196,1.6347142140198603,2.0974374506619307,100.0,2.477123531672177
+medical_insurance,RandomForest,39,82,Untargeted Causal (Karimi 2021),True,['smoker'],94,0.5520298480987549,2.4780497323146276,1.0,0.00025851534791923196,1.6347142140198603,2.0974374506619307,100.0,2.477123531672177
+medical_insurance,RandomForest,39,82,Wachter's CE,True,"['bmi', 'region', 'smoker']",500,0.03738069534301758,3.0941832322503235,3.0,,0.5930587071289211,1.7262484599101136,100.0,3.0941832322503235
+medical_insurance,RandomForest,39,82,SHAP-Targeted CE,True,"['bmi', 'smoker']",343,0.034659385681152344,1.9746707991716668,2.0,,0.5868838470952172,1.8612888298510712,100.0,1.9746707991716668
+medical_insurance,RandomForest,40,83,Actionable CBFI (Proposed),True,"['bmi', 'region']",76,0.45565223693847656,8.045454545454545,2.0,,6.13667842850116,4.047354841918046,100.0,8.045454545454545
+medical_insurance,RandomForest,40,83,Untargeted Causal (Karimi 2021),True,"['bmi', 'region']",128,0.7816638946533203,8.045454545454545,2.0,,6.13667842850116,4.047354841918046,100.0,8.045454545454545
+medical_insurance,RandomForest,40,83,Wachter's CE,True,"['bmi', 'region']",500,0.029947996139526367,8.045454545454545,2.0,,6.13667842850116,4.047354841918046,100.0,8.045454545454545
+medical_insurance,RandomForest,40,83,SHAP-Targeted CE,True,"['bmi', 'region']",343,0.015965700149536133,8.045454545454545,2.0,,6.13667842850116,4.047354841918046,100.0,8.045454545454545
+medical_insurance,RandomForest,41,84,Actionable CBFI (Proposed),True,['smoker'],48,0.28801918029785156,2.4780497323146276,1.0,0.0002585153479192284,0.4887076781532052,1.9811689612291914,100.0,2.477123531672177
+medical_insurance,RandomForest,41,84,Untargeted Causal (Karimi 2021),True,['smoker'],96,0.5854527950286865,2.4780497323146276,1.0,0.0002585153479192284,0.4887076781532052,1.9811689612291914,100.0,2.477123531672177
+medical_insurance,RandomForest,41,84,Wachter's CE,True,"['bmi', 'sex', 'smoker']",500,0.035625457763671875,1.800057023664673,3.0,,0.4214681121339077,1.8615696479950135,100.0,1.800057023664673
+medical_insurance,RandomForest,41,84,SHAP-Targeted CE,True,"['bmi', 'smoker']",343,0.01955127716064453,1.300029650846308,2.0,,0.4214681121339077,2.081283162118285,100.0,1.300029650846308
+medical_insurance,RandomForest,42,85,Actionable CBFI (Proposed),True,['smoker'],60,0.34105968475341797,2.4780497323146276,1.0,0.0002585153479192248,1.7324035028465716,1.998817052396737,100.0,2.477123531672177
+medical_insurance,RandomForest,42,85,Untargeted Causal (Karimi 2021),True,['smoker'],98,0.5642521381378174,2.4780497323146276,1.0,0.0002585153479192248,1.7324035028465716,1.998817052396737,100.0,2.477123531672177
+medical_insurance,RandomForest,42,85,Wachter's CE,True,"['bmi', 'region', 'smoker']",500,0.03350400924682617,2.3030200814683193,3.0,,0.8789293983199218,1.767822305143463,100.0,2.3030200814683193
+medical_insurance,RandomForest,42,85,SHAP-Targeted CE,True,"['bmi', 'smoker']",343,0.018586397171020508,1.41605835898028,2.0,,2.08987536493722,2.1094009242661125,100.0,1.41605835898028
+medical_insurance,RandomForest,43,86,Actionable CBFI (Proposed),False,[],48,0.3003525733947754,,,,,,,
+medical_insurance,RandomForest,43,86,Untargeted Causal (Karimi 2021),False,[],102,0.6178591251373291,,,,,,,
+medical_insurance,RandomForest,43,86,Wachter's CE,False,[],500,0.03197908401489258,,,,,,,
+medical_insurance,RandomForest,43,86,SHAP-Targeted CE,False,[],343,0.017080068588256836,,,,,,,
+medical_insurance,RandomForest,44,87,Actionable CBFI (Proposed),False,[],66,0.4080369472503662,,,,,,,
+medical_insurance,RandomForest,44,87,Untargeted Causal (Karimi 2021),False,[],106,0.646813154220581,,,,,,,
+medical_insurance,RandomForest,44,87,Wachter's CE,False,[],500,0.029317617416381836,,,,,,,
+medical_insurance,RandomForest,44,87,SHAP-Targeted CE,False,[],343,0.015875816345214844,,,,,,,
+medical_insurance,RandomForest,45,89,Actionable CBFI (Proposed),False,[],62,0.38210201263427734,,,,,,,
+medical_insurance,RandomForest,45,89,Untargeted Causal (Karimi 2021),False,[],96,0.5910115242004395,,,,,,,
+medical_insurance,RandomForest,45,89,Wachter's CE,False,[],500,0.029778242111206055,,,,,,,
+medical_insurance,RandomForest,45,89,SHAP-Targeted CE,False,[],343,0.01622462272644043,,,,,,,
+medical_insurance,RandomForest,46,91,Actionable CBFI (Proposed),False,[],62,0.3831157684326172,,,,,,,
+medical_insurance,RandomForest,46,91,Untargeted Causal (Karimi 2021),False,[],96,0.5916635990142822,,,,,,,
+medical_insurance,RandomForest,46,91,Wachter's CE,False,[],500,0.02947711944580078,,,,,,,
+medical_insurance,RandomForest,46,91,SHAP-Targeted CE,False,[],343,0.015971660614013672,,,,,,,
+medical_insurance,RandomForest,47,92,Actionable CBFI (Proposed),False,[],48,0.29981136322021484,,,,,,,
+medical_insurance,RandomForest,47,92,Untargeted Causal (Karimi 2021),False,[],104,0.6464366912841797,,,,,,,
+medical_insurance,RandomForest,47,92,Wachter's CE,False,[],500,0.0322723388671875,,,,,,,
+medical_insurance,RandomForest,47,92,SHAP-Targeted CE,False,[],343,0.01674175262451172,,,,,,,
+medical_insurance,RandomForest,48,94,Actionable CBFI (Proposed),False,[],66,0.4128079414367676,,,,,,,
+medical_insurance,RandomForest,48,94,Untargeted Causal (Karimi 2021),False,[],110,0.6728980541229248,,,,,,,
+medical_insurance,RandomForest,48,94,Wachter's CE,False,[],500,0.029048442840576172,,,,,,,
+medical_insurance,RandomForest,48,94,SHAP-Targeted CE,False,[],343,0.01601886749267578,,,,,,,
+medical_insurance,RandomForest,49,96,Actionable CBFI (Proposed),False,[],62,0.3834364414215088,,,,,,,
+medical_insurance,RandomForest,49,96,Untargeted Causal (Karimi 2021),False,[],100,0.610919713973999,,,,,,,
+medical_insurance,RandomForest,49,96,Wachter's CE,False,[],500,0.030879735946655273,,,,,,,
+medical_insurance,RandomForest,49,96,SHAP-Targeted CE,False,[],343,0.015947341918945312,,,,,,,
+medical_insurance,RandomForest,50,97,Actionable CBFI (Proposed),False,[],56,0.3504977226257324,,,,,,,
+medical_insurance,RandomForest,50,97,Untargeted Causal (Karimi 2021),False,[],94,0.5764803886413574,,,,,,,
+medical_insurance,RandomForest,50,97,Wachter's CE,False,[],500,0.029593706130981445,,,,,,,
+medical_insurance,RandomForest,50,97,SHAP-Targeted CE,False,[],343,0.015790939331054688,,,,,,,
+medical_insurance,RandomForest,51,98,Actionable CBFI (Proposed),False,[],84,0.5217587947845459,,,,,,,
+medical_insurance,RandomForest,51,98,Untargeted Causal (Karimi 2021),False,[],144,0.8814053535461426,,,,,,,
+medical_insurance,RandomForest,51,98,Wachter's CE,False,[],500,0.031128644943237305,,,,,,,
+medical_insurance,RandomForest,51,98,SHAP-Targeted CE,False,[],343,0.015759944915771484,,,,,,,
+medical_insurance,RandomForest,52,99,Actionable CBFI (Proposed),True,['smoker'],42,0.2402055263519287,2.4780497323146276,1.0,0.0002585153479192248,3.427700417149089,2.935567597297485,100.0,2.477123531672177
+medical_insurance,RandomForest,52,99,Untargeted Causal (Karimi 2021),True,['smoker'],96,0.5451865196228027,2.4780497323146276,1.0,0.0002585153479192248,3.427700417149089,2.935567597297485,100.0,2.477123531672177
+medical_insurance,RandomForest,52,99,Wachter's CE,True,"['bmi', 'smoker']",500,0.033334970474243164,2.038067928358271,2.0,,5.795347284708776,3.386092678979906,60.79409076199871,2.038067928358271
+medical_insurance,RandomForest,52,99,SHAP-Targeted CE,True,"['bmi', 'smoker']",343,0.018019676208496094,1.9220392202243,2.0,,1.9351514201324396,2.630618039265377,64.46407821026258,1.9220392202243
+medical_insurance,RandomForest,53,103,Actionable CBFI (Proposed),False,[],76,0.4758431911468506,,,,,,,
+medical_insurance,RandomForest,53,103,Untargeted Causal (Karimi 2021),False,[],122,0.7476768493652344,,,,,,,
+medical_insurance,RandomForest,53,103,Wachter's CE,False,[],500,0.029790878295898438,,,,,,,
+medical_insurance,RandomForest,53,103,SHAP-Targeted CE,False,[],343,0.016750097274780273,,,,,,,
+medical_insurance,RandomForest,54,105,Actionable CBFI (Proposed),True,['smoker'],56,0.3170745372772217,2.4780497323146276,1.0,0.0002585153479192266,0.07832367123007669,1.8602619015513644,100.0,2.477123531672177
+medical_insurance,RandomForest,54,105,Untargeted Causal (Karimi 2021),True,['smoker'],94,0.537987232208252,2.4780497323146276,1.0,0.0002585153479192266,0.07832367123007669,1.8602619015513644,100.0,2.477123531672177
+medical_insurance,RandomForest,54,105,Wachter's CE,True,"['bmi', 'region', 'smoker']",500,0.03301358222961426,2.402302378119036,3.0,,0.5516273431093447,1.95605580730674,100.0,2.402302378119036
+medical_insurance,RandomForest,54,105,SHAP-Targeted CE,True,"['bmi', 'smoker']",343,0.017906665802001953,1.3167760623295637,2.0,,0.05503172474848319,1.856696616793753,100.0,1.3167760623295637
+medical_insurance,RandomForest,55,109,Actionable CBFI (Proposed),False,[],76,0.4736013412475586,,,,,,,
+medical_insurance,RandomForest,55,109,Untargeted Causal (Karimi 2021),False,[],122,0.7498104572296143,,,,,,,
+medical_insurance,RandomForest,55,109,Wachter's CE,False,[],500,0.0312654972076416,,,,,,,
+medical_insurance,RandomForest,55,109,SHAP-Targeted CE,False,[],343,0.01584768295288086,,,,,,,
+medical_insurance,RandomForest,56,110,Actionable CBFI (Proposed),False,[],60,0.37110400199890137,,,,,,,
+medical_insurance,RandomForest,56,110,Untargeted Causal (Karimi 2021),False,[],98,0.6038086414337158,,,,,,,
+medical_insurance,RandomForest,56,110,Wachter's CE,False,[],500,0.03007793426513672,,,,,,,
+medical_insurance,RandomForest,56,110,SHAP-Targeted CE,False,[],343,0.015738964080810547,,,,,,,
+medical_insurance,RandomForest,57,111,Actionable CBFI (Proposed),False,[],64,0.3999440670013428,,,,,,,
+medical_insurance,RandomForest,57,111,Untargeted Causal (Karimi 2021),False,[],102,0.629145622253418,,,,,,,
+medical_insurance,RandomForest,57,111,Wachter's CE,False,[],500,0.029269933700561523,,,,,,,
+medical_insurance,RandomForest,57,111,SHAP-Targeted CE,False,[],343,0.01591205596923828,,,,,,,
+medical_insurance,RandomForest,58,114,Actionable CBFI (Proposed),False,[],58,0.3575630187988281,,,,,,,
+medical_insurance,RandomForest,58,114,Untargeted Causal (Karimi 2021),False,[],94,0.5767076015472412,,,,,,,
+medical_insurance,RandomForest,58,114,Wachter's CE,False,[],500,0.029235363006591797,,,,,,,
+medical_insurance,RandomForest,58,114,SHAP-Targeted CE,False,[],343,0.015897512435913086,,,,,,,
+medical_insurance,RandomForest,59,115,Actionable CBFI (Proposed),False,[],58,0.3600795269012451,,,,,,,
+medical_insurance,RandomForest,59,115,Untargeted Causal (Karimi 2021),False,[],94,0.5783689022064209,,,,,,,
+medical_insurance,RandomForest,59,115,Wachter's CE,False,[],500,0.0291903018951416,,,,,,,
+medical_insurance,RandomForest,59,115,SHAP-Targeted CE,False,[],343,0.01565074920654297,,,,,,,
+medical_insurance,RandomForest,60,116,Actionable CBFI (Proposed),False,[],60,0.3710792064666748,,,,,,,
+medical_insurance,RandomForest,60,116,Untargeted Causal (Karimi 2021),False,[],94,0.5732054710388184,,,,,,,
+medical_insurance,RandomForest,60,116,Wachter's CE,False,[],500,0.029976844787597656,,,,,,,
+medical_insurance,RandomForest,60,116,SHAP-Targeted CE,False,[],343,0.016024112701416016,,,,,,,
+medical_insurance,RandomForest,61,117,Actionable CBFI (Proposed),True,['smoker'],56,0.3209514617919922,2.4780497323146276,1.0,0.0002585153479192266,0.132448000952659,1.4607610026862081,100.0,2.477123531672177
+medical_insurance,RandomForest,61,117,Untargeted Causal (Karimi 2021),True,['smoker'],88,0.5006899833679199,2.4780497323146276,1.0,0.0002585153479192266,0.132448000952659,1.4607610026862081,100.0,2.477123531672177
+medical_insurance,RandomForest,61,117,Wachter's CE,True,"['bmi', 'region', 'smoker']",500,0.03342556953430176,2.3819674498893715,3.0,,0.6607134303009161,1.6762073307613468,100.0,2.3819674498893715
+medical_insurance,RandomForest,61,117,SHAP-Targeted CE,True,"['bmi', 'smoker']",343,0.017905712127685547,1.3371109905592282,2.0,,0.09285124990805302,1.5868362256995103,100.0,1.3371109905592282
+medical_insurance,RandomForest,62,123,Actionable CBFI (Proposed),True,['smoker'],48,0.27443861961364746,2.4780497323146276,1.0,0.0002585153479192275,0.006174804498730071,1.8470615425954122,100.0,2.477123531672177
+medical_insurance,RandomForest,62,123,Untargeted Causal (Karimi 2021),True,['smoker'],106,0.618910551071167,2.4780497323146276,1.0,0.0002585153479192275,0.006174804498730071,1.8470615425954122,100.0,2.477123531672177
+medical_insurance,RandomForest,62,123,Wachter's CE,True,"['bmi', 'smoker']",500,0.03327822685241699,2.00337893314296,2.0,,0.3536238838281604,2.0159995537896815,100.0,2.00337893314296
+medical_insurance,RandomForest,62,123,SHAP-Targeted CE,True,"['bmi', 'smoker']",343,0.017806529998779297,1.9567282154396104,2.0,,0.17774042355126007,1.8761272847731374,100.0,1.9567282154396104
+medical_insurance,RandomForest,63,124,Actionable CBFI (Proposed),True,['bmi'],62,0.3705873489379883,4.295454545454545,1.0,,6.09813472015533,3.1614093622387465,100.0,4.295454545454545
+medical_insurance,RandomForest,63,124,Untargeted Causal (Karimi 2021),True,['bmi'],98,0.5904881954193115,4.295454545454545,1.0,,6.09813472015533,3.1614093622387465,100.0,4.295454545454545
+medical_insurance,RandomForest,63,124,Wachter's CE,True,"['bmi', 'region']",500,0.03178739547729492,3.623803827751198,2.0,,4.425595055508225,2.9507364855211256,100.0,3.623803827751198
+medical_insurance,RandomForest,63,124,SHAP-Targeted CE,True,"['bmi', 'region']",343,0.016799449920654297,4.11483253588517,2.0,,6.82169569471849,3.3286201148102093,100.0,4.11483253588517
+medical_insurance,RandomForest,64,126,Actionable CBFI (Proposed),True,['smoker'],56,0.3222329616546631,2.4780497323146276,1.0,0.0002585153479192284,0.05151065425991166,2.462898889236618,100.0,2.477123531672177
+medical_insurance,RandomForest,64,126,Untargeted Causal (Karimi 2021),True,['smoker'],98,0.587996244430542,2.4780497323146276,1.0,0.0002585153479192284,0.05151065425991166,2.462898889236618,100.0,2.477123531672177
+medical_insurance,RandomForest,64,126,Wachter's CE,True,"['bmi', 'smoker']",500,0.03442049026489258,1.9680918518032469,2.0,,0.540113795413353,2.6730329282131846,100.0,1.9680918518032469
+medical_insurance,RandomForest,64,126,SHAP-Targeted CE,True,"['bmi', 'smoker']",343,0.018580913543701172,1.2509865886453526,2.0,,0.05143668394493627,2.544089259851697,100.0,1.2509865886453526
+medical_insurance,RandomForest,65,127,Actionable CBFI (Proposed),True,"['bmi', 'sex']",74,0.43939828872680664,2.3685305439050386,2.0,,0.5716656776225414,2.2747346925157728,100.0,2.3677829791279352
+medical_insurance,RandomForest,65,127,Untargeted Causal (Karimi 2021),True,"['bmi', 'sex']",132,0.7800493240356445,2.3685305439050386,2.0,,0.5716656776225414,2.2747346925157728,100.0,2.3677829791279352
+medical_insurance,RandomForest,65,127,Wachter's CE,True,"['bmi', 'sex']",500,0.029961585998535156,2.1830964725220796,2.0,,0.2919967858224266,2.050082144708473,100.0,2.1830964725220796
+medical_insurance,RandomForest,65,127,SHAP-Targeted CE,False,[],343,0.016351699829101562,,,,,,,
+medical_insurance,RandomForest,66,128,Actionable CBFI (Proposed),True,['smoker'],64,0.36548376083374023,2.4780497323146276,1.0,0.0002585153479192248,4.229036718169206,2.5049168920498714,100.0,2.477123531672177
+medical_insurance,RandomForest,66,128,Untargeted Causal (Karimi 2021),True,['smoker'],106,0.6136081218719482,2.4780497323146276,1.0,0.0002585153479192248,4.229036718169206,2.5049168920498714,100.0,2.477123531672177
+medical_insurance,RandomForest,66,128,Wachter's CE,True,"['bmi', 'region', 'smoker']",500,0.03320646286010742,2.170843047975496,3.0,,5.572440281418352,2.848702251439672,100.0,2.170843047975496
+medical_insurance,RandomForest,66,128,SHAP-Targeted CE,True,"['bmi', 'smoker']",343,0.017854928970336914,1.670843047975496,2.0,,5.572440281418352,2.828602182675083,100.0,1.670843047975496
+medical_insurance,RandomForest,67,130,Actionable CBFI (Proposed),False,[],62,0.3867204189300537,,,,,,,
+medical_insurance,RandomForest,67,130,Untargeted Causal (Karimi 2021),False,[],94,0.5745885372161865,,,,,,,
+medical_insurance,RandomForest,67,130,Wachter's CE,False,[],500,0.03183722496032715,,,,,,,
+medical_insurance,RandomForest,67,130,SHAP-Targeted CE,False,[],343,0.015713214874267578,,,,,,,
+medical_insurance,RandomForest,68,131,Actionable CBFI (Proposed),False,[],66,0.4180788993835449,,,,,,,
+medical_insurance,RandomForest,68,131,Untargeted Causal (Karimi 2021),False,[],112,0.6813466548919678,,,,,,,
+medical_insurance,RandomForest,68,131,Wachter's CE,False,[],500,0.03410029411315918,,,,,,,
+medical_insurance,RandomForest,68,131,SHAP-Targeted CE,False,[],343,0.01588916778564453,,,,,,,
+medical_insurance,RandomForest,69,132,Actionable CBFI (Proposed),False,[],62,0.389188289642334,,,,,,,
+medical_insurance,RandomForest,69,132,Untargeted Causal (Karimi 2021),False,[],100,0.6185808181762695,,,,,,,
+medical_insurance,RandomForest,69,132,Wachter's CE,False,[],500,0.02969193458557129,,,,,,,
+medical_insurance,RandomForest,69,132,SHAP-Targeted CE,False,[],343,0.016169309616088867,,,,,,,
+medical_insurance,RandomForest,70,138,Actionable CBFI (Proposed),False,[],56,0.3447854518890381,,,,,,,
+medical_insurance,RandomForest,70,138,Untargeted Causal (Karimi 2021),False,[],92,0.5598738193511963,,,,,,,
+medical_insurance,RandomForest,70,138,Wachter's CE,False,[],500,0.029120445251464844,,,,,,,
+medical_insurance,RandomForest,70,138,SHAP-Targeted CE,False,[],343,0.015779972076416016,,,,,,,
+medical_insurance,RandomForest,71,140,Actionable CBFI (Proposed),True,['bmi'],42,0.150801420211792,0.6952153110047848,1.0,,0.6917341433687977,2.101562806532878,100.0,0.6952153110047848
+medical_insurance,RandomForest,71,140,Untargeted Causal (Karimi 2021),True,['bmi'],134,0.5178885459899902,0.6952153110047848,1.0,,0.6917341433687977,2.101562806532878,100.0,0.6952153110047848
+medical_insurance,RandomForest,71,140,Wachter's CE,True,"['bmi', 'sex']",500,0.03841900825500488,1.1776589517657334,2.0,,0.7119357169949806,1.9058183528324988,100.0,1.1776589517657334
+medical_insurance,RandomForest,71,140,SHAP-Targeted CE,True,"['bmi', 'region']",343,0.017813682556152344,1.063397129186603,2.0,,1.8276082198001888,2.024104975702484,100.0,1.063397129186603
+medical_insurance,RandomForest,72,142,Actionable CBFI (Proposed),True,['smoker'],56,0.3273191452026367,2.4780497323146276,1.0,0.0002585153479192248,0.6988470436765162,1.7749153336208583,100.0,2.477123531672177
+medical_insurance,RandomForest,72,142,Untargeted Causal (Karimi 2021),True,['smoker'],96,0.558568000793457,2.4780497323146276,1.0,0.0002585153479192248,0.6988470436765162,1.7749153336208583,100.0,2.477123531672177
+medical_insurance,RandomForest,72,142,Wachter's CE,True,"['bmi', 'region', 'smoker']",500,0.03357648849487305,1.5003885025209502,3.0,,0.725566712684404,1.884068307810462,83.33764891026888,1.5003885025209502
+medical_insurance,RandomForest,72,142,SHAP-Targeted CE,True,"['bmi', 'smoker']",343,0.017942428588867188,1.9686899379276492,2.0,,0.11811199782931776,1.574313951412322,100.0,1.9686899379276492
+medical_insurance,RandomForest,73,143,Actionable CBFI (Proposed),True,['bmi'],62,0.22498774528503418,0.22440191387559763,1.0,,0.049884303104838545,1.6452461567449004,100.0,0.22440191387559763
+medical_insurance,RandomForest,73,143,Untargeted Causal (Karimi 2021),True,['bmi'],142,0.5691313743591309,0.22440191387559763,1.0,,0.049884303104838545,1.6452461567449004,100.0,0.22440191387559763
+medical_insurance,RandomForest,73,143,Wachter's CE,True,"['bmi', 'region']",500,0.03834414482116699,1.3223684210526312,2.0,,0.647708837190544,1.8751904490248574,100.0,1.3223684210526312
+medical_insurance,RandomForest,73,143,SHAP-Targeted CE,True,['bmi'],343,0.01815509796142578,0.3313397129186596,1.0,,0.08801654479288018,1.6562720815937177,100.0,0.3313397129186596
+medical_insurance,RandomForest,74,144,Actionable CBFI (Proposed),True,['smoker'],44,0.2549452781677246,2.4780497323146276,1.0,0.0002585153479192284,0.06184798307500897,2.1432873956949168,100.0,2.477123531672177
+medical_insurance,RandomForest,74,144,Untargeted Causal (Karimi 2021),True,['smoker'],106,0.6106469631195068,2.4780497323146276,1.0,0.0002585153479192284,0.06184798307500897,2.1432873956949168,100.0,2.477123531672177
+medical_insurance,RandomForest,74,144,Wachter's CE,True,"['bmi', 'region', 'smoker']",500,0.03296637535095215,2.5613932872099454,3.0,,0.6734412353141627,2.2593236523083013,67.89370749275233,2.5613932872099454
+medical_insurance,RandomForest,74,144,SHAP-Targeted CE,True,"['bmi', 'smoker']",343,0.017889738082885742,1.320364579075974,2.0,,0.09766054802885496,2.1558931318460983,93.83960201540823,1.320364579075974
+medical_insurance,RandomForest,75,146,Actionable CBFI (Proposed),True,['smoker'],48,0.26837635040283203,2.4780497323146276,1.0,0.0002585153479192273,0.005969385502538556,2.0516221244616597,100.0,2.477123531672177
+medical_insurance,RandomForest,75,146,Untargeted Causal (Karimi 2021),True,['smoker'],110,0.6280429363250732,2.4780497323146276,1.0,0.0002585153479192273,0.005969385502538556,2.0516221244616597,100.0,2.477123531672177
+medical_insurance,RandomForest,75,146,Wachter's CE,True,"['bmi', 'region', 'smoker']",500,0.032195329666137695,2.457924387688415,3.0,,0.3353326501834764,2.233955088677932,89.82881649035936,2.457924387688415
+medical_insurance,RandomForest,75,146,SHAP-Targeted CE,True,"['bmi', 'smoker']",343,0.021338224411010742,1.7521827608941558,2.0,,0.1911232174763546,2.115326061128437,100.0,1.7521827608941558
+medical_insurance,RandomForest,76,147,Actionable CBFI (Proposed),True,"['bmi', 'sex']",64,0.3824186325073242,4.137190830986378,2.0,,0.15584221304524876,1.5854263095527938,100.0,4.136443266209275
+medical_insurance,RandomForest,76,147,Untargeted Causal (Karimi 2021),True,"['bmi', 'sex']",104,0.6239092350006104,4.137190830986378,2.0,,0.15584221304524876,1.5854263095527938,100.0,4.136443266209275
+medical_insurance,RandomForest,76,147,Wachter's CE,True,"['bmi', 'region', 'sex']",500,0.030554771423339844,7.458243462565326,3.0,,6.253038107929002,3.1321925736971323,100.0,7.458243462565326
+medical_insurance,RandomForest,76,147,SHAP-Targeted CE,False,[],343,0.01649308204650879,,,,,,,
+medical_insurance,RandomForest,77,148,Actionable CBFI (Proposed),False,[],64,0.39751696586608887,,,,,,,
+medical_insurance,RandomForest,77,148,Untargeted Causal (Karimi 2021),False,[],100,0.6184310913085938,,,,,,,
+medical_insurance,RandomForest,77,148,Wachter's CE,False,[],500,0.03009796142578125,,,,,,,
+medical_insurance,RandomForest,77,148,SHAP-Targeted CE,False,[],343,0.019387483596801758,,,,,,,
+medical_insurance,RandomForest,78,153,Actionable CBFI (Proposed),True,['smoker'],56,0.31896281242370605,2.4780497323146276,1.0,0.0002585153479192248,1.4760095518053413,2.192700595912312,100.0,2.477123531672177
+medical_insurance,RandomForest,78,153,Untargeted Causal (Karimi 2021),True,['smoker'],92,0.5316238403320312,2.4780497323146276,1.0,0.0002585153479192248,1.4760095518053413,2.192700595912312,100.0,2.477123531672177
+medical_insurance,RandomForest,78,153,Wachter's CE,True,"['bmi', 'smoker']",500,0.033385276794433594,1.6893837178319553,2.0,,0.835646102547711,2.189127164678876,100.0,1.6893837178319553
+medical_insurance,RandomForest,78,153,SHAP-Targeted CE,True,"['bmi', 'smoker']",343,0.0178372859954834,1.529694722616644,2.0,,2.0228365484876756,2.396083509454989,100.0,1.529694722616644
+medical_insurance,RandomForest,79,156,Actionable CBFI (Proposed),True,['smoker'],60,0.34310317039489746,2.4780497323146276,1.0,0.0002585153479192248,1.1868265837491623,2.0802368301511813,100.0,2.477123531672177
+medical_insurance,RandomForest,79,156,Untargeted Causal (Karimi 2021),True,['smoker'],104,0.6029059886932373,2.4780497323146276,1.0,0.0002585153479192248,1.1868265837491623,2.0802368301511813,100.0,2.477123531672177
+medical_insurance,RandomForest,79,156,Wachter's CE,True,"['bmi', 'region', 'smoker']",500,0.032944440841674805,1.6881875455831512,3.0,,0.9233055256776621,2.1210101146955136,100.0,1.6881875455831512
+medical_insurance,RandomForest,79,156,SHAP-Targeted CE,True,"['bmi', 'smoker']",343,0.021382808685302734,1.7808908948654483,2.0,,2.1580070129722944,2.3586198501609394,100.0,1.7808908948654483
+medical_insurance,RandomForest,80,157,Actionable CBFI (Proposed),True,['smoker'],46,0.27269530296325684,2.4780497323146276,1.0,0.0002585153479192284,0.5355411070271369,2.548238725541772,100.0,2.477123531672177
+medical_insurance,RandomForest,80,157,Untargeted Causal (Karimi 2021),True,['smoker'],100,0.5767900943756104,2.4780497323146276,1.0,0.0002585153479192284,0.5355411070271369,2.548238725541772,100.0,2.477123531672177
+medical_insurance,RandomForest,80,157,Wachter's CE,True,"['bmi', 'sex', 'smoker']",500,0.03305625915527344,1.7575929088321383,3.0,,0.528721673449087,2.4057511448299262,98.94511011262675,1.7575929088321383
+medical_insurance,RandomForest,80,157,SHAP-Targeted CE,True,"['bmi', 'smoker']",343,0.01794123649597168,1.9615129044348258,2.0,,1.525867953970381,2.710363261503644,63.166796576049876,1.9615129044348258
+medical_insurance,RandomForest,81,158,Actionable CBFI (Proposed),True,['smoker'],58,0.3290410041809082,2.4780497323146276,1.0,0.0002585153479192284,0.7627781208083112,1.8284405386922304,100.0,2.477123531672177
+medical_insurance,RandomForest,81,158,Untargeted Causal (Karimi 2021),True,['smoker'],96,0.5486102104187012,2.4780497323146276,1.0,0.0002585153479192284,0.7627781208083112,1.8284405386922304,100.0,2.477123531672177
+medical_insurance,RandomForest,81,158,Wachter's CE,True,"['bmi', 'region', 'smoker']",500,0.03302431106567383,2.5941832322503244,3.0,,0.5009359392646676,1.6291735908984117,100.0,2.5941832322503244
+medical_insurance,RandomForest,81,158,SHAP-Targeted CE,True,"['bmi', 'smoker']",343,0.021431446075439453,1.4746707991716677,2.0,,0.4952622012942048,1.7843007873439236,100.0,1.4746707991716677
+medical_insurance,RandomForest,82,159,Actionable CBFI (Proposed),False,[],64,0.3906700611114502,,,,,,,
+medical_insurance,RandomForest,82,159,Untargeted Causal (Karimi 2021),False,[],98,0.5971565246582031,,,,,,,
+medical_insurance,RandomForest,82,159,Wachter's CE,False,[],500,0.029645442962646484,,,,,,,
+medical_insurance,RandomForest,82,159,SHAP-Targeted CE,False,[],343,0.01657581329345703,,,,,,,
+medical_insurance,RandomForest,83,160,Actionable CBFI (Proposed),True,['smoker'],64,0.37204623222351074,2.4780497323146276,1.0,0.0002585153479192284,0.469290302127895,1.6022334876342732,100.0,2.477123531672177
+medical_insurance,RandomForest,83,160,Untargeted Causal (Karimi 2021),True,['smoker'],104,0.6016430854797363,2.4780497323146276,1.0,0.0002585153479192284,0.469290302127895,1.6022334876342732,100.0,2.477123531672177
+medical_insurance,RandomForest,83,160,Wachter's CE,True,"['bmi', 'region', 'smoker']",500,0.03340792655944824,2.061393287209946,3.0,,0.835646102547711,1.8166987551469804,100.0,2.061393287209946
+medical_insurance,RandomForest,83,160,SHAP-Targeted CE,True,"['bmi', 'smoker']",343,0.021407365798950195,1.657685153238654,2.0,,0.16484333255306757,1.6778670107343823,100.0,1.657685153238654
+medical_insurance,RandomForest,84,161,Actionable CBFI (Proposed),True,['smoker'],64,0.3675343990325928,2.4780497323146276,1.0,0.0002585153479192284,1.4004652965451614,2.425521475964883,100.0,2.477123531672177
+medical_insurance,RandomForest,84,161,Untargeted Causal (Karimi 2021),True,['smoker'],110,0.6354267597198486,2.4780497323146276,1.0,0.0002585153479192284,1.4004652965451614,2.425521475964883,100.0,2.477123531672177
+medical_insurance,RandomForest,84,161,Wachter's CE,True,"['bmi', 'region', 'smoker']",500,0.03319859504699707,2.0404602728558783,3.0,,0.6356088875571356,2.3900244662415058,100.0,2.0404602728558783
+medical_insurance,RandomForest,84,161,SHAP-Targeted CE,True,"['bmi', 'smoker']",343,0.0180816650390625,1.7904602728558783,2.0,,0.6356088875571356,2.3470212381455458,100.0,1.7904602728558783
+medical_insurance,RandomForest,85,162,Actionable CBFI (Proposed),False,[],60,0.3709542751312256,,,,,,,
+medical_insurance,RandomForest,85,162,Untargeted Causal (Karimi 2021),False,[],98,0.6010057926177979,,,,,,,
+medical_insurance,RandomForest,85,162,Wachter's CE,False,[],500,0.02984309196472168,,,,,,,
+medical_insurance,RandomForest,85,162,SHAP-Targeted CE,False,[],343,0.019295215606689453,,,,,,,
+medical_insurance,RandomForest,86,165,Actionable CBFI (Proposed),True,['bmi'],58,0.3508949279785156,2.931818181818182,1.0,,6.09813472015533,3.854444245657246,100.0,2.931818181818182
+medical_insurance,RandomForest,86,165,Untargeted Causal (Karimi 2021),True,['bmi'],100,0.6022026538848877,2.931818181818182,1.0,,6.09813472015533,3.854444245657246,100.0,2.931818181818182
+medical_insurance,RandomForest,86,165,Wachter's CE,True,"['bmi', 'sex']",500,0.030372142791748047,3.431845554636547,2.0,,6.09813472015533,3.7396673419681314,85.4297821723705,3.431845554636547
+medical_insurance,RandomForest,86,165,SHAP-Targeted CE,True,['bmi'],343,0.01618361473083496,2.931818181818182,1.0,,6.09813472015533,3.854444245657246,100.0,2.931818181818182
+medical_insurance,RandomForest,87,170,Actionable CBFI (Proposed),False,[],64,0.39454126358032227,,,,,,,
+medical_insurance,RandomForest,87,170,Untargeted Causal (Karimi 2021),False,[],96,0.588207483291626,,,,,,,
+medical_insurance,RandomForest,87,170,Wachter's CE,False,[],500,0.02945876121520996,,,,,,,
+medical_insurance,RandomForest,87,170,SHAP-Targeted CE,False,[],343,0.01956343650817871,,,,,,,
+medical_insurance,RandomForest,88,175,Actionable CBFI (Proposed),False,[],66,0.40413618087768555,,,,,,,
+medical_insurance,RandomForest,88,175,Untargeted Causal (Karimi 2021),False,[],108,0.6545624732971191,,,,,,,
+medical_insurance,RandomForest,88,175,Wachter's CE,False,[],500,0.029682397842407227,,,,,,,
+medical_insurance,RandomForest,88,175,SHAP-Targeted CE,False,[],343,0.015709400177001953,,,,,,,
+medical_insurance,RandomForest,89,177,Actionable CBFI (Proposed),False,[],58,0.35565805435180664,,,,,,,
+medical_insurance,RandomForest,89,177,Untargeted Causal (Karimi 2021),False,[],96,0.6089646816253662,,,,,,,
+medical_insurance,RandomForest,89,177,Wachter's CE,False,[],500,0.02977895736694336,,,,,,,
+medical_insurance,RandomForest,89,177,SHAP-Targeted CE,False,[],343,0.01582169532775879,,,,,,,
+medical_insurance,RandomForest,90,180,Actionable CBFI (Proposed),False,[],56,0.3500349521636963,,,,,,,
+medical_insurance,RandomForest,90,180,Untargeted Causal (Karimi 2021),False,[],94,0.5684916973114014,,,,,,,
+medical_insurance,RandomForest,90,180,Wachter's CE,False,[],500,0.030251741409301758,,,,,,,
+medical_insurance,RandomForest,90,180,SHAP-Targeted CE,False,[],343,0.016080856323242188,,,,,,,
+medical_insurance,RandomForest,91,185,Actionable CBFI (Proposed),True,['smoker'],66,0.3842918872833252,2.4780497323146276,1.0,0.00025851534791923196,3.4997569566093008,3.180554403192773,100.0,2.477123531672177
+medical_insurance,RandomForest,91,185,Untargeted Causal (Karimi 2021),True,['smoker'],106,0.614945650100708,2.4780497323146276,1.0,0.00025851534791923196,3.4997569566093008,3.180554403192773,100.0,2.477123531672177
+medical_insurance,RandomForest,91,185,Wachter's CE,True,"['bmi', 'sex', 'smoker']",500,0.0333714485168457,2.2037651576359667,3.0,,4.758422773099851,3.323133034597628,77.31031498134962,2.2037651576359667
+medical_insurance,RandomForest,91,185,SHAP-Targeted CE,True,"['bmi', 'smoker']",343,0.017933368682861328,1.515340655630998,2.0,,2.799776122013218,3.062583556275472,100.0,1.515340655630998
+medical_insurance,RandomForest,92,190,Actionable CBFI (Proposed),False,[],56,0.34474706649780273,,,,,,,
+medical_insurance,RandomForest,92,190,Untargeted Causal (Karimi 2021),False,[],90,0.5481491088867188,,,,,,,
+medical_insurance,RandomForest,92,190,Wachter's CE,False,[],500,0.02942514419555664,,,,,,,
+medical_insurance,RandomForest,92,190,SHAP-Targeted CE,False,[],343,0.015750646591186523,,,,,,,
+medical_insurance,RandomForest,93,193,Actionable CBFI (Proposed),False,[],62,0.3842031955718994,,,,,,,
+medical_insurance,RandomForest,93,193,Untargeted Causal (Karimi 2021),False,[],96,0.5841078758239746,,,,,,,
+medical_insurance,RandomForest,93,193,Wachter's CE,False,[],500,0.029308557510375977,,,,,,,
+medical_insurance,RandomForest,93,193,SHAP-Targeted CE,False,[],343,0.01574230194091797,,,,,,,
+medical_insurance,RandomForest,94,198,Actionable CBFI (Proposed),True,['sex'],68,0.3476529121398926,2.00010949127346,1.0,0.0,4.65590484600773,2.807438525527099,100.0,1.9993619264963565
+medical_insurance,RandomForest,94,198,Untargeted Causal (Karimi 2021),True,['sex'],128,0.6442019939422607,2.00010949127346,1.0,0.0,4.65590484600773,2.807438525527099,100.0,1.9993619264963565
+medical_insurance,RandomForest,94,198,Wachter's CE,True,"['bmi', 'region', 'sex']",500,0.031435489654541016,2.250027372818365,3.0,,6.253038107929002,3.065169387185268,100.0,2.250027372818365
+medical_insurance,RandomForest,94,198,SHAP-Targeted CE,True,"['bmi', 'region']",343,0.016559600830078125,1.9999999999999998,2.0,,6.253038107929002,3.242678709882816,100.0,1.9999999999999998
+medical_insurance,RandomForest,95,199,Actionable CBFI (Proposed),False,[],74,0.4539804458618164,,,,,,,
+medical_insurance,RandomForest,95,199,Untargeted Causal (Karimi 2021),False,[],128,0.7767369747161865,,,,,,,
+medical_insurance,RandomForest,95,199,Wachter's CE,False,[],500,0.03424477577209473,,,,,,,
+medical_insurance,RandomForest,95,199,SHAP-Targeted CE,False,[],343,0.01571345329284668,,,,,,,
+medical_insurance,RandomForest,96,202,Actionable CBFI (Proposed),False,[],64,0.3947138786315918,,,,,,,
+medical_insurance,RandomForest,96,202,Untargeted Causal (Karimi 2021),False,[],98,0.5969786643981934,,,,,,,
+medical_insurance,RandomForest,96,202,Wachter's CE,False,[],500,0.02947688102722168,,,,,,,
+medical_insurance,RandomForest,96,202,SHAP-Targeted CE,False,[],343,0.015628576278686523,,,,,,,
+medical_insurance,RandomForest,97,203,Actionable CBFI (Proposed),True,['smoker'],62,0.3527357578277588,2.4780497323146276,1.0,0.0002585153479192248,0.9741131350922894,1.9816358883420193,100.0,2.477123531672177
+medical_insurance,RandomForest,97,203,Untargeted Causal (Karimi 2021),True,['smoker'],102,0.5882608890533447,2.4780497323146276,1.0,0.0002585153479192248,0.9741131350922894,1.9816358883420193,100.0,2.477123531672177
+medical_insurance,RandomForest,97,203,Wachter's CE,True,"['bmi', 'region', 'smoker']",500,0.03747367858886719,1.8562497465400882,3.0,,0.5287096254816431,2.0311901528919893,100.0,1.8562497465400882
+medical_insurance,RandomForest,97,203,SHAP-Targeted CE,True,"['bmi', 'smoker']",343,0.017779111862182617,1.6062497465400882,2.0,,0.5287096254816431,1.9792033206608297,100.0,1.6062497465400882
+medical_insurance,RandomForest,98,206,Actionable CBFI (Proposed),False,[],58,0.3548142910003662,,,,,,,
+medical_insurance,RandomForest,98,206,Untargeted Causal (Karimi 2021),False,[],92,0.5672416687011719,,,,,,,
+medical_insurance,RandomForest,98,206,Wachter's CE,False,[],500,0.029414892196655273,,,,,,,
+medical_insurance,RandomForest,98,206,SHAP-Targeted CE,False,[],343,0.015619039535522461,,,,,,,
+medical_insurance,RandomForest,99,207,Actionable CBFI (Proposed),True,['smoker'],58,0.3332047462463379,2.4780497323146276,1.0,0.0002585153479192284,0.19668695817599824,1.995651531344741,100.0,2.477123531672177
+medical_insurance,RandomForest,99,207,Untargeted Causal (Karimi 2021),True,['smoker'],96,0.5569231510162354,2.4780497323146276,1.0,0.0002585153479192284,0.19668695817599824,1.995651531344741,100.0,2.477123531672177
+medical_insurance,RandomForest,99,207,Wachter's CE,True,"['bmi', 'sex', 'smoker']",500,0.03328132629394531,2.3341479327555827,3.0,,0.7389016463562782,1.9345185072946818,78.57773426433788,2.3341479327555827
+medical_insurance,RandomForest,99,207,SHAP-Targeted CE,True,"['bmi', 'smoker']",343,0.01782369613647461,1.384957880511382,2.0,,0.12352842460874723,1.9971380659065308,100.0,1.384957880511382
+medical_insurance,RandomForest,100,208,Actionable CBFI (Proposed),False,[],70,0.43288421630859375,,,,,,,
+medical_insurance,RandomForest,100,208,Untargeted Causal (Karimi 2021),False,[],108,0.660449743270874,,,,,,,
+medical_insurance,RandomForest,100,208,Wachter's CE,False,[],500,0.02969527244567871,,,,,,,
+medical_insurance,RandomForest,100,208,SHAP-Targeted CE,False,[],343,0.015772581100463867,,,,,,,
+medical_insurance,SVM (RBF Kernel),1,0,Actionable CBFI (Proposed),True,['smoker'],52,0.040766000747680664,2.4780497323146276,1.0,0.0002585153479192284,0.08560152289942329,2.474496316599568,100.0,2.477123531672177
+medical_insurance,SVM (RBF Kernel),1,0,Untargeted Causal (Karimi 2021),True,['smoker'],106,0.0801537036895752,2.4780497323146276,1.0,0.0002585153479192284,0.08560152289942329,2.474496316599568,100.0,2.477123531672177
+medical_insurance,SVM (RBF Kernel),1,0,Wachter's CE,True,"['bmi', 'smoker']",500,0.03545188903808594,1.8723980718989401,2.0,,0.540113795413353,2.6730329282131846,100.0,1.8723980718989401
+medical_insurance,SVM (RBF Kernel),1,0,SHAP-Targeted CE,True,"['bmi', 'smoker']",343,0.019288063049316406,1.3466803685496593,2.0,,0.05143668394493627,2.544089259851697,100.0,1.3466803685496593
+medical_insurance,SVM (RBF Kernel),2,9,Actionable CBFI (Proposed),False,[],68,0.05465888977050781,,,,,,,
+medical_insurance,SVM (RBF Kernel),2,9,Untargeted Causal (Karimi 2021),False,[],106,0.08378267288208008,,,,,,,
+medical_insurance,SVM (RBF Kernel),2,9,Wachter's CE,False,[],500,0.03233051300048828,,,,,,,
+medical_insurance,SVM (RBF Kernel),2,9,SHAP-Targeted CE,False,[],343,0.018034934997558594,,,,,,,
+medical_insurance,SVM (RBF Kernel),3,11,Actionable CBFI (Proposed),False,[],64,0.05361604690551758,,,,,,,
+medical_insurance,SVM (RBF Kernel),3,11,Untargeted Causal (Karimi 2021),False,[],100,0.08065414428710938,,,,,,,
+medical_insurance,SVM (RBF Kernel),3,11,Wachter's CE,False,[],500,0.03256392478942871,,,,,,,
+medical_insurance,SVM (RBF Kernel),3,11,SHAP-Targeted CE,False,[],343,0.017395973205566406,,,,,,,
+medical_insurance,SVM (RBF Kernel),4,13,Actionable CBFI (Proposed),False,[],68,0.055840253829956055,,,,,,,
+medical_insurance,SVM (RBF Kernel),4,13,Untargeted Causal (Karimi 2021),False,[],108,0.08416414260864258,,,,,,,
+medical_insurance,SVM (RBF Kernel),4,13,Wachter's CE,False,[],500,0.0325016975402832,,,,,,,
+medical_insurance,SVM (RBF Kernel),4,13,SHAP-Targeted CE,False,[],343,0.01726055145263672,,,,,,,
+medical_insurance,SVM (RBF Kernel),5,14,Actionable CBFI (Proposed),True,['smoker'],84,0.06730508804321289,2.4780497323146276,1.0,0.0002585153479192248,3.918185896687037,2.582818300969996,100.0,2.477123531672177
+medical_insurance,SVM (RBF Kernel),5,14,Untargeted Causal (Karimi 2021),True,['smoker'],142,0.11124491691589355,2.4780497323146276,1.0,0.0002585153479192248,3.918185896687037,2.582818300969996,100.0,2.477123531672177
+medical_insurance,SVM (RBF Kernel),5,14,Wachter's CE,True,"['bmi', 'region', 'smoker']",500,0.057303667068481445,2.1475176891238217,3.0,,5.069286237001584,2.828592690827654,100.0,2.1475176891238217
+medical_insurance,SVM (RBF Kernel),5,14,SHAP-Targeted CE,True,"['bmi', 'smoker']",343,0.019357681274414062,1.5715607513247778,2.0,,3.0393730238829484,2.4264515526037083,100.0,1.5715607513247778
+medical_insurance,SVM (RBF Kernel),6,16,Actionable CBFI (Proposed),True,"['bmi', 'sex']",70,0.05548405647277832,5.545564036728006,2.0,,6.292067519201731,3.1273261933921948,100.0,5.544816471950902
+medical_insurance,SVM (RBF Kernel),6,16,Untargeted Causal (Karimi 2021),True,"['bmi', 'sex']",114,0.08803963661193848,5.545564036728006,2.0,,6.292067519201731,3.1273261933921948,100.0,5.544816471950902
+medical_insurance,SVM (RBF Kernel),6,16,Wachter's CE,True,"['bmi', 'sex']",500,0.03258967399597168,5.04553666390964,2.0,,6.292067519201731,2.9760183832578018,100.0,5.04553666390964
+medical_insurance,SVM (RBF Kernel),6,16,SHAP-Targeted CE,True,"['bmi', 'sex']",343,0.017060518264770508,4.8788608729701854,2.0,,6.292067519201731,2.9429381134451624,100.0,4.8788608729701854
+medical_insurance,SVM (RBF Kernel),7,18,Actionable CBFI (Proposed),False,[],80,0.06453180313110352,,,,,,,
+medical_insurance,SVM (RBF Kernel),7,18,Untargeted Causal (Karimi 2021),False,[],138,0.10754680633544922,,,,,,,
+medical_insurance,SVM (RBF Kernel),7,18,Wachter's CE,False,[],500,0.033467769622802734,,,,,,,
+medical_insurance,SVM (RBF Kernel),7,18,SHAP-Targeted CE,False,[],343,0.018428564071655273,,,,,,,
+medical_insurance,SVM (RBF Kernel),8,19,Actionable CBFI (Proposed),True,['smoker'],48,0.04154467582702637,2.4780497323146276,1.0,0.0002585153479192284,0.6982966603516276,2.1734206735907,100.0,2.477123531672177
+medical_insurance,SVM (RBF Kernel),8,19,Untargeted Causal (Karimi 2021),True,['smoker'],138,0.10566973686218262,2.4780497323146276,1.0,0.0002585153479192284,0.6982966603516276,2.1734206735907,100.0,2.477123531672177
+medical_insurance,SVM (RBF Kernel),8,19,Wachter's CE,True,"['bmi', 'smoker']",500,0.0352630615234375,2.6586717418840045,2.0,,0.5066419916536204,2.142486492204283,93.20630649042128,2.6586717418840045
+medical_insurance,SVM (RBF Kernel),8,19,SHAP-Targeted CE,True,"['bmi', 'smoker']",343,0.019654512405395508,1.4196468757266907,2.0,,0.4952622012942048,2.160119143257267,87.2769762215044,1.4196468757266907
+medical_insurance,SVM (RBF Kernel),9,20,Actionable CBFI (Proposed),False,[],70,0.05578970909118652,,,,,,,
+medical_insurance,SVM (RBF Kernel),9,20,Untargeted Causal (Karimi 2021),False,[],112,0.0890345573425293,,,,,,,
+medical_insurance,SVM (RBF Kernel),9,20,Wachter's CE,False,[],500,0.03491830825805664,,,,,,,
+medical_insurance,SVM (RBF Kernel),9,20,SHAP-Targeted CE,False,[],343,0.01868891716003418,,,,,,,
+medical_insurance,SVM (RBF Kernel),10,23,Actionable CBFI (Proposed),True,['smoker'],46,0.039628028869628906,2.4780497323146276,1.0,0.0002585153479192275,0.06250186955768301,1.873911180728896,100.0,2.477123531672177
+medical_insurance,SVM (RBF Kernel),10,23,Untargeted Causal (Karimi 2021),True,['smoker'],140,0.10816097259521484,2.4780497323146276,1.0,0.0002585153479192275,0.06250186955768301,1.873911180728896,100.0,2.477123531672177
+medical_insurance,SVM (RBF Kernel),10,23,Wachter's CE,True,"['bmi', 'sex', 'smoker']",500,0.040192604064941406,2.367042669597689,3.0,,0.45236559595511056,1.9312079404822526,73.46940810624486,2.367042669597689
+medical_insurance,SVM (RBF Kernel),10,23,SHAP-Targeted CE,True,"['bmi', 'smoker']",343,0.034792423248291016,1.8670152967793237,2.0,,0.45236559595511056,2.143776861786614,66.36393757965891,1.8670152967793237
+medical_insurance,SVM (RBF Kernel),11,25,Actionable CBFI (Proposed),False,[],64,0.05271196365356445,,,,,,,
+medical_insurance,SVM (RBF Kernel),11,25,Untargeted Causal (Karimi 2021),False,[],96,0.07530736923217773,,,,,,,
+medical_insurance,SVM (RBF Kernel),11,25,Wachter's CE,False,[],500,0.03234601020812988,,,,,,,
+medical_insurance,SVM (RBF Kernel),11,25,SHAP-Targeted CE,False,[],343,0.017182588577270508,,,,,,,
+medical_insurance,SVM (RBF Kernel),12,26,Actionable CBFI (Proposed),False,[],68,0.05458378791809082,,,,,,,
+medical_insurance,SVM (RBF Kernel),12,26,Untargeted Causal (Karimi 2021),False,[],108,0.08358478546142578,,,,,,,
+medical_insurance,SVM (RBF Kernel),12,26,Wachter's CE,False,[],500,0.032416582107543945,,,,,,,
+medical_insurance,SVM (RBF Kernel),12,26,SHAP-Targeted CE,False,[],343,0.017366409301757812,,,,,,,
+medical_insurance,SVM (RBF Kernel),13,27,Actionable CBFI (Proposed),True,"['bmi', 'region', 'sex']",68,0.054574012756347656,7.022836764000733,3.0,,6.4098843074102785,3.293743937594456,100.0,7.022089199223629
+medical_insurance,SVM (RBF Kernel),13,27,Untargeted Causal (Karimi 2021),True,"['bmi', 'region', 'sex']",106,0.07991838455200195,7.022836764000733,3.0,,6.4098843074102785,3.293743937594456,100.0,7.022089199223629
+medical_insurance,SVM (RBF Kernel),13,27,Wachter's CE,False,[],500,0.032445669174194336,,,,,,,
+medical_insurance,SVM (RBF Kernel),13,27,SHAP-Targeted CE,False,[],343,0.017142295837402344,,,,,,,
+medical_insurance,SVM (RBF Kernel),14,29,Actionable CBFI (Proposed),True,['smoker'],46,0.03913998603820801,2.4780497323146276,1.0,0.0002585153479192248,0.9838539064267129,2.1324471262051317,100.0,2.477123531672177
+medical_insurance,SVM (RBF Kernel),14,29,Untargeted Causal (Karimi 2021),True,['smoker'],138,0.10654950141906738,2.4780497323146276,1.0,0.0002585153479192248,0.9838539064267129,2.1324471262051317,100.0,2.477123531672177
+medical_insurance,SVM (RBF Kernel),14,29,Wachter's CE,True,"['bmi', 'smoker']",500,0.035395145416259766,2.89790619164477,2.0,,0.4956104212054483,2.0487027273675236,85.51173048524929,2.89790619164477
+medical_insurance,SVM (RBF Kernel),14,29,SHAP-Targeted CE,True,"['bmi', 'sex', 'smoker']",343,0.019164323806762695,1.5792246186472618,3.0,,0.4806331320081877,2.1191315256040277,73.41375923522617,1.5792246186472618
+medical_insurance,SVM (RBF Kernel),15,30,Actionable CBFI (Proposed),True,['smoker'],46,0.03878974914550781,2.4780497323146276,1.0,0.0002585153479192248,0.8971680992134721,2.427808513659495,100.0,2.477123531672177
+medical_insurance,SVM (RBF Kernel),15,30,Untargeted Causal (Karimi 2021),True,['smoker'],138,0.10561656951904297,2.4780497323146276,1.0,0.0002585153479192248,0.8971680992134721,2.427808513659495,100.0,2.477123531672177
+medical_insurance,SVM (RBF Kernel),15,30,Wachter's CE,True,"['bmi', 'smoker']",500,0.03562211990356445,2.7304420768122353,2.0,,0.599265881581115,2.382504045546523,90.75635602597096,2.7304420768122353
+medical_insurance,SVM (RBF Kernel),15,30,SHAP-Targeted CE,True,"['bmi', 'smoker']",343,0.019239187240600586,1.4914172106549215,2.0,,0.5868838470952172,2.3912259317996316,83.07701274368591,1.4914172106549215
+medical_insurance,SVM (RBF Kernel),16,33,Actionable CBFI (Proposed),False,[],60,0.048368215560913086,,,,,,,
+medical_insurance,SVM (RBF Kernel),16,33,Untargeted Causal (Karimi 2021),False,[],94,0.07369613647460938,,,,,,,
+medical_insurance,SVM (RBF Kernel),16,33,Wachter's CE,False,[],500,0.03271150588989258,,,,,,,
+medical_insurance,SVM (RBF Kernel),16,33,SHAP-Targeted CE,False,[],343,0.01726841926574707,,,,,,,
+medical_insurance,SVM (RBF Kernel),17,34,Actionable CBFI (Proposed),True,['smoker'],68,0.05235099792480469,2.4780497323146276,1.0,0.0002585153479192284,1.0643514213007974,2.0895111638623107,100.0,2.477123531672177
+medical_insurance,SVM (RBF Kernel),17,34,Untargeted Causal (Karimi 2021),True,['smoker'],138,0.1067812442779541,2.4780497323146276,1.0,0.0002585153479192284,1.0643514213007974,2.0895111638623107,100.0,2.477123531672177
+medical_insurance,SVM (RBF Kernel),17,34,Wachter's CE,True,"['bmi', 'smoker']",500,0.03603410720825195,2.9218296366208465,2.0,,0.529069409745141,1.993358907876964,100.0,2.9218296366208465
+medical_insurance,SVM (RBF Kernel),17,34,SHAP-Targeted CE,True,"['bmi', 'smoker']",343,0.019985198974609375,1.6828047704635332,2.0,,0.5174390583541049,2.006354471479514,100.0,1.6828047704635332
+medical_insurance,SVM (RBF Kernel),18,36,Actionable CBFI (Proposed),False,[],66,0.05467820167541504,,,,,,,
+medical_insurance,SVM (RBF Kernel),18,36,Untargeted Causal (Karimi 2021),False,[],100,0.07912063598632812,,,,,,,
+medical_insurance,SVM (RBF Kernel),18,36,Wachter's CE,False,[],500,0.03278493881225586,,,,,,,
+medical_insurance,SVM (RBF Kernel),18,36,SHAP-Targeted CE,False,[],343,0.017384767532348633,,,,,,,
+medical_insurance,SVM (RBF Kernel),19,38,Actionable CBFI (Proposed),True,['smoker'],46,0.038622379302978516,2.4780497323146276,1.0,0.0002585153479192284,1.0433052995725387,2.1851130372573064,100.0,2.477123531672177
+medical_insurance,SVM (RBF Kernel),19,38,Untargeted Causal (Karimi 2021),True,['smoker'],140,0.1124258041381836,2.4780497323146276,1.0,0.0002585153479192284,1.0433052995725387,2.1851130372573064,100.0,2.477123531672177
+medical_insurance,SVM (RBF Kernel),19,38,Wachter's CE,True,"['bmi', 'smoker']",500,0.035402774810791016,1.7473980718989406,2.0,,0.44194500894965066,2.024899895939174,70.90684636104898,1.7473980718989406
+medical_insurance,SVM (RBF Kernel),19,38,SHAP-Targeted CE,True,"['bmi', 'smoker']",343,0.019318819046020508,1.7473980718989406,2.0,,0.44194500894965066,2.024899895939174,70.90684636104898,1.7473980718989406
+medical_insurance,SVM (RBF Kernel),20,39,Actionable CBFI (Proposed),False,[],52,0.04305005073547363,,,,,,,
+medical_insurance,SVM (RBF Kernel),20,39,Untargeted Causal (Karimi 2021),False,[],108,0.0841522216796875,,,,,,,
+medical_insurance,SVM (RBF Kernel),20,39,Wachter's CE,False,[],500,0.03313446044921875,,,,,,,
+medical_insurance,SVM (RBF Kernel),20,39,SHAP-Targeted CE,False,[],343,0.017824172973632812,,,,,,,
+medical_insurance,SVM (RBF Kernel),21,45,Actionable CBFI (Proposed),False,[],76,0.06157732009887695,,,,,,,
+medical_insurance,SVM (RBF Kernel),21,45,Untargeted Causal (Karimi 2021),False,[],138,0.10799932479858398,,,,,,,
+medical_insurance,SVM (RBF Kernel),21,45,Wachter's CE,False,[],500,0.03258085250854492,,,,,,,
+medical_insurance,SVM (RBF Kernel),21,45,SHAP-Targeted CE,False,[],343,0.017390966415405273,,,,,,,
+medical_insurance,SVM (RBF Kernel),22,48,Actionable CBFI (Proposed),False,[],72,0.05802106857299805,,,,,,,
+medical_insurance,SVM (RBF Kernel),22,48,Untargeted Causal (Karimi 2021),False,[],108,0.0853719711303711,,,,,,,
+medical_insurance,SVM (RBF Kernel),22,48,Wachter's CE,False,[],500,0.032454490661621094,,,,,,,
+medical_insurance,SVM (RBF Kernel),22,48,SHAP-Targeted CE,False,[],343,0.017258167266845703,,,,,,,
+medical_insurance,SVM (RBF Kernel),23,49,Actionable CBFI (Proposed),True,['smoker'],44,0.037708282470703125,2.4780497323146276,1.0,0.0002585153479192248,0.5967345301149458,1.418059062744796,100.0,2.477123531672177
+medical_insurance,SVM (RBF Kernel),23,49,Untargeted Causal (Karimi 2021),True,['smoker'],140,0.11233210563659668,2.4780497323146276,1.0,0.0002585153479192248,0.5967345301149458,1.418059062744796,100.0,2.477123531672177
+medical_insurance,SVM (RBF Kernel),23,49,Wachter's CE,True,"['bmi', 'region', 'smoker']",500,0.036002159118652344,2.5152358638292722,3.0,,0.4369437440989486,1.194305691823448,93.77002503635032,2.5152358638292722
+medical_insurance,SVM (RBF Kernel),23,49,SHAP-Targeted CE,True,"['bmi', 'sex', 'smoker']",343,0.019263744354248047,1.316066723910421,3.0,,0.42813186918194507,1.4819023012383035,88.09341792886426,1.316066723910421
+medical_insurance,SVM (RBF Kernel),24,52,Actionable CBFI (Proposed),True,['smoker'],46,0.040827035903930664,2.4780497323146276,1.0,0.0002585153479192266,0.2521410331246612,2.03205797437657,100.0,2.477123531672177
+medical_insurance,SVM (RBF Kernel),24,52,Untargeted Causal (Karimi 2021),True,['smoker'],138,0.10580158233642578,2.4780497323146276,1.0,0.0002585153479192266,0.2521410331246612,2.03205797437657,100.0,2.477123531672177
+medical_insurance,SVM (RBF Kernel),24,52,Wachter's CE,True,"['bmi', 'smoker']",500,0.03355121612548828,2.5158339499536737,2.0,,0.9155969070130338,2.1779888701522623,73.87360756739108,2.5158339499536737
+medical_insurance,SVM (RBF Kernel),24,52,SHAP-Targeted CE,True,"['bmi', 'smoker']",343,0.017891645431518555,1.735765212292687,2.0,,0.20257234072605532,1.9482979948180943,95.1760723844862,1.735765212292687
+medical_insurance,SVM (RBF Kernel),25,53,Actionable CBFI (Proposed),True,['smoker'],60,0.04648566246032715,2.4780497323146276,1.0,0.0002585153479192248,0.4175378555318823,1.642679474502156,100.0,2.477123531672177
+medical_insurance,SVM (RBF Kernel),25,53,Untargeted Causal (Karimi 2021),True,['smoker'],140,0.10560393333435059,2.4780497323146276,1.0,0.0002585153479192248,0.4175378555318823,1.642679474502156,100.0,2.477123531672177
+medical_insurance,SVM (RBF Kernel),25,53,Wachter's CE,True,"['bmi', 'region', 'smoker']",500,0.03527665138244629,2.386049260958459,3.0,,0.4369437440989486,1.505140143804456,79.04485845362834,2.386049260958459
+medical_insurance,SVM (RBF Kernel),25,53,SHAP-Targeted CE,True,"['bmi', 'sex', 'smoker']",343,0.019015073776245117,1.186880121039608,3.0,,0.42813186918194507,1.7464675958677762,100.0,1.186880121039608
+medical_insurance,SVM (RBF Kernel),26,55,Actionable CBFI (Proposed),False,[],44,0.03855133056640625,,,,,,,
+medical_insurance,SVM (RBF Kernel),26,55,Untargeted Causal (Karimi 2021),False,[],106,0.08268141746520996,,,,,,,
+medical_insurance,SVM (RBF Kernel),26,55,Wachter's CE,False,[],500,0.033043861389160156,,,,,,,
+medical_insurance,SVM (RBF Kernel),26,55,SHAP-Targeted CE,False,[],343,0.018161296844482422,,,,,,,
+medical_insurance,SVM (RBF Kernel),27,56,Actionable CBFI (Proposed),False,[],70,0.05687236785888672,,,,,,,
+medical_insurance,SVM (RBF Kernel),27,56,Untargeted Causal (Karimi 2021),False,[],108,0.0847618579864502,,,,,,,
+medical_insurance,SVM (RBF Kernel),27,56,Wachter's CE,False,[],500,0.034624576568603516,,,,,,,
+medical_insurance,SVM (RBF Kernel),27,56,SHAP-Targeted CE,False,[],343,0.018301725387573242,,,,,,,
+medical_insurance,SVM (RBF Kernel),28,57,Actionable CBFI (Proposed),True,['smoker'],68,0.0526120662689209,2.4780497323146276,1.0,0.0002585153479192275,0.11242783469208226,2.1097499909417934,100.0,2.477123531672177
+medical_insurance,SVM (RBF Kernel),28,57,Untargeted Causal (Karimi 2021),True,['smoker'],128,0.09738779067993164,2.4780497323146276,1.0,0.0002585153479192275,0.11242783469208226,2.1097499909417934,100.0,2.477123531672177
+medical_insurance,SVM (RBF Kernel),28,57,Wachter's CE,True,"['bmi', 'region', 'smoker']",500,0.05305790901184082,3.0439439978005645,3.0,,0.64203430862246,2.103620150698834,100.0,3.0439439978005645
+medical_insurance,SVM (RBF Kernel),28,57,SHAP-Targeted CE,True,"['bmi', 'sex', 'smoker']",343,0.018954038619995117,2.257783146600818,3.0,,0.6356088875571356,2.101295234135634,85.23544732890826,2.257783146600818
+medical_insurance,SVM (RBF Kernel),29,58,Actionable CBFI (Proposed),False,[],48,0.04228854179382324,,,,,,,
+medical_insurance,SVM (RBF Kernel),29,58,Untargeted Causal (Karimi 2021),True,"['bmi', 'region', 'sex', 'smoker']",132,0.10440421104431152,7.133661615932585,4.0,,6.331218356206188,2.9992807496828364,76.79309054066937,7.131987850513031
+medical_insurance,SVM (RBF Kernel),29,58,Wachter's CE,True,"['bmi', 'region', 'sex', 'smoker']",500,0.032601118087768555,7.383661615932585,4.0,,6.331218356206188,3.012969610712951,77.57884260605567,7.383661615932585
+medical_insurance,SVM (RBF Kernel),29,58,SHAP-Targeted CE,False,[],343,0.017509937286376953,,,,,,,
+medical_insurance,SVM (RBF Kernel),30,62,Actionable CBFI (Proposed),False,[],62,0.04996681213378906,,,,,,,
+medical_insurance,SVM (RBF Kernel),30,62,Untargeted Causal (Karimi 2021),False,[],96,0.07665538787841797,,,,,,,
+medical_insurance,SVM (RBF Kernel),30,62,Wachter's CE,False,[],500,0.03267049789428711,,,,,,,
+medical_insurance,SVM (RBF Kernel),30,62,SHAP-Targeted CE,False,[],343,0.01727461814880371,,,,,,,
+medical_insurance,SVM (RBF Kernel),31,64,Actionable CBFI (Proposed),True,['smoker'],66,0.05086970329284668,2.4780497323146276,1.0,0.0002585153479192248,1.4383995887033068,2.291629090212533,100.0,2.477123531672177
+medical_insurance,SVM (RBF Kernel),31,64,Untargeted Causal (Karimi 2021),True,['smoker'],108,0.08159589767456055,2.4780497323146276,1.0,0.0002585153479192248,1.4383995887033068,2.291629090212533,100.0,2.477123531672177
+medical_insurance,SVM (RBF Kernel),31,64,Wachter's CE,True,"['bmi', 'region', 'smoker']",500,0.035327911376953125,2.4166564451046826,3.0,,0.5516273431093447,2.1781676414919326,100.0,2.4166564451046826
+medical_insurance,SVM (RBF Kernel),31,64,SHAP-Targeted CE,True,"['bmi', 'smoker']",343,0.019380569458007812,1.302421995343917,2.0,,1.5646106374155275,2.400475687272502,100.0,1.302421995343917
+medical_insurance,SVM (RBF Kernel),32,66,Actionable CBFI (Proposed),False,[],48,0.04232907295227051,,,,,,,
+medical_insurance,SVM (RBF Kernel),32,66,Untargeted Causal (Karimi 2021),False,[],102,0.08104968070983887,,,,,,,
+medical_insurance,SVM (RBF Kernel),32,66,Wachter's CE,False,[],500,0.03268909454345703,,,,,,,
+medical_insurance,SVM (RBF Kernel),32,66,SHAP-Targeted CE,False,[],343,0.01724720001220703,,,,,,,
+medical_insurance,SVM (RBF Kernel),33,69,Actionable CBFI (Proposed),True,['smoker'],70,0.055588483810424805,2.4780497323146276,1.0,0.0002585153479192248,1.011549871631104,2.4515713112036575,100.0,2.477123531672177
+medical_insurance,SVM (RBF Kernel),33,69,Untargeted Causal (Karimi 2021),True,['smoker'],128,0.09659528732299805,2.4780497323146276,1.0,0.0002585153479192248,1.011549871631104,2.4515713112036575,100.0,2.477123531672177
+medical_insurance,SVM (RBF Kernel),33,69,Wachter's CE,True,"['bmi', 'region', 'smoker']",500,0.035243988037109375,1.7934507034778884,3.0,,0.6481070510193949,2.428679611822901,100.0,1.7934507034778884
+medical_insurance,SVM (RBF Kernel),33,69,SHAP-Targeted CE,True,"['bmi', 'smoker']",343,0.019288063049316406,1.6756277369707109,2.0,,1.7244384004651352,2.614990117632918,100.0,1.6756277369707109
+medical_insurance,SVM (RBF Kernel),34,70,Actionable CBFI (Proposed),True,['smoker'],70,0.05437874794006348,2.4780497323146276,1.0,0.0002585153479192248,0.759777663522366,1.9424400196584395,100.0,2.477123531672177
+medical_insurance,SVM (RBF Kernel),34,70,Untargeted Causal (Karimi 2021),True,['smoker'],138,0.1050102710723877,2.4780497323146276,1.0,0.0002585153479192248,0.759777663522366,1.9424400196584395,100.0,2.477123531672177
+medical_insurance,SVM (RBF Kernel),34,70,Wachter's CE,True,"['bmi', 'region', 'smoker']",500,0.03553605079650879,1.859240177162099,3.0,,0.6356220974695995,1.935162592154311,100.0,1.859240177162099
+medical_insurance,SVM (RBF Kernel),34,70,SHAP-Targeted CE,True,"['bmi', 'smoker']",343,0.01915431022644043,1.8598382632865003,2.0,,1.7040349400228947,2.27981746542089,100.0,1.8598382632865003
+medical_insurance,SVM (RBF Kernel),35,72,Actionable CBFI (Proposed),True,"['bmi', 'region', 'sex']",60,0.04881548881530762,7.904415711369154,3.0,,6.331218356206188,3.5185495574020274,100.0,7.90366814659205
+medical_insurance,SVM (RBF Kernel),35,72,Untargeted Causal (Karimi 2021),True,"['bmi', 'region', 'sex']",98,0.07518935203552246,7.904415711369154,3.0,,6.331218356206188,3.5185495574020274,100.0,7.90366814659205
+medical_insurance,SVM (RBF Kernel),35,72,Wachter's CE,True,"['bmi', 'region', 'sex']",500,0.03244733810424805,7.404388338550789,3.0,,6.331218356206188,3.3887287246086513,100.0,7.404388338550789
+medical_insurance,SVM (RBF Kernel),35,72,SHAP-Targeted CE,False,[],343,0.018055438995361328,,,,,,,
+medical_insurance,SVM (RBF Kernel),36,73,Actionable CBFI (Proposed),False,[],56,0.0458681583404541,,,,,,,
+medical_insurance,SVM (RBF Kernel),36,73,Untargeted Causal (Karimi 2021),False,[],90,0.0694582462310791,,,,,,,
+medical_insurance,SVM (RBF Kernel),36,73,Wachter's CE,False,[],500,0.033301353454589844,,,,,,,
+medical_insurance,SVM (RBF Kernel),36,73,SHAP-Targeted CE,False,[],343,0.017828941345214844,,,,,,,
+medical_insurance,SVM (RBF Kernel),37,75,Actionable CBFI (Proposed),False,[],64,0.051306724548339844,,,,,,,
+medical_insurance,SVM (RBF Kernel),37,75,Untargeted Causal (Karimi 2021),False,[],96,0.07502412796020508,,,,,,,
+medical_insurance,SVM (RBF Kernel),37,75,Wachter's CE,False,[],500,0.032892465591430664,,,,,,,
+medical_insurance,SVM (RBF Kernel),37,75,SHAP-Targeted CE,False,[],343,0.017508745193481445,,,,,,,
+medical_insurance,SVM (RBF Kernel),38,81,Actionable CBFI (Proposed),True,['bmi'],64,0.04175925254821777,0.5801435406698559,1.0,,0.6571188626042862,2.2829554475564735,100.0,0.5801435406698559
+medical_insurance,SVM (RBF Kernel),38,81,Untargeted Causal (Karimi 2021),True,['bmi'],138,0.08535885810852051,0.5801435406698559,1.0,,0.6571188626042862,2.2829554475564735,100.0,0.5801435406698559
+medical_insurance,SVM (RBF Kernel),38,81,Wachter's CE,True,"['bmi', 'sex']",500,0.03402423858642578,1.3947642149236268,2.0,,0.35391813676221745,2.0097525407686283,100.0,1.3947642149236268
+medical_insurance,SVM (RBF Kernel),38,81,SHAP-Targeted CE,True,['bmi'],343,0.018150806427001953,0.8947368421052618,1.0,,0.35391813676221745,2.1856952990164973,100.0,0.8947368421052618
+medical_insurance,SVM (RBF Kernel),39,82,Actionable CBFI (Proposed),True,['smoker'],82,0.06423044204711914,2.4780497323146276,1.0,0.00025851534791923196,1.6347142140198603,2.0974374506619307,100.0,2.477123531672177
+medical_insurance,SVM (RBF Kernel),39,82,Untargeted Causal (Karimi 2021),True,['smoker'],140,0.10692191123962402,2.4780497323146276,1.0,0.00025851534791923196,1.6347142140198603,2.0974374506619307,100.0,2.477123531672177
+medical_insurance,SVM (RBF Kernel),39,82,Wachter's CE,True,"['bmi', 'region', 'smoker']",500,0.035779476165771484,3.0941832322503235,3.0,,0.5930587071289211,1.7262484599101136,100.0,3.0941832322503235
+medical_insurance,SVM (RBF Kernel),39,82,SHAP-Targeted CE,True,"['bmi', 'smoker']",343,0.019294023513793945,1.9746707991716668,2.0,,0.5868838470952172,1.8612888298510712,100.0,1.9746707991716668
+medical_insurance,SVM (RBF Kernel),40,83,Actionable CBFI (Proposed),True,['bmi'],76,0.05974149703979492,6.045454545454545,1.0,,6.13667842850116,3.6665655647968545,100.0,6.045454545454545
+medical_insurance,SVM (RBF Kernel),40,83,Untargeted Causal (Karimi 2021),True,['bmi'],124,0.09616541862487793,6.045454545454545,1.0,,6.13667842850116,3.6665655647968545,100.0,6.045454545454545
+medical_insurance,SVM (RBF Kernel),40,83,Wachter's CE,True,"['bmi', 'region']",500,0.03269553184509277,6.545454545454545,2.0,,6.13667842850116,3.6807239324605847,100.0,6.545454545454545
+medical_insurance,SVM (RBF Kernel),40,83,SHAP-Targeted CE,True,['bmi'],343,0.017657995223999023,6.045454545454545,1.0,,6.13667842850116,3.6665655647968545,100.0,6.045454545454545
+medical_insurance,SVM (RBF Kernel),41,84,Actionable CBFI (Proposed),True,['smoker'],48,0.040228843688964844,2.4780497323146276,1.0,0.0002585153479192284,0.4887076781532052,1.9811689612291914,100.0,2.477123531672177
+medical_insurance,SVM (RBF Kernel),41,84,Untargeted Causal (Karimi 2021),True,['smoker'],138,0.1039278507232666,2.4780497323146276,1.0,0.0002585153479192284,0.4887076781532052,1.9811689612291914,100.0,2.477123531672177
+medical_insurance,SVM (RBF Kernel),41,84,Wachter's CE,True,"['bmi', 'sex', 'smoker']",500,0.0351715087890625,1.800057023664673,3.0,,0.4214681121339077,1.8615696479950135,96.61095265944428,1.800057023664673
+medical_insurance,SVM (RBF Kernel),41,84,SHAP-Targeted CE,True,"['bmi', 'smoker']",343,0.018953323364257812,1.300029650846308,2.0,,0.4214681121339077,2.081283162118285,95.30743128441105,1.300029650846308
+medical_insurance,SVM (RBF Kernel),42,85,Actionable CBFI (Proposed),True,['smoker'],52,0.04009246826171875,2.4780497323146276,1.0,0.0002585153479192248,1.7324035028465716,1.998817052396737,100.0,2.477123531672177
+medical_insurance,SVM (RBF Kernel),42,85,Untargeted Causal (Karimi 2021),True,['smoker'],100,0.0765535831451416,2.4780497323146276,1.0,0.0002585153479192248,1.7324035028465716,1.998817052396737,100.0,2.477123531672177
+medical_insurance,SVM (RBF Kernel),42,85,Wachter's CE,True,"['bmi', 'region', 'smoker']",500,0.03532099723815918,2.672532514546976,3.0,,0.8714087004290088,1.7266004211946129,90.64557685868313,2.672532514546976
+medical_insurance,SVM (RBF Kernel),42,85,SHAP-Targeted CE,True,"['bmi', 'smoker']",343,0.018306493759155273,1.41605835898028,2.0,,2.08987536493722,2.1094009242661125,100.0,1.41605835898028
+medical_insurance,SVM (RBF Kernel),43,86,Actionable CBFI (Proposed),False,[],78,0.06229853630065918,,,,,,,
+medical_insurance,SVM (RBF Kernel),43,86,Untargeted Causal (Karimi 2021),False,[],126,0.0974888801574707,,,,,,,
+medical_insurance,SVM (RBF Kernel),43,86,Wachter's CE,False,[],500,0.03261995315551758,,,,,,,
+medical_insurance,SVM (RBF Kernel),43,86,SHAP-Targeted CE,False,[],343,0.0173037052154541,,,,,,,
+medical_insurance,SVM (RBF Kernel),44,87,Actionable CBFI (Proposed),False,[],68,0.05399632453918457,,,,,,,
+medical_insurance,SVM (RBF Kernel),44,87,Untargeted Causal (Karimi 2021),False,[],138,0.10797381401062012,,,,,,,
+medical_insurance,SVM (RBF Kernel),44,87,Wachter's CE,False,[],500,0.03336930274963379,,,,,,,
+medical_insurance,SVM (RBF Kernel),44,87,SHAP-Targeted CE,False,[],343,0.018227100372314453,,,,,,,
+medical_insurance,SVM (RBF Kernel),45,89,Actionable CBFI (Proposed),False,[],62,0.05304718017578125,,,,,,,
+medical_insurance,SVM (RBF Kernel),45,89,Untargeted Causal (Karimi 2021),False,[],96,0.07991909980773926,,,,,,,
+medical_insurance,SVM (RBF Kernel),45,89,Wachter's CE,False,[],500,0.03519105911254883,,,,,,,
+medical_insurance,SVM (RBF Kernel),45,89,SHAP-Targeted CE,False,[],343,0.018803834915161133,,,,,,,
+medical_insurance,SVM (RBF Kernel),46,91,Actionable CBFI (Proposed),True,"['bmi', 'sex']",84,0.06690311431884766,4.1137458549098245,2.0,,6.331218356206188,2.9992807496828364,100.0,4.112998290132721
+medical_insurance,SVM (RBF Kernel),46,91,Untargeted Causal (Karimi 2021),True,"['bmi', 'sex']",144,0.11305356025695801,4.1137458549098245,2.0,,6.331218356206188,2.9992807496828364,100.0,4.112998290132721
+medical_insurance,SVM (RBF Kernel),46,91,Wachter's CE,True,"['bmi', 'region', 'sex']",500,0.051447391510009766,4.3637458549098245,3.0,,6.331218356206188,3.012969610712951,100.0,4.3637458549098245
+medical_insurance,SVM (RBF Kernel),46,91,SHAP-Targeted CE,True,"['bmi', 'sex']",343,0.017503023147583008,4.1137458549098245,2.0,,6.331218356206188,2.9992807496828364,100.0,4.1137458549098245
+medical_insurance,SVM (RBF Kernel),47,92,Actionable CBFI (Proposed),False,[],64,0.05108451843261719,,,,,,,
+medical_insurance,SVM (RBF Kernel),47,92,Untargeted Causal (Karimi 2021),False,[],102,0.0779426097869873,,,,,,,
+medical_insurance,SVM (RBF Kernel),47,92,Wachter's CE,False,[],500,0.03269052505493164,,,,,,,
+medical_insurance,SVM (RBF Kernel),47,92,SHAP-Targeted CE,False,[],343,0.017363548278808594,,,,,,,
+medical_insurance,SVM (RBF Kernel),48,94,Actionable CBFI (Proposed),False,[],64,0.050879716873168945,,,,,,,
+medical_insurance,SVM (RBF Kernel),48,94,Untargeted Causal (Karimi 2021),False,[],106,0.08093905448913574,,,,,,,
+medical_insurance,SVM (RBF Kernel),48,94,Wachter's CE,False,[],500,0.0331416130065918,,,,,,,
+medical_insurance,SVM (RBF Kernel),48,94,SHAP-Targeted CE,False,[],343,0.017437458038330078,,,,,,,
+medical_insurance,SVM (RBF Kernel),49,96,Actionable CBFI (Proposed),True,"['bmi', 'region', 'sex']",60,0.04766106605529785,8.550348725723222,3.0,,6.3704906189423705,3.5433693012665044,100.0,8.549601160946118
+medical_insurance,SVM (RBF Kernel),49,96,Untargeted Causal (Karimi 2021),True,"['bmi', 'region', 'sex']",96,0.07309269905090332,8.550348725723222,3.0,,6.3704906189423705,3.5433693012665044,100.0,8.549601160946118
+medical_insurance,SVM (RBF Kernel),49,96,Wachter's CE,True,"['bmi', 'region', 'sex']",500,0.0325465202331543,8.050321352904856,3.0,,6.3704906189423705,3.4142288361810844,100.0,8.050321352904856
+medical_insurance,SVM (RBF Kernel),49,96,SHAP-Targeted CE,False,[],343,0.0172574520111084,,,,,,,
+medical_insurance,SVM (RBF Kernel),50,97,Actionable CBFI (Proposed),False,[],46,0.040839195251464844,,,,,,,
+medical_insurance,SVM (RBF Kernel),50,97,Untargeted Causal (Karimi 2021),False,[],140,0.10744857788085938,,,,,,,
+medical_insurance,SVM (RBF Kernel),50,97,Wachter's CE,False,[],500,0.032344818115234375,,,,,,,
+medical_insurance,SVM (RBF Kernel),50,97,SHAP-Targeted CE,False,[],343,0.018214941024780273,,,,,,,
+medical_insurance,SVM (RBF Kernel),51,98,Actionable CBFI (Proposed),False,[],80,0.06344270706176758,,,,,,,
+medical_insurance,SVM (RBF Kernel),51,98,Untargeted Causal (Karimi 2021),False,[],124,0.0970616340637207,,,,,,,
+medical_insurance,SVM (RBF Kernel),51,98,Wachter's CE,False,[],500,0.03298020362854004,,,,,,,
+medical_insurance,SVM (RBF Kernel),51,98,SHAP-Targeted CE,False,[],343,0.017409324645996094,,,,,,,
+medical_insurance,SVM (RBF Kernel),52,99,Actionable CBFI (Proposed),True,['smoker'],74,0.05724763870239258,2.4780497323146276,1.0,0.0002585153479192248,3.427700417149089,2.935567597297485,100.0,2.477123531672177
+medical_insurance,SVM (RBF Kernel),52,99,Untargeted Causal (Karimi 2021),True,['smoker'],140,0.10685992240905762,2.4780497323146276,1.0,0.0002585153479192248,3.427700417149089,2.935567597297485,100.0,2.477123531672177
+medical_insurance,SVM (RBF Kernel),52,99,Wachter's CE,True,"['bmi', 'smoker']",500,0.035013675689697266,2.038067928358271,2.0,,5.795347284708776,3.386092678979906,100.0,2.038067928358271
+medical_insurance,SVM (RBF Kernel),52,99,SHAP-Targeted CE,True,"['bmi', 'smoker']",343,0.0189511775970459,1.9220392202243,2.0,,1.9351514201324396,2.630618039265377,100.0,1.9220392202243
+medical_insurance,SVM (RBF Kernel),53,103,Actionable CBFI (Proposed),False,[],56,0.044660091400146484,,,,,,,
+medical_insurance,SVM (RBF Kernel),53,103,Untargeted Causal (Karimi 2021),False,[],92,0.07071113586425781,,,,,,,
+medical_insurance,SVM (RBF Kernel),53,103,Wachter's CE,False,[],500,0.03325843811035156,,,,,,,
+medical_insurance,SVM (RBF Kernel),53,103,SHAP-Targeted CE,False,[],343,0.01772785186767578,,,,,,,
+medical_insurance,SVM (RBF Kernel),54,105,Actionable CBFI (Proposed),True,['smoker'],64,0.05117177963256836,2.4780497323146276,1.0,0.0002585153479192266,0.07832367123007669,1.8602619015513644,100.0,2.477123531672177
+medical_insurance,SVM (RBF Kernel),54,105,Untargeted Causal (Karimi 2021),True,['smoker'],100,0.07741951942443848,2.4780497323146276,1.0,0.0002585153479192266,0.07832367123007669,1.8602619015513644,100.0,2.477123531672177
+medical_insurance,SVM (RBF Kernel),54,105,Wachter's CE,True,"['bmi', 'region', 'smoker']",500,0.03537940979003906,2.402302378119036,3.0,,0.5516273431093447,1.95605580730674,100.0,2.402302378119036
+medical_insurance,SVM (RBF Kernel),54,105,SHAP-Targeted CE,True,"['bmi', 'smoker']",343,0.019250869750976562,1.7297843510486681,2.0,,0.05378163596041638,1.7607439852078095,100.0,1.7297843510486681
+medical_insurance,SVM (RBF Kernel),55,109,Actionable CBFI (Proposed),False,[],62,0.04995870590209961,,,,,,,
+medical_insurance,SVM (RBF Kernel),55,109,Untargeted Causal (Karimi 2021),False,[],100,0.07661914825439453,,,,,,,
+medical_insurance,SVM (RBF Kernel),55,109,Wachter's CE,False,[],500,0.03266763687133789,,,,,,,
+medical_insurance,SVM (RBF Kernel),55,109,SHAP-Targeted CE,False,[],343,0.017362117767333984,,,,,,,
+medical_insurance,SVM (RBF Kernel),56,110,Actionable CBFI (Proposed),True,"['bmi', 'region']",58,0.04640460014343262,5.227272727272728,2.0,,6.3704906189423705,3.1844203909833446,100.0,5.227272727272728
+medical_insurance,SVM (RBF Kernel),56,110,Untargeted Causal (Karimi 2021),True,"['bmi', 'region']",94,0.07048296928405762,5.227272727272728,2.0,,6.3704906189423705,3.1844203909833446,100.0,5.227272727272728
+medical_insurance,SVM (RBF Kernel),56,110,Wachter's CE,True,"['bmi', 'region']",500,0.032555341720581055,4.477272727272728,2.0,,6.3704906189423705,3.0438306230176213,100.0,4.477272727272728
+medical_insurance,SVM (RBF Kernel),56,110,SHAP-Targeted CE,False,[],343,0.01712799072265625,,,,,,,
+medical_insurance,SVM (RBF Kernel),57,111,Actionable CBFI (Proposed),True,"['bmi', 'region', 'sex']",64,0.0510098934173584,8.287190830986379,3.0,,6.4098843074102785,3.293743937594456,100.0,8.286443266209275
+medical_insurance,SVM (RBF Kernel),57,111,Untargeted Causal (Karimi 2021),False,[],108,0.08248329162597656,,,,,,,
+medical_insurance,SVM (RBF Kernel),57,111,Wachter's CE,False,[],500,0.03254055976867676,,,,,,,
+medical_insurance,SVM (RBF Kernel),57,111,SHAP-Targeted CE,False,[],343,0.017162084579467773,,,,,,,
+medical_insurance,SVM (RBF Kernel),58,114,Actionable CBFI (Proposed),True,['bmi'],58,0.047112226486206055,3.886363636363636,1.0,,6.292067519201731,3.495025546864314,100.0,3.886363636363636
+medical_insurance,SVM (RBF Kernel),58,114,Untargeted Causal (Karimi 2021),True,['bmi'],96,0.07528877258300781,3.886363636363636,1.0,,6.292067519201731,3.495025546864314,100.0,3.886363636363636
+medical_insurance,SVM (RBF Kernel),58,114,Wachter's CE,True,"['bmi', 'sex']",500,0.03266406059265137,4.386391009182001,2.0,,6.292067519201731,3.3645644286845164,100.0,4.386391009182001
+medical_insurance,SVM (RBF Kernel),58,114,SHAP-Targeted CE,True,['bmi'],343,0.01753377914428711,3.886363636363636,1.0,,6.292067519201731,3.495025546864314,100.0,3.886363636363636
+medical_insurance,SVM (RBF Kernel),59,115,Actionable CBFI (Proposed),False,[],58,0.046466827392578125,,,,,,,
+medical_insurance,SVM (RBF Kernel),59,115,Untargeted Causal (Karimi 2021),False,[],100,0.07722020149230957,,,,,,,
+medical_insurance,SVM (RBF Kernel),59,115,Wachter's CE,False,[],500,0.03362417221069336,,,,,,,
+medical_insurance,SVM (RBF Kernel),59,115,SHAP-Targeted CE,False,[],343,0.017451763153076172,,,,,,,
+medical_insurance,SVM (RBF Kernel),60,116,Actionable CBFI (Proposed),False,[],78,0.0625004768371582,,,,,,,
+medical_insurance,SVM (RBF Kernel),60,116,Untargeted Causal (Karimi 2021),False,[],138,0.10722136497497559,,,,,,,
+medical_insurance,SVM (RBF Kernel),60,116,Wachter's CE,False,[],500,0.03242182731628418,,,,,,,
+medical_insurance,SVM (RBF Kernel),60,116,SHAP-Targeted CE,False,[],343,0.01719355583190918,,,,,,,
+medical_insurance,SVM (RBF Kernel),61,117,Actionable CBFI (Proposed),True,['smoker'],56,0.04380202293395996,2.4780497323146276,1.0,0.0002585153479192266,0.132448000952659,1.4607610026862081,100.0,2.477123531672177
+medical_insurance,SVM (RBF Kernel),61,117,Untargeted Causal (Karimi 2021),True,['smoker'],138,0.10496830940246582,2.4780497323146276,1.0,0.0002585153479192266,0.132448000952659,1.4607610026862081,100.0,2.477123531672177
+medical_insurance,SVM (RBF Kernel),61,117,Wachter's CE,True,"['bmi', 'region', 'smoker']",500,0.03505563735961914,2.3819674498893715,3.0,,0.6607134303009161,1.6762073307613468,79.0089490927669,2.3819674498893715
+medical_insurance,SVM (RBF Kernel),61,117,SHAP-Targeted CE,True,"['bmi', 'smoker']",343,0.019228219985961914,0.9241027018401232,2.0,,0.09449154220732386,1.8299570708053812,100.0,0.9241027018401232
+medical_insurance,SVM (RBF Kernel),62,123,Actionable CBFI (Proposed),True,['smoker'],52,0.04003405570983887,2.4780497323146276,1.0,0.0002585153479192275,0.006174804498730071,1.8470615425954122,100.0,2.477123531672177
+medical_insurance,SVM (RBF Kernel),62,123,Untargeted Causal (Karimi 2021),True,['smoker'],106,0.07895445823669434,2.4780497323146276,1.0,0.0002585153479192275,0.006174804498730071,1.8470615425954122,100.0,2.477123531672177
+medical_insurance,SVM (RBF Kernel),62,123,Wachter's CE,True,"['bmi', 'smoker']",500,0.03484201431274414,2.6228913662216167,2.0,,0.35842065818795155,1.9048862861471287,100.0,2.6228913662216167
+medical_insurance,SVM (RBF Kernel),62,123,SHAP-Targeted CE,True,"['bmi', 'smoker']",343,0.019158601760864258,2.369736504158715,2.0,,0.17548809063671125,1.772248227760023,100.0,2.369736504158715
+medical_insurance,SVM (RBF Kernel),63,124,Actionable CBFI (Proposed),True,"['region', 'sex']",58,0.04647088050842285,4.000109491273459,2.0,0.0,0.22655551101552387,2.4052886920524954,100.0,3.9993619264963565
+medical_insurance,SVM (RBF Kernel),63,124,Untargeted Causal (Karimi 2021),True,"['region', 'sex']",96,0.07501959800720215,4.000109491273459,2.0,0.0,0.22655551101552387,2.4052886920524954,100.0,3.9993619264963565
+medical_insurance,SVM (RBF Kernel),63,124,Wachter's CE,True,"['bmi', 'region']",500,0.036887407302856445,3.322368421052631,2.0,,0.8931324150983997,2.3343516430976887,100.0,3.322368421052631
+medical_insurance,SVM (RBF Kernel),63,124,SHAP-Targeted CE,True,['bmi'],343,0.020992279052734375,2.8133971291866025,1.0,,2.111745507505388,2.4670781434734663,100.0,2.8133971291866025
+medical_insurance,SVM (RBF Kernel),64,126,Actionable CBFI (Proposed),True,['smoker'],52,0.041210174560546875,2.4780497323146276,1.0,0.0002585153479192284,0.05151065425991166,2.462898889236618,100.0,2.477123531672177
+medical_insurance,SVM (RBF Kernel),64,126,Untargeted Causal (Karimi 2021),True,['smoker'],106,0.07927155494689941,2.4780497323146276,1.0,0.0002585153479192284,0.05151065425991166,2.462898889236618,100.0,2.477123531672177
+medical_insurance,SVM (RBF Kernel),64,126,Wachter's CE,True,"['bmi', 'smoker']",500,0.0514070987701416,1.9680918518032469,2.0,,0.540113795413353,2.6730329282131846,100.0,1.9680918518032469
+medical_insurance,SVM (RBF Kernel),64,126,SHAP-Targeted CE,True,"['bmi', 'smoker']",343,0.01979541778564453,1.2509865886453526,2.0,,0.05143668394493627,2.544089259851697,100.0,1.2509865886453526
+medical_insurance,SVM (RBF Kernel),65,127,Actionable CBFI (Proposed),False,[],60,0.050252437591552734,,,,,,,
+medical_insurance,SVM (RBF Kernel),65,127,Untargeted Causal (Karimi 2021),False,[],94,0.07493233680725098,,,,,,,
+medical_insurance,SVM (RBF Kernel),65,127,Wachter's CE,True,"['bmi', 'region', 'sex']",500,0.03334927558898926,9.379296094144273,3.0,,6.292067519201731,3.125864335815506,78.67527081779433,9.379296094144273
+medical_insurance,SVM (RBF Kernel),65,127,SHAP-Targeted CE,False,[],343,0.017398595809936523,,,,,,,
+medical_insurance,SVM (RBF Kernel),66,128,Actionable CBFI (Proposed),True,['smoker'],56,0.0432124137878418,2.4780497323146276,1.0,0.0002585153479192248,4.229036718169206,2.5049168920498714,100.0,2.477123531672177
+medical_insurance,SVM (RBF Kernel),66,128,Untargeted Causal (Karimi 2021),True,['smoker'],114,0.08512663841247559,2.4780497323146276,1.0,0.0002585153479192248,4.229036718169206,2.5049168920498714,100.0,2.477123531672177
+medical_insurance,SVM (RBF Kernel),66,128,Wachter's CE,True,"['bmi', 'region', 'smoker']",500,0.035086631774902344,2.170843047975496,3.0,,5.572440281418352,2.848702251439672,76.96747351374414,2.170843047975496
+medical_insurance,SVM (RBF Kernel),66,128,SHAP-Targeted CE,True,"['bmi', 'smoker']",343,0.019127607345581055,1.670843047975496,2.0,,5.572440281418352,2.828602182675083,100.0,1.670843047975496
+medical_insurance,SVM (RBF Kernel),67,130,Actionable CBFI (Proposed),False,[],68,0.05509471893310547,,,,,,,
+medical_insurance,SVM (RBF Kernel),67,130,Untargeted Causal (Karimi 2021),False,[],104,0.0834190845489502,,,,,,,
+medical_insurance,SVM (RBF Kernel),67,130,Wachter's CE,False,[],500,0.03294491767883301,,,,,,,
+medical_insurance,SVM (RBF Kernel),67,130,SHAP-Targeted CE,False,[],343,0.01780223846435547,,,,,,,
+medical_insurance,SVM (RBF Kernel),68,131,Actionable CBFI (Proposed),False,[],72,0.057222604751586914,,,,,,,
+medical_insurance,SVM (RBF Kernel),68,131,Untargeted Causal (Karimi 2021),False,[],114,0.09151220321655273,,,,,,,
+medical_insurance,SVM (RBF Kernel),68,131,Wachter's CE,False,[],500,0.033289432525634766,,,,,,,
+medical_insurance,SVM (RBF Kernel),68,131,SHAP-Targeted CE,False,[],343,0.018167972564697266,,,,,,,
+medical_insurance,SVM (RBF Kernel),69,132,Actionable CBFI (Proposed),False,[],62,0.05020761489868164,,,,,,,
+medical_insurance,SVM (RBF Kernel),69,132,Untargeted Causal (Karimi 2021),False,[],100,0.0784604549407959,,,,,,,
+medical_insurance,SVM (RBF Kernel),69,132,Wachter's CE,True,"['bmi', 'region', 'sex']",500,0.032892465591430664,9.020444419503125,3.0,,6.331218356206188,3.095636308984217,100.0,9.020444419503125
+medical_insurance,SVM (RBF Kernel),69,132,SHAP-Targeted CE,False,[],343,0.01770782470703125,,,,,,,
+medical_insurance,SVM (RBF Kernel),70,138,Actionable CBFI (Proposed),True,"['bmi', 'region', 'sex']",62,0.05148506164550781,7.813506620460062,3.0,,6.3704906189423705,3.5433693012665044,100.0,7.8127590556829585
+medical_insurance,SVM (RBF Kernel),70,138,Untargeted Causal (Karimi 2021),True,"['bmi', 'region', 'sex']",94,0.07234907150268555,7.813506620460062,3.0,,6.3704906189423705,3.5433693012665044,100.0,7.8127590556829585
+medical_insurance,SVM (RBF Kernel),70,138,Wachter's CE,True,"['bmi', 'region', 'sex']",500,0.03244352340698242,7.313479247641697,3.0,,6.3704906189423705,3.4142288361810844,100.0,7.313479247641697
+medical_insurance,SVM (RBF Kernel),70,138,SHAP-Targeted CE,False,[],343,0.017570972442626953,,,,,,,
+medical_insurance,SVM (RBF Kernel),71,142,Actionable CBFI (Proposed),True,['smoker'],68,0.05230283737182617,2.4780497323146276,1.0,0.0002585153479192248,0.6988470436765162,1.7749153336208583,100.0,2.477123531672177
+medical_insurance,SVM (RBF Kernel),71,142,Untargeted Causal (Karimi 2021),True,['smoker'],128,0.09742093086242676,2.4780497323146276,1.0,0.0002585153479192248,0.6988470436765162,1.7749153336208583,100.0,2.477123531672177
+medical_insurance,SVM (RBF Kernel),71,142,Wachter's CE,True,"['bmi', 'region', 'smoker']",500,0.03598165512084961,1.5003885025209502,3.0,,0.725566712684404,1.884068307810462,100.0,1.5003885025209502
+medical_insurance,SVM (RBF Kernel),71,142,SHAP-Targeted CE,True,"['bmi', 'smoker']",343,0.019246578216552734,1.9686899379276492,2.0,,0.11811199782931776,1.574313951412322,100.0,1.9686899379276492
+medical_insurance,SVM (RBF Kernel),72,144,Actionable CBFI (Proposed),True,['smoker'],68,0.05205988883972168,2.4780497323146276,1.0,0.0002585153479192284,0.06184798307500897,2.1432873956949168,100.0,2.477123531672177
+medical_insurance,SVM (RBF Kernel),72,144,Untargeted Causal (Karimi 2021),True,['smoker'],104,0.07734227180480957,2.4780497323146276,1.0,0.0002585153479192284,0.06184798307500897,2.1432873956949168,100.0,2.477123531672177
+medical_insurance,SVM (RBF Kernel),72,144,Wachter's CE,True,"['bmi', 'region', 'smoker']",500,0.0350801944732666,2.5613932872099454,3.0,,0.6734412353141627,2.2593236523083013,100.0,2.5613932872099454
+medical_insurance,SVM (RBF Kernel),72,144,SHAP-Targeted CE,True,"['bmi', 'smoker']",343,0.018974781036376953,1.320364579075974,2.0,,0.09766054802885496,2.1558931318460983,100.0,1.320364579075974
+medical_insurance,SVM (RBF Kernel),73,146,Actionable CBFI (Proposed),True,"['region', 'smoker']",72,0.05252194404602051,3.4780497323146276,2.0,0.0002585153479192273,0.005969385502538556,2.040442294506089,100.0,3.477123531672177
+medical_insurance,SVM (RBF Kernel),73,146,Untargeted Causal (Karimi 2021),True,"['region', 'smoker']",114,0.08182334899902344,3.4780497323146276,2.0,0.0002585153479192273,0.005969385502538556,2.040442294506089,100.0,3.477123531672177
+medical_insurance,SVM (RBF Kernel),73,146,Wachter's CE,True,"['bmi', 'region', 'smoker']",500,0.03293585777282715,3.9822363351854406,3.0,,0.87846565316163,2.30141609682492,100.0,3.9822363351854406
+medical_insurance,SVM (RBF Kernel),73,146,SHAP-Targeted CE,True,"['bmi', 'smoker']",343,0.017643213272094727,4.060256754600307,2.0,,2.0969139600038487,2.4530648650676894,100.0,4.060256754600307
+medical_insurance,SVM (RBF Kernel),74,147,Actionable CBFI (Proposed),True,"['bmi', 'sex']",60,0.047988176345825195,4.967573606105995,2.0,,0.929617901383328,1.8594220438537543,100.0,4.966826041328892
+medical_insurance,SVM (RBF Kernel),74,147,Untargeted Causal (Karimi 2021),True,"['bmi', 'sex']",104,0.07995462417602539,4.967573606105995,2.0,,0.929617901383328,1.8594220438537543,100.0,4.966826041328892
+medical_insurance,SVM (RBF Kernel),74,147,Wachter's CE,True,"['bmi', 'region', 'sex']",500,0.03237152099609375,4.235102592526681,3.0,,0.9530137201627343,1.6163074458623192,100.0,4.235102592526681
+medical_insurance,SVM (RBF Kernel),74,147,SHAP-Targeted CE,True,"['bmi', 'sex']",343,0.017302989959716797,3.2440738843927095,2.0,,0.21911427613128887,1.2031657850364093,100.0,3.2440738843927095
+medical_insurance,SVM (RBF Kernel),75,148,Actionable CBFI (Proposed),True,"['bmi', 'sex']",72,0.05688142776489258,7.136473127637096,2.0,,6.331218356206188,2.9992807496828364,100.0,7.135725562859993
+medical_insurance,SVM (RBF Kernel),75,148,Untargeted Causal (Karimi 2021),True,"['bmi', 'sex']",110,0.08664202690124512,7.136473127637096,2.0,,6.331218356206188,2.9992807496828364,100.0,7.135725562859993
+medical_insurance,SVM (RBF Kernel),75,148,Wachter's CE,True,"['bmi', 'region', 'sex']",500,0.03267621994018555,7.386473127637096,3.0,,6.331218356206188,3.012969610712951,100.0,7.386473127637096
+medical_insurance,SVM (RBF Kernel),75,148,SHAP-Targeted CE,True,"['bmi', 'sex']",343,0.017223834991455078,7.136473127637096,2.0,,6.331218356206188,2.9992807496828364,100.0,7.136473127637096
+medical_insurance,SVM (RBF Kernel),76,153,Actionable CBFI (Proposed),True,['smoker'],48,0.042540788650512695,2.4780497323146276,1.0,0.0002585153479192248,1.4760095518053413,2.192700595912312,100.0,2.477123531672177
+medical_insurance,SVM (RBF Kernel),76,153,Untargeted Causal (Karimi 2021),True,['smoker'],126,0.09750890731811523,2.4780497323146276,1.0,0.0002585153479192248,1.4760095518053413,2.192700595912312,100.0,2.477123531672177
+medical_insurance,SVM (RBF Kernel),76,153,Wachter's CE,True,"['bmi', 'sex', 'smoker']",500,0.03549027442932129,2.689438463468685,3.0,,0.835646102547711,1.942239765583225,83.25453964491183,2.689438463468685
+medical_insurance,SVM (RBF Kernel),76,153,SHAP-Targeted CE,True,"['bmi', 'smoker']",343,0.01869988441467285,1.9427030113357484,2.0,,2.0152211439202006,2.2873316909382932,85.03786452364258,1.9427030113357484
+medical_insurance,SVM (RBF Kernel),77,156,Actionable CBFI (Proposed),True,['smoker'],64,0.04937863349914551,2.4780497323146276,1.0,0.0002585153479192248,1.1868265837491623,2.0802368301511813,100.0,2.477123531672177
+medical_insurance,SVM (RBF Kernel),77,156,Untargeted Causal (Karimi 2021),True,['smoker'],100,0.07386350631713867,2.4780497323146276,1.0,0.0002585153479192248,1.1868265837491623,2.0802368301511813,100.0,2.477123531672177
+medical_insurance,SVM (RBF Kernel),77,156,Wachter's CE,True,"['bmi', 'region', 'smoker']",500,0.0337672233581543,2.557699978661808,3.0,,0.9155969070130338,1.8288369369933388,100.0,2.557699978661808
+medical_insurance,SVM (RBF Kernel),77,156,SHAP-Targeted CE,True,"['bmi', 'smoker']",343,0.018280744552612305,2.1938991835845525,2.0,,2.1501410473731988,2.272844614259015,100.0,2.1938991835845525
+medical_insurance,SVM (RBF Kernel),78,157,Actionable CBFI (Proposed),True,['smoker'],66,0.05028176307678223,2.4780497323146276,1.0,0.0002585153479192284,0.5355411070271369,2.548238725541772,100.0,2.477123531672177
+medical_insurance,SVM (RBF Kernel),78,157,Untargeted Causal (Karimi 2021),True,['smoker'],106,0.0802309513092041,2.4780497323146276,1.0,0.0002585153479192284,0.5355411070271369,2.548238725541772,100.0,2.477123531672177
+medical_insurance,SVM (RBF Kernel),78,157,Wachter's CE,True,"['bmi', 'sex', 'smoker']",500,0.035093069076538086,1.7575929088321383,3.0,,0.528721673449087,2.4057511448299262,71.55044434318887,1.7575929088321383
+medical_insurance,SVM (RBF Kernel),78,157,SHAP-Targeted CE,True,"['bmi', 'smoker']",343,0.019574403762817383,1.9615129044348258,2.0,,1.525867953970381,2.710363261503644,100.0,1.9615129044348258
+medical_insurance,SVM (RBF Kernel),79,158,Actionable CBFI (Proposed),True,['smoker'],74,0.05775594711303711,2.4780497323146276,1.0,0.0002585153479192284,0.7627781208083112,1.8284405386922304,100.0,2.477123531672177
+medical_insurance,SVM (RBF Kernel),79,158,Untargeted Causal (Karimi 2021),True,['smoker'],140,0.1088416576385498,2.4780497323146276,1.0,0.0002585153479192284,0.7627781208083112,1.8284405386922304,100.0,2.477123531672177
+medical_insurance,SVM (RBF Kernel),79,158,Wachter's CE,True,"['bmi', 'region', 'smoker']",500,0.03574776649475098,2.5941832322503244,3.0,,0.5009359392646676,1.6291735908984117,100.0,2.5941832322503244
+medical_insurance,SVM (RBF Kernel),79,158,SHAP-Targeted CE,True,"['bmi', 'sex', 'smoker']",343,0.01944565773010254,1.395014092331473,3.0,,0.4914976617686127,1.8488746916930416,76.10407065338077,1.395014092331473
+medical_insurance,SVM (RBF Kernel),80,159,Actionable CBFI (Proposed),True,"['bmi', 'region']",64,0.05411791801452637,4.839712918660286,2.0,,6.214130122387996,3.3727701046836085,100.0,4.839712918660286
+medical_insurance,SVM (RBF Kernel),80,159,Untargeted Causal (Karimi 2021),True,"['bmi', 'region']",100,0.08235049247741699,4.839712918660286,2.0,,6.214130122387996,3.3727701046836085,100.0,4.839712918660286
+medical_insurance,SVM (RBF Kernel),80,159,Wachter's CE,True,"['bmi', 'region', 'sex']",500,0.03547549247741699,4.589740291478652,3.0,,6.214130122387996,3.1353733815278035,89.10554103144528,4.589740291478652
+medical_insurance,SVM (RBF Kernel),80,159,SHAP-Targeted CE,False,[],343,0.01874256134033203,,,,,,,
+medical_insurance,SVM (RBF Kernel),81,160,Actionable CBFI (Proposed),True,['smoker'],72,0.05570268630981445,2.4780497323146276,1.0,0.0002585153479192284,0.469290302127895,1.6022334876342732,100.0,2.477123531672177
+medical_insurance,SVM (RBF Kernel),81,160,Untargeted Causal (Karimi 2021),True,['smoker'],140,0.10909128189086914,2.4780497323146276,1.0,0.0002585153479192284,0.469290302127895,1.6022334876342732,100.0,2.477123531672177
+medical_insurance,SVM (RBF Kernel),81,160,Wachter's CE,True,"['bmi', 'region', 'smoker']",500,0.038207292556762695,2.061393287209946,3.0,,0.835646102547711,1.8166987551469804,100.0,2.061393287209946
+medical_insurance,SVM (RBF Kernel),81,160,SHAP-Targeted CE,True,"['bmi', 'smoker']",343,0.034836769104003906,1.657685153238654,2.0,,0.16484333255306757,1.6778670107343823,100.0,1.657685153238654
+medical_insurance,SVM (RBF Kernel),82,161,Actionable CBFI (Proposed),True,['smoker'],80,0.061980485916137695,2.4780497323146276,1.0,0.0002585153479192284,1.4004652965451614,2.425521475964883,100.0,2.477123531672177
+medical_insurance,SVM (RBF Kernel),82,161,Untargeted Causal (Karimi 2021),True,['smoker'],140,0.10608887672424316,2.4780497323146276,1.0,0.0002585153479192284,1.4004652965451614,2.425521475964883,100.0,2.477123531672177
+medical_insurance,SVM (RBF Kernel),82,161,Wachter's CE,True,"['bmi', 'region', 'smoker']",500,0.035822153091430664,2.0404602728558783,3.0,,0.6356088875571356,2.3900244662415058,100.0,2.0404602728558783
+medical_insurance,SVM (RBF Kernel),82,161,SHAP-Targeted CE,True,"['bmi', 'smoker']",343,0.019124984741210938,1.7904602728558783,2.0,,0.6356088875571356,2.3470212381455458,100.0,1.7904602728558783
+medical_insurance,SVM (RBF Kernel),83,162,Actionable CBFI (Proposed),False,[],66,0.05400991439819336,,,,,,,
+medical_insurance,SVM (RBF Kernel),83,162,Untargeted Causal (Karimi 2021),False,[],112,0.08720684051513672,,,,,,,
+medical_insurance,SVM (RBF Kernel),83,162,Wachter's CE,True,"['bmi', 'region']",500,0.03355765342712402,7.905502392344498,2.0,,6.3704906189423705,3.0438306230176213,100.0,7.905502392344498
+medical_insurance,SVM (RBF Kernel),83,162,SHAP-Targeted CE,False,[],343,0.017578125,,,,,,,
+medical_insurance,SVM (RBF Kernel),84,165,Actionable CBFI (Proposed),False,[],48,0.04206538200378418,,,,,,,
+medical_insurance,SVM (RBF Kernel),84,165,Untargeted Causal (Karimi 2021),True,"['bmi', 'sex']",110,0.0826268196105957,2.691257816632311,2.0,,0.8704881834138695,3.124037245432192,74.31876198974815,2.6905102518552075
+medical_insurance,SVM (RBF Kernel),84,165,Wachter's CE,True,"['bmi', 'sex']",500,0.032817840576171875,2.2088141758713626,2.0,,0.8931324150983997,3.010091186205888,67.91345939561994,2.2088141758713626
+medical_insurance,SVM (RBF Kernel),84,165,SHAP-Targeted CE,True,['bmi'],343,0.01775383949279785,1.449760765550239,1.0,,2.111745507505388,3.322614342115365,0.0,1.449760765550239
+medical_insurance,SVM (RBF Kernel),85,170,Actionable CBFI (Proposed),False,[],64,0.05310177803039551,,,,,,,
+medical_insurance,SVM (RBF Kernel),85,170,Untargeted Causal (Karimi 2021),False,[],98,0.07690644264221191,,,,,,,
+medical_insurance,SVM (RBF Kernel),85,170,Wachter's CE,False,[],500,0.032540321350097656,,,,,,,
+medical_insurance,SVM (RBF Kernel),85,170,SHAP-Targeted CE,False,[],343,0.017289161682128906,,,,,,,
+medical_insurance,SVM (RBF Kernel),86,175,Actionable CBFI (Proposed),False,[],48,0.04348182678222656,,,,,,,
+medical_insurance,SVM (RBF Kernel),86,175,Untargeted Causal (Karimi 2021),False,[],110,0.0856621265411377,,,,,,,
+medical_insurance,SVM (RBF Kernel),86,175,Wachter's CE,False,[],500,0.032694101333618164,,,,,,,
+medical_insurance,SVM (RBF Kernel),86,175,SHAP-Targeted CE,False,[],343,0.01738595962524414,,,,,,,
+medical_insurance,SVM (RBF Kernel),87,177,Actionable CBFI (Proposed),False,[],46,0.042020320892333984,,,,,,,
+medical_insurance,SVM (RBF Kernel),87,177,Untargeted Causal (Karimi 2021),False,[],106,0.08292484283447266,,,,,,,
+medical_insurance,SVM (RBF Kernel),87,177,Wachter's CE,True,"['bmi', 'region']",500,0.03235673904418945,5.417464114832535,2.0,,6.3704906189423705,3.0438306230176213,41.532347096489296,5.417464114832535
+medical_insurance,SVM (RBF Kernel),87,177,SHAP-Targeted CE,False,[],343,0.01803135871887207,,,,,,,
+medical_insurance,SVM (RBF Kernel),88,180,Actionable CBFI (Proposed),False,[],58,0.04769301414489746,,,,,,,
+medical_insurance,SVM (RBF Kernel),88,180,Untargeted Causal (Karimi 2021),False,[],94,0.0752115249633789,,,,,,,
+medical_insurance,SVM (RBF Kernel),88,180,Wachter's CE,False,[],500,0.032543182373046875,,,,,,,
+medical_insurance,SVM (RBF Kernel),88,180,SHAP-Targeted CE,False,[],343,0.01752758026123047,,,,,,,
+medical_insurance,SVM (RBF Kernel),89,185,Actionable CBFI (Proposed),True,['smoker'],46,0.0390012264251709,2.4780497323146276,1.0,0.00025851534791923196,3.4997569566093008,3.180554403192773,100.0,2.477123531672177
+medical_insurance,SVM (RBF Kernel),89,185,Untargeted Causal (Karimi 2021),True,['smoker'],140,0.10671496391296387,2.4780497323146276,1.0,0.00025851534791923196,3.4997569566093008,3.180554403192773,100.0,2.477123531672177
+medical_insurance,SVM (RBF Kernel),89,185,Wachter's CE,True,"['bmi', 'smoker']",500,0.03495454788208008,2.942762650974915,2.0,,4.793560544350004,3.4010183565248755,84.2082772626487,2.942762650974915
+medical_insurance,SVM (RBF Kernel),89,185,SHAP-Targeted CE,True,"['bmi', 'smoker']",343,0.019165515899658203,1.9283489443501023,2.0,,2.8087510544677623,3.0045971982763566,85.67086157911069,1.9283489443501023
+medical_insurance,SVM (RBF Kernel),90,190,Actionable CBFI (Proposed),False,[],44,0.03631925582885742,,,,,,,
+medical_insurance,SVM (RBF Kernel),90,190,Untargeted Causal (Karimi 2021),False,[],92,0.07520484924316406,,,,,,,
+medical_insurance,SVM (RBF Kernel),90,190,Wachter's CE,False,[],500,0.03259468078613281,,,,,,,
+medical_insurance,SVM (RBF Kernel),90,190,SHAP-Targeted CE,False,[],343,0.017423152923583984,,,,,,,
+medical_insurance,SVM (RBF Kernel),91,193,Actionable CBFI (Proposed),False,[],76,0.06119680404663086,,,,,,,
+medical_insurance,SVM (RBF Kernel),91,193,Untargeted Causal (Karimi 2021),False,[],114,0.09090280532836914,,,,,,,
+medical_insurance,SVM (RBF Kernel),91,193,Wachter's CE,False,[],500,0.03276681900024414,,,,,,,
+medical_insurance,SVM (RBF Kernel),91,193,SHAP-Targeted CE,False,[],343,0.017241716384887695,,,,,,,
+medical_insurance,SVM (RBF Kernel),92,198,Actionable CBFI (Proposed),True,['sex'],58,0.04393434524536133,2.00010949127346,1.0,0.0,4.65590484600773,2.807438525527099,100.0,1.9993619264963565
+medical_insurance,SVM (RBF Kernel),92,198,Untargeted Causal (Karimi 2021),True,['sex'],92,0.06702041625976562,2.00010949127346,1.0,0.0,4.65590484600773,2.807438525527099,100.0,1.9993619264963565
+medical_insurance,SVM (RBF Kernel),92,198,Wachter's CE,True,"['bmi', 'region', 'sex']",500,0.03268742561340332,2.75010949127346,3.0,,6.253038107929002,3.098331590697462,100.0,2.75010949127346
+medical_insurance,SVM (RBF Kernel),92,198,SHAP-Targeted CE,True,"['bmi', 'sex']",343,0.017268896102905273,2.1667579093945495,2.0,,6.253038107929002,2.9732533209647483,100.0,2.1667579093945495
+medical_insurance,SVM (RBF Kernel),93,199,Actionable CBFI (Proposed),False,[],70,0.05631828308105469,,,,,,,
+medical_insurance,SVM (RBF Kernel),93,199,Untargeted Causal (Karimi 2021),False,[],108,0.08403468132019043,,,,,,,
+medical_insurance,SVM (RBF Kernel),93,199,Wachter's CE,False,[],500,0.032705068588256836,,,,,,,
+medical_insurance,SVM (RBF Kernel),93,199,SHAP-Targeted CE,False,[],343,0.01713252067565918,,,,,,,
+medical_insurance,SVM (RBF Kernel),94,202,Actionable CBFI (Proposed),False,[],68,0.056267738342285156,,,,,,,
+medical_insurance,SVM (RBF Kernel),94,202,Untargeted Causal (Karimi 2021),False,[],106,0.08385753631591797,,,,,,,
+medical_insurance,SVM (RBF Kernel),94,202,Wachter's CE,False,[],500,0.03261590003967285,,,,,,,
+medical_insurance,SVM (RBF Kernel),94,202,SHAP-Targeted CE,False,[],343,0.017168760299682617,,,,,,,
+medical_insurance,SVM (RBF Kernel),95,203,Actionable CBFI (Proposed),True,['smoker'],74,0.0576629638671875,2.4780497323146276,1.0,0.0002585153479192248,0.9741131350922894,1.9816358883420193,100.0,2.477123531672177
+medical_insurance,SVM (RBF Kernel),95,203,Untargeted Causal (Karimi 2021),True,['smoker'],140,0.10800361633300781,2.4780497323146276,1.0,0.0002585153479192248,0.9741131350922894,1.9816358883420193,100.0,2.477123531672177
+medical_insurance,SVM (RBF Kernel),95,203,Wachter's CE,True,"['bmi', 'region', 'smoker']",500,0.03533625602722168,1.8562497465400882,3.0,,0.5287096254816431,2.0311901528919893,100.0,1.8562497465400882
+medical_insurance,SVM (RBF Kernel),95,203,SHAP-Targeted CE,True,"['bmi', 'sex', 'smoker']",343,0.01902937889099121,1.5265930396998932,3.0,,0.5248198054402409,2.0243747890247636,78.16369043943484,1.5265930396998932
+medical_insurance,SVM (RBF Kernel),96,206,Actionable CBFI (Proposed),False,[],48,0.039385080337524414,,,,,,,
+medical_insurance,SVM (RBF Kernel),96,206,Untargeted Causal (Karimi 2021),False,[],94,0.07270050048828125,,,,,,,
+medical_insurance,SVM (RBF Kernel),96,206,Wachter's CE,False,[],500,0.03241395950317383,,,,,,,
+medical_insurance,SVM (RBF Kernel),96,206,SHAP-Targeted CE,False,[],343,0.017117023468017578,,,,,,,
+medical_insurance,SVM (RBF Kernel),97,207,Actionable CBFI (Proposed),True,['smoker'],46,0.038919687271118164,2.4780497323146276,1.0,0.0002585153479192284,0.19668695817599824,1.995651531344741,100.0,2.477123531672177
+medical_insurance,SVM (RBF Kernel),97,207,Untargeted Causal (Karimi 2021),True,['smoker'],106,0.08090424537658691,2.4780497323146276,1.0,0.0002585153479192284,0.19668695817599824,1.995651531344741,100.0,2.477123531672177
+medical_insurance,SVM (RBF Kernel),97,207,Wachter's CE,True,"['bmi', 'sex', 'smoker']",500,0.03618812561035156,2.3341479327555827,3.0,,0.7389016463562782,1.9345185072946818,74.50479957037844,2.3341479327555827
+medical_insurance,SVM (RBF Kernel),97,207,SHAP-Targeted CE,True,"['bmi', 'smoker']",343,0.01985311508178711,1.384957880511382,2.0,,0.12352842460874723,1.9971380659065308,89.46299982060222,1.384957880511382
+medical_insurance,SVM (RBF Kernel),98,208,Actionable CBFI (Proposed),False,[],52,0.04679274559020996,,,,,,,
+medical_insurance,SVM (RBF Kernel),98,208,Untargeted Causal (Karimi 2021),False,[],100,0.0793447494506836,,,,,,,
+medical_insurance,SVM (RBF Kernel),98,208,Wachter's CE,False,[],500,0.03628706932067871,,,,,,,
+medical_insurance,SVM (RBF Kernel),98,208,SHAP-Targeted CE,False,[],343,0.03302741050720215,,,,,,,
+medical_insurance,SVM (RBF Kernel),99,216,Actionable CBFI (Proposed),False,[],42,0.0378570556640625,,,,,,,
+medical_insurance,SVM (RBF Kernel),99,216,Untargeted Causal (Karimi 2021),False,[],96,0.07541060447692871,,,,,,,
+medical_insurance,SVM (RBF Kernel),99,216,Wachter's CE,False,[],500,0.03234148025512695,,,,,,,
+medical_insurance,SVM (RBF Kernel),99,216,SHAP-Targeted CE,False,[],343,0.017170429229736328,,,,,,,
+medical_insurance,SVM (RBF Kernel),100,221,Actionable CBFI (Proposed),True,"['bmi', 'sex']",72,0.05944466590881348,6.136473127637096,2.0,,6.331218356206188,3.2881957283149457,100.0,6.135725562859992
+medical_insurance,SVM (RBF Kernel),100,221,Untargeted Causal (Karimi 2021),True,"['bmi', 'sex']",122,0.09654927253723145,6.136473127637096,2.0,,6.331218356206188,3.2881957283149457,100.0,6.135725562859992
+medical_insurance,SVM (RBF Kernel),100,221,Wachter's CE,False,[],500,0.03260946273803711,,,,,,,
+medical_insurance,SVM (RBF Kernel),100,221,SHAP-Targeted CE,True,"['bmi', 'sex']",343,0.017221927642822266,6.136473127637096,2.0,,6.331218356206188,3.2881957283149457,100.0,6.136473127637096
+medical_insurance,XGBoost,1,0,Actionable CBFI (Proposed),True,['smoker'],54,0.06686091423034668,2.4780497323146276,1.0,0.0002585153479192284,0.08560152289942329,2.474496316599568,100.0,2.477123531672177
+medical_insurance,XGBoost,1,0,Untargeted Causal (Karimi 2021),True,['smoker'],94,0.11470484733581543,2.4780497323146276,1.0,0.0002585153479192284,0.08560152289942329,2.474496316599568,100.0,2.477123531672177
+medical_insurance,XGBoost,1,0,Wachter's CE,True,"['bmi', 'smoker']",500,0.031835079193115234,1.2528856388202834,2.0,,0.5460381610172227,2.917477431541548,100.0,1.2528856388202834
+medical_insurance,XGBoost,1,0,SHAP-Targeted CE,True,['smoker'],343,0.016999483108520508,0.4130082887191049,1.0,7.180981886645233e-06,0.09362134709271272,2.920283673215868,100.0,0.4130082887191049
+medical_insurance,XGBoost,2,3,Actionable CBFI (Proposed),True,['bmi'],86,0.07542204856872559,0.6270334928229674,1.0,,0.6788338127181783,1.786687053294028,100.0,0.6270334928229674
+medical_insurance,XGBoost,2,3,Untargeted Causal (Karimi 2021),True,['bmi'],142,0.12916016578674316,0.6270334928229674,1.0,,0.6788338127181783,1.786687053294028,100.0,0.6270334928229674
+medical_insurance,XGBoost,2,3,Wachter's CE,True,"['bmi', 'region']",500,0.03193306922912598,0.8594497607655509,2.0,,0.6988474895706421,1.8471757526008226,100.0,0.8594497607655509
+medical_insurance,XGBoost,2,3,SHAP-Targeted CE,True,"['region', 'sex']",343,0.015523433685302734,0.8333515818789101,2.0,0.0,1.5722007582426147,1.978684889370035,100.0,0.8333515818789101
+medical_insurance,XGBoost,3,9,Actionable CBFI (Proposed),False,[],80,0.12732839584350586,,,,,,,
+medical_insurance,XGBoost,3,9,Untargeted Causal (Karimi 2021),False,[],130,0.19756340980529785,,,,,,,
+medical_insurance,XGBoost,3,9,Wachter's CE,False,[],500,0.03018641471862793,,,,,,,
+medical_insurance,XGBoost,3,9,SHAP-Targeted CE,False,[],343,0.014533758163452148,,,,,,,
+medical_insurance,XGBoost,4,11,Actionable CBFI (Proposed),False,[],78,0.10806941986083984,,,,,,,
+medical_insurance,XGBoost,4,11,Untargeted Causal (Karimi 2021),False,[],140,0.2257828712463379,,,,,,,
+medical_insurance,XGBoost,4,11,Wachter's CE,False,[],500,0.027622222900390625,,,,,,,
+medical_insurance,XGBoost,4,11,SHAP-Targeted CE,False,[],343,0.013591527938842773,,,,,,,
+medical_insurance,XGBoost,5,13,Actionable CBFI (Proposed),False,[],64,0.10176706314086914,,,,,,,
+medical_insurance,XGBoost,5,13,Untargeted Causal (Karimi 2021),False,[],106,0.14937734603881836,,,,,,,
+medical_insurance,XGBoost,5,13,Wachter's CE,False,[],500,0.027608394622802734,,,,,,,
+medical_insurance,XGBoost,5,13,SHAP-Targeted CE,False,[],343,0.013397216796875,,,,,,,
+medical_insurance,XGBoost,6,14,Actionable CBFI (Proposed),True,['smoker'],44,0.056818485260009766,2.4780497323146276,1.0,0.0002585153479192248,3.918185896687037,2.582818300969996,100.0,2.477123531672177
+medical_insurance,XGBoost,6,14,Untargeted Causal (Karimi 2021),True,['smoker'],86,0.10377073287963867,2.4780497323146276,1.0,0.0002585153479192248,3.918185896687037,2.582818300969996,100.0,2.477123531672177
+medical_insurance,XGBoost,6,14,Wachter's CE,True,"['bmi', 'region', 'smoker']",500,0.03245282173156738,1.278005256045165,3.0,,5.051202060683095,3.026975038334148,80.43826511530678,1.278005256045165
+medical_insurance,XGBoost,6,14,SHAP-Targeted CE,True,['smoker'],343,0.01976156234741211,0.4130082887191049,1.0,7.180981886645531e-06,3.8653216450181214,2.9090913780158565,100.0,0.4130082887191049
+medical_insurance,XGBoost,7,16,Actionable CBFI (Proposed),False,[],78,0.10442733764648438,,,,,,,
+medical_insurance,XGBoost,7,16,Untargeted Causal (Karimi 2021),False,[],118,0.15538358688354492,,,,,,,
+medical_insurance,XGBoost,7,16,Wachter's CE,False,[],500,0.02802300453186035,,,,,,,
+medical_insurance,XGBoost,7,16,SHAP-Targeted CE,False,[],343,0.0135650634765625,,,,,,,
+medical_insurance,XGBoost,8,18,Actionable CBFI (Proposed),False,[],64,0.0858006477355957,,,,,,,
+medical_insurance,XGBoost,8,18,Untargeted Causal (Karimi 2021),False,[],100,0.13133931159973145,,,,,,,
+medical_insurance,XGBoost,8,18,Wachter's CE,False,[],500,0.027563095092773438,,,,,,,
+medical_insurance,XGBoost,8,18,SHAP-Targeted CE,False,[],343,0.013365507125854492,,,,,,,
+medical_insurance,XGBoost,9,19,Actionable CBFI (Proposed),True,['smoker'],44,0.05380368232727051,2.4780497323146276,1.0,0.0002585153479192284,0.6982966603516276,2.1734206735907,100.0,2.477123531672177
+medical_insurance,XGBoost,9,19,Untargeted Causal (Karimi 2021),True,['smoker'],92,0.11283254623413086,2.4780497323146276,1.0,0.0002585153479192284,0.6982966603516276,2.1734206735907,100.0,2.477123531672177
+medical_insurance,XGBoost,9,19,Wachter's CE,True,"['bmi', 'sex', 'smoker']",500,0.04514908790588379,1.3001618154663985,3.0,,0.4896207777422318,2.2906230001899077,100.0,1.3001618154663985
+medical_insurance,XGBoost,9,19,SHAP-Targeted CE,True,['smoker'],343,0.0167238712310791,0.4130082887191049,1.0,7.180981886645531e-06,0.6760832045935957,2.562033789443972,100.0,0.4130082887191049
+medical_insurance,XGBoost,10,20,Actionable CBFI (Proposed),False,[],74,0.09979081153869629,,,,,,,
+medical_insurance,XGBoost,10,20,Untargeted Causal (Karimi 2021),False,[],106,0.14008069038391113,,,,,,,
+medical_insurance,XGBoost,10,20,Wachter's CE,False,[],500,0.027693510055541992,,,,,,,
+medical_insurance,XGBoost,10,20,SHAP-Targeted CE,False,[],343,0.013577938079833984,,,,,,,
+medical_insurance,XGBoost,11,23,Actionable CBFI (Proposed),True,['smoker'],48,0.06090950965881348,2.4780497323146276,1.0,0.0002585153479192275,0.06250186955768301,1.873911180728896,100.0,2.477123531672177
+medical_insurance,XGBoost,11,23,Untargeted Causal (Karimi 2021),True,['smoker'],106,0.1531205177307129,2.4780497323146276,1.0,0.0002585153479192275,0.06250186955768301,1.873911180728896,100.0,2.477123531672177
+medical_insurance,XGBoost,11,23,Wachter's CE,True,"['bmi', 'smoker']",500,0.03228640556335449,1.2475028637006669,2.0,,0.4469747334347581,2.443356225925186,100.0,1.2475028637006669
+medical_insurance,XGBoost,11,23,SHAP-Targeted CE,True,['smoker'],343,0.01683521270751953,0.4130082887191049,1.0,7.180981886645233e-06,0.055981955373319604,2.440028156424041,100.0,0.4130082887191049
+medical_insurance,XGBoost,12,25,Actionable CBFI (Proposed),False,[],76,0.09992766380310059,,,,,,,
+medical_insurance,XGBoost,12,25,Untargeted Causal (Karimi 2021),False,[],124,0.16257143020629883,,,,,,,
+medical_insurance,XGBoost,12,25,Wachter's CE,False,[],500,0.02789139747619629,,,,,,,
+medical_insurance,XGBoost,12,25,SHAP-Targeted CE,False,[],343,0.01346588134765625,,,,,,,
+medical_insurance,XGBoost,13,26,Actionable CBFI (Proposed),False,[],82,0.10783171653747559,,,,,,,
+medical_insurance,XGBoost,13,26,Untargeted Causal (Karimi 2021),False,[],130,0.17204928398132324,,,,,,,
+medical_insurance,XGBoost,13,26,Wachter's CE,False,[],500,0.0278322696685791,,,,,,,
+medical_insurance,XGBoost,13,26,SHAP-Targeted CE,False,[],343,0.013506889343261719,,,,,,,
+medical_insurance,XGBoost,14,27,Actionable CBFI (Proposed),False,[],56,0.07422447204589844,,,,,,,
+medical_insurance,XGBoost,14,27,Untargeted Causal (Karimi 2021),False,[],88,0.11572551727294922,,,,,,,
+medical_insurance,XGBoost,14,27,Wachter's CE,False,[],500,0.029356002807617188,,,,,,,
+medical_insurance,XGBoost,14,27,SHAP-Targeted CE,False,[],343,0.015049457550048828,,,,,,,
+medical_insurance,XGBoost,15,29,Actionable CBFI (Proposed),True,['smoker'],48,0.06876993179321289,2.4780497323146276,1.0,0.0002585153479192248,0.9838539064267129,2.1324471262051317,100.0,2.477123531672177
+medical_insurance,XGBoost,15,29,Untargeted Causal (Karimi 2021),True,['smoker'],122,0.20015859603881836,2.4780497323146276,1.0,0.0002585153479192248,0.9838539064267129,2.1324471262051317,100.0,2.477123531672177
+medical_insurance,XGBoost,15,29,Wachter's CE,True,"['bmi', 'sex', 'smoker']",500,0.03171968460083008,1.5393962652271642,3.0,,0.47877712806777506,2.200247913043839,72.7259011331832,1.5393962652271642
+medical_insurance,XGBoost,15,29,SHAP-Targeted CE,True,['smoker'],343,0.016711950302124023,0.4130082887191049,1.0,7.180981886644935e-06,0.957453293500278,2.5182102917747824,100.0,0.4130082887191049
+medical_insurance,XGBoost,16,30,Actionable CBFI (Proposed),True,['smoker'],56,0.07092714309692383,2.4780497323146276,1.0,0.0002585153479192248,0.8971680992134721,2.427808513659495,100.0,2.477123531672177
+medical_insurance,XGBoost,16,30,Untargeted Causal (Karimi 2021),True,['smoker'],102,0.12723159790039062,2.4780497323146276,1.0,0.0002585153479192248,0.8971680992134721,2.427808513659495,100.0,2.477123531672177
+medical_insurance,XGBoost,16,30,Wachter's CE,True,"['bmi', 'sex', 'smoker']",500,0.03191876411437988,1.3719321503946296,3.0,,0.5807413014800032,2.5091982762252,100.0,1.3719321503946296
+medical_insurance,XGBoost,16,30,SHAP-Targeted CE,True,['smoker'],343,0.016658306121826172,0.4130082887191049,1.0,7.180981886644935e-06,0.871965449169544,2.770702401362256,100.0,0.4130082887191049
+medical_insurance,XGBoost,17,33,Actionable CBFI (Proposed),False,[],56,0.09024834632873535,,,,,,,
+medical_insurance,XGBoost,17,33,Untargeted Causal (Karimi 2021),False,[],88,0.11368441581726074,,,,,,,
+medical_insurance,XGBoost,17,33,Wachter's CE,False,[],500,0.027437448501586914,,,,,,,
+medical_insurance,XGBoost,17,33,SHAP-Targeted CE,False,[],343,0.013701438903808594,,,,,,,
+medical_insurance,XGBoost,18,34,Actionable CBFI (Proposed),True,['smoker'],48,0.06018209457397461,2.4780497323146276,1.0,0.0002585153479192284,1.0643514213007974,2.0895111638623107,100.0,2.477123531672177
+medical_insurance,XGBoost,18,34,Untargeted Causal (Karimi 2021),True,['smoker'],102,0.12593889236450195,2.4780497323146276,1.0,0.0002585153479192284,1.0643514213007974,2.0895111638623107,100.0,2.477123531672177
+medical_insurance,XGBoost,18,34,Wachter's CE,True,"['bmi', 'sex', 'smoker']",500,0.03151249885559082,1.563319710203241,3.0,,0.5116723542863215,2.1476121663174785,100.0,1.563319710203241
+medical_insurance,XGBoost,18,34,SHAP-Targeted CE,True,['smoker'],343,0.01679682731628418,0.4130082887191049,1.0,7.180981886645531e-06,1.0368848099925028,2.4827488338284596,100.0,0.4130082887191049
+medical_insurance,XGBoost,19,36,Actionable CBFI (Proposed),False,[],56,0.07501006126403809,,,,,,,
+medical_insurance,XGBoost,19,36,Untargeted Causal (Karimi 2021),False,[],88,0.1151278018951416,,,,,,,
+medical_insurance,XGBoost,19,36,Wachter's CE,False,[],500,0.027773618698120117,,,,,,,
+medical_insurance,XGBoost,19,36,SHAP-Targeted CE,False,[],343,0.014170408248901367,,,,,,,
+medical_insurance,XGBoost,20,38,Actionable CBFI (Proposed),True,['smoker'],56,0.06957840919494629,2.4780497323146276,1.0,0.0002585153479192284,1.0433052995725387,2.1851130372573064,100.0,2.477123531672177
+medical_insurance,XGBoost,20,38,Untargeted Causal (Karimi 2021),True,['smoker'],94,0.11531949043273926,2.4780497323146276,1.0,0.0002585153479192284,1.0433052995725387,2.1851130372573064,100.0,2.477123531672177
+medical_insurance,XGBoost,20,38,Wachter's CE,True,"['bmi', 'smoker']",500,0.031908512115478516,1.7473980718989406,2.0,,0.44194500894965066,2.024899895939174,100.0,1.7473980718989406
+medical_insurance,XGBoost,20,38,SHAP-Targeted CE,True,['smoker'],343,0.016662120819091797,0.4130082887191049,1.0,7.180981886645531e-06,1.0161133856144469,2.5664889772692985,100.0,0.4130082887191049
+medical_insurance,XGBoost,21,39,Actionable CBFI (Proposed),False,[],60,0.07981514930725098,,,,,,,
+medical_insurance,XGBoost,21,39,Untargeted Causal (Karimi 2021),False,[],118,0.15511059761047363,,,,,,,
+medical_insurance,XGBoost,21,39,Wachter's CE,False,[],500,0.02763986587524414,,,,,,,
+medical_insurance,XGBoost,21,39,SHAP-Targeted CE,False,[],343,0.013529300689697266,,,,,,,
+medical_insurance,XGBoost,22,45,Actionable CBFI (Proposed),False,[],64,0.08538532257080078,,,,,,,
+medical_insurance,XGBoost,22,45,Untargeted Causal (Karimi 2021),False,[],100,0.13829326629638672,,,,,,,
+medical_insurance,XGBoost,22,45,Wachter's CE,False,[],500,0.0460665225982666,,,,,,,
+medical_insurance,XGBoost,22,45,SHAP-Targeted CE,False,[],343,0.03896737098693848,,,,,,,
+medical_insurance,XGBoost,23,48,Actionable CBFI (Proposed),False,[],66,0.08710193634033203,,,,,,,
+medical_insurance,XGBoost,23,48,Untargeted Causal (Karimi 2021),False,[],104,0.13436269760131836,,,,,,,
+medical_insurance,XGBoost,23,48,Wachter's CE,False,[],500,0.027776479721069336,,,,,,,
+medical_insurance,XGBoost,23,48,SHAP-Targeted CE,False,[],343,0.01362466812133789,,,,,,,
+medical_insurance,XGBoost,24,49,Actionable CBFI (Proposed),True,['smoker'],56,0.07344937324523926,2.4780497323146276,1.0,0.0002585153479192248,0.5967345301149458,1.418059062744796,100.0,2.477123531672177
+medical_insurance,XGBoost,24,49,Untargeted Causal (Karimi 2021),True,['smoker'],90,0.10987973213195801,2.4780497323146276,1.0,0.0002585153479192248,0.5967345301149458,1.418059062744796,100.0,2.477123531672177
+medical_insurance,XGBoost,24,49,Wachter's CE,True,"['bmi', 'region', 'smoker']",500,0.03193211555480957,1.2762109976719587,3.0,,0.42638026567137427,1.7452747661088686,100.0,1.2762109976719587
+medical_insurance,XGBoost,24,49,SHAP-Targeted CE,True,['smoker'],343,0.016529083251953125,0.4130082887191049,1.0,7.180981886644935e-06,0.5762134753178252,1.963897892067517,100.0,0.4130082887191049
+medical_insurance,XGBoost,25,52,Actionable CBFI (Proposed),True,['smoker'],58,0.07159781455993652,2.4780497323146276,1.0,0.0002585153479192266,0.2521410331246612,2.03205797437657,100.0,2.477123531672177
+medical_insurance,XGBoost,25,52,Untargeted Causal (Karimi 2021),True,['smoker'],90,0.10881710052490234,2.4780497323146276,1.0,0.0002585153479192266,0.2521410331246612,2.03205797437657,100.0,2.477123531672177
+medical_insurance,XGBoost,25,52,Wachter's CE,True,"['bmi', 'sex', 'smoker']",500,0.03454089164733887,1.776836456614725,3.0,,0.9310464587607804,2.3935299485271764,71.85855957891421,1.776836456614725
+medical_insurance,XGBoost,25,52,SHAP-Targeted CE,True,['smoker'],343,0.01585841178894043,0.4130082887191049,1.0,7.180981886645531e-06,0.2657764864459706,2.467523165827931,100.0,0.4130082887191049
+medical_insurance,XGBoost,26,53,Actionable CBFI (Proposed),True,['smoker'],58,0.0721428394317627,2.4780497323146276,1.0,0.0002585153479192248,0.4175378555318823,1.642679474502156,100.0,2.477123531672177
+medical_insurance,XGBoost,26,53,Untargeted Causal (Karimi 2021),True,['smoker'],108,0.1346433162689209,2.4780497323146276,1.0,0.0002585153479192248,0.4175378555318823,1.642679474502156,100.0,2.477123531672177
+medical_insurance,XGBoost,26,53,Wachter's CE,True,"['bmi', 'region', 'smoker']",500,0.03262662887573242,1.1470243948011456,3.0,,0.42638026567137427,1.9749417679720762,100.0,1.1470243948011456
+medical_insurance,XGBoost,26,53,SHAP-Targeted CE,True,['smoker'],343,0.016574621200561523,0.4130082887191049,1.0,7.180981886644935e-06,0.40040168841638846,2.1381470734558445,100.0,0.4130082887191049
+medical_insurance,XGBoost,27,55,Actionable CBFI (Proposed),False,[],86,0.1132657527923584,,,,,,,
+medical_insurance,XGBoost,27,55,Untargeted Causal (Karimi 2021),False,[],140,0.18470430374145508,,,,,,,
+medical_insurance,XGBoost,27,55,Wachter's CE,False,[],500,0.027462244033813477,,,,,,,
+medical_insurance,XGBoost,27,55,SHAP-Targeted CE,False,[],343,0.013544559478759766,,,,,,,
+medical_insurance,XGBoost,28,56,Actionable CBFI (Proposed),False,[],68,0.10683822631835938,,,,,,,
+medical_insurance,XGBoost,28,56,Untargeted Causal (Karimi 2021),False,[],100,0.1546475887298584,,,,,,,
+medical_insurance,XGBoost,28,56,Wachter's CE,False,[],500,0.05599045753479004,,,,,,,
+medical_insurance,XGBoost,28,56,SHAP-Targeted CE,False,[],343,0.019841909408569336,,,,,,,
+medical_insurance,XGBoost,29,57,Actionable CBFI (Proposed),True,['smoker'],52,0.06613492965698242,2.4780497323146276,1.0,0.0002585153479192275,0.11242783469208226,2.1097499909417934,100.0,2.477123531672177
+medical_insurance,XGBoost,29,57,Untargeted Causal (Karimi 2021),True,['smoker'],108,0.13725018501281738,2.4780497323146276,1.0,0.0002585153479192275,0.11242783469208226,2.1097499909417934,100.0,2.477123531672177
+medical_insurance,XGBoost,29,57,Wachter's CE,True,"['bmi', 'region', 'smoker']",500,0.03202390670776367,1.804919131643251,3.0,,0.6292157809103012,2.439771919688173,72.29792785537236,1.804919131643251
+medical_insurance,XGBoost,29,57,SHAP-Targeted CE,True,['smoker'],343,0.016605854034423828,0.4130082887191049,1.0,7.180981886645382e-06,0.10362213667951967,2.480123359268606,100.0,0.4130082887191049
+medical_insurance,XGBoost,30,58,Actionable CBFI (Proposed),False,[],64,0.08711028099060059,,,,,,,
+medical_insurance,XGBoost,30,58,Untargeted Causal (Karimi 2021),False,[],128,0.19287633895874023,,,,,,,
+medical_insurance,XGBoost,30,58,Wachter's CE,False,[],500,0.02788257598876953,,,,,,,
+medical_insurance,XGBoost,30,58,SHAP-Targeted CE,False,[],343,0.013626337051391602,,,,,,,
+medical_insurance,XGBoost,31,62,Actionable CBFI (Proposed),False,[],54,0.07223844528198242,,,,,,,
+medical_insurance,XGBoost,31,62,Untargeted Causal (Karimi 2021),False,[],86,0.11065483093261719,,,,,,,
+medical_insurance,XGBoost,31,62,Wachter's CE,False,[],500,0.02766561508178711,,,,,,,
+medical_insurance,XGBoost,31,62,SHAP-Targeted CE,False,[],343,0.013506889343261719,,,,,,,
+medical_insurance,XGBoost,32,64,Actionable CBFI (Proposed),True,['smoker'],58,0.07223773002624512,2.4780497323146276,1.0,0.0002585153479192248,1.4383995887033068,2.291629090212533,100.0,2.477123531672177
+medical_insurance,XGBoost,32,64,Untargeted Causal (Karimi 2021),True,['smoker'],98,0.12143850326538086,2.4780497323146276,1.0,0.0002585153479192248,1.4383995887033068,2.291629090212533,100.0,2.477123531672177
+medical_insurance,XGBoost,32,64,Wachter's CE,True,"['bmi', 'region', 'smoker']",500,0.031903982162475586,2.2971440120260254,3.0,,0.5576143489711194,2.768493887095556,100.0,2.2971440120260254
+medical_insurance,XGBoost,32,64,SHAP-Targeted CE,True,['smoker'],343,0.016553163528442383,0.41300828871910494,1.0,7.180981886644341e-06,1.470718063750196,2.766305979325354,100.0,0.41300828871910494
+medical_insurance,XGBoost,33,66,Actionable CBFI (Proposed),False,[],78,0.10208892822265625,,,,,,,
+medical_insurance,XGBoost,33,66,Untargeted Causal (Karimi 2021),False,[],126,0.166520357131958,,,,,,,
+medical_insurance,XGBoost,33,66,Wachter's CE,False,[],500,0.02929067611694336,,,,,,,
+medical_insurance,XGBoost,33,66,SHAP-Targeted CE,False,[],343,0.014382123947143555,,,,,,,
+medical_insurance,XGBoost,34,69,Actionable CBFI (Proposed),True,['smoker'],64,0.08335447311401367,2.4780497323146276,1.0,0.0002585153479192248,1.011549871631104,2.4515713112036575,100.0,2.477123531672177
+medical_insurance,XGBoost,34,69,Untargeted Causal (Karimi 2021),True,['smoker'],96,0.16296720504760742,2.4780497323146276,1.0,0.0002585153479192248,1.011549871631104,2.4515713112036575,100.0,2.477123531672177
+medical_insurance,XGBoost,34,69,Wachter's CE,True,"['bmi', 'region', 'sex', 'smoker']",500,0.03231406211853027,1.6739656432175962,4.0,,0.654595178944411,2.5355132770517277,70.12917350817057,1.6739656432175962
+medical_insurance,XGBoost,34,69,SHAP-Targeted CE,True,['smoker'],343,0.0170896053314209,0.4130082887191049,1.0,7.180981886645531e-06,1.0386810590316473,2.7880395466816275,100.0,0.4130082887191049
+medical_insurance,XGBoost,35,70,Actionable CBFI (Proposed),True,['smoker'],56,0.07079243659973145,2.4780497323146276,1.0,0.0002585153479192248,0.759777663522366,1.9424400196584395,100.0,2.477123531672177
+medical_insurance,XGBoost,35,70,Untargeted Causal (Karimi 2021),True,['smoker'],90,0.1110999584197998,2.4780497323146276,1.0,0.0002585153479192248,0.759777663522366,1.9424400196584395,100.0,2.477123531672177
+medical_insurance,XGBoost,35,70,Wachter's CE,True,"['bmi', 'region', 'sex', 'smoker']",500,0.033064842224121094,1.489755116901807,4.0,,0.6420475851367101,2.2237043041683893,66.43559957301875,1.489755116901807
+medical_insurance,XGBoost,35,70,SHAP-Targeted CE,True,['smoker'],343,0.016360759735107422,0.4130082887191049,1.0,7.180981886644935e-06,0.7833151623815989,2.49607304334005,100.0,0.4130082887191049
+medical_insurance,XGBoost,36,72,Actionable CBFI (Proposed),False,[],72,0.1101071834564209,,,,,,,
+medical_insurance,XGBoost,36,72,Untargeted Causal (Karimi 2021),False,[],110,0.1447920799255371,,,,,,,
+medical_insurance,XGBoost,36,72,Wachter's CE,False,[],500,0.027828454971313477,,,,,,,
+medical_insurance,XGBoost,36,72,SHAP-Targeted CE,False,[],343,0.013482332229614258,,,,,,,
+medical_insurance,XGBoost,37,73,Actionable CBFI (Proposed),False,[],68,0.09043431282043457,,,,,,,
+medical_insurance,XGBoost,37,73,Untargeted Causal (Karimi 2021),False,[],106,0.13999056816101074,,,,,,,
+medical_insurance,XGBoost,37,73,Wachter's CE,False,[],500,0.027394771575927734,,,,,,,
+medical_insurance,XGBoost,37,73,SHAP-Targeted CE,False,[],343,0.013651371002197266,,,,,,,
+medical_insurance,XGBoost,38,75,Actionable CBFI (Proposed),False,[],74,0.09923315048217773,,,,,,,
+medical_insurance,XGBoost,38,75,Untargeted Causal (Karimi 2021),False,[],130,0.17145848274230957,,,,,,,
+medical_insurance,XGBoost,38,75,Wachter's CE,False,[],500,0.027892112731933594,,,,,,,
+medical_insurance,XGBoost,38,75,SHAP-Targeted CE,False,[],343,0.013730287551879883,,,,,,,
+medical_insurance,XGBoost,39,82,Actionable CBFI (Proposed),True,['smoker'],70,0.09060263633728027,2.4780497323146276,1.0,0.00025851534791923196,1.6347142140198603,2.0974374506619307,100.0,2.477123531672177
+medical_insurance,XGBoost,39,82,Untargeted Causal (Karimi 2021),True,['smoker'],136,0.1896204948425293,2.4780497323146276,1.0,0.00025851534791923196,1.6347142140198603,2.0974374506619307,100.0,2.477123531672177
+medical_insurance,XGBoost,39,82,Wachter's CE,True,"['bmi', 'region', 'smoker']",500,0.031640052795410156,1.8551583660930098,3.0,,0.5807413014800032,2.130645077123562,100.0,1.8551583660930098
+medical_insurance,XGBoost,39,82,SHAP-Targeted CE,True,['smoker'],343,0.016714096069335938,0.4130082887191049,1.0,7.180981886645531e-06,1.6006317287591967,2.477900839060387,100.0,0.4130082887191049
+medical_insurance,XGBoost,40,83,Actionable CBFI (Proposed),False,[],60,0.07953906059265137,,,,,,,
+medical_insurance,XGBoost,40,83,Untargeted Causal (Karimi 2021),False,[],92,0.12202596664428711,,,,,,,
+medical_insurance,XGBoost,40,83,Wachter's CE,False,[],500,0.027827978134155273,,,,,,,
+medical_insurance,XGBoost,40,83,SHAP-Targeted CE,False,[],343,0.01356959342956543,,,,,,,
+medical_insurance,XGBoost,41,84,Actionable CBFI (Proposed),True,['smoker'],68,0.0866549015045166,2.4780497323146276,1.0,0.0002585153479192284,0.4887076781532052,1.9811689612291914,100.0,2.477123531672177
+medical_insurance,XGBoost,41,84,Untargeted Causal (Karimi 2021),True,['smoker'],138,0.17982029914855957,2.4780497323146276,1.0,0.0002585153479192284,0.4887076781532052,1.9811689612291914,100.0,2.477123531672177
+medical_insurance,XGBoost,41,84,Wachter's CE,True,"['bmi', 'sex', 'smoker']",500,0.03232264518737793,1.180544590586016,3.0,,0.4162651703872705,2.1913374730204698,57.64434678658312,1.180544590586016
+medical_insurance,XGBoost,41,84,SHAP-Targeted CE,True,['smoker'],343,0.01694321632385254,0.4130082887191049,1.0,7.180981886645531e-06,0.470153807427003,2.528196229402154,100.0,0.4130082887191049
+medical_insurance,XGBoost,42,85,Actionable CBFI (Proposed),True,['smoker'],48,0.06092667579650879,2.4780497323146276,1.0,0.0002585153479192248,1.7324035028465716,1.998817052396737,100.0,2.477123531672177
+medical_insurance,XGBoost,42,85,Untargeted Causal (Karimi 2021),True,['smoker'],94,0.11654114723205566,2.4780497323146276,1.0,0.0002585153479192248,1.7324035028465716,1.998817052396737,100.0,2.477123531672177
+medical_insurance,XGBoost,42,85,Wachter's CE,True,"['bmi', 'region', 'sex', 'smoker']",500,0.03139019012451172,1.9335350212080273,4.0,,0.8864824106293248,1.9871594410370632,87.07031435904348,1.9335350212080273
+medical_insurance,XGBoost,42,85,SHAP-Targeted CE,True,['smoker'],343,0.01687335968017578,0.41300828871910494,1.0,7.180981886645531e-06,1.7678539193222127,2.428111568873019,99.99999999999999,0.41300828871910494
+medical_insurance,XGBoost,43,86,Actionable CBFI (Proposed),False,[],52,0.06930232048034668,,,,,,,
+medical_insurance,XGBoost,43,86,Untargeted Causal (Karimi 2021),False,[],120,0.15684938430786133,,,,,,,
+medical_insurance,XGBoost,43,86,Wachter's CE,False,[],500,0.028352975845336914,,,,,,,
+medical_insurance,XGBoost,43,86,SHAP-Targeted CE,False,[],343,0.013813257217407227,,,,,,,
+medical_insurance,XGBoost,44,87,Actionable CBFI (Proposed),False,[],60,0.08241701126098633,,,,,,,
+medical_insurance,XGBoost,44,87,Untargeted Causal (Karimi 2021),False,[],102,0.137451171875,,,,,,,
+medical_insurance,XGBoost,44,87,Wachter's CE,False,[],500,0.030279874801635742,,,,,,,
+medical_insurance,XGBoost,44,87,SHAP-Targeted CE,False,[],343,0.016716718673706055,,,,,,,
+medical_insurance,XGBoost,45,89,Actionable CBFI (Proposed),False,[],64,0.08753490447998047,,,,,,,
+medical_insurance,XGBoost,45,89,Untargeted Causal (Karimi 2021),False,[],96,0.12539100646972656,,,,,,,
+medical_insurance,XGBoost,45,89,Wachter's CE,False,[],500,0.027748584747314453,,,,,,,
+medical_insurance,XGBoost,45,89,SHAP-Targeted CE,False,[],343,0.013700008392333984,,,,,,,
+medical_insurance,XGBoost,46,91,Actionable CBFI (Proposed),False,[],62,0.08329629898071289,,,,,,,
+medical_insurance,XGBoost,46,91,Untargeted Causal (Karimi 2021),False,[],94,0.12368512153625488,,,,,,,
+medical_insurance,XGBoost,46,91,Wachter's CE,False,[],500,0.02767324447631836,,,,,,,
+medical_insurance,XGBoost,46,91,SHAP-Targeted CE,False,[],343,0.01354217529296875,,,,,,,
+medical_insurance,XGBoost,47,92,Actionable CBFI (Proposed),False,[],80,0.10464978218078613,,,,,,,
+medical_insurance,XGBoost,47,92,Untargeted Causal (Karimi 2021),False,[],124,0.16732072830200195,,,,,,,
+medical_insurance,XGBoost,47,92,Wachter's CE,False,[],500,0.027588844299316406,,,,,,,
+medical_insurance,XGBoost,47,92,SHAP-Targeted CE,False,[],343,0.013436317443847656,,,,,,,
+medical_insurance,XGBoost,48,94,Actionable CBFI (Proposed),False,[],56,0.07500624656677246,,,,,,,
+medical_insurance,XGBoost,48,94,Untargeted Causal (Karimi 2021),False,[],128,0.16741561889648438,,,,,,,
+medical_insurance,XGBoost,48,94,Wachter's CE,False,[],500,0.07065916061401367,,,,,,,
+medical_insurance,XGBoost,48,94,SHAP-Targeted CE,False,[],343,0.013506412506103516,,,,,,,
+medical_insurance,XGBoost,49,96,Actionable CBFI (Proposed),False,[],70,0.09241509437561035,,,,,,,
+medical_insurance,XGBoost,49,96,Untargeted Causal (Karimi 2021),False,[],108,0.14162802696228027,,,,,,,
+medical_insurance,XGBoost,49,96,Wachter's CE,False,[],500,0.0273892879486084,,,,,,,
+medical_insurance,XGBoost,49,96,SHAP-Targeted CE,False,[],343,0.01361536979675293,,,,,,,
+medical_insurance,XGBoost,50,97,Actionable CBFI (Proposed),False,[],64,0.08468270301818848,,,,,,,
+medical_insurance,XGBoost,50,97,Untargeted Causal (Karimi 2021),False,[],108,0.1569502353668213,,,,,,,
+medical_insurance,XGBoost,50,97,Wachter's CE,False,[],500,0.0276639461517334,,,,,,,
+medical_insurance,XGBoost,50,97,SHAP-Targeted CE,False,[],343,0.013514995574951172,,,,,,,
+medical_insurance,XGBoost,51,98,Actionable CBFI (Proposed),False,[],86,0.11359095573425293,,,,,,,
+medical_insurance,XGBoost,51,98,Untargeted Causal (Karimi 2021),False,[],134,0.17729473114013672,,,,,,,
+medical_insurance,XGBoost,51,98,Wachter's CE,False,[],500,0.027393579483032227,,,,,,,
+medical_insurance,XGBoost,51,98,SHAP-Targeted CE,False,[],343,0.013592243194580078,,,,,,,
+medical_insurance,XGBoost,52,99,Actionable CBFI (Proposed),True,['smoker'],70,0.08882856369018555,2.4780497323146276,1.0,0.0002585153479192248,3.427700417149089,2.935567597297485,100.0,2.477123531672177
+medical_insurance,XGBoost,52,99,Untargeted Causal (Karimi 2021),True,['smoker'],122,0.15537261962890625,2.4780497323146276,1.0,0.0002585153479192248,3.427700417149089,2.935567597297485,100.0,2.477123531672177
+medical_insurance,XGBoost,52,99,Wachter's CE,True,"['bmi', 'smoker']",500,0.031658172607421875,1.418555495279614,2.0,,5.8147166472056435,3.5624593067859913,100.0,1.418555495279614
+medical_insurance,XGBoost,52,99,SHAP-Targeted CE,True,['smoker'],343,0.01656508445739746,0.4130082887191049,1.0,7.180981886645531e-06,3.477492696717916,3.2481803899846997,100.0,0.4130082887191049
+medical_insurance,XGBoost,53,103,Actionable CBFI (Proposed),False,[],76,0.10068249702453613,,,,,,,
+medical_insurance,XGBoost,53,103,Untargeted Causal (Karimi 2021),False,[],146,0.19699978828430176,,,,,,,
+medical_insurance,XGBoost,53,103,Wachter's CE,False,[],500,0.042070627212524414,,,,,,,
+medical_insurance,XGBoost,53,103,SHAP-Targeted CE,False,[],343,0.013793468475341797,,,,,,,
+medical_insurance,XGBoost,54,105,Actionable CBFI (Proposed),True,['smoker'],56,0.0701758861541748,2.4780497323146276,1.0,0.0002585153479192266,0.07832367123007669,1.8602619015513644,100.0,2.477123531672177
+medical_insurance,XGBoost,54,105,Untargeted Causal (Karimi 2021),True,['smoker'],94,0.11636519432067871,2.4780497323146276,1.0,0.0002585153479192266,0.07832367123007669,1.8602619015513644,100.0,2.477123531672177
+medical_insurance,XGBoost,54,105,Wachter's CE,True,"['bmi', 'region', 'sex', 'smoker']",500,0.03185915946960449,2.0328173178587434,4.0,,0.5576143489711194,2.157957065349149,75.40224749044022,2.0328173178587434
+medical_insurance,XGBoost,54,105,SHAP-Targeted CE,True,['smoker'],343,0.016507387161254883,0.41300828871910494,1.0,7.180981886645233e-06,0.086002801529539,2.279652698500596,100.0,0.41300828871910494
+medical_insurance,XGBoost,55,109,Actionable CBFI (Proposed),False,[],78,0.10429143905639648,,,,,,,
+medical_insurance,XGBoost,55,109,Untargeted Causal (Karimi 2021),False,[],124,0.1846010684967041,,,,,,,
+medical_insurance,XGBoost,55,109,Wachter's CE,False,[],500,0.02756357192993164,,,,,,,
+medical_insurance,XGBoost,55,109,SHAP-Targeted CE,False,[],343,0.013396024703979492,,,,,,,
+medical_insurance,XGBoost,56,110,Actionable CBFI (Proposed),False,[],62,0.09804320335388184,,,,,,,
+medical_insurance,XGBoost,56,110,Untargeted Causal (Karimi 2021),False,[],96,0.1268153190612793,,,,,,,
+medical_insurance,XGBoost,56,110,Wachter's CE,False,[],500,0.027667999267578125,,,,,,,
+medical_insurance,XGBoost,56,110,SHAP-Targeted CE,False,[],343,0.013475656509399414,,,,,,,
+medical_insurance,XGBoost,57,111,Actionable CBFI (Proposed),False,[],68,0.0920867919921875,,,,,,,
+medical_insurance,XGBoost,57,111,Untargeted Causal (Karimi 2021),False,[],110,0.14506316184997559,,,,,,,
+medical_insurance,XGBoost,57,111,Wachter's CE,False,[],500,0.02765345573425293,,,,,,,
+medical_insurance,XGBoost,57,111,SHAP-Targeted CE,False,[],343,0.013532161712646484,,,,,,,
+medical_insurance,XGBoost,58,114,Actionable CBFI (Proposed),False,[],56,0.07490396499633789,,,,,,,
+medical_insurance,XGBoost,58,114,Untargeted Causal (Karimi 2021),False,[],88,0.11743640899658203,,,,,,,
+medical_insurance,XGBoost,58,114,Wachter's CE,False,[],500,0.02991771697998047,,,,,,,
+medical_insurance,XGBoost,58,114,SHAP-Targeted CE,False,[],343,0.014514684677124023,,,,,,,
+medical_insurance,XGBoost,59,115,Actionable CBFI (Proposed),False,[],56,0.07594752311706543,,,,,,,
+medical_insurance,XGBoost,59,115,Untargeted Causal (Karimi 2021),False,[],88,0.15679311752319336,,,,,,,
+medical_insurance,XGBoost,59,115,Wachter's CE,False,[],500,0.02748894691467285,,,,,,,
+medical_insurance,XGBoost,59,115,SHAP-Targeted CE,False,[],343,0.013569116592407227,,,,,,,
+medical_insurance,XGBoost,60,116,Actionable CBFI (Proposed),False,[],46,0.0671529769897461,,,,,,,
+medical_insurance,XGBoost,60,116,Untargeted Causal (Karimi 2021),False,[],106,0.13791775703430176,,,,,,,
+medical_insurance,XGBoost,60,116,Wachter's CE,False,[],500,0.028193235397338867,,,,,,,
+medical_insurance,XGBoost,60,116,SHAP-Targeted CE,False,[],343,0.013292551040649414,,,,,,,
+medical_insurance,XGBoost,61,117,Actionable CBFI (Proposed),True,['smoker'],54,0.0666806697845459,2.4780497323146276,1.0,0.0002585153479192266,0.132448000952659,1.4607610026862081,100.0,2.477123531672177
+medical_insurance,XGBoost,61,117,Untargeted Causal (Karimi 2021),True,['smoker'],90,0.1090555191040039,2.4780497323146276,1.0,0.0002585153479192266,0.132448000952659,1.4607610026862081,100.0,2.477123531672177
+medical_insurance,XGBoost,61,117,Wachter's CE,True,"['bmi', 'region', 'sex', 'smoker']",500,0.031688690185546875,2.0124823896290795,4.0,,0.6672641984838371,1.9952727311116973,75.15370194565901,2.0124823896290795
+medical_insurance,XGBoost,61,117,SHAP-Targeted CE,True,['smoker'],343,0.01661396026611328,0.4130082887191049,1.0,7.180981886645233e-06,0.14237999542166235,2.138387979631135,100.0,0.4130082887191049
+medical_insurance,XGBoost,62,123,Actionable CBFI (Proposed),True,['smoker'],42,0.0577082633972168,2.4780497323146276,1.0,0.0002585153479192275,0.006174804498730071,1.8470615425954122,100.0,2.477123531672177
+medical_insurance,XGBoost,62,123,Untargeted Causal (Karimi 2021),True,['smoker'],98,0.12217378616333008,2.4780497323146276,1.0,0.0002585153479192275,0.006174804498730071,1.8470615425954122,100.0,2.477123531672177
+medical_insurance,XGBoost,62,123,Wachter's CE,True,"['bmi', 'smoker']",500,0.031781911849975586,2.00337893314296,2.0,,0.3536238838281604,2.0159995537896815,61.846755282261825,2.00337893314296
+medical_insurance,XGBoost,62,123,SHAP-Targeted CE,True,['smoker'],343,0.016471147537231445,0.4130082887191049,1.0,7.180981886645233e-06,0.004248594987213674,2.302144939132291,100.0,0.4130082887191049
+medical_insurance,XGBoost,63,124,Actionable CBFI (Proposed),True,"['bmi', 'sex']",56,0.07193827629089355,6.295564036728004,2.0,,6.09813472015533,3.244253350173514,100.0,6.294816471950901
+medical_insurance,XGBoost,63,124,Untargeted Causal (Karimi 2021),True,"['bmi', 'sex']",88,0.11182498931884766,6.295564036728004,2.0,,6.09813472015533,3.244253350173514,100.0,6.294816471950901
+medical_insurance,XGBoost,63,124,Wachter's CE,True,"['bmi', 'region', 'smoker']",500,0.02873373031616211,4.993316260829855,3.0,,4.408699055510859,3.073298119581658,87.59316653065956,4.993316260829855
+medical_insurance,XGBoost,63,124,SHAP-Targeted CE,False,[],343,0.01343083381652832,,,,,,,
+medical_insurance,XGBoost,64,126,Actionable CBFI (Proposed),True,['smoker'],54,0.0671837329864502,2.4780497323146276,1.0,0.0002585153479192284,0.05151065425991166,2.462898889236618,100.0,2.477123531672177
+medical_insurance,XGBoost,64,126,Untargeted Causal (Karimi 2021),True,['smoker'],94,0.11540365219116211,2.4780497323146276,1.0,0.0002585153479192284,0.05151065425991166,2.462898889236618,100.0,2.477123531672177
+medical_insurance,XGBoost,64,126,Wachter's CE,True,"['bmi', 'smoker']",500,0.032134056091308594,1.3485794187245899,2.0,,0.5460381610172227,2.917477431541548,100.0,1.3485794187245899
+medical_insurance,XGBoost,64,126,SHAP-Targeted CE,True,['smoker'],343,0.01673722267150879,0.4130082887191049,1.0,7.180981886645233e-06,0.05777209524196629,2.9103093378012543,100.0,0.4130082887191049
+medical_insurance,XGBoost,65,127,Actionable CBFI (Proposed),True,['sex'],64,0.08165311813354492,2.00010949127346,1.0,0.0,1.0175044586561848,2.3459605031688877,100.0,1.9993619264963565
+medical_insurance,XGBoost,65,127,Untargeted Causal (Karimi 2021),True,['sex'],108,0.13750791549682617,2.00010949127346,1.0,0.0,1.0175044586561848,2.3459605031688877,100.0,1.9993619264963565
+medical_insurance,XGBoost,65,127,Wachter's CE,True,"['bmi', 'sex']",500,0.028018474578857422,2.6831238453404445,2.0,,0.2919967858224266,2.2357202519002577,100.0,2.6831238453404445
+medical_insurance,XGBoost,65,127,SHAP-Targeted CE,True,['sex'],343,0.013679981231689453,2.00010949127346,1.0,0.0,1.0175044586561848,2.3459605031688877,100.0,2.00010949127346
+medical_insurance,XGBoost,66,128,Actionable CBFI (Proposed),True,['smoker'],56,0.06990909576416016,2.4780497323146276,1.0,0.0002585153479192248,4.229036718169206,2.5049168920498714,100.0,2.477123531672177
+medical_insurance,XGBoost,66,128,Untargeted Causal (Karimi 2021),True,['smoker'],94,0.11824512481689453,2.4780497323146276,1.0,0.0002585153479192248,4.229036718169206,2.5049168920498714,100.0,2.477123531672177
+medical_insurance,XGBoost,66,128,Wachter's CE,True,"['bmi', 'region', 'smoker']",500,0.03347611427307129,1.5513306148968393,3.0,,5.5914338023677885,3.0814155994362564,100.0,1.5513306148968393
+medical_insurance,XGBoost,66,128,SHAP-Targeted CE,True,['smoker'],343,0.02018141746520996,0.41300828871910494,1.0,7.180981886644341e-06,4.284323988153044,2.953030111077675,100.0,0.41300828871910494
+medical_insurance,XGBoost,67,130,Actionable CBFI (Proposed),False,[],74,0.09795355796813965,,,,,,,
+medical_insurance,XGBoost,67,130,Untargeted Causal (Karimi 2021),False,[],116,0.15224552154541016,,,,,,,
+medical_insurance,XGBoost,67,130,Wachter's CE,False,[],500,0.027482271194458008,,,,,,,
+medical_insurance,XGBoost,67,130,SHAP-Targeted CE,False,[],343,0.013745307922363281,,,,,,,
+medical_insurance,XGBoost,68,131,Actionable CBFI (Proposed),False,[],86,0.1140601634979248,,,,,,,
+medical_insurance,XGBoost,68,131,Untargeted Causal (Karimi 2021),False,[],142,0.18601298332214355,,,,,,,
+medical_insurance,XGBoost,68,131,Wachter's CE,False,[],500,0.027709245681762695,,,,,,,
+medical_insurance,XGBoost,68,131,SHAP-Targeted CE,False,[],343,0.013416528701782227,,,,,,,
+medical_insurance,XGBoost,69,132,Actionable CBFI (Proposed),False,[],64,0.09058499336242676,,,,,,,
+medical_insurance,XGBoost,69,132,Untargeted Causal (Karimi 2021),False,[],108,0.1482079029083252,,,,,,,
+medical_insurance,XGBoost,69,132,Wachter's CE,False,[],500,0.028992414474487305,,,,,,,
+medical_insurance,XGBoost,69,132,SHAP-Targeted CE,False,[],343,0.013342618942260742,,,,,,,
+medical_insurance,XGBoost,70,138,Actionable CBFI (Proposed),False,[],70,0.09300947189331055,,,,,,,
+medical_insurance,XGBoost,70,138,Untargeted Causal (Karimi 2021),False,[],108,0.14087486267089844,,,,,,,
+medical_insurance,XGBoost,70,138,Wachter's CE,False,[],500,0.06942462921142578,,,,,,,
+medical_insurance,XGBoost,70,138,SHAP-Targeted CE,False,[],343,0.013485908508300781,,,,,,,
+medical_insurance,XGBoost,71,140,Actionable CBFI (Proposed),True,['bmi'],86,0.07894349098205566,0.6952153110047848,1.0,,0.6917341433687977,2.101562806532878,100.0,0.6952153110047848
+medical_insurance,XGBoost,71,140,Untargeted Causal (Karimi 2021),True,['bmi'],146,0.14133548736572266,0.6952153110047848,1.0,,0.6917341433687977,2.101562806532878,100.0,0.6952153110047848
+medical_insurance,XGBoost,71,140,Wachter's CE,True,"['bmi', 'sex']",500,0.032473087310791016,1.1776589517657334,2.0,,0.7119357169949806,1.9058183528324988,100.0,1.1776589517657334
+medical_insurance,XGBoost,71,140,SHAP-Targeted CE,True,['region'],343,0.013850927352905273,3.0,1.0,0.0,1.7119598142111443,2.5194408312693213,100.0,3.0
+medical_insurance,XGBoost,72,142,Actionable CBFI (Proposed),True,['smoker'],48,0.06575798988342285,2.4780497323146276,1.0,0.0002585153479192248,0.6988470436765162,1.7749153336208583,100.0,2.477123531672177
+medical_insurance,XGBoost,72,142,Untargeted Causal (Karimi 2021),True,['smoker'],104,0.12930583953857422,2.4780497323146276,1.0,0.0002585153479192248,0.6988470436765162,1.7749153336208583,100.0,2.477123531672177
+medical_insurance,XGBoost,72,142,Wachter's CE,True,"['bmi', 'region', 'sex', 'smoker']",500,0.04743313789367676,1.3809034422606583,4.0,,0.7324306821568506,2.0187812698944447,99.17708682476503,1.3809034422606583
+medical_insurance,XGBoost,72,142,SHAP-Targeted CE,True,['smoker'],343,0.01685333251953125,0.4130082887191049,1.0,7.180981886645531e-06,0.7214283716380874,2.231293625525476,100.0,0.4130082887191049
+medical_insurance,XGBoost,73,143,Actionable CBFI (Proposed),True,['bmi'],86,0.08071470260620117,0.22440191387559763,1.0,,0.049884303104838545,1.6452461567449004,100.0,0.22440191387559763
+medical_insurance,XGBoost,73,143,Untargeted Causal (Karimi 2021),True,['bmi'],142,0.13190150260925293,0.22440191387559763,1.0,,0.049884303104838545,1.6452461567449004,100.0,0.22440191387559763
+medical_insurance,XGBoost,73,143,Wachter's CE,True,"['bmi', 'region']",500,0.03186750411987305,1.3223684210526312,2.0,,0.647708837190544,1.8751904490248574,100.0,1.3223684210526312
+medical_insurance,XGBoost,73,143,SHAP-Targeted CE,True,"['region', 'sex']",343,0.014721155166625977,1.3333515818789103,2.0,0.0,0.00482666716575432,1.4427386612960011,74.99897353335993,1.3333515818789103
+medical_insurance,XGBoost,74,144,Actionable CBFI (Proposed),True,['smoker'],70,0.09874749183654785,2.4780497323146276,1.0,0.0002585153479192284,0.06184798307500897,2.1432873956949168,100.0,2.477123531672177
+medical_insurance,XGBoost,74,144,Untargeted Causal (Karimi 2021),True,['smoker'],138,0.19406843185424805,2.4780497323146276,1.0,0.0002585153479192284,0.06184798307500897,2.1432873956949168,100.0,2.477123531672177
+medical_insurance,XGBoost,74,144,Wachter's CE,True,"['bmi', 'region', 'sex', 'smoker']",500,0.03177285194396973,2.1919082269496535,4.0,,0.6800546437549887,2.443611207630672,77.18757716812704,2.1919082269496535
+medical_insurance,XGBoost,74,144,SHAP-Targeted CE,True,['smoker'],343,0.01660895347595215,0.41300828871910494,1.0,7.180981886645531e-06,0.068691809882631,2.5196522221385105,100.0,0.41300828871910494
+medical_insurance,XGBoost,75,146,Actionable CBFI (Proposed),True,"['bmi', 'smoker']",72,0.08453059196472168,2.8842698280084074,2.0,,0.12660027627863976,2.079603227300709,100.0,2.883343627365957
+medical_insurance,XGBoost,75,146,Untargeted Causal (Karimi 2021),True,"['bmi', 'smoker']",118,0.13446331024169922,2.8842698280084074,2.0,,0.12660027627863976,2.079603227300709,100.0,2.883343627365957
+medical_insurance,XGBoost,75,146,Wachter's CE,True,"['bmi', 'region', 'sex', 'smoker']",500,0.030074119567871094,2.873726408767835,4.0,,0.9012156676080846,2.3699161685478374,82.60003557427163,2.873726408767835
+medical_insurance,XGBoost,75,146,SHAP-Targeted CE,True,"['region', 'smoker']",343,0.013789892196655273,2.413008288719105,2.0,7.180981886645252e-06,0.008219321824403908,2.772538610689426,100.0,2.413008288719105
+medical_insurance,XGBoost,76,147,Actionable CBFI (Proposed),False,[],76,0.10125112533569336,,,,,,,
+medical_insurance,XGBoost,76,147,Untargeted Causal (Karimi 2021),False,[],130,0.17013859748840332,,,,,,,
+medical_insurance,XGBoost,76,147,Wachter's CE,False,[],500,0.027741432189941406,,,,,,,
+medical_insurance,XGBoost,76,147,SHAP-Targeted CE,False,[],343,0.01396489143371582,,,,,,,
+medical_insurance,XGBoost,77,148,Actionable CBFI (Proposed),False,[],74,0.0978703498840332,,,,,,,
+medical_insurance,XGBoost,77,148,Untargeted Causal (Karimi 2021),False,[],116,0.15308451652526855,,,,,,,
+medical_insurance,XGBoost,77,148,Wachter's CE,False,[],500,0.029590129852294922,,,,,,,
+medical_insurance,XGBoost,77,148,SHAP-Targeted CE,False,[],343,0.015044212341308594,,,,,,,
+medical_insurance,XGBoost,78,153,Actionable CBFI (Proposed),True,['smoker'],52,0.06632757186889648,2.4780497323146276,1.0,0.0002585153479192248,1.4760095518053413,2.192700595912312,100.0,2.477123531672177
+medical_insurance,XGBoost,78,153,Untargeted Causal (Karimi 2021),True,['smoker'],110,0.1815323829650879,2.4780497323146276,1.0,0.0002585153479192248,1.4760095518053413,2.192700595912312,100.0,2.477123531672177
+medical_insurance,XGBoost,78,153,Wachter's CE,True,"['bmi', 'smoker']",500,0.0318903923034668,1.0698712847532983,2.0,,0.8430111940833985,2.4894793652497844,100.0,1.0698712847532983
+medical_insurance,XGBoost,78,153,SHAP-Targeted CE,True,['smoker'],343,0.016583681106567383,0.4130082887191049,1.0,7.180981886645531e-06,1.50874548563859,2.711432519588077,100.0,0.4130082887191049
+medical_insurance,XGBoost,79,156,Actionable CBFI (Proposed),True,['smoker'],56,0.07103347778320312,2.4780497323146276,1.0,0.0002585153479192248,1.1868265837491623,2.0802368301511813,100.0,2.477123531672177
+medical_insurance,XGBoost,79,156,Untargeted Causal (Karimi 2021),True,['smoker'],92,0.11318683624267578,2.4780497323146276,1.0,0.0002585153479192248,1.1868265837491623,2.0802368301511813,100.0,2.477123531672177
+medical_insurance,XGBoost,79,156,Wachter's CE,True,"['bmi', 'region', 'sex', 'smoker']",500,0.03126215934753418,1.568702485322859,4.0,,0.9310464587607804,2.239636681830005,68.1247797146536,1.568702485322859
+medical_insurance,XGBoost,79,156,SHAP-Targeted CE,True,['smoker'],343,0.016602039337158203,0.4130082887191049,1.0,7.180981886644341e-06,1.2161995668110228,2.5117008059695607,100.0,0.4130082887191049
+medical_insurance,XGBoost,80,157,Actionable CBFI (Proposed),True,['smoker'],74,0.09415864944458008,2.4780497323146276,1.0,0.0002585153479192284,0.5355411070271369,2.548238725541772,100.0,2.477123531672177
+medical_insurance,XGBoost,80,157,Untargeted Causal (Karimi 2021),True,['smoker'],130,0.16507601737976074,2.4780497323146276,1.0,0.0002585153479192284,0.5355411070271369,2.548238725541772,100.0,2.477123531672177
+medical_insurance,XGBoost,80,157,Wachter's CE,True,"['bmi', 'sex', 'smoker']",500,0.03216719627380371,1.7575929088321383,3.0,,0.528721673449087,2.4057511448299262,71.55044434318887,1.7575929088321383
+medical_insurance,XGBoost,80,157,SHAP-Targeted CE,True,['smoker'],343,0.02008199691772461,0.4130082887191049,1.0,7.180981886644935e-06,0.5553311159872792,2.8697928435769517,100.0,0.4130082887191049
+medical_insurance,XGBoost,81,158,Actionable CBFI (Proposed),True,['smoker'],44,0.05476117134094238,2.4780497323146276,1.0,0.0002585153479192284,0.7627781208083112,1.8284405386922304,100.0,2.477123531672177
+medical_insurance,XGBoost,81,158,Untargeted Causal (Karimi 2021),True,['smoker'],98,0.1202399730682373,2.4780497323146276,1.0,0.0002585153479192284,0.7627781208083112,1.8284405386922304,100.0,2.477123531672177
+medical_insurance,XGBoost,81,158,Wachter's CE,True,"['bmi', 'region', 'smoker']",500,0.03213763236999512,1.3551583660930109,3.0,,0.4896207777422318,2.0648200680028697,63.10394323568802,1.3551583660930109
+medical_insurance,XGBoost,81,158,SHAP-Targeted CE,True,['smoker'],343,0.01647353172302246,0.4130082887191049,1.0,7.180981886645531e-06,0.7395535947038193,2.274032105235515,100.0,0.4130082887191049
+medical_insurance,XGBoost,82,159,Actionable CBFI (Proposed),False,[],66,0.0876319408416748,,,,,,,
+medical_insurance,XGBoost,82,159,Untargeted Causal (Karimi 2021),False,[],102,0.13319826126098633,,,,,,,
+medical_insurance,XGBoost,82,159,Wachter's CE,False,[],500,0.02800440788269043,,,,,,,
+medical_insurance,XGBoost,82,159,SHAP-Targeted CE,False,[],343,0.013412714004516602,,,,,,,
+medical_insurance,XGBoost,83,160,Actionable CBFI (Proposed),True,['smoker'],66,0.0847177505493164,2.4780497323146276,1.0,0.0002585153479192284,0.469290302127895,1.6022334876342732,100.0,2.477123531672177
+medical_insurance,XGBoost,83,160,Untargeted Causal (Karimi 2021),True,['smoker'],106,0.13321185111999512,2.4780497323146276,1.0,0.0002585153479192284,0.469290302127895,1.6022334876342732,100.0,2.477123531672177
+medical_insurance,XGBoost,83,160,Wachter's CE,True,"['bmi', 'region', 'smoker']",500,0.031935930252075195,1.9418808541312886,3.0,,0.8430111940833985,2.4894793652497844,100.0,1.9418808541312886
+medical_insurance,XGBoost,83,160,SHAP-Targeted CE,True,['smoker'],343,0.016496658325195312,0.41300828871910494,1.0,7.180981886645531e-06,0.4878272915304236,2.261762919844429,100.0,0.41300828871910494
+medical_insurance,XGBoost,84,161,Actionable CBFI (Proposed),True,['smoker'],62,0.07937383651733398,2.4780497323146276,1.0,0.0002585153479192284,1.4004652965451614,2.425521475964883,100.0,2.477123531672177
+medical_insurance,XGBoost,84,161,Untargeted Causal (Karimi 2021),True,['smoker'],94,0.11694669723510742,2.4780497323146276,1.0,0.0002585153479192284,1.4004652965451614,2.425521475964883,100.0,2.477123531672177
+medical_insurance,XGBoost,84,161,Wachter's CE,True,"['bmi', 'region', 'smoker']",500,0.03198504447937012,2.0404602728558783,3.0,,0.6356088875571356,2.3900244662415058,100.0,2.0404602728558783
+medical_insurance,XGBoost,84,161,SHAP-Targeted CE,True,['smoker'],343,0.016630172729492188,0.4130082887191049,1.0,7.180981886645531e-06,1.3689324955273898,2.8721420172183714,100.0,0.4130082887191049
+medical_insurance,XGBoost,85,162,Actionable CBFI (Proposed),False,[],60,0.08019852638244629,,,,,,,
+medical_insurance,XGBoost,85,162,Untargeted Causal (Karimi 2021),False,[],96,0.12932968139648438,,,,,,,
+medical_insurance,XGBoost,85,162,Wachter's CE,False,[],500,0.04521012306213379,,,,,,,
+medical_insurance,XGBoost,85,162,SHAP-Targeted CE,False,[],343,0.013727426528930664,,,,,,,
+medical_insurance,XGBoost,86,165,Actionable CBFI (Proposed),False,[],58,0.07830357551574707,,,,,,,
+medical_insurance,XGBoost,86,165,Untargeted Causal (Karimi 2021),False,[],94,0.12259435653686523,,,,,,,
+medical_insurance,XGBoost,86,165,Wachter's CE,False,[],500,0.02793145179748535,,,,,,,
+medical_insurance,XGBoost,86,165,SHAP-Targeted CE,False,[],343,0.01343083381652832,,,,,,,
+medical_insurance,XGBoost,87,170,Actionable CBFI (Proposed),False,[],64,0.08694624900817871,,,,,,,
+medical_insurance,XGBoost,87,170,Untargeted Causal (Karimi 2021),False,[],108,0.14301538467407227,,,,,,,
+medical_insurance,XGBoost,87,170,Wachter's CE,False,[],500,0.0279083251953125,,,,,,,
+medical_insurance,XGBoost,87,170,SHAP-Targeted CE,False,[],343,0.0135040283203125,,,,,,,
+medical_insurance,XGBoost,88,175,Actionable CBFI (Proposed),False,[],64,0.08485126495361328,,,,,,,
+medical_insurance,XGBoost,88,175,Untargeted Causal (Karimi 2021),False,[],128,0.17451691627502441,,,,,,,
+medical_insurance,XGBoost,88,175,Wachter's CE,False,[],500,0.027368783950805664,,,,,,,
+medical_insurance,XGBoost,88,175,SHAP-Targeted CE,False,[],343,0.014124870300292969,,,,,,,
+medical_insurance,XGBoost,89,177,Actionable CBFI (Proposed),False,[],70,0.09662199020385742,,,,,,,
+medical_insurance,XGBoost,89,177,Untargeted Causal (Karimi 2021),False,[],108,0.14353632926940918,,,,,,,
+medical_insurance,XGBoost,89,177,Wachter's CE,False,[],500,0.07518792152404785,,,,,,,
+medical_insurance,XGBoost,89,177,SHAP-Targeted CE,False,[],343,0.013623237609863281,,,,,,,
+medical_insurance,XGBoost,90,180,Actionable CBFI (Proposed),False,[],56,0.0753793716430664,,,,,,,
+medical_insurance,XGBoost,90,180,Untargeted Causal (Karimi 2021),False,[],88,0.11555790901184082,,,,,,,
+medical_insurance,XGBoost,90,180,Wachter's CE,False,[],500,0.027683734893798828,,,,,,,
+medical_insurance,XGBoost,90,180,SHAP-Targeted CE,False,[],343,0.01386404037475586,,,,,,,
+medical_insurance,XGBoost,91,185,Actionable CBFI (Proposed),True,['smoker'],58,0.07319402694702148,2.4780497323146276,1.0,0.00025851534791923196,3.4997569566093008,3.180554403192773,100.0,2.477123531672177
+medical_insurance,XGBoost,91,185,Untargeted Causal (Karimi 2021),True,['smoker'],94,0.13089680671691895,2.4780497323146276,1.0,0.00025851534791923196,3.4997569566093008,3.180554403192773,100.0,2.477123531672177
+medical_insurance,XGBoost,91,185,Wachter's CE,True,"['bmi', 'sex', 'smoker']",500,0.031672000885009766,1.5842527245573095,3.0,,4.7409023591025115,3.501308291412444,68.43765107248981,1.5842527245573095
+medical_insurance,XGBoost,91,185,SHAP-Targeted CE,True,['smoker'],343,0.016544580459594727,0.4130082887191049,1.0,7.180981886645531e-06,3.449804962814138,3.445636367158511,100.0,0.4130082887191049
+medical_insurance,XGBoost,92,190,Actionable CBFI (Proposed),False,[],62,0.08252120018005371,,,,,,,
+medical_insurance,XGBoost,92,190,Untargeted Causal (Karimi 2021),False,[],104,0.134904146194458,,,,,,,
+medical_insurance,XGBoost,92,190,Wachter's CE,False,[],500,0.027819395065307617,,,,,,,
+medical_insurance,XGBoost,92,190,SHAP-Targeted CE,False,[],343,0.013869285583496094,,,,,,,
+medical_insurance,XGBoost,93,193,Actionable CBFI (Proposed),False,[],62,0.08274245262145996,,,,,,,
+medical_insurance,XGBoost,93,193,Untargeted Causal (Karimi 2021),False,[],94,0.12316322326660156,,,,,,,
+medical_insurance,XGBoost,93,193,Wachter's CE,False,[],500,0.027750253677368164,,,,,,,
+medical_insurance,XGBoost,93,193,SHAP-Targeted CE,False,[],343,0.013641834259033203,,,,,,,
+medical_insurance,XGBoost,94,198,Actionable CBFI (Proposed),True,['region'],62,0.07181715965270996,1.0,1.0,0.0,4.65590484600773,2.801115019111706,100.0,1.0
+medical_insurance,XGBoost,94,198,Untargeted Causal (Karimi 2021),True,['region'],106,0.12283205986022949,1.0,1.0,0.0,4.65590484600773,2.801115019111706,100.0,1.0
+medical_insurance,XGBoost,94,198,Wachter's CE,True,"['bmi', 'region', 'sex']",500,0.0299685001373291,2.250027372818365,3.0,,6.253038107929002,3.065169387185268,100.0,2.250027372818365
+medical_insurance,XGBoost,94,198,SHAP-Targeted CE,True,['region'],343,0.015247821807861328,1.0,1.0,0.0,4.65590484600773,2.801115019111706,100.0,1.0
+medical_insurance,XGBoost,95,199,Actionable CBFI (Proposed),False,[],64,0.10408234596252441,,,,,,,
+medical_insurance,XGBoost,95,199,Untargeted Causal (Karimi 2021),False,[],96,0.1498241424560547,,,,,,,
+medical_insurance,XGBoost,95,199,Wachter's CE,False,[],500,0.042414188385009766,,,,,,,
+medical_insurance,XGBoost,95,199,SHAP-Targeted CE,False,[],343,0.021033525466918945,,,,,,,
+medical_insurance,XGBoost,96,202,Actionable CBFI (Proposed),False,[],60,0.08118271827697754,,,,,,,
+medical_insurance,XGBoost,96,202,Untargeted Causal (Karimi 2021),False,[],92,0.12211871147155762,,,,,,,
+medical_insurance,XGBoost,96,202,Wachter's CE,False,[],500,0.030269145965576172,,,,,,,
+medical_insurance,XGBoost,96,202,SHAP-Targeted CE,False,[],343,0.014432191848754883,,,,,,,
+medical_insurance,XGBoost,97,203,Actionable CBFI (Proposed),True,['smoker'],48,0.061040401458740234,2.4780497323146276,1.0,0.0002585153479192248,0.9741131350922894,1.9816358883420193,100.0,2.477123531672177
+medical_insurance,XGBoost,97,203,Untargeted Causal (Karimi 2021),True,['smoker'],100,0.1691722869873047,2.4780497323146276,1.0,0.0002585153479192248,0.9741131350922894,1.9816358883420193,100.0,2.477123531672177
+medical_insurance,XGBoost,97,203,Wachter's CE,True,"['bmi', 'region', 'smoker']",500,0.03208613395690918,1.8562497465400882,3.0,,0.5287096254816431,2.0311901528919893,86.53198469300904,1.8562497465400882
+medical_insurance,XGBoost,97,203,SHAP-Targeted CE,True,['smoker'],343,0.016582727432250977,0.4130082887191049,1.0,7.180981886644935e-06,0.9478444294932985,2.521672348335626,100.0,0.4130082887191049
+medical_insurance,XGBoost,98,206,Actionable CBFI (Proposed),False,[],66,0.08769035339355469,,,,,,,
+medical_insurance,XGBoost,98,206,Untargeted Causal (Karimi 2021),False,[],106,0.1399078369140625,,,,,,,
+medical_insurance,XGBoost,98,206,Wachter's CE,False,[],500,0.027089834213256836,,,,,,,
+medical_insurance,XGBoost,98,206,SHAP-Targeted CE,False,[],343,0.01358938217163086,,,,,,,
+medical_insurance,XGBoost,99,207,Actionable CBFI (Proposed),True,['smoker'],52,0.0655813217163086,2.4780497323146276,1.0,0.0002585153479192284,0.19668695817599824,1.995651531344741,100.0,2.477123531672177
+medical_insurance,XGBoost,99,207,Untargeted Causal (Karimi 2021),True,['smoker'],106,0.13177013397216797,2.4780497323146276,1.0,0.0002585153479192284,0.19668695817599824,1.995651531344741,100.0,2.477123531672177
+medical_insurance,XGBoost,99,207,Wachter's CE,True,"['bmi', 'sex', 'smoker']",500,0.03170037269592285,2.3341479327555827,3.0,,0.7389016463562782,1.9345185072946818,100.0,2.3341479327555827
+medical_insurance,XGBoost,99,207,SHAP-Targeted CE,True,['smoker'],343,0.01690077781677246,0.4130082887191049,1.0,7.180981886645233e-06,0.20875094940872158,2.4060770746175346,100.0,0.4130082887191049
+medical_insurance,XGBoost,100,208,Actionable CBFI (Proposed),False,[],62,0.08327817916870117,,,,,,,
+medical_insurance,XGBoost,100,208,Untargeted Causal (Karimi 2021),False,[],100,0.13118767738342285,,,,,,,
+medical_insurance,XGBoost,100,208,Wachter's CE,False,[],500,0.02807331085205078,,,,,,,
+medical_insurance,XGBoost,100,208,SHAP-Targeted CE,False,[],343,0.013745546340942383,,,,,,,

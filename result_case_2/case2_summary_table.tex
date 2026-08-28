@@ -1,0 +1,17 @@
+\begin{table}
+\caption{Case Study 2: Financial Loan Instance #21 Negative Interaction Recourse Comparison}
+\label{tab:case2_comparison}
+\begin{tabular}{llllll}
+\toprule
+Feature & Factual Value & Actionable CBFI (Proposed) & Untargeted Causal (Karimi) & Wachter's CE & SHAP-Targeted CE \\
+\midrule
+int_rate & 7.43% & 7.39% (Passive SCM propagation) & 7.90% (Redundant co-alteration) & 6.62% (Redundant co-alteration) & 7.49% (Redundant co-alteration) \\
+loan_amount & $2,225 & Unchanged (Avoided Interference) & Unchanged & $7,000 (Redundant shift) & Unchanged \\
+dti & 0.0767 & 0.0696 (Targeted Primary Lever) & Unchanged & 0.0401 (Over-adjustment) & 0.0626 (Over-adjustment) \\
+installment & $69.14 & Unchanged & Unchanged & $49.73 (Redundant shift) & $64.71 (Redundant shift) \\
+total_acc & 20 & Unchanged & Unchanged & 21.0 (Redundant shift) & Unchanged \\
+Active Levers (L_active) & Baseline & 1.0 (Single Concentrated Lever) & 1.0 & 5.0 (Redundant Interference) & 3.0 \\
+Post-Intervention Risk & 68.0% (Rejected) & 43.0% (Loan Approved!) & 47.0% (Loan Approved) & 12.0% (Loan Approved) & 32.0% (Loan Approved) \\
+\bottomrule
+\end{tabular}
+\end{table}

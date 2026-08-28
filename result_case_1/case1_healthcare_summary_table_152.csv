@@ -1,0 +1,11 @@
+﻿Feature,Factual Value,Actionable CBFI (Proposed Method),"Untargeted Causal Recourse (Karimi et al., 2021)","Wachter's Counterfactuals (Wachter et al., 2017)",SHAP-Targeted Recourse
+pregnancies,9 times,Unchanged,Unchanged,1 times (Direct User Lever (L_active)),Unchanged
+glucose,156.0 mg/dL,125.0 mg/dL (Direct User Lever (L_active)),125.0 mg/dL (Direct User Lever (L_active)),74.0 mg/dL (Direct User Lever (L_active)),144.0 mg/dL (Direct User Lever (L_active))
+bloodpressure,86.0 mmHg,Unchanged,Unchanged,78.0 mmHg (Direct User Lever (L_active)),Unchanged
+skinthickness,28.0 mm,Unchanged,Unchanged,Unchanged,Unchanged
+insulin,155.0 mu U/ml,118.0 mu U/ml (Passive SCM Propagation),118.0 mu U/ml (Passive SCM Propagation),125.0 mu U/ml (Direct User Lever (L_active)),Unchanged
+bmi,34.3 kg/m²,25.9 kg/m² (Direct User Lever (L_active)),25.9 kg/m² (Direct User Lever (L_active)),32.0 kg/m² (Direct User Lever (L_active)),23.2 kg/m² (Direct User Lever (L_active))
+diabetespedigreefunction,1.189,Unchanged,Unchanged,1.293 (Direct User Lever (L_active)),1.259 (Direct User Lever (L_active))
+age,42 yrs,Unchanged,Unchanged,Unchanged,Unchanged
+Active Levers (L_active),Baseline,2 (Targeted),2 (Untargeted),6,3
+Post-Intervention Risk,91.0% (Diabetic),48.0%,48.0%,33.0%,48.0%
