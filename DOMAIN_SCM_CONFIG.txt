@@ -1,0 +1,73 @@
+# =========================================================================================
+# Domain-Specific SCM Priors (LLM & Expert Guided DAGs for 6 Benchmark Datasets)
+# =========================================================================================
+
+DOMAIN_SCM_CONFIGS = {
+    # ------------------ Financial Domain (3 Datasets) ------------------
+    'financial_loan': {
+        'immutable_features': ['annual_income', 'emp_length'],
+        'dag_edges': [
+            ('annual_income', 'dti'),
+            ('annual_income', 'loan_amount'),
+            ('emp_length', 'int_rate'),
+            ('loan_amount', 'installment'),
+            ('term', 'installment'),
+            ('loan_amount', 'int_rate'),
+            ('dti', 'int_rate')
+        ]
+    },
+    'german_credit': {
+        'immutable_features': ['age', 'present_residence'],
+        'dag_edges': [
+            ('age', 'existing_credits'),
+            ('age', 'credit_amount'),
+            ('duration', 'credit_amount'),
+            ('credit_amount', 'installment_rate'),
+            ('existing_credits', 'credit_amount')
+        ]
+    },
+    'adult_income': {
+        'immutable_features': ['age', 'education_num'],
+        'dag_edges': [
+            ('age', 'education_num'),
+            ('age', 'hours_per_week'),
+            ('age', 'capital_gain'),
+            ('education_num', 'hours_per_week'),
+            ('education_num', 'capital_gain'),
+            ('hours_per_week', 'capital_gain')
+        ]
+    },
+    # ------------------ Healthcare Domain (3 Datasets) ------------------
+    'medical_insurance': {
+        'immutable_features': ['age', 'children'],
+        'dag_edges': [
+            ('age', 'bmi'),
+            ('exercise_hours', 'bmi'),
+            ('smoker', 'bmi'),
+            ('age', 'exercise_hours')
+        ]
+    },
+    'diabetes': {
+        'immutable_features': ['Age', 'Pregnancies'],
+        'dag_edges': [
+            ('Age', 'Pregnancies'),
+            ('Age', 'BloodPressure'),
+            ('Age', 'Glucose'),
+            ('BMI', 'BloodPressure'),
+            ('BMI', 'SkinThickness'),
+            ('BMI', 'Insulin'),
+            ('Glucose', 'Insulin')
+        ]
+    },
+    'breast_cancer': {
+        'immutable_features': [],
+        'dag_edges': [
+            ('radius_mean', 'perimeter_mean'),
+            ('radius_mean', 'area_mean'),
+            ('perimeter_mean', 'area_mean'),
+            ('radius_mean', 'compactness_mean'),
+            ('texture_mean', 'smoothness_mean')
+        ]
+    }
+}
+
