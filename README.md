@@ -4,24 +4,24 @@
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 ![Paper Status](https://img.shields.io/badge/paper-submitted-yellow.svg)
 
-**Actionable Case-Based Feature Importance (A-CBFI)** is a diagnosis-prescription integrated framework for tabular machine learning that unifies localized structural explanation with causal counterfactual recourse[cite: 2]. 
+**Actionable Case-Based Feature Importance (A-CBFI)** is a diagnosis-prescription integrated framework for tabular machine learning that unifies localized structural explanation with causal counterfactual recourse. 
 
-This repository provides the official implementation of the A-CBFI framework, which builds upon the foundational [Localized-CBFI](https://github.com/dkumango/Local_CBFI). By mathematically separating the active user intervention space ($L_{active}$) from the total downstream manifold modifications, A-CBFI shifts the algorithmic recourse paradigm from exhaustive search to targeted, root-cause prescription[cite: 2].
+This repository provides the official implementation of the A-CBFI framework, which builds upon the foundational [Localized-CBFI](https://github.com/dkumango/Local_CBFI). By mathematically separating the active user intervention space ($L_{active}$) from the total downstream manifold modifications, A-CBFI shifts the algorithmic recourse paradigm from exhaustive search to targeted, root-cause prescription.
 
 ## 📖 Overview
 
-Existing attribution-based explanations (e.g., SHAP, LIME) are fundamentally descriptive and often fail to provide actionable guidance for users receiving adverse predictions[cite: 2]. Furthermore, purely optimization-based counterfactual methods (e.g., Wachter's CE, DiCE) ignore causal dependencies or enforce impractical "diffuse shifts" across numerous features, severely increasing cognitive burden[cite: 2].
+Existing attribution-based explanations (e.g., SHAP, LIME) are fundamentally descriptive and often fail to provide actionable guidance for users receiving adverse predictions. Furthermore, purely optimization-based counterfactual methods (e.g., Wachter's CE, DiCE) ignore causal dependencies or enforce impractical "diffuse shifts" across numerous features, severely increasing cognitive burden.
 
 **A-CBFI** overcomes these limitations by:
-1. **Discovering Synergistic Bottlenecks & Suppressive Locks:** It explicitly isolates critical high-order synergistic interactions ($C_{G4} > 0$) that amplify adverse predictions and releases suppressive structural locks ($C_{G4} < 0$)[cite: 2].
-2. **Targeted Causal Intervention via IGBS:** It leverages Structural Causal Models (SCMs) to constrain the counterfactual search space exclusively to the diagnosed root causes, utilizing Interaction-Guided Beam Search (IGBS) to prioritize structurally informative branches[cite: 2].
-3. **Actionable Prescription:** It outputs clear, highly targeted directives for end-users while allowing the SCM to automatically handle downstream topological ripple effects[cite: 2].
+1. **Discovering Synergistic Bottlenecks & Suppressive Locks:** It explicitly isolates critical high-order synergistic interactions ($C_{G4} > 0$) that amplify adverse predictions and releases suppressive structural locks ($C_{G4} < 0$).
+2. **Targeted Causal Intervention via IGBS:** It leverages Structural Causal Models (SCMs) to constrain the counterfactual search space exclusively to the diagnosed root causes, utilizing Interaction-Guided Beam Search (IGBS) to prioritize structurally informative branches.
+3. **Actionable Prescription:** It outputs clear, highly targeted directives for end-users while allowing the SCM to automatically handle downstream topological ripple effects.
 
 ## ✨ Key Features & Contributions
 
-* **Cognitive Burden Compression via Surgical Intervention:** A-CBFI compresses the active human intervention burden down to an average of 1.72 levers—a 76.9% reduction compared to exhaustive baselines[cite: 2]. By concentrating over 98.3% of the intervention effort strictly on the diagnosed root causes, it ensures highly targeted interventions while maintaining global cost parity[cite: 2].
-* **Overcoming the Additive Fallacy:** Unlike additive-guided methods (e.g., SHAP-Targeted CE) that ignore higher-order feature synergies, leading to suboptimal predictive momentum and diffuse intervention effort in complex non-linear boundaries (e.g., XGBoost), A-CBFI successfully navigates non-linear manifolds by targeting true structural bottlenecks[cite: 2].
-* **Causal Validity:** Grounded in Pearl's do-calculus, A-CBFI preserves real-world chronological and domain constraints, achieving a 100% relative causal convergence rate across all causally feasible instances[cite: 2].
+* **Cognitive Burden Compression via Surgical Intervention:** A-CBFI compresses the active human intervention burden down to an average of 1.72 levers—a 76.9% reduction compared to exhaustive baselines. By concentrating over 98.3% of the intervention effort strictly on the diagnosed root causes, it ensures highly targeted interventions while maintaining global cost parity.
+* **Overcoming the Additive Fallacy:** Unlike additive-guided methods (e.g., SHAP-Targeted CE) that ignore higher-order feature synergies, leading to suboptimal predictive momentum and diffuse intervention effort in complex non-linear boundaries (e.g., XGBoost), A-CBFI successfully navigates non-linear manifolds by targeting true structural bottlenecks.
+* **Causal Validity:** Grounded in Pearl's do-calculus, A-CBFI preserves real-world chronological and domain constraints, achieving a 100% relative causal convergence rate across all causally feasible instances.
 
 ## ⚙️ Installation
 
@@ -78,7 +78,7 @@ To reproduce the multi-architecture experiments across Financial and Healthcare 
 ```bash
 python test_benchmark_comparison.py --dataset financial_loan --model xgboost
 ```
-*This suite compares A-CBFI against `Untargeted Causal`, `Wachter's CE`, and `SHAP-Targeted CE` evaluating Recourse Cost, Sparsity ($L_0$), Active Levers ($L_{active}$), Recourse Concentration Ratio (RCR), and Causal Plausibility MSE ($R_{SCM}$)[cite: 2].*
+*This suite compares A-CBFI against `Untargeted Causal`, `Wachter's CE`, and `SHAP-Targeted CE` evaluating Recourse Cost, Sparsity ($L_0$), Active Levers ($L_{active}$), Recourse Concentration Ratio (RCR), and Causal Plausibility MSE ($R_{SCM}$).*
 
 ## 📁 Repository Structure
 
