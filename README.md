@@ -99,7 +99,7 @@ If you find this framework useful in your research, please consider citing our p
 
 ```bibtex
 @article{actionable_cbfi_2026,
-  title   = {Actionable Case-Based Feature Importance (A-CBFI)},
+  title   = {Actionable CBFI: Integrating Structural Decomposition and Causal Counterfactual Recourse for Tabular Machine Learning},
   author  = {Sejong Oh},
   journal = {arXiv preprint arXiv:2608.27821},
   year    = {2026},
