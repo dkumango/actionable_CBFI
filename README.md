@@ -98,7 +98,12 @@ python test_benchmark_comparison.py --dataset financial_loan --model xgboost
 If you find this framework useful in your research, please consider citing our paper:
 
 ```bibtex
-@article{under review
+@article{actionable_cbfi_2026,
+  title   = {Actionable Case-Based Feature Importance (A-CBFI)},
+  author  = {Sejong Oh},
+  journal = {arXiv preprint arXiv:2608.27821},
+  year    = {2026},
+  url     = {https://arxiv.org/abs/2608.27821}
 }
 ```
 
