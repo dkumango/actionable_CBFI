@@ -88,6 +88,8 @@ python test_benchmark_comparison.py --dataset financial_loan --model xgboost
 * `DOMAIN_SCM_CONFIG.txt`: Domain-specific SCM DAG topological specifications for benchmark.
 * `generate_case_study_1_healthcare.py`: Performs experiment for Case Study (1) in the paper
 * `generate_case_study_2_finance.py`: Performs experiment for Case Study (2) in the paper
+* `tutorial_Actionable_CBFI.ipynb` : Tutorial for using Actionable_CBFI
+* 
 * `data/`: Sample preprocessing scripts for the 6 benchmark datasets (Financial Loan, German Credit, Adult Income, Medical Insurance, Pima Diabetes, Breast Cancer).
 * `result_benchmark/`: Result of benchmark test
 * `result_case_1/`: Result of generate_case_study_1_healthcare.py
