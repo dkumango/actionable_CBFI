@@ -17,6 +17,7 @@ The output separates the direct actions from the downstream changes that the SCM
 
 ```
 exp_code/
+  example.py    minimal A-CBFI example (see "Quick example")
   acbfi/        core.py (A-CBFI, IGBS, untargeted search, staged search), baselines.py (LEWIS-style, SHAP-CE)
   real/         real_data.py (datasets, actionability, constraints, DAGs, SCM), R1_lever_vs_cause.py (model definitions)
   synthetic/    synth_lib.py (SCM, interventional diagnosis, exact SHAP), S1_*.py, S2_*.py (Section 5.1)
@@ -75,6 +76,53 @@ pip install numpy pandas scipy scikit-learn xgboost shap dice-ml networkx causal
 | Student Performance | `data/student_perf/student_perf.csv` | UCI dataset 320, Student Performance, https://archive.ics.uci.edu/dataset/320 (Portuguese course, `student-por.csv`, saved comma-separated) | G3 < 10 |
 
 Appendix A of the paper lists, for each dataset, the actionable features, the direction and bound constraints, and the DAG. All of these are defined in `real_data.py` (`SPECS`, `DIRECTIONS`, `BOUNDS`).
+
+## Quick example
+
+`exp_code/example.py` runs A-CBFI on one query of the Pima Diabetes data, which is included in `data/original/`:
+
+```bash
+cd exp_code
+python example.py
+```
+
+The core of the example is:
+
+```python
+from core import CountingModel, acbfi_v3            # exp_code/acbfi
+from R1_lever_vs_cause import make_models           # exp_code/real
+from real_data import load_task                     # exp_code/real
+
+task = load_task("diabetes", seed=0)                # data, actionable set, constraints, SCM
+clf = make_models()["RF"].fit(task.X_train, task.y_train)
+h = CountingModel(lambda X: clf.predict_proba(X)[:, 1])     # adverse probability, counts evaluations
+bg = task.X_train[:2000]                            # background rows
+x = task.X_test[4]                                  # a query with h(x) > 0.5
+
+res = acbfi_v3(h, task.scm, x, bg, task.actionable)
+res.stage            # 'single', 'pair' or 'triple'
+res.intervened       # indices of the direct actions
+res.x_cf             # counterfactual after SCM propagation (standardised units)
+res.extra["F1"]      # Step 1 diagnosis: best reachable probability reduction per feature
+```
+
+Output (random forest, seed 0):
+
+```
+query: test row 4, adverse probability h(x) = 0.55
+F1 (best reachable probability reduction): glucose 0.30, bmi 0.20, bloodpressure 0.08
+stage: single, model evaluations: 28, h(x_cf) = 0.46
+direct actions:    glucose 151.0 -> 125.0
+downstream (SCM):  insulin 120.0 -> 93.1
+menu of single actions (cost order):
+  glucose 151.0 -> 125.0   cost 1.54, h = 0.46
+  bmi 35.5 -> 30.0   cost 2.15, h = 0.48
+  bloodpressure 62.0 -> 122.0   cost 7.50, h = 0.47
+```
+
+A single direct action (lower glucose) is enough here. The SCM predicts the downstream change in insulin, which is reported separately from the direct action. The menu lists the other single actions that also reach the decision boundary.
+
+The paper uses no direction constraints for Pima, so the menu can contain implausible actions such as raising blood pressure. Direction and bound constraints are defined per dataset in `DIRECTIONS` and `BOUNDS` in `real_data.py`. They are applied to every intervention.
 
 ## Reproducing the paper
 
