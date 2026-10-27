@@ -1,8 +1,0 @@
-﻿dataset,seed,model,query,test_row,rule,success,stage,cost,L_active,actions,evals,time
-diabetes,0,XGB,3,45,br_cg4,True,pair,4.892962909864396,2,"['bmi', 'glucose']",575,0.00804281234741211
-diabetes,0,XGB,3,45,mean_cg4,True,pair,4.892962909864396,2,"['bmi', 'glucose']",589,0.008095026016235352
-diabetes,0,XGB,3,45,additive,True,pair,4.892962909864396,2,"['bmi', 'glucose']",137,0.0018558502197265625
-diabetes,0,XGB,3,45,shap,True,pair,4.892962909864396,2,"['bmi', 'glucose']",48625,0.023372411727905273
-diabetes,0,XGB,3,45,random,True,triple,4.874226306797308,3,"['bloodpressure', 'bmi', 'glucose']",716,0.0035593509674072266
-diabetes,0,XGB,3,45,topM_all,True,pair,4.892962909864396,2,"['bmi', 'glucose']",398,0.005886554718017578
-diabetes,0,XGB,3,45,all_pairs,True,pair,4.892962909864396,2,"['bmi', 'glucose']",398,0.006373167037963867
