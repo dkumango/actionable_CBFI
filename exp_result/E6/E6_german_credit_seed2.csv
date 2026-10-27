@@ -1,0 +1,15 @@
+﻿dataset,seed,model,query,test_row,rule,success,stage,cost,L_active,actions,evals,time
+german_credit,2,SVM,14,113,br_cg4,True,pair,3.0,2,"['checking_balance', 'installment_rate']",714,0.022017955780029297
+german_credit,2,SVM,14,113,mean_cg4,True,pair,4.0,2,"['checking_balance', 'employment_length']",714,0.021892547607421875
+german_credit,2,SVM,14,113,additive,True,pair,3.0,2,"['checking_balance', 'installment_rate']",72,0.002373218536376953
+german_credit,2,SVM,14,113,shap,True,pair,4.0,2,"['checking_balance', 'employment_length']",29576,0.7892055511474609
+german_credit,2,SVM,14,113,random,True,triple,9.31387560789021,3,"['amount', 'existing_credits', 'installment_rate']",435,0.012887954711914062
+german_credit,2,SVM,14,113,topM_all,True,pair,3.0,2,"['checking_balance', 'installment_rate']",409,0.013299703598022461
+german_credit,2,SVM,14,113,all_pairs,True,pair,3.0,2,"['checking_balance', 'installment_rate']",2373,0.07860565185546875
+german_credit,2,XGB,15,113,br_cg4,True,pair,1.6666666666666667,2,"['checking_balance', 'purpose']",729,0.010348081588745117
+german_credit,2,XGB,15,113,mean_cg4,True,pair,3.0,2,"['checking_balance', 'employment_length']",736,0.010823249816894531
+german_credit,2,XGB,15,113,additive,True,pair,3.0,2,"['checking_balance', 'installment_rate']",87,0.001554727554321289
+german_credit,2,XGB,15,113,shap,True,pair,8.46118571702436,2,"['checking_balance', 'months_loan_duration']",29588,0.013434886932373047
+german_credit,2,XGB,15,113,random,True,pair,2.6666666666666665,2,"['installment_rate', 'purpose']",93,0.0018377304077148438
+german_credit,2,XGB,15,113,topM_all,True,pair,1.5674156481451909,2,"['purpose', 'savings_balance']",523,0.011225700378417969
+german_credit,2,XGB,15,113,all_pairs,True,pair,1.5674156481451909,2,"['purpose', 'savings_balance']",2373,0.052184343338012695

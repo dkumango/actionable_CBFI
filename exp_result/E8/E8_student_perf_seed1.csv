@@ -1,0 +1,76 @@
+﻿dataset,seed,model,query,max_pg1,max_pg3,max_pg4,mean_pg3,max_F1,pg_evals,kind,n_alternatives,cost_best,cost_second,pg4_pred,alt_truth,rule,success,stage,evals,cost,topM_success
+student_perf,1,RF,0,0.2,0.03333333333333333,0.03333333333333333,0.0022222222222222222,0.12,631,single,4.0,1.0000000000000004,3.170911341300087,"{'schoolsup': 0.0, 'goout': 0.033, 'paid': 0.0, 'absences': 0.0, 'famsup': 0.0}","{'schoolsup': True, 'goout': True, 'paid': True, 'absences': False, 'famsup': False}",,,,,,
+student_perf,1,RF,1,0.0,0.06666666666666667,0.0,0.0044444444444444444,0.09999999999999998,631,hard,,,,,,pg3,True,pair,652.0,5.170911341300087,True
+student_perf,1,RF,1,0.0,0.06666666666666667,0.0,0.0044444444444444444,0.09999999999999998,631,hard,,,,,,br_cg4,True,pair,656.0,4.452388666418527,True
+student_perf,1,RF,1,0.0,0.06666666666666667,0.0,0.0044444444444444444,0.09999999999999998,631,hard,,,,,,additive,True,pair,21.0,5.170911341300087,True
+student_perf,1,RF,1,0.0,0.06666666666666667,0.0,0.0044444444444444444,0.09999999999999998,631,hard,,,,,,topM_all,True,pair,77.0,4.452388666418527,True
+student_perf,1,RF,2,0.0,0.3,0.0,0.035555555555555556,0.07999999999999996,631,hard,,,,,,pg3,True,pair,681.0,4.170911341300087,True
+student_perf,1,RF,2,0.0,0.3,0.0,0.035555555555555556,0.07999999999999996,631,hard,,,,,,br_cg4,True,pair,666.0,4.170911341300087,True
+student_perf,1,RF,2,0.0,0.3,0.0,0.035555555555555556,0.07999999999999996,631,hard,,,,,,additive,True,pair,19.0,4.170911341300087,True
+student_perf,1,RF,2,0.0,0.3,0.0,0.035555555555555556,0.07999999999999996,631,hard,,,,,,topM_all,True,pair,200.0,4.170911341300087,True
+student_perf,1,RF,3,0.7333333333333333,0.43333333333333335,0.6,0.0688888888888889,0.10000000000000003,631,single,2.0,1.8706486024575555,3.9083574860977492,"{'walc': 0.6, 'studytime': 0.0, 'famsup': 0.0, 'activities': 0.0, 'schoolsup': 0.0}","{'walc': True, 'studytime': False, 'famsup': False, 'activities': False, 'schoolsup': False}",,,,,,
+student_perf,1,RF,4,0.6666666666666666,0.06666666666666667,0.3,0.0044444444444444444,0.08000000000000002,631,single,5.0,1.0000000000000002,1.9991450274594489,"{'paid': 0.033, 'schoolsup': 0.0, 'activities': 0.3, 'absences': 0.133, 'famsup': 0.0}","{'paid': True, 'schoolsup': True, 'activities': True, 'absences': True, 'famsup': False}",,,,,,
+student_perf,1,RF,5,0.13333333333333333,0.1,0.0,0.006666666666666667,0.08000000000000002,631,single,3.0,1.870648602457556,3.170911341300087,"{'schoolsup': 0.0, 'paid': 0.0, 'studytime': 0.0, 'absences': 0.0, 'famsup': 0.0}","{'schoolsup': True, 'paid': True, 'studytime': False, 'absences': False, 'famsup': False}",,,,,,
+student_perf,1,SVM,0,0.0,0.03333333333333333,0.0,0.0044444444444444444,0.19709033585687152,631,hard,,,,,,pg3,True,pair,660.0,5.170911341300087,True
+student_perf,1,SVM,0,0.0,0.03333333333333333,0.0,0.0044444444444444444,0.19709033585687152,631,hard,,,,,,br_cg4,True,pair,660.0,5.170911341300087,True
+student_perf,1,SVM,0,0.0,0.03333333333333333,0.0,0.0044444444444444444,0.19709033585687152,631,hard,,,,,,additive,True,pair,33.0,4.999145027459449,True
+student_perf,1,SVM,0,0.0,0.03333333333333333,0.0,0.0044444444444444444,0.19709033585687152,631,hard,,,,,,topM_all,True,pair,118.0,4.999145027459449,True
+student_perf,1,SVM,1,0.3333333333333333,0.2,0.03333333333333333,0.04666666666666667,0.28443447051953974,631,single,2.0,5.211143314796999,7.482594409830223,"{'goout': 0.033, 'studytime': 0.0, 'famsup': 0.0, 'paid': 0.0, 'schoolsup': 0.0}","{'goout': True, 'studytime': False, 'famsup': False, 'paid': False, 'schoolsup': False}",,,,,,
+student_perf,1,SVM,2,0.0,0.0,0.0,0.0,0.19389868881304206,631,hard,,,,,,pg3,True,pair,650.0,7.037738891354971,True
+student_perf,1,SVM,2,0.0,0.0,0.0,0.0,0.19389868881304206,631,hard,,,,,,br_cg4,False,,781.0,,True
+student_perf,1,SVM,2,0.0,0.0,0.0,0.0,0.19389868881304206,631,hard,,,,,,additive,True,pair,19.0,7.037738891354971,True
+student_perf,1,SVM,2,0.0,0.0,0.0,0.0,0.19389868881304206,631,hard,,,,,,topM_all,True,pair,200.0,7.037738891354971,True
+student_perf,1,SVM,3,0.0,0.03333333333333333,0.0,0.011111111111111112,0.1318449249417485,631,hard,,,,,,pg3,True,pair,667.0,4.6055716573984995,True
+student_perf,1,SVM,3,0.0,0.03333333333333333,0.0,0.011111111111111112,0.1318449249417485,631,hard,,,,,,br_cg4,True,pair,657.0,4.6055716573984995,True
+student_perf,1,SVM,3,0.0,0.03333333333333333,0.0,0.011111111111111112,0.1318449249417485,631,hard,,,,,,additive,True,pair,24.0,5.03773889135497,True
+student_perf,1,SVM,3,0.0,0.03333333333333333,0.0,0.011111111111111112,0.1318449249417485,631,hard,,,,,,topM_all,True,pair,147.0,4.6055716573984995,True
+student_perf,1,SVM,4,0.0,0.0,0.0,0.0,0.1884033428198617,631,hard,,,,,,pg3,True,triple,692.0,7.908387493812527,True
+student_perf,1,SVM,4,0.0,0.0,0.0,0.0,0.1884033428198617,631,hard,,,,,,br_cg4,True,triple,700.0,7.908387493812527,True
+student_perf,1,SVM,4,0.0,0.0,0.0,0.0,0.1884033428198617,631,hard,,,,,,additive,True,triple,61.0,7.908387493812527,True
+student_perf,1,SVM,4,0.0,0.0,0.0,0.0,0.1884033428198617,631,hard,,,,,,topM_all,True,triple,341.0,7.037738891354971,True
+student_perf,1,SVM,5,0.7,0.13333333333333333,0.43333333333333335,0.017777777777777778,0.24638619633372216,631,single,5.0,1.9991450274594489,2.0,"{'studytime': 0.2, 'absences': 0.433, 'walc': 0.1, 'schoolsup': 0.1, 'paid': 0.0}","{'studytime': True, 'absences': True, 'walc': True, 'schoolsup': True, 'paid': False}",,,,,,
+student_perf,1,SVM,6,0.26666666666666666,0.0,0.06666666666666667,0.0,0.1870028297030905,631,single,2.0,2.0,3.170911341300087,"{'schoolsup': 0.067, 'famsup': 0.0, 'walc': 0.0, 'paid': 0.0, 'activities': 0.0}","{'schoolsup': True, 'famsup': False, 'walc': False, 'paid': False, 'activities': False}",,,,,,
+student_perf,1,SVM,7,0.8333333333333334,0.0,0.5333333333333333,0.0,0.3029568491909739,631,single,6.0,1.0000000000000004,1.3027858286992497,"{'walc': 0.367, 'activities': 0.233, 'absences': 0.433, 'goout': 0.367, 'famsup': 0.3}","{'walc': True, 'activities': True, 'absences': True, 'goout': True, 'famsup': True}",,,,,,
+student_perf,1,XGB,0,0.0,0.0,0.0,0.0,0.033995628356933594,631,hard,,,,,,pg3,False,,706.0,,False
+student_perf,1,XGB,0,0.0,0.0,0.0,0.0,0.033995628356933594,631,hard,,,,,,br_cg4,False,,702.0,,False
+student_perf,1,XGB,0,0.0,0.0,0.0,0.0,0.033995628356933594,631,hard,,,,,,additive,False,,75.0,,False
+student_perf,1,XGB,0,0.0,0.0,0.0,0.0,0.033995628356933594,631,hard,,,,,,topM_all,False,,341.0,,False
+student_perf,1,XGB,1,0.4,0.3,0.13333333333333333,0.05333333333333334,0.44682344794273376,631,single,2.0,1.8706486024575557,13.0,"{'absences': 0.133, 'studytime': 0.0, 'walc': 0.0, 'dalc': 0.0, 'schoolsup': 0.0}","{'absences': True, 'studytime': False, 'walc': False, 'dalc': False, 'schoolsup': False}",,,,,,
+student_perf,1,XGB,2,0.7666666666666667,0.03333333333333333,0.4,0.0022222222222222222,0.6471642851829529,631,single,3.0,0.5000000000000003,1.30278582869925,"{'walc': 0.4, 'goout': 0.033, 'studytime': 0.0, 'activities': 0.0, 'schoolsup': 0.0}","{'walc': True, 'goout': True, 'studytime': False, 'activities': False, 'schoolsup': False}",,,,,,
+student_perf,1,XGB,3,0.0,0.06666666666666667,0.0,0.0044444444444444444,0.18928152322769165,631,hard,,,,,,pg3,True,pair,678.0,10.234142610194708,True
+student_perf,1,XGB,3,0.0,0.06666666666666667,0.0,0.0044444444444444444,0.18928152322769165,631,hard,,,,,,br_cg4,True,pair,678.0,10.234142610194708,True
+student_perf,1,XGB,3,0.0,0.06666666666666667,0.0,0.0044444444444444444,0.18928152322769165,631,hard,,,,,,additive,True,pair,47.0,10.234142610194708,True
+student_perf,1,XGB,3,0.0,0.06666666666666667,0.0,0.0044444444444444444,0.18928152322769165,631,hard,,,,,,topM_all,True,pair,147.0,10.234142610194708,True
+student_perf,1,XGB,4,0.7333333333333333,0.0,0.23333333333333334,0.0,0.5800943374633789,631,single,2.0,1.30278582869925,1.8706486024575564,"{'goout': 0.233, 'famsup': 0.0, 'studytime': 0.0, 'dalc': 0.0, 'paid': 0.0}","{'goout': True, 'famsup': False, 'studytime': False, 'dalc': False, 'paid': False}",,,,,,
+student_perf,1,XGB,5,0.7,0.03333333333333333,0.43333333333333335,0.0022222222222222222,0.5624575018882751,631,single,4.0,1.0000000000000002,1.870648602457556,"{'activities': 0.433, 'goout': 0.3, 'studytime': 0.2, 'schoolsup': 0.0, 'famsup': 0.0}","{'activities': True, 'goout': True, 'studytime': True, 'schoolsup': False, 'famsup': False}",,,,,,
+student_perf,1,XGB,6,0.23333333333333334,0.2,0.0,0.02666666666666667,0.44018417596817017,631,single,1.0,3.741297204915112,,"{'walc': 0.0, 'schoolsup': 0.0, 'studytime': 0.0, 'famsup': 0.0, 'paid': 0.0}","{'walc': False, 'schoolsup': False, 'studytime': False, 'famsup': False, 'paid': False}",,,,,,
+student_perf,1,XGB,7,0.0,0.0,0.0,0.0,0.17958033084869385,631,hard,,,,,,pg3,True,triple,704.0,7.6700563687595364,True
+student_perf,1,XGB,7,0.0,0.0,0.0,0.0,0.17958033084869385,631,hard,,,,,,br_cg4,True,triple,700.0,7.6700563687595364,True
+student_perf,1,XGB,7,0.0,0.0,0.0,0.0,0.17958033084869385,631,hard,,,,,,additive,True,triple,73.0,7.6700563687595364,True
+student_perf,1,XGB,7,0.0,0.0,0.0,0.0,0.17958033084869385,631,hard,,,,,,topM_all,True,triple,408.0,7.6700563687595364,True
+student_perf,1,XGB,8,0.0,0.0,0.0,0.0,0.17931580543518066,631,hard,,,,,,pg3,True,triple,826.0,9.70242783058412,True
+student_perf,1,XGB,8,0.0,0.0,0.0,0.0,0.17931580543518066,631,hard,,,,,,br_cg4,False,,776.0,,True
+student_perf,1,XGB,8,0.0,0.0,0.0,0.0,0.17931580543518066,631,hard,,,,,,additive,True,triple,195.0,9.70242783058412,True
+student_perf,1,XGB,8,0.0,0.0,0.0,0.0,0.17931580543518066,631,hard,,,,,,topM_all,True,triple,551.0,9.70242783058412,True
+student_perf,1,XGB,9,0.0,0.1,0.0,0.006666666666666667,0.2532421350479126,631,hard,,,,,,pg3,True,pair,644.0,3.3027858286992497,True
+student_perf,1,XGB,9,0.0,0.1,0.0,0.006666666666666667,0.2532421350479126,631,hard,,,,,,br_cg4,True,pair,648.0,3.3027858286992497,True
+student_perf,1,XGB,9,0.0,0.1,0.0,0.006666666666666667,0.2532421350479126,631,hard,,,,,,additive,True,pair,13.0,3.3027858286992497,True
+student_perf,1,XGB,9,0.0,0.1,0.0,0.006666666666666667,0.2532421350479126,631,hard,,,,,,topM_all,True,pair,65.0,3.3027858286992497,True
+student_perf,1,XGB,10,0.0,0.5,0.0,0.09111111111111111,0.29501938819885254,631,hard,,,,,,pg3,True,pair,678.0,5.953757234488991,True
+student_perf,1,XGB,10,0.0,0.5,0.0,0.09111111111111111,0.29501938819885254,631,hard,,,,,,br_cg4,True,pair,678.0,5.953757234488991,True
+student_perf,1,XGB,10,0.0,0.5,0.0,0.09111111111111111,0.29501938819885254,631,hard,,,,,,additive,True,pair,47.0,5.953757234488991,True
+student_perf,1,XGB,10,0.0,0.5,0.0,0.09111111111111111,0.29501938819885254,631,hard,,,,,,topM_all,True,pair,183.0,5.953757234488991,True
+student_perf,1,XGB,11,0.0,0.0,0.0,0.0,0.01471179723739624,631,hard,,,,,,pg3,False,,951.0,,False
+student_perf,1,XGB,11,0.0,0.0,0.0,0.0,0.01471179723739624,631,hard,,,,,,br_cg4,False,,951.0,,False
+student_perf,1,XGB,11,0.0,0.0,0.0,0.0,0.01471179723739624,631,hard,,,,,,additive,False,,320.0,,False
+student_perf,1,XGB,11,0.0,0.0,0.0,0.0,0.01471179723739624,631,hard,,,,,,topM_all,False,,2057.0,,False
+student_perf,1,XGB,12,0.0,0.2,0.0,0.013333333333333334,0.11027783155441284,631,hard,,,,,,pg3,True,pair,673.0,5.999145027459448,True
+student_perf,1,XGB,12,0.0,0.2,0.0,0.013333333333333334,0.11027783155441284,631,hard,,,,,,br_cg4,True,pair,673.0,5.999145027459448,True
+student_perf,1,XGB,12,0.0,0.2,0.0,0.013333333333333334,0.11027783155441284,631,hard,,,,,,additive,True,pair,28.0,5.999145027459448,True
+student_perf,1,XGB,12,0.0,0.2,0.0,0.013333333333333334,0.11027783155441284,631,hard,,,,,,topM_all,True,pair,132.0,5.999145027459448,True
+student_perf,1,XGB,13,0.0,0.0,0.0,0.0,0.1153671145439148,631,hard,,,,,,pg3,False,,672.0,,False
+student_perf,1,XGB,13,0.0,0.0,0.0,0.0,0.1153671145439148,631,hard,,,,,,br_cg4,False,,678.0,,False
+student_perf,1,XGB,13,0.0,0.0,0.0,0.0,0.1153671145439148,631,hard,,,,,,additive,False,,41.0,,False
+student_perf,1,XGB,13,0.0,0.0,0.0,0.0,0.1153671145439148,631,hard,,,,,,topM_all,False,,274.0,,False
+student_perf,1,XGB,14,0.23333333333333334,0.26666666666666666,0.0,0.02,0.4326852262020111,631,single,1.0,5.611945807372667,,"{'absences': 0.0, 'schoolsup': 0.0, 'studytime': 0.0, 'famsup': 0.0, 'paid': 0.0}","{'absences': False, 'schoolsup': False, 'studytime': False, 'famsup': False, 'paid': False}",,,,,,
+student_perf,1,XGB,15,0.6333333333333333,0.0,0.43333333333333335,0.0,0.6003949046134949,631,single,3.0,1.870648602457556,1.999145027459449,"{'absences': 0.433, 'activities': 0.167, 'schoolsup': 0.0, 'famsup': 0.0, 'paid': 0.0}","{'absences': True, 'activities': True, 'schoolsup': False, 'famsup': False, 'paid': False}",,,,,,
