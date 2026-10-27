@@ -1,0 +1,20 @@
+{
+ "E8c": {
+  "n_single_queries": 5090,
+  "share_with_>=2_alternatives": 0.6819253438113949,
+  "median_alternatives": 2.0,
+  "median_cost_premium_2nd": 1.9115027128432596
+ },
+ "E8c_auc_pg4": 0.8652004011274349,
+ "E8d": {
+  "auc_single_from_maxPG1": 0.9719676957082659,
+  "auc_single_from_maxF1": 0.8954594579007351,
+  "auc_escalation_vs_unsolved_from_maxPG3": 0.7693191697457074,
+  "auc_escalation_vs_unsolved_from_meanPG3": 0.7689351952474099,
+  "label_counts": {
+   "single": 5090,
+   "unsolved": 1032,
+   "escalation": 535
+  }
+ }
+}

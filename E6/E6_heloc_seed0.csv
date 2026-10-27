@@ -1,0 +1,1170 @@
+﻿dataset,seed,model,query,test_row,rule,success,stage,cost,L_active,actions,evals,time
+heloc,0,RF,1,1611,br_cg4,False,,,,,802,0.44430112838745117
+heloc,0,RF,1,1611,mean_cg4,False,,,,,848,0.4562642574310303
+heloc,0,RF,1,1611,additive,False,,,,,170,0.08199214935302734
+heloc,0,RF,1,1611,shap,False,,,,,41885,4.047416925430298
+heloc,0,RF,1,1611,random,False,,,,,140,0.07635283470153809
+heloc,0,RF,1,1611,topM_all,False,,,,,1255,0.5334005355834961
+heloc,0,RF,1,1611,all_pairs,False,,,,,1714,0.8710324764251709
+heloc,0,RF,2,1693,br_cg4,False,,,,,722,0.4352240562438965
+heloc,0,RF,2,1693,mean_cg4,False,,,,,691,0.6215605735778809
+heloc,0,RF,2,1693,additive,False,,,,,90,0.09502720832824707
+heloc,0,RF,2,1693,shap,False,,,,,39872,0.3807036876678467
+heloc,0,RF,2,1693,random,False,,,,,26,0.06612253189086914
+heloc,0,RF,2,1693,topM_all,False,,,,,247,0.5583961009979248
+heloc,0,RF,2,1693,all_pairs,False,,,,,406,0.9244990348815918
+heloc,0,RF,4,1605,br_cg4,False,,,,,753,0.446277379989624
+heloc,0,RF,4,1605,mean_cg4,False,,,,,799,0.5036766529083252
+heloc,0,RF,4,1605,additive,False,,,,,247,0.08697962760925293
+heloc,0,RF,4,1605,shap,False,,,,,38635,0.37398600578308105
+heloc,0,RF,4,1605,random,False,,,,,97,0.08766794204711914
+heloc,0,RF,4,1605,topM_all,False,,,,,1050,0.5667800903320312
+heloc,0,RF,4,1605,all_pairs,False,,,,,1680,1.169524908065796
+heloc,0,RF,5,1924,br_cg4,False,,,,,747,0.4319760799407959
+heloc,0,RF,5,1924,mean_cg4,False,,,,,780,0.47568440437316895
+heloc,0,RF,5,1924,additive,False,,,,,115,0.08556056022644043
+heloc,0,RF,5,1924,shap,False,,,,,39883,0.34438633918762207
+heloc,0,RF,5,1924,random,False,,,,,42,0.0769495964050293
+heloc,0,RF,5,1924,topM_all,False,,,,,653,0.6142885684967041
+heloc,0,RF,5,1924,all_pairs,False,,,,,794,0.9753255844116211
+heloc,0,RF,6,1624,br_cg4,False,,,,,735,0.43025803565979004
+heloc,0,RF,6,1624,mean_cg4,False,,,,,735,0.483065128326416
+heloc,0,RF,6,1624,additive,False,,,,,109,0.08889460563659668
+heloc,0,RF,6,1624,shap,False,,,,,38203,0.34592652320861816
+heloc,0,RF,6,1624,random,False,,,,,26,0.06604623794555664
+heloc,0,RF,6,1624,topM_all,False,,,,,287,0.5925271511077881
+heloc,0,RF,6,1624,all_pairs,False,,,,,366,0.8686342239379883
+heloc,0,RF,8,433,br_cg4,True,pair,5.075236808300653,2.0,"['netfractionrevolvingburden', 'numrevolvingtradeswbalance']",661,0.39496731758117676
+heloc,0,RF,8,433,mean_cg4,True,pair,5.075236808300653,2.0,"['netfractionrevolvingburden', 'numrevolvingtradeswbalance']",662,0.43045902252197266
+heloc,0,RF,8,433,additive,True,pair,5.075236808300653,2.0,"['netfractionrevolvingburden', 'numrevolvingtradeswbalance']",21,0.05168461799621582
+heloc,0,RF,8,433,shap,False,,,,,41485,0.38202476501464844
+heloc,0,RF,8,433,random,True,pair,5.075236808300653,2.0,"['netfractionrevolvingburden', 'numrevolvingtradeswbalance']",14,0.0513920783996582
+heloc,0,RF,8,433,topM_all,True,pair,5.075236808300653,2.0,"['netfractionrevolvingburden', 'numrevolvingtradeswbalance']",63,0.2269294261932373
+heloc,0,RF,8,433,all_pairs,True,pair,5.075236808300653,2.0,"['netfractionrevolvingburden', 'numrevolvingtradeswbalance']",71,0.2847304344177246
+heloc,0,RF,11,719,br_cg4,False,,,,,753,0.46293020248413086
+heloc,0,RF,11,719,mean_cg4,False,,,,,712,0.466594934463501
+heloc,0,RF,11,719,additive,False,,,,,115,0.08767104148864746
+heloc,0,RF,11,719,shap,False,,,,,39513,0.38356590270996094
+heloc,0,RF,11,719,random,False,,,,,14,0.0677785873413086
+heloc,0,RF,11,719,topM_all,False,,,,,311,0.5882525444030762
+heloc,0,RF,11,719,all_pairs,False,,,,,393,0.9174168109893799
+heloc,0,RF,12,466,br_cg4,True,pair,6.6863968996894,2.0,"['netfractionrevolvingburden', 'numbank2natltradeswhighutilization']",704,0.42284131050109863
+heloc,0,RF,12,466,mean_cg4,True,pair,6.6863968996894,2.0,"['netfractionrevolvingburden', 'numbank2natltradeswhighutilization']",695,0.4287741184234619
+heloc,0,RF,12,466,additive,True,pair,6.6863968996894,2.0,"['netfractionrevolvingburden', 'numbank2natltradeswhighutilization']",62,0.05546450614929199
+heloc,0,RF,12,466,shap,True,pair,6.6863968996894,2.0,"['netfractionrevolvingburden', 'numbank2natltradeswhighutilization']",37527,0.33545899391174316
+heloc,0,RF,12,466,random,True,triple,6.6863968996894,2.0,"['netfractionrevolvingburden', 'numbank2natltradeswhighutilization']",212,0.07651734352111816
+heloc,0,RF,12,466,topM_all,True,pair,6.6863968996894,2.0,"['netfractionrevolvingburden', 'numbank2natltradeswhighutilization']",286,0.2316598892211914
+heloc,0,RF,12,466,all_pairs,True,pair,6.6863968996894,2.0,"['netfractionrevolvingburden', 'numbank2natltradeswhighutilization']",334,0.3733229637145996
+heloc,0,RF,13,800,br_cg4,False,,,,,659,0.46944546699523926
+heloc,0,RF,13,800,mean_cg4,False,,,,,679,0.5229272842407227
+heloc,0,RF,13,800,additive,False,,,,,47,0.09667611122131348
+heloc,0,RF,13,800,shap,False,,,,,37011,0.34851980209350586
+heloc,0,RF,13,800,random,False,,,,,29,0.07970476150512695
+heloc,0,RF,13,800,topM_all,False,,,,,160,0.5848474502563477
+heloc,0,RF,13,800,all_pairs,False,,,,,208,0.8840744495391846
+heloc,0,RF,15,1345,br_cg4,False,,,,,802,0.49158215522766113
+heloc,0,RF,15,1345,mean_cg4,False,,,,,794,0.4191415309906006
+heloc,0,RF,15,1345,additive,False,,,,,165,0.0770418643951416
+heloc,0,RF,15,1345,shap,False,,,,,38915,0.37005138397216797
+heloc,0,RF,15,1345,random,False,,,,,172,0.09031915664672852
+heloc,0,RF,15,1345,topM_all,False,,,,,1451,0.5472469329833984
+heloc,0,RF,15,1345,all_pairs,False,,,,,1954,0.974729061126709
+heloc,0,RF,17,792,br_cg4,False,,,,,939,0.45070433616638184
+heloc,0,RF,17,792,mean_cg4,False,,,,,870,0.46668148040771484
+heloc,0,RF,17,792,additive,False,,,,,247,0.08352971076965332
+heloc,0,RF,17,792,shap,False,,,,,41371,0.35683441162109375
+heloc,0,RF,17,792,random,False,,,,,73,0.07541346549987793
+heloc,0,RF,17,792,topM_all,False,,,,,1050,0.5396382808685303
+heloc,0,RF,17,792,all_pairs,False,,,,,1680,0.9140589237213135
+heloc,0,RF,18,1004,br_cg4,False,,,,,753,0.47522544860839844
+heloc,0,RF,18,1004,mean_cg4,False,,,,,759,0.44654226303100586
+heloc,0,RF,18,1004,additive,False,,,,,121,0.10734081268310547
+heloc,0,RF,18,1004,shap,False,,,,,37563,0.3601250648498535
+heloc,0,RF,18,1004,random,False,,,,,35,0.07695126533508301
+heloc,0,RF,18,1004,topM_all,True,triple,14.4314141426736,3.0,"['netfractioninstallburden', 'netfractionrevolvingburden', 'numtradesopeninlast12m']",497,0.5529129505157471
+heloc,0,RF,18,1004,all_pairs,True,triple,14.4314141426736,3.0,"['netfractioninstallburden', 'netfractionrevolvingburden', 'numtradesopeninlast12m']",610,0.8814387321472168
+heloc,0,RF,19,793,br_cg4,False,,,,,684,0.4392058849334717
+heloc,0,RF,19,793,mean_cg4,False,,,,,684,0.4187288284301758
+heloc,0,RF,19,793,additive,False,,,,,52,0.09797906875610352
+heloc,0,RF,19,793,shap,False,,,,,39373,0.34786009788513184
+heloc,0,RF,19,793,random,False,,,,,18,0.08060431480407715
+heloc,0,RF,19,793,topM_all,False,,,,,167,0.5328261852264404
+heloc,0,RF,19,793,all_pairs,False,,,,,286,0.9743139743804932
+heloc,0,RF,21,398,br_cg4,False,,,,,705,0.4769892692565918
+heloc,0,RF,21,398,mean_cg4,False,,,,,721,0.49150705337524414
+heloc,0,RF,21,398,additive,False,,,,,99,0.08035707473754883
+heloc,0,RF,21,398,shap,False,,,,,38919,0.39302802085876465
+heloc,0,RF,21,398,random,False,,,,,54,0.08256745338439941
+heloc,0,RF,21,398,topM_all,False,,,,,475,0.597360372543335
+heloc,0,RF,21,398,all_pairs,False,,,,,718,0.9654943943023682
+heloc,0,RF,22,411,br_cg4,False,,,,,725,0.4302544593811035
+heloc,0,RF,22,411,mean_cg4,False,,,,,741,0.4777803421020508
+heloc,0,RF,22,411,additive,False,,,,,79,0.08744931221008301
+heloc,0,RF,22,411,shap,False,,,,,37449,0.3763852119445801
+heloc,0,RF,22,411,random,False,,,,,115,0.11882281303405762
+heloc,0,RF,22,411,topM_all,False,,,,,820,0.600839376449585
+heloc,0,RF,22,411,all_pairs,False,,,,,1165,1.0004184246063232
+heloc,0,RF,24,745,br_cg4,False,,,,,771,0.5422029495239258
+heloc,0,RF,24,745,mean_cg4,False,,,,,933,0.5061483383178711
+heloc,0,RF,24,745,additive,False,,,,,157,0.07546496391296387
+heloc,0,RF,24,745,shap,False,,,,,39277,0.34699487686157227
+heloc,0,RF,24,745,random,False,,,,,89,0.07960128784179688
+heloc,0,RF,24,745,topM_all,False,,,,,1207,0.5769107341766357
+heloc,0,RF,24,745,all_pairs,False,,,,,1423,0.9259827136993408
+heloc,0,RF,29,168,br_cg4,False,,,,,951,0.45232081413269043
+heloc,0,RF,29,168,mean_cg4,False,,,,,767,0.42124199867248535
+heloc,0,RF,29,168,additive,False,,,,,319,0.08551645278930664
+heloc,0,RF,29,168,shap,False,,,,,40441,0.3869915008544922
+heloc,0,RF,29,168,random,False,,,,,53,0.07420015335083008
+heloc,0,RF,29,168,topM_all,False,,,,,1364,0.5457289218902588
+heloc,0,RF,29,168,all_pairs,False,,,,,1600,0.9551596641540527
+heloc,0,RF,30,649,br_cg4,True,pair,16.836553663301185,2.0,"['netfractioninstallburden', 'numinqlast6m']",663,0.4069852828979492
+heloc,0,RF,30,649,mean_cg4,True,pair,16.836553663301185,2.0,"['netfractioninstallburden', 'numinqlast6m']",659,0.4338192939758301
+heloc,0,RF,30,649,additive,True,pair,16.836553663301185,2.0,"['netfractioninstallburden', 'numinqlast6m']",33,0.050142526626586914
+heloc,0,RF,30,649,shap,False,,,,,43225,0.3773322105407715
+heloc,0,RF,30,649,random,True,pair,16.836553663301185,2.0,"['netfractioninstallburden', 'numinqlast6m']",25,0.08405661582946777
+heloc,0,RF,30,649,topM_all,True,pair,16.836553663301185,2.0,"['netfractioninstallburden', 'numinqlast6m']",88,0.23592519760131836
+heloc,0,RF,30,649,all_pairs,True,pair,16.836553663301185,2.0,"['netfractioninstallburden', 'numinqlast6m']",146,0.3338625431060791
+heloc,0,RF,31,280,br_cg4,False,,,,,771,0.4607834815979004
+heloc,0,RF,31,280,mean_cg4,False,,,,,871,0.5509147644042969
+heloc,0,RF,31,280,additive,False,,,,,187,0.11579036712646484
+heloc,0,RF,31,280,shap,False,,,,,36473,0.378751277923584
+heloc,0,RF,31,280,random,False,,,,,131,0.07997512817382812
+heloc,0,RF,31,280,topM_all,False,,,,,1613,0.6550595760345459
+heloc,0,RF,31,280,all_pairs,False,,,,,1874,0.9654908180236816
+heloc,0,RF,32,1859,br_cg4,False,,,,,741,0.48018646240234375
+heloc,0,RF,32,1859,mean_cg4,False,,,,,735,0.430713415145874
+heloc,0,RF,32,1859,additive,False,,,,,109,0.07832574844360352
+heloc,0,RF,32,1859,shap,False,,,,,39629,0.37943077087402344
+heloc,0,RF,32,1859,random,False,,,,,73,0.11260199546813965
+heloc,0,RF,32,1859,topM_all,False,,,,,471,0.5611574649810791
+heloc,0,RF,32,1859,all_pairs,False,,,,,712,0.9181516170501709
+heloc,0,RF,36,846,br_cg4,True,pair,5.9514456658179204,2.0,"['netfractioninstallburden', 'netfractionrevolvingburden']",661,0.39544224739074707
+heloc,0,RF,36,846,mean_cg4,True,pair,5.9514456658179204,2.0,"['netfractioninstallburden', 'netfractionrevolvingburden']",661,0.4009692668914795
+heloc,0,RF,36,846,additive,True,pair,5.9514456658179204,2.0,"['netfractioninstallburden', 'netfractionrevolvingburden']",29,0.05904126167297363
+heloc,0,RF,36,846,shap,False,,,,,37671,0.4351370334625244
+heloc,0,RF,36,846,random,True,triple,5.9514456658179204,2.0,"['netfractioninstallburden', 'netfractionrevolvingburden']",39,0.09181690216064453
+heloc,0,RF,36,846,topM_all,True,pair,5.9514456658179204,2.0,"['netfractioninstallburden', 'netfractionrevolvingburden']",62,0.23093080520629883
+heloc,0,RF,36,846,all_pairs,True,pair,5.9514456658179204,2.0,"['netfractioninstallburden', 'netfractionrevolvingburden']",84,0.32897448539733887
+heloc,0,RF,37,362,br_cg4,True,pair,10.507600125500016,2.0,"['netfractionrevolvingburden', 'numbank2natltradeswhighutilization']",713,0.41791844367980957
+heloc,0,RF,37,362,mean_cg4,True,pair,10.507600125500016,2.0,"['netfractionrevolvingburden', 'numbank2natltradeswhighutilization']",709,0.41588830947875977
+heloc,0,RF,37,362,additive,True,pair,10.507600125500016,2.0,"['netfractionrevolvingburden', 'numbank2natltradeswhighutilization']",81,0.047798871994018555
+heloc,0,RF,37,362,shap,True,pair,10.507600125500016,2.0,"['netfractionrevolvingburden', 'numbank2natltradeswhighutilization']",35463,0.3180408477783203
+heloc,0,RF,37,362,random,False,,,,,261,0.08742189407348633
+heloc,0,RF,37,362,topM_all,True,pair,10.507600125500016,2.0,"['netfractionrevolvingburden', 'numbank2natltradeswhighutilization']",283,0.25365734100341797
+heloc,0,RF,37,362,all_pairs,True,pair,10.507600125500016,2.0,"['netfractionrevolvingburden', 'numbank2natltradeswhighutilization']",304,0.3539886474609375
+heloc,0,RF,38,1877,br_cg4,False,,,,,739,0.45200300216674805
+heloc,0,RF,38,1877,mean_cg4,False,,,,,794,0.43248605728149414
+heloc,0,RF,38,1877,additive,False,,,,,159,0.07671833038330078
+heloc,0,RF,38,1877,shap,False,,,,,38869,0.3458271026611328
+heloc,0,RF,38,1877,random,False,,,,,157,0.08486151695251465
+heloc,0,RF,38,1877,topM_all,False,,,,,1127,0.630640983581543
+heloc,0,RF,38,1877,all_pairs,False,,,,,1328,0.9162249565124512
+heloc,0,RF,40,1709,br_cg4,True,pair,4.980169020107967,2.0,"['netfractionrevolvingburden', 'numrevolvingtradeswbalance']",713,0.40503358840942383
+heloc,0,RF,40,1709,mean_cg4,True,pair,4.980169020107967,2.0,"['netfractionrevolvingburden', 'numrevolvingtradeswbalance']",693,0.4301490783691406
+heloc,0,RF,40,1709,additive,True,pair,4.980169020107967,2.0,"['netfractionrevolvingburden', 'numrevolvingtradeswbalance']",81,0.05023765563964844
+heloc,0,RF,40,1709,shap,True,pair,8.820712303704742,2.0,"['netfractionrevolvingburden', 'numinqlast6m']",35823,0.3280453681945801
+heloc,0,RF,40,1709,random,True,pair,8.820712303704742,2.0,"['netfractionrevolvingburden', 'numinqlast6m']",69,0.045773983001708984
+heloc,0,RF,40,1709,topM_all,True,pair,4.980169020107967,2.0,"['netfractionrevolvingburden', 'numrevolvingtradeswbalance']",240,0.24162888526916504
+heloc,0,RF,40,1709,all_pairs,True,pair,4.980169020107967,2.0,"['netfractionrevolvingburden', 'numrevolvingtradeswbalance']",259,0.4120194911956787
+heloc,0,RF,43,1364,br_cg4,True,triple,14.429118200740316,3.0,"['netfractionrevolvingburden', 'numbank2natltradeswhighutilization', 'numrevolvingtradeswbalance']",1005,0.4151279926300049
+heloc,0,RF,43,1364,mean_cg4,False,,,,,945,0.4545443058013916
+heloc,0,RF,43,1364,additive,False,,,,,283,0.0778663158416748
+heloc,0,RF,43,1364,shap,True,triple,14.429118200740316,3.0,"['netfractionrevolvingburden', 'numbank2natltradeswhighutilization', 'numrevolvingtradeswbalance']",40221,0.33449769020080566
+heloc,0,RF,43,1364,random,False,,,,,259,0.07419919967651367
+heloc,0,RF,43,1364,topM_all,True,triple,14.429118200740316,3.0,"['netfractionrevolvingburden', 'numbank2natltradeswhighutilization', 'numrevolvingtradeswbalance']",1750,0.6015033721923828
+heloc,0,RF,43,1364,all_pairs,True,triple,14.429118200740316,3.0,"['netfractionrevolvingburden', 'numbank2natltradeswhighutilization', 'numrevolvingtradeswbalance']",2331,0.9696211814880371
+heloc,0,RF,44,326,br_cg4,True,pair,12.813559407797575,2.0,"['netfractionrevolvingburden', 'numinqlast6m']",683,0.4386129379272461
+heloc,0,RF,44,326,mean_cg4,True,pair,12.813559407797575,2.0,"['netfractionrevolvingburden', 'numinqlast6m']",695,0.40378236770629883
+heloc,0,RF,44,326,additive,True,pair,12.813559407797575,2.0,"['netfractionrevolvingburden', 'numinqlast6m']",51,0.04571270942687988
+heloc,0,RF,44,326,shap,True,pair,12.813559407797575,2.0,"['netfractionrevolvingburden', 'numinqlast6m']",39511,0.3215301036834717
+heloc,0,RF,44,326,random,False,,,,,123,0.0851590633392334
+heloc,0,RF,44,326,topM_all,True,pair,12.813559407797575,2.0,"['netfractionrevolvingburden', 'numinqlast6m']",163,0.2995774745941162
+heloc,0,RF,44,326,all_pairs,True,pair,12.813559407797575,2.0,"['netfractionrevolvingburden', 'numinqlast6m']",199,0.39434385299682617
+heloc,0,RF,45,92,br_cg4,False,,,,,722,0.4306831359863281
+heloc,0,RF,45,92,mean_cg4,False,,,,,691,0.4810314178466797
+heloc,0,RF,45,92,additive,False,,,,,90,0.08649230003356934
+heloc,0,RF,45,92,shap,False,,,,,39650,0.3678164482116699
+heloc,0,RF,45,92,random,False,,,,,81,0.08002209663391113
+heloc,0,RF,45,92,topM_all,False,,,,,412,0.5453581809997559
+heloc,0,RF,45,92,all_pairs,False,,,,,510,0.9777860641479492
+heloc,0,RF,47,599,br_cg4,True,pair,14.216150733839768,2.0,"['netfractioninstallburden', 'numrevolvingtradeswbalance']",699,0.5245749950408936
+heloc,0,RF,47,599,mean_cg4,True,triple,10.865049599913268,3.0,"['netfractionrevolvingburden', 'numbank2natltradeswhighutilization', 'numtradesopeninlast12m']",892,0.89272141456604
+heloc,0,RF,47,599,additive,True,pair,14.714740379926344,2.0,"['netfractioninstallburden', 'numbank2natltradeswhighutilization']",67,0.1344926357269287
+heloc,0,RF,47,599,shap,True,pair,14.714740379926344,2.0,"['netfractioninstallburden', 'numbank2natltradeswhighutilization']",43405,0.37542057037353516
+heloc,0,RF,47,599,random,False,,,,,289,0.0833282470703125
+heloc,0,RF,47,599,topM_all,True,pair,14.216150733839768,2.0,"['netfractioninstallburden', 'numrevolvingtradeswbalance']",284,0.24911165237426758
+heloc,0,RF,47,599,all_pairs,True,pair,14.216150733839768,2.0,"['netfractioninstallburden', 'numrevolvingtradeswbalance']",359,0.3337059020996094
+heloc,0,RF,48,1759,br_cg4,True,triple,9.427763066949131,3.0,"['netfractionrevolvingburden', 'numinqlast6m', 'numrevolvingtradeswbalance']",757,0.46973133087158203
+heloc,0,RF,48,1759,mean_cg4,True,triple,9.427763066949131,3.0,"['netfractionrevolvingburden', 'numinqlast6m', 'numrevolvingtradeswbalance']",757,0.5165598392486572
+heloc,0,RF,48,1759,additive,False,,,,,95,0.08037495613098145
+heloc,0,RF,48,1759,shap,False,,,,,41670,0.34855198860168457
+heloc,0,RF,48,1759,random,False,,,,,29,0.08213353157043457
+heloc,0,RF,48,1759,topM_all,True,triple,9.427763066949131,3.0,"['netfractionrevolvingburden', 'numinqlast6m', 'numrevolvingtradeswbalance']",399,0.6106514930725098
+heloc,0,RF,48,1759,all_pairs,True,triple,9.427763066949131,3.0,"['netfractionrevolvingburden', 'numinqlast6m', 'numrevolvingtradeswbalance']",614,0.9107813835144043
+heloc,0,RF,53,85,br_cg4,True,pair,2.755059029112298,2.0,"['netfractionrevolvingburden', 'numbank2natltradeswhighutilization']",667,0.38744378089904785
+heloc,0,RF,53,85,mean_cg4,True,pair,2.755059029112298,2.0,"['netfractionrevolvingburden', 'numbank2natltradeswhighutilization']",661,0.40378522872924805
+heloc,0,RF,53,85,additive,True,pair,2.755059029112298,2.0,"['netfractionrevolvingburden', 'numbank2natltradeswhighutilization']",41,0.04560661315917969
+heloc,0,RF,53,85,shap,True,pair,2.755059029112298,2.0,"['netfractionrevolvingburden', 'numbank2natltradeswhighutilization']",38279,0.3177804946899414
+heloc,0,RF,53,85,random,True,pair,2.755059029112298,2.0,"['netfractionrevolvingburden', 'numbank2natltradeswhighutilization']",14,0.04917597770690918
+heloc,0,RF,53,85,topM_all,True,pair,2.755059029112298,2.0,"['netfractionrevolvingburden', 'numbank2natltradeswhighutilization']",128,0.2660987377166748
+heloc,0,RF,53,85,all_pairs,True,pair,2.755059029112298,2.0,"['netfractionrevolvingburden', 'numbank2natltradeswhighutilization']",141,0.30762147903442383
+heloc,0,RF,54,1828,br_cg4,True,pair,6.905954140020543,2.0,"['netfractionrevolvingburden', 'numrevolvingtradeswbalance']",669,0.46962666511535645
+heloc,0,RF,54,1828,mean_cg4,True,pair,6.905954140020543,2.0,"['netfractionrevolvingburden', 'numrevolvingtradeswbalance']",673,0.40209174156188965
+heloc,0,RF,54,1828,additive,True,pair,6.905954140020543,2.0,"['netfractionrevolvingburden', 'numrevolvingtradeswbalance']",37,0.05610847473144531
+heloc,0,RF,54,1828,shap,False,,,,,40615,0.345752477645874
+heloc,0,RF,54,1828,random,False,,,,,47,0.08300256729125977
+heloc,0,RF,54,1828,topM_all,True,pair,6.905954140020543,2.0,"['netfractionrevolvingburden', 'numrevolvingtradeswbalance']",129,0.27181458473205566
+heloc,0,RF,54,1828,all_pairs,True,pair,6.905954140020543,2.0,"['netfractionrevolvingburden', 'numrevolvingtradeswbalance']",142,0.39528679847717285
+heloc,0,RF,55,498,br_cg4,False,,,,,731,0.4218158721923828
+heloc,0,RF,55,498,mean_cg4,False,,,,,749,0.4409048557281494
+heloc,0,RF,55,498,additive,False,,,,,155,0.08334708213806152
+heloc,0,RF,55,498,shap,False,,,,,39965,0.34287548065185547
+heloc,0,RF,55,498,random,False,,,,,44,0.0753633975982666
+heloc,0,RF,55,498,topM_all,False,,,,,705,0.5548999309539795
+heloc,0,RF,55,498,all_pairs,False,,,,,850,0.973414421081543
+heloc,0,RF,56,38,br_cg4,False,,,,,939,0.4294123649597168
+heloc,0,RF,56,38,mean_cg4,False,,,,,787,0.4426107406616211
+heloc,0,RF,56,38,additive,False,,,,,193,0.0881040096282959
+heloc,0,RF,56,38,shap,False,,,,,39925,0.345811128616333
+heloc,0,RF,56,38,random,False,,,,,86,0.07635927200317383
+heloc,0,RF,56,38,topM_all,False,,,,,1225,0.5640077590942383
+heloc,0,RF,56,38,all_pairs,True,triple,11.873572682180354,3.0,"['netfractionrevolvingburden', 'numinqlast6m', 'numinstalltradeswbalance']",1918,0.9371633529663086
+heloc,0,RF,57,373,br_cg4,False,,,,,763,0.42236900329589844
+heloc,0,RF,57,373,mean_cg4,False,,,,,759,0.44242334365844727
+heloc,0,RF,57,373,additive,False,,,,,100,0.08681416511535645
+heloc,0,RF,57,373,shap,False,,,,,41489,0.3529489040374756
+heloc,0,RF,57,373,random,False,,,,,131,0.07725024223327637
+heloc,0,RF,57,373,topM_all,False,,,,,1127,0.5555555820465088
+heloc,0,RF,57,373,all_pairs,False,,,,,1550,0.8795990943908691
+heloc,0,RF,58,1937,br_cg4,False,,,,,752,0.48330187797546387
+heloc,0,RF,58,1937,mean_cg4,False,,,,,757,0.4402952194213867
+heloc,0,RF,58,1937,additive,False,,,,,125,0.07528352737426758
+heloc,0,RF,58,1937,shap,False,,,,,41373,0.34607672691345215
+heloc,0,RF,58,1937,random,False,,,,,67,0.0796363353729248
+heloc,0,RF,58,1937,topM_all,False,,,,,820,0.5525050163269043
+heloc,0,RF,58,1937,all_pairs,False,,,,,1165,0.9430971145629883
+heloc,0,RF,59,1618,br_cg4,False,,,,,722,0.43246960639953613
+heloc,0,RF,59,1618,mean_cg4,False,,,,,718,0.4604635238647461
+heloc,0,RF,59,1618,additive,False,,,,,82,0.08559083938598633
+heloc,0,RF,59,1618,shap,False,,,,,33384,0.34340739250183105
+heloc,0,RF,59,1618,random,False,,,,,21,0.07723116874694824
+heloc,0,RF,59,1618,topM_all,False,,,,,247,0.6703062057495117
+heloc,0,RF,59,1618,all_pairs,False,,,,,316,1.367525577545166
+heloc,0,RF,60,509,br_cg4,False,,,,,819,0.5049889087677002
+heloc,0,RF,60,509,mean_cg4,False,,,,,719,0.506488561630249
+heloc,0,RF,60,509,additive,False,,,,,193,0.09034323692321777
+heloc,0,RF,60,509,shap,False,,,,,37503,0.3567190170288086
+heloc,0,RF,60,509,random,False,,,,,67,0.07803797721862793
+heloc,0,RF,60,509,topM_all,False,,,,,653,0.6065952777862549
+heloc,0,RF,60,509,all_pairs,False,,,,,794,0.8954637050628662
+heloc,0,RF,61,606,br_cg4,True,pair,4.8084379748257104,2.0,"['netfractionrevolvingburden', 'numbank2natltradeswhighutilization']",669,0.43964314460754395
+heloc,0,RF,61,606,mean_cg4,True,triple,4.8084379748257104,2.0,"['netfractionrevolvingburden', 'numbank2natltradeswhighutilization']",837,0.4375486373901367
+heloc,0,RF,61,606,additive,True,pair,4.8084379748257104,2.0,"['netfractionrevolvingburden', 'numbank2natltradeswhighutilization']",44,0.04664731025695801
+heloc,0,RF,61,606,shap,True,pair,4.8084379748257104,2.0,"['netfractionrevolvingburden', 'numbank2natltradeswhighutilization']",41477,0.3019583225250244
+heloc,0,RF,61,606,random,False,,,,,54,0.08472895622253418
+heloc,0,RF,61,606,topM_all,True,pair,4.8084379748257104,2.0,"['netfractionrevolvingburden', 'numbank2natltradeswhighutilization']",127,0.36810874938964844
+heloc,0,RF,61,606,all_pairs,True,pair,4.8084379748257104,2.0,"['netfractionrevolvingburden', 'numbank2natltradeswhighutilization']",197,0.36360716819763184
+heloc,0,RF,63,577,br_cg4,True,pair,14.921696644810368,2.0,"['netfractionrevolvingburden', 'numinqlast6m']",694,0.6564803123474121
+heloc,0,RF,63,577,mean_cg4,False,,,,,831,0.43091583251953125
+heloc,0,RF,63,577,additive,False,,,,,215,0.09218597412109375
+heloc,0,RF,63,577,shap,True,pair,14.921696644810368,2.0,"['netfractionrevolvingburden', 'numinqlast6m']",43172,0.32767176628112793
+heloc,0,RF,63,577,random,False,,,,,248,0.07650399208068848
+heloc,0,RF,63,577,topM_all,True,pair,14.921696644810368,2.0,"['netfractionrevolvingburden', 'numinqlast6m']",263,0.2305150032043457
+heloc,0,RF,63,577,all_pairs,True,pair,14.921696644810368,2.0,"['netfractionrevolvingburden', 'numinqlast6m']",361,0.35596227645874023
+heloc,0,RF,64,1517,br_cg4,False,,,,,660,0.4505929946899414
+heloc,0,RF,64,1517,mean_cg4,False,,,,,732,0.43430519104003906
+heloc,0,RF,64,1517,additive,False,,,,,28,0.10445809364318848
+heloc,0,RF,64,1517,shap,False,,,,,39480,0.3887503147125244
+heloc,0,RF,64,1517,random,False,,,,,9,0.06684756278991699
+heloc,0,RF,64,1517,topM_all,False,,,,,197,0.6364834308624268
+heloc,0,RF,64,1517,all_pairs,False,,,,,255,0.7273776531219482
+heloc,0,RF,67,1285,br_cg4,False,,,,,672,0.4296531677246094
+heloc,0,RF,67,1285,mean_cg4,False,,,,,684,0.45632433891296387
+heloc,0,RF,67,1285,additive,False,,,,,40,0.08218050003051758
+heloc,0,RF,67,1285,shap,False,,,,,38438,0.37827205657958984
+heloc,0,RF,67,1285,random,False,,,,,25,0.07705092430114746
+heloc,0,RF,67,1285,topM_all,False,,,,,294,0.5726215839385986
+heloc,0,RF,67,1285,all_pairs,False,,,,,368,0.8781933784484863
+heloc,0,RF,68,276,br_cg4,False,,,,,777,0.4598100185394287
+heloc,0,RF,68,276,mean_cg4,False,,,,,825,0.4463520050048828
+heloc,0,RF,68,276,additive,False,,,,,178,0.08570432662963867
+heloc,0,RF,68,276,shap,False,,,,,35365,0.3808121681213379
+heloc,0,RF,68,276,random,False,,,,,177,0.07741689682006836
+heloc,0,RF,68,276,topM_all,False,,,,,796,0.5856382846832275
+heloc,0,RF,68,276,all_pairs,False,,,,,956,0.9679584503173828
+heloc,0,RF,69,1647,br_cg4,True,triple,4.80843797482571,2.0,"['netfractionrevolvingburden', 'numbank2natltradeswhighutilization']",976,0.45546412467956543
+heloc,0,RF,69,1647,mean_cg4,True,pair,4.80843797482571,2.0,"['netfractionrevolvingburden', 'numbank2natltradeswhighutilization']",694,0.4014308452606201
+heloc,0,RF,69,1647,additive,True,pair,4.80843797482571,2.0,"['netfractionrevolvingburden', 'numbank2natltradeswhighutilization']",71,0.04582548141479492
+heloc,0,RF,69,1647,shap,True,pair,4.80843797482571,2.0,"['netfractionrevolvingburden', 'numbank2natltradeswhighutilization']",36041,0.36842799186706543
+heloc,0,RF,69,1647,random,False,,,,,127,0.12451028823852539
+heloc,0,RF,69,1647,topM_all,True,pair,4.80843797482571,2.0,"['netfractionrevolvingburden', 'numbank2natltradeswhighutilization']",240,0.25003528594970703
+heloc,0,RF,69,1647,all_pairs,True,pair,4.80843797482571,2.0,"['netfractionrevolvingburden', 'numbank2natltradeswhighutilization']",284,0.35657763481140137
+heloc,0,RF,70,926,br_cg4,False,,,,,717,0.42270731925964355
+heloc,0,RF,70,926,mean_cg4,False,,,,,797,0.45853757858276367
+heloc,0,RF,70,926,additive,False,,,,,145,0.08264994621276855
+heloc,0,RF,70,926,shap,False,,,,,40058,0.32603979110717773
+heloc,0,RF,70,926,random,False,,,,,98,0.07662820816040039
+heloc,0,RF,70,926,topM_all,False,,,,,775,0.5754728317260742
+heloc,0,RF,70,926,all_pairs,False,,,,,934,0.924318790435791
+heloc,0,RF,72,1227,br_cg4,True,pair,3.5804978288776597,2.0,"['netfractionrevolvingburden', 'numbank2natltradeswhighutilization']",669,0.3854098320007324
+heloc,0,RF,72,1227,mean_cg4,False,,,,,767,0.46271753311157227
+heloc,0,RF,72,1227,additive,True,pair,3.5804978288776597,2.0,"['netfractionrevolvingburden', 'numbank2natltradeswhighutilization']",37,0.049091339111328125
+heloc,0,RF,72,1227,shap,False,,,,,41715,0.35676026344299316
+heloc,0,RF,72,1227,random,False,,,,,133,0.0784761905670166
+heloc,0,RF,72,1227,topM_all,True,pair,3.5804978288776597,2.0,"['netfractionrevolvingburden', 'numbank2natltradeswhighutilization']",201,0.2462751865386963
+heloc,0,RF,72,1227,all_pairs,True,pair,3.5804978288776597,2.0,"['netfractionrevolvingburden', 'numbank2natltradeswhighutilization']",241,0.3256857395172119
+heloc,0,RF,73,125,br_cg4,False,,,,,879,0.5325257778167725
+heloc,0,RF,73,125,mean_cg4,False,,,,,1011,0.4357314109802246
+heloc,0,RF,73,125,additive,False,,,,,319,0.07759618759155273
+heloc,0,RF,73,125,shap,False,,,,,35107,0.3575119972229004
+heloc,0,RF,73,125,random,False,,,,,84,0.08622121810913086
+heloc,0,RF,73,125,topM_all,False,,,,,1343,0.5629560947418213
+heloc,0,RF,73,125,all_pairs,False,,,,,1834,0.8952646255493164
+heloc,0,RF,75,65,br_cg4,False,,,,,645,0.4722263813018799
+heloc,0,RF,75,65,mean_cg4,False,,,,,684,0.43315553665161133
+heloc,0,RF,75,65,additive,False,,,,,5,0.07042121887207031
+heloc,0,RF,75,65,shap,False,,,,,38649,0.3569154739379883
+heloc,0,RF,75,65,random,False,,,,,17,0.0927579402923584
+heloc,0,RF,75,65,topM_all,False,,,,,167,0.5823242664337158
+heloc,0,RF,75,65,all_pairs,False,,,,,216,0.83467698097229
+heloc,0,RF,76,1015,br_cg4,False,,,,,703,0.5514125823974609
+heloc,0,RF,76,1015,mean_cg4,False,,,,,701,0.43469953536987305
+heloc,0,RF,76,1015,additive,False,,,,,75,0.07977437973022461
+heloc,0,RF,76,1015,shap,False,,,,,40589,0.3632781505584717
+heloc,0,RF,76,1015,random,False,,,,,60,0.07920122146606445
+heloc,0,RF,76,1015,topM_all,False,,,,,523,0.5339694023132324
+heloc,0,RF,76,1015,all_pairs,False,,,,,638,1.072885513305664
+heloc,0,RF,77,912,br_cg4,True,triple,10.688406620523264,3.0,"['netfractioninstallburden', 'netfractionrevolvingburden', 'numinqlast6m']",753,0.524578332901001
+heloc,0,RF,77,912,mean_cg4,False,,,,,755,0.4351949691772461
+heloc,0,RF,77,912,additive,False,,,,,193,0.0885772705078125
+heloc,0,RF,77,912,shap,False,,,,,38575,0.3504056930541992
+heloc,0,RF,77,912,random,False,,,,,73,0.07932686805725098
+heloc,0,RF,77,912,topM_all,True,triple,10.688406620523264,3.0,"['netfractioninstallburden', 'netfractionrevolvingburden', 'numinqlast6m']",669,0.5921473503112793
+heloc,0,RF,77,912,all_pairs,True,triple,10.688406620523264,3.0,"['netfractioninstallburden', 'netfractionrevolvingburden', 'numinqlast6m']",811,0.9182388782501221
+heloc,0,RF,79,1608,br_cg4,True,pair,3.8068585837562554,2.0,"['netfractionrevolvingburden', 'numtradesopeninlast12m']",659,0.4139444828033447
+heloc,0,RF,79,1608,mean_cg4,True,pair,3.8068585837562554,2.0,"['netfractionrevolvingburden', 'numtradesopeninlast12m']",653,0.42924952507019043
+heloc,0,RF,79,1608,additive,False,,,,,99,0.07504868507385254
+heloc,0,RF,79,1608,shap,False,,,,,40529,0.3381030559539795
+heloc,0,RF,79,1608,random,False,,,,,21,0.1039726734161377
+heloc,0,RF,79,1608,topM_all,True,pair,3.8068585837562554,2.0,"['netfractionrevolvingburden', 'numtradesopeninlast12m']",89,0.28916478157043457
+heloc,0,RF,79,1608,all_pairs,True,pair,3.8068585837562554,2.0,"['netfractionrevolvingburden', 'numtradesopeninlast12m']",99,0.3240187168121338
+heloc,0,RF,85,1131,br_cg4,True,pair,15.68223895035186,2.0,"['netfractionrevolvingburden', 'numinqlast6m']",707,0.4156191349029541
+heloc,0,RF,85,1131,mean_cg4,True,pair,15.68223895035186,2.0,"['netfractionrevolvingburden', 'numinqlast6m']",697,0.40356922149658203
+heloc,0,RF,85,1131,additive,True,pair,15.68223895035186,2.0,"['netfractionrevolvingburden', 'numinqlast6m']",75,0.045754432678222656
+heloc,0,RF,85,1131,shap,True,pair,15.68223895035186,2.0,"['netfractionrevolvingburden', 'numinqlast6m']",36275,0.3202095031738281
+heloc,0,RF,85,1131,random,False,,,,,203,0.08980011940002441
+heloc,0,RF,85,1131,topM_all,True,pair,15.68223895035186,2.0,"['netfractionrevolvingburden', 'numinqlast6m']",241,0.23850536346435547
+heloc,0,RF,85,1131,all_pairs,True,pair,15.68223895035186,2.0,"['netfractionrevolvingburden', 'numinqlast6m']",310,0.32166481018066406
+heloc,0,RF,87,486,br_cg4,True,pair,5.3610340337792355,2.0,"['netfractionrevolvingburden', 'numinqlast6m']",659,0.4182722568511963
+heloc,0,RF,87,486,mean_cg4,True,pair,5.3610340337792355,2.0,"['netfractionrevolvingburden', 'numinqlast6m']",671,0.39699554443359375
+heloc,0,RF,87,486,additive,True,pair,5.3610340337792355,2.0,"['netfractionrevolvingburden', 'numinqlast6m']",27,0.04560589790344238
+heloc,0,RF,87,486,shap,False,,,,,38957,0.3464527130126953
+heloc,0,RF,87,486,random,False,,,,,57,0.08243513107299805
+heloc,0,RF,87,486,topM_all,True,pair,5.3610340337792355,2.0,"['netfractionrevolvingburden', 'numinqlast6m']",84,0.2595224380493164
+heloc,0,RF,87,486,all_pairs,True,pair,5.3610340337792355,2.0,"['netfractionrevolvingburden', 'numinqlast6m']",94,0.3152024745941162
+heloc,0,RF,88,1012,br_cg4,False,,,,,679,0.45668649673461914
+heloc,0,RF,88,1012,mean_cg4,False,,,,,759,0.44982147216796875
+heloc,0,RF,88,1012,additive,False,,,,,69,0.07836675643920898
+heloc,0,RF,88,1012,shap,False,,,,,42967,0.34409189224243164
+heloc,0,RF,88,1012,random,False,,,,,65,0.07927155494689941
+heloc,0,RF,88,1012,topM_all,False,,,,,408,0.5420880317687988
+heloc,0,RF,88,1012,all_pairs,False,,,,,625,0.8850460052490234
+heloc,0,RF,92,371,br_cg4,False,,,,,653,0.5419902801513672
+heloc,0,RF,92,371,mean_cg4,False,,,,,681,0.471024751663208
+heloc,0,RF,92,371,additive,False,,,,,23,0.07623720169067383
+heloc,0,RF,92,371,shap,False,,,,,40595,0.33535218238830566
+heloc,0,RF,92,371,random,False,,,,,15,0.10172128677368164
+heloc,0,RF,92,371,topM_all,False,,,,,225,0.6160507202148438
+heloc,0,RF,92,371,all_pairs,False,,,,,450,0.9038805961608887
+heloc,0,RF,96,1110,br_cg4,True,triple,16.935784994779997,3.0,"['netfractioninstallburden', 'netfractionrevolvingburden', 'numinqlast6m']",718,0.42218899726867676
+heloc,0,RF,96,1110,mean_cg4,False,,,,,772,0.4245619773864746
+heloc,0,RF,96,1110,additive,False,,,,,82,0.07623291015625
+heloc,0,RF,96,1110,shap,False,,,,,41210,0.3334989547729492
+heloc,0,RF,96,1110,random,False,,,,,56,0.07624197006225586
+heloc,0,RF,96,1110,topM_all,True,triple,16.935784994779997,3.0,"['netfractioninstallburden', 'netfractionrevolvingburden', 'numinqlast6m']",551,0.5213274955749512
+heloc,0,RF,96,1110,all_pairs,True,triple,16.935784994779997,3.0,"['netfractioninstallburden', 'netfractionrevolvingburden', 'numinqlast6m']",676,0.8221569061279297
+heloc,0,RF,98,1973,br_cg4,False,,,,,819,0.40912842750549316
+heloc,0,RF,98,1973,mean_cg4,False,,,,,827,0.41072630882263184
+heloc,0,RF,98,1973,additive,False,,,,,162,0.07616639137268066
+heloc,0,RF,98,1973,shap,False,,,,,35435,0.31984996795654297
+heloc,0,RF,98,1973,random,False,,,,,153,0.07622838020324707
+heloc,0,RF,98,1973,topM_all,False,,,,,1031,0.5282590389251709
+heloc,0,RF,98,1973,all_pairs,False,,,,,1226,0.8901093006134033
+heloc,0,RF,99,1099,br_cg4,False,,,,,681,0.41370439529418945
+heloc,0,RF,99,1099,mean_cg4,False,,,,,681,0.41260552406311035
+heloc,0,RF,99,1099,additive,False,,,,,61,0.07498455047607422
+heloc,0,RF,99,1099,shap,False,,,,,41220,0.3340418338775635
+heloc,0,RF,99,1099,random,False,,,,,47,0.07413291931152344
+heloc,0,RF,99,1099,topM_all,False,,,,,353,0.5268340110778809
+heloc,0,RF,99,1099,all_pairs,False,,,,,439,0.860088586807251
+heloc,0,SVM,2,272,br_cg4,False,,,,,803,0.19169282913208008
+heloc,0,SVM,2,272,mean_cg4,False,,,,,795,0.18936991691589355
+heloc,0,SVM,2,272,additive,False,,,,,163,0.04014945030212402
+heloc,0,SVM,2,272,shap,False,,,,,38225,8.952445030212402
+heloc,0,SVM,2,272,random,False,,,,,99,0.024960994720458984
+heloc,0,SVM,2,272,topM_all,True,triple,17.157097977968892,3.0,"['netfractioninstallburden', 'netfractionrevolvingburden', 'numinqlast6m']",833,0.20453190803527832
+heloc,0,SVM,2,272,all_pairs,True,triple,17.157097977968892,3.0,"['netfractioninstallburden', 'netfractionrevolvingburden', 'numinqlast6m']",996,0.2527749538421631
+heloc,0,SVM,3,232,br_cg4,True,pair,28.19000299535627,2.0,"['netfractionrevolvingburden', 'numinqlast6m']",662,0.1551954746246338
+heloc,0,SVM,3,232,mean_cg4,True,pair,28.19000299535627,2.0,"['netfractionrevolvingburden', 'numinqlast6m']",673,0.156813383102417
+heloc,0,SVM,3,232,additive,False,,,,,52,0.014433622360229492
+heloc,0,SVM,3,232,shap,True,pair,28.19000299535627,2.0,"['netfractionrevolvingburden', 'numinqlast6m']",40537,9.387632131576538
+heloc,0,SVM,3,232,random,False,,,,,36,0.010799884796142578
+heloc,0,SVM,3,232,topM_all,True,pair,28.19000299535627,2.0,"['netfractionrevolvingburden', 'numinqlast6m']",96,0.028586387634277344
+heloc,0,SVM,3,232,all_pairs,True,pair,28.19000299535627,2.0,"['netfractionrevolvingburden', 'numinqlast6m']",141,0.041426897048950195
+heloc,0,SVM,4,1509,br_cg4,False,,,,,711,0.1681356430053711
+heloc,0,SVM,4,1509,mean_cg4,False,,,,,799,0.18725228309631348
+heloc,0,SVM,4,1509,additive,False,,,,,47,0.013399839401245117
+heloc,0,SVM,4,1509,shap,False,,,,,43155,10.006327629089355
+heloc,0,SVM,4,1509,random,False,,,,,65,0.016555070877075195
+heloc,0,SVM,4,1509,topM_all,False,,,,,717,0.17363619804382324
+heloc,0,SVM,4,1509,all_pairs,False,,,,,1197,0.2928133010864258
+heloc,0,SVM,5,157,br_cg4,False,,,,,693,0.16063737869262695
+heloc,0,SVM,5,157,mean_cg4,False,,,,,735,0.1683797836303711
+heloc,0,SVM,5,157,additive,False,,,,,103,0.025238752365112305
+heloc,0,SVM,5,157,shap,False,,,,,40043,9.178622245788574
+heloc,0,SVM,5,157,random,False,,,,,15,0.0053479671478271484
+heloc,0,SVM,5,157,topM_all,False,,,,,287,0.0788414478302002
+heloc,0,SVM,5,157,all_pairs,False,,,,,366,0.10526919364929199
+heloc,0,SVM,7,1543,br_cg4,True,triple,9.10532180738228,3.0,"['netfractionrevolvingburden', 'numinqlast6m', 'numrevolvingtradeswbalance']",777,0.17785096168518066
+heloc,0,SVM,7,1543,mean_cg4,True,triple,7.484712304076042,3.0,"['netfractionrevolvingburden', 'numbank2natltradeswhighutilization', 'numrevolvingtradeswbalance']",826,0.19007158279418945
+heloc,0,SVM,7,1543,additive,True,triple,7.484712304076042,3.0,"['netfractionrevolvingburden', 'numbank2natltradeswhighutilization', 'numrevolvingtradeswbalance']",200,0.04684090614318848
+heloc,0,SVM,7,1543,shap,True,triple,7.484712304076042,3.0,"['netfractionrevolvingburden', 'numbank2natltradeswhighutilization', 'numrevolvingtradeswbalance']",38395,8.810567378997803
+heloc,0,SVM,7,1543,random,False,,,,,124,0.030083417892456055
+heloc,0,SVM,7,1543,topM_all,True,triple,7.484712304076042,3.0,"['netfractionrevolvingburden', 'numbank2natltradeswhighutilization', 'numrevolvingtradeswbalance']",951,0.2277224063873291
+heloc,0,SVM,7,1543,all_pairs,True,triple,7.484712304076042,3.0,"['netfractionrevolvingburden', 'numbank2natltradeswhighutilization', 'numrevolvingtradeswbalance']",1332,0.32178425788879395
+heloc,0,SVM,10,795,br_cg4,False,,,,,782,0.1804647445678711
+heloc,0,SVM,10,795,mean_cg4,False,,,,,887,0.204268217086792
+heloc,0,SVM,10,795,additive,False,,,,,86,0.0212252140045166
+heloc,0,SVM,10,795,shap,False,,,,,39262,8.996636867523193
+heloc,0,SVM,10,795,random,False,,,,,118,0.028331756591796875
+heloc,0,SVM,10,795,topM_all,False,,,,,1095,0.2604057788848877
+heloc,0,SVM,10,795,all_pairs,False,,,,,1294,0.31368589401245117
+heloc,0,SVM,11,38,br_cg4,True,pair,8.593338832330575,2.0,"['netfractionrevolvingburden', 'numinqlast6m']",689,0.15786194801330566
+heloc,0,SVM,11,38,mean_cg4,True,pair,8.593338832330575,2.0,"['netfractionrevolvingburden', 'numinqlast6m']",695,0.1609952449798584
+heloc,0,SVM,11,38,additive,True,pair,8.593338832330575,2.0,"['netfractionrevolvingburden', 'numinqlast6m']",57,0.013920068740844727
+heloc,0,SVM,11,38,shap,True,pair,8.593338832330575,2.0,"['netfractionrevolvingburden', 'numinqlast6m']",39831,9.145058631896973
+heloc,0,SVM,11,38,random,False,,,,,110,0.02731943130493164
+heloc,0,SVM,11,38,topM_all,True,pair,8.593338832330575,2.0,"['netfractionrevolvingburden', 'numinqlast6m']",200,0.0517578125
+heloc,0,SVM,11,38,all_pairs,True,pair,8.593338832330575,2.0,"['netfractionrevolvingburden', 'numinqlast6m']",263,0.0674295425415039
+heloc,0,SVM,14,686,br_cg4,False,,,,,794,0.18397116661071777
+heloc,0,SVM,14,686,mean_cg4,False,,,,,792,0.1820054054260254
+heloc,0,SVM,14,686,additive,False,,,,,163,0.03877735137939453
+heloc,0,SVM,14,686,shap,False,,,,,36747,8.437777996063232
+heloc,0,SVM,14,686,random,False,,,,,260,0.06330704689025879
+heloc,0,SVM,14,686,topM_all,False,,,,,1255,0.29929304122924805
+heloc,0,SVM,14,686,all_pairs,False,,,,,1714,0.409498929977417
+heloc,0,SVM,15,1926,br_cg4,True,triple,18.568371237386167,3.0,"['netfractionrevolvingburden', 'numinstalltradeswbalance', 'numrevolvingtradeswbalance']",933,0.21596288681030273
+heloc,0,SVM,15,1926,mean_cg4,False,,,,,889,0.20572566986083984
+heloc,0,SVM,15,1926,additive,True,triple,18.568371237386167,3.0,"['netfractionrevolvingburden', 'numinstalltradeswbalance', 'numrevolvingtradeswbalance']",313,0.07233715057373047
+heloc,0,SVM,15,1926,shap,False,,,,,36715,8.491998195648193
+heloc,0,SVM,15,1926,random,False,,,,,119,0.0288393497467041
+heloc,0,SVM,15,1926,topM_all,True,triple,18.568371237386167,3.0,"['netfractionrevolvingburden', 'numinstalltradeswbalance', 'numrevolvingtradeswbalance']",1207,0.2872617244720459
+heloc,0,SVM,15,1926,all_pairs,True,triple,18.568371237386167,3.0,"['netfractionrevolvingburden', 'numinstalltradeswbalance', 'numrevolvingtradeswbalance']",1897,0.4508175849914551
+heloc,0,SVM,18,1359,br_cg4,False,,,,,682,0.15868663787841797
+heloc,0,SVM,18,1359,mean_cg4,False,,,,,892,0.20547032356262207
+heloc,0,SVM,18,1359,additive,False,,,,,50,0.013600826263427734
+heloc,0,SVM,18,1359,shap,False,,,,,39155,8.99320912361145
+heloc,0,SVM,18,1359,random,False,,,,,47,0.01259303092956543
+heloc,0,SVM,18,1359,topM_all,False,,,,,633,0.1582789421081543
+heloc,0,SVM,18,1359,all_pairs,False,,,,,773,0.19580674171447754
+heloc,0,SVM,21,1168,br_cg4,False,,,,,787,0.1804659366607666
+heloc,0,SVM,21,1168,mean_cg4,False,,,,,725,0.16914892196655273
+heloc,0,SVM,21,1168,additive,False,,,,,155,0.03719615936279297
+heloc,0,SVM,21,1168,shap,False,,,,,39631,9.133650541305542
+heloc,0,SVM,21,1168,random,False,,,,,29,0.008529424667358398
+heloc,0,SVM,21,1168,topM_all,False,,,,,475,0.12362909317016602
+heloc,0,SVM,21,1168,all_pairs,False,,,,,586,0.1568903923034668
+heloc,0,SVM,22,146,br_cg4,False,,,,,763,0.17649006843566895
+heloc,0,SVM,22,146,mean_cg4,False,,,,,766,0.17923784255981445
+heloc,0,SVM,22,146,additive,False,,,,,91,0.02315974235534668
+heloc,0,SVM,22,146,shap,False,,,,,36563,8.432013034820557
+heloc,0,SVM,22,146,random,False,,,,,101,0.024875640869140625
+heloc,0,SVM,22,146,topM_all,False,,,,,820,0.20234298706054688
+heloc,0,SVM,22,146,all_pairs,False,,,,,1165,0.2873847484588623
+heloc,0,SVM,23,1325,br_cg4,False,,,,,696,0.16223978996276855
+heloc,0,SVM,23,1325,mean_cg4,False,,,,,703,0.1650247573852539
+heloc,0,SVM,23,1325,additive,False,,,,,67,0.017250776290893555
+heloc,0,SVM,23,1325,shap,False,,,,,41207,9.498604536056519
+heloc,0,SVM,23,1325,random,False,,,,,65,0.016457557678222656
+heloc,0,SVM,23,1325,topM_all,False,,,,,274,0.07637166976928711
+heloc,0,SVM,23,1325,all_pairs,False,,,,,346,0.10119032859802246
+heloc,0,SVM,24,996,br_cg4,False,,,,,651,0.1508786678314209
+heloc,0,SVM,24,996,mean_cg4,False,,,,,763,0.17570829391479492
+heloc,0,SVM,24,996,additive,False,,,,,59,0.01522207260131836
+heloc,0,SVM,24,996,shap,False,,,,,42045,9.660927772521973
+heloc,0,SVM,24,996,random,False,,,,,46,0.012113571166992188
+heloc,0,SVM,24,996,topM_all,False,,,,,408,0.10770058631896973
+heloc,0,SVM,24,996,all_pairs,False,,,,,506,0.13652896881103516
+heloc,0,SVM,25,1711,br_cg4,False,,,,,745,0.17283892631530762
+heloc,0,SVM,25,1711,mean_cg4,False,,,,,745,0.17358183860778809
+heloc,0,SVM,25,1711,additive,False,,,,,115,0.027979135513305664
+heloc,0,SVM,25,1711,shap,False,,,,,40932,9.40067982673645
+heloc,0,SVM,25,1711,random,False,,,,,51,0.013471841812133789
+heloc,0,SVM,25,1711,topM_all,False,,,,,691,0.17114663124084473
+heloc,0,SVM,25,1711,all_pairs,False,,,,,835,0.21080756187438965
+heloc,0,SVM,26,792,br_cg4,False,,,,,771,0.17878222465515137
+heloc,0,SVM,26,792,mean_cg4,False,,,,,825,0.19005537033081055
+heloc,0,SVM,26,792,additive,False,,,,,307,0.07139253616333008
+heloc,0,SVM,26,792,shap,False,,,,,41353,9.50079607963562
+heloc,0,SVM,26,792,random,False,,,,,173,0.0416262149810791
+heloc,0,SVM,26,792,topM_all,False,,,,,1050,0.24944734573364258
+heloc,0,SVM,26,792,all_pairs,False,,,,,1680,0.3976578712463379
+heloc,0,SVM,27,1958,br_cg4,True,triple,10.837140758633723,3.0,"['netfractioninstallburden', 'netfractionrevolvingburden', 'numinqlast6m']",692,0.16035676002502441
+heloc,0,SVM,27,1958,mean_cg4,False,,,,,747,0.17083263397216797
+heloc,0,SVM,27,1958,additive,True,triple,10.837140758633723,3.0,"['netfractioninstallburden', 'netfractionrevolvingburden', 'numinqlast6m']",75,0.01868605613708496
+heloc,0,SVM,27,1958,shap,False,,,,,39240,8.996203422546387
+heloc,0,SVM,27,1958,random,False,,,,,45,0.012086629867553711
+heloc,0,SVM,27,1958,topM_all,True,triple,10.837140758633723,3.0,"['netfractioninstallburden', 'netfractionrevolvingburden', 'numinqlast6m']",388,0.10099029541015625
+heloc,0,SVM,27,1958,all_pairs,True,triple,10.837140758633723,3.0,"['netfractioninstallburden', 'netfractionrevolvingburden', 'numinqlast6m']",484,0.12940335273742676
+heloc,0,SVM,29,672,br_cg4,False,,,,,681,0.15955448150634766
+heloc,0,SVM,29,672,mean_cg4,False,,,,,701,0.16258835792541504
+heloc,0,SVM,29,672,additive,False,,,,,49,0.013656854629516602
+heloc,0,SVM,29,672,shap,False,,,,,39648,9.117326974868774
+heloc,0,SVM,29,672,random,False,,,,,111,0.026695966720581055
+heloc,0,SVM,29,672,topM_all,False,,,,,497,0.12652587890625
+heloc,0,SVM,29,672,all_pairs,False,,,,,744,0.1874849796295166
+heloc,0,SVM,30,473,br_cg4,False,,,,,723,0.1679246425628662
+heloc,0,SVM,30,473,mean_cg4,False,,,,,743,0.16961359977722168
+heloc,0,SVM,30,473,additive,False,,,,,91,0.022286653518676758
+heloc,0,SVM,30,473,shap,False,,,,,41499,9.555359125137329
+heloc,0,SVM,30,473,random,False,,,,,73,0.01824498176574707
+heloc,0,SVM,30,473,topM_all,False,,,,,717,0.1768801212310791
+heloc,0,SVM,30,473,all_pairs,False,,,,,1030,0.25197672843933105
+heloc,0,SVM,32,782,br_cg4,True,pair,12.28512698947585,2.0,"['netfractionrevolvingburden', 'numinstalltradeswbalance']",689,0.15686368942260742
+heloc,0,SVM,32,782,mean_cg4,True,pair,12.28512698947585,2.0,"['netfractionrevolvingburden', 'numinstalltradeswbalance']",681,0.15498661994934082
+heloc,0,SVM,32,782,additive,False,,,,,139,0.032930850982666016
+heloc,0,SVM,32,782,shap,False,,,,,35611,8.195622205734253
+heloc,0,SVM,32,782,random,False,,,,,139,0.0334169864654541
+heloc,0,SVM,32,782,topM_all,True,pair,12.28512698947585,2.0,"['netfractionrevolvingburden', 'numinstalltradeswbalance']",199,0.05051732063293457
+heloc,0,SVM,32,782,all_pairs,True,pair,12.28512698947585,2.0,"['netfractionrevolvingburden', 'numinstalltradeswbalance']",239,0.061266422271728516
+heloc,0,SVM,33,1651,br_cg4,True,pair,8.272660892042012,2.0,"['numbank2natltradeswhighutilization', 'numrevolvingtradeswbalance']",695,0.15958833694458008
+heloc,0,SVM,33,1651,mean_cg4,True,pair,8.272660892042012,2.0,"['numbank2natltradeswhighutilization', 'numrevolvingtradeswbalance']",689,0.15765929222106934
+heloc,0,SVM,33,1651,additive,True,triple,14.906639873209803,3.0,"['netfractioninstallburden', 'netfractionrevolvingburden', 'numbank2natltradeswhighutilization']",131,0.031151771545410156
+heloc,0,SVM,33,1651,shap,True,pair,8.272660892042012,2.0,"['numbank2natltradeswhighutilization', 'numrevolvingtradeswbalance']",35371,8.120347023010254
+heloc,0,SVM,33,1651,random,False,,,,,181,0.04297471046447754
+heloc,0,SVM,33,1651,topM_all,True,pair,8.272660892042012,2.0,"['numbank2natltradeswhighutilization', 'numrevolvingtradeswbalance']",182,0.04664349555969238
+heloc,0,SVM,33,1651,all_pairs,True,pair,8.272660892042012,2.0,"['numbank2natltradeswhighutilization', 'numrevolvingtradeswbalance']",198,0.05211591720581055
+heloc,0,SVM,34,1734,br_cg4,False,,,,,819,0.1899268627166748
+heloc,0,SVM,34,1734,mean_cg4,False,,,,,939,0.21444201469421387
+heloc,0,SVM,34,1734,additive,False,,,,,211,0.04926156997680664
+heloc,0,SVM,34,1734,shap,False,,,,,37657,8.663267850875854
+heloc,0,SVM,34,1734,random,False,,,,,173,0.040848493576049805
+heloc,0,SVM,34,1734,topM_all,False,,,,,719,0.17575979232788086
+heloc,0,SVM,34,1734,all_pairs,False,,,,,874,0.22096586227416992
+heloc,0,SVM,36,527,br_cg4,False,,,,,837,0.1935265064239502
+heloc,0,SVM,36,527,mean_cg4,False,,,,,703,0.16272330284118652
+heloc,0,SVM,36,527,additive,False,,,,,125,0.029764652252197266
+heloc,0,SVM,36,527,shap,False,,,,,42113,9.689480781555176
+heloc,0,SVM,36,527,random,False,,,,,125,0.030330419540405273
+heloc,0,SVM,36,527,topM_all,False,,,,,949,0.22748756408691406
+heloc,0,SVM,36,527,all_pairs,False,,,,,1732,0.41208434104919434
+heloc,0,SVM,37,1931,br_cg4,True,pair,3.5210846110829834,2.0,"['netfractioninstallburden', 'netfractionrevolvingburden']",656,0.15303730964660645
+heloc,0,SVM,37,1931,mean_cg4,False,,,,,673,0.1541757583618164
+heloc,0,SVM,37,1931,additive,True,pair,3.5210846110829834,2.0,"['netfractioninstallburden', 'netfractionrevolvingburden']",24,0.006640434265136719
+heloc,0,SVM,37,1931,shap,True,pair,3.5547460581181918,2.0,"['netfractionrevolvingburden', 'numinqlast6m']",39949,9.191851377487183
+heloc,0,SVM,37,1931,random,False,,,,,49,0.012928009033203125
+heloc,0,SVM,37,1931,topM_all,True,pair,3.5210846110829834,2.0,"['netfractioninstallburden', 'netfractionrevolvingburden']",76,0.022400379180908203
+heloc,0,SVM,37,1931,all_pairs,True,pair,3.5210846110829834,2.0,"['netfractioninstallburden', 'netfractionrevolvingburden']",85,0.02575969696044922
+heloc,0,SVM,39,131,br_cg4,False,,,,,729,0.16840553283691406
+heloc,0,SVM,39,131,mean_cg4,False,,,,,741,0.17788219451904297
+heloc,0,SVM,39,131,additive,False,,,,,64,0.016836166381835938
+heloc,0,SVM,39,131,shap,False,,,,,41225,9.557222843170166
+heloc,0,SVM,39,131,random,False,,,,,125,0.029991626739501953
+heloc,0,SVM,39,131,topM_all,False,,,,,909,0.22137999534606934
+heloc,0,SVM,39,131,all_pairs,False,,,,,1680,0.40367627143859863
+heloc,0,SVM,40,1563,br_cg4,True,triple,12.292011390759146,3.0,"['netfractionrevolvingburden', 'numinqlast6m', 'numrevolvingtradeswbalance']",932,0.21947908401489258
+heloc,0,SVM,40,1563,mean_cg4,True,triple,12.292011390759146,3.0,"['netfractionrevolvingburden', 'numinqlast6m', 'numrevolvingtradeswbalance']",921,0.2174382209777832
+heloc,0,SVM,40,1563,additive,True,triple,12.292011390759146,3.0,"['netfractionrevolvingburden', 'numinqlast6m', 'numrevolvingtradeswbalance']",300,0.07025790214538574
+heloc,0,SVM,40,1563,shap,True,triple,12.292011390759146,3.0,"['netfractionrevolvingburden', 'numinqlast6m', 'numrevolvingtradeswbalance']",40069,9.620201110839844
+heloc,0,SVM,40,1563,random,False,,,,,120,0.030250072479248047
+heloc,0,SVM,40,1563,topM_all,True,triple,12.292011390759146,3.0,"['netfractionrevolvingburden', 'numinqlast6m', 'numrevolvingtradeswbalance']",875,0.21451854705810547
+heloc,0,SVM,40,1563,all_pairs,True,triple,12.292011390759146,3.0,"['netfractionrevolvingburden', 'numinqlast6m', 'numrevolvingtradeswbalance']",1246,0.34583187103271484
+heloc,0,SVM,42,876,br_cg4,False,,,,,667,0.1566789150238037
+heloc,0,SVM,42,876,mean_cg4,False,,,,,745,0.17238092422485352
+heloc,0,SVM,42,876,additive,False,,,,,35,0.009835243225097656
+heloc,0,SVM,42,876,shap,False,,,,,38963,9.017468690872192
+heloc,0,SVM,42,876,random,False,,,,,25,0.008816003799438477
+heloc,0,SVM,42,876,topM_all,False,,,,,301,0.08983969688415527
+heloc,0,SVM,42,876,all_pairs,False,,,,,382,0.11643600463867188
+heloc,0,SVM,43,691,br_cg4,True,triple,13.072216033696488,3.0,"['netfractionrevolvingburden', 'numinqlast6m', 'numinstalltradeswbalance']",711,0.17327475547790527
+heloc,0,SVM,43,691,mean_cg4,True,triple,13.072216033696488,3.0,"['netfractionrevolvingburden', 'numinqlast6m', 'numinstalltradeswbalance']",703,0.17376923561096191
+heloc,0,SVM,43,691,additive,True,triple,13.072216033696488,3.0,"['netfractionrevolvingburden', 'numinqlast6m', 'numinstalltradeswbalance']",79,0.02449774742126465
+heloc,0,SVM,43,691,shap,False,,,,,33859,7.9097747802734375
+heloc,0,SVM,43,691,random,True,triple,13.072216033696488,3.0,"['netfractionrevolvingburden', 'numinqlast6m', 'numinstalltradeswbalance']",71,0.02001953125
+heloc,0,SVM,43,691,topM_all,True,triple,13.072216033696488,3.0,"['netfractionrevolvingburden', 'numinqlast6m', 'numinstalltradeswbalance']",471,0.1283421516418457
+heloc,0,SVM,43,691,all_pairs,True,triple,13.072216033696488,3.0,"['netfractionrevolvingburden', 'numinqlast6m', 'numinstalltradeswbalance']",712,0.19193291664123535
+heloc,0,SVM,44,732,br_cg4,False,,,,,659,0.16039729118347168
+heloc,0,SVM,44,732,mean_cg4,False,,,,,659,0.1622312068939209
+heloc,0,SVM,44,732,additive,False,,,,,27,0.008928775787353516
+heloc,0,SVM,44,732,shap,False,,,,,37300,8.726279735565186
+heloc,0,SVM,44,732,random,False,,,,,19,0.007044553756713867
+heloc,0,SVM,44,732,topM_all,False,,,,,75,0.031555891036987305
+heloc,0,SVM,44,732,all_pairs,False,,,,,102,0.04885101318359375
+heloc,0,SVM,45,371,br_cg4,False,,,,,684,0.16834592819213867
+heloc,0,SVM,45,371,mean_cg4,False,,,,,684,0.16624832153320312
+heloc,0,SVM,45,371,additive,False,,,,,40,0.01238870620727539
+heloc,0,SVM,45,371,shap,False,,,,,40592,9.487200021743774
+heloc,0,SVM,45,371,random,False,,,,,18,0.0060160160064697266
+heloc,0,SVM,45,371,topM_all,False,,,,,225,0.06583905220031738
+heloc,0,SVM,45,371,all_pairs,False,,,,,450,0.12303853034973145
+heloc,0,SVM,47,326,br_cg4,False,,,,,741,0.17463207244873047
+heloc,0,SVM,47,326,mean_cg4,False,,,,,753,0.17768263816833496
+heloc,0,SVM,47,326,additive,False,,,,,85,0.022115707397460938
+heloc,0,SVM,47,326,shap,False,,,,,39665,9.604021787643433
+heloc,0,SVM,47,326,random,False,,,,,31,0.009231090545654297
+heloc,0,SVM,47,326,topM_all,False,,,,,669,0.17284941673278809
+heloc,0,SVM,47,326,all_pairs,False,,,,,1300,0.3387601375579834
+heloc,0,SVM,48,1084,br_cg4,False,,,,,731,0.18110418319702148
+heloc,0,SVM,48,1084,mean_cg4,False,,,,,731,0.17904138565063477
+heloc,0,SVM,48,1084,additive,False,,,,,163,0.04004526138305664
+heloc,0,SVM,48,1084,shap,False,,,,,44139,10.297266721725464
+heloc,0,SVM,48,1084,random,False,,,,,63,0.017949342727661133
+heloc,0,SVM,48,1084,topM_all,False,,,,,717,0.18991541862487793
+heloc,0,SVM,48,1084,all_pairs,False,,,,,863,0.23504924774169922
+heloc,0,SVM,49,1535,br_cg4,False,,,,,882,0.21245408058166504
+heloc,0,SVM,49,1535,mean_cg4,False,,,,,892,0.21274304389953613
+heloc,0,SVM,49,1535,additive,False,,,,,65,0.018140316009521484
+heloc,0,SVM,49,1535,shap,False,,,,,36340,8.55420184135437
+heloc,0,SVM,49,1535,random,False,,,,,83,0.022319316864013672
+heloc,0,SVM,49,1535,topM_all,False,,,,,792,0.20146489143371582
+heloc,0,SVM,49,1535,all_pairs,False,,,,,1495,0.3870811462402344
+heloc,0,SVM,51,119,br_cg4,False,,,,,651,0.15853667259216309
+heloc,0,SVM,51,119,mean_cg4,False,,,,,651,0.1568617820739746
+heloc,0,SVM,51,119,additive,False,,,,,19,0.006718873977661133
+heloc,0,SVM,51,119,shap,False,,,,,38765,9.49580979347229
+heloc,0,SVM,51,119,random,False,,,,,12,0.0044460296630859375
+heloc,0,SVM,51,119,topM_all,False,,,,,87,0.0365290641784668
+heloc,0,SVM,51,119,all_pairs,False,,,,,116,0.05695009231567383
+heloc,0,SVM,54,1140,br_cg4,True,triple,20.898403164518875,3.0,"['netfractioninstallburden', 'netfractionrevolvingburden', 'numinqlast6m']",825,0.20193076133728027
+heloc,0,SVM,54,1140,mean_cg4,False,,,,,825,0.19743847846984863
+heloc,0,SVM,54,1140,additive,True,triple,20.898403164518875,3.0,"['netfractioninstallburden', 'netfractionrevolvingburden', 'numinqlast6m']",178,0.04370927810668945
+heloc,0,SVM,54,1140,shap,False,,,,,42913,10.108915090560913
+heloc,0,SVM,54,1140,random,False,,,,,154,0.0368192195892334
+heloc,0,SVM,54,1140,topM_all,True,triple,20.898403164518875,3.0,"['netfractioninstallburden', 'netfractionrevolvingburden', 'numinqlast6m']",1259,0.30696797370910645
+heloc,0,SVM,54,1140,all_pairs,True,triple,20.898403164518875,3.0,"['netfractioninstallburden', 'netfractionrevolvingburden', 'numinqlast6m']",1958,0.47416114807128906
+heloc,0,SVM,56,1937,br_cg4,False,,,,,757,0.18010425567626953
+heloc,0,SVM,56,1937,mean_cg4,False,,,,,732,0.1732032299041748
+heloc,0,SVM,56,1937,additive,False,,,,,115,0.0281679630279541
+heloc,0,SVM,56,1937,shap,False,,,,,41335,9.598490476608276
+heloc,0,SVM,56,1937,random,False,,,,,51,0.013675451278686523
+heloc,0,SVM,56,1937,topM_all,False,,,,,820,0.19873285293579102
+heloc,0,SVM,56,1937,all_pairs,False,,,,,1165,0.28766822814941406
+heloc,0,SVM,58,1699,br_cg4,False,,,,,711,0.16667985916137695
+heloc,0,SVM,58,1699,mean_cg4,False,,,,,711,0.16710543632507324
+heloc,0,SVM,58,1699,additive,False,,,,,79,0.0201566219329834
+heloc,0,SVM,58,1699,shap,False,,,,,41449,9.850456476211548
+heloc,0,SVM,58,1699,random,False,,,,,55,0.015067100524902344
+heloc,0,SVM,58,1699,topM_all,False,,,,,471,0.12403106689453125
+heloc,0,SVM,58,1699,all_pairs,False,,,,,581,0.16321945190429688
+heloc,0,SVM,59,1036,br_cg4,True,triple,12.23903017826941,3.0,"['netfractioninstallburden', 'netfractionrevolvingburden', 'numbank2natltradeswhighutilization']",719,0.1723313331604004
+heloc,0,SVM,59,1036,mean_cg4,False,,,,,769,0.18089079856872559
+heloc,0,SVM,59,1036,additive,True,triple,12.23903017826941,3.0,"['netfractioninstallburden', 'netfractionrevolvingburden', 'numbank2natltradeswhighutilization']",87,0.02182936668395996
+heloc,0,SVM,59,1036,shap,False,,,,,40413,9.399635076522827
+heloc,0,SVM,59,1036,random,False,,,,,65,0.016778230667114258
+heloc,0,SVM,59,1036,topM_all,True,triple,12.23903017826941,3.0,"['netfractioninstallburden', 'netfractionrevolvingburden', 'numbank2natltradeswhighutilization']",923,0.22691965103149414
+heloc,0,SVM,59,1036,all_pairs,True,triple,12.23903017826941,3.0,"['netfractioninstallburden', 'netfractionrevolvingburden', 'numbank2natltradeswhighutilization']",1698,0.41680169105529785
+heloc,0,SVM,61,1565,br_cg4,False,,,,,727,0.17112278938293457
+heloc,0,SVM,61,1565,mean_cg4,False,,,,,727,0.17012906074523926
+heloc,0,SVM,61,1565,additive,False,,,,,70,0.01795506477355957
+heloc,0,SVM,61,1565,shap,False,,,,,38666,8.929709434509277
+heloc,0,SVM,61,1565,random,False,,,,,18,0.006075620651245117
+heloc,0,SVM,61,1565,topM_all,False,,,,,399,0.10295438766479492
+heloc,0,SVM,61,1565,all_pairs,False,,,,,496,0.13557791709899902
+heloc,0,SVM,63,804,br_cg4,False,,,,,723,0.1704120635986328
+heloc,0,SVM,63,804,mean_cg4,False,,,,,753,0.17450666427612305
+heloc,0,SVM,63,804,additive,False,,,,,91,0.02272510528564453
+heloc,0,SVM,63,804,shap,False,,,,,38081,8.819004774093628
+heloc,0,SVM,63,804,random,False,,,,,37,0.010393142700195312
+heloc,0,SVM,63,804,topM_all,False,,,,,408,0.10901689529418945
+heloc,0,SVM,63,804,all_pairs,False,,,,,506,0.13920283317565918
+heloc,0,SVM,68,808,br_cg4,False,,,,,662,0.15665531158447266
+heloc,0,SVM,68,808,mean_cg4,False,,,,,722,0.16797184944152832
+heloc,0,SVM,68,808,additive,False,,,,,30,0.008903026580810547
+heloc,0,SVM,68,808,shap,False,,,,,38773,8.933802604675293
+heloc,0,SVM,68,808,random,False,,,,,9,0.0039043426513671875
+heloc,0,SVM,68,808,topM_all,False,,,,,247,0.06858181953430176
+heloc,0,SVM,68,808,all_pairs,False,,,,,316,0.09130334854125977
+heloc,0,SVM,70,61,br_cg4,False,,,,,843,0.1947650909423828
+heloc,0,SVM,70,61,mean_cg4,False,,,,,761,0.17624473571777344
+heloc,0,SVM,70,61,additive,False,,,,,211,0.04962873458862305
+heloc,0,SVM,70,61,shap,False,,,,,39855,9.210411071777344
+heloc,0,SVM,70,61,random,False,,,,,213,0.05381155014038086
+heloc,0,SVM,70,61,topM_all,False,,,,,1207,0.2930417060852051
+heloc,0,SVM,70,61,all_pairs,False,,,,,1897,0.4673187732696533
+heloc,0,SVM,72,346,br_cg4,False,,,,,777,0.18342947959899902
+heloc,0,SVM,72,346,mean_cg4,False,,,,,915,0.21567249298095703
+heloc,0,SVM,72,346,additive,False,,,,,157,0.03798699378967285
+heloc,0,SVM,72,346,shap,True,pair,11.677066931164823,2.0,"['netfractionrevolvingburden', 'numbank2natltradeswhighutilization']",42121,9.756222486495972
+heloc,0,SVM,72,346,random,False,,,,,79,0.020682811737060547
+heloc,0,SVM,72,346,topM_all,False,,,,,1003,0.23935437202453613
+heloc,0,SVM,72,346,all_pairs,True,pair,11.677066931164823,2.0,"['netfractionrevolvingburden', 'numbank2natltradeswhighutilization']",259,0.06545877456665039
+heloc,0,SVM,73,1159,br_cg4,False,,,,,787,0.1826488971710205
+heloc,0,SVM,73,1159,mean_cg4,False,,,,,786,0.18319058418273926
+heloc,0,SVM,73,1159,additive,False,,,,,155,0.03786349296569824
+heloc,0,SVM,73,1159,shap,False,,,,,41827,9.591745615005493
+heloc,0,SVM,73,1159,random,False,,,,,60,0.015636444091796875
+heloc,0,SVM,73,1159,topM_all,False,,,,,705,0.1736288070678711
+heloc,0,SVM,73,1159,all_pairs,False,,,,,1182,0.2874715328216553
+heloc,0,SVM,75,49,br_cg4,False,,,,,765,0.17668628692626953
+heloc,0,SVM,75,49,mean_cg4,False,,,,,767,0.17611312866210938
+heloc,0,SVM,75,49,additive,False,,,,,133,0.032470703125
+heloc,0,SVM,75,49,shap,False,,,,,44313,10.17923617362976
+heloc,0,SVM,75,49,random,False,,,,,123,0.02930736541748047
+heloc,0,SVM,75,49,topM_all,False,,,,,1082,0.2555387020111084
+heloc,0,SVM,75,49,all_pairs,False,,,,,1937,0.46300578117370605
+heloc,0,SVM,76,177,br_cg4,False,,,,,759,0.1771845817565918
+heloc,0,SVM,76,177,mean_cg4,False,,,,,759,0.17638683319091797
+heloc,0,SVM,76,177,additive,False,,,,,71,0.017620325088500977
+heloc,0,SVM,76,177,shap,False,,,,,35479,8.130234718322754
+heloc,0,SVM,76,177,random,False,,,,,65,0.017549514770507812
+heloc,0,SVM,76,177,topM_all,False,,,,,511,0.13253569602966309
+heloc,0,SVM,76,177,all_pairs,False,,,,,1165,0.28462886810302734
+heloc,0,SVM,77,1517,br_cg4,False,,,,,669,0.15399765968322754
+heloc,0,SVM,77,1517,mean_cg4,False,,,,,732,0.17011499404907227
+heloc,0,SVM,77,1517,additive,False,,,,,37,0.010707378387451172
+heloc,0,SVM,77,1517,shap,False,,,,,39468,9.058313846588135
+heloc,0,SVM,77,1517,random,False,,,,,14,0.004988670349121094
+heloc,0,SVM,77,1517,topM_all,False,,,,,197,0.05688071250915527
+heloc,0,SVM,77,1517,all_pairs,False,,,,,255,0.07744693756103516
+heloc,0,SVM,78,7,br_cg4,False,,,,,667,0.15987586975097656
+heloc,0,SVM,78,7,mean_cg4,False,,,,,745,0.1743161678314209
+heloc,0,SVM,78,7,additive,False,,,,,60,0.0153656005859375
+heloc,0,SVM,78,7,shap,False,,,,,41220,9.459692001342773
+heloc,0,SVM,78,7,random,False,,,,,17,0.0056874752044677734
+heloc,0,SVM,78,7,topM_all,False,,,,,301,0.08020401000976562
+heloc,0,SVM,78,7,all_pairs,False,,,,,586,0.15474820137023926
+heloc,0,SVM,79,1518,br_cg4,True,pair,8.934836522330421,2.0,"['netfractioninstallburden', 'netfractionrevolvingburden']",684,0.15608525276184082
+heloc,0,SVM,79,1518,mean_cg4,True,triple,8.934836522330421,2.0,"['netfractioninstallburden', 'netfractionrevolvingburden']",843,0.19210457801818848
+heloc,0,SVM,79,1518,additive,True,pair,8.934836522330421,2.0,"['netfractioninstallburden', 'netfractionrevolvingburden']",47,0.011585235595703125
+heloc,0,SVM,79,1518,shap,True,pair,8.934836522330421,2.0,"['netfractioninstallburden', 'netfractionrevolvingburden']",40342,9.33981466293335
+heloc,0,SVM,79,1518,random,False,,,,,103,0.03290557861328125
+heloc,0,SVM,79,1518,topM_all,True,pair,8.934836522330421,2.0,"['netfractioninstallburden', 'netfractionrevolvingburden']",222,0.06178712844848633
+heloc,0,SVM,79,1518,all_pairs,True,pair,8.934836522330421,2.0,"['netfractioninstallburden', 'netfractionrevolvingburden']",264,0.08045673370361328
+heloc,0,SVM,81,530,br_cg4,True,pair,4.394500569482868,2.0,"['netfractionrevolvingburden', 'numinstalltradeswbalance']",662,0.20300841331481934
+heloc,0,SVM,81,530,mean_cg4,False,,,,,852,0.2089550495147705
+heloc,0,SVM,81,530,additive,True,pair,4.394500569482868,2.0,"['netfractionrevolvingburden', 'numinstalltradeswbalance']",33,0.009692907333374023
+heloc,0,SVM,81,530,shap,False,,,,,37380,8.791894435882568
+heloc,0,SVM,81,530,random,True,pair,4.394500569482868,2.0,"['netfractionrevolvingburden', 'numinstalltradeswbalance']",45,0.011903762817382812
+heloc,0,SVM,81,530,topM_all,True,pair,4.394500569482868,2.0,"['netfractionrevolvingburden', 'numinstalltradeswbalance']",223,0.05590105056762695
+heloc,0,SVM,81,530,all_pairs,True,pair,4.394500569482868,2.0,"['netfractionrevolvingburden', 'numinstalltradeswbalance']",241,0.06107473373413086
+heloc,0,SVM,84,343,br_cg4,False,,,,,703,0.1616814136505127
+heloc,0,SVM,84,343,mean_cg4,False,,,,,701,0.1620485782623291
+heloc,0,SVM,84,343,additive,False,,,,,55,0.014426708221435547
+heloc,0,SVM,84,343,shap,False,,,,,40004,9.181449174880981
+heloc,0,SVM,84,343,random,False,,,,,27,0.00792837142944336
+heloc,0,SVM,84,343,topM_all,False,,,,,207,0.061192989349365234
+heloc,0,SVM,84,343,all_pairs,False,,,,,346,0.10013651847839355
+heloc,0,SVM,85,308,br_cg4,False,,,,,699,0.16254901885986328
+heloc,0,SVM,85,308,mean_cg4,False,,,,,697,0.1618034839630127
+heloc,0,SVM,85,308,additive,False,,,,,67,0.01693129539489746
+heloc,0,SVM,85,308,shap,False,,,,,40770,9.3585045337677
+heloc,0,SVM,85,308,random,False,,,,,18,0.007257938385009766
+heloc,0,SVM,85,308,topM_all,False,,,,,274,0.07971715927124023
+heloc,0,SVM,85,308,all_pairs,False,,,,,346,0.10319185256958008
+heloc,0,SVM,86,889,br_cg4,False,,,,,782,0.1801292896270752
+heloc,0,SVM,86,889,mean_cg4,False,,,,,947,0.21848511695861816
+heloc,0,SVM,86,889,additive,False,,,,,305,0.07030701637268066
+heloc,0,SVM,86,889,shap,False,,,,,41745,9.623884916305542
+heloc,0,SVM,86,889,random,False,,,,,216,0.05080437660217285
+heloc,0,SVM,86,889,topM_all,False,,,,,1609,0.37845516204833984
+heloc,0,SVM,86,889,all_pairs,False,,,,,2152,0.5095505714416504
+heloc,0,SVM,87,389,br_cg4,False,,,,,765,0.17506718635559082
+heloc,0,SVM,87,389,mean_cg4,False,,,,,767,0.17517900466918945
+heloc,0,SVM,87,389,additive,False,,,,,43,0.011794328689575195
+heloc,0,SVM,87,389,shap,False,,,,,37829,8.669136762619019
+heloc,0,SVM,87,389,random,False,,,,,20,0.006220340728759766
+heloc,0,SVM,87,389,topM_all,False,,,,,265,0.0743856430053711
+heloc,0,SVM,87,389,all_pairs,False,,,,,440,0.12263917922973633
+heloc,0,SVM,88,1637,br_cg4,True,pair,5.645643537456772,2.0,"['netfractionrevolvingburden', 'numrevolvingtradeswbalance']",669,0.1548783779144287
+heloc,0,SVM,88,1637,mean_cg4,True,pair,5.645643537456772,2.0,"['netfractionrevolvingburden', 'numrevolvingtradeswbalance']",673,0.15349388122558594
+heloc,0,SVM,88,1637,additive,True,pair,5.645643537456772,2.0,"['netfractionrevolvingburden', 'numrevolvingtradeswbalance']",41,0.01023101806640625
+heloc,0,SVM,88,1637,shap,True,triple,5.645643537456772,2.0,"['netfractionrevolvingburden', 'numrevolvingtradeswbalance']",40015,9.185190439224243
+heloc,0,SVM,88,1637,random,False,,,,,63,0.01633286476135254
+heloc,0,SVM,88,1637,topM_all,True,pair,5.645643537456772,2.0,"['netfractionrevolvingburden', 'numrevolvingtradeswbalance']",96,0.026662826538085938
+heloc,0,SVM,88,1637,all_pairs,True,pair,5.645643537456772,2.0,"['netfractionrevolvingburden', 'numrevolvingtradeswbalance']",107,0.0310518741607666
+heloc,0,SVM,90,1526,br_cg4,False,,,,,649,0.1529097557067871
+heloc,0,SVM,90,1526,mean_cg4,False,,,,,649,0.15357208251953125
+heloc,0,SVM,90,1526,additive,False,,,,,17,0.0055925846099853516
+heloc,0,SVM,90,1526,shap,False,,,,,37400,8.859626770019531
+heloc,0,SVM,90,1526,random,False,,,,,5,0.0024480819702148438
+heloc,0,SVM,90,1526,topM_all,False,,,,,55,0.023772239685058594
+heloc,0,SVM,90,1526,all_pairs,False,,,,,116,0.044770240783691406
+heloc,0,SVM,91,854,br_cg4,False,,,,,675,0.15539884567260742
+heloc,0,SVM,91,854,mean_cg4,False,,,,,783,0.17959332466125488
+heloc,0,SVM,91,854,additive,False,,,,,151,0.035483598709106445
+heloc,0,SVM,91,854,shap,False,,,,,41797,9.633063077926636
+heloc,0,SVM,91,854,random,False,,,,,67,0.016844749450683594
+heloc,0,SVM,91,854,topM_all,False,,,,,514,0.12807393074035645
+heloc,0,SVM,91,854,all_pairs,False,,,,,1065,0.26192450523376465
+heloc,0,SVM,93,1222,br_cg4,False,,,,,747,0.17838287353515625
+heloc,0,SVM,93,1222,mean_cg4,False,,,,,747,0.17513561248779297
+heloc,0,SVM,93,1222,additive,False,,,,,151,0.03551673889160156
+heloc,0,SVM,93,1222,shap,False,,,,,40563,9.395813941955566
+heloc,0,SVM,93,1222,random,False,,,,,73,0.0185091495513916
+heloc,0,SVM,93,1222,topM_all,False,,,,,683,0.17392468452453613
+heloc,0,SVM,93,1222,all_pairs,False,,,,,826,0.21873927116394043
+heloc,0,SVM,94,216,br_cg4,False,,,,,708,0.16474676132202148
+heloc,0,SVM,94,216,mean_cg4,False,,,,,708,0.1666266918182373
+heloc,0,SVM,94,216,additive,False,,,,,76,0.019456148147583008
+heloc,0,SVM,94,216,shap,False,,,,,41168,9.52616834640503
+heloc,0,SVM,94,216,random,False,,,,,10,0.004019260406494141
+heloc,0,SVM,94,216,topM_all,False,,,,,215,0.06496071815490723
+heloc,0,SVM,94,216,all_pairs,False,,,,,275,0.08585953712463379
+heloc,0,SVM,96,1570,br_cg4,False,,,,,643,0.15067052841186523
+heloc,0,SVM,96,1570,mean_cg4,False,,,,,684,0.15999579429626465
+heloc,0,SVM,96,1570,additive,False,,,,,35,0.01006770133972168
+heloc,0,SVM,96,1570,shap,False,,,,,40964,9.396774768829346
+heloc,0,SVM,96,1570,random,False,,,,,27,0.007968664169311523
+heloc,0,SVM,96,1570,topM_all,False,,,,,167,0.050340890884399414
+heloc,0,SVM,96,1570,all_pairs,False,,,,,216,0.06964516639709473
+heloc,0,SVM,97,1149,br_cg4,True,pair,6.9787636011056025,2.0,"['netfractionrevolvingburden', 'numbank2natltradeswhighutilization']",713,0.16504526138305664
+heloc,0,SVM,97,1149,mean_cg4,True,pair,6.9787636011056025,2.0,"['netfractionrevolvingburden', 'numbank2natltradeswhighutilization']",703,0.1613011360168457
+heloc,0,SVM,97,1149,additive,True,pair,6.9787636011056025,2.0,"['netfractionrevolvingburden', 'numbank2natltradeswhighutilization']",81,0.019499540328979492
+heloc,0,SVM,97,1149,shap,True,pair,6.9787636011056025,2.0,"['netfractionrevolvingburden', 'numbank2natltradeswhighutilization']",41109,9.463438034057617
+heloc,0,SVM,97,1149,random,True,pair,10.025560078678467,2.0,"['netfractioninstallburden', 'netfractionrevolvingburden']",53,0.013256072998046875
+heloc,0,SVM,97,1149,topM_all,True,pair,6.9787636011056025,2.0,"['netfractionrevolvingburden', 'numbank2natltradeswhighutilization']",240,0.06040072441101074
+heloc,0,SVM,97,1149,all_pairs,True,pair,6.9787636011056025,2.0,"['netfractionrevolvingburden', 'numbank2natltradeswhighutilization']",309,0.07914471626281738
+heloc,0,XGB,0,651,br_cg4,True,pair,8.572746834115474,2.0,"['netfractionrevolvingburden', 'numinqlast6m']",673,0.011468648910522461
+heloc,0,XGB,0,651,mean_cg4,True,pair,8.572746834115474,2.0,"['netfractionrevolvingburden', 'numinqlast6m']",673,0.011734962463378906
+heloc,0,XGB,0,651,additive,True,pair,8.572746834115474,2.0,"['netfractionrevolvingburden', 'numinqlast6m']",29,0.00202178955078125
+heloc,0,XGB,0,651,shap,True,pair,8.572746834115474,2.0,"['netfractionrevolvingburden', 'numinqlast6m']",38289,0.2721724510192871
+heloc,0,XGB,0,651,random,False,,,,,59,0.0035626888275146484
+heloc,0,XGB,0,651,topM_all,True,pair,8.572746834115474,2.0,"['netfractionrevolvingburden', 'numinqlast6m']",131,0.009639263153076172
+heloc,0,XGB,0,651,all_pairs,True,pair,8.572746834115474,2.0,"['netfractionrevolvingburden', 'numinqlast6m']",182,0.014752864837646484
+heloc,0,XGB,1,159,br_cg4,True,pair,8.661859881844117,2.0,"['netfractionrevolvingburden', 'numinstalltradeswbalance']",707,0.011204957962036133
+heloc,0,XGB,1,159,mean_cg4,True,pair,10.23332672676457,2.0,"['netfractionrevolvingburden', 'numrevolvingtradeswbalance']",707,0.010979890823364258
+heloc,0,XGB,1,159,additive,True,pair,8.661859881844117,2.0,"['netfractionrevolvingburden', 'numinstalltradeswbalance']",75,0.002079486846923828
+heloc,0,XGB,1,159,shap,True,pair,10.23332672676457,2.0,"['netfractionrevolvingburden', 'numrevolvingtradeswbalance']",39869,0.017096281051635742
+heloc,0,XGB,1,159,random,True,pair,8.661859881844117,2.0,"['netfractionrevolvingburden', 'numinstalltradeswbalance']",33,0.0018832683563232422
+heloc,0,XGB,1,159,topM_all,True,pair,8.661859881844117,2.0,"['netfractionrevolvingburden', 'numinstalltradeswbalance']",218,0.010119438171386719
+heloc,0,XGB,1,159,all_pairs,True,pair,8.661859881844117,2.0,"['netfractionrevolvingburden', 'numinstalltradeswbalance']",260,0.014779806137084961
+heloc,0,XGB,7,1699,br_cg4,True,pair,2.7113506424134366,2.0,"['numinqlast6m', 'numrevolvingtradeswbalance']",653,0.011369466781616211
+heloc,0,XGB,7,1699,mean_cg4,True,pair,8.308135467752518,2.0,"['netfractionrevolvingburden', 'numinqlast6m']",671,0.011214494705200195
+heloc,0,XGB,7,1699,additive,True,pair,2.7113506424134366,2.0,"['numinqlast6m', 'numrevolvingtradeswbalance']",33,0.0019207000732421875
+heloc,0,XGB,7,1699,shap,False,,,,,41463,0.018441200256347656
+heloc,0,XGB,7,1699,random,True,pair,2.7113506424134366,2.0,"['numinqlast6m', 'numrevolvingtradeswbalance']",11,0.002012491226196289
+heloc,0,XGB,7,1699,topM_all,True,pair,2.7113506424134366,2.0,"['numinqlast6m', 'numrevolvingtradeswbalance']",84,0.009709596633911133
+heloc,0,XGB,7,1699,all_pairs,True,pair,2.7113506424134366,2.0,"['numinqlast6m', 'numrevolvingtradeswbalance']",110,0.014413833618164062
+heloc,0,XGB,13,17,br_cg4,True,pair,8.319451906945806,2.0,"['netfractioninstallburden', 'netfractionrevolvingburden']",719,0.012388229370117188
+heloc,0,XGB,13,17,mean_cg4,True,pair,11.74235230724806,2.0,"['netfractionrevolvingburden', 'numbank2natltradeswhighutilization']",703,0.011648178100585938
+heloc,0,XGB,13,17,additive,True,pair,8.319451906945806,2.0,"['netfractioninstallburden', 'netfractionrevolvingburden']",87,0.0020999908447265625
+heloc,0,XGB,13,17,shap,True,pair,11.74235230724806,2.0,"['netfractionrevolvingburden', 'numbank2natltradeswhighutilization']",44461,0.018184185028076172
+heloc,0,XGB,13,17,random,True,pair,11.74235230724806,2.0,"['netfractionrevolvingburden', 'numbank2natltradeswhighutilization']",75,0.0022563934326171875
+heloc,0,XGB,13,17,topM_all,True,pair,8.319451906945806,2.0,"['netfractioninstallburden', 'netfractionrevolvingburden']",358,0.010026693344116211
+heloc,0,XGB,13,17,all_pairs,True,pair,8.319451906945806,2.0,"['netfractioninstallburden', 'netfractionrevolvingburden']",442,0.015062332153320312
+heloc,0,XGB,14,1719,br_cg4,False,,,,,683,0.013074159622192383
+heloc,0,XGB,14,1719,mean_cg4,False,,,,,747,0.013656854629516602
+heloc,0,XGB,14,1719,additive,False,,,,,85,0.003759145736694336
+heloc,0,XGB,14,1719,shap,False,,,,,42033,0.017927169799804688
+heloc,0,XGB,14,1719,random,False,,,,,111,0.004063129425048828
+heloc,0,XGB,14,1719,topM_all,False,,,,,691,0.0260467529296875
+heloc,0,XGB,14,1719,all_pairs,False,,,,,835,0.04264330863952637
+heloc,0,XGB,15,20,br_cg4,True,pair,9.391119032860862,2.0,"['netfractionrevolvingburden', 'numinqlast6m']",671,0.011585712432861328
+heloc,0,XGB,15,20,mean_cg4,True,pair,9.391119032860862,2.0,"['netfractionrevolvingburden', 'numinqlast6m']",671,0.012393712997436523
+heloc,0,XGB,15,20,additive,True,pair,9.391119032860862,2.0,"['netfractionrevolvingburden', 'numinqlast6m']",39,0.0021347999572753906
+heloc,0,XGB,15,20,shap,True,pair,9.391119032860862,2.0,"['netfractionrevolvingburden', 'numinqlast6m']",37179,0.01595759391784668
+heloc,0,XGB,15,20,random,True,triple,9.391119032860862,2.0,"['netfractionrevolvingburden', 'numinqlast6m']",53,0.003536701202392578
+heloc,0,XGB,15,20,topM_all,True,pair,9.391119032860862,2.0,"['netfractionrevolvingburden', 'numinqlast6m']",99,0.011209487915039062
+heloc,0,XGB,15,20,all_pairs,True,pair,9.130084114451487,2.0,"['netfractioninstallburden', 'netfractionrevolvingburden']",144,0.014130830764770508
+heloc,0,XGB,17,1546,br_cg4,False,,,,,688,0.014318466186523438
+heloc,0,XGB,17,1546,mean_cg4,False,,,,,728,0.013115406036376953
+heloc,0,XGB,17,1546,additive,False,,,,,53,0.003415822982788086
+heloc,0,XGB,17,1546,shap,False,,,,,41010,0.019141197204589844
+heloc,0,XGB,17,1546,random,False,,,,,112,0.0035963058471679688
+heloc,0,XGB,17,1546,topM_all,False,,,,,663,0.02603435516357422
+heloc,0,XGB,17,1546,all_pairs,False,,,,,968,0.041347503662109375
+heloc,0,XGB,18,1760,br_cg4,True,pair,6.6583216214416385,2.0,"['netfractioninstallburden', 'netfractionrevolvingburden']",689,0.012735843658447266
+heloc,0,XGB,18,1760,mean_cg4,True,pair,7.369078402954552,2.0,"['netfractionrevolvingburden', 'numrevolvingtradeswbalance']",674,0.01125025749206543
+heloc,0,XGB,18,1760,additive,True,pair,6.6583216214416385,2.0,"['netfractioninstallburden', 'netfractionrevolvingburden']",72,0.002020120620727539
+heloc,0,XGB,18,1760,shap,True,pair,6.6583216214416385,2.0,"['netfractioninstallburden', 'netfractionrevolvingburden']",35417,0.015932083129882812
+heloc,0,XGB,18,1760,random,True,pair,14.631187787429953,2.0,"['netfractioninstallburden', 'numinstalltradeswbalance']",37,0.0019729137420654297
+heloc,0,XGB,18,1760,topM_all,True,pair,6.6583216214416385,2.0,"['netfractioninstallburden', 'netfractionrevolvingburden']",200,0.01027226448059082
+heloc,0,XGB,18,1760,all_pairs,True,pair,6.6583216214416385,2.0,"['netfractioninstallburden', 'netfractionrevolvingburden']",240,0.014954805374145508
+heloc,0,XGB,19,1285,br_cg4,False,,,,,684,0.012828588485717773
+heloc,0,XGB,19,1285,mean_cg4,False,,,,,684,0.013502359390258789
+heloc,0,XGB,19,1285,additive,False,,,,,52,0.003569364547729492
+heloc,0,XGB,19,1285,shap,False,,,,,38472,0.017120361328125
+heloc,0,XGB,19,1285,random,False,,,,,35,0.0036966800689697266
+heloc,0,XGB,19,1285,topM_all,True,triple,6.644844331582597,3.0,"['netfractionrevolvingburden', 'numinqlast6m', 'numinstalltradeswbalance']",294,0.02547478675842285
+heloc,0,XGB,19,1285,all_pairs,True,triple,6.644844331582597,3.0,"['netfractionrevolvingburden', 'numinqlast6m', 'numinstalltradeswbalance']",368,0.03969621658325195
+heloc,0,XGB,20,261,br_cg4,False,,,,,732,0.012273550033569336
+heloc,0,XGB,20,261,mean_cg4,False,,,,,759,0.012665510177612305
+heloc,0,XGB,20,261,additive,False,,,,,131,0.003960371017456055
+heloc,0,XGB,20,261,shap,False,,,,,38037,0.01784038543701172
+heloc,0,XGB,20,261,random,False,,,,,85,0.003811359405517578
+heloc,0,XGB,20,261,topM_all,False,,,,,614,0.026321887969970703
+heloc,0,XGB,20,261,all_pairs,False,,,,,744,0.04075932502746582
+heloc,0,XGB,25,110,br_cg4,False,,,,,642,0.012413501739501953
+heloc,0,XGB,25,110,mean_cg4,False,,,,,642,0.01454472541809082
+heloc,0,XGB,25,110,additive,False,,,,,10,0.003485441207885742
+heloc,0,XGB,25,110,shap,False,,,,,39280,0.014212369918823242
+heloc,0,XGB,25,110,random,False,,,,,0,0.0009207725524902344
+heloc,0,XGB,25,110,topM_all,False,,,,,30,0.015641212463378906
+heloc,0,XGB,25,110,all_pairs,False,,,,,42,0.022381305694580078
+heloc,0,XGB,26,372,br_cg4,True,triple,10.986816603625773,3.0,"['netfractioninstallburden', 'netfractionrevolvingburden', 'numrevolvingtradeswbalance']",879,0.014341115951538086
+heloc,0,XGB,26,372,mean_cg4,False,,,,,945,0.014700174331665039
+heloc,0,XGB,26,372,additive,False,,,,,205,0.004015684127807617
+heloc,0,XGB,26,372,shap,False,,,,,40805,0.017727136611938477
+heloc,0,XGB,26,372,random,False,,,,,199,0.003686666488647461
+heloc,0,XGB,26,372,topM_all,True,triple,10.986816603625773,3.0,"['netfractioninstallburden', 'netfractionrevolvingburden', 'numrevolvingtradeswbalance']",1613,0.026047706604003906
+heloc,0,XGB,26,372,all_pairs,True,triple,10.986816603625773,3.0,"['netfractioninstallburden', 'netfractionrevolvingburden', 'numrevolvingtradeswbalance']",2720,0.041852474212646484
+heloc,0,XGB,31,1957,br_cg4,False,,,,,679,0.01303720474243164
+heloc,0,XGB,31,1957,mean_cg4,False,,,,,683,0.012491703033447266
+heloc,0,XGB,31,1957,additive,False,,,,,47,0.003530740737915039
+heloc,0,XGB,31,1957,shap,False,,,,,40047,0.018400192260742188
+heloc,0,XGB,31,1957,random,False,,,,,19,0.0034885406494140625
+heloc,0,XGB,31,1957,topM_all,False,,,,,160,0.023762941360473633
+heloc,0,XGB,31,1957,all_pairs,False,,,,,208,0.03684258460998535
+heloc,0,XGB,32,1325,br_cg4,True,pair,13.050375206011799,2.0,"['netfractioninstallburden', 'numtradesopeninlast12m']",653,0.011455535888671875
+heloc,0,XGB,32,1325,mean_cg4,True,pair,13.050375206011799,2.0,"['netfractioninstallburden', 'numtradesopeninlast12m']",655,0.011395931243896484
+heloc,0,XGB,32,1325,additive,True,pair,13.050375206011799,2.0,"['netfractioninstallburden', 'numtradesopeninlast12m']",21,0.002101421356201172
+heloc,0,XGB,32,1325,shap,False,,,,,41192,0.017224550247192383
+heloc,0,XGB,32,1325,random,True,pair,13.050375206011799,2.0,"['netfractioninstallburden', 'numtradesopeninlast12m']",11,0.0019185543060302734
+heloc,0,XGB,32,1325,topM_all,True,pair,13.050375206011799,2.0,"['netfractioninstallburden', 'numtradesopeninlast12m']",64,0.009786367416381836
+heloc,0,XGB,32,1325,all_pairs,True,pair,13.050375206011799,2.0,"['netfractioninstallburden', 'numtradesopeninlast12m']",72,0.012805700302124023
+heloc,0,XGB,33,1234,br_cg4,True,triple,26.044328638566807,3.0,"['netfractioninstallburden', 'netfractionrevolvingburden', 'numinqlast6m']",879,0.013063907623291016
+heloc,0,XGB,33,1234,mean_cg4,True,triple,26.044328638566807,3.0,"['netfractioninstallburden', 'netfractionrevolvingburden', 'numinqlast6m']",879,0.013307332992553711
+heloc,0,XGB,33,1234,additive,True,triple,26.044328638566807,3.0,"['netfractioninstallburden', 'netfractionrevolvingburden', 'numinqlast6m']",235,0.003806591033935547
+heloc,0,XGB,33,1234,shap,False,,,,,40351,0.01972031593322754
+heloc,0,XGB,33,1234,random,False,,,,,79,0.003634214401245117
+heloc,0,XGB,33,1234,topM_all,True,triple,24.66333316995046,3.0,"['netfractioninstallburden', 'netfractionrevolvingburden', 'numrevolvingtradeswbalance']",1050,0.025573253631591797
+heloc,0,XGB,33,1234,all_pairs,True,triple,24.66333316995046,3.0,"['netfractioninstallburden', 'netfractionrevolvingburden', 'numrevolvingtradeswbalance']",1680,0.04308652877807617
+heloc,0,XGB,34,1012,br_cg4,True,pair,2.8886776798688643,2.0,"['netfractionrevolvingburden', 'numrevolvingtradeswbalance']",657,0.011766433715820312
+heloc,0,XGB,34,1012,mean_cg4,True,pair,3.3487548993633176,2.0,"['netfractionrevolvingburden', 'numinstalltradeswbalance']",661,0.011762142181396484
+heloc,0,XGB,34,1012,additive,True,pair,2.8886776798688643,2.0,"['netfractionrevolvingburden', 'numrevolvingtradeswbalance']",33,0.0021042823791503906
+heloc,0,XGB,34,1012,shap,True,pair,3.3487548993633176,2.0,"['netfractionrevolvingburden', 'numinstalltradeswbalance']",42949,0.017182111740112305
+heloc,0,XGB,34,1012,random,True,pair,3.3487548993633176,2.0,"['netfractionrevolvingburden', 'numinstalltradeswbalance']",25,0.0020928382873535156
+heloc,0,XGB,34,1012,topM_all,True,pair,2.8886776798688643,2.0,"['netfractionrevolvingburden', 'numrevolvingtradeswbalance']",103,0.009997129440307617
+heloc,0,XGB,34,1012,all_pairs,True,pair,2.8886776798688643,2.0,"['netfractionrevolvingburden', 'numrevolvingtradeswbalance']",114,0.013509273529052734
+heloc,0,XGB,36,267,br_cg4,True,pair,3.4720477970574555,2.0,"['netfractionrevolvingburden', 'numtradesopeninlast12m']",684,0.01146841049194336
+heloc,0,XGB,36,267,mean_cg4,True,pair,5.194733952552186,2.0,"['netfractionrevolvingburden', 'numrevolvingtradeswbalance']",686,0.011134147644042969
+heloc,0,XGB,36,267,additive,True,pair,3.4720477970574555,2.0,"['netfractionrevolvingburden', 'numtradesopeninlast12m']",47,0.0019876956939697266
+heloc,0,XGB,36,267,shap,False,,,,,42127,0.018471479415893555
+heloc,0,XGB,36,267,random,True,pair,5.194733952552186,2.0,"['netfractionrevolvingburden', 'numrevolvingtradeswbalance']",45,0.0022361278533935547
+heloc,0,XGB,36,267,topM_all,True,pair,3.4720477970574555,2.0,"['netfractionrevolvingburden', 'numtradesopeninlast12m']",163,0.009803533554077148
+heloc,0,XGB,36,267,all_pairs,True,pair,3.4720477970574555,2.0,"['netfractionrevolvingburden', 'numtradesopeninlast12m']",178,0.013135194778442383
+heloc,0,XGB,37,662,br_cg4,True,pair,4.232590102598948,2.0,"['netfractionrevolvingburden', 'numtradesopeninlast12m']",677,0.011375188827514648
+heloc,0,XGB,37,662,mean_cg4,True,pair,10.722068067558471,2.0,"['netfractionrevolvingburden', 'numinqlast6m']",695,0.011613845825195312
+heloc,0,XGB,37,662,additive,True,pair,4.232590102598948,2.0,"['netfractionrevolvingburden', 'numtradesopeninlast12m']",45,0.0021278858184814453
+heloc,0,XGB,37,662,shap,True,pair,10.722068067558471,2.0,"['netfractionrevolvingburden', 'numinqlast6m']",43305,0.016687393188476562
+heloc,0,XGB,37,662,random,False,,,,,47,0.0037145614624023438
+heloc,0,XGB,37,662,topM_all,True,pair,4.232590102598948,2.0,"['netfractionrevolvingburden', 'numtradesopeninlast12m']",161,0.010193347930908203
+heloc,0,XGB,37,662,all_pairs,True,pair,4.232590102598948,2.0,"['netfractionrevolvingburden', 'numtradesopeninlast12m']",197,0.013847827911376953
+heloc,0,XGB,38,544,br_cg4,False,,,,,684,0.012827396392822266
+heloc,0,XGB,38,544,mean_cg4,False,,,,,684,0.013153076171875
+heloc,0,XGB,38,544,additive,False,,,,,52,0.0035352706909179688
+heloc,0,XGB,38,544,shap,False,,,,,39888,0.018218994140625
+heloc,0,XGB,38,544,random,False,,,,,18,0.003728151321411133
+heloc,0,XGB,38,544,topM_all,True,triple,5.021138212152868,3.0,"['netfractioninstallburden', 'numrevolvingtradeswbalance', 'numtradesopeninlast12m']",225,0.02621626853942871
+heloc,0,XGB,38,544,all_pairs,True,triple,5.021138212152868,3.0,"['netfractioninstallburden', 'numrevolvingtradeswbalance', 'numtradesopeninlast12m']",286,0.03891158103942871
+heloc,0,XGB,39,691,br_cg4,False,,,,,741,0.013162612915039062
+heloc,0,XGB,39,691,mean_cg4,False,,,,,741,0.013340234756469727
+heloc,0,XGB,39,691,additive,False,,,,,109,0.0033724308013916016
+heloc,0,XGB,39,691,shap,False,,,,,33865,0.015979528427124023
+heloc,0,XGB,39,691,random,False,,,,,47,0.0034532546997070312
+heloc,0,XGB,39,691,topM_all,False,,,,,471,0.025061368942260742
+heloc,0,XGB,39,691,all_pairs,False,,,,,712,0.07701969146728516
+heloc,0,XGB,41,1741,br_cg4,False,,,,,932,0.018972396850585938
+heloc,0,XGB,41,1741,mean_cg4,False,,,,,887,0.017865419387817383
+heloc,0,XGB,41,1741,additive,False,,,,,200,0.0046575069427490234
+heloc,0,XGB,41,1741,shap,False,,,,,42285,0.02750849723815918
+heloc,0,XGB,41,1741,random,False,,,,,148,0.004017829895019531
+heloc,0,XGB,41,1741,topM_all,False,,,,,1807,0.029609203338623047
+heloc,0,XGB,41,1741,all_pairs,False,,,,,2394,0.045471906661987305
+heloc,0,XGB,43,880,br_cg4,True,pair,23.949190421674167,2.0,"['netfractionrevolvingburden', 'numinqlast6m']",683,0.011984825134277344
+heloc,0,XGB,43,880,mean_cg4,True,pair,23.949190421674167,2.0,"['netfractionrevolvingburden', 'numinqlast6m']",683,0.012186288833618164
+heloc,0,XGB,43,880,additive,True,pair,23.949190421674167,2.0,"['netfractionrevolvingburden', 'numinqlast6m']",51,0.002061605453491211
+heloc,0,XGB,43,880,shap,True,pair,23.949190421674167,2.0,"['netfractionrevolvingburden', 'numinqlast6m']",39431,0.01565074920654297
+heloc,0,XGB,43,880,random,True,pair,23.949190421674167,2.0,"['netfractionrevolvingburden', 'numinqlast6m']",59,0.0023484230041503906
+heloc,0,XGB,43,880,topM_all,True,pair,23.949190421674167,2.0,"['netfractionrevolvingburden', 'numinqlast6m']",200,0.010129451751708984
+heloc,0,XGB,43,880,all_pairs,True,pair,23.949190421674167,2.0,"['netfractionrevolvingburden', 'numinqlast6m']",217,0.013757705688476562
+heloc,0,XGB,44,1275,br_cg4,False,,,,,684,0.013619422912597656
+heloc,0,XGB,44,1275,mean_cg4,False,,,,,783,0.012992143630981445
+heloc,0,XGB,44,1275,additive,False,,,,,52,0.0034558773040771484
+heloc,0,XGB,44,1275,shap,False,,,,,39770,0.017858505249023438
+heloc,0,XGB,44,1275,random,False,,,,,81,0.0034825801849365234
+heloc,0,XGB,44,1275,topM_all,False,,,,,764,0.025229692459106445
+heloc,0,XGB,44,1275,all_pairs,False,,,,,1101,0.0404055118560791
+heloc,0,XGB,45,156,br_cg4,True,pair,10.374830081149216,2.0,"['netfractionrevolvingburden', 'numtradesopeninlast12m']",679,0.011746406555175781
+heloc,0,XGB,45,156,mean_cg4,True,pair,10.374830081149216,2.0,"['netfractionrevolvingburden', 'numtradesopeninlast12m']",679,0.011560440063476562
+heloc,0,XGB,45,156,additive,True,pair,10.374830081149216,2.0,"['netfractionrevolvingburden', 'numtradesopeninlast12m']",32,0.0020449161529541016
+heloc,0,XGB,45,156,shap,True,pair,10.374830081149216,2.0,"['netfractionrevolvingburden', 'numtradesopeninlast12m']",38007,0.015525102615356445
+heloc,0,XGB,45,156,random,True,pair,12.636491414674364,2.0,"['netfractioninstallburden', 'numtradesopeninlast12m']",42,0.0021486282348632812
+heloc,0,XGB,45,156,topM_all,True,pair,10.374830081149216,2.0,"['netfractionrevolvingburden', 'numtradesopeninlast12m']",130,0.010197162628173828
+heloc,0,XGB,45,156,all_pairs,True,pair,10.374830081149216,2.0,"['netfractionrevolvingburden', 'numtradesopeninlast12m']",162,0.013833999633789062
+heloc,0,XGB,46,118,br_cg4,False,,,,,727,0.01282501220703125
+heloc,0,XGB,46,118,mean_cg4,False,,,,,727,0.013593196868896484
+heloc,0,XGB,46,118,additive,False,,,,,127,0.0037622451782226562
+heloc,0,XGB,46,118,shap,False,,,,,39515,0.017056703567504883
+heloc,0,XGB,46,118,random,False,,,,,67,0.0035963058471679688
+heloc,0,XGB,46,118,topM_all,False,,,,,497,0.025985002517700195
+heloc,0,XGB,46,118,all_pairs,False,,,,,610,0.04031777381896973
+heloc,0,XGB,48,782,br_cg4,True,pair,12.553095097483416,2.0,"['netfractionrevolvingburden', 'numtradesopeninlast12m']",695,0.011718988418579102
+heloc,0,XGB,48,782,mean_cg4,True,pair,12.553095097483416,2.0,"['netfractionrevolvingburden', 'numtradesopeninlast12m']",677,0.011442184448242188
+heloc,0,XGB,48,782,additive,True,pair,12.553095097483416,2.0,"['netfractionrevolvingburden', 'numtradesopeninlast12m']",63,0.002186298370361328
+heloc,0,XGB,48,782,shap,False,,,,,35611,0.016513824462890625
+heloc,0,XGB,48,782,random,False,,,,,135,0.003531932830810547
+heloc,0,XGB,48,782,topM_all,True,pair,12.553095097483416,2.0,"['netfractionrevolvingburden', 'numtradesopeninlast12m']",199,0.010211467742919922
+heloc,0,XGB,48,782,all_pairs,True,pair,12.553095097483416,2.0,"['netfractionrevolvingburden', 'numtradesopeninlast12m']",239,0.014337778091430664
+heloc,0,XGB,49,415,br_cg4,True,pair,3.6621833734428293,2.0,"['netfractionrevolvingburden', 'numtradesopeninlast12m']",669,0.011879920959472656
+heloc,0,XGB,49,415,mean_cg4,True,pair,2.6741127474246453,2.0,"['netfractionrevolvingburden', 'numrevolvingtradeswbalance']",673,0.011656999588012695
+heloc,0,XGB,49,415,additive,True,pair,2.6741127474246453,2.0,"['netfractionrevolvingburden', 'numrevolvingtradeswbalance']",37,0.0020346641540527344
+heloc,0,XGB,49,415,shap,False,,,,,41700,0.017440080642700195
+heloc,0,XGB,49,415,random,False,,,,,83,0.0034973621368408203
+heloc,0,XGB,49,415,topM_all,True,pair,2.6741127474246453,2.0,"['netfractionrevolvingburden', 'numrevolvingtradeswbalance']",132,0.010341167449951172
+heloc,0,XGB,49,415,all_pairs,True,pair,2.6741127474246453,2.0,"['netfractionrevolvingburden', 'numrevolvingtradeswbalance']",145,0.013567447662353516
+heloc,0,XGB,51,840,br_cg4,True,pair,10.993869032306062,2.0,"['netfractionrevolvingburden', 'numrevolvingtradeswbalance']",713,0.012108564376831055
+heloc,0,XGB,51,840,mean_cg4,True,pair,10.993869032306062,2.0,"['netfractionrevolvingburden', 'numrevolvingtradeswbalance']",709,0.011481046676635742
+heloc,0,XGB,51,840,additive,True,pair,10.993869032306062,2.0,"['netfractionrevolvingburden', 'numrevolvingtradeswbalance']",81,0.0020008087158203125
+heloc,0,XGB,51,840,shap,False,,,,,36771,0.016675949096679688
+heloc,0,XGB,51,840,random,True,pair,10.993869032306062,2.0,"['netfractionrevolvingburden', 'numrevolvingtradeswbalance']",54,0.0019788742065429688
+heloc,0,XGB,51,840,topM_all,True,pair,10.993869032306062,2.0,"['netfractionrevolvingburden', 'numrevolvingtradeswbalance']",286,0.010318756103515625
+heloc,0,XGB,51,840,all_pairs,True,pair,10.993869032306062,2.0,"['netfractionrevolvingburden', 'numrevolvingtradeswbalance']",388,0.014315128326416016
+heloc,0,XGB,52,698,br_cg4,False,,,,,675,0.012635946273803711
+heloc,0,XGB,52,698,mean_cg4,False,,,,,701,0.01314854621887207
+heloc,0,XGB,52,698,additive,False,,,,,131,0.003720521926879883
+heloc,0,XGB,52,698,shap,False,,,,,38047,0.016794443130493164
+heloc,0,XGB,52,698,random,False,,,,,45,0.003471851348876953
+heloc,0,XGB,52,698,topM_all,False,,,,,511,0.025333642959594727
+heloc,0,XGB,52,698,all_pairs,False,,,,,760,0.03971505165100098
+heloc,0,XGB,54,996,br_cg4,False,,,,,691,0.013146400451660156
+heloc,0,XGB,54,996,mean_cg4,False,,,,,753,0.013011455535888672
+heloc,0,XGB,54,996,additive,False,,,,,59,0.0036482810974121094
+heloc,0,XGB,54,996,shap,False,,,,,42048,0.018568992614746094
+heloc,0,XGB,54,996,random,False,,,,,41,0.00396728515625
+heloc,0,XGB,54,996,topM_all,False,,,,,408,0.025510549545288086
+heloc,0,XGB,54,996,all_pairs,False,,,,,506,0.039282798767089844
+heloc,0,XGB,55,1810,br_cg4,True,pair,46.77361942090927,2.0,"['numinqlast6m', 'numrevolvingtradeswbalance']",685,0.011466741561889648
+heloc,0,XGB,55,1810,mean_cg4,True,pair,46.77361942090927,2.0,"['numinqlast6m', 'numrevolvingtradeswbalance']",694,0.011662960052490234
+heloc,0,XGB,55,1810,additive,True,pair,6.335556857989964,2.0,"['netfractionrevolvingburden', 'numbank2natltradeswhighutilization']",53,0.0019383430480957031
+heloc,0,XGB,55,1810,shap,True,pair,47.95049212327459,2.0,"['numbank2natltradeswhighutilization', 'numinqlast6m']",37873,0.015848159790039062
+heloc,0,XGB,55,1810,random,False,,,,,314,0.0036759376525878906
+heloc,0,XGB,55,1810,topM_all,True,pair,6.335556857989964,2.0,"['netfractionrevolvingburden', 'numbank2natltradeswhighutilization']",334,0.010529756546020508
+heloc,0,XGB,55,1810,all_pairs,True,pair,6.335556857989964,2.0,"['netfractionrevolvingburden', 'numbank2natltradeswhighutilization']",444,0.01435232162475586
+heloc,0,XGB,57,341,br_cg4,True,pair,6.32408144283805,2.0,"['netfractionrevolvingburden', 'numtradesopeninlast12m']",683,0.011332273483276367
+heloc,0,XGB,57,341,mean_cg4,True,pair,6.32408144283805,2.0,"['netfractionrevolvingburden', 'numtradesopeninlast12m']",677,0.011840105056762695
+heloc,0,XGB,57,341,additive,True,pair,6.32408144283805,2.0,"['netfractionrevolvingburden', 'numtradesopeninlast12m']",51,0.002020120620727539
+heloc,0,XGB,57,341,shap,True,pair,6.691983068476847,2.0,"['netfractionrevolvingburden', 'numinqlast6m']",35599,0.014909744262695312
+heloc,0,XGB,57,341,random,True,pair,6.691983068476847,2.0,"['netfractionrevolvingburden', 'numinqlast6m']",29,0.0020151138305664062
+heloc,0,XGB,57,341,topM_all,True,pair,6.32408144283805,2.0,"['netfractionrevolvingburden', 'numtradesopeninlast12m']",129,0.010746955871582031
+heloc,0,XGB,57,341,all_pairs,True,pair,6.32408144283805,2.0,"['netfractionrevolvingburden', 'numtradesopeninlast12m']",180,0.013839960098266602
+heloc,0,XGB,58,177,br_cg4,False,,,,,771,0.013585090637207031
+heloc,0,XGB,58,177,mean_cg4,False,,,,,759,0.013105630874633789
+heloc,0,XGB,58,177,additive,False,,,,,127,0.003562450408935547
+heloc,0,XGB,58,177,shap,False,,,,,35443,0.016897916793823242
+heloc,0,XGB,58,177,random,False,,,,,125,0.003669261932373047
+heloc,0,XGB,58,177,topM_all,False,,,,,820,0.02596449851989746
+heloc,0,XGB,58,177,all_pairs,False,,,,,1165,0.040535688400268555
+heloc,0,XGB,62,756,br_cg4,True,pair,9.807823543443154,2.0,"['netfractioninstallburden', 'netfractionrevolvingburden']",679,0.011718273162841797
+heloc,0,XGB,62,756,mean_cg4,False,,,,,817,0.013188838958740234
+heloc,0,XGB,62,756,additive,True,pair,9.807823543443154,2.0,"['netfractioninstallburden', 'netfractionrevolvingburden']",62,0.0020325183868408203
+heloc,0,XGB,62,756,shap,False,,,,,40757,0.017508983612060547
+heloc,0,XGB,62,756,random,False,,,,,103,0.003729581832885742
+heloc,0,XGB,62,756,topM_all,True,pair,9.807823543443154,2.0,"['netfractioninstallburden', 'netfractionrevolvingburden']",198,0.009881734848022461
+heloc,0,XGB,62,756,all_pairs,True,pair,9.807823543443154,2.0,"['netfractioninstallburden', 'netfractionrevolvingburden']",215,0.014265298843383789
+heloc,0,XGB,64,889,br_cg4,True,pair,3.946638028017839,2.0,"['netfractionrevolvingburden', 'numrevolvingtradeswbalance']",684,0.011432409286499023
+heloc,0,XGB,64,889,mean_cg4,True,pair,3.946638028017839,2.0,"['netfractionrevolvingburden', 'numrevolvingtradeswbalance']",689,0.011777162551879883
+heloc,0,XGB,64,889,additive,True,pair,3.946638028017839,2.0,"['netfractionrevolvingburden', 'numrevolvingtradeswbalance']",52,0.0020265579223632812
+heloc,0,XGB,64,889,shap,True,pair,3.946638028017839,2.0,"['netfractionrevolvingburden', 'numrevolvingtradeswbalance']",41497,0.015718460083007812
+heloc,0,XGB,64,889,random,False,,,,,69,0.0039141178131103516
+heloc,0,XGB,64,889,topM_all,True,pair,3.946638028017839,2.0,"['netfractionrevolvingburden', 'numrevolvingtradeswbalance']",200,0.010197877883911133
+heloc,0,XGB,64,889,all_pairs,True,pair,3.946638028017839,2.0,"['netfractionrevolvingburden', 'numrevolvingtradeswbalance']",286,0.014090776443481445
+heloc,0,XGB,69,844,br_cg4,False,,,,,842,0.013465166091918945
+heloc,0,XGB,69,844,mean_cg4,False,,,,,791,0.01376199722290039
+heloc,0,XGB,69,844,additive,False,,,,,100,0.003635883331298828
+heloc,0,XGB,69,844,shap,False,,,,,40120,0.0174252986907959
+heloc,0,XGB,69,844,random,False,,,,,94,0.00406956672668457
+heloc,0,XGB,69,844,topM_all,False,,,,,965,0.0251157283782959
+heloc,0,XGB,69,844,all_pairs,False,,,,,1348,0.04163098335266113
+heloc,0,XGB,70,716,br_cg4,False,,,,,723,0.013112545013427734
+heloc,0,XGB,70,716,mean_cg4,False,,,,,723,0.013261079788208008
+heloc,0,XGB,70,716,additive,False,,,,,91,0.003470897674560547
+heloc,0,XGB,70,716,shap,False,,,,,40111,0.016649723052978516
+heloc,0,XGB,70,716,random,False,,,,,67,0.003885030746459961
+heloc,0,XGB,70,716,topM_all,False,,,,,331,0.024590492248535156
+heloc,0,XGB,70,716,all_pairs,False,,,,,520,0.04020571708679199
+heloc,0,XGB,71,1267,br_cg4,False,,,,,723,0.012915372848510742
+heloc,0,XGB,71,1267,mean_cg4,False,,,,,723,0.012862682342529297
+heloc,0,XGB,71,1267,additive,False,,,,,83,0.003632783889770508
+heloc,0,XGB,71,1267,shap,False,,,,,39161,0.01693105697631836
+heloc,0,XGB,71,1267,random,False,,,,,121,0.003633260726928711
+heloc,0,XGB,71,1267,topM_all,True,triple,15.290600684361358,3.0,"['netfractioninstallburden', 'netfractionrevolvingburden', 'numtradesopeninlast12m']",586,0.15149927139282227
+heloc,0,XGB,71,1267,all_pairs,True,triple,15.290600684361358,3.0,"['netfractioninstallburden', 'netfractionrevolvingburden', 'numtradesopeninlast12m']",863,0.04028511047363281
+heloc,0,XGB,73,1020,br_cg4,False,,,,,692,0.012949228286743164
+heloc,0,XGB,73,1020,mean_cg4,False,,,,,693,0.012962818145751953
+heloc,0,XGB,73,1020,additive,False,,,,,70,0.0037512779235839844
+heloc,0,XGB,73,1020,shap,False,,,,,41537,0.017800331115722656
+heloc,0,XGB,73,1020,random,False,,,,,36,0.003335237503051758
+heloc,0,XGB,73,1020,topM_all,False,,,,,247,0.024550914764404297
+heloc,0,XGB,73,1020,all_pairs,False,,,,,316,0.03747725486755371
+heloc,0,XGB,77,970,br_cg4,False,,,,,789,0.013040542602539062
+heloc,0,XGB,77,970,mean_cg4,False,,,,,789,0.013390302658081055
+heloc,0,XGB,77,970,additive,False,,,,,162,0.003704071044921875
+heloc,0,XGB,77,970,shap,False,,,,,37270,0.017108440399169922
+heloc,0,XGB,77,970,random,False,,,,,76,0.0036182403564453125
+heloc,0,XGB,77,970,topM_all,False,,,,,575,0.025558948516845703
+heloc,0,XGB,77,970,all_pairs,False,,,,,702,0.039322614669799805
+heloc,0,XGB,78,1116,br_cg4,True,pair,8.79509522584485,2.0,"['netfractionrevolvingburden', 'numrevolvingtradeswbalance']",707,0.011440038681030273
+heloc,0,XGB,78,1116,mean_cg4,True,pair,10.44231474941678,2.0,"['netfractionrevolvingburden', 'numbank2natltradeswhighutilization']",685,0.011127233505249023
+heloc,0,XGB,78,1116,additive,True,pair,8.79509522584485,2.0,"['netfractionrevolvingburden', 'numrevolvingtradeswbalance']",75,0.002156972885131836
+heloc,0,XGB,78,1116,shap,True,pair,8.79509522584485,2.0,"['netfractionrevolvingburden', 'numrevolvingtradeswbalance']",40089,0.01597428321838379
+heloc,0,XGB,78,1116,random,False,,,,,187,0.0034732818603515625
+heloc,0,XGB,78,1116,topM_all,True,pair,8.79509522584485,2.0,"['netfractionrevolvingburden', 'numrevolvingtradeswbalance']",176,0.009607315063476562
+heloc,0,XGB,78,1116,all_pairs,True,pair,8.79509522584485,2.0,"['netfractionrevolvingburden', 'numrevolvingtradeswbalance']",192,0.013491392135620117
+heloc,0,XGB,80,352,br_cg4,False,,,,,669,0.012386083602905273
+heloc,0,XGB,80,352,mean_cg4,False,,,,,669,0.012918472290039062
+heloc,0,XGB,80,352,additive,False,,,,,37,0.0033452510833740234
+heloc,0,XGB,80,352,shap,False,,,,,39997,0.017343521118164062
+heloc,0,XGB,80,352,random,False,,,,,31,0.003376007080078125
+heloc,0,XGB,80,352,topM_all,False,,,,,127,0.02364206314086914
+heloc,0,XGB,80,352,all_pairs,False,,,,,166,0.03715109825134277
+heloc,0,XGB,83,1131,br_cg4,True,triple,17.785814513675305,3.0,"['netfractionrevolvingburden', 'numinqlast6m', 'numtradesopeninlast12m']",885,0.012960195541381836
+heloc,0,XGB,83,1131,mean_cg4,True,triple,17.785814513675305,3.0,"['netfractionrevolvingburden', 'numinqlast6m', 'numtradesopeninlast12m']",885,0.013142108917236328
+heloc,0,XGB,83,1131,additive,True,triple,18.785814513675305,3.0,"['netfractioninstallburden', 'netfractionrevolvingburden', 'numinqlast6m']",313,0.0038046836853027344
+heloc,0,XGB,83,1131,shap,True,triple,16.159117478544772,3.0,"['netfractionrevolvingburden', 'numbank2natltradeswhighutilization', 'numinqlast6m']",36465,0.017163991928100586
+heloc,0,XGB,83,1131,random,False,,,,,161,0.003549337387084961
+heloc,0,XGB,83,1131,topM_all,True,triple,12.68480691976437,3.0,"['netfractionrevolvingburden', 'numrevolvingtradeswbalance', 'numtradesopeninlast12m']",1826,0.02615070343017578
+heloc,0,XGB,83,1131,all_pairs,True,triple,12.68480691976437,3.0,"['netfractionrevolvingburden', 'numrevolvingtradeswbalance', 'numtradesopeninlast12m']",2415,0.05232429504394531
+heloc,0,XGB,85,1214,br_cg4,True,pair,5.792487496236072,2.0,"['netfractioninstallburden', 'netfractionrevolvingburden']",664,0.014114618301391602
+heloc,0,XGB,85,1214,mean_cg4,True,triple,5.792487496236072,2.0,"['netfractioninstallburden', 'netfractionrevolvingburden']",697,0.016407012939453125
+heloc,0,XGB,85,1214,additive,True,pair,5.792487496236072,2.0,"['netfractioninstallburden', 'netfractionrevolvingburden']",27,0.002317190170288086
+heloc,0,XGB,85,1214,shap,True,pair,5.792487496236072,2.0,"['netfractioninstallburden', 'netfractionrevolvingburden']",42768,0.018657207489013672
+heloc,0,XGB,85,1214,random,False,,,,,86,0.0036618709564208984
+heloc,0,XGB,85,1214,topM_all,True,pair,5.792487496236072,2.0,"['netfractioninstallburden', 'netfractionrevolvingburden']",132,0.009751558303833008
+heloc,0,XGB,85,1214,all_pairs,True,pair,5.792487496236072,2.0,"['netfractioninstallburden', 'netfractionrevolvingburden']",145,0.013889312744140625
+heloc,0,XGB,87,127,br_cg4,False,,,,,693,0.012973546981811523
+heloc,0,XGB,87,127,mean_cg4,False,,,,,675,0.01286458969116211
+heloc,0,XGB,87,127,additive,False,,,,,37,0.0033447742462158203
+heloc,0,XGB,87,127,shap,False,,,,,39673,0.016298532485961914
+heloc,0,XGB,87,127,random,False,,,,,35,0.0038416385650634766
+heloc,0,XGB,87,127,topM_all,False,,,,,274,0.02409648895263672
+heloc,0,XGB,87,127,all_pairs,False,,,,,346,0.03858757019042969
+heloc,0,XGB,90,1471,br_cg4,False,,,,,705,0.012934207916259766
+heloc,0,XGB,90,1471,mean_cg4,False,,,,,690,0.012827873229980469
+heloc,0,XGB,90,1471,additive,False,,,,,55,0.0035355091094970703
+heloc,0,XGB,90,1471,shap,False,,,,,40956,0.01783919334411621
+heloc,0,XGB,90,1471,random,False,,,,,48,0.0034868717193603516
+heloc,0,XGB,90,1471,topM_all,False,,,,,523,0.027306556701660156
+heloc,0,XGB,90,1471,all_pairs,False,,,,,638,0.0399937629699707
+heloc,0,XGB,91,686,br_cg4,False,,,,,837,0.012983083724975586
+heloc,0,XGB,91,686,mean_cg4,False,,,,,827,0.013055562973022461
+heloc,0,XGB,91,686,additive,False,,,,,162,0.0035979747772216797
+heloc,0,XGB,91,686,shap,False,,,,,36791,0.0172119140625
+heloc,0,XGB,91,686,random,False,,,,,211,0.003597259521484375
+heloc,0,XGB,91,686,topM_all,False,,,,,1255,0.0258333683013916
+heloc,0,XGB,91,686,all_pairs,False,,,,,1714,0.04012012481689453
+heloc,0,XGB,92,846,br_cg4,False,,,,,719,0.013233184814453125
+heloc,0,XGB,92,846,mean_cg4,False,,,,,723,0.012742042541503906
+heloc,0,XGB,92,846,additive,False,,,,,91,0.0037026405334472656
+heloc,0,XGB,92,846,shap,False,,,,,37659,0.017024755477905273
+heloc,0,XGB,92,846,random,False,,,,,87,0.0036308765411376953
+heloc,0,XGB,92,846,topM_all,False,,,,,254,0.024028301239013672
+heloc,0,XGB,92,846,all_pairs,False,,,,,415,0.03867506980895996
+heloc,0,XGB,94,1960,br_cg4,False,,,,,873,0.013596057891845703
+heloc,0,XGB,94,1960,mean_cg4,False,,,,,870,0.01329350471496582
+heloc,0,XGB,94,1960,additive,False,,,,,151,0.0035610198974609375
+heloc,0,XGB,94,1960,shap,False,,,,,37513,0.017152070999145508
+heloc,0,XGB,94,1960,random,False,,,,,58,0.003392457962036133
+heloc,0,XGB,94,1960,topM_all,False,,,,,751,0.024760007858276367
+heloc,0,XGB,94,1960,all_pairs,False,,,,,1264,0.03972625732421875
