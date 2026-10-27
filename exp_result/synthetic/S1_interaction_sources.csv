@@ -1,0 +1,10 @@
+﻿mechanism,x1,x2,C_G4 manuscript (est.),C_G4 closed form,C_G4 positive-part (est.),best-response interaction (est.),SHAP interaction index (gain sign),SHAP phi_x1,SHAP phi_x2
+(a) model interaction,0.0,0.0,0.006,-0.0,0.634,21.461,0.027,0.014,0.014
+(a) model interaction,1.0,0.8,-1.59,-1.6,0.412,4.684,-1.586,0.865,0.762
+(a) model interaction,-1.0,0.8,1.61,1.6,2.014,8.704,1.524,-0.78,-0.793
+(b) path blocking,0.0,0.0,-0.008,-0.0,0.474,-6.237,-0.0,0.012,0.078
+(b) path blocking,1.0,0.8,-1.208,-1.2,0.1,-7.437,0.0,1.012,1.278
+(b) path blocking,-1.0,0.8,1.192,1.2,1.293,-5.037,0.0,-0.988,1.278
+(c) shared descendant,0.0,0.0,0.026,-0.0,0.652,21.064,-0.0,0.0,0.0
+(c) shared descendant,1.0,0.8,-1.545,-1.6,0.421,5.474,-0.0,0.0,0.0
+(c) shared descendant,-1.0,0.8,1.63,1.6,2.04,8.854,-0.0,0.0,0.0
