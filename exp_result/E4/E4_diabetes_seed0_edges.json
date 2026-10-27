@@ -1,0 +1,225 @@
+{
+ "llm": {
+  "edges": [
+   [
+    "age",
+    "pregnancies"
+   ],
+   [
+    "age",
+    "bloodpressure"
+   ],
+   [
+    "age",
+    "glucose"
+   ],
+   [
+    "bmi",
+    "bloodpressure"
+   ],
+   [
+    "bmi",
+    "skinthickness"
+   ],
+   [
+    "bmi",
+    "insulin"
+   ],
+   [
+    "glucose",
+    "insulin"
+   ]
+  ],
+  "eq": "linear"
+ },
+ "drop30_r1": {
+  "edges": [
+   [
+    "age",
+    "pregnancies"
+   ],
+   [
+    "age",
+    "bloodpressure"
+   ],
+   [
+    "age",
+    "glucose"
+   ],
+   [
+    "bmi",
+    "bloodpressure"
+   ],
+   [
+    "bmi",
+    "skinthickness"
+   ]
+  ],
+  "eq": "linear"
+ },
+ "rev30_r1": {
+  "edges": [
+   [
+    "pregnancies",
+    "age"
+   ],
+   [
+    "age",
+    "bloodpressure"
+   ],
+   [
+    "age",
+    "glucose"
+   ],
+   [
+    "bmi",
+    "bloodpressure"
+   ],
+   [
+    "skinthickness",
+    "bmi"
+   ],
+   [
+    "bmi",
+    "insulin"
+   ],
+   [
+    "glucose",
+    "insulin"
+   ]
+  ],
+  "eq": "linear"
+ },
+ "drop30_r2": {
+  "edges": [
+   [
+    "age",
+    "bloodpressure"
+   ],
+   [
+    "bmi",
+    "bloodpressure"
+   ],
+   [
+    "bmi",
+    "skinthickness"
+   ],
+   [
+    "bmi",
+    "insulin"
+   ],
+   [
+    "glucose",
+    "insulin"
+   ]
+  ],
+  "eq": "linear"
+ },
+ "rev30_r2": {
+  "edges": [
+   [
+    "age",
+    "pregnancies"
+   ],
+   [
+    "age",
+    "bloodpressure"
+   ],
+   [
+    "glucose",
+    "age"
+   ],
+   [
+    "bloodpressure",
+    "bmi"
+   ],
+   [
+    "bmi",
+    "skinthickness"
+   ],
+   [
+    "bmi",
+    "insulin"
+   ],
+   [
+    "glucose",
+    "insulin"
+   ]
+  ],
+  "eq": "linear"
+ },
+ "empty": {
+  "edges": [],
+  "eq": "linear"
+ },
+ "pc": {
+  "edges": [
+   [
+    "skinthickness",
+    "bmi"
+   ],
+   [
+    "diabetespedigreefunction",
+    "skinthickness"
+   ],
+   [
+    "diabetespedigreefunction",
+    "insulin"
+   ],
+   [
+    "glucose",
+    "bmi"
+   ],
+   [
+    "glucose",
+    "insulin"
+   ],
+   [
+    "bloodpressure",
+    "bmi"
+   ],
+   [
+    "bloodpressure",
+    "skinthickness"
+   ],
+   [
+    "insulin",
+    "skinthickness"
+   ]
+  ],
+  "eq": "linear"
+ },
+ "gbr": {
+  "edges": [
+   [
+    "age",
+    "pregnancies"
+   ],
+   [
+    "age",
+    "bloodpressure"
+   ],
+   [
+    "age",
+    "glucose"
+   ],
+   [
+    "bmi",
+    "bloodpressure"
+   ],
+   [
+    "bmi",
+    "skinthickness"
+   ],
+   [
+    "bmi",
+    "insulin"
+   ],
+   [
+    "glucose",
+    "insulin"
+   ]
+  ],
+  "eq": "gbr"
+ }
+}

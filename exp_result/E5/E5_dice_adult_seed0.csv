@@ -1,0 +1,301 @@
+﻿dataset,seed,model,query,test_row,method,success,cost,L0,L_active,evals_total,time,tail,cross_valid,changed
+adult,0,RF,0,8571,dice_random,True,3.305477908564475,2.0,2.0,2004,0.08802342414855957,True,0.5,"['capital_loss', 'capital_gain']"
+adult,0,RF,1,8201,dice_random,True,18.765543118564477,2.0,2.0,2004,0.08491015434265137,True,0.5,"['capital_loss', 'capital_gain']"
+adult,0,RF,2,8668,dice_random,True,6.7415998836630955,2.0,2.0,12004,38.9507417678833,True,0.5,"['workclass', 'capital_gain']"
+adult,0,RF,3,1522,dice_random,True,1.8847193998573508,1.0,1.0,2004,0.08240389823913574,True,0.5,['capital_gain']
+adult,0,RF,4,8285,dice_random,True,10.041832408564474,2.0,2.0,2004,0.08025884628295898,True,0.5,"['capital_loss', 'capital_gain']"
+adult,0,RF,5,9722,dice_random,True,12.958962099857352,1.0,1.0,2004,0.08003759384155273,True,0.5,['capital_gain']
+adult,0,RF,6,8359,dice_random,True,5.20870859985735,1.0,1.0,2004,0.08216643333435059,True,0.5,['capital_gain']
+adult,0,RF,7,5,dice_random,True,14.180167649900657,2.0,2.0,2004,0.0829308032989502,True,0.5,"['occupation', 'capital_gain']"
+adult,0,RF,8,2379,dice_random,True,12.389845099857352,1.0,1.0,2004,0.08249759674072266,True,0.5,['capital_gain']
+adult,0,RF,9,2701,dice_random,True,5.450060363663096,2.0,2.0,2004,0.08371520042419434,True,1.0,"['workclass', 'capital_gain']"
+adult,0,RF,10,8883,dice_random,True,10.365698625729685,2.0,2.0,2004,0.08268594741821289,True,0.5,"['hours_per_week', 'capital_gain']"
+adult,0,RF,11,3678,dice_random,True,4.628219752903358,2.0,2.0,2004,0.0815272331237793,True,0.5,"['hours_per_week', 'capital_gain']"
+adult,0,RF,12,2691,dice_random,True,10.530500596051606,2.0,2.0,2004,0.08384132385253906,True,0.5,"['workclass', 'capital_gain']"
+adult,0,RF,13,4178,dice_random,True,7.365546999857351,1.0,1.0,2004,0.08215665817260742,True,0.5,['capital_gain']
+adult,0,RF,14,8257,dice_random,True,6.289207798707125,1.0,1.0,2004,0.08368062973022461,True,0.5,['capital_loss']
+adult,0,RF,15,7019,dice_random,True,3.2339053797439217,2.0,2.0,2004,0.08431458473205566,True,1.0,"['occupation', 'capital_gain']"
+adult,0,RF,16,3307,dice_random,True,9.208032966304403,2.0,2.0,2004,0.08095622062683105,True,0.5,"['occupation', 'capital_gain']"
+adult,0,RF,17,4176,dice_random,True,17.65700120448617,2.0,2.0,2004,0.08207893371582031,True,0.5,"['hours_per_week', 'capital_gain']"
+adult,0,RF,18,5229,dice_random,True,9.100328999857352,1.0,1.0,2004,0.0803995132446289,True,0.5,['capital_gain']
+adult,0,RF,19,4155,dice_random,True,1.490469668564475,2.0,2.0,2004,0.0860748291015625,False,0.0,"['capital_loss', 'capital_gain']"
+adult,0,RF,20,2530,dice_random,True,5.171408883663096,2.0,2.0,2004,0.0829613208770752,True,1.0,"['workclass', 'capital_gain']"
+adult,0,RF,21,2108,dice_random,True,1.3964504998573508,1.0,1.0,2004,0.08180046081542969,True,0.5,['capital_gain']
+adult,0,RF,22,2354,dice_random,True,1.889989468564475,2.0,2.0,2004,0.08202934265136719,True,0.5,"['capital_loss', 'capital_gain']"
+adult,0,RF,23,8872,dice_random,True,12.948215799857351,1.0,1.0,2004,0.08982682228088379,True,0.5,['capital_gain']
+adult,0,RF,24,3970,dice_random,True,9.986264899857352,1.0,1.0,2004,0.08220744132995605,True,0.5,['capital_gain']
+adult,0,RF,25,7295,dice_random,True,12.781574017230074,2.0,2.0,2004,0.08351731300354004,True,0.5,"['occupation', 'capital_gain']"
+adult,0,RF,26,9545,dice_random,True,24.41034430488529,2.0,2.0,2004,0.08287525177001953,True,0.5,"['hours_per_week', 'capital_gain']"
+adult,0,RF,27,8665,dice_random,True,4.621938417923602,2.0,2.0,2004,0.08181262016296387,True,0.5,"['hours_per_week', 'capital_gain']"
+adult,0,RF,28,456,dice_random,True,11.338079787621327,2.0,2.0,2004,0.08260750770568848,True,0.5,"['occupation', 'capital_gain']"
+adult,0,RF,29,948,dice_random,True,9.083847999857351,1.0,1.0,2004,0.08100032806396484,True,0.5,['capital_gain']
+adult,0,RF,30,3548,dice_random,True,10.878023299857352,1.0,1.0,2004,0.08133292198181152,True,0.5,['capital_gain']
+adult,0,RF,31,1608,dice_random,True,4.492649703663096,2.0,2.0,2004,0.0812220573425293,True,0.5,"['workclass', 'capital_gain']"
+adult,0,RF,32,8658,dice_random,True,9.02765089096953,2.0,2.0,2004,0.08019423484802246,True,0.0,"['hours_per_week', 'capital_gain']"
+adult,0,RF,33,3088,dice_random,True,8.261670571686093,2.0,2.0,2004,0.07954645156860352,True,0.5,"['occupation', 'capital_gain']"
+adult,0,RF,34,7262,dice_random,True,8.403091428707123,1.0,1.0,2004,0.08240270614624023,True,0.5,['capital_loss']
+adult,0,RF,35,936,dice_random,True,13.98293577306882,1.0,1.0,2004,0.08378815650939941,True,1.0,['hours_per_week']
+adult,0,RF,36,4662,dice_random,True,6.713206401375286,1.0,1.0,2004,0.08113598823547363,True,0.5,['capital_gain']
+adult,0,RF,37,1936,dice_random,True,13.06853795744993,2.0,2.0,2004,0.08159661293029785,True,0.5,"['workclass', 'capital_gain']"
+adult,0,RF,38,2677,dice_random,True,14.398632586051606,2.0,2.0,2004,0.08016562461853027,True,0.5,"['workclass', 'capital_gain']"
+adult,0,RF,39,6177,dice_random,True,7.077262420490863,2.0,2.0,12004,38.33332133293152,True,0.5,"['occupation', 'capital_gain']"
+adult,0,RF,40,8923,dice_random,True,2.625928312120884,2.0,2.0,2004,0.08237004280090332,False,0.0,"['occupation', 'capital_gain']"
+adult,0,RF,41,3317,dice_random,True,11.567083699857351,1.0,1.0,2004,0.08230471611022949,True,0.5,['capital_gain']
+adult,0,RF,42,3969,dice_random,True,11.562717796522367,2.0,2.0,2004,0.0834650993347168,True,0.5,"['occupation', 'capital_gain']"
+adult,0,RF,43,7222,dice_random,True,22.648662978564474,2.0,2.0,2004,0.08323001861572266,True,0.5,"['capital_loss', 'capital_gain']"
+adult,0,RF,44,1719,dice_random,True,3.5903385998573505,1.0,1.0,2004,0.0865323543548584,True,1.0,['capital_gain']
+adult,0,RF,45,570,dice_random,True,10.486420829582258,2.0,2.0,2004,0.08634114265441895,True,0.5,"['occupation', 'capital_gain']"
+adult,0,RF,46,6031,dice_random,True,17.516939378564476,2.0,2.0,2004,0.08670425415039062,True,0.5,"['capital_loss', 'capital_gain']"
+adult,0,RF,47,3350,dice_random,True,12.708036478564477,2.0,2.0,2004,0.08072543144226074,True,0.5,"['capital_loss', 'capital_gain']"
+adult,0,RF,48,9428,dice_random,True,11.756368799857352,1.0,1.0,2004,0.08174753189086914,True,0.5,['capital_gain']
+adult,0,RF,49,4076,dice_random,True,2.2306329311828583,1.0,1.0,2004,0.08045434951782227,True,1.0,['capital_gain']
+adult,0,RF,50,4922,dice_random,True,0.8371521998573506,1.0,1.0,2004,0.08246135711669922,False,0.5,['capital_gain']
+adult,0,RF,51,797,dice_random,True,4.5399793998573506,1.0,1.0,2004,0.08096504211425781,True,0.5,['capital_gain']
+adult,0,RF,52,924,dice_random,True,6.170487934837241,2.0,2.0,12004,38.16078996658325,True,0.5,"['hours_per_week', 'capital_gain']"
+adult,0,RF,53,523,dice_random,True,13.23337699985735,1.0,1.0,2004,0.08170056343078613,True,0.5,['capital_gain']
+adult,0,RF,54,9224,dice_random,True,15.79230858834033,2.0,2.0,2004,0.08377265930175781,True,0.5,"['occupation', 'capital_gain']"
+adult,0,RF,55,2722,dice_random,True,5.909379738802115,2.0,2.0,2004,0.08228421211242676,True,0.5,"['occupation', 'capital_gain']"
+adult,0,RF,56,226,dice_random,True,8.508643699857352,1.0,1.0,2004,0.08255124092102051,True,0.5,['capital_gain']
+adult,0,RF,57,1999,dice_random,True,9.104181899857352,1.0,1.0,2004,0.08701920509338379,True,0.5,['capital_gain']
+adult,0,RF,58,9682,dice_random,True,7.483729266858432,2.0,2.0,12004,38.21314835548401,True,0.5,"['occupation', 'capital_gain']"
+adult,0,RF,59,8463,dice_random,True,2.971548878564475,2.0,2.0,2004,0.0819392204284668,True,0.5,"['capital_loss', 'capital_gain']"
+adult,0,RF,60,2711,dice_random,True,10.625461199857352,1.0,1.0,2004,0.08665132522583008,True,0.5,['capital_gain']
+adult,0,RF,61,3205,dice_random,True,6.785313680876929,2.0,2.0,2004,0.08217811584472656,True,0.5,"['occupation', 'capital_gain']"
+adult,0,RF,62,6959,dice_random,True,15.874115900122357,2.0,2.0,2004,0.08020186424255371,True,0.5,"['occupation', 'capital_gain']"
+adult,0,RF,63,3075,dice_random,True,2.9808010998573504,1.0,1.0,2004,0.08131647109985352,True,0.5,['capital_gain']
+adult,0,RF,64,7849,dice_random,True,3.7884362998573504,1.0,1.0,2004,0.08412504196166992,True,0.5,['capital_gain']
+adult,0,RF,65,739,dice_random,True,9.677149628564475,2.0,2.0,2004,0.08056879043579102,True,0.5,"['capital_loss', 'capital_gain']"
+adult,0,RF,66,1305,dice_random,True,13.061455099857351,1.0,1.0,2004,0.08313608169555664,True,0.5,['capital_gain']
+adult,0,RF,67,6577,dice_random,True,12.323536478564474,2.0,2.0,2004,0.08113336563110352,True,0.5,"['capital_loss', 'capital_gain']"
+adult,0,RF,68,1528,dice_random,True,3.6373783998573503,1.0,1.0,2004,0.08231019973754883,True,0.5,['capital_gain']
+adult,0,RF,69,8564,dice_random,True,0.3400120766462288,1.0,1.0,2004,0.08664083480834961,False,0.0,['occupation']
+adult,0,RF,70,4765,dice_random,True,14.54336359985735,1.0,1.0,2004,0.08701133728027344,True,1.0,['capital_gain']
+adult,0,RF,71,8869,dice_random,True,19.643712122919162,2.0,2.0,2004,0.0819094181060791,True,0.5,"['hours_per_week', 'capital_gain']"
+adult,0,RF,72,6173,dice_random,True,6.332191578707125,1.0,1.0,2004,0.08576130867004395,True,1.0,['capital_loss']
+adult,0,RF,73,731,dice_random,True,3.270023728564475,2.0,2.0,2004,0.08097195625305176,True,1.0,"['capital_loss', 'capital_gain']"
+adult,0,RF,74,2659,dice_random,True,13.408847899857351,1.0,1.0,2004,0.08245682716369629,True,1.0,['capital_gain']
+adult,0,RF,75,382,dice_random,True,1.1162389998573508,1.0,1.0,2004,0.07920479774475098,False,0.0,['capital_gain']
+adult,0,RF,76,5505,dice_random,True,11.923008897424,2.0,2.0,2004,0.08005666732788086,True,0.5,"['occupation', 'capital_gain']"
+adult,0,RF,77,4703,dice_random,True,8.990341499857351,1.0,1.0,2004,0.08176565170288086,True,0.5,['capital_gain']
+adult,0,RF,78,8781,dice_random,True,6.783764731432286,2.0,2.0,2004,0.08136487007141113,True,0.5,"['occupation', 'capital_loss']"
+adult,0,RF,79,8402,dice_random,True,6.24035679985735,1.0,1.0,2004,0.08036160469055176,True,0.5,['capital_gain']
+adult,0,RF,80,3302,dice_random,True,19.68265726292941,2.0,2.0,2004,0.08360743522644043,True,0.5,"['capital_loss', 'hours_per_week']"
+adult,0,RF,81,4197,dice_random,True,6.436597215610402,1.0,1.0,2004,0.08034801483154297,True,0.5,['capital_gain']
+adult,0,RF,82,1616,dice_random,True,1.600261939968877,2.0,2.0,2004,0.08414816856384277,False,0.5,"['workclass', 'occupation']"
+adult,0,RF,83,4309,dice_random,True,9.250867811523335,2.0,2.0,2004,0.08684086799621582,True,0.5,"['occupation', 'capital_loss']"
+adult,0,RF,84,2999,dice_random,True,12.002215099857352,1.0,1.0,2004,0.08145642280578613,True,0.5,['capital_gain']
+adult,0,RF,85,6219,dice_random,True,5.615227183663096,2.0,2.0,2004,0.07999277114868164,True,0.5,"['workclass', 'capital_gain']"
+adult,0,RF,86,642,dice_random,True,9.738669199857352,1.0,1.0,2004,0.08554887771606445,True,0.5,['capital_gain']
+adult,0,RF,87,2724,dice_random,True,19.95467813646707,2.0,2.0,2004,0.08640861511230469,True,0.5,"['hours_per_week', 'capital_gain']"
+adult,0,RF,88,5542,dice_random,True,5.973935816788598,2.0,2.0,2004,0.08222770690917969,True,0.0,"['occupation', 'capital_loss']"
+adult,0,RF,89,8210,dice_random,True,8.319737299857351,1.0,1.0,2004,0.0798499584197998,True,0.5,['capital_gain']
+adult,0,RF,90,7383,dice_random,True,3.15982346623863,2.0,2.0,2004,0.08199572563171387,True,0.5,"['occupation', 'capital_gain']"
+adult,0,RF,91,3422,dice_random,True,9.582482699857351,1.0,1.0,2004,0.08465981483459473,True,0.5,['capital_gain']
+adult,0,RF,92,1984,dice_random,True,12.635041618564475,2.0,2.0,2004,0.08142852783203125,True,0.5,"['capital_loss', 'capital_gain']"
+adult,0,RF,93,2992,dice_random,True,12.17952249985735,1.0,1.0,2004,0.08017396926879883,True,0.5,['capital_gain']
+adult,0,RF,94,7175,dice_random,True,13.812824838564477,2.0,2.0,2004,0.07972526550292969,True,0.5,"['capital_loss', 'capital_gain']"
+adult,0,RF,95,5025,dice_random,True,11.885957439277668,2.0,2.0,12004,38.25681447982788,True,0.5,"['occupation', 'capital_gain']"
+adult,0,RF,96,6065,dice_random,True,10.274840218564474,2.0,2.0,2004,0.08368444442749023,True,0.0,"['capital_loss', 'capital_gain']"
+adult,0,RF,97,7630,dice_random,True,8.747116799857352,1.0,1.0,2004,0.0817863941192627,True,0.5,['capital_gain']
+adult,0,RF,98,2504,dice_random,True,9.660528378564475,2.0,2.0,2004,0.08700299263000488,True,0.5,"['capital_loss', 'capital_gain']"
+adult,0,RF,99,5628,dice_random,True,9.280024499857351,1.0,1.0,2004,0.08684587478637695,True,0.5,['capital_gain']
+adult,0,SVM,0,8167,dice_random,True,4.881514273663096,2.0,2.0,2004,0.30986714363098145,True,1.0,"['workclass', 'capital_gain']"
+adult,0,SVM,1,4675,dice_random,True,6.547074956655929,2.0,2.0,2004,0.3122382164001465,True,0.0,"['occupation', 'capital_loss']"
+adult,0,SVM,2,1577,dice_random,True,6.217994768707125,1.0,1.0,2004,0.3119535446166992,True,0.5,['capital_loss']
+adult,0,SVM,3,1347,dice_random,True,9.108584417682355,3.0,3.0,3004,0.4517030715942383,True,1.0,"['workclass', 'hours_per_week', 'capital_gain']"
+adult,0,SVM,4,7904,dice_random,True,6.334779287946878,2.0,2.0,2004,0.31151318550109863,True,1.0,"['occupation', 'capital_gain']"
+adult,0,SVM,5,889,dice_random,False,,,,2004,0.3077425956726074,,,
+adult,0,SVM,6,2852,dice_random,True,2.1974247133976084,1.0,1.0,2004,0.3105342388153076,False,0.0,['workclass']
+adult,0,SVM,7,7962,dice_random,True,4.794475608330321,1.0,1.0,2004,0.32639503479003906,False,1.0,['hours_per_week']
+adult,0,SVM,8,1133,dice_random,True,4.079157899857351,1.0,1.0,2004,0.31314778327941895,True,1.0,['capital_gain']
+adult,0,SVM,9,7233,dice_random,True,4.755582195271732,2.0,2.0,2004,0.3094308376312256,True,1.0,"['occupation', 'capital_gain']"
+adult,0,SVM,10,4233,dice_random,True,4.570036682493417,1.0,1.0,2004,0.31029558181762695,False,0.0,['hours_per_week']
+adult,0,SVM,11,223,dice_random,True,2.2999863998573504,1.0,1.0,2004,0.3133237361907959,True,1.0,['capital_gain']
+adult,0,SVM,12,5442,dice_random,True,3.2696439998573505,1.0,1.0,2004,0.31387972831726074,True,1.0,['capital_gain']
+adult,0,SVM,13,189,dice_random,True,6.988218378707125,1.0,1.0,2004,0.30829572677612305,True,0.0,['capital_loss']
+adult,0,SVM,14,3794,dice_random,False,,,,3004,0.4447288513183594,,,
+adult,0,SVM,15,9612,dice_random,True,9.300831166240764,2.0,2.0,12004,9.564199924468994,True,1.0,"['occupation', 'hours_per_week']"
+adult,0,SVM,16,9674,dice_random,True,0.6227310065148386,1.0,1.0,2004,0.313046932220459,False,0.5,['occupation']
+adult,0,SVM,17,2685,dice_random,False,,,,5001,0.7078416347503662,,,error: UserConfigValidationException
+adult,0,SVM,18,7247,dice_random,True,3.7458339998573504,1.0,1.0,2004,0.3144569396972656,True,1.0,['capital_gain']
+adult,0,SVM,19,1242,dice_random,True,5.608595898564475,2.0,2.0,2004,0.30887627601623535,True,1.0,"['capital_loss', 'capital_gain']"
+adult,0,SVM,20,5696,dice_random,True,5.091967208707125,1.0,1.0,2004,0.3129737377166748,True,0.0,['capital_loss']
+adult,0,SVM,21,6259,dice_random,True,8.605791269757368,3.0,3.0,3004,0.4524815082550049,True,1.0,"['occupation', 'hours_per_week', 'capital_gain']"
+adult,0,SVM,22,853,dice_random,True,3.3959329998573504,1.0,1.0,2004,0.31143856048583984,True,1.0,['capital_gain']
+adult,0,SVM,23,6949,dice_random,False,,,,5001,0.7151174545288086,,,error: UserConfigValidationException
+adult,0,SVM,24,5143,dice_random,False,,,,3004,0.4480764865875244,,,
+adult,0,SVM,25,8787,dice_random,True,10.522671440744894,2.0,2.0,2004,0.3134040832519531,True,0.0,"['capital_loss', 'hours_per_week']"
+adult,0,SVM,26,4396,dice_random,False,,,,5001,0.7117800712585449,,,error: UserConfigValidationException
+adult,0,SVM,27,6963,dice_random,True,5.129282836216819,2.0,2.0,2004,0.31366848945617676,False,0.0,"['workclass', 'hours_per_week']"
+adult,0,SVM,28,7103,dice_random,True,6.87033942636247,2.0,2.0,2004,0.3099513053894043,True,1.0,"['occupation', 'capital_gain']"
+adult,0,SVM,29,3789,dice_random,True,3.9535500998573503,1.0,1.0,2004,0.3168191909790039,True,1.0,['capital_gain']
+adult,0,SVM,30,2700,dice_random,True,4.020212199857351,1.0,1.0,2004,0.3142580986022949,True,1.0,['capital_gain']
+adult,0,SVM,31,4888,dice_random,False,,,,2004,0.3118569850921631,,,
+adult,0,SVM,32,4344,dice_random,True,3.9460395998573503,1.0,1.0,2004,0.31548428535461426,True,1.0,['capital_gain']
+adult,0,SVM,33,8291,dice_random,False,,,,5001,0.7126696109771729,,,error: UserConfigValidationException
+adult,0,SVM,34,9101,dice_random,True,5.383675212233677,2.0,2.0,2004,0.3128659725189209,True,1.0,"['occupation', 'capital_gain']"
+adult,0,SVM,35,2136,dice_random,False,,,,5001,0.71419358253479,,,error: UserConfigValidationException
+adult,0,SVM,36,2950,dice_random,False,,,,5001,0.7147665023803711,,,error: UserConfigValidationException
+adult,0,SVM,37,9649,dice_random,False,,,,5004,0.7232513427734375,,,
+adult,0,SVM,38,5585,dice_random,False,,,,5001,0.7090437412261963,,,error: UserConfigValidationException
+adult,0,SVM,39,795,dice_random,False,,,,3004,0.4494917392730713,,,
+adult,0,SVM,40,8224,dice_random,True,6.174705442835046,2.0,2.0,2004,0.3155200481414795,True,1.0,"['hours_per_week', 'capital_gain']"
+adult,0,SVM,41,1724,dice_random,False,,,,5001,0.7091944217681885,,,error: UserConfigValidationException
+adult,0,SVM,42,4897,dice_random,True,2.2742869998573503,1.0,1.0,2004,0.31447768211364746,True,1.0,['capital_gain']
+adult,0,SVM,43,9686,dice_random,False,,,,5001,0.7130260467529297,,,error: UserConfigValidationException
+adult,0,SVM,44,3968,dice_random,True,3.4552096998573507,1.0,1.0,2004,0.3136281967163086,True,1.0,['capital_gain']
+adult,0,SVM,45,2177,dice_random,True,1.4213821687064612,2.0,2.0,2004,0.30983781814575195,True,1.0,"['capital_loss', 'capital_gain']"
+adult,0,SVM,46,8900,dice_random,True,6.664069531114547,2.0,2.0,12004,9.601045846939087,True,1.0,"['workclass', 'capital_loss']"
+adult,0,SVM,47,1775,dice_random,True,3.5953044998573507,1.0,1.0,2004,0.31183528900146484,True,1.0,['capital_gain']
+adult,0,SVM,48,5650,dice_random,True,3.515737545061419,2.0,2.0,12004,9.572264432907104,True,1.0,"['workclass', 'capital_gain']"
+adult,0,SVM,49,7598,dice_random,False,,,,5001,0.709801197052002,,,error: UserConfigValidationException
+adult,0,SVM,50,6883,dice_random,True,6.999516114901379,2.0,2.0,2004,0.31006669998168945,True,0.5,"['workclass', 'capital_loss']"
+adult,0,SVM,51,736,dice_random,True,4.5399793998573506,1.0,1.0,2004,0.3148360252380371,True,1.0,['capital_gain']
+adult,0,SVM,52,8597,dice_random,True,3.0671819998573504,1.0,1.0,2004,0.3092918395996094,True,1.0,['capital_gain']
+adult,0,SVM,53,710,dice_random,True,9.223415577961045,2.0,2.0,2004,0.3108842372894287,True,1.0,"['hours_per_week', 'capital_gain']"
+adult,0,SVM,54,5953,dice_random,False,,,,2004,0.3082156181335449,,,
+adult,0,SVM,55,4306,dice_random,True,4.061845699857351,1.0,1.0,2004,0.3131725788116455,True,1.0,['capital_gain']
+adult,0,SVM,56,9648,dice_random,False,,,,2004,0.30866456031799316,,,
+adult,0,SVM,57,5248,dice_random,False,,,,2004,0.3062288761138916,,,
+adult,0,SVM,58,8939,dice_random,True,2.8663119998573503,1.0,1.0,2004,0.30986928939819336,True,1.0,['capital_gain']
+adult,0,SVM,59,5482,dice_random,False,,,,2004,0.3122072219848633,,,
+adult,0,SVM,60,5063,dice_random,True,3.8674575998573504,1.0,1.0,2004,0.3118014335632324,True,1.0,['capital_gain']
+adult,0,SVM,61,8350,dice_random,True,1.8207413998573507,1.0,1.0,2004,0.3139939308166504,True,1.0,['capital_gain']
+adult,0,SVM,62,4723,dice_random,True,5.492570544341703,2.0,2.0,2004,0.31381988525390625,True,0.0,"['occupation', 'capital_loss']"
+adult,0,SVM,63,4330,dice_random,True,10.525678582926139,1.0,1.0,2004,0.3121809959411621,True,0.5,['hours_per_week']
+adult,0,SVM,64,2224,dice_random,True,3.5431238998573504,1.0,1.0,2004,0.3158140182495117,True,1.0,['capital_gain']
+adult,0,SVM,65,9544,dice_random,False,,,,2004,0.309175968170166,,,
+adult,0,SVM,66,5375,dice_random,False,,,,2004,0.3077683448791504,,,
+adult,0,SVM,67,5342,dice_random,True,6.286395623305499,2.0,2.0,2004,0.3107736110687256,True,1.0,"['hours_per_week', 'capital_gain']"
+adult,0,SVM,68,4345,dice_random,True,2.8881014998573504,1.0,1.0,2004,0.31015706062316895,True,1.0,['capital_gain']
+adult,0,SVM,69,4717,dice_random,False,,,,5001,0.7129511833190918,,,error: UserConfigValidationException
+adult,0,SVM,70,345,dice_random,True,6.221564255233686,3.0,3.0,3004,0.4508984088897705,True,1.0,"['occupation', 'capital_loss', 'capital_gain']"
+adult,0,SVM,71,6878,dice_random,True,6.772755597543794,2.0,2.0,2004,0.3139510154724121,False,0.0,"['occupation', 'hours_per_week']"
+adult,0,SVM,72,1866,dice_random,True,5.138961599857351,1.0,1.0,2004,0.31199169158935547,True,1.0,['capital_gain']
+adult,0,SVM,73,5924,dice_random,True,9.998860270396154,2.0,2.0,2004,0.3110015392303467,True,1.0,"['capital_loss', 'hours_per_week']"
+adult,0,SVM,74,4234,dice_random,True,6.569001506581749,2.0,2.0,2004,0.31212711334228516,True,1.0,"['workclass', 'capital_loss']"
+adult,0,SVM,75,300,dice_random,True,10.816348492104733,2.0,2.0,2004,0.3131110668182373,True,1.0,"['workclass', 'capital_loss']"
+adult,0,SVM,76,1050,dice_random,True,2.7808732998573507,1.0,1.0,2004,0.30896425247192383,True,1.0,['capital_gain']
+adult,0,SVM,77,7817,dice_random,False,,,,2004,0.3072373867034912,,,
+adult,0,SVM,78,52,dice_random,True,14.952880047769021,2.0,2.0,2004,0.309283971786499,True,0.0,"['capital_loss', 'hours_per_week']"
+adult,0,SVM,79,8085,dice_random,True,3.904195101375286,1.0,1.0,2004,0.3152174949645996,True,1.0,['capital_gain']
+adult,0,SVM,80,5857,dice_random,True,3.7328962998573503,1.0,1.0,2004,0.3093550205230713,True,1.0,['capital_gain']
+adult,0,SVM,81,3020,dice_random,True,3.738198232614154,2.0,2.0,2004,0.3114967346191406,True,1.0,"['occupation', 'capital_gain']"
+adult,0,SVM,82,1042,dice_random,True,7.065011475350469,2.0,2.0,2004,0.3136744499206543,True,1.0,"['occupation', 'capital_loss']"
+adult,0,SVM,83,5293,dice_random,True,2.7490650998573507,1.0,1.0,2004,0.31357574462890625,True,1.0,['capital_gain']
+adult,0,SVM,84,1843,dice_random,False,,,,5001,0.7063210010528564,,,error: UserConfigValidationException
+adult,0,SVM,85,1695,dice_random,True,6.660467128707125,1.0,1.0,2004,0.31246018409729004,True,1.0,['capital_loss']
+adult,0,SVM,86,4730,dice_random,True,3.139201221798302,2.0,2.0,2004,0.31313109397888184,True,1.0,"['hours_per_week', 'capital_gain']"
+adult,0,SVM,87,2117,dice_random,True,12.457312880359867,2.0,2.0,2004,0.31366729736328125,True,0.5,"['capital_loss', 'hours_per_week']"
+adult,0,SVM,88,8347,dice_random,True,4.862399699857351,1.0,1.0,2004,0.3113131523132324,True,1.0,['capital_gain']
+adult,0,SVM,89,6073,dice_random,True,10.955730752090018,2.0,2.0,2004,0.30967140197753906,True,0.0,"['workclass', 'hours_per_week']"
+adult,0,SVM,90,7894,dice_random,True,11.932078423199826,2.0,2.0,2004,0.31223511695861816,True,1.0,"['hours_per_week', 'capital_gain']"
+adult,0,SVM,91,4684,dice_random,False,,,,5001,0.7194163799285889,,,error: UserConfigValidationException
+adult,0,SVM,92,8451,dice_random,True,5.322997643663095,2.0,2.0,2004,0.310103178024292,True,1.0,"['workclass', 'capital_gain']"
+adult,0,SVM,93,6362,dice_random,True,15.463521866124623,2.0,2.0,2004,0.31023550033569336,True,0.0,"['capital_loss', 'hours_per_week']"
+adult,0,SVM,94,1286,dice_random,False,,,,5001,0.7155687808990479,,,error: UserConfigValidationException
+adult,0,SVM,95,9088,dice_random,True,2.1128014998573508,1.0,1.0,2004,0.31207823753356934,True,1.0,['capital_gain']
+adult,0,SVM,96,8009,dice_random,True,5.931958674901379,2.0,2.0,2004,0.31133317947387695,True,0.0,"['workclass', 'capital_loss']"
+adult,0,SVM,97,6097,dice_random,True,1.9771004674102488,2.0,2.0,2004,0.3128175735473633,True,1.0,"['workclass', 'capital_gain']"
+adult,0,SVM,98,3651,dice_random,True,7.524161334901379,2.0,2.0,2004,0.31265926361083984,True,0.0,"['workclass', 'capital_loss']"
+adult,0,SVM,99,1105,dice_random,True,6.663471743519539,2.0,2.0,2004,0.3144519329071045,True,0.5,"['occupation', 'capital_loss']"
+adult,0,XGB,0,3623,dice_random,True,8.798074954016116,2.0,2.0,2004,0.06297636032104492,True,0.5,"['capital_loss', 'hours_per_week']"
+adult,0,XGB,1,881,dice_random,True,12.153842069552155,2.0,2.0,2004,0.06283855438232422,True,0.5,"['hours_per_week', 'capital_gain']"
+adult,0,XGB,2,4900,dice_random,True,6.665913353663096,2.0,2.0,12004,11.104763746261597,True,0.5,"['workclass', 'capital_gain']"
+adult,0,XGB,3,8161,dice_random,True,6.724295786628703,2.0,2.0,2004,0.06152772903442383,True,0.5,"['occupation', 'capital_gain']"
+adult,0,XGB,4,7262,dice_random,True,6.350909518707125,1.0,1.0,2004,0.06139492988586426,True,1.0,['capital_loss']
+adult,0,XGB,5,9266,dice_random,True,12.001898958564475,2.0,2.0,2004,0.062210798263549805,True,0.5,"['capital_loss', 'capital_gain']"
+adult,0,XGB,6,635,dice_random,True,12.211524166051607,2.0,2.0,2004,0.061771392822265625,True,0.5,"['workclass', 'capital_gain']"
+adult,0,XGB,7,8414,dice_random,True,6.14598339985735,1.0,1.0,2004,0.06244778633117676,True,0.5,['capital_gain']
+adult,0,XGB,8,1578,dice_random,True,8.115033148707123,1.0,1.0,2004,0.06412267684936523,True,0.0,['capital_loss']
+adult,0,XGB,9,5604,dice_random,True,10.942829278564474,2.0,2.0,2004,0.06345391273498535,True,0.5,"['capital_loss', 'capital_gain']"
+adult,0,XGB,10,83,dice_random,True,7.860799549038032,2.0,2.0,2004,0.061899423599243164,True,0.5,"['occupation', 'capital_loss']"
+adult,0,XGB,11,4458,dice_random,True,18.381458128564475,2.0,2.0,2004,0.06190347671508789,True,0.5,"['capital_loss', 'capital_gain']"
+adult,0,XGB,12,7416,dice_random,True,15.037448734653283,2.0,2.0,2004,0.06319427490234375,True,0.5,"['workclass', 'capital_gain']"
+adult,0,XGB,13,84,dice_random,True,8.290725611942456,2.0,2.0,2004,0.06324291229248047,True,0.5,"['occupation', 'capital_loss']"
+adult,0,XGB,14,8660,dice_random,True,7.0505358936630955,2.0,2.0,12004,11.07292628288269,True,0.5,"['workclass', 'capital_gain']"
+adult,0,XGB,15,110,dice_random,True,7.280977854971251,2.0,2.0,2004,0.06385564804077148,True,1.0,"['hours_per_week', 'capital_gain']"
+adult,0,XGB,16,1189,dice_random,True,7.309249198576288,2.0,2.0,12004,11.088196277618408,True,0.5,"['occupation', 'capital_gain']"
+adult,0,XGB,17,8134,dice_random,True,5.900333867963934,2.0,2.0,2004,0.06271076202392578,True,1.0,"['workclass', 'capital_gain']"
+adult,0,XGB,18,9141,dice_random,True,22.832060399906524,2.0,2.0,2004,0.06285905838012695,True,0.5,"['hours_per_week', 'capital_gain']"
+adult,0,XGB,19,6764,dice_random,True,6.702045338707125,1.0,1.0,2004,0.06235933303833008,True,0.5,['capital_loss']
+adult,0,XGB,20,1438,dice_random,True,7.004169878707125,1.0,1.0,2004,0.06321144104003906,True,0.0,['capital_loss']
+adult,0,XGB,21,8197,dice_random,True,1.3964504998573508,1.0,1.0,2004,0.06195783615112305,True,0.5,['capital_gain']
+adult,0,XGB,22,5831,dice_random,True,6.272549799857351,1.0,1.0,2004,0.06166243553161621,True,0.5,['capital_gain']
+adult,0,XGB,23,4982,dice_random,True,5.536231388564475,2.0,2.0,2004,0.06199908256530762,True,0.5,"['capital_loss', 'capital_gain']"
+adult,0,XGB,24,4963,dice_random,True,13.352443418564476,2.0,2.0,2004,0.06330704689025879,True,0.5,"['capital_loss', 'capital_gain']"
+adult,0,XGB,25,629,dice_random,True,6.874277550989667,2.0,2.0,2004,0.0627899169921875,True,1.0,"['hours_per_week', 'capital_gain']"
+adult,0,XGB,26,2023,dice_random,True,5.921243599857351,1.0,1.0,2004,0.06444597244262695,True,0.5,['capital_gain']
+adult,0,XGB,27,4088,dice_random,True,5.468461228491717,2.0,2.0,2004,0.06295943260192871,True,1.0,"['occupation', 'capital_gain']"
+adult,0,XGB,28,4010,dice_random,True,8.966690199857352,1.0,1.0,2004,0.06260275840759277,True,0.5,['capital_gain']
+adult,0,XGB,29,936,dice_random,True,6.383576548707125,1.0,1.0,2004,0.061945199966430664,True,1.0,['capital_loss']
+adult,0,XGB,30,4155,dice_random,True,2.9001574906674907,2.0,2.0,12004,11.127038717269897,True,1.0,"['hours_per_week', 'capital_gain']"
+adult,0,XGB,31,695,dice_random,True,5.155997023663096,2.0,2.0,2004,0.06199026107788086,True,1.0,"['workclass', 'capital_gain']"
+adult,0,XGB,32,6879,dice_random,True,13.991780580059807,2.0,2.0,2004,0.06185460090637207,True,0.5,"['hours_per_week', 'capital_gain']"
+adult,0,XGB,33,6355,dice_random,True,6.397806768707125,1.0,1.0,2004,0.06170344352722168,True,0.5,['capital_loss']
+adult,0,XGB,34,5297,dice_random,True,4.3451822136630955,2.0,2.0,2004,0.06198310852050781,True,0.5,"['workclass', 'capital_gain']"
+adult,0,XGB,35,319,dice_random,True,8.268254003503056,2.0,2.0,2004,0.06278657913208008,True,0.0,"['workclass', 'capital_loss']"
+adult,0,XGB,36,1532,dice_random,True,3.394334058564475,2.0,2.0,2004,0.0630795955657959,True,1.0,"['capital_loss', 'capital_gain']"
+adult,0,XGB,37,3503,dice_random,True,10.919279099857352,1.0,1.0,2004,0.06197524070739746,True,0.5,['capital_gain']
+adult,0,XGB,38,3063,dice_random,True,10.921926826051607,2.0,2.0,2004,0.0640420913696289,True,0.5,"['workclass', 'capital_gain']"
+adult,0,XGB,39,3786,dice_random,True,13.636447816051605,2.0,2.0,2004,0.06217455863952637,True,0.5,"['workclass', 'capital_gain']"
+adult,0,XGB,40,96,dice_random,True,8.309427448707124,1.0,1.0,2004,0.062040090560913086,True,0.0,['capital_loss']
+adult,0,XGB,41,9336,dice_random,True,11.024534624901378,2.0,2.0,2004,0.06405186653137207,True,0.0,"['workclass', 'capital_loss']"
+adult,0,XGB,42,2601,dice_random,True,11.618833250222421,2.0,2.0,2004,0.06399893760681152,True,0.5,"['occupation', 'capital_gain']"
+adult,0,XGB,43,4742,dice_random,True,8.16490146491474,2.0,2.0,12004,11.123559713363647,True,0.0,"['occupation', 'capital_loss']"
+adult,0,XGB,44,6834,dice_random,True,12.674503916609515,2.0,2.0,12004,11.133835315704346,True,0.5,"['occupation', 'capital_gain']"
+adult,0,XGB,45,855,dice_random,True,20.488141788564477,2.0,2.0,2004,0.06180620193481445,True,0.5,"['capital_loss', 'capital_gain']"
+adult,0,XGB,46,693,dice_random,True,3.3211042343610044,2.0,2.0,2004,0.06272244453430176,False,0.5,"['workclass', 'occupation']"
+adult,0,XGB,47,242,dice_random,True,2.877526640508706,2.0,2.0,2004,0.061763763427734375,True,0.5,"['occupation', 'capital_gain']"
+adult,0,XGB,48,4117,dice_random,True,0.9087387481870682,1.0,1.0,2004,0.06230640411376953,False,1.0,['occupation']
+adult,0,XGB,49,2181,dice_random,True,9.01416309985735,1.0,1.0,2004,0.06320428848266602,True,0.5,['capital_gain']
+adult,0,XGB,50,1575,dice_random,True,11.673126502182594,2.0,2.0,2004,0.06371903419494629,True,0.5,"['hours_per_week', 'capital_gain']"
+adult,0,XGB,51,4306,dice_random,True,7.14420670526487,2.0,2.0,12004,11.153349161148071,True,0.5,"['hours_per_week', 'capital_gain']"
+adult,0,XGB,52,3896,dice_random,True,6.123945598707125,1.0,1.0,2004,0.06367182731628418,True,1.0,['capital_loss']
+adult,0,XGB,53,5817,dice_random,True,4.34024089977451,2.0,2.0,2004,0.06163311004638672,False,0.0,"['workclass', 'occupation']"
+adult,0,XGB,54,5162,dice_random,True,4.979766488300806,1.0,1.0,2004,0.06237483024597168,True,0.5,['capital_gain']
+adult,0,XGB,55,9151,dice_random,True,12.369932699857351,1.0,1.0,2004,0.0610957145690918,True,0.5,['capital_gain']
+adult,0,XGB,56,7646,dice_random,True,9.993642499857351,1.0,1.0,2004,0.0622406005859375,True,0.5,['capital_gain']
+adult,0,XGB,57,1835,dice_random,True,22.582850408564475,2.0,2.0,2004,0.06339478492736816,True,0.5,"['capital_loss', 'capital_gain']"
+adult,0,XGB,58,1017,dice_random,True,11.861116600612405,2.0,2.0,2004,0.06148028373718262,True,0.5,"['occupation', 'capital_gain']"
+adult,0,XGB,59,4350,dice_random,True,6.112205778707125,1.0,1.0,2004,0.06250643730163574,True,1.0,['capital_loss']
+adult,0,XGB,60,5171,dice_random,True,1.5793430998573508,1.0,1.0,2004,0.062430381774902344,True,1.0,['capital_gain']
+adult,0,XGB,61,4275,dice_random,True,14.463702061736473,2.0,2.0,2004,0.061637163162231445,True,0.5,"['hours_per_week', 'capital_gain']"
+adult,0,XGB,62,3981,dice_random,True,10.302033062811704,2.0,2.0,2004,0.06234574317932129,True,0.0,"['occupation', 'capital_loss']"
+adult,0,XGB,63,9072,dice_random,True,10.124499888564474,2.0,2.0,2004,0.061603546142578125,True,0.5,"['capital_loss', 'capital_gain']"
+adult,0,XGB,64,4570,dice_random,True,11.250054699857351,1.0,1.0,2004,0.061864376068115234,True,0.5,['capital_gain']
+adult,0,XGB,65,8164,dice_random,True,10.180582155875108,2.0,2.0,12004,11.132884979248047,True,0.5,"['workclass', 'hours_per_week']"
+adult,0,XGB,66,7812,dice_random,True,3.253999883663096,2.0,2.0,2004,0.06380295753479004,False,0.5,"['workclass', 'capital_gain']"
+adult,0,XGB,67,8322,dice_random,True,10.443341457643525,2.0,2.0,2004,0.06436705589294434,True,0.0,"['occupation', 'hours_per_week']"
+adult,0,XGB,68,3080,dice_random,True,14.824765755990395,2.0,2.0,2004,0.06369543075561523,True,0.5,"['capital_loss', 'capital_gain']"
+adult,0,XGB,69,4521,dice_random,True,3.9531703336630963,2.0,2.0,2004,0.06183743476867676,True,0.5,"['workclass', 'capital_gain']"
+adult,0,XGB,70,3775,dice_random,True,4.735928168564475,2.0,2.0,2004,0.06156325340270996,True,0.5,"['capital_loss', 'capital_gain']"
+adult,0,XGB,71,6851,dice_random,True,13.382777258564477,2.0,2.0,2004,0.06102585792541504,True,0.5,"['capital_loss', 'capital_gain']"
+adult,0,XGB,72,7406,dice_random,True,13.521313099857352,1.0,1.0,2004,0.062421321868896484,True,0.5,['capital_gain']
+adult,0,XGB,73,5407,dice_random,True,7.9598908122647725,2.0,2.0,2004,0.06267595291137695,True,0.5,"['workclass', 'capital_gain']"
+adult,0,XGB,74,1749,dice_random,True,7.820634404653282,2.0,2.0,2004,0.07754731178283691,True,0.5,"['workclass', 'capital_gain']"
+adult,0,XGB,75,7418,dice_random,True,2.5845893998573506,1.0,1.0,2004,0.06259965896606445,True,0.5,['capital_gain']
+adult,0,XGB,76,3177,dice_random,True,16.06355144647548,2.0,2.0,2004,0.06339144706726074,True,0.5,"['occupation', 'capital_gain']"
+adult,0,XGB,77,5314,dice_random,True,11.338632812291232,2.0,2.0,2004,0.062232017517089844,True,0.5,"['occupation', 'capital_loss']"
+adult,0,XGB,78,5911,dice_random,True,1.5310997998573508,1.0,1.0,2004,0.06226038932800293,True,0.5,['capital_gain']
+adult,0,XGB,79,9620,dice_random,True,15.91402187325496,2.0,2.0,2004,0.062467336654663086,True,0.5,"['workclass', 'capital_gain']"
+adult,0,XGB,80,1897,dice_random,True,6.380775233663096,2.0,2.0,12004,11.1602623462677,True,0.5,"['workclass', 'capital_gain']"
+adult,0,XGB,81,6061,dice_random,True,7.104174899857351,1.0,1.0,2004,0.06326127052307129,True,0.5,['capital_gain']
+adult,0,XGB,82,2991,dice_random,True,9.361075813526847,2.0,2.0,2004,0.06311345100402832,True,0.0,"['occupation', 'capital_loss']"
+adult,0,XGB,83,5762,dice_random,True,19.361079593060246,2.0,2.0,2004,0.06489205360412598,True,0.0,"['capital_loss', 'hours_per_week']"
+adult,0,XGB,84,845,dice_random,True,14.066354273706873,2.0,2.0,2004,0.06285762786865234,True,0.5,"['occupation', 'capital_gain']"
+adult,0,XGB,85,6191,dice_random,True,2.6879991732549593,2.0,2.0,2004,0.06269097328186035,True,0.5,"['workclass', 'capital_gain']"
+adult,0,XGB,86,2013,dice_random,True,9.738669199857352,1.0,1.0,2004,0.061652421951293945,True,0.5,['capital_gain']
+adult,0,XGB,87,729,dice_random,True,9.30088783490138,2.0,2.0,2004,0.06421780586242676,True,0.5,"['workclass', 'capital_loss']"
+adult,0,XGB,88,3038,dice_random,True,24.055880544264095,2.0,2.0,2004,0.06360888481140137,True,0.5,"['hours_per_week', 'capital_gain']"
+adult,0,XGB,89,6245,dice_random,True,7.53576749985735,1.0,1.0,2004,0.06216168403625488,True,0.5,['capital_gain']
+adult,0,XGB,90,7643,dice_random,True,10.089861649991233,2.0,2.0,2004,0.06318330764770508,True,0.0,"['occupation', 'capital_loss']"
+adult,0,XGB,91,3666,dice_random,True,14.106342699857352,1.0,1.0,2004,0.062157392501831055,True,0.5,['capital_gain']
+adult,0,XGB,92,4721,dice_random,True,7.443261804901379,2.0,2.0,2004,0.06157398223876953,True,0.0,"['workclass', 'capital_loss']"
+adult,0,XGB,93,2792,dice_random,True,8.292152499857352,1.0,1.0,2004,0.06177663803100586,True,0.5,['capital_gain']
+adult,0,XGB,94,1994,dice_random,True,13.328134054317527,2.0,2.0,2004,0.061853647232055664,True,0.5,"['capital_loss', 'capital_gain']"
+adult,0,XGB,95,6317,dice_random,True,13.749311483241165,2.0,2.0,2004,0.06276178359985352,True,0.0,"['occupation', 'hours_per_week']"
+adult,0,XGB,96,3629,dice_random,True,14.990300808564477,2.0,2.0,2004,0.06376171112060547,True,0.5,"['capital_loss', 'capital_gain']"
+adult,0,XGB,97,9651,dice_random,True,9.87304109490138,2.0,2.0,2004,0.0621488094329834,True,0.0,"['workclass', 'capital_loss']"
+adult,0,XGB,98,6229,dice_random,True,13.20642999985735,1.0,1.0,2004,0.06183338165283203,True,0.5,['capital_gain']
+adult,0,XGB,99,6538,dice_random,True,22.95037854893193,2.0,2.0,2004,0.0621035099029541,True,0.5,"['hours_per_week', 'capital_gain']"

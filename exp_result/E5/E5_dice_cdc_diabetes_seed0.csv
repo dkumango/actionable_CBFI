@@ -1,0 +1,301 @@
+﻿dataset,seed,model,query,test_row,method,success,cost,L0,L_active,evals_total,time,tail,cross_valid,changed
+cdc_diabetes,0,RF,0,48855,dice_random,True,4.058102046857059,2.0,2.0,2004,0.1431128978729248,False,1.0,"['veggies', 'physactivity']"
+cdc_diabetes,0,RF,1,40752,dice_random,True,6.25984352987313,1.0,1.0,2004,0.13955330848693848,False,1.0,['bmi']
+cdc_diabetes,0,RF,2,43775,dice_random,True,4.121978564597443,2.0,2.0,2004,0.14903759956359863,False,1.0,"['physactivity', 'bmi']"
+cdc_diabetes,0,RF,3,7584,dice_random,True,1.5169898838240026,1.0,1.0,2004,0.14887714385986328,False,0.5,['fruits']
+cdc_diabetes,0,RF,4,40518,dice_random,True,5.977377258376914,1.0,1.0,2004,0.14097094535827637,False,1.0,['bmi']
+cdc_diabetes,0,RF,5,49724,dice_random,True,4.778285751629804,1.0,1.0,2004,0.14524126052856445,False,1.0,['bmi']
+cdc_diabetes,0,RF,6,41097,dice_random,True,3.9195331630124426,1.0,1.0,2004,0.15123319625854492,False,1.0,['bmi']
+cdc_diabetes,0,RF,7,1,dice_random,True,8.495538168708379,1.0,1.0,2004,0.14502167701721191,False,0.5,['bmi']
+cdc_diabetes,0,RF,8,11945,dice_random,True,2.0208857528333506,1.0,1.0,2004,0.15547394752502441,False,1.0,['bmi']
+cdc_diabetes,0,RF,9,13254,dice_random,True,0.5570650085613925,1.0,1.0,12004,58.291483640670776,False,1.0,['bmi']
+cdc_diabetes,0,RF,10,44398,dice_random,False,,,,2004,0.12140488624572754,,,
+cdc_diabetes,0,RF,11,18500,dice_random,True,2.4063339468197165,1.0,1.0,2004,0.12186527252197266,False,1.0,['bmi']
+cdc_diabetes,0,RF,12,12926,dice_random,True,10.66225189016701,1.0,1.0,2004,0.12330079078674316,False,1.0,['bmi']
+cdc_diabetes,0,RF,13,50447,dice_random,True,3.792434033823211,1.0,1.0,2004,0.12246561050415039,False,1.0,['bmi']
+cdc_diabetes,0,RF,14,41351,dice_random,True,5.41445521422509,2.0,2.0,12004,71.91911029815674,True,1.0,"['fruits', 'bmi']"
+cdc_diabetes,0,RF,15,33876,dice_random,True,2.196091877265451,1.0,1.0,2004,0.28665781021118164,False,1.0,['bmi']
+cdc_diabetes,0,RF,16,16385,dice_random,True,5.444814726118948,1.0,1.0,2004,0.19188785552978516,False,0.5,['bmi']
+cdc_diabetes,0,RF,17,20506,dice_random,True,3.907435604151672,2.0,2.0,2004,0.17495274543762207,False,1.0,"['physactivity', 'bmi']"
+cdc_diabetes,0,RF,18,26170,dice_random,True,7.822124297596154,1.0,1.0,2004,0.20836138725280762,True,1.0,['bmi']
+cdc_diabetes,0,RF,19,49950,dice_random,True,5.473329738429825,1.0,1.0,2004,0.2958409786224365,False,1.0,['bmi']
+cdc_diabetes,0,RF,20,12302,dice_random,True,2.8651621403974215,1.0,1.0,2004,0.2384629249572754,False,1.0,['bmi']
+cdc_diabetes,0,RF,21,10947,dice_random,True,6.124356955796425,1.0,1.0,2004,0.19936871528625488,False,1.0,['bmi']
+cdc_diabetes,0,RF,22,11537,dice_random,True,1.737461478155045,1.0,1.0,2004,0.17139077186584473,False,1.0,['bmi']
+cdc_diabetes,0,RF,23,42739,dice_random,True,2.0566734061551357,1.0,1.0,2004,0.24178743362426758,False,1.0,['bmi']
+cdc_diabetes,0,RF,24,19125,dice_random,True,2.0431221815580267,1.0,1.0,2004,0.24587011337280273,False,1.0,['bmi']
+cdc_diabetes,0,RF,25,36353,dice_random,True,4.683907939955338,2.0,2.0,2004,0.21892261505126953,False,1.0,"['physactivity', 'bmi']"
+cdc_diabetes,0,RF,26,48159,dice_random,True,2.895747119442159,1.0,1.0,2004,0.16895556449890137,False,1.0,['bmi']
+cdc_diabetes,0,RF,27,42098,dice_random,True,1.2644563206144905,1.0,1.0,2004,0.17543458938598633,False,1.0,['physactivity']
+cdc_diabetes,0,RF,28,2776,dice_random,True,2.2677347565003396,1.0,1.0,2004,0.24861645698547363,False,0.5,['bmi']
+cdc_diabetes,0,RF,29,4784,dice_random,True,1.7530079962425689,1.0,1.0,2004,0.27879929542541504,False,1.0,['veggies']
+cdc_diabetes,0,RF,30,16893,dice_random,True,3.4246082784721916,1.0,1.0,2004,0.17354607582092285,False,0.5,['bmi']
+cdc_diabetes,0,RF,31,7624,dice_random,True,5.757976951846894,2.0,2.0,12004,88.91699409484863,True,1.0,"['fruits', 'bmi']"
+cdc_diabetes,0,RF,32,42638,dice_random,True,4.523641815117699,2.0,2.0,12004,89.85135912895203,False,1.0,"['physactivity', 'bmi']"
+cdc_diabetes,0,RF,33,14807,dice_random,True,0.6839606687049444,1.0,1.0,12004,81.13506722450256,False,1.0,['bmi']
+cdc_diabetes,0,RF,34,35895,dice_random,True,1.9413454484259158,1.0,1.0,2004,0.1724376678466797,False,1.0,['bmi']
+cdc_diabetes,0,RF,35,4753,dice_random,True,2.6851090313703136,1.0,1.0,2004,0.16966748237609863,False,1.0,['bmi']
+cdc_diabetes,0,RF,36,22039,dice_random,True,3.3314025532633638,2.0,2.0,12004,57.59322118759155,False,1.0,"['physactivity', 'bmi']"
+cdc_diabetes,0,RF,37,9706,dice_random,True,1.314315983304294,1.0,1.0,2004,0.11173152923583984,False,1.0,['bmi']
+cdc_diabetes,0,RF,38,13253,dice_random,True,3.159828384405978,1.0,1.0,2004,0.11126017570495605,False,1.0,['bmi']
+cdc_diabetes,0,RF,39,30050,dice_random,True,1.9089339812422328,1.0,1.0,2004,0.11438369750976562,False,0.5,['fruits']
+cdc_diabetes,0,RF,40,44343,dice_random,True,2.156688071854177,1.0,1.0,2004,0.11170458793640137,False,1.0,['bmi']
+cdc_diabetes,0,RF,41,15734,dice_random,True,3.1216987086773185,2.0,2.0,2004,0.10860538482666016,False,1.0,"['veggies', 'bmi']"
+cdc_diabetes,0,RF,42,18720,dice_random,True,3.7604678787956485,1.0,1.0,2004,0.10997486114501953,False,1.0,['bmi']
+cdc_diabetes,0,RF,43,34357,dice_random,False,,,,2004,0.10723233222961426,,,
+cdc_diabetes,0,RF,44,8723,dice_random,True,0.8258288984378525,1.0,1.0,12004,45.547184228897095,False,1.0,['bmi']
+cdc_diabetes,0,RF,45,3116,dice_random,True,3.5277077008439948,2.0,2.0,2004,0.10833168029785156,False,1.0,"['fruits', 'physactivity']"
+cdc_diabetes,0,RF,46,29247,dice_random,True,3.5405158968120576,1.0,1.0,2004,0.10961318016052246,False,1.0,['bmi']
+cdc_diabetes,0,RF,47,16169,dice_random,True,5.195765093580969,1.0,1.0,2004,0.10938215255737305,False,1.0,['bmi']
+cdc_diabetes,0,RF,48,45772,dice_random,True,6.700394587579876,1.0,1.0,2004,0.10934305191040039,False,1.0,['bmi']
+cdc_diabetes,0,RF,49,19796,dice_random,True,0.8358461860441246,1.0,1.0,12004,47.8311562538147,False,1.0,['bmi']
+cdc_diabetes,0,RF,50,23343,dice_random,True,5.087594854905845,1.0,1.0,2004,0.12215662002563477,False,1.0,['bmi']
+cdc_diabetes,0,RF,51,4065,dice_random,True,4.229602469089778,1.0,1.0,2004,0.1345841884613037,False,1.0,['bmi']
+cdc_diabetes,0,RF,52,4566,dice_random,True,1.841457424208989,1.0,1.0,2004,0.11896038055419922,False,0.5,['physactivity']
+cdc_diabetes,0,RF,53,2981,dice_random,True,2.747581834550547,1.0,1.0,2004,0.11800193786621094,False,0.5,['bmi']
+cdc_diabetes,0,RF,54,47170,dice_random,True,2.1180465568776574,1.0,1.0,2004,0.11718988418579102,False,1.0,['bmi']
+cdc_diabetes,0,RF,55,13613,dice_random,False,,,,2004,0.12566614151000977,,,
+cdc_diabetes,0,RF,56,1136,dice_random,True,3.8342589185706584,1.0,1.0,2004,0.1392383575439453,False,1.0,['bmi']
+cdc_diabetes,0,RF,57,10338,dice_random,True,3.9748486315422666,1.0,1.0,2004,0.12202954292297363,False,1.0,['bmi']
+cdc_diabetes,0,RF,58,50201,dice_random,True,7.200292841043889,1.0,1.0,2004,0.12288832664489746,False,1.0,['bmi']
+cdc_diabetes,0,RF,59,41082,dice_random,True,2.285124136242569,1.0,1.0,2004,0.12638521194458008,False,1.0,['veggies']
+cdc_diabetes,0,RF,60,13785,dice_random,True,1.638041691709138,1.0,1.0,2004,0.12083745002746582,False,0.5,['bmi']
+cdc_diabetes,0,RF,61,50211,dice_random,True,5.423285091972729,1.0,1.0,2004,0.12333202362060547,False,0.5,['bmi']
+cdc_diabetes,0,RF,62,34125,dice_random,True,4.433001071615982,1.0,1.0,2004,0.12249755859375,False,0.5,['bmi']
+cdc_diabetes,0,RF,63,15242,dice_random,True,4.905667769683721,1.0,1.0,2004,0.1257784366607666,False,1.0,['bmi']
+cdc_diabetes,0,RF,64,38699,dice_random,True,1.8822256206144905,1.0,1.0,2004,0.14850091934204102,False,0.5,['physactivity']
+cdc_diabetes,0,RF,65,3674,dice_random,True,4.0480263599680395,1.0,1.0,2004,0.11521196365356445,False,0.5,['bmi']
+cdc_diabetes,0,RF,66,6469,dice_random,True,0.822106017836468,1.0,1.0,12004,42.80843472480774,False,1.0,['bmi']
+cdc_diabetes,0,RF,67,32626,dice_random,True,5.100866865242299,1.0,1.0,2004,0.10256266593933105,True,1.0,['bmi']
+cdc_diabetes,0,RF,68,7569,dice_random,True,4.036280760587655,1.0,1.0,2004,0.09868574142456055,False,0.5,['bmi']
+cdc_diabetes,0,RF,69,42102,dice_random,True,6.576550793628878,1.0,1.0,2004,0.09850597381591797,False,1.0,['bmi']
+cdc_diabetes,0,RF,70,23852,dice_random,True,1.3301204242089888,1.0,1.0,2004,0.10055661201477051,False,0.5,['physactivity']
+cdc_diabetes,0,RF,71,44328,dice_random,True,5.026354237050429,1.0,1.0,2004,0.1003413200378418,False,1.0,['bmi']
+cdc_diabetes,0,RF,72,31213,dice_random,True,2.902170990591548,1.0,1.0,2004,0.10042881965637207,False,1.0,['bmi']
+cdc_diabetes,0,RF,73,3781,dice_random,True,6.471149891861941,1.0,1.0,2004,0.1002962589263916,False,0.5,['bmi']
+cdc_diabetes,0,RF,74,13355,dice_random,True,2.33763489361985,1.0,1.0,2004,0.09981608390808105,False,1.0,['bmi']
+cdc_diabetes,0,RF,75,2475,dice_random,True,3.427115218702655,1.0,1.0,2004,0.10014033317565918,False,1.0,['bmi']
+cdc_diabetes,0,RF,76,26531,dice_random,True,1.1024548838240027,1.0,1.0,2004,0.09891772270202637,False,1.0,['fruits']
+cdc_diabetes,0,RF,77,23371,dice_random,True,4.3212571317067665,1.0,1.0,2004,0.10082578659057617,False,1.0,['bmi']
+cdc_diabetes,0,RF,78,44730,dice_random,True,3.4140057670254413,2.0,2.0,2004,0.0988306999206543,False,0.5,"['veggies', 'bmi']"
+cdc_diabetes,0,RF,79,40791,dice_random,True,4.597406298878451,1.0,1.0,2004,0.0989680290222168,False,1.0,['bmi']
+cdc_diabetes,0,RF,80,16057,dice_random,True,4.268828821575414,2.0,2.0,12004,39.952054500579834,False,1.0,"['fruits', 'bmi']"
+cdc_diabetes,0,RF,81,20455,dice_random,True,1.628701297464803,1.0,1.0,2004,0.1000971794128418,False,1.0,['bmi']
+cdc_diabetes,0,RF,82,8044,dice_random,True,4.99174054030025,1.0,1.0,2004,0.09910345077514648,False,0.5,['bmi']
+cdc_diabetes,0,RF,83,20867,dice_random,True,2.4474619197971563,2.0,2.0,12004,39.75784993171692,False,0.5,"['fruits', 'bmi']"
+cdc_diabetes,0,RF,84,14638,dice_random,False,,,,2004,0.0988461971282959,,,
+cdc_diabetes,0,RF,85,29863,dice_random,True,2.1958019266210442,1.0,1.0,2004,0.09683752059936523,False,0.5,['bmi']
+cdc_diabetes,0,RF,86,3457,dice_random,True,1.4256586838240026,1.0,1.0,2004,0.10064911842346191,False,0.5,['fruits']
+cdc_diabetes,0,RF,87,13345,dice_random,True,4.873569809878648,1.0,1.0,2004,0.10037899017333984,False,1.0,['bmi']
+cdc_diabetes,0,RF,88,26468,dice_random,True,7.0166400740029,2.0,2.0,12004,39.90946555137634,False,1.0,"['veggies', 'bmi']"
+cdc_diabetes,0,RF,89,40335,dice_random,True,4.879776830252299,1.0,1.0,2004,0.09849214553833008,False,0.5,['bmi']
+cdc_diabetes,0,RF,90,36779,dice_random,True,3.6165991093697296,1.0,1.0,2004,0.10281920433044434,False,1.0,['bmi']
+cdc_diabetes,0,RF,91,17227,dice_random,True,1.531042086725302,1.0,1.0,2004,0.09833168983459473,False,0.5,['bmi']
+cdc_diabetes,0,RF,92,9996,dice_random,True,8.270128635897223,1.0,1.0,2004,0.099090576171875,False,1.0,['bmi']
+cdc_diabetes,0,RF,93,15009,dice_random,True,2.598682108979871,1.0,1.0,2004,0.09986186027526855,False,1.0,['bmi']
+cdc_diabetes,0,RF,94,36195,dice_random,True,5.143877505701198,1.0,1.0,2004,0.09998154640197754,False,0.0,['bmi']
+cdc_diabetes,0,RF,95,24517,dice_random,True,5.176210553462074,1.0,1.0,2004,0.10031890869140625,False,1.0,['bmi']
+cdc_diabetes,0,RF,96,29347,dice_random,True,2.376268010338416,1.0,1.0,2004,0.09931206703186035,False,1.0,['bmi']
+cdc_diabetes,0,RF,97,36778,dice_random,True,1.3431201838240028,1.0,1.0,2004,0.10001683235168457,False,0.5,['fruits']
+cdc_diabetes,0,RF,98,12830,dice_random,True,9.687034192384857,2.0,2.0,12004,39.8664276599884,False,1.0,"['veggies', 'bmi']"
+cdc_diabetes,0,RF,99,28403,dice_random,True,0.7619061319688294,1.0,1.0,12004,39.76338291168213,False,1.0,['bmi']
+cdc_diabetes,0,SVM,0,41998,dice_random,True,2.4844077806919573,1.0,1.0,2004,0.49202704429626465,False,1.0,['veggies']
+cdc_diabetes,0,SVM,1,21708,dice_random,True,0.3886826133688401,1.0,1.0,12004,11.44987678527832,False,0.5,['bmi']
+cdc_diabetes,0,SVM,2,7501,dice_random,True,5.674559496473461,2.0,2.0,12004,12.303091526031494,False,1.0,"['physactivity', 'bmi']"
+cdc_diabetes,0,SVM,3,6285,dice_random,True,6.426806087791379,1.0,1.0,2004,0.5019817352294922,False,1.0,['bmi']
+cdc_diabetes,0,SVM,4,38453,dice_random,True,5.192091330424343,1.0,1.0,2004,0.5001926422119141,False,1.0,['bmi']
+cdc_diabetes,0,SVM,5,4431,dice_random,True,6.590688286691793,1.0,1.0,2004,0.49563026428222656,False,1.0,['bmi']
+cdc_diabetes,0,SVM,6,14146,dice_random,False,,,,12004,12.685044527053833,,,
+cdc_diabetes,0,SVM,7,39108,dice_random,True,1.6848922838240026,1.0,1.0,2004,0.5227243900299072,False,1.0,['fruits']
+cdc_diabetes,0,SVM,8,5279,dice_random,True,4.223752699402278,1.0,1.0,2004,0.5339674949645996,False,1.0,['bmi']
+cdc_diabetes,0,SVM,9,37200,dice_random,True,4.878045997930334,2.0,2.0,12004,11.886638641357422,False,1.0,"['veggies', 'bmi']"
+cdc_diabetes,0,SVM,10,21430,dice_random,True,5.690809571296282,1.0,1.0,2004,0.4901697635650635,True,1.0,['bmi']
+cdc_diabetes,0,SVM,11,1236,dice_random,False,,,,2004,0.48984813690185547,,,
+cdc_diabetes,0,SVM,12,27342,dice_random,True,2.773730849551664,1.0,1.0,2004,0.4937257766723633,False,1.0,['bmi']
+cdc_diabetes,0,SVM,13,1050,dice_random,True,6.062003633592812,2.0,2.0,12004,11.401767253875732,False,1.0,"['fruits', 'bmi']"
+cdc_diabetes,0,SVM,14,18273,dice_random,True,0.6614381720213317,1.0,1.0,12004,11.4223792552948,False,1.0,['bmi']
+cdc_diabetes,0,SVM,15,49492,dice_random,True,4.094185699074496,1.0,1.0,2004,0.491959810256958,False,1.0,['bmi']
+cdc_diabetes,0,SVM,16,47559,dice_random,True,1.9444032224917085,1.0,1.0,2004,0.4904162883758545,False,1.0,['bmi']
+cdc_diabetes,0,SVM,17,12721,dice_random,True,5.163814045769633,1.0,1.0,2004,0.49790024757385254,False,1.0,['bmi']
+cdc_diabetes,0,SVM,18,34488,dice_random,True,2.0729161468858224,1.0,1.0,2004,0.4882631301879883,False,1.0,['bmi']
+cdc_diabetes,0,SVM,19,47900,dice_random,True,5.292355599635194,1.0,1.0,2004,0.49143123626708984,False,1.0,['bmi']
+cdc_diabetes,0,SVM,20,29041,dice_random,True,2.601888154945783,1.0,1.0,2004,0.4917151927947998,False,1.0,['bmi']
+cdc_diabetes,0,SVM,21,30558,dice_random,True,6.128205473682782,1.0,1.0,2004,0.49304723739624023,True,1.0,['bmi']
+cdc_diabetes,0,SVM,22,4106,dice_random,True,4.623484172417933,2.0,2.0,2004,0.4906344413757324,False,1.0,"['physactivity', 'bmi']"
+cdc_diabetes,0,SVM,23,34026,dice_random,True,7.000616825124832,1.0,1.0,2004,0.49189138412475586,True,1.0,['bmi']
+cdc_diabetes,0,SVM,24,26273,dice_random,True,2.086282880229504,1.0,1.0,2004,0.49187278747558594,False,1.0,['fruits']
+cdc_diabetes,0,SVM,25,44085,dice_random,True,0.6964661802295042,1.0,1.0,12004,11.398886680603027,False,0.5,['fruits']
+cdc_diabetes,0,SVM,26,21194,dice_random,True,1.6002838896392158,1.0,1.0,2004,0.49101972579956055,False,0.5,['fruits']
+cdc_diabetes,0,SVM,27,36253,dice_random,True,4.940485924741872,2.0,2.0,12004,11.398547172546387,False,1.0,"['fruits', 'bmi']"
+cdc_diabetes,0,SVM,28,36149,dice_random,True,1.9288363531011756,1.0,1.0,2004,0.49368739128112793,False,1.0,['bmi']
+cdc_diabetes,0,SVM,29,17916,dice_random,True,3.4107963830747168,1.0,1.0,2004,0.49227261543273926,False,1.0,['bmi']
+cdc_diabetes,0,SVM,30,12503,dice_random,True,3.6451739577018416,1.0,1.0,2004,0.49210691452026367,False,1.0,['bmi']
+cdc_diabetes,0,SVM,31,24158,dice_random,True,5.972237387381127,1.0,1.0,2004,0.48979616165161133,False,1.0,['bmi']
+cdc_diabetes,0,SVM,32,20630,dice_random,True,6.530793713291957,2.0,2.0,12004,11.417946815490723,False,1.0,"['fruits', 'bmi']"
+cdc_diabetes,0,SVM,33,41781,dice_random,True,5.135500159303167,1.0,1.0,2004,0.4920344352722168,False,1.0,['bmi']
+cdc_diabetes,0,SVM,34,44346,dice_random,True,3.857825510675395,1.0,1.0,2004,0.49195098876953125,False,1.0,['bmi']
+cdc_diabetes,0,SVM,35,9885,dice_random,True,4.184815143860449,1.0,1.0,2004,0.4898042678833008,False,0.5,['bmi']
+cdc_diabetes,0,SVM,36,14350,dice_random,True,3.733640519392422,1.0,1.0,2004,0.4904289245605469,False,1.0,['bmi']
+cdc_diabetes,0,SVM,37,49603,dice_random,True,1.7514440985332085,1.0,1.0,2004,0.49236202239990234,False,1.0,['bmi']
+cdc_diabetes,0,SVM,38,27279,dice_random,True,2.440770116242569,1.0,1.0,2004,0.4922158718109131,False,1.0,['veggies']
+cdc_diabetes,0,SVM,39,3945,dice_random,True,8.059776972091276,2.0,2.0,12004,11.345733404159546,False,1.0,"['veggies', 'bmi']"
+cdc_diabetes,0,SVM,40,39542,dice_random,True,4.069417275911039,1.0,1.0,2004,0.49272990226745605,False,1.0,['bmi']
+cdc_diabetes,0,SVM,41,8150,dice_random,True,0.9206618521346703,1.0,1.0,12004,11.362581968307495,False,1.0,['bmi']
+cdc_diabetes,0,SVM,42,22688,dice_random,True,2.395972314697344,1.0,1.0,2004,0.49209117889404297,False,1.0,['bmi']
+cdc_diabetes,0,SVM,43,18458,dice_random,True,5.246610482370262,2.0,2.0,12004,11.191782236099243,False,1.0,"['fruits', 'bmi']"
+cdc_diabetes,0,SVM,44,19240,dice_random,True,4.796985927940705,2.0,2.0,12004,10.850311756134033,False,1.0,"['physactivity', 'bmi']"
+cdc_diabetes,0,SVM,45,9668,dice_random,True,2.77163307272787,1.0,1.0,2004,0.48587560653686523,True,1.0,['bmi']
+cdc_diabetes,0,SVM,46,45892,dice_random,True,4.671061402383611,1.0,1.0,2004,0.48670530319213867,False,1.0,['bmi']
+cdc_diabetes,0,SVM,47,8287,dice_random,True,1.536456691040874,1.0,1.0,2004,0.4874081611633301,False,1.0,['bmi']
+cdc_diabetes,0,SVM,48,28344,dice_random,False,,,,2004,0.4824206829071045,,,
+cdc_diabetes,0,SVM,49,39110,dice_random,True,1.062809636242569,1.0,1.0,2004,0.4885234832763672,False,0.5,['veggies']
+cdc_diabetes,0,SVM,50,33060,dice_random,True,1.9252944802295042,1.0,1.0,2004,0.4853806495666504,False,0.5,['fruits']
+cdc_diabetes,0,SVM,51,3521,dice_random,True,4.4882777244959815,1.0,1.0,2004,0.4848752021789551,False,1.0,['bmi']
+cdc_diabetes,0,SVM,52,43186,dice_random,True,1.5745224838240026,1.0,1.0,2004,0.48616456985473633,False,0.0,['fruits']
+cdc_diabetes,0,SVM,53,3363,dice_random,True,1.3750227802295043,1.0,1.0,2004,0.48652148246765137,False,1.0,['fruits']
+cdc_diabetes,0,SVM,54,30162,dice_random,True,4.127704935157118,1.0,1.0,2004,0.4860408306121826,False,1.0,['bmi']
+cdc_diabetes,0,SVM,55,21678,dice_random,False,,,,2004,0.4826045036315918,,,
+cdc_diabetes,0,SVM,56,49849,dice_random,True,5.412432139219404,1.0,1.0,2004,0.4869208335876465,False,1.0,['bmi']
+cdc_diabetes,0,SVM,57,24545,dice_random,True,3.1258066226965617,1.0,1.0,2004,0.4886903762817383,False,1.0,['bmi']
+cdc_diabetes,0,SVM,58,43135,dice_random,True,4.150733491351987,1.0,1.0,2004,0.48441600799560547,False,1.0,['bmi']
+cdc_diabetes,0,SVM,59,26792,dice_random,True,3.91792045564098,1.0,1.0,2004,0.4847748279571533,False,1.0,['bmi']
+cdc_diabetes,0,SVM,60,24491,dice_random,True,1.4192619950327798,1.0,1.0,2004,0.4867377281188965,False,1.0,['bmi']
+cdc_diabetes,0,SVM,61,39380,dice_random,True,0.7839346473194174,1.0,1.0,12004,10.83310604095459,False,1.0,['bmi']
+cdc_diabetes,0,SVM,62,21783,dice_random,True,4.684962645144957,1.0,1.0,2004,0.4905087947845459,False,1.0,['bmi']
+cdc_diabetes,0,SVM,63,21499,dice_random,True,1.8373030598370674,1.0,1.0,2004,0.4879305362701416,False,1.0,['veggies']
+cdc_diabetes,0,SVM,64,10068,dice_random,True,4.338546314041319,2.0,2.0,12004,10.867127180099487,False,0.5,"['fruits', 'bmi']"
+cdc_diabetes,0,SVM,65,49710,dice_random,True,3.4667411561160977,1.0,1.0,2004,0.4837372303009033,False,1.0,['bmi']
+cdc_diabetes,0,SVM,66,26662,dice_random,True,2.9207756049588243,1.0,1.0,2004,0.487123966217041,False,1.0,['bmi']
+cdc_diabetes,0,SVM,67,50726,dice_random,True,3.9414560723249092,1.0,1.0,2004,0.48540806770324707,False,0.5,['bmi']
+cdc_diabetes,0,SVM,68,21605,dice_random,True,4.186616139327871,1.0,1.0,2004,0.4854562282562256,False,1.0,['bmi']
+cdc_diabetes,0,SVM,69,22590,dice_random,False,,,,2004,0.47917747497558594,,,
+cdc_diabetes,0,SVM,70,2012,dice_random,True,1.1986410286560443,1.0,1.0,2004,0.4865396022796631,False,1.0,['bmi']
+cdc_diabetes,0,SVM,71,35315,dice_random,True,2.5419748702896268,1.0,1.0,2004,0.48517322540283203,False,1.0,['bmi']
+cdc_diabetes,0,SVM,72,9202,dice_random,True,3.8194444929533864,1.0,1.0,2004,0.48604273796081543,False,1.0,['bmi']
+cdc_diabetes,0,SVM,73,30582,dice_random,True,2.244690999640035,1.0,1.0,2004,0.48761987686157227,False,1.0,['bmi']
+cdc_diabetes,0,SVM,74,19780,dice_random,False,,,,2004,0.48174595832824707,,,
+cdc_diabetes,0,SVM,75,1641,dice_random,True,1.727065281024586,1.0,1.0,2004,0.4846794605255127,False,0.0,['bmi']
+cdc_diabetes,0,SVM,76,5068,dice_random,True,2.216027290257358,1.0,1.0,2004,0.48627400398254395,False,0.5,['bmi']
+cdc_diabetes,0,SVM,77,38677,dice_random,True,4.533541326056912,1.0,1.0,2004,0.48612093925476074,False,1.0,['bmi']
+cdc_diabetes,0,SVM,78,273,dice_random,True,2.2006186665839094,1.0,1.0,2004,0.4858229160308838,False,1.0,['bmi']
+cdc_diabetes,0,SVM,79,38498,dice_random,True,2.828194580508567,1.0,1.0,2004,0.48542356491088867,False,1.0,['bmi']
+cdc_diabetes,0,SVM,80,30365,dice_random,True,5.104705416302962,1.0,1.0,2004,0.4902222156524658,False,1.0,['bmi']
+cdc_diabetes,0,SVM,81,14471,dice_random,True,4.334837907587341,1.0,1.0,2004,0.48630475997924805,False,1.0,['bmi']
+cdc_diabetes,0,SVM,82,4781,dice_random,True,0.603676776242569,1.0,1.0,12004,10.866321086883545,False,0.5,['veggies']
+cdc_diabetes,0,SVM,83,24569,dice_random,True,3.7544617884470384,1.0,1.0,2004,0.4854545593261719,False,1.0,['bmi']
+cdc_diabetes,0,SVM,84,8775,dice_random,True,3.8094829166775788,1.0,1.0,2004,0.516453742980957,False,1.0,['bmi']
+cdc_diabetes,0,SVM,85,7879,dice_random,True,3.372015503477828,1.0,1.0,2004,0.48583316802978516,False,1.0,['bmi']
+cdc_diabetes,0,SVM,86,22955,dice_random,True,5.158808029730343,1.0,1.0,2004,0.48839616775512695,True,1.0,['bmi']
+cdc_diabetes,0,SVM,87,10478,dice_random,True,1.2674680838240027,1.0,1.0,2004,0.4866659641265869,False,1.0,['fruits']
+cdc_diabetes,0,SVM,88,41215,dice_random,False,,,,2004,0.48448657989501953,,,
+cdc_diabetes,0,SVM,89,30649,dice_random,True,1.1581294802295041,1.0,1.0,2004,0.4860050678253174,False,0.5,['fruits']
+cdc_diabetes,0,SVM,90,38792,dice_random,True,1.6679520838240027,1.0,1.0,2004,0.4833352565765381,False,0.5,['fruits']
+cdc_diabetes,0,SVM,91,22258,dice_random,True,4.162076965043085,2.0,2.0,2004,0.4870109558105469,False,0.0,"['veggies', 'bmi']"
+cdc_diabetes,0,SVM,92,43919,dice_random,True,1.1466612260929907,1.0,1.0,2004,0.48682546615600586,False,1.0,['bmi']
+cdc_diabetes,0,SVM,93,31753,dice_random,True,1.4510212937071865,1.0,1.0,2004,0.4877920150756836,False,1.0,['bmi']
+cdc_diabetes,0,SVM,94,5746,dice_random,True,2.6742155215712464,1.0,1.0,2004,0.4829864501953125,False,1.0,['bmi']
+cdc_diabetes,0,SVM,95,44244,dice_random,True,2.1833908342089887,1.0,1.0,2004,0.4904656410217285,False,1.0,['physactivity']
+cdc_diabetes,0,SVM,96,40063,dice_random,True,4.140424258637509,1.0,1.0,2004,0.4851210117340088,False,1.0,['bmi']
+cdc_diabetes,0,SVM,97,30302,dice_random,True,1.6401460413070788,1.0,1.0,2004,0.4840703010559082,False,1.0,['bmi']
+cdc_diabetes,0,SVM,98,17220,dice_random,True,3.865664804008069,1.0,1.0,2004,0.48421454429626465,False,1.0,['bmi']
+cdc_diabetes,0,SVM,99,5469,dice_random,True,1.732411273299682,1.0,1.0,2004,0.4841804504394531,False,1.0,['bmi']
+cdc_diabetes,0,XGB,0,18632,dice_random,True,5.238188866244439,1.0,1.0,2004,0.07830119132995605,False,1.0,['bmi']
+cdc_diabetes,0,XGB,1,4548,dice_random,True,1.1089890600003978,1.0,1.0,2004,0.07760214805603027,False,1.0,['bmi']
+cdc_diabetes,0,XGB,2,50653,dice_random,True,6.69347697046825,1.0,1.0,2004,0.07707667350769043,False,1.0,['bmi']
+cdc_diabetes,0,XGB,3,42281,dice_random,True,3.7125120072395967,2.0,2.0,12004,11.451617956161499,False,1.0,"['fruits', 'bmi']"
+cdc_diabetes,0,XGB,4,37687,dice_random,True,1.1524472946671798,1.0,1.0,2004,0.07709741592407227,False,1.0,['bmi']
+cdc_diabetes,0,XGB,5,48042,dice_random,True,1.255579944599944,1.0,1.0,2004,0.07698225975036621,False,1.0,['bmi']
+cdc_diabetes,0,XGB,6,3547,dice_random,True,10.593232712557747,1.0,1.0,2004,0.07686519622802734,False,1.0,['bmi']
+cdc_diabetes,0,XGB,7,43901,dice_random,True,6.328957956071458,1.0,1.0,2004,0.07741332054138184,False,1.0,['bmi']
+cdc_diabetes,0,XGB,8,8180,dice_random,True,3.3562229879048044,1.0,1.0,2004,0.07743477821350098,False,1.0,['bmi']
+cdc_diabetes,0,XGB,9,28664,dice_random,True,2.814815349034202,1.0,1.0,2004,0.07726812362670898,False,1.0,['bmi']
+cdc_diabetes,0,XGB,10,49812,dice_random,True,0.6817188890945213,1.0,1.0,12004,11.370802640914917,False,1.0,['bmi']
+cdc_diabetes,0,XGB,11,22909,dice_random,True,1.34193659965466,1.0,1.0,2004,0.07744741439819336,False,1.0,['bmi']
+cdc_diabetes,0,XGB,12,38310,dice_random,True,2.9042326349095755,2.0,2.0,2004,0.07683610916137695,False,0.5,"['physactivity', 'bmi']"
+cdc_diabetes,0,XGB,13,295,dice_random,True,3.6433810851308603,1.0,1.0,2004,0.07700800895690918,False,1.0,['bmi']
+cdc_diabetes,0,XGB,14,45156,dice_random,True,3.296809134274684,1.0,1.0,2004,0.07696890830993652,False,1.0,['bmi']
+cdc_diabetes,0,XGB,15,577,dice_random,True,3.2471100451191406,1.0,1.0,2004,0.07612895965576172,False,1.0,['bmi']
+cdc_diabetes,0,XGB,16,6142,dice_random,True,3.340070335530413,1.0,1.0,2004,0.07707476615905762,False,1.0,['bmi']
+cdc_diabetes,0,XGB,17,41394,dice_random,True,1.2981272838406803,1.0,1.0,2004,0.07721447944641113,False,0.5,['bmi']
+cdc_diabetes,0,XGB,18,47320,dice_random,True,1.451318236105546,1.0,1.0,2004,0.07732486724853516,False,1.0,['bmi']
+cdc_diabetes,0,XGB,19,34968,dice_random,True,2.2954190240173302,1.0,1.0,2004,0.07723140716552734,False,1.0,['bmi']
+cdc_diabetes,0,XGB,20,7501,dice_random,True,5.814235382459456,1.0,1.0,2004,0.07769775390625,False,1.0,['bmi']
+cdc_diabetes,0,XGB,21,42430,dice_random,True,3.0279655094296567,1.0,1.0,2004,0.07858848571777344,False,1.0,['bmi']
+cdc_diabetes,0,XGB,22,30155,dice_random,True,4.345731770427039,1.0,1.0,2004,0.0780794620513916,False,1.0,['bmi']
+cdc_diabetes,0,XGB,23,25398,dice_random,True,7.326233428968656,2.0,2.0,12004,11.429236888885498,False,1.0,"['fruits', 'bmi']"
+cdc_diabetes,0,XGB,24,25375,dice_random,True,5.245361029615964,1.0,1.0,2004,0.07794070243835449,False,1.0,['bmi']
+cdc_diabetes,0,XGB,25,3531,dice_random,True,4.548900912049604,1.0,1.0,2004,0.07926344871520996,False,1.0,['bmi']
+cdc_diabetes,0,XGB,26,10668,dice_random,True,3.484537269497779,2.0,2.0,2004,0.07776570320129395,False,1.0,"['veggies', 'bmi']"
+cdc_diabetes,0,XGB,27,21409,dice_random,True,1.6634140681848808,1.0,1.0,2004,0.07676434516906738,False,1.0,['bmi']
+cdc_diabetes,0,XGB,28,21114,dice_random,True,6.299157123257276,2.0,2.0,12004,11.437910079956055,False,1.0,"['fruits', 'bmi']"
+cdc_diabetes,0,XGB,29,4836,dice_random,False,,,,5001,0.09309601783752441,,,error: UserConfigValidationException
+cdc_diabetes,0,XGB,30,21711,dice_random,False,,,,5001,0.09302568435668945,,,error: UserConfigValidationException
+cdc_diabetes,0,XGB,31,3899,dice_random,True,3.5699831053615454,1.0,1.0,2004,0.07671856880187988,False,1.0,['bmi']
+cdc_diabetes,0,XGB,32,35499,dice_random,True,1.646556687714018,1.0,1.0,2004,0.07655596733093262,False,1.0,['bmi']
+cdc_diabetes,0,XGB,33,33044,dice_random,True,6.059539177247462,1.0,1.0,2004,0.07781410217285156,True,1.0,['bmi']
+cdc_diabetes,0,XGB,34,27166,dice_random,True,4.156960629405539,1.0,1.0,2004,0.07917666435241699,False,1.0,['bmi']
+cdc_diabetes,0,XGB,35,1733,dice_random,True,2.224354348675612,1.0,1.0,2004,0.07726478576660156,False,1.0,['bmi']
+cdc_diabetes,0,XGB,36,7960,dice_random,True,1.318567319934413,1.0,1.0,2004,0.07861137390136719,False,1.0,['bmi']
+cdc_diabetes,0,XGB,37,18360,dice_random,True,1.6002254251129906,1.0,1.0,2004,0.07633852958679199,False,1.0,['bmi']
+cdc_diabetes,0,XGB,38,16049,dice_random,True,1.839933740068541,2.0,2.0,12004,11.583946704864502,False,1.0,"['fruits', 'bmi']"
+cdc_diabetes,0,XGB,39,19439,dice_random,True,6.827822894854731,1.0,1.0,2004,0.07919669151306152,False,1.0,['bmi']
+cdc_diabetes,0,XGB,40,425,dice_random,True,3.0393059694744946,1.0,1.0,2004,0.16573882102966309,False,1.0,['bmi']
+cdc_diabetes,0,XGB,41,47956,dice_random,True,2.8355288368077485,2.0,2.0,12004,11.651266813278198,False,1.0,"['fruits', 'bmi']"
+cdc_diabetes,0,XGB,42,13810,dice_random,True,3.1110793889963575,1.0,1.0,2004,0.07726240158081055,False,0.5,['bmi']
+cdc_diabetes,0,XGB,43,24476,dice_random,True,4.687964051523727,1.0,1.0,2004,0.07669305801391602,True,1.0,['bmi']
+cdc_diabetes,0,XGB,44,35152,dice_random,True,0.9426780645583954,1.0,1.0,12004,11.773594617843628,False,1.0,['bmi']
+cdc_diabetes,0,XGB,45,4438,dice_random,True,4.36486026069816,2.0,2.0,12004,11.84998345375061,False,1.0,"['physactivity', 'bmi']"
+cdc_diabetes,0,XGB,46,3780,dice_random,True,1.9896006606034553,1.0,1.0,2004,0.07471513748168945,False,1.0,['bmi']
+cdc_diabetes,0,XGB,47,1236,dice_random,True,4.005195513628248,1.0,1.0,2004,0.0773777961730957,True,1.0,['bmi']
+cdc_diabetes,0,XGB,48,21559,dice_random,True,2.719436241201252,1.0,1.0,2004,0.07668185234069824,False,1.0,['bmi']
+cdc_diabetes,0,XGB,49,11649,dice_random,True,3.984619954768348,1.0,1.0,2004,0.07723474502563477,False,1.0,['bmi']
+cdc_diabetes,0,XGB,50,8245,dice_random,True,1.0033471672148278,1.0,1.0,2004,0.07725691795349121,False,1.0,['bmi']
+cdc_diabetes,0,XGB,51,22497,dice_random,True,4.68472055393102,2.0,2.0,12004,11.66791558265686,False,1.0,"['physactivity', 'bmi']"
+cdc_diabetes,0,XGB,52,19997,dice_random,True,6.6645338410414245,2.0,2.0,12004,11.353018522262573,False,1.0,"['fruits', 'bmi']"
+cdc_diabetes,0,XGB,53,29815,dice_random,True,1.2326701222377074,1.0,1.0,2004,0.07717251777648926,False,1.0,['bmi']
+cdc_diabetes,0,XGB,54,26599,dice_random,False,,,,5001,0.0917520523071289,,,error: UserConfigValidationException
+cdc_diabetes,0,XGB,55,47718,dice_random,True,2.037028274340809,1.0,1.0,2004,0.0771028995513916,False,1.0,['hvyalcoholconsump']
+cdc_diabetes,0,XGB,56,39236,dice_random,True,1.5107641800373708,1.0,1.0,2004,0.07743358612060547,False,1.0,['bmi']
+cdc_diabetes,0,XGB,57,9672,dice_random,True,4.033842170792767,2.0,2.0,12004,11.289250373840332,False,1.0,"['fruits', 'bmi']"
+cdc_diabetes,0,XGB,58,5279,dice_random,True,2.732572679921808,1.0,1.0,2004,0.07661056518554688,False,1.0,['bmi']
+cdc_diabetes,0,XGB,59,22512,dice_random,True,1.0474139153040776,1.0,1.0,2004,0.07695889472961426,False,1.0,['bmi']
+cdc_diabetes,0,XGB,60,26301,dice_random,True,1.8566244606183848,1.0,1.0,2004,0.07641410827636719,False,1.0,['bmi']
+cdc_diabetes,0,XGB,61,22066,dice_random,True,3.120272725589107,2.0,2.0,12004,11.333800315856934,False,1.0,"['veggies', 'bmi']"
+cdc_diabetes,0,XGB,62,20850,dice_random,True,1.937217136589677,1.0,1.0,2004,0.08559775352478027,False,1.0,['bmi']
+cdc_diabetes,0,XGB,63,46860,dice_random,True,2.8637288044812754,2.0,2.0,2004,0.07895398139953613,False,1.0,"['veggies', 'bmi']"
+cdc_diabetes,0,XGB,64,23862,dice_random,True,5.252023170551589,2.0,2.0,12004,11.388774633407593,False,1.0,"['veggies', 'bmi']"
+cdc_diabetes,0,XGB,65,41757,dice_random,True,1.666834386359521,1.0,1.0,2004,0.07721853256225586,False,1.0,['bmi']
+cdc_diabetes,0,XGB,66,39472,dice_random,True,2.938791232368782,1.0,1.0,2004,0.07639074325561523,False,1.0,['bmi']
+cdc_diabetes,0,XGB,67,42621,dice_random,True,0.09665835398853474,1.0,1.0,12004,11.330838203430176,False,1.0,['bmi']
+cdc_diabetes,0,XGB,68,16263,dice_random,True,0.5140358960780339,1.0,1.0,12004,11.315787315368652,False,1.0,['bmi']
+cdc_diabetes,0,XGB,69,23371,dice_random,True,5.3137030065009085,1.0,1.0,2004,0.07578778266906738,False,1.0,['bmi']
+cdc_diabetes,0,XGB,70,19491,dice_random,True,5.183594729973031,2.0,2.0,12004,11.441338062286377,False,1.0,"['physactivity', 'bmi']"
+cdc_diabetes,0,XGB,71,35154,dice_random,True,2.5592582711800174,2.0,2.0,12004,11.243905544281006,False,0.5,"['veggies', 'bmi']"
+cdc_diabetes,0,XGB,72,38046,dice_random,True,4.847044560310502,1.0,1.0,2004,0.07623147964477539,False,1.0,['bmi']
+cdc_diabetes,0,XGB,73,27651,dice_random,True,1.6710171938938128,1.0,1.0,2004,0.07688403129577637,False,1.0,['bmi']
+cdc_diabetes,0,XGB,74,9116,dice_random,True,8.189767393194707,1.0,1.0,2004,0.07486176490783691,False,1.0,['bmi']
+cdc_diabetes,0,XGB,75,38258,dice_random,True,0.3812525135500607,1.0,1.0,12004,11.291489839553833,False,0.5,['bmi']
+cdc_diabetes,0,XGB,76,16679,dice_random,True,4.516735838908464,1.0,1.0,2004,0.0778050422668457,False,1.0,['bmi']
+cdc_diabetes,0,XGB,77,27063,dice_random,True,1.2392705504047503,1.0,1.0,2004,0.07579874992370605,False,1.0,['bmi']
+cdc_diabetes,0,XGB,78,30381,dice_random,True,2.4796663582643754,2.0,2.0,12004,11.239114761352539,True,1.0,"['fruits', 'bmi']"
+cdc_diabetes,0,XGB,79,49566,dice_random,True,9.103780911413168,1.0,1.0,2004,0.07656264305114746,True,1.0,['bmi']
+cdc_diabetes,0,XGB,80,9972,dice_random,True,1.309184393775489,1.0,1.0,2004,0.07516026496887207,False,1.0,['bmi']
+cdc_diabetes,0,XGB,81,31277,dice_random,True,2.2073645618034536,2.0,2.0,12004,11.267650842666626,False,1.0,"['fruits', 'bmi']"
+cdc_diabetes,0,XGB,82,15902,dice_random,False,,,,5001,0.0976109504699707,,,error: UserConfigValidationException
+cdc_diabetes,0,XGB,83,29910,dice_random,True,2.501971516467765,1.0,1.0,2004,0.07816743850708008,False,1.0,['bmi']
+cdc_diabetes,0,XGB,84,4409,dice_random,True,1.7251354689001261,2.0,2.0,12004,11.279036045074463,False,1.0,"['physactivity', 'bmi']"
+cdc_diabetes,0,XGB,85,32234,dice_random,True,5.760601851831789,2.0,2.0,12004,11.211606740951538,False,1.0,"['fruits', 'bmi']"
+cdc_diabetes,0,XGB,86,50495,dice_random,True,3.23885152954273,1.0,1.0,2004,0.0773320198059082,False,1.0,['bmi']
+cdc_diabetes,0,XGB,87,3962,dice_random,True,7.068012544125612,1.0,1.0,2004,0.07552957534790039,False,1.0,['bmi']
+cdc_diabetes,0,XGB,88,15951,dice_random,True,5.704706805934011,1.0,1.0,2004,0.07503652572631836,False,1.0,['bmi']
+cdc_diabetes,0,XGB,89,32158,dice_random,True,4.193045098919073,1.0,1.0,2004,0.07466292381286621,False,1.0,['bmi']
+cdc_diabetes,0,XGB,90,38999,dice_random,True,2.5594151663495763,1.0,1.0,2004,0.0780036449432373,False,1.0,['bmi']
+cdc_diabetes,0,XGB,91,18995,dice_random,True,1.8325066591290138,1.0,1.0,2004,0.07689356803894043,False,1.0,['bmi']
+cdc_diabetes,0,XGB,92,24305,dice_random,True,3.7241822394799358,1.0,1.0,2004,0.07513689994812012,False,1.0,['bmi']
+cdc_diabetes,0,XGB,93,14797,dice_random,True,3.007975443217367,1.0,1.0,2004,0.07614398002624512,True,1.0,['bmi']
+cdc_diabetes,0,XGB,94,10593,dice_random,True,5.794457138111656,2.0,2.0,12004,11.297240734100342,False,1.0,"['veggies', 'bmi']"
+cdc_diabetes,0,XGB,95,32436,dice_random,True,5.051120505248489,2.0,2.0,12004,11.282585144042969,False,1.0,"['fruits', 'bmi']"
+cdc_diabetes,0,XGB,96,18824,dice_random,True,7.067218129885804,1.0,1.0,2004,0.07627558708190918,False,1.0,['bmi']
+cdc_diabetes,0,XGB,97,49990,dice_random,True,2.1252777919603503,1.0,1.0,2004,0.0767521858215332,False,1.0,['bmi']
+cdc_diabetes,0,XGB,98,31835,dice_random,True,4.373759845438832,1.0,1.0,2004,0.07553482055664062,True,1.0,['bmi']
+cdc_diabetes,0,XGB,99,33740,dice_random,True,2.9932400414174514,1.0,1.0,2004,0.07767963409423828,False,1.0,['bmi']

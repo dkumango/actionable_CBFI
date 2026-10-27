@@ -1,0 +1,301 @@
+﻿dataset,seed,model,query,test_row,method,success,cost,L0,L_active,evals_total,time,tail,cross_valid,changed
+heloc,1,RF,0,1439,dice_random,False,,,,7001,0.16400384902954102,,,error: UserConfigValidationException
+heloc,1,RF,1,1727,dice_random,False,,,,2004,0.10338115692138672,,,
+heloc,1,RF,2,1973,dice_random,False,,,,7001,0.15599417686462402,,,error: UserConfigValidationException
+heloc,1,RF,3,995,dice_random,False,,,,7001,0.15588068962097168,,,error: UserConfigValidationException
+heloc,1,RF,4,576,dice_random,False,,,,2004,0.10193705558776855,,,
+heloc,1,RF,5,747,dice_random,True,17.336103399420157,5.0,5.0,25004,75.71785473823547,True,0.0,"['numtradesopeninlast12m', 'netfractionrevolvingburden', 'netfractioninstallburden', 'numrevolvingtradeswbalance', 'numbank2natltradeswhighutilization']"
+heloc,1,RF,6,446,dice_random,False,,,,7001,0.1568315029144287,,,error: UserConfigValidationException
+heloc,1,RF,7,14,dice_random,False,,,,14004,37.86999869346619,,,
+heloc,1,RF,8,638,dice_random,True,2.5288926858739895,2.0,2.0,2004,0.10767912864685059,False,1.0,"['numtradesopeninlast12m', 'numinstalltradeswbalance']"
+heloc,1,RF,9,1533,dice_random,False,,,,7001,0.15542221069335938,,,error: UserConfigValidationException
+heloc,1,RF,10,1084,dice_random,False,,,,7001,0.1577301025390625,,,error: UserConfigValidationException
+heloc,1,RF,11,1796,dice_random,False,,,,7001,0.15464186668395996,,,error: UserConfigValidationException
+heloc,1,RF,12,234,dice_random,False,,,,14004,37.88167190551758,,,
+heloc,1,RF,13,351,dice_random,True,0.8049658492301255,1.0,1.0,2004,0.10620522499084473,False,0.5,['netfractionrevolvingburden']
+heloc,1,RF,14,273,dice_random,False,,,,7001,0.1609814167022705,,,error: UserConfigValidationException
+heloc,1,RF,15,772,dice_random,False,,,,12004,37.80161786079407,,,
+heloc,1,RF,16,1216,dice_random,False,,,,7001,0.1548445224761963,,,error: UserConfigValidationException
+heloc,1,RF,17,1336,dice_random,True,5.445584778222477,2.0,2.0,12004,37.72229218482971,False,1.0,"['numinstalltradeswbalance', 'numbank2natltradeswhighutilization']"
+heloc,1,RF,18,620,dice_random,False,,,,7001,0.15950846672058105,,,error: UserConfigValidationException
+heloc,1,RF,19,316,dice_random,False,,,,2004,0.10309028625488281,,,
+heloc,1,RF,20,697,dice_random,False,,,,12004,37.903788566589355,,,
+heloc,1,RF,21,541,dice_random,True,1.6711463809281657,2.0,2.0,22004,76.39123821258545,False,0.0,"['numtradesopeninlast12m', 'numbank2natltradeswhighutilization']"
+heloc,1,RF,22,298,dice_random,True,5.494610908295677,2.0,2.0,2004,0.10918021202087402,False,1.0,"['netfractionrevolvingburden', 'netfractioninstallburden']"
+heloc,1,RF,23,766,dice_random,False,,,,7001,0.15602540969848633,,,error: UserConfigValidationException
+heloc,1,RF,24,7,dice_random,True,23.098214791589754,3.0,3.0,3004,0.12239694595336914,True,0.5,"['netfractionrevolvingburden', 'netfractioninstallburden', 'numbank2natltradeswhighutilization']"
+heloc,1,RF,25,908,dice_random,True,0.6582688273276207,1.0,1.0,12004,37.75665640830994,False,0.5,['numbank2natltradeswhighutilization']
+heloc,1,RF,26,1173,dice_random,True,5.188898433901243,2.0,2.0,2004,0.10676050186157227,False,0.5,"['numtradesopeninlast12m', 'numrevolvingtradeswbalance']"
+heloc,1,RF,27,1689,dice_random,True,4.81598510317538,3.0,3.0,3004,0.12371945381164551,False,1.0,"['numinqlast6m', 'netfractionrevolvingburden', 'numinstalltradeswbalance']"
+heloc,1,RF,28,1062,dice_random,True,1.0210318378246666,2.0,2.0,12004,38.05125546455383,False,0.5,"['numinqlast6m', 'netfractionrevolvingburden']"
+heloc,1,RF,29,845,dice_random,True,2.765278762430295,1.0,1.0,2004,0.10572361946105957,False,0.5,['numinqlast6m']
+heloc,1,RF,30,194,dice_random,False,,,,7001,0.1788322925567627,,,error: UserConfigValidationException
+heloc,1,RF,31,1879,dice_random,False,,,,2004,0.10820722579956055,,,
+heloc,1,RF,32,1670,dice_random,False,,,,16004,38.174782514572144,,,
+heloc,1,RF,33,469,dice_random,True,2.973231763733482,1.0,1.0,2004,0.10678315162658691,False,0.5,['netfractionrevolvingburden']
+heloc,1,RF,34,64,dice_random,False,,,,7001,0.15777802467346191,,,error: UserConfigValidationException
+heloc,1,RF,35,197,dice_random,True,6.472725721965767,2.0,2.0,2004,0.10427546501159668,False,0.5,"['netfractionrevolvingburden', 'numbank2natltradeswhighutilization']"
+heloc,1,RF,36,1095,dice_random,True,14.489415638757965,4.0,4.0,14004,38.202091693878174,True,0.0,"['numinqlast6m', 'netfractionrevolvingburden', 'netfractioninstallburden', 'numbank2natltradeswhighutilization']"
+heloc,1,RF,37,293,dice_random,True,1.6426910657159581,1.0,1.0,2004,0.10544657707214355,False,1.0,['netfractionrevolvingburden']
+heloc,1,RF,38,460,dice_random,False,,,,7001,0.15530633926391602,,,error: UserConfigValidationException
+heloc,1,RF,39,912,dice_random,False,,,,7001,0.15751433372497559,,,error: UserConfigValidationException
+heloc,1,RF,40,431,dice_random,False,,,,7001,0.15642356872558594,,,error: UserConfigValidationException
+heloc,1,RF,41,1391,dice_random,False,,,,7001,0.1527109146118164,,,error: UserConfigValidationException
+heloc,1,RF,42,778,dice_random,False,,,,2004,0.1049959659576416,,,
+heloc,1,RF,43,1518,dice_random,False,,,,7001,0.1583864688873291,,,error: UserConfigValidationException
+heloc,1,RF,44,523,dice_random,False,,,,7001,0.15809845924377441,,,error: UserConfigValidationException
+heloc,1,RF,45,500,dice_random,True,9.556971851832225,2.0,2.0,2004,0.10413384437561035,True,0.0,"['netfractionrevolvingburden', 'netfractioninstallburden']"
+heloc,1,RF,46,1395,dice_random,False,,,,7001,0.15240001678466797,,,error: UserConfigValidationException
+heloc,1,RF,47,144,dice_random,False,,,,13004,37.89503049850464,,,
+heloc,1,RF,48,916,dice_random,False,,,,7001,0.15859436988830566,,,error: UserConfigValidationException
+heloc,1,RF,49,610,dice_random,False,,,,7001,0.15862417221069336,,,error: UserConfigValidationException
+heloc,1,RF,50,1729,dice_random,False,,,,2004,0.10405445098876953,,,
+heloc,1,RF,51,1925,dice_random,False,,,,7001,0.1567089557647705,,,error: UserConfigValidationException
+heloc,1,RF,52,659,dice_random,False,,,,7001,0.15618467330932617,,,error: UserConfigValidationException
+heloc,1,RF,53,1795,dice_random,False,,,,15004,37.91579747200012,,,
+heloc,1,RF,54,771,dice_random,True,15.28504745151593,2.0,2.0,2004,0.10706233978271484,False,0.0,"['numtradesopeninlast12m', 'netfractioninstallburden']"
+heloc,1,RF,55,1790,dice_random,False,,,,7001,0.1589803695678711,,,error: UserConfigValidationException
+heloc,1,RF,56,1597,dice_random,False,,,,7001,0.1587989330291748,,,error: UserConfigValidationException
+heloc,1,RF,57,954,dice_random,False,,,,7001,0.16045236587524414,,,error: UserConfigValidationException
+heloc,1,RF,58,457,dice_random,False,,,,2004,0.10379838943481445,,,
+heloc,1,RF,59,73,dice_random,False,,,,7001,0.15997028350830078,,,error: UserConfigValidationException
+heloc,1,RF,60,1806,dice_random,False,,,,7001,0.1537635326385498,,,error: UserConfigValidationException
+heloc,1,RF,61,1711,dice_random,False,,,,12004,38.014387369155884,,,
+heloc,1,RF,62,1865,dice_random,False,,,,3004,0.12354826927185059,,,
+heloc,1,RF,63,1887,dice_random,False,,,,7001,0.15685153007507324,,,error: UserConfigValidationException
+heloc,1,RF,64,716,dice_random,False,,,,26004,75.64785766601562,,,
+heloc,1,RF,65,677,dice_random,False,,,,7001,0.15755295753479004,,,error: UserConfigValidationException
+heloc,1,RF,66,174,dice_random,False,,,,7001,0.15976166725158691,,,error: UserConfigValidationException
+heloc,1,RF,67,1126,dice_random,False,,,,12004,37.923832416534424,,,
+heloc,1,RF,68,1924,dice_random,False,,,,7001,0.1560347080230713,,,error: UserConfigValidationException
+heloc,1,RF,69,1971,dice_random,False,,,,7004,0.19771027565002441,,,
+heloc,1,RF,70,934,dice_random,True,4.772804704859777,2.0,2.0,2004,0.1074368953704834,False,1.0,"['numinqlast6m', 'numbank2natltradeswhighutilization']"
+heloc,1,RF,71,695,dice_random,False,,,,7001,0.15619397163391113,,,error: UserConfigValidationException
+heloc,1,RF,72,1053,dice_random,False,,,,7004,0.19910979270935059,,,
+heloc,1,RF,73,353,dice_random,False,,,,7001,0.160353422164917,,,error: UserConfigValidationException
+heloc,1,RF,74,91,dice_random,True,3.6628174376964897,2.0,2.0,12004,38.08466053009033,False,1.0,"['netfractionrevolvingburden', 'numbank2natltradeswhighutilization']"
+heloc,1,RF,75,1578,dice_random,False,,,,7001,0.15678024291992188,,,error: UserConfigValidationException
+heloc,1,RF,76,432,dice_random,True,3.821713417911143,2.0,2.0,12004,37.93742394447327,False,0.5,"['netfractioninstallburden', 'numrevolvingtradeswbalance']"
+heloc,1,RF,77,935,dice_random,False,,,,2004,0.10405540466308594,,,
+heloc,1,RF,78,1273,dice_random,False,,,,7001,0.157149076461792,,,error: UserConfigValidationException
+heloc,1,RF,79,240,dice_random,False,,,,2004,0.10318899154663086,,,
+heloc,1,RF,80,1123,dice_random,False,,,,7001,0.15413999557495117,,,error: UserConfigValidationException
+heloc,1,RF,81,507,dice_random,True,7.217454570200346,2.0,2.0,2004,0.10304474830627441,False,0.5,"['netfractionrevolvingburden', 'numbank2natltradeswhighutilization']"
+heloc,1,RF,82,929,dice_random,False,,,,3004,0.12193775177001953,,,
+heloc,1,RF,83,253,dice_random,False,,,,7001,0.15087246894836426,,,error: UserConfigValidationException
+heloc,1,RF,84,444,dice_random,True,7.935670238221805,2.0,2.0,2004,0.1053931713104248,False,0.5,"['netfractionrevolvingburden', 'numbank2natltradeswhighutilization']"
+heloc,1,RF,85,1866,dice_random,False,,,,7001,0.15453529357910156,,,error: UserConfigValidationException
+heloc,1,RF,86,122,dice_random,False,,,,7001,0.15977144241333008,,,error: UserConfigValidationException
+heloc,1,RF,87,1843,dice_random,False,,,,4004,0.13939166069030762,,,
+heloc,1,RF,88,308,dice_random,True,1.9008105920987814,1.0,1.0,2004,0.10594367980957031,False,1.0,['netfractionrevolvingburden']
+heloc,1,RF,89,1269,dice_random,True,2.769141781036047,2.0,2.0,12004,38.12380337715149,False,0.5,"['netfractionrevolvingburden', 'numbank2natltradeswhighutilization']"
+heloc,1,RF,90,1020,dice_random,True,1.5028916683745572,1.0,1.0,2004,0.10610342025756836,False,1.0,['numbank2natltradeswhighutilization']
+heloc,1,RF,91,1686,dice_random,True,9.202388398912287,2.0,2.0,2004,0.10626101493835449,False,0.0,"['netfractionrevolvingburden', 'netfractioninstallburden']"
+heloc,1,RF,92,1648,dice_random,False,,,,7001,0.15579438209533691,,,error: UserConfigValidationException
+heloc,1,RF,93,288,dice_random,False,,,,7001,0.1587975025177002,,,error: UserConfigValidationException
+heloc,1,RF,94,1496,dice_random,False,,,,7001,0.1538093090057373,,,error: UserConfigValidationException
+heloc,1,RF,95,222,dice_random,False,,,,7001,0.16087675094604492,,,error: UserConfigValidationException
+heloc,1,RF,96,1301,dice_random,False,,,,7001,0.1583385467529297,,,error: UserConfigValidationException
+heloc,1,RF,97,1121,dice_random,False,,,,7001,0.15908169746398926,,,error: UserConfigValidationException
+heloc,1,RF,98,117,dice_random,False,,,,7001,0.15857577323913574,,,error: UserConfigValidationException
+heloc,1,RF,99,1249,dice_random,False,,,,7001,0.16295433044433594,,,error: UserConfigValidationException
+heloc,1,SVM,0,1225,dice_random,False,,,,7001,1.6361823081970215,,,error: UserConfigValidationException
+heloc,1,SVM,1,1458,dice_random,False,,,,7001,1.6417043209075928,,,error: UserConfigValidationException
+heloc,1,SVM,2,1340,dice_random,True,14.02636515630391,4.0,4.0,14004,11.472654342651367,False,1.0,"['numinqlast6m', 'netfractionrevolvingburden', 'numrevolvingtradeswbalance', 'numbank2natltradeswhighutilization']"
+heloc,1,SVM,3,252,dice_random,False,,,,7001,1.6395955085754395,,,error: UserConfigValidationException
+heloc,1,SVM,4,938,dice_random,False,,,,7001,1.6363890171051025,,,error: UserConfigValidationException
+heloc,1,SVM,5,560,dice_random,False,,,,7001,1.638472318649292,,,error: UserConfigValidationException
+heloc,1,SVM,6,1766,dice_random,False,,,,7001,1.637488603591919,,,error: UserConfigValidationException
+heloc,1,SVM,7,1365,dice_random,False,,,,7001,1.649449348449707,,,error: UserConfigValidationException
+heloc,1,SVM,8,58,dice_random,False,,,,7001,1.6335127353668213,,,error: UserConfigValidationException
+heloc,1,SVM,9,1444,dice_random,False,,,,7001,1.6356680393218994,,,error: UserConfigValidationException
+heloc,1,SVM,10,194,dice_random,False,,,,7001,1.6494967937469482,,,error: UserConfigValidationException
+heloc,1,SVM,11,562,dice_random,False,,,,7001,1.6387743949890137,,,error: UserConfigValidationException
+heloc,1,SVM,12,1658,dice_random,False,,,,7001,1.679783582687378,,,error: UserConfigValidationException
+heloc,1,SVM,13,917,dice_random,True,1.9635534148461664,2.0,2.0,12004,11.06713080406189,False,0.5,"['netfractionrevolvingburden', 'numinstalltradeswbalance']"
+heloc,1,SVM,14,1127,dice_random,True,5.646123649663746,2.0,2.0,12004,11.070743083953857,False,0.0,"['numtradesopeninlast12m', 'numbank2natltradeswhighutilization']"
+heloc,1,SVM,15,186,dice_random,True,22.46563592272233,4.0,4.0,4004,0.9780304431915283,False,0.5,"['numinqlast6m', 'netfractionrevolvingburden', 'numrevolvingtradeswbalance', 'numbank2natltradeswhighutilization']"
+heloc,1,SVM,16,1910,dice_random,True,5.468536041641621,2.0,2.0,2004,0.5197286605834961,False,0.5,"['numinqlast6m', 'netfractionrevolvingburden']"
+heloc,1,SVM,17,205,dice_random,False,,,,7001,1.6400485038757324,,,error: UserConfigValidationException
+heloc,1,SVM,18,1748,dice_random,False,,,,7001,1.6380271911621094,,,error: UserConfigValidationException
+heloc,1,SVM,19,686,dice_random,False,,,,7001,1.6400010585784912,,,error: UserConfigValidationException
+heloc,1,SVM,20,220,dice_random,True,4.276416329906729,2.0,2.0,2004,0.5182831287384033,False,0.5,"['netfractioninstallburden', 'numbank2natltradeswhighutilization']"
+heloc,1,SVM,21,568,dice_random,False,,,,7001,1.6471071243286133,,,error: UserConfigValidationException
+heloc,1,SVM,22,1538,dice_random,False,,,,7001,1.6780366897583008,,,error: UserConfigValidationException
+heloc,1,SVM,23,461,dice_random,False,,,,7001,1.6355152130126953,,,error: UserConfigValidationException
+heloc,1,SVM,24,1337,dice_random,False,,,,7001,1.635345697402954,,,error: UserConfigValidationException
+heloc,1,SVM,25,1826,dice_random,False,,,,7001,1.6371686458587646,,,error: UserConfigValidationException
+heloc,1,SVM,26,894,dice_random,False,,,,7001,1.6282639503479004,,,error: UserConfigValidationException
+heloc,1,SVM,27,991,dice_random,False,,,,7001,1.6783981323242188,,,error: UserConfigValidationException
+heloc,1,SVM,28,148,dice_random,False,,,,7001,1.6518933773040771,,,error: UserConfigValidationException
+heloc,1,SVM,29,132,dice_random,False,,,,7001,1.6782140731811523,,,error: UserConfigValidationException
+heloc,1,SVM,30,1228,dice_random,True,3.5353221443205634,2.0,2.0,12004,11.051673889160156,False,1.0,"['numinqlast6m', 'netfractioninstallburden']"
+heloc,1,SVM,31,179,dice_random,True,2.2466796588374134,2.0,2.0,2004,0.5221259593963623,False,0.0,"['netfractionrevolvingburden', 'numinstalltradeswbalance']"
+heloc,1,SVM,32,672,dice_random,False,,,,7001,1.6428139209747314,,,error: UserConfigValidationException
+heloc,1,SVM,33,1775,dice_random,True,2.876428246756101,2.0,2.0,2004,0.5224113464355469,False,0.0,"['netfractionrevolvingburden', 'numbank2natltradeswhighutilization']"
+heloc,1,SVM,34,478,dice_random,True,10.25607569007796,2.0,2.0,2004,0.5211529731750488,False,0.0,"['numinqlast6m', 'numrevolvingtradeswbalance']"
+heloc,1,SVM,35,1380,dice_random,False,,,,7001,1.63643217086792,,,error: UserConfigValidationException
+heloc,1,SVM,36,764,dice_random,True,2.327165690120479,2.0,2.0,12004,11.02832818031311,False,1.0,"['netfractionrevolvingburden', 'netfractioninstallburden']"
+heloc,1,SVM,37,564,dice_random,False,,,,7001,1.6346373558044434,,,error: UserConfigValidationException
+heloc,1,SVM,38,893,dice_random,True,7.672833734771835,2.0,2.0,2004,0.520737886428833,False,0.0,"['numrevolvingtradeswbalance', 'numbank2natltradeswhighutilization']"
+heloc,1,SVM,39,1208,dice_random,False,,,,7001,1.6466071605682373,,,error: UserConfigValidationException
+heloc,1,SVM,40,71,dice_random,False,,,,2004,0.5124235153198242,,,
+heloc,1,SVM,41,760,dice_random,False,,,,7001,1.6357150077819824,,,error: UserConfigValidationException
+heloc,1,SVM,42,343,dice_random,False,,,,7001,1.645073413848877,,,error: UserConfigValidationException
+heloc,1,SVM,43,201,dice_random,False,,,,2004,0.5134255886077881,,,
+heloc,1,SVM,44,695,dice_random,False,,,,7001,1.685624599456787,,,error: UserConfigValidationException
+heloc,1,SVM,45,538,dice_random,False,,,,7001,1.6314072608947754,,,error: UserConfigValidationException
+heloc,1,SVM,46,423,dice_random,False,,,,7001,1.6340346336364746,,,error: UserConfigValidationException
+heloc,1,SVM,47,1755,dice_random,False,,,,7001,1.635413646697998,,,error: UserConfigValidationException
+heloc,1,SVM,48,12,dice_random,False,,,,7001,1.6497762203216553,,,error: UserConfigValidationException
+heloc,1,SVM,49,994,dice_random,False,,,,7001,1.640916109085083,,,error: UserConfigValidationException
+heloc,1,SVM,50,1500,dice_random,False,,,,7001,1.6368649005889893,,,error: UserConfigValidationException
+heloc,1,SVM,51,1207,dice_random,False,,,,7001,1.6342227458953857,,,error: UserConfigValidationException
+heloc,1,SVM,52,1325,dice_random,False,,,,7001,1.637993574142456,,,error: UserConfigValidationException
+heloc,1,SVM,53,319,dice_random,False,,,,7001,1.64518404006958,,,error: UserConfigValidationException
+heloc,1,SVM,54,1810,dice_random,False,,,,7001,1.6790001392364502,,,error: UserConfigValidationException
+heloc,1,SVM,55,1514,dice_random,False,,,,7001,1.6447207927703857,,,error: UserConfigValidationException
+heloc,1,SVM,56,1611,dice_random,True,14.142072978880652,2.0,2.0,2004,0.5581817626953125,False,0.0,"['netfractionrevolvingburden', 'numrevolvingtradeswbalance']"
+heloc,1,SVM,57,209,dice_random,False,,,,7001,1.6388072967529297,,,error: UserConfigValidationException
+heloc,1,SVM,58,1304,dice_random,True,12.280994027202594,3.0,3.0,3004,0.7491405010223389,False,0.0,"['netfractionrevolvingburden', 'netfractioninstallburden', 'numbank2natltradeswhighutilization']"
+heloc,1,SVM,59,96,dice_random,True,6.85482737562119,1.0,1.0,2004,0.5145013332366943,False,0.0,['numrevolvingtradeswbalance']
+heloc,1,SVM,60,133,dice_random,True,38.57960436386187,3.0,3.0,3004,0.7475433349609375,False,0.5,"['netfractionrevolvingburden', 'numrevolvingtradeswbalance', 'numbank2natltradeswhighutilization']"
+heloc,1,SVM,61,392,dice_random,False,,,,7001,1.6570205688476562,,,error: UserConfigValidationException
+heloc,1,SVM,62,1799,dice_random,False,,,,7001,1.6669094562530518,,,error: UserConfigValidationException
+heloc,1,SVM,63,237,dice_random,True,1.5599902809325943,1.0,1.0,2004,0.5677459239959717,False,0.5,['numbank2natltradeswhighutilization']
+heloc,1,SVM,64,957,dice_random,True,7.219627288244698,2.0,2.0,12004,11.085520029067993,False,1.0,"['netfractioninstallburden', 'numbank2natltradeswhighutilization']"
+heloc,1,SVM,65,471,dice_random,True,4.880683580097164,2.0,2.0,2004,0.5182654857635498,False,0.0,"['netfractionrevolvingburden', 'numbank2natltradeswhighutilization']"
+heloc,1,SVM,66,1415,dice_random,True,12.53691863271074,3.0,3.0,3004,0.7476162910461426,False,0.0,"['numinqlast6m', 'netfractionrevolvingburden', 'numbank2natltradeswhighutilization']"
+heloc,1,SVM,67,276,dice_random,False,,,,22004,21.49464774131775,,,
+heloc,1,SVM,68,459,dice_random,False,,,,7001,1.6306848526000977,,,error: UserConfigValidationException
+heloc,1,SVM,69,1736,dice_random,True,3.6004545783690007,2.0,2.0,12004,10.966999769210815,False,0.0,"['numinqlast6m', 'netfractionrevolvingburden']"
+heloc,1,SVM,70,1235,dice_random,False,,,,7001,1.6343724727630615,,,error: UserConfigValidationException
+heloc,1,SVM,71,805,dice_random,False,,,,12004,10.905998706817627,,,
+heloc,1,SVM,72,394,dice_random,False,,,,7001,1.6853528022766113,,,error: UserConfigValidationException
+heloc,1,SVM,73,381,dice_random,True,11.908184646974057,3.0,3.0,3004,0.7489080429077148,False,1.0,"['netfractionrevolvingburden', 'numrevolvingtradeswbalance', 'numbank2natltradeswhighutilization']"
+heloc,1,SVM,74,1584,dice_random,False,,,,7001,1.6278660297393799,,,error: UserConfigValidationException
+heloc,1,SVM,75,373,dice_random,False,,,,7001,1.6702618598937988,,,error: UserConfigValidationException
+heloc,1,SVM,76,881,dice_random,False,,,,7001,1.6436195373535156,,,error: UserConfigValidationException
+heloc,1,SVM,77,33,dice_random,False,,,,7001,1.6832966804504395,,,error: UserConfigValidationException
+heloc,1,SVM,78,88,dice_random,False,,,,7001,1.6577439308166504,,,error: UserConfigValidationException
+heloc,1,SVM,79,1911,dice_random,True,0.6577574369878217,1.0,1.0,12004,11.040653944015503,False,0.0,['numbank2natltradeswhighutilization']
+heloc,1,SVM,80,1009,dice_random,False,,,,12004,10.94904613494873,,,
+heloc,1,SVM,81,322,dice_random,True,4.585985256846888,2.0,2.0,2004,0.5110538005828857,False,0.0,"['netfractionrevolvingburden', 'numrevolvingtradeswbalance']"
+heloc,1,SVM,82,689,dice_random,False,,,,7001,1.6320819854736328,,,error: UserConfigValidationException
+heloc,1,SVM,83,1156,dice_random,True,1.23242921800383,1.0,1.0,2004,0.5178511142730713,False,0.5,['netfractionrevolvingburden']
+heloc,1,SVM,84,118,dice_random,False,,,,7001,1.6253008842468262,,,error: UserConfigValidationException
+heloc,1,SVM,85,800,dice_random,False,,,,2004,0.5106806755065918,,,
+heloc,1,SVM,86,710,dice_random,True,3.661896494647701,2.0,2.0,12004,10.970511436462402,False,1.0,"['netfractionrevolvingburden', 'numbank2natltradeswhighutilization']"
+heloc,1,SVM,87,1249,dice_random,False,,,,7001,1.6277215480804443,,,error: UserConfigValidationException
+heloc,1,SVM,88,367,dice_random,True,7.690177704404562,2.0,2.0,2004,0.5184381008148193,False,1.0,"['numrevolvingtradeswbalance', 'numinstalltradeswbalance']"
+heloc,1,SVM,89,1045,dice_random,False,,,,7001,1.6348192691802979,,,error: UserConfigValidationException
+heloc,1,SVM,90,850,dice_random,False,,,,7001,1.7143561840057373,,,error: UserConfigValidationException
+heloc,1,SVM,91,1614,dice_random,True,17.029053405329737,2.0,2.0,2004,0.5144727230072021,False,0.0,"['numrevolvingtradeswbalance', 'numbank2natltradeswhighutilization']"
+heloc,1,SVM,92,618,dice_random,False,,,,7001,1.637134313583374,,,error: UserConfigValidationException
+heloc,1,SVM,93,620,dice_random,False,,,,7001,1.634718418121338,,,error: UserConfigValidationException
+heloc,1,SVM,94,1542,dice_random,False,,,,7001,1.672698736190796,,,error: UserConfigValidationException
+heloc,1,SVM,95,1371,dice_random,False,,,,7001,1.6662638187408447,,,error: UserConfigValidationException
+heloc,1,SVM,96,1770,dice_random,True,3.7583305193866137,2.0,2.0,2004,0.5249314308166504,False,0.5,"['netfractionrevolvingburden', 'numbank2natltradeswhighutilization']"
+heloc,1,SVM,97,1744,dice_random,False,,,,7001,1.6712124347686768,,,error: UserConfigValidationException
+heloc,1,SVM,98,788,dice_random,False,,,,7001,1.6312272548675537,,,error: UserConfigValidationException
+heloc,1,SVM,99,1361,dice_random,False,,,,7001,1.6318459510803223,,,error: UserConfigValidationException
+heloc,1,XGB,0,102,dice_random,True,0.2157820897957462,1.0,1.0,12004,11.237823963165283,False,0.0,['netfractionrevolvingburden']
+heloc,1,XGB,1,1775,dice_random,True,1.4118633104814977,2.0,2.0,12004,11.194328546524048,False,0.0,"['numinqlast6m', 'netfractioninstallburden']"
+heloc,1,XGB,2,1053,dice_random,True,10.300401243701868,2.0,2.0,2004,0.08362102508544922,False,0.0,"['numinqlast6m', 'netfractionrevolvingburden']"
+heloc,1,XGB,3,459,dice_random,False,,,,7001,0.126875638961792,,,error: UserConfigValidationException
+heloc,1,XGB,4,1029,dice_random,False,,,,7001,0.12744498252868652,,,error: UserConfigValidationException
+heloc,1,XGB,5,1534,dice_random,True,3.787260686827424,2.0,2.0,2004,0.08915281295776367,False,1.0,"['netfractionrevolvingburden', 'numrevolvingtradeswbalance']"
+heloc,1,XGB,6,1828,dice_random,True,0.9843181626197237,1.0,1.0,12004,11.199957132339478,False,0.0,['numbank2natltradeswhighutilization']
+heloc,1,XGB,7,145,dice_random,True,13.667881500733387,5.0,5.0,15004,11.276582479476929,False,0.5,"['numinqlast6m', 'netfractionrevolvingburden', 'netfractioninstallburden', 'numrevolvingtradeswbalance', 'numbank2natltradeswhighutilization']"
+heloc,1,XGB,8,386,dice_random,False,,,,7001,0.1240854263305664,,,error: UserConfigValidationException
+heloc,1,XGB,9,779,dice_random,True,14.767972432758798,3.0,3.0,3004,0.09995770454406738,True,0.0,"['numinqlast6m', 'netfractionrevolvingburden', 'netfractioninstallburden']"
+heloc,1,XGB,10,1538,dice_random,True,9.157728265872478,3.0,3.0,3004,0.10031700134277344,False,0.5,"['numinqlast6m', 'netfractionrevolvingburden', 'numbank2natltradeswhighutilization']"
+heloc,1,XGB,11,491,dice_random,True,0.7763826548681131,1.0,1.0,12004,11.242699146270752,False,0.5,['numrevolvingtradeswbalance']
+heloc,1,XGB,12,635,dice_random,False,,,,7001,0.12616848945617676,,,error: UserConfigValidationException
+heloc,1,XGB,13,1970,dice_random,True,3.0092400085794004,2.0,2.0,12004,11.314138174057007,False,1.0,"['netfractioninstallburden', 'numinstalltradeswbalance']"
+heloc,1,XGB,14,1796,dice_random,True,11.964869433088571,2.0,2.0,12004,11.269819259643555,True,0.0,"['netfractioninstallburden', 'numbank2natltradeswhighutilization']"
+heloc,1,XGB,15,1028,dice_random,True,7.528086468678145,2.0,2.0,2004,0.08759522438049316,False,1.0,"['numinqlast6m', 'netfractioninstallburden']"
+heloc,1,XGB,16,1442,dice_random,True,12.561155014241745,2.0,2.0,2004,0.08651924133300781,True,0.0,"['netfractionrevolvingburden', 'netfractioninstallburden']"
+heloc,1,XGB,17,519,dice_random,False,,,,7001,0.12486815452575684,,,error: UserConfigValidationException
+heloc,1,XGB,18,1043,dice_random,True,2.4150217228425817,2.0,2.0,2004,0.08694005012512207,False,0.0,"['numinqlast6m', 'netfractionrevolvingburden']"
+heloc,1,XGB,19,707,dice_random,False,,,,7001,0.12431955337524414,,,error: UserConfigValidationException
+heloc,1,XGB,20,339,dice_random,False,,,,7001,0.1243734359741211,,,error: UserConfigValidationException
+heloc,1,XGB,21,89,dice_random,True,2.142241283099748,2.0,2.0,12004,11.240007638931274,False,0.0,"['numrevolvingtradeswbalance', 'numbank2natltradeswhighutilization']"
+heloc,1,XGB,22,95,dice_random,True,3.470831183406422,1.0,1.0,2004,0.0871586799621582,False,1.0,['netfractioninstallburden']
+heloc,1,XGB,23,1964,dice_random,True,8.005134133532637,1.0,1.0,2004,0.08640837669372559,True,1.0,['netfractioninstallburden']
+heloc,1,XGB,24,943,dice_random,True,5.091249786932469,2.0,2.0,2004,0.08468961715698242,False,0.5,"['netfractionrevolvingburden', 'numrevolvingtradeswbalance']"
+heloc,1,XGB,25,1566,dice_random,True,6.228750650646173,3.0,3.0,3004,0.10100007057189941,False,0.5,"['numinqlast6m', 'netfractionrevolvingburden', 'numbank2natltradeswhighutilization']"
+heloc,1,XGB,26,1958,dice_random,True,3.5110728862730562,1.0,1.0,2004,0.08658051490783691,True,0.0,['netfractioninstallburden']
+heloc,1,XGB,27,1373,dice_random,False,,,,7001,0.1227426528930664,,,error: UserConfigValidationException
+heloc,1,XGB,28,1756,dice_random,True,17.340453667706015,3.0,3.0,3004,0.09877681732177734,False,0.5,"['netfractionrevolvingburden', 'numrevolvingtradeswbalance', 'numbank2natltradeswhighutilization']"
+heloc,1,XGB,29,964,dice_random,True,2.2237737553555417,2.0,2.0,2004,0.08608126640319824,False,0.0,"['numtradesopeninlast12m', 'netfractionrevolvingburden']"
+heloc,1,XGB,30,1220,dice_random,False,,,,7001,0.12254881858825684,,,error: UserConfigValidationException
+heloc,1,XGB,31,1866,dice_random,True,20.63115104039979,2.0,2.0,2004,0.0883476734161377,True,0.0,"['numinqlast6m', 'netfractioninstallburden']"
+heloc,1,XGB,32,1308,dice_random,True,16.200745549776897,3.0,3.0,3004,0.09990978240966797,False,0.0,"['netfractionrevolvingburden', 'numrevolvingtradeswbalance', 'numbank2natltradeswhighutilization']"
+heloc,1,XGB,33,120,dice_random,True,10.908359095987446,3.0,3.0,14004,11.374500036239624,False,0.0,"['netfractionrevolvingburden', 'netfractioninstallburden', 'numbank2natltradeswhighutilization']"
+heloc,1,XGB,34,388,dice_random,True,16.4116993005629,4.0,4.0,5004,0.12820792198181152,False,0.0,"['numinqlast6m', 'netfractionrevolvingburden', 'netfractioninstallburden', 'numrevolvingtradeswbalance']"
+heloc,1,XGB,35,1394,dice_random,True,4.481776697969393,2.0,2.0,2004,0.08556413650512695,False,0.0,"['netfractionrevolvingburden', 'numinstalltradeswbalance']"
+heloc,1,XGB,36,201,dice_random,True,9.445201018678452,1.0,1.0,2004,0.0864412784576416,True,0.0,['netfractioninstallburden']
+heloc,1,XGB,37,284,dice_random,True,14.453251148729361,2.0,2.0,2004,0.08466935157775879,True,0.0,"['netfractioninstallburden', 'numrevolvingtradeswbalance']"
+heloc,1,XGB,38,1303,dice_random,True,12.174972623169797,4.0,4.0,4004,0.1155085563659668,False,0.0,"['netfractionrevolvingburden', 'netfractioninstallburden', 'numrevolvingtradeswbalance', 'numbank2natltradeswhighutilization']"
+heloc,1,XGB,39,1854,dice_random,True,6.02633278392549,2.0,2.0,2004,0.085601806640625,False,0.0,"['netfractionrevolvingburden', 'numbank2natltradeswhighutilization']"
+heloc,1,XGB,40,1175,dice_random,True,9.899832562958066,2.0,2.0,2004,0.08947443962097168,False,0.5,"['netfractionrevolvingburden', 'numrevolvingtradeswbalance']"
+heloc,1,XGB,41,122,dice_random,False,,,,7001,0.13084721565246582,,,error: UserConfigValidationException
+heloc,1,XGB,42,882,dice_random,True,9.03362508750898,3.0,3.0,3004,0.10293793678283691,False,0.5,"['numtradesopeninlast12m', 'netfractionrevolvingburden', 'numbank2natltradeswhighutilization']"
+heloc,1,XGB,43,1697,dice_random,True,9.05731619057557,3.0,3.0,3004,0.10214638710021973,False,0.0,"['numinqlast6m', 'netfractionrevolvingburden', 'netfractioninstallburden']"
+heloc,1,XGB,44,601,dice_random,True,2.7206593604711826,2.0,2.0,12004,11.280489921569824,False,0.5,"['numinqlast6m', 'numrevolvingtradeswbalance']"
+heloc,1,XGB,45,885,dice_random,False,,,,7001,0.12526798248291016,,,error: UserConfigValidationException
+heloc,1,XGB,46,186,dice_random,True,16.515923542828116,3.0,3.0,3004,0.11750197410583496,True,0.0,"['numinqlast6m', 'netfractionrevolvingburden', 'netfractioninstallburden']"
+heloc,1,XGB,47,62,dice_random,False,,,,7001,0.12424302101135254,,,error: UserConfigValidationException
+heloc,1,XGB,48,749,dice_random,False,,,,7001,0.12787294387817383,,,error: UserConfigValidationException
+heloc,1,XGB,49,1872,dice_random,True,5.394335249010753,2.0,2.0,2004,0.0864865779876709,False,0.5,"['numtradesopeninlast12m', 'numrevolvingtradeswbalance']"
+heloc,1,XGB,50,1686,dice_random,True,14.877012404200372,2.0,2.0,2004,0.08558535575866699,True,0.0,"['netfractioninstallburden', 'numrevolvingtradeswbalance']"
+heloc,1,XGB,51,26,dice_random,False,,,,7001,0.12672948837280273,,,error: UserConfigValidationException
+heloc,1,XGB,52,1842,dice_random,True,5.884927057518609,2.0,2.0,2004,0.08552908897399902,False,0.5,"['netfractionrevolvingburden', 'netfractioninstallburden']"
+heloc,1,XGB,53,596,dice_random,True,1.9288863753624486,2.0,2.0,12004,11.29588270187378,False,0.0,"['netfractioninstallburden', 'numrevolvingtradeswbalance']"
+heloc,1,XGB,54,1523,dice_random,False,,,,7001,0.12427830696105957,,,error: UserConfigValidationException
+heloc,1,XGB,55,1105,dice_random,False,,,,7001,0.12495803833007812,,,error: UserConfigValidationException
+heloc,1,XGB,56,555,dice_random,False,,,,7001,0.12532401084899902,,,error: UserConfigValidationException
+heloc,1,XGB,57,659,dice_random,True,8.548892687237542,2.0,2.0,2004,0.08875727653503418,False,0.5,"['numinqlast6m', 'netfractioninstallburden']"
+heloc,1,XGB,58,819,dice_random,True,14.83126256596047,3.0,3.0,3004,0.10021281242370605,False,0.0,"['netfractionrevolvingburden', 'netfractioninstallburden', 'numrevolvingtradeswbalance']"
+heloc,1,XGB,59,276,dice_random,True,0.25906331880703953,1.0,1.0,12004,11.33631181716919,False,0.5,['netfractionrevolvingburden']
+heloc,1,XGB,60,1371,dice_random,False,,,,7001,0.12425589561462402,,,error: UserConfigValidationException
+heloc,1,XGB,61,577,dice_random,True,11.535184618687177,2.0,2.0,2004,0.0857079029083252,True,0.0,"['netfractionrevolvingburden', 'netfractioninstallburden']"
+heloc,1,XGB,62,494,dice_random,False,,,,7001,0.12436342239379883,,,error: UserConfigValidationException
+heloc,1,XGB,63,978,dice_random,True,13.247272076845078,3.0,3.0,3004,0.09867691993713379,False,0.5,"['numinqlast6m', 'netfractionrevolvingburden', 'numbank2natltradeswhighutilization']"
+heloc,1,XGB,64,441,dice_random,False,,,,7001,0.12448501586914062,,,error: UserConfigValidationException
+heloc,1,XGB,65,682,dice_random,True,5.917682329051947,2.0,2.0,2004,0.08743119239807129,False,1.0,"['numtradesopeninlast12m', 'netfractionrevolvingburden']"
+heloc,1,XGB,66,1374,dice_random,True,2.749467449425608,2.0,2.0,12004,11.27096962928772,False,0.0,"['netfractioninstallburden', 'numbank2natltradeswhighutilization']"
+heloc,1,XGB,67,392,dice_random,True,5.052461832829532,4.0,4.0,24004,22.35405421257019,False,0.0,"['numinqlast6m', 'netfractionrevolvingburden', 'numrevolvingtradeswbalance', 'numbank2natltradeswhighutilization']"
+heloc,1,XGB,68,16,dice_random,True,4.585078368003259,2.0,2.0,2004,0.0885777473449707,False,1.0,"['netfractionrevolvingburden', 'numrevolvingtradeswbalance']"
+heloc,1,XGB,69,578,dice_random,True,11.562213841488708,2.0,2.0,2004,0.08820509910583496,True,1.0,"['netfractioninstallburden', 'numbank2natltradeswhighutilization']"
+heloc,1,XGB,70,384,dice_random,True,18.948253700592133,4.0,4.0,4004,0.1151115894317627,True,0.0,"['numinqlast6m', 'netfractionrevolvingburden', 'netfractioninstallburden', 'numrevolvingtradeswbalance']"
+heloc,1,XGB,71,1450,dice_random,False,,,,7001,0.12509727478027344,,,error: UserConfigValidationException
+heloc,1,XGB,72,1290,dice_random,True,3.4145658875955514,2.0,2.0,2004,0.08828115463256836,False,0.5,"['netfractionrevolvingburden', 'netfractioninstallburden']"
+heloc,1,XGB,73,1491,dice_random,True,3.3730529220625236,2.0,2.0,12004,11.234113693237305,False,0.0,"['numtradesopeninlast12m', 'netfractionrevolvingburden']"
+heloc,1,XGB,74,1468,dice_random,True,9.106010205426339,1.0,1.0,2004,0.0876460075378418,True,0.0,['netfractioninstallburden']
+heloc,1,XGB,75,363,dice_random,True,7.477677375315068,2.0,2.0,3004,0.10017752647399902,True,0.0,"['netfractionrevolvingburden', 'netfractioninstallburden']"
+heloc,1,XGB,76,688,dice_random,True,10.164436728367875,2.0,2.0,2004,0.08563709259033203,True,0.0,"['netfractionrevolvingburden', 'netfractioninstallburden']"
+heloc,1,XGB,77,1169,dice_random,True,9.119643994450087,3.0,3.0,13004,11.239880800247192,False,0.5,"['netfractionrevolvingburden', 'netfractioninstallburden', 'numrevolvingtradeswbalance']"
+heloc,1,XGB,78,1235,dice_random,True,12.6218091796002,3.0,3.0,13004,11.20334243774414,True,0.0,"['numinqlast6m', 'netfractionrevolvingburden', 'netfractioninstallburden']"
+heloc,1,XGB,79,195,dice_random,False,,,,7001,0.12595891952514648,,,error: UserConfigValidationException
+heloc,1,XGB,80,691,dice_random,True,17.20691413962077,3.0,3.0,3004,0.09952759742736816,True,0.0,"['numinqlast6m', 'netfractionrevolvingburden', 'netfractioninstallburden']"
+heloc,1,XGB,81,421,dice_random,False,,,,7001,0.12481164932250977,,,error: UserConfigValidationException
+heloc,1,XGB,82,156,dice_random,False,,,,7001,0.12446141242980957,,,error: UserConfigValidationException
+heloc,1,XGB,83,1924,dice_random,True,10.077255575071202,2.0,2.0,2004,0.08569169044494629,False,0.0,"['numinqlast6m', 'netfractioninstallburden']"
+heloc,1,XGB,84,1051,dice_random,True,6.756656449195374,2.0,2.0,2004,0.0863504409790039,False,0.0,"['netfractionrevolvingburden', 'numbank2natltradeswhighutilization']"
+heloc,1,XGB,85,146,dice_random,False,,,,7001,0.1273479461669922,,,error: UserConfigValidationException
+heloc,1,XGB,86,1444,dice_random,True,3.627737598252203,2.0,2.0,12004,11.303304672241211,False,0.0,"['numinqlast6m', 'netfractionrevolvingburden']"
+heloc,1,XGB,87,72,dice_random,True,1.300560644810649,1.0,1.0,2004,0.08643698692321777,False,0.0,['netfractionrevolvingburden']
+heloc,1,XGB,88,1056,dice_random,True,0.09733182645165608,2.0,2.0,22004,22.372537851333618,False,0.0,"['numinqlast6m', 'numinstalltradeswbalance']"
+heloc,1,XGB,89,1856,dice_random,True,14.326835653717268,2.0,2.0,2004,0.0874640941619873,True,0.0,"['netfractionrevolvingburden', 'netfractioninstallburden']"
+heloc,1,XGB,90,1827,dice_random,True,5.413398463099616,2.0,2.0,2004,0.08722829818725586,False,1.0,"['netfractionrevolvingburden', 'numbank2natltradeswhighutilization']"
+heloc,1,XGB,91,998,dice_random,False,,,,7001,0.12867999076843262,,,error: UserConfigValidationException
+heloc,1,XGB,92,66,dice_random,True,1.2797045683003394,1.0,1.0,2004,0.08960390090942383,False,0.0,['numinstalltradeswbalance']
+heloc,1,XGB,93,1481,dice_random,False,,,,7001,0.1282048225402832,,,error: UserConfigValidationException
+heloc,1,XGB,94,1454,dice_random,True,0.5367288133718371,2.0,2.0,22004,22.453575134277344,False,0.0,"['numtradesopeninlast12m', 'numrevolvingtradeswbalance']"
+heloc,1,XGB,95,364,dice_random,True,1.8461752451061344,1.0,1.0,2004,0.08764433860778809,False,0.0,['netfractionrevolvingburden']
+heloc,1,XGB,96,790,dice_random,True,0.9910301995421122,1.0,1.0,12004,11.216379165649414,False,0.0,['numinqlast6m']
+heloc,1,XGB,97,196,dice_random,True,2.432175783531108,1.0,1.0,2004,0.08742523193359375,False,0.0,['netfractionrevolvingburden']
+heloc,1,XGB,98,1262,dice_random,True,11.706889713281392,2.0,2.0,2004,0.08597731590270996,True,1.0,"['netfractionrevolvingburden', 'netfractioninstallburden']"
+heloc,1,XGB,99,680,dice_random,True,9.443171152385043,2.0,2.0,2004,0.08510303497314453,True,0.0,"['netfractionrevolvingburden', 'netfractioninstallburden']"

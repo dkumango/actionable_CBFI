@@ -1,0 +1,225 @@
+{
+ "llm": {
+  "edges": [
+   [
+    "age",
+    "existing_credits"
+   ],
+   [
+    "age",
+    "amount"
+   ],
+   [
+    "months_loan_duration",
+    "amount"
+   ],
+   [
+    "amount",
+    "installment_rate"
+   ],
+   [
+    "existing_credits",
+    "amount"
+   ]
+  ],
+  "eq": "linear"
+ },
+ "drop30_r1": {
+  "edges": [
+   [
+    "age",
+    "amount"
+   ],
+   [
+    "months_loan_duration",
+    "amount"
+   ],
+   [
+    "amount",
+    "installment_rate"
+   ]
+  ],
+  "eq": "linear"
+ },
+ "rev30_r1": {
+  "edges": [
+   [
+    "existing_credits",
+    "age"
+   ],
+   [
+    "amount",
+    "age"
+   ],
+   [
+    "months_loan_duration",
+    "amount"
+   ],
+   [
+    "amount",
+    "installment_rate"
+   ],
+   [
+    "existing_credits",
+    "amount"
+   ]
+  ],
+  "eq": "linear"
+ },
+ "drop30_r2": {
+  "edges": [
+   [
+    "age",
+    "amount"
+   ],
+   [
+    "amount",
+    "installment_rate"
+   ],
+   [
+    "existing_credits",
+    "amount"
+   ]
+  ],
+  "eq": "linear"
+ },
+ "rev30_r2": {
+  "edges": [
+   [
+    "existing_credits",
+    "age"
+   ],
+   [
+    "age",
+    "amount"
+   ],
+   [
+    "amount",
+    "months_loan_duration"
+   ],
+   [
+    "amount",
+    "installment_rate"
+   ],
+   [
+    "existing_credits",
+    "amount"
+   ]
+  ],
+  "eq": "linear"
+ },
+ "empty": {
+  "edges": [],
+  "eq": "linear"
+ },
+ "pc": {
+  "edges": [
+   [
+    "months_loan_duration",
+    "checking_balance"
+   ],
+   [
+    "credit_history",
+    "checking_balance"
+   ],
+   [
+    "credit_history",
+    "existing_credits"
+   ],
+   [
+    "savings_balance",
+    "checking_balance"
+   ],
+   [
+    "personal_status",
+    "employment_length"
+   ],
+   [
+    "other_debtors",
+    "checking_balance"
+   ],
+   [
+    "residence_history",
+    "employment_length"
+   ],
+   [
+    "residence_history",
+    "property"
+   ],
+   [
+    "age",
+    "employment_length"
+   ],
+   [
+    "housing",
+    "months_loan_duration"
+   ],
+   [
+    "housing",
+    "property"
+   ],
+   [
+    "amount",
+    "months_loan_duration"
+   ],
+   [
+    "installment_rate",
+    "months_loan_duration"
+   ],
+   [
+    "installment_rate",
+    "amount"
+   ],
+   [
+    "dependents",
+    "existing_credits"
+   ],
+   [
+    "dependents",
+    "job"
+   ],
+   [
+    "telephone",
+    "amount"
+   ],
+   [
+    "telephone",
+    "job"
+   ],
+   [
+    "foreign_worker",
+    "months_loan_duration"
+   ],
+   [
+    "job",
+    "employment_length"
+   ]
+  ],
+  "eq": "linear"
+ },
+ "gbr": {
+  "edges": [
+   [
+    "age",
+    "existing_credits"
+   ],
+   [
+    "age",
+    "amount"
+   ],
+   [
+    "months_loan_duration",
+    "amount"
+   ],
+   [
+    "amount",
+    "installment_rate"
+   ],
+   [
+    "existing_credits",
+    "amount"
+   ]
+  ],
+  "eq": "gbr"
+ }
+}

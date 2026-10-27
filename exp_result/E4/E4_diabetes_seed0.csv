@@ -1,0 +1,2081 @@
+﻿dataset,seed,model,query,test_row,variant,method,success,evals,actions,valid_under_llm,valid_no_prop
+diabetes,0,RF,0,151,llm,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,0,151,llm,untargeted,True,310,"[""bloodpressure"", ""glucose"", ""insulin""]",True,True
+diabetes,0,RF,0,151,drop30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,0,151,drop30_r1,untargeted,True,310,"[""bloodpressure"", ""glucose""]",True,True
+diabetes,0,RF,0,151,rev30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,0,151,rev30_r1,untargeted,True,310,"[""bloodpressure"", ""glucose"", ""insulin""]",True,True
+diabetes,0,RF,0,151,drop30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,0,151,drop30_r2,untargeted,True,310,"[""bloodpressure"", ""glucose"", ""insulin""]",True,True
+diabetes,0,RF,0,151,rev30_r2,acbfi_v3,True,28,"[""glucose""]",False,False
+diabetes,0,RF,0,151,rev30_r2,untargeted,True,312,"[""glucose"", ""insulin""]",False,False
+diabetes,0,RF,0,151,empty,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,0,151,empty,untargeted,True,310,"[""bloodpressure"", ""glucose""]",True,True
+diabetes,0,RF,0,151,pc,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,0,151,pc,untargeted,True,310,"[""bloodpressure"", ""glucose"", ""insulin"", ""skinthickness""]",True,True
+diabetes,0,RF,0,151,gbr,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,0,151,gbr,untargeted,True,311,"[""bloodpressure"", ""glucose"", ""insulin""]",True,True
+diabetes,0,RF,1,148,llm,acbfi_v3,True,28,"[""glucose""]",True,False
+diabetes,0,RF,1,148,llm,untargeted,True,302,"[""glucose""]",True,False
+diabetes,0,RF,1,148,drop30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,1,148,drop30_r1,untargeted,True,299,"[""glucose"", ""insulin""]",True,True
+diabetes,0,RF,1,148,rev30_r1,acbfi_v3,True,28,"[""glucose""]",True,False
+diabetes,0,RF,1,148,rev30_r1,untargeted,True,287,"[""glucose""]",True,False
+diabetes,0,RF,1,148,drop30_r2,acbfi_v3,True,28,"[""glucose""]",True,False
+diabetes,0,RF,1,148,drop30_r2,untargeted,True,302,"[""glucose""]",True,False
+diabetes,0,RF,1,148,rev30_r2,acbfi_v3,True,28,"[""bmi""]",False,False
+diabetes,0,RF,1,148,rev30_r2,untargeted,True,296,"[""bmi""]",False,False
+diabetes,0,RF,1,148,empty,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,1,148,empty,untargeted,True,296,"[""bmi"", ""insulin""]",True,True
+diabetes,0,RF,1,148,pc,acbfi_v3,True,28,"[""glucose""]",True,False
+diabetes,0,RF,1,148,pc,untargeted,True,281,"[""bmi"", ""insulin"", ""skinthickness""]",True,True
+diabetes,0,RF,1,148,gbr,acbfi_v3,True,28,"[""glucose""]",True,False
+diabetes,0,RF,1,148,gbr,untargeted,True,302,"[""glucose"", ""insulin""]",True,True
+diabetes,0,RF,2,84,llm,acbfi_v3,True,28,"[""glucose""]",True,False
+diabetes,0,RF,2,84,llm,untargeted,True,311,"[""glucose""]",True,False
+diabetes,0,RF,2,84,drop30_r1,acbfi_v3,True,28,"[""bmi""]",True,False
+diabetes,0,RF,2,84,drop30_r1,untargeted,True,312,"[""glucose"", ""insulin""]",True,True
+diabetes,0,RF,2,84,rev30_r1,acbfi_v3,True,28,"[""glucose""]",True,False
+diabetes,0,RF,2,84,rev30_r1,untargeted,True,296,"[""bloodpressure"", ""bmi"", ""glucose"", ""insulin""]",True,True
+diabetes,0,RF,2,84,drop30_r2,acbfi_v3,True,28,"[""glucose""]",True,False
+diabetes,0,RF,2,84,drop30_r2,untargeted,True,311,"[""glucose""]",True,False
+diabetes,0,RF,2,84,rev30_r2,acbfi_v3,True,28,"[""glucose""]",True,False
+diabetes,0,RF,2,84,rev30_r2,untargeted,True,311,"[""bmi"", ""glucose""]",True,False
+diabetes,0,RF,2,84,empty,acbfi_v3,True,459,"[""glucose"", ""insulin""]",True,True
+diabetes,0,RF,2,84,empty,untargeted,True,298,"[""bmi"", ""glucose"", ""insulin""]",True,True
+diabetes,0,RF,2,84,pc,acbfi_v3,True,28,"[""glucose""]",True,False
+diabetes,0,RF,2,84,pc,untargeted,True,300,"[""bmi"", ""glucose"", ""insulin"", ""skinthickness""]",True,True
+diabetes,0,RF,2,84,gbr,acbfi_v3,True,28,"[""bmi""]",True,False
+diabetes,0,RF,2,84,gbr,untargeted,True,310,"[""glucose"", ""insulin""]",True,True
+diabetes,0,RF,3,142,llm,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,3,142,llm,untargeted,True,318,"[""glucose"", ""insulin""]",True,True
+diabetes,0,RF,3,142,drop30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,3,142,drop30_r1,untargeted,True,318,"[""glucose""]",True,True
+diabetes,0,RF,3,142,rev30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,3,142,rev30_r1,untargeted,True,315,"[""glucose"", ""insulin""]",True,True
+diabetes,0,RF,3,142,drop30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,3,142,drop30_r2,untargeted,True,318,"[""glucose"", ""insulin""]",True,True
+diabetes,0,RF,3,142,rev30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,3,142,rev30_r2,untargeted,True,318,"[""glucose"", ""insulin""]",True,True
+diabetes,0,RF,3,142,empty,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,3,142,empty,untargeted,True,318,"[""glucose""]",True,True
+diabetes,0,RF,3,142,pc,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,3,142,pc,untargeted,True,316,"[""glucose"", ""insulin""]",True,True
+diabetes,0,RF,3,142,gbr,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,3,142,gbr,untargeted,True,318,"[""glucose"", ""insulin""]",True,True
+diabetes,0,RF,4,134,llm,acbfi_v3,True,28,"[""bmi""]",True,False
+diabetes,0,RF,4,134,llm,untargeted,True,314,"[""bmi""]",True,False
+diabetes,0,RF,4,134,drop30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,4,134,drop30_r1,untargeted,True,313,"[""bmi"", ""insulin"", ""skinthickness""]",True,False
+diabetes,0,RF,4,134,rev30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,4,134,rev30_r1,untargeted,True,313,"[""bmi"", ""insulin""]",True,False
+diabetes,0,RF,4,134,drop30_r2,acbfi_v3,True,28,"[""bmi""]",True,False
+diabetes,0,RF,4,134,drop30_r2,untargeted,True,314,"[""bmi""]",True,False
+diabetes,0,RF,4,134,rev30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,4,134,rev30_r2,untargeted,True,313,"[""bmi"", ""insulin""]",True,False
+diabetes,0,RF,4,134,empty,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,4,134,empty,untargeted,True,314,"[""glucose""]",True,True
+diabetes,0,RF,4,134,pc,acbfi_v3,True,28,"[""insulin""]",False,False
+diabetes,0,RF,4,134,pc,untargeted,True,311,"[""insulin""]",False,False
+diabetes,0,RF,4,134,gbr,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,4,134,gbr,untargeted,True,314,"[""bmi"", ""skinthickness""]",False,False
+diabetes,0,RF,5,34,llm,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,5,34,llm,untargeted,True,318,"[""glucose""]",True,True
+diabetes,0,RF,5,34,drop30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,5,34,drop30_r1,untargeted,True,318,"[""glucose""]",True,True
+diabetes,0,RF,5,34,rev30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,5,34,rev30_r1,untargeted,True,318,"[""glucose""]",True,True
+diabetes,0,RF,5,34,drop30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,5,34,drop30_r2,untargeted,True,318,"[""glucose""]",True,True
+diabetes,0,RF,5,34,rev30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,5,34,rev30_r2,untargeted,True,320,"[""glucose"", ""insulin""]",True,True
+diabetes,0,RF,5,34,empty,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,5,34,empty,untargeted,True,318,"[""glucose""]",True,True
+diabetes,0,RF,5,34,pc,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,5,34,pc,untargeted,True,317,"[""glucose"", ""insulin"", ""skinthickness""]",False,False
+diabetes,0,RF,5,34,gbr,acbfi_v3,True,28,"[""glucose""]",False,False
+diabetes,0,RF,5,34,gbr,untargeted,True,320,"[""glucose""]",False,False
+diabetes,0,RF,6,127,llm,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,6,127,llm,untargeted,True,305,"[""glucose""]",True,True
+diabetes,0,RF,6,127,drop30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,6,127,drop30_r1,untargeted,True,305,"[""glucose""]",True,True
+diabetes,0,RF,6,127,rev30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,6,127,rev30_r1,untargeted,True,307,"[""glucose""]",True,True
+diabetes,0,RF,6,127,drop30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,6,127,drop30_r2,untargeted,True,305,"[""glucose""]",True,True
+diabetes,0,RF,6,127,rev30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,6,127,rev30_r2,untargeted,True,309,"[""glucose""]",True,True
+diabetes,0,RF,6,127,empty,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,6,127,empty,untargeted,True,305,"[""glucose""]",True,True
+diabetes,0,RF,6,127,pc,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,6,127,pc,untargeted,True,307,"[""glucose"", ""skinthickness""]",True,True
+diabetes,0,RF,6,127,gbr,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,6,127,gbr,untargeted,True,305,"[""glucose""]",True,True
+diabetes,0,RF,7,6,llm,acbfi_v3,True,28,"[""bmi""]",True,True
+diabetes,0,RF,7,6,llm,untargeted,True,308,"[""bloodpressure"", ""glucose"", ""insulin""]",True,True
+diabetes,0,RF,7,6,drop30_r1,acbfi_v3,True,28,"[""bmi""]",True,True
+diabetes,0,RF,7,6,drop30_r1,untargeted,True,308,"[""bloodpressure"", ""glucose""]",True,True
+diabetes,0,RF,7,6,rev30_r1,acbfi_v3,True,28,"[""bmi""]",True,True
+diabetes,0,RF,7,6,rev30_r1,untargeted,True,304,"[""bloodpressure"", ""glucose"", ""insulin""]",True,True
+diabetes,0,RF,7,6,drop30_r2,acbfi_v3,True,28,"[""bmi""]",True,True
+diabetes,0,RF,7,6,drop30_r2,untargeted,True,308,"[""bloodpressure"", ""glucose"", ""insulin""]",True,True
+diabetes,0,RF,7,6,rev30_r2,acbfi_v3,True,28,"[""glucose""]",False,False
+diabetes,0,RF,7,6,rev30_r2,untargeted,True,309,"[""glucose"", ""insulin""]",False,False
+diabetes,0,RF,7,6,empty,acbfi_v3,True,28,"[""bmi""]",True,True
+diabetes,0,RF,7,6,empty,untargeted,True,308,"[""bloodpressure"", ""glucose""]",True,True
+diabetes,0,RF,7,6,pc,acbfi_v3,True,28,"[""bmi""]",True,True
+diabetes,0,RF,7,6,pc,untargeted,True,306,"[""glucose"", ""insulin""]",True,True
+diabetes,0,RF,7,6,gbr,acbfi_v3,True,28,"[""bmi""]",True,True
+diabetes,0,RF,7,6,gbr,untargeted,True,308,"[""bloodpressure"", ""glucose"", ""insulin""]",True,True
+diabetes,0,RF,8,85,llm,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,8,85,llm,untargeted,True,294,"[""glucose"", ""insulin""]",True,True
+diabetes,0,RF,8,85,drop30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,8,85,drop30_r1,untargeted,True,300,"[""glucose""]",True,True
+diabetes,0,RF,8,85,rev30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,8,85,rev30_r1,untargeted,True,299,"[""glucose"", ""insulin""]",True,True
+diabetes,0,RF,8,85,drop30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,8,85,drop30_r2,untargeted,True,294,"[""glucose"", ""insulin""]",True,True
+diabetes,0,RF,8,85,rev30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,8,85,rev30_r2,untargeted,True,304,"[""bloodpressure"", ""glucose""]",False,False
+diabetes,0,RF,8,85,empty,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,8,85,empty,untargeted,True,300,"[""glucose""]",True,True
+diabetes,0,RF,8,85,pc,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,8,85,pc,untargeted,True,294,"[""bloodpressure"", ""glucose"", ""insulin"", ""skinthickness""]",True,True
+diabetes,0,RF,8,85,gbr,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,8,85,gbr,untargeted,True,305,"[""glucose"", ""insulin""]",True,True
+diabetes,0,RF,9,107,llm,acbfi_v3,True,28,"[""bmi""]",True,True
+diabetes,0,RF,9,107,llm,untargeted,True,312,"[""glucose"", ""insulin""]",True,True
+diabetes,0,RF,9,107,drop30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,9,107,drop30_r1,untargeted,True,310,"[""bmi"", ""skinthickness""]",True,True
+diabetes,0,RF,9,107,rev30_r1,acbfi_v3,True,28,"[""bmi""]",True,True
+diabetes,0,RF,9,107,rev30_r1,untargeted,True,310,"[""glucose"", ""insulin""]",True,True
+diabetes,0,RF,9,107,drop30_r2,acbfi_v3,True,28,"[""bmi""]",True,True
+diabetes,0,RF,9,107,drop30_r2,untargeted,True,312,"[""glucose"", ""insulin""]",True,True
+diabetes,0,RF,9,107,rev30_r2,acbfi_v3,True,28,"[""bmi""]",True,True
+diabetes,0,RF,9,107,rev30_r2,untargeted,True,312,"[""bmi"", ""skinthickness""]",True,True
+diabetes,0,RF,9,107,empty,acbfi_v3,True,28,"[""bmi""]",True,True
+diabetes,0,RF,9,107,empty,untargeted,True,301,"[""bmi""]",True,True
+diabetes,0,RF,9,107,pc,acbfi_v3,True,28,"[""bmi""]",True,True
+diabetes,0,RF,9,107,pc,untargeted,True,304,"[""bmi""]",True,True
+diabetes,0,RF,9,107,gbr,acbfi_v3,True,28,"[""bmi""]",True,True
+diabetes,0,RF,9,107,gbr,untargeted,True,312,"[""glucose"", ""insulin""]",True,True
+diabetes,0,RF,10,79,llm,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,10,79,llm,untargeted,True,304,"[""glucose"", ""insulin""]",True,True
+diabetes,0,RF,10,79,drop30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,10,79,drop30_r1,untargeted,True,304,"[""glucose""]",True,True
+diabetes,0,RF,10,79,rev30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,10,79,rev30_r1,untargeted,True,304,"[""bloodpressure"", ""glucose"", ""insulin"", ""skinthickness""]",True,True
+diabetes,0,RF,10,79,drop30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,10,79,drop30_r2,untargeted,True,304,"[""glucose"", ""insulin""]",True,True
+diabetes,0,RF,10,79,rev30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,10,79,rev30_r2,untargeted,True,304,"[""bloodpressure"", ""glucose"", ""insulin"", ""skinthickness""]",True,True
+diabetes,0,RF,10,79,empty,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,10,79,empty,untargeted,True,304,"[""glucose""]",True,True
+diabetes,0,RF,10,79,pc,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,10,79,pc,untargeted,True,304,"[""glucose"", ""insulin""]",True,True
+diabetes,0,RF,10,79,gbr,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,10,79,gbr,untargeted,True,304,"[""bloodpressure"", ""glucose"", ""insulin"", ""skinthickness""]",True,True
+diabetes,0,RF,11,120,llm,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,11,120,llm,untargeted,True,305,"[""glucose"", ""insulin""]",True,True
+diabetes,0,RF,11,120,drop30_r1,acbfi_v3,True,28,"[""glucose""]",False,True
+diabetes,0,RF,11,120,drop30_r1,untargeted,True,307,"[""glucose""]",False,True
+diabetes,0,RF,11,120,rev30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,11,120,rev30_r1,untargeted,True,304,"[""glucose"", ""insulin""]",True,True
+diabetes,0,RF,11,120,drop30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,11,120,drop30_r2,untargeted,True,305,"[""glucose"", ""insulin""]",True,True
+diabetes,0,RF,11,120,rev30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,11,120,rev30_r2,untargeted,True,305,"[""glucose"", ""insulin""]",True,True
+diabetes,0,RF,11,120,empty,acbfi_v3,True,28,"[""glucose""]",False,True
+diabetes,0,RF,11,120,empty,untargeted,True,302,"[""glucose""]",False,True
+diabetes,0,RF,11,120,pc,acbfi_v3,True,28,"[""bmi""]",True,True
+diabetes,0,RF,11,120,pc,untargeted,True,296,"[""bmi"", ""glucose""]",True,True
+diabetes,0,RF,11,120,gbr,acbfi_v3,True,28,"[""glucose""]",False,True
+diabetes,0,RF,11,120,gbr,untargeted,True,306,"[""glucose"", ""insulin""]",True,True
+diabetes,0,RF,12,42,llm,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,12,42,llm,untargeted,True,273,"[""glucose""]",True,True
+diabetes,0,RF,12,42,drop30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,12,42,drop30_r1,untargeted,True,273,"[""glucose""]",True,True
+diabetes,0,RF,12,42,rev30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,12,42,rev30_r1,untargeted,True,273,"[""glucose""]",True,True
+diabetes,0,RF,12,42,drop30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,12,42,drop30_r2,untargeted,True,273,"[""glucose""]",True,True
+diabetes,0,RF,12,42,rev30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,12,42,rev30_r2,untargeted,True,273,"[""bloodpressure"", ""glucose""]",True,True
+diabetes,0,RF,12,42,empty,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,12,42,empty,untargeted,True,273,"[""glucose""]",True,True
+diabetes,0,RF,12,42,pc,acbfi_v3,True,28,"[""skinthickness""]",False,False
+diabetes,0,RF,12,42,pc,untargeted,True,273,"[""bmi"", ""glucose""]",True,True
+diabetes,0,RF,12,42,gbr,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,12,42,gbr,untargeted,True,281,"[""glucose""]",True,True
+diabetes,0,RF,13,82,llm,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,13,82,llm,untargeted,True,318,"[""glucose"", ""insulin""]",True,True
+diabetes,0,RF,13,82,drop30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,13,82,drop30_r1,untargeted,True,318,"[""glucose""]",True,True
+diabetes,0,RF,13,82,rev30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,13,82,rev30_r1,untargeted,True,315,"[""glucose"", ""insulin""]",True,True
+diabetes,0,RF,13,82,drop30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,13,82,drop30_r2,untargeted,True,318,"[""glucose"", ""insulin""]",True,True
+diabetes,0,RF,13,82,rev30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,13,82,rev30_r2,untargeted,True,319,"[""glucose"", ""insulin""]",True,True
+diabetes,0,RF,13,82,empty,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,13,82,empty,untargeted,True,318,"[""glucose""]",True,True
+diabetes,0,RF,13,82,pc,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,13,82,pc,untargeted,True,317,"[""glucose"", ""insulin""]",True,True
+diabetes,0,RF,13,82,gbr,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,13,82,gbr,untargeted,True,318,"[""glucose"", ""insulin""]",True,True
+diabetes,0,RF,14,19,llm,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,14,19,llm,untargeted,True,315,"[""glucose"", ""insulin""]",True,True
+diabetes,0,RF,14,19,drop30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,14,19,drop30_r1,untargeted,True,312,"[""glucose""]",True,True
+diabetes,0,RF,14,19,rev30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,14,19,rev30_r1,untargeted,True,315,"[""glucose"", ""insulin""]",True,True
+diabetes,0,RF,14,19,drop30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,14,19,drop30_r2,untargeted,True,315,"[""glucose"", ""insulin""]",True,True
+diabetes,0,RF,14,19,rev30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,14,19,rev30_r2,untargeted,True,314,"[""glucose"", ""insulin"", ""skinthickness""]",True,True
+diabetes,0,RF,14,19,empty,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,14,19,empty,untargeted,True,310,"[""glucose""]",True,True
+diabetes,0,RF,14,19,pc,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,14,19,pc,untargeted,True,312,"[""glucose"", ""insulin""]",True,True
+diabetes,0,RF,14,19,gbr,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,14,19,gbr,untargeted,True,312,"[""glucose"", ""insulin""]",True,True
+diabetes,0,RF,15,100,llm,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,15,100,llm,untargeted,True,313,"[""glucose"", ""insulin""]",True,True
+diabetes,0,RF,15,100,drop30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,15,100,drop30_r1,untargeted,True,313,"[""glucose"", ""insulin""]",True,True
+diabetes,0,RF,15,100,rev30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,15,100,rev30_r1,untargeted,True,311,"[""glucose"", ""insulin""]",True,True
+diabetes,0,RF,15,100,drop30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,15,100,drop30_r2,untargeted,True,313,"[""glucose"", ""insulin""]",True,True
+diabetes,0,RF,15,100,rev30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,15,100,rev30_r2,untargeted,True,317,"[""bmi"", ""insulin"", ""skinthickness""]",False,True
+diabetes,0,RF,15,100,empty,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,15,100,empty,untargeted,True,311,"[""glucose"", ""insulin""]",True,True
+diabetes,0,RF,15,100,pc,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,15,100,pc,untargeted,True,316,"[""glucose"", ""insulin"", ""skinthickness""]",True,True
+diabetes,0,RF,15,100,gbr,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,15,100,gbr,untargeted,True,313,"[""glucose"", ""insulin""]",True,True
+diabetes,0,RF,16,65,llm,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,16,65,llm,untargeted,True,303,"[""bmi"", ""glucose"", ""insulin"", ""skinthickness""]",True,False
+diabetes,0,RF,16,65,drop30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,16,65,drop30_r1,untargeted,True,303,"[""bmi"", ""glucose"", ""skinthickness""]",True,False
+diabetes,0,RF,16,65,rev30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,16,65,rev30_r1,untargeted,True,303,"[""bmi"", ""glucose"", ""insulin"", ""skinthickness""]",True,False
+diabetes,0,RF,16,65,drop30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,16,65,drop30_r2,untargeted,True,303,"[""bmi"", ""glucose"", ""insulin"", ""skinthickness""]",True,False
+diabetes,0,RF,16,65,rev30_r2,acbfi_v3,True,28,"[""glucose""]",False,False
+diabetes,0,RF,16,65,rev30_r2,untargeted,True,312,"[""glucose"", ""insulin""]",False,False
+diabetes,0,RF,16,65,empty,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,16,65,empty,untargeted,True,295,"[""bloodpressure"", ""bmi"", ""glucose"", ""skinthickness""]",True,True
+diabetes,0,RF,16,65,pc,acbfi_v3,True,28,"[""bmi""]",True,True
+diabetes,0,RF,16,65,pc,untargeted,True,295,"[""bloodpressure"", ""bmi"", ""glucose"", ""insulin"", ""skinthickness""]",True,True
+diabetes,0,RF,16,65,gbr,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,16,65,gbr,untargeted,True,303,"[""bloodpressure"", ""bmi"", ""glucose"", ""insulin"", ""skinthickness""]",True,True
+diabetes,0,RF,17,48,llm,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,17,48,llm,untargeted,True,317,"[""glucose"", ""insulin""]",True,True
+diabetes,0,RF,17,48,drop30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,17,48,drop30_r1,untargeted,True,317,"[""glucose""]",True,True
+diabetes,0,RF,17,48,rev30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,17,48,rev30_r1,untargeted,True,317,"[""glucose"", ""insulin""]",True,True
+diabetes,0,RF,17,48,drop30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,17,48,drop30_r2,untargeted,True,317,"[""glucose"", ""insulin""]",True,True
+diabetes,0,RF,17,48,rev30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,17,48,rev30_r2,untargeted,True,317,"[""bmi"", ""insulin"", ""skinthickness""]",True,True
+diabetes,0,RF,17,48,empty,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,17,48,empty,untargeted,True,315,"[""glucose""]",True,True
+diabetes,0,RF,17,48,pc,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,17,48,pc,untargeted,True,315,"[""glucose"", ""insulin""]",True,True
+diabetes,0,RF,17,48,gbr,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,17,48,gbr,untargeted,True,317,"[""glucose"", ""insulin""]",True,True
+diabetes,0,RF,18,135,llm,acbfi_v3,True,28,"[""glucose""]",True,False
+diabetes,0,RF,18,135,llm,untargeted,True,304,"[""glucose""]",True,False
+diabetes,0,RF,18,135,drop30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,18,135,drop30_r1,untargeted,True,300,"[""glucose""]",True,True
+diabetes,0,RF,18,135,rev30_r1,acbfi_v3,True,28,"[""glucose""]",True,False
+diabetes,0,RF,18,135,rev30_r1,untargeted,True,307,"[""glucose""]",True,False
+diabetes,0,RF,18,135,drop30_r2,acbfi_v3,True,28,"[""glucose""]",True,False
+diabetes,0,RF,18,135,drop30_r2,untargeted,True,304,"[""glucose""]",True,False
+diabetes,0,RF,18,135,rev30_r2,acbfi_v3,True,28,"[""glucose""]",True,False
+diabetes,0,RF,18,135,rev30_r2,untargeted,True,307,"[""bmi"", ""glucose""]",True,True
+diabetes,0,RF,18,135,empty,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,18,135,empty,untargeted,True,294,"[""bmi"", ""glucose""]",True,True
+diabetes,0,RF,18,135,pc,acbfi_v3,True,28,"[""glucose""]",True,False
+diabetes,0,RF,18,135,pc,untargeted,True,305,"[""bmi"", ""glucose""]",True,True
+diabetes,0,RF,18,135,gbr,acbfi_v3,True,28,"[""glucose""]",True,False
+diabetes,0,RF,18,135,gbr,untargeted,True,308,"[""glucose"", ""insulin""]",True,True
+diabetes,0,RF,19,131,llm,acbfi_v3,True,28,"[""skinthickness""]",True,True
+diabetes,0,RF,19,131,llm,untargeted,True,273,"[""skinthickness""]",True,True
+diabetes,0,RF,19,131,drop30_r1,acbfi_v3,True,28,"[""skinthickness""]",True,True
+diabetes,0,RF,19,131,drop30_r1,untargeted,True,273,"[""bloodpressure"", ""bmi""]",True,True
+diabetes,0,RF,19,131,rev30_r1,acbfi_v3,True,28,"[""bmi""]",True,False
+diabetes,0,RF,19,131,rev30_r1,untargeted,True,272,"[""bloodpressure"", ""bmi""]",True,True
+diabetes,0,RF,19,131,drop30_r2,acbfi_v3,True,28,"[""skinthickness""]",True,True
+diabetes,0,RF,19,131,drop30_r2,untargeted,True,273,"[""skinthickness""]",True,True
+diabetes,0,RF,19,131,rev30_r2,acbfi_v3,True,28,"[""skinthickness""]",True,True
+diabetes,0,RF,19,131,rev30_r2,untargeted,True,273,"[""bmi"", ""glucose""]",True,True
+diabetes,0,RF,19,131,empty,acbfi_v3,True,28,"[""skinthickness""]",True,True
+diabetes,0,RF,19,131,empty,untargeted,True,272,"[""bmi"", ""glucose""]",True,True
+diabetes,0,RF,19,131,pc,acbfi_v3,True,28,"[""skinthickness""]",False,False
+diabetes,0,RF,19,131,pc,untargeted,True,272,"[""bloodpressure"", ""bmi""]",True,True
+diabetes,0,RF,19,131,gbr,acbfi_v3,True,28,"[""skinthickness""]",True,True
+diabetes,0,RF,19,131,gbr,untargeted,True,273,"[""skinthickness""]",True,True
+diabetes,0,RF,20,94,llm,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,20,94,llm,untargeted,True,313,"[""glucose"", ""insulin""]",True,True
+diabetes,0,RF,20,94,drop30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,20,94,drop30_r1,untargeted,True,310,"[""bmi"", ""glucose""]",True,False
+diabetes,0,RF,20,94,rev30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,20,94,rev30_r1,untargeted,True,313,"[""glucose"", ""insulin""]",True,True
+diabetes,0,RF,20,94,drop30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,20,94,drop30_r2,untargeted,True,313,"[""glucose"", ""insulin""]",True,True
+diabetes,0,RF,20,94,rev30_r2,acbfi_v3,True,28,"[""glucose""]",False,False
+diabetes,0,RF,20,94,rev30_r2,untargeted,True,316,"[""insulin"", ""skinthickness""]",True,True
+diabetes,0,RF,20,94,empty,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,20,94,empty,untargeted,True,310,"[""bmi"", ""glucose""]",True,True
+diabetes,0,RF,20,94,pc,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,20,94,pc,untargeted,True,313,"[""bmi"", ""glucose""]",True,True
+diabetes,0,RF,20,94,gbr,acbfi_v3,True,28,"[""glucose""]",False,False
+diabetes,0,RF,20,94,gbr,untargeted,True,315,"[""glucose""]",False,False
+diabetes,0,RF,21,14,llm,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,21,14,llm,untargeted,True,311,"[""glucose"", ""insulin""]",True,True
+diabetes,0,RF,21,14,drop30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,21,14,drop30_r1,untargeted,True,309,"[""glucose""]",True,True
+diabetes,0,RF,21,14,rev30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,21,14,rev30_r1,untargeted,True,311,"[""glucose"", ""insulin""]",True,True
+diabetes,0,RF,21,14,drop30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,21,14,drop30_r2,untargeted,True,311,"[""glucose"", ""insulin""]",True,True
+diabetes,0,RF,21,14,rev30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,21,14,rev30_r2,untargeted,True,302,"[""glucose"", ""insulin"", ""skinthickness""]",True,True
+diabetes,0,RF,21,14,empty,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,21,14,empty,untargeted,True,309,"[""glucose""]",True,True
+diabetes,0,RF,21,14,pc,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,21,14,pc,untargeted,True,309,"[""glucose"", ""insulin""]",True,True
+diabetes,0,RF,21,14,gbr,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,21,14,gbr,untargeted,True,311,"[""glucose"", ""insulin""]",True,True
+diabetes,0,RF,22,62,llm,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,22,62,llm,untargeted,True,283,"[""bloodpressure"", ""bmi"", ""skinthickness""]",True,True
+diabetes,0,RF,22,62,drop30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,22,62,drop30_r1,untargeted,True,283,"[""bmi"", ""glucose"", ""skinthickness""]",True,True
+diabetes,0,RF,22,62,rev30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,22,62,rev30_r1,untargeted,True,282,"[""bmi"", ""glucose""]",True,True
+diabetes,0,RF,22,62,drop30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,22,62,drop30_r2,untargeted,True,283,"[""bloodpressure"", ""bmi"", ""skinthickness""]",True,True
+diabetes,0,RF,22,62,rev30_r2,acbfi_v3,True,28,"[""glucose""]",False,False
+diabetes,0,RF,22,62,rev30_r2,untargeted,True,283,"[""glucose""]",False,False
+diabetes,0,RF,22,62,empty,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,22,62,empty,untargeted,True,282,"[""bmi"", ""glucose""]",True,True
+diabetes,0,RF,22,62,pc,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,22,62,pc,untargeted,True,283,"[""bmi"", ""glucose"", ""skinthickness""]",True,True
+diabetes,0,RF,22,62,gbr,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,22,62,gbr,untargeted,True,293,"[""bloodpressure"", ""bmi"", ""skinthickness""]",True,True
+diabetes,0,RF,23,71,llm,acbfi_v3,True,28,"[""glucose""]",True,False
+diabetes,0,RF,23,71,llm,untargeted,True,312,"[""glucose"", ""insulin""]",True,True
+diabetes,0,RF,23,71,drop30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,23,71,drop30_r1,untargeted,True,312,"[""glucose"", ""skinthickness""]",True,True
+diabetes,0,RF,23,71,rev30_r1,acbfi_v3,True,28,"[""glucose""]",True,False
+diabetes,0,RF,23,71,rev30_r1,untargeted,True,312,"[""glucose"", ""insulin""]",True,True
+diabetes,0,RF,23,71,drop30_r2,acbfi_v3,True,28,"[""glucose""]",True,False
+diabetes,0,RF,23,71,drop30_r2,untargeted,True,312,"[""glucose"", ""insulin""]",True,True
+diabetes,0,RF,23,71,rev30_r2,acbfi_v3,True,28,"[""bmi""]",False,True
+diabetes,0,RF,23,71,rev30_r2,untargeted,True,311,"[""bmi"", ""skinthickness""]",True,True
+diabetes,0,RF,23,71,empty,acbfi_v3,True,28,"[""bmi""]",False,True
+diabetes,0,RF,23,71,empty,untargeted,True,312,"[""bmi""]",False,True
+diabetes,0,RF,23,71,pc,acbfi_v3,True,28,"[""bmi""]",False,True
+diabetes,0,RF,23,71,pc,untargeted,True,310,"[""bmi""]",False,True
+diabetes,0,RF,23,71,gbr,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,23,71,gbr,untargeted,True,314,"[""glucose"", ""skinthickness""]",True,True
+diabetes,0,RF,24,44,llm,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,24,44,llm,untargeted,True,283,"[""glucose"", ""skinthickness""]",True,False
+diabetes,0,RF,24,44,drop30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,24,44,drop30_r1,untargeted,True,282,"[""glucose"", ""skinthickness""]",True,True
+diabetes,0,RF,24,44,rev30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,24,44,rev30_r1,untargeted,True,289,"[""bmi"", ""glucose"", ""skinthickness""]",True,False
+diabetes,0,RF,24,44,drop30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,24,44,drop30_r2,untargeted,True,283,"[""glucose"", ""skinthickness""]",True,False
+diabetes,0,RF,24,44,rev30_r2,acbfi_v3,True,28,"[""glucose""]",False,False
+diabetes,0,RF,24,44,rev30_r2,untargeted,True,308,"[""glucose""]",False,False
+diabetes,0,RF,24,44,empty,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,24,44,empty,untargeted,True,282,"[""glucose"", ""skinthickness""]",True,True
+diabetes,0,RF,24,44,pc,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,24,44,pc,untargeted,True,284,"[""bmi"", ""glucose"", ""skinthickness""]",True,False
+diabetes,0,RF,24,44,gbr,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,24,44,gbr,untargeted,True,284,"[""glucose"", ""insulin""]",True,True
+diabetes,0,RF,25,24,llm,acbfi_v3,True,28,"[""bmi""]",True,True
+diabetes,0,RF,25,24,llm,untargeted,True,313,"[""bmi"", ""insulin""]",True,True
+diabetes,0,RF,25,24,drop30_r1,acbfi_v3,True,28,"[""bmi""]",True,True
+diabetes,0,RF,25,24,drop30_r1,untargeted,True,313,"[""bmi""]",True,True
+diabetes,0,RF,25,24,rev30_r1,acbfi_v3,True,28,"[""bmi""]",True,True
+diabetes,0,RF,25,24,rev30_r1,untargeted,True,305,"[""bmi"", ""insulin""]",True,True
+diabetes,0,RF,25,24,drop30_r2,acbfi_v3,True,28,"[""bmi""]",True,True
+diabetes,0,RF,25,24,drop30_r2,untargeted,True,313,"[""bmi"", ""insulin""]",True,True
+diabetes,0,RF,25,24,rev30_r2,acbfi_v3,True,28,"[""bmi""]",True,True
+diabetes,0,RF,25,24,rev30_r2,untargeted,True,311,"[""bmi"", ""insulin""]",True,True
+diabetes,0,RF,25,24,empty,acbfi_v3,True,28,"[""bmi""]",True,True
+diabetes,0,RF,25,24,empty,untargeted,True,310,"[""bmi""]",True,True
+diabetes,0,RF,25,24,pc,acbfi_v3,True,28,"[""bmi""]",True,True
+diabetes,0,RF,25,24,pc,untargeted,True,311,"[""bmi""]",True,True
+diabetes,0,RF,25,24,gbr,acbfi_v3,True,28,"[""bloodpressure""]",True,True
+diabetes,0,RF,25,24,gbr,untargeted,True,313,"[""bloodpressure""]",True,True
+diabetes,0,RF,26,26,llm,acbfi_v3,True,28,"[""glucose""]",True,False
+diabetes,0,RF,26,26,llm,untargeted,True,274,"[""glucose""]",True,False
+diabetes,0,RF,26,26,drop30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,26,26,drop30_r1,untargeted,True,276,"[""bloodpressure"", ""glucose""]",True,True
+diabetes,0,RF,26,26,rev30_r1,acbfi_v3,True,28,"[""glucose""]",True,False
+diabetes,0,RF,26,26,rev30_r1,untargeted,True,273,"[""glucose""]",True,False
+diabetes,0,RF,26,26,drop30_r2,acbfi_v3,True,28,"[""glucose""]",True,False
+diabetes,0,RF,26,26,drop30_r2,untargeted,True,274,"[""glucose""]",True,False
+diabetes,0,RF,26,26,rev30_r2,acbfi_v3,True,28,"[""glucose""]",True,False
+diabetes,0,RF,26,26,rev30_r2,untargeted,True,293,"[""glucose""]",True,False
+diabetes,0,RF,26,26,empty,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,26,26,empty,untargeted,True,276,"[""bloodpressure"", ""glucose""]",True,True
+diabetes,0,RF,26,26,pc,acbfi_v3,True,28,"[""glucose""]",True,False
+diabetes,0,RF,26,26,pc,untargeted,True,272,"[""bmi"", ""glucose""]",True,False
+diabetes,0,RF,26,26,gbr,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,26,26,gbr,untargeted,True,284,"[""bloodpressure"", ""glucose""]",True,True
+diabetes,0,RF,27,45,llm,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,27,45,llm,untargeted,True,272,"[""glucose""]",True,True
+diabetes,0,RF,27,45,drop30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,27,45,drop30_r1,untargeted,True,272,"[""glucose""]",True,True
+diabetes,0,RF,27,45,rev30_r1,acbfi_v3,True,28,"[""bmi""]",True,False
+diabetes,0,RF,27,45,rev30_r1,untargeted,True,272,"[""bloodpressure"", ""bmi""]",True,True
+diabetes,0,RF,27,45,drop30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,27,45,drop30_r2,untargeted,True,272,"[""glucose""]",True,True
+diabetes,0,RF,27,45,rev30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,27,45,rev30_r2,untargeted,True,277,"[""bloodpressure"", ""bmi"", ""skinthickness""]",True,True
+diabetes,0,RF,27,45,empty,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,27,45,empty,untargeted,True,273,"[""bloodpressure"", ""bmi""]",True,True
+diabetes,0,RF,27,45,pc,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,27,45,pc,untargeted,True,276,"[""bloodpressure"", ""bmi""]",True,True
+diabetes,0,RF,27,45,gbr,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,27,45,gbr,untargeted,True,276,"[""glucose""]",True,True
+diabetes,0,RF,28,113,llm,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,28,113,llm,untargeted,True,295,"[""bmi"", ""glucose""]",True,True
+diabetes,0,RF,28,113,drop30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,28,113,drop30_r1,untargeted,True,301,"[""glucose""]",True,True
+diabetes,0,RF,28,113,rev30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,28,113,rev30_r1,untargeted,True,299,"[""glucose"", ""insulin""]",True,True
+diabetes,0,RF,28,113,drop30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,28,113,drop30_r2,untargeted,True,295,"[""bmi"", ""glucose""]",True,True
+diabetes,0,RF,28,113,rev30_r2,acbfi_v3,True,28,"[""glucose""]",False,False
+diabetes,0,RF,28,113,rev30_r2,untargeted,True,301,"[""bloodpressure"", ""bmi"", ""glucose"", ""insulin""]",False,False
+diabetes,0,RF,28,113,empty,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,28,113,empty,untargeted,True,299,"[""bmi"", ""glucose""]",True,True
+diabetes,0,RF,28,113,pc,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,28,113,pc,untargeted,True,299,"[""bmi"", ""glucose""]",True,True
+diabetes,0,RF,28,113,gbr,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,28,113,gbr,untargeted,True,297,"[""glucose""]",True,True
+diabetes,0,RF,29,55,llm,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,29,55,llm,untargeted,True,313,"[""glucose"", ""insulin""]",True,True
+diabetes,0,RF,29,55,drop30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,29,55,drop30_r1,untargeted,True,313,"[""bloodpressure"", ""glucose""]",True,True
+diabetes,0,RF,29,55,rev30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,29,55,rev30_r1,untargeted,True,313,"[""glucose"", ""insulin""]",True,True
+diabetes,0,RF,29,55,drop30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,29,55,drop30_r2,untargeted,True,313,"[""glucose"", ""insulin""]",True,True
+diabetes,0,RF,29,55,rev30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,29,55,rev30_r2,untargeted,True,303,"[""glucose"", ""insulin""]",True,True
+diabetes,0,RF,29,55,empty,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,29,55,empty,untargeted,True,314,"[""glucose""]",True,True
+diabetes,0,RF,29,55,pc,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,29,55,pc,untargeted,True,314,"[""glucose"", ""insulin""]",True,True
+diabetes,0,RF,29,55,gbr,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,29,55,gbr,untargeted,True,314,"[""glucose"", ""insulin""]",True,True
+diabetes,0,RF,30,139,llm,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,30,139,llm,untargeted,True,303,"[""glucose""]",True,True
+diabetes,0,RF,30,139,drop30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,30,139,drop30_r1,untargeted,True,301,"[""glucose""]",True,True
+diabetes,0,RF,30,139,rev30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,30,139,rev30_r1,untargeted,True,303,"[""glucose""]",True,True
+diabetes,0,RF,30,139,drop30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,30,139,drop30_r2,untargeted,True,303,"[""glucose""]",True,True
+diabetes,0,RF,30,139,rev30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,30,139,rev30_r2,untargeted,True,309,"[""bmi"", ""insulin""]",True,False
+diabetes,0,RF,30,139,empty,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,30,139,empty,untargeted,True,304,"[""glucose""]",True,True
+diabetes,0,RF,30,139,pc,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,30,139,pc,untargeted,True,300,"[""bmi"", ""glucose""]",True,True
+diabetes,0,RF,30,139,gbr,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,30,139,gbr,untargeted,True,302,"[""glucose""]",True,True
+diabetes,0,RF,31,93,llm,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,31,93,llm,untargeted,True,315,"[""glucose"", ""insulin""]",True,True
+diabetes,0,RF,31,93,drop30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,31,93,drop30_r1,untargeted,True,315,"[""glucose""]",True,True
+diabetes,0,RF,31,93,rev30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,31,93,rev30_r1,untargeted,True,315,"[""glucose"", ""insulin""]",True,True
+diabetes,0,RF,31,93,drop30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,31,93,drop30_r2,untargeted,True,315,"[""glucose"", ""insulin""]",True,True
+diabetes,0,RF,31,93,rev30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,31,93,rev30_r2,untargeted,True,316,"[""glucose"", ""insulin"", ""skinthickness""]",True,True
+diabetes,0,RF,31,93,empty,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,31,93,empty,untargeted,True,315,"[""glucose""]",True,True
+diabetes,0,RF,31,93,pc,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,31,93,pc,untargeted,True,315,"[""glucose"", ""insulin""]",True,True
+diabetes,0,RF,31,93,gbr,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,31,93,gbr,untargeted,True,315,"[""glucose"", ""insulin""]",True,True
+diabetes,0,RF,32,23,llm,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,32,23,llm,untargeted,True,306,"[""glucose"", ""insulin""]",True,True
+diabetes,0,RF,32,23,drop30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,32,23,drop30_r1,untargeted,True,301,"[""glucose"", ""insulin""]",True,True
+diabetes,0,RF,32,23,rev30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,32,23,rev30_r1,untargeted,True,306,"[""glucose"", ""insulin""]",True,True
+diabetes,0,RF,32,23,drop30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,32,23,drop30_r2,untargeted,True,306,"[""glucose"", ""insulin""]",True,True
+diabetes,0,RF,32,23,rev30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,32,23,rev30_r2,untargeted,True,303,"[""bloodpressure"", ""glucose"", ""insulin""]",True,True
+diabetes,0,RF,32,23,empty,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,32,23,empty,untargeted,True,301,"[""glucose"", ""insulin""]",True,True
+diabetes,0,RF,32,23,pc,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,32,23,pc,untargeted,True,306,"[""glucose"", ""insulin"", ""skinthickness""]",True,True
+diabetes,0,RF,32,23,gbr,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,32,23,gbr,untargeted,True,306,"[""glucose"", ""insulin""]",True,True
+diabetes,0,RF,33,32,llm,acbfi_v3,True,28,"[""glucose""]",True,False
+diabetes,0,RF,33,32,llm,untargeted,True,315,"[""bloodpressure"", ""bmi"", ""insulin"", ""skinthickness""]",True,True
+diabetes,0,RF,33,32,drop30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,33,32,drop30_r1,untargeted,True,313,"[""bmi"", ""insulin"", ""skinthickness""]",True,True
+diabetes,0,RF,33,32,rev30_r1,acbfi_v3,True,28,"[""glucose""]",True,False
+diabetes,0,RF,33,32,rev30_r1,untargeted,True,315,"[""bmi"", ""glucose"", ""insulin"", ""skinthickness""]",True,True
+diabetes,0,RF,33,32,drop30_r2,acbfi_v3,True,28,"[""glucose""]",True,False
+diabetes,0,RF,33,32,drop30_r2,untargeted,True,315,"[""bloodpressure"", ""bmi"", ""insulin"", ""skinthickness""]",True,True
+diabetes,0,RF,33,32,rev30_r2,acbfi_v3,True,28,"[""glucose""]",True,False
+diabetes,0,RF,33,32,rev30_r2,untargeted,True,315,"[""bmi"", ""insulin"", ""skinthickness""]",True,True
+diabetes,0,RF,33,32,empty,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,33,32,empty,untargeted,True,312,"[""bmi"", ""glucose"", ""insulin""]",True,True
+diabetes,0,RF,33,32,pc,acbfi_v3,True,28,"[""glucose""]",False,False
+diabetes,0,RF,33,32,pc,untargeted,True,313,"[""glucose"", ""insulin""]",False,False
+diabetes,0,RF,33,32,gbr,acbfi_v3,True,28,"[""glucose""]",True,False
+diabetes,0,RF,33,32,gbr,untargeted,True,317,"[""bloodpressure"", ""bmi"", ""insulin"", ""skinthickness""]",True,True
+diabetes,0,RF,34,122,llm,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,34,122,llm,untargeted,True,290,"[""glucose""]",True,True
+diabetes,0,RF,34,122,drop30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,34,122,drop30_r1,untargeted,True,282,"[""glucose""]",True,True
+diabetes,0,RF,34,122,rev30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,34,122,rev30_r1,untargeted,True,284,"[""glucose""]",True,True
+diabetes,0,RF,34,122,drop30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,34,122,drop30_r2,untargeted,True,290,"[""glucose""]",True,True
+diabetes,0,RF,34,122,rev30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,34,122,rev30_r2,untargeted,True,277,"[""bloodpressure"", ""bmi"", ""glucose""]",False,False
+diabetes,0,RF,34,122,empty,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,34,122,empty,untargeted,True,279,"[""glucose""]",True,True
+diabetes,0,RF,34,122,pc,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,34,122,pc,untargeted,True,275,"[""bmi"", ""glucose""]",True,True
+diabetes,0,RF,34,122,gbr,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,34,122,gbr,untargeted,True,290,"[""glucose""]",True,True
+diabetes,0,RF,35,25,llm,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,35,25,llm,untargeted,True,313,"[""glucose"", ""insulin""]",True,True
+diabetes,0,RF,35,25,drop30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,35,25,drop30_r1,untargeted,True,313,"[""glucose""]",True,True
+diabetes,0,RF,35,25,rev30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,35,25,rev30_r1,untargeted,True,307,"[""glucose"", ""insulin""]",True,True
+diabetes,0,RF,35,25,drop30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,35,25,drop30_r2,untargeted,True,313,"[""glucose"", ""insulin""]",True,True
+diabetes,0,RF,35,25,rev30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,35,25,rev30_r2,untargeted,True,314,"[""glucose"", ""insulin""]",True,True
+diabetes,0,RF,35,25,empty,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,35,25,empty,untargeted,True,311,"[""glucose""]",True,True
+diabetes,0,RF,35,25,pc,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,35,25,pc,untargeted,True,304,"[""glucose"", ""insulin""]",True,True
+diabetes,0,RF,35,25,gbr,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,35,25,gbr,untargeted,True,313,"[""glucose"", ""insulin""]",True,True
+diabetes,0,RF,36,96,llm,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,36,96,llm,untargeted,True,316,"[""glucose"", ""insulin""]",True,True
+diabetes,0,RF,36,96,drop30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,36,96,drop30_r1,untargeted,True,315,"[""glucose""]",True,True
+diabetes,0,RF,36,96,rev30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,36,96,rev30_r1,untargeted,True,316,"[""glucose"", ""insulin""]",True,True
+diabetes,0,RF,36,96,drop30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,36,96,drop30_r2,untargeted,True,316,"[""glucose"", ""insulin""]",True,True
+diabetes,0,RF,36,96,rev30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,36,96,rev30_r2,untargeted,True,316,"[""bmi"", ""insulin"", ""skinthickness""]",False,True
+diabetes,0,RF,36,96,empty,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,36,96,empty,untargeted,True,315,"[""glucose""]",True,True
+diabetes,0,RF,36,96,pc,acbfi_v3,True,28,"[""bmi""]",False,True
+diabetes,0,RF,36,96,pc,untargeted,True,316,"[""glucose"", ""insulin""]",True,True
+diabetes,0,RF,36,96,gbr,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,36,96,gbr,untargeted,True,316,"[""glucose"", ""insulin""]",True,True
+diabetes,0,RF,37,4,llm,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,37,4,llm,untargeted,True,306,"[""glucose""]",True,True
+diabetes,0,RF,37,4,drop30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,37,4,drop30_r1,untargeted,True,304,"[""glucose""]",True,True
+diabetes,0,RF,37,4,rev30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,37,4,rev30_r1,untargeted,True,308,"[""glucose""]",True,True
+diabetes,0,RF,37,4,drop30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,37,4,drop30_r2,untargeted,True,306,"[""glucose""]",True,True
+diabetes,0,RF,37,4,rev30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,37,4,rev30_r2,untargeted,True,310,"[""bmi"", ""skinthickness""]",True,True
+diabetes,0,RF,37,4,empty,acbfi_v3,True,28,"[""bmi""]",True,True
+diabetes,0,RF,37,4,empty,untargeted,True,294,"[""bmi""]",True,True
+diabetes,0,RF,37,4,pc,acbfi_v3,True,28,"[""bmi""]",True,True
+diabetes,0,RF,37,4,pc,untargeted,True,288,"[""bmi""]",True,True
+diabetes,0,RF,37,4,gbr,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,37,4,gbr,untargeted,True,306,"[""glucose""]",True,True
+diabetes,0,RF,38,36,llm,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,38,36,llm,untargeted,True,303,"[""bloodpressure"", ""bmi""]",True,True
+diabetes,0,RF,38,36,drop30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,38,36,drop30_r1,untargeted,True,303,"[""glucose""]",True,True
+diabetes,0,RF,38,36,rev30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,38,36,rev30_r1,untargeted,True,285,"[""bloodpressure"", ""bmi""]",True,True
+diabetes,0,RF,38,36,drop30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,RF,38,36,drop30_r2,untargeted,True,303,"[""bloodpressure"", ""bmi""]",True,True
+diabetes,0,RF,38,36,rev30_r2,acbfi_v3,True,28,"[""bmi""]",True,True
+diabetes,0,RF,38,36,rev30_r2,untargeted,True,304,"[""bmi""]",True,True
+diabetes,0,RF,38,36,empty,acbfi_v3,True,28,"[""bmi""]",True,True
+diabetes,0,RF,38,36,empty,untargeted,True,301,"[""bmi""]",True,True
+diabetes,0,RF,38,36,pc,acbfi_v3,True,28,"[""bmi""]",True,True
+diabetes,0,RF,38,36,pc,untargeted,True,291,"[""bmi""]",True,True
+diabetes,0,RF,38,36,gbr,acbfi_v3,True,28,"[""insulin""]",True,True
+diabetes,0,RF,38,36,gbr,untargeted,True,310,"[""bloodpressure"", ""bmi"", ""skinthickness""]",True,True
+diabetes,0,SVM,0,96,llm,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,0,96,llm,untargeted,True,309,"[""glucose""]",True,True
+diabetes,0,SVM,0,96,drop30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,0,96,drop30_r1,untargeted,True,302,"[""glucose""]",True,True
+diabetes,0,SVM,0,96,rev30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,0,96,rev30_r1,untargeted,True,309,"[""glucose"", ""insulin""]",True,True
+diabetes,0,SVM,0,96,drop30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,0,96,drop30_r2,untargeted,True,309,"[""glucose""]",True,True
+diabetes,0,SVM,0,96,rev30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,0,96,rev30_r2,untargeted,True,309,"[""glucose"", ""insulin"", ""skinthickness""]",True,True
+diabetes,0,SVM,0,96,empty,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,0,96,empty,untargeted,True,302,"[""glucose""]",True,True
+diabetes,0,SVM,0,96,pc,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,0,96,pc,untargeted,True,308,"[""glucose"", ""insulin""]",True,True
+diabetes,0,SVM,0,96,gbr,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,0,96,gbr,untargeted,True,309,"[""glucose""]",True,True
+diabetes,0,SVM,1,26,llm,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,1,26,llm,untargeted,True,285,"[""glucose"", ""skinthickness""]",True,True
+diabetes,0,SVM,1,26,drop30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,1,26,drop30_r1,untargeted,True,285,"[""glucose"", ""skinthickness""]",True,True
+diabetes,0,SVM,1,26,rev30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,1,26,rev30_r1,untargeted,True,281,"[""bmi"", ""glucose"", ""skinthickness""]",True,True
+diabetes,0,SVM,1,26,drop30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,1,26,drop30_r2,untargeted,True,285,"[""glucose"", ""skinthickness""]",True,True
+diabetes,0,SVM,1,26,rev30_r2,acbfi_v3,True,28,"[""glucose""]",False,False
+diabetes,0,SVM,1,26,rev30_r2,untargeted,True,286,"[""glucose""]",False,False
+diabetes,0,SVM,1,26,empty,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,1,26,empty,untargeted,True,285,"[""glucose"", ""skinthickness""]",True,True
+diabetes,0,SVM,1,26,pc,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,1,26,pc,untargeted,True,280,"[""bmi"", ""glucose"", ""skinthickness""]",True,True
+diabetes,0,SVM,1,26,gbr,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,1,26,gbr,untargeted,True,287,"[""glucose""]",True,True
+diabetes,0,SVM,2,19,llm,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,2,19,llm,untargeted,True,314,"[""glucose"", ""insulin""]",True,True
+diabetes,0,SVM,2,19,drop30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,2,19,drop30_r1,untargeted,True,310,"[""glucose""]",True,True
+diabetes,0,SVM,2,19,rev30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,2,19,rev30_r1,untargeted,True,314,"[""glucose"", ""insulin""]",True,True
+diabetes,0,SVM,2,19,drop30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,2,19,drop30_r2,untargeted,True,314,"[""glucose"", ""insulin""]",True,True
+diabetes,0,SVM,2,19,rev30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,2,19,rev30_r2,untargeted,True,314,"[""glucose"", ""insulin""]",True,True
+diabetes,0,SVM,2,19,empty,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,2,19,empty,untargeted,True,306,"[""glucose""]",True,True
+diabetes,0,SVM,2,19,pc,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,2,19,pc,untargeted,True,307,"[""glucose"", ""insulin""]",True,True
+diabetes,0,SVM,2,19,gbr,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,2,19,gbr,untargeted,True,310,"[""glucose"", ""insulin""]",True,True
+diabetes,0,SVM,3,142,llm,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,3,142,llm,untargeted,True,306,"[""glucose"", ""insulin""]",True,True
+diabetes,0,SVM,3,142,drop30_r1,acbfi_v3,True,28,"[""glucose""]",False,True
+diabetes,0,SVM,3,142,drop30_r1,untargeted,True,320,"[""glucose""]",False,True
+diabetes,0,SVM,3,142,rev30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,3,142,rev30_r1,untargeted,True,305,"[""glucose"", ""insulin""]",True,True
+diabetes,0,SVM,3,142,drop30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,3,142,drop30_r2,untargeted,True,306,"[""glucose"", ""insulin""]",True,True
+diabetes,0,SVM,3,142,rev30_r2,acbfi_v3,True,28,"[""glucose""]",False,True
+diabetes,0,SVM,3,142,rev30_r2,untargeted,True,320,"[""glucose"", ""insulin""]",True,True
+diabetes,0,SVM,3,142,empty,acbfi_v3,True,28,"[""glucose""]",False,True
+diabetes,0,SVM,3,142,empty,untargeted,True,315,"[""glucose""]",False,True
+diabetes,0,SVM,3,142,pc,acbfi_v3,True,28,"[""glucose""]",False,True
+diabetes,0,SVM,3,142,pc,untargeted,True,313,"[""glucose"", ""insulin""]",True,True
+diabetes,0,SVM,3,142,gbr,acbfi_v3,True,28,"[""glucose""]",False,True
+diabetes,0,SVM,3,142,gbr,untargeted,True,320,"[""glucose"", ""insulin""]",True,True
+diabetes,0,SVM,4,23,llm,acbfi_v3,True,28,"[""insulin""]",True,True
+diabetes,0,SVM,4,23,llm,untargeted,True,309,"[""glucose"", ""insulin"", ""skinthickness""]",True,True
+diabetes,0,SVM,4,23,drop30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,4,23,drop30_r1,untargeted,True,303,"[""glucose"", ""skinthickness""]",True,True
+diabetes,0,SVM,4,23,rev30_r1,acbfi_v3,True,28,"[""skinthickness""]",False,False
+diabetes,0,SVM,4,23,rev30_r1,untargeted,True,308,"[""bloodpressure"", ""bmi"", ""glucose"", ""insulin""]",False,True
+diabetes,0,SVM,4,23,drop30_r2,acbfi_v3,True,28,"[""insulin""]",True,True
+diabetes,0,SVM,4,23,drop30_r2,untargeted,True,309,"[""glucose"", ""insulin"", ""skinthickness""]",True,True
+diabetes,0,SVM,4,23,rev30_r2,acbfi_v3,True,28,"[""bmi""]",True,True
+diabetes,0,SVM,4,23,rev30_r2,untargeted,True,312,"[""bloodpressure"", ""glucose"", ""insulin"", ""skinthickness""]",True,True
+diabetes,0,SVM,4,23,empty,acbfi_v3,True,28,"[""bmi""]",True,True
+diabetes,0,SVM,4,23,empty,untargeted,True,303,"[""glucose"", ""skinthickness""]",True,True
+diabetes,0,SVM,4,23,pc,acbfi_v3,True,28,"[""bmi""]",True,True
+diabetes,0,SVM,4,23,pc,untargeted,True,309,"[""glucose"", ""insulin"", ""skinthickness""]",True,True
+diabetes,0,SVM,4,23,gbr,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,4,23,gbr,untargeted,True,309,"[""glucose"", ""insulin"", ""skinthickness""]",True,True
+diabetes,0,SVM,5,84,llm,acbfi_v3,True,28,"[""insulin""]",True,True
+diabetes,0,SVM,5,84,llm,untargeted,True,311,"[""bloodpressure"", ""bmi"", ""insulin"", ""skinthickness""]",True,True
+diabetes,0,SVM,5,84,drop30_r1,acbfi_v3,True,28,"[""insulin""]",True,True
+diabetes,0,SVM,5,84,drop30_r1,untargeted,True,311,"[""bloodpressure"", ""bmi"", ""skinthickness""]",True,True
+diabetes,0,SVM,5,84,rev30_r1,acbfi_v3,True,28,"[""insulin""]",True,True
+diabetes,0,SVM,5,84,rev30_r1,untargeted,True,307,"[""bmi"", ""glucose"", ""skinthickness""]",True,False
+diabetes,0,SVM,5,84,drop30_r2,acbfi_v3,True,28,"[""insulin""]",True,True
+diabetes,0,SVM,5,84,drop30_r2,untargeted,True,311,"[""bloodpressure"", ""bmi"", ""insulin"", ""skinthickness""]",True,True
+diabetes,0,SVM,5,84,rev30_r2,acbfi_v3,True,28,"[""insulin""]",True,True
+diabetes,0,SVM,5,84,rev30_r2,untargeted,True,311,"[""bmi"", ""insulin"", ""skinthickness""]",False,True
+diabetes,0,SVM,5,84,empty,acbfi_v3,True,28,"[""insulin""]",True,True
+diabetes,0,SVM,5,84,empty,untargeted,True,311,"[""bmi"", ""skinthickness""]",False,True
+diabetes,0,SVM,5,84,pc,acbfi_v3,True,28,"[""bmi""]",True,True
+diabetes,0,SVM,5,84,pc,untargeted,True,308,"[""bmi"", ""glucose"", ""skinthickness""]",True,False
+diabetes,0,SVM,5,84,gbr,acbfi_v3,True,28,"[""insulin""]",True,True
+diabetes,0,SVM,5,84,gbr,untargeted,True,311,"[""bloodpressure"", ""bmi"", ""insulin"", ""skinthickness""]",True,True
+diabetes,0,SVM,6,79,llm,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,6,79,llm,untargeted,True,304,"[""glucose"", ""insulin""]",True,True
+diabetes,0,SVM,6,79,drop30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,6,79,drop30_r1,untargeted,True,304,"[""glucose""]",True,True
+diabetes,0,SVM,6,79,rev30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,6,79,rev30_r1,untargeted,True,301,"[""bloodpressure"", ""glucose"", ""insulin""]",True,True
+diabetes,0,SVM,6,79,drop30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,6,79,drop30_r2,untargeted,True,304,"[""glucose"", ""insulin""]",True,True
+diabetes,0,SVM,6,79,rev30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,6,79,rev30_r2,untargeted,True,304,"[""bloodpressure"", ""glucose"", ""insulin"", ""skinthickness""]",True,True
+diabetes,0,SVM,6,79,empty,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,6,79,empty,untargeted,True,304,"[""glucose""]",True,True
+diabetes,0,SVM,6,79,pc,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,6,79,pc,untargeted,True,302,"[""glucose"", ""insulin""]",True,True
+diabetes,0,SVM,6,79,gbr,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,6,79,gbr,untargeted,True,301,"[""bloodpressure"", ""glucose"", ""insulin""]",True,True
+diabetes,0,SVM,7,107,llm,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,7,107,llm,untargeted,True,307,"[""glucose"", ""insulin""]",True,True
+diabetes,0,SVM,7,107,drop30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,7,107,drop30_r1,untargeted,True,304,"[""glucose""]",True,True
+diabetes,0,SVM,7,107,rev30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,7,107,rev30_r1,untargeted,True,305,"[""glucose"", ""insulin""]",True,True
+diabetes,0,SVM,7,107,drop30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,7,107,drop30_r2,untargeted,True,307,"[""glucose"", ""insulin""]",True,True
+diabetes,0,SVM,7,107,rev30_r2,acbfi_v3,True,28,"[""bmi""]",False,True
+diabetes,0,SVM,7,107,rev30_r2,untargeted,True,311,"[""bmi"", ""insulin"", ""skinthickness""]",False,True
+diabetes,0,SVM,7,107,empty,acbfi_v3,True,28,"[""bmi""]",False,True
+diabetes,0,SVM,7,107,empty,untargeted,True,304,"[""bmi"", ""glucose""]",True,True
+diabetes,0,SVM,7,107,pc,acbfi_v3,True,28,"[""glucose""]",False,False
+diabetes,0,SVM,7,107,pc,untargeted,True,303,"[""glucose"", ""insulin""]",False,False
+diabetes,0,SVM,7,107,gbr,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,7,107,gbr,untargeted,True,310,"[""glucose"", ""insulin""]",True,True
+diabetes,0,SVM,8,127,llm,acbfi_v3,True,28,"[""glucose""]",True,False
+diabetes,0,SVM,8,127,llm,untargeted,True,307,"[""glucose""]",True,False
+diabetes,0,SVM,8,127,drop30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,8,127,drop30_r1,untargeted,True,305,"[""glucose"", ""insulin""]",True,True
+diabetes,0,SVM,8,127,rev30_r1,acbfi_v3,True,28,"[""glucose""]",True,False
+diabetes,0,SVM,8,127,rev30_r1,untargeted,True,304,"[""glucose""]",True,False
+diabetes,0,SVM,8,127,drop30_r2,acbfi_v3,True,28,"[""glucose""]",True,False
+diabetes,0,SVM,8,127,drop30_r2,untargeted,True,307,"[""glucose""]",True,False
+diabetes,0,SVM,8,127,rev30_r2,acbfi_v3,True,28,"[""glucose""]",True,False
+diabetes,0,SVM,8,127,rev30_r2,untargeted,True,315,"[""glucose"", ""insulin""]",True,True
+diabetes,0,SVM,8,127,empty,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,8,127,empty,untargeted,True,305,"[""glucose"", ""insulin""]",True,True
+diabetes,0,SVM,8,127,pc,acbfi_v3,True,28,"[""insulin""]",False,False
+diabetes,0,SVM,8,127,pc,untargeted,True,307,"[""insulin""]",False,False
+diabetes,0,SVM,8,127,gbr,acbfi_v3,True,28,"[""glucose""]",True,False
+diabetes,0,SVM,8,127,gbr,untargeted,True,307,"[""glucose"", ""insulin""]",True,True
+diabetes,0,SVM,9,131,llm,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,9,131,llm,untargeted,True,276,"[""glucose""]",True,True
+diabetes,0,SVM,9,131,drop30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,9,131,drop30_r1,untargeted,True,280,"[""glucose""]",True,True
+diabetes,0,SVM,9,131,rev30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,9,131,rev30_r1,untargeted,True,275,"[""glucose""]",True,True
+diabetes,0,SVM,9,131,drop30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,9,131,drop30_r2,untargeted,True,276,"[""glucose""]",True,True
+diabetes,0,SVM,9,131,rev30_r2,acbfi_v3,True,28,"[""skinthickness""]",True,True
+diabetes,0,SVM,9,131,rev30_r2,untargeted,True,283,"[""bmi"", ""glucose"", ""skinthickness""]",False,False
+diabetes,0,SVM,9,131,empty,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,9,131,empty,untargeted,True,277,"[""glucose""]",True,True
+diabetes,0,SVM,9,131,pc,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,9,131,pc,untargeted,True,274,"[""bmi"", ""glucose""]",True,True
+diabetes,0,SVM,9,131,gbr,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,9,131,gbr,untargeted,True,276,"[""glucose""]",True,True
+diabetes,0,SVM,10,34,llm,acbfi_v3,True,28,"[""insulin""]",True,True
+diabetes,0,SVM,10,34,llm,untargeted,True,303,"[""glucose"", ""skinthickness""]",True,False
+diabetes,0,SVM,10,34,drop30_r1,acbfi_v3,True,28,"[""insulin""]",True,True
+diabetes,0,SVM,10,34,drop30_r1,untargeted,True,299,"[""glucose"", ""skinthickness""]",True,True
+diabetes,0,SVM,10,34,rev30_r1,acbfi_v3,True,28,"[""insulin""]",True,True
+diabetes,0,SVM,10,34,rev30_r1,untargeted,True,304,"[""glucose"", ""skinthickness""]",True,False
+diabetes,0,SVM,10,34,drop30_r2,acbfi_v3,True,28,"[""insulin""]",True,True
+diabetes,0,SVM,10,34,drop30_r2,untargeted,True,303,"[""glucose"", ""skinthickness""]",True,False
+diabetes,0,SVM,10,34,rev30_r2,acbfi_v3,True,28,"[""insulin""]",True,True
+diabetes,0,SVM,10,34,rev30_r2,untargeted,True,316,"[""insulin""]",True,True
+diabetes,0,SVM,10,34,empty,acbfi_v3,True,28,"[""insulin""]",True,True
+diabetes,0,SVM,10,34,empty,untargeted,True,299,"[""glucose"", ""skinthickness""]",True,True
+diabetes,0,SVM,10,34,pc,acbfi_v3,True,28,"[""glucose""]",False,False
+diabetes,0,SVM,10,34,pc,untargeted,True,305,"[""glucose""]",False,False
+diabetes,0,SVM,10,34,gbr,acbfi_v3,True,28,"[""glucose""]",False,False
+diabetes,0,SVM,10,34,gbr,untargeted,True,308,"[""glucose""]",False,False
+diabetes,0,SVM,11,53,llm,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,11,53,llm,untargeted,True,311,"[""glucose"", ""insulin""]",True,True
+diabetes,0,SVM,11,53,drop30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,11,53,drop30_r1,untargeted,True,310,"[""glucose""]",True,True
+diabetes,0,SVM,11,53,rev30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,11,53,rev30_r1,untargeted,True,311,"[""glucose"", ""insulin""]",True,True
+diabetes,0,SVM,11,53,drop30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,11,53,drop30_r2,untargeted,True,311,"[""glucose"", ""insulin""]",True,True
+diabetes,0,SVM,11,53,rev30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,11,53,rev30_r2,untargeted,True,313,"[""glucose"", ""insulin"", ""skinthickness""]",True,True
+diabetes,0,SVM,11,53,empty,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,11,53,empty,untargeted,True,310,"[""glucose""]",True,True
+diabetes,0,SVM,11,53,pc,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,11,53,pc,untargeted,True,311,"[""glucose"", ""insulin""]",True,True
+diabetes,0,SVM,11,53,gbr,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,11,53,gbr,untargeted,True,311,"[""glucose"", ""insulin""]",True,True
+diabetes,0,SVM,12,151,llm,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,12,151,llm,untargeted,True,314,"[""glucose"", ""insulin""]",True,True
+diabetes,0,SVM,12,151,drop30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,12,151,drop30_r1,untargeted,True,306,"[""glucose"", ""insulin""]",True,True
+diabetes,0,SVM,12,151,rev30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,12,151,rev30_r1,untargeted,True,314,"[""glucose"", ""insulin""]",True,True
+diabetes,0,SVM,12,151,drop30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,12,151,drop30_r2,untargeted,True,314,"[""glucose"", ""insulin""]",True,True
+diabetes,0,SVM,12,151,rev30_r2,acbfi_v3,True,28,"[""glucose""]",False,False
+diabetes,0,SVM,12,151,rev30_r2,untargeted,True,316,"[""glucose"", ""insulin"", ""skinthickness""]",True,True
+diabetes,0,SVM,12,151,empty,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,12,151,empty,untargeted,True,306,"[""glucose"", ""insulin""]",True,True
+diabetes,0,SVM,12,151,pc,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,12,151,pc,untargeted,True,313,"[""glucose"", ""insulin""]",False,False
+diabetes,0,SVM,12,151,gbr,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,12,151,gbr,untargeted,True,309,"[""glucose"", ""insulin""]",True,True
+diabetes,0,SVM,13,124,llm,acbfi_v3,True,28,"[""skinthickness""]",True,True
+diabetes,0,SVM,13,124,llm,untargeted,True,297,"[""glucose"", ""skinthickness""]",True,True
+diabetes,0,SVM,13,124,drop30_r1,acbfi_v3,True,28,"[""skinthickness""]",True,True
+diabetes,0,SVM,13,124,drop30_r1,untargeted,True,287,"[""glucose"", ""skinthickness""]",True,True
+diabetes,0,SVM,13,124,rev30_r1,acbfi_v3,True,28,"[""skinthickness""]",False,False
+diabetes,0,SVM,13,124,rev30_r1,untargeted,True,290,"[""glucose"", ""insulin""]",True,True
+diabetes,0,SVM,13,124,drop30_r2,acbfi_v3,True,28,"[""skinthickness""]",True,True
+diabetes,0,SVM,13,124,drop30_r2,untargeted,True,297,"[""glucose"", ""skinthickness""]",True,True
+diabetes,0,SVM,13,124,rev30_r2,acbfi_v3,True,28,"[""bmi""]",True,False
+diabetes,0,SVM,13,124,rev30_r2,untargeted,True,297,"[""glucose"", ""skinthickness""]",True,True
+diabetes,0,SVM,13,124,empty,acbfi_v3,True,28,"[""bmi""]",True,True
+diabetes,0,SVM,13,124,empty,untargeted,True,286,"[""glucose"", ""skinthickness""]",True,True
+diabetes,0,SVM,13,124,pc,acbfi_v3,True,28,"[""skinthickness""]",False,False
+diabetes,0,SVM,13,124,pc,untargeted,True,275,"[""bmi"", ""glucose"", ""skinthickness""]",True,True
+diabetes,0,SVM,13,124,gbr,acbfi_v3,True,28,"[""skinthickness""]",True,True
+diabetes,0,SVM,13,124,gbr,untargeted,True,287,"[""glucose"", ""skinthickness""]",True,True
+diabetes,0,SVM,14,42,llm,acbfi_v3,True,28,"[""skinthickness""]",True,True
+diabetes,0,SVM,14,42,llm,untargeted,True,277,"[""skinthickness""]",True,True
+diabetes,0,SVM,14,42,drop30_r1,acbfi_v3,True,28,"[""skinthickness""]",True,True
+diabetes,0,SVM,14,42,drop30_r1,untargeted,True,277,"[""skinthickness""]",True,True
+diabetes,0,SVM,14,42,rev30_r1,acbfi_v3,True,28,"[""skinthickness""]",True,True
+diabetes,0,SVM,14,42,rev30_r1,untargeted,True,277,"[""bloodpressure"", ""bmi"", ""skinthickness""]",True,True
+diabetes,0,SVM,14,42,drop30_r2,acbfi_v3,True,28,"[""skinthickness""]",True,True
+diabetes,0,SVM,14,42,drop30_r2,untargeted,True,277,"[""skinthickness""]",True,True
+diabetes,0,SVM,14,42,rev30_r2,acbfi_v3,True,28,"[""skinthickness""]",True,True
+diabetes,0,SVM,14,42,rev30_r2,untargeted,True,277,"[""skinthickness""]",True,True
+diabetes,0,SVM,14,42,empty,acbfi_v3,True,28,"[""skinthickness""]",True,True
+diabetes,0,SVM,14,42,empty,untargeted,True,277,"[""skinthickness""]",True,True
+diabetes,0,SVM,14,42,pc,acbfi_v3,True,28,"[""skinthickness""]",True,True
+diabetes,0,SVM,14,42,pc,untargeted,True,272,"[""bmi"", ""skinthickness""]",True,True
+diabetes,0,SVM,14,42,gbr,acbfi_v3,True,28,"[""skinthickness""]",True,True
+diabetes,0,SVM,14,42,gbr,untargeted,True,285,"[""skinthickness""]",True,True
+diabetes,0,SVM,15,138,llm,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,15,138,llm,untargeted,True,301,"[""glucose"", ""insulin""]",True,True
+diabetes,0,SVM,15,138,drop30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,15,138,drop30_r1,untargeted,True,301,"[""glucose""]",True,True
+diabetes,0,SVM,15,138,rev30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,15,138,rev30_r1,untargeted,True,301,"[""glucose"", ""insulin""]",True,True
+diabetes,0,SVM,15,138,drop30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,15,138,drop30_r2,untargeted,True,301,"[""glucose"", ""insulin""]",True,True
+diabetes,0,SVM,15,138,rev30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,15,138,rev30_r2,untargeted,True,301,"[""bmi"", ""glucose"", ""insulin""]",True,True
+diabetes,0,SVM,15,138,empty,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,15,138,empty,untargeted,True,301,"[""glucose""]",True,True
+diabetes,0,SVM,15,138,pc,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,15,138,pc,untargeted,True,303,"[""bmi"", ""glucose"", ""insulin""]",True,True
+diabetes,0,SVM,15,138,gbr,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,15,138,gbr,untargeted,True,301,"[""glucose"", ""insulin""]",True,True
+diabetes,0,SVM,16,97,llm,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,16,97,llm,untargeted,True,310,"[""glucose"", ""insulin""]",True,True
+diabetes,0,SVM,16,97,drop30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,16,97,drop30_r1,untargeted,True,310,"[""glucose""]",True,True
+diabetes,0,SVM,16,97,rev30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,16,97,rev30_r1,untargeted,True,306,"[""glucose"", ""insulin""]",True,True
+diabetes,0,SVM,16,97,drop30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,16,97,drop30_r2,untargeted,True,310,"[""glucose"", ""insulin""]",True,True
+diabetes,0,SVM,16,97,rev30_r2,acbfi_v3,True,28,"[""skinthickness""]",True,True
+diabetes,0,SVM,16,97,rev30_r2,untargeted,True,310,"[""skinthickness""]",True,True
+diabetes,0,SVM,16,97,empty,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,16,97,empty,untargeted,True,310,"[""glucose""]",True,True
+diabetes,0,SVM,16,97,pc,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,16,97,pc,untargeted,True,308,"[""bmi"", ""glucose"", ""insulin""]",True,True
+diabetes,0,SVM,16,97,gbr,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,16,97,gbr,untargeted,True,310,"[""glucose"", ""insulin""]",True,True
+diabetes,0,SVM,17,44,llm,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,17,44,llm,untargeted,True,282,"[""glucose"", ""skinthickness""]",True,False
+diabetes,0,SVM,17,44,drop30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,17,44,drop30_r1,untargeted,True,281,"[""bmi"", ""glucose"", ""skinthickness""]",True,True
+diabetes,0,SVM,17,44,rev30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,17,44,rev30_r1,untargeted,True,276,"[""glucose"", ""skinthickness""]",True,False
+diabetes,0,SVM,17,44,drop30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,17,44,drop30_r2,untargeted,True,282,"[""glucose"", ""skinthickness""]",True,False
+diabetes,0,SVM,17,44,rev30_r2,acbfi_v3,True,28,"[""glucose""]",False,False
+diabetes,0,SVM,17,44,rev30_r2,untargeted,True,296,"[""glucose""]",False,False
+diabetes,0,SVM,17,44,empty,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,17,44,empty,untargeted,True,281,"[""bmi"", ""glucose"", ""skinthickness""]",True,True
+diabetes,0,SVM,17,44,pc,acbfi_v3,True,28,"[""glucose""]",False,False
+diabetes,0,SVM,17,44,pc,untargeted,True,295,"[""bmi"", ""glucose""]",True,False
+diabetes,0,SVM,17,44,gbr,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,17,44,gbr,untargeted,True,287,"[""glucose"", ""insulin""]",True,True
+diabetes,0,SVM,18,122,llm,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,18,122,llm,untargeted,True,280,"[""glucose"", ""insulin""]",True,True
+diabetes,0,SVM,18,122,drop30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,18,122,drop30_r1,untargeted,True,280,"[""glucose""]",True,True
+diabetes,0,SVM,18,122,rev30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,18,122,rev30_r1,untargeted,True,276,"[""glucose"", ""insulin""]",True,True
+diabetes,0,SVM,18,122,drop30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,18,122,drop30_r2,untargeted,True,280,"[""glucose"", ""insulin""]",True,True
+diabetes,0,SVM,18,122,rev30_r2,acbfi_v3,True,28,"[""glucose""]",False,False
+diabetes,0,SVM,18,122,rev30_r2,untargeted,True,285,"[""bmi"", ""glucose""]",False,False
+diabetes,0,SVM,18,122,empty,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,18,122,empty,untargeted,True,280,"[""glucose""]",True,True
+diabetes,0,SVM,18,122,pc,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,18,122,pc,untargeted,True,280,"[""bmi"", ""glucose"", ""skinthickness""]",True,True
+diabetes,0,SVM,18,122,gbr,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,18,122,gbr,untargeted,True,280,"[""glucose"", ""insulin""]",True,True
+diabetes,0,SVM,19,136,llm,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,19,136,llm,untargeted,True,280,"[""glucose"", ""skinthickness""]",True,True
+diabetes,0,SVM,19,136,drop30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,19,136,drop30_r1,untargeted,True,280,"[""glucose"", ""skinthickness""]",True,True
+diabetes,0,SVM,19,136,rev30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,19,136,rev30_r1,untargeted,True,277,"[""bloodpressure"", ""glucose"", ""skinthickness""]",True,True
+diabetes,0,SVM,19,136,drop30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,19,136,drop30_r2,untargeted,True,280,"[""glucose"", ""skinthickness""]",True,True
+diabetes,0,SVM,19,136,rev30_r2,acbfi_v3,True,28,"[""glucose""]",False,False
+diabetes,0,SVM,19,136,rev30_r2,untargeted,True,283,"[""bloodpressure"", ""glucose""]",False,False
+diabetes,0,SVM,19,136,empty,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,19,136,empty,untargeted,True,280,"[""glucose"", ""skinthickness""]",True,True
+diabetes,0,SVM,19,136,pc,acbfi_v3,True,28,"[""glucose""]",False,False
+diabetes,0,SVM,19,136,pc,untargeted,True,282,"[""glucose""]",False,False
+diabetes,0,SVM,19,136,gbr,acbfi_v3,True,28,"[""glucose""]",False,False
+diabetes,0,SVM,19,136,gbr,untargeted,True,283,"[""glucose""]",False,False
+diabetes,0,SVM,20,100,llm,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,20,100,llm,untargeted,True,309,"[""glucose"", ""insulin""]",True,True
+diabetes,0,SVM,20,100,drop30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,20,100,drop30_r1,untargeted,True,306,"[""glucose""]",True,True
+diabetes,0,SVM,20,100,rev30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,20,100,rev30_r1,untargeted,True,309,"[""glucose"", ""insulin""]",True,True
+diabetes,0,SVM,20,100,drop30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,20,100,drop30_r2,untargeted,True,309,"[""glucose"", ""insulin""]",True,True
+diabetes,0,SVM,20,100,rev30_r2,acbfi_v3,True,28,"[""glucose""]",False,False
+diabetes,0,SVM,20,100,rev30_r2,untargeted,True,308,"[""bloodpressure"", ""bmi"", ""glucose"", ""insulin"", ""skinthickness""]",False,False
+diabetes,0,SVM,20,100,empty,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,20,100,empty,untargeted,True,299,"[""glucose""]",True,True
+diabetes,0,SVM,20,100,pc,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,20,100,pc,untargeted,True,306,"[""bloodpressure"", ""bmi"", ""glucose"", ""insulin"", ""skinthickness""]",True,True
+diabetes,0,SVM,20,100,gbr,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,20,100,gbr,untargeted,True,311,"[""glucose"", ""insulin""]",True,True
+diabetes,0,SVM,21,14,llm,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,21,14,llm,untargeted,True,303,"[""glucose""]",True,True
+diabetes,0,SVM,21,14,drop30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,21,14,drop30_r1,untargeted,True,296,"[""glucose""]",True,True
+diabetes,0,SVM,21,14,rev30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,21,14,rev30_r1,untargeted,True,293,"[""glucose"", ""insulin""]",True,True
+diabetes,0,SVM,21,14,drop30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,21,14,drop30_r2,untargeted,True,303,"[""glucose""]",True,True
+diabetes,0,SVM,21,14,rev30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,21,14,rev30_r2,untargeted,True,303,"[""glucose""]",True,True
+diabetes,0,SVM,21,14,empty,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,21,14,empty,untargeted,True,291,"[""glucose""]",True,True
+diabetes,0,SVM,21,14,pc,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,21,14,pc,untargeted,True,298,"[""glucose"", ""skinthickness""]",True,True
+diabetes,0,SVM,21,14,gbr,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,21,14,gbr,untargeted,True,303,"[""glucose""]",True,True
+diabetes,0,SVM,22,85,llm,acbfi_v3,True,28,"[""bmi""]",True,True
+diabetes,0,SVM,22,85,llm,untargeted,True,293,"[""bloodpressure"", ""bmi"", ""skinthickness""]",True,True
+diabetes,0,SVM,22,85,drop30_r1,acbfi_v3,True,28,"[""bmi""]",True,True
+diabetes,0,SVM,22,85,drop30_r1,untargeted,True,292,"[""bloodpressure"", ""bmi"", ""skinthickness""]",True,True
+diabetes,0,SVM,22,85,rev30_r1,acbfi_v3,True,28,"[""bmi""]",True,True
+diabetes,0,SVM,22,85,rev30_r1,untargeted,True,292,"[""bloodpressure"", ""bmi""]",True,True
+diabetes,0,SVM,22,85,drop30_r2,acbfi_v3,True,28,"[""bmi""]",True,True
+diabetes,0,SVM,22,85,drop30_r2,untargeted,True,293,"[""bloodpressure"", ""bmi"", ""skinthickness""]",True,True
+diabetes,0,SVM,22,85,rev30_r2,acbfi_v3,True,28,"[""bmi""]",True,True
+diabetes,0,SVM,22,85,rev30_r2,untargeted,True,293,"[""bmi"", ""skinthickness""]",True,True
+diabetes,0,SVM,22,85,empty,acbfi_v3,True,28,"[""bmi""]",True,True
+diabetes,0,SVM,22,85,empty,untargeted,True,292,"[""bmi""]",True,True
+diabetes,0,SVM,22,85,pc,acbfi_v3,True,28,"[""bmi""]",True,True
+diabetes,0,SVM,22,85,pc,untargeted,True,293,"[""bmi""]",True,True
+diabetes,0,SVM,22,85,gbr,acbfi_v3,True,28,"[""bmi""]",True,True
+diabetes,0,SVM,22,85,gbr,untargeted,True,304,"[""bloodpressure"", ""bmi"", ""insulin"", ""skinthickness""]",True,True
+diabetes,0,SVM,23,93,llm,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,23,93,llm,untargeted,True,316,"[""glucose"", ""insulin""]",True,True
+diabetes,0,SVM,23,93,drop30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,23,93,drop30_r1,untargeted,True,316,"[""glucose""]",True,True
+diabetes,0,SVM,23,93,rev30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,23,93,rev30_r1,untargeted,True,316,"[""glucose"", ""insulin""]",True,True
+diabetes,0,SVM,23,93,drop30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,23,93,drop30_r2,untargeted,True,316,"[""glucose"", ""insulin""]",True,True
+diabetes,0,SVM,23,93,rev30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,23,93,rev30_r2,untargeted,True,316,"[""glucose"", ""insulin""]",False,False
+diabetes,0,SVM,23,93,empty,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,23,93,empty,untargeted,True,316,"[""glucose""]",True,True
+diabetes,0,SVM,23,93,pc,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,23,93,pc,untargeted,True,312,"[""glucose"", ""insulin""]",True,True
+diabetes,0,SVM,23,93,gbr,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,23,93,gbr,untargeted,True,316,"[""glucose"", ""insulin""]",True,True
+diabetes,0,SVM,24,135,llm,acbfi_v3,True,28,"[""glucose""]",True,False
+diabetes,0,SVM,24,135,llm,untargeted,True,299,"[""glucose""]",True,False
+diabetes,0,SVM,24,135,drop30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,24,135,drop30_r1,untargeted,True,289,"[""glucose"", ""skinthickness""]",True,True
+diabetes,0,SVM,24,135,rev30_r1,acbfi_v3,True,28,"[""glucose""]",True,False
+diabetes,0,SVM,24,135,rev30_r1,untargeted,True,297,"[""glucose""]",True,False
+diabetes,0,SVM,24,135,drop30_r2,acbfi_v3,True,28,"[""glucose""]",True,False
+diabetes,0,SVM,24,135,drop30_r2,untargeted,True,299,"[""glucose""]",True,False
+diabetes,0,SVM,24,135,rev30_r2,acbfi_v3,True,28,"[""glucose""]",True,False
+diabetes,0,SVM,24,135,rev30_r2,untargeted,True,284,"[""bloodpressure"", ""glucose""]",True,False
+diabetes,0,SVM,24,135,empty,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,24,135,empty,untargeted,True,286,"[""glucose"", ""skinthickness""]",True,True
+diabetes,0,SVM,24,135,pc,acbfi_v3,True,28,"[""glucose""]",True,False
+diabetes,0,SVM,24,135,pc,untargeted,True,298,"[""bmi"", ""glucose""]",False,False
+diabetes,0,SVM,24,135,gbr,acbfi_v3,True,28,"[""glucose""]",True,False
+diabetes,0,SVM,24,135,gbr,untargeted,True,304,"[""glucose""]",True,False
+diabetes,0,SVM,25,62,llm,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,25,62,llm,untargeted,True,285,"[""bloodpressure"", ""bmi"", ""skinthickness""]",True,True
+diabetes,0,SVM,25,62,drop30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,25,62,drop30_r1,untargeted,True,281,"[""bmi"", ""skinthickness""]",False,False
+diabetes,0,SVM,25,62,rev30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,25,62,rev30_r1,untargeted,True,280,"[""glucose"", ""skinthickness""]",False,False
+diabetes,0,SVM,25,62,drop30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,25,62,drop30_r2,untargeted,True,285,"[""bloodpressure"", ""bmi"", ""skinthickness""]",True,True
+diabetes,0,SVM,25,62,rev30_r2,acbfi_v3,True,28,"[""glucose""]",False,False
+diabetes,0,SVM,25,62,rev30_r2,untargeted,True,285,"[""bloodpressure"", ""bmi"", ""skinthickness""]",True,True
+diabetes,0,SVM,25,62,empty,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,25,62,empty,untargeted,True,283,"[""bmi"", ""glucose"", ""skinthickness""]",True,True
+diabetes,0,SVM,25,62,pc,acbfi_v3,True,28,"[""skinthickness""]",False,False
+diabetes,0,SVM,25,62,pc,untargeted,True,282,"[""bmi"", ""glucose"", ""skinthickness""]",True,True
+diabetes,0,SVM,25,62,gbr,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,25,62,gbr,untargeted,True,296,"[""bloodpressure"", ""bmi"", ""skinthickness""]",True,True
+diabetes,0,SVM,26,3,llm,acbfi_v3,True,28,"[""skinthickness""]",True,True
+diabetes,0,SVM,26,3,llm,untargeted,True,296,"[""skinthickness""]",True,True
+diabetes,0,SVM,26,3,drop30_r1,acbfi_v3,True,28,"[""skinthickness""]",True,True
+diabetes,0,SVM,26,3,drop30_r1,untargeted,True,296,"[""skinthickness""]",True,True
+diabetes,0,SVM,26,3,rev30_r1,acbfi_v3,True,28,"[""skinthickness""]",True,True
+diabetes,0,SVM,26,3,rev30_r1,untargeted,True,302,"[""bloodpressure"", ""skinthickness""]",True,True
+diabetes,0,SVM,26,3,drop30_r2,acbfi_v3,True,28,"[""skinthickness""]",True,True
+diabetes,0,SVM,26,3,drop30_r2,untargeted,True,296,"[""skinthickness""]",True,True
+diabetes,0,SVM,26,3,rev30_r2,acbfi_v3,True,28,"[""skinthickness""]",True,True
+diabetes,0,SVM,26,3,rev30_r2,untargeted,True,300,"[""glucose"", ""insulin"", ""skinthickness""]",False,False
+diabetes,0,SVM,26,3,empty,acbfi_v3,True,28,"[""skinthickness""]",True,True
+diabetes,0,SVM,26,3,empty,untargeted,True,296,"[""skinthickness""]",True,True
+diabetes,0,SVM,26,3,pc,acbfi_v3,True,28,"[""skinthickness""]",True,True
+diabetes,0,SVM,26,3,pc,untargeted,True,298,"[""bloodpressure"", ""glucose"", ""skinthickness""]",True,True
+diabetes,0,SVM,26,3,gbr,acbfi_v3,True,28,"[""skinthickness""]",True,True
+diabetes,0,SVM,26,3,gbr,untargeted,True,296,"[""skinthickness""]",True,True
+diabetes,0,SVM,27,24,llm,acbfi_v3,True,28,"[""skinthickness""]",True,True
+diabetes,0,SVM,27,24,llm,untargeted,True,310,"[""glucose"", ""insulin""]",True,True
+diabetes,0,SVM,27,24,drop30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,27,24,drop30_r1,untargeted,True,307,"[""glucose""]",True,True
+diabetes,0,SVM,27,24,rev30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,27,24,rev30_r1,untargeted,True,308,"[""glucose"", ""insulin""]",True,True
+diabetes,0,SVM,27,24,drop30_r2,acbfi_v3,True,28,"[""skinthickness""]",True,True
+diabetes,0,SVM,27,24,drop30_r2,untargeted,True,310,"[""glucose"", ""insulin""]",True,True
+diabetes,0,SVM,27,24,rev30_r2,acbfi_v3,True,28,"[""skinthickness""]",True,True
+diabetes,0,SVM,27,24,rev30_r2,untargeted,True,307,"[""skinthickness""]",True,True
+diabetes,0,SVM,27,24,empty,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,27,24,empty,untargeted,True,310,"[""glucose""]",True,True
+diabetes,0,SVM,27,24,pc,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,27,24,pc,untargeted,True,309,"[""glucose"", ""insulin""]",True,True
+diabetes,0,SVM,27,24,gbr,acbfi_v3,True,28,"[""skinthickness""]",True,True
+diabetes,0,SVM,27,24,gbr,untargeted,True,310,"[""glucose"", ""insulin""]",True,True
+diabetes,0,SVM,28,48,llm,acbfi_v3,True,28,"[""insulin""]",True,True
+diabetes,0,SVM,28,48,llm,untargeted,True,308,"[""bloodpressure"", ""bmi"", ""glucose"", ""insulin"", ""skinthickness""]",True,True
+diabetes,0,SVM,28,48,drop30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,28,48,drop30_r1,untargeted,True,301,"[""bloodpressure"", ""bmi"", ""glucose"", ""skinthickness""]",False,True
+diabetes,0,SVM,28,48,rev30_r1,acbfi_v3,True,28,"[""insulin""]",True,True
+diabetes,0,SVM,28,48,rev30_r1,untargeted,True,304,"[""bloodpressure"", ""bmi"", ""glucose"", ""insulin""]",False,True
+diabetes,0,SVM,28,48,drop30_r2,acbfi_v3,True,28,"[""insulin""]",True,True
+diabetes,0,SVM,28,48,drop30_r2,untargeted,True,308,"[""bloodpressure"", ""bmi"", ""glucose"", ""insulin"", ""skinthickness""]",True,True
+diabetes,0,SVM,28,48,rev30_r2,acbfi_v3,True,28,"[""insulin""]",True,True
+diabetes,0,SVM,28,48,rev30_r2,untargeted,True,309,"[""bloodpressure"", ""glucose"", ""insulin"", ""skinthickness""]",True,True
+diabetes,0,SVM,28,48,empty,acbfi_v3,True,28,"[""bmi""]",True,True
+diabetes,0,SVM,28,48,empty,untargeted,True,299,"[""bmi"", ""glucose""]",False,True
+diabetes,0,SVM,28,48,pc,acbfi_v3,True,28,"[""bmi""]",True,True
+diabetes,0,SVM,28,48,pc,untargeted,True,301,"[""bmi"", ""glucose"", ""insulin""]",False,True
+diabetes,0,SVM,28,48,gbr,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,28,48,gbr,untargeted,True,308,"[""bloodpressure"", ""bmi"", ""glucose"", ""insulin"", ""skinthickness""]",True,True
+diabetes,0,SVM,29,32,llm,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,29,32,llm,untargeted,True,300,"[""glucose""]",True,True
+diabetes,0,SVM,29,32,drop30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,29,32,drop30_r1,untargeted,True,284,"[""glucose""]",True,True
+diabetes,0,SVM,29,32,rev30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,29,32,rev30_r1,untargeted,True,299,"[""glucose"", ""insulin""]",True,True
+diabetes,0,SVM,29,32,drop30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,29,32,drop30_r2,untargeted,True,300,"[""glucose""]",True,True
+diabetes,0,SVM,29,32,rev30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,29,32,rev30_r2,untargeted,True,300,"[""glucose""]",True,True
+diabetes,0,SVM,29,32,empty,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,29,32,empty,untargeted,True,283,"[""glucose""]",True,True
+diabetes,0,SVM,29,32,pc,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,29,32,pc,untargeted,True,296,"[""bmi"", ""glucose""]",True,True
+diabetes,0,SVM,29,32,gbr,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,29,32,gbr,untargeted,True,309,"[""glucose"", ""insulin""]",True,True
+diabetes,0,SVM,30,113,llm,acbfi_v3,True,28,"[""glucose""]",True,False
+diabetes,0,SVM,30,113,llm,untargeted,True,305,"[""glucose"", ""insulin"", ""skinthickness""]",True,True
+diabetes,0,SVM,30,113,drop30_r1,acbfi_v3,True,28,"[""bmi""]",True,True
+diabetes,0,SVM,30,113,drop30_r1,untargeted,True,289,"[""glucose"", ""skinthickness""]",True,True
+diabetes,0,SVM,30,113,rev30_r1,acbfi_v3,True,28,"[""glucose""]",True,False
+diabetes,0,SVM,30,113,rev30_r1,untargeted,True,300,"[""glucose""]",True,False
+diabetes,0,SVM,30,113,drop30_r2,acbfi_v3,True,28,"[""glucose""]",True,False
+diabetes,0,SVM,30,113,drop30_r2,untargeted,True,305,"[""glucose"", ""insulin"", ""skinthickness""]",True,True
+diabetes,0,SVM,30,113,rev30_r2,acbfi_v3,True,28,"[""glucose""]",False,False
+diabetes,0,SVM,30,113,rev30_r2,untargeted,True,313,"[""glucose"", ""insulin""]",False,False
+diabetes,0,SVM,30,113,empty,acbfi_v3,True,28,"[""bmi""]",True,True
+diabetes,0,SVM,30,113,empty,untargeted,True,290,"[""glucose"", ""skinthickness""]",True,True
+diabetes,0,SVM,30,113,pc,acbfi_v3,True,28,"[""glucose""]",True,False
+diabetes,0,SVM,30,113,pc,untargeted,True,298,"[""glucose"", ""insulin""]",False,False
+diabetes,0,SVM,30,113,gbr,acbfi_v3,True,28,"[""bmi""]",True,True
+diabetes,0,SVM,30,113,gbr,untargeted,True,298,"[""glucose"", ""skinthickness""]",True,True
+diabetes,0,SVM,31,120,llm,acbfi_v3,True,28,"[""glucose""]",True,False
+diabetes,0,SVM,31,120,llm,untargeted,True,309,"[""glucose""]",True,False
+diabetes,0,SVM,31,120,drop30_r1,acbfi_v3,True,28,"[""skinthickness""]",True,True
+diabetes,0,SVM,31,120,drop30_r1,untargeted,True,307,"[""glucose"", ""skinthickness""]",True,True
+diabetes,0,SVM,31,120,rev30_r1,acbfi_v3,True,28,"[""glucose""]",True,False
+diabetes,0,SVM,31,120,rev30_r1,untargeted,True,304,"[""glucose""]",True,False
+diabetes,0,SVM,31,120,drop30_r2,acbfi_v3,True,28,"[""glucose""]",True,False
+diabetes,0,SVM,31,120,drop30_r2,untargeted,True,309,"[""glucose""]",True,False
+diabetes,0,SVM,31,120,rev30_r2,acbfi_v3,True,28,"[""glucose""]",True,False
+diabetes,0,SVM,31,120,rev30_r2,untargeted,True,307,"[""glucose""]",True,False
+diabetes,0,SVM,31,120,empty,acbfi_v3,True,28,"[""skinthickness""]",True,True
+diabetes,0,SVM,31,120,empty,untargeted,True,304,"[""glucose"", ""skinthickness""]",True,True
+diabetes,0,SVM,31,120,pc,acbfi_v3,True,28,"[""glucose""]",True,False
+diabetes,0,SVM,31,120,pc,untargeted,True,295,"[""bmi"", ""glucose""]",True,False
+diabetes,0,SVM,31,120,gbr,acbfi_v3,True,28,"[""glucose""]",True,False
+diabetes,0,SVM,31,120,gbr,untargeted,True,311,"[""glucose"", ""insulin""]",True,True
+diabetes,0,SVM,32,134,llm,acbfi_v3,True,28,"[""insulin""]",True,True
+diabetes,0,SVM,32,134,llm,untargeted,True,302,"[""insulin""]",True,True
+diabetes,0,SVM,32,134,drop30_r1,acbfi_v3,True,28,"[""insulin""]",True,True
+diabetes,0,SVM,32,134,drop30_r1,untargeted,True,302,"[""insulin""]",True,True
+diabetes,0,SVM,32,134,rev30_r1,acbfi_v3,True,28,"[""insulin""]",True,True
+diabetes,0,SVM,32,134,rev30_r1,untargeted,True,301,"[""insulin""]",True,True
+diabetes,0,SVM,32,134,drop30_r2,acbfi_v3,True,28,"[""insulin""]",True,True
+diabetes,0,SVM,32,134,drop30_r2,untargeted,True,302,"[""insulin""]",True,True
+diabetes,0,SVM,32,134,rev30_r2,acbfi_v3,True,28,"[""insulin""]",True,True
+diabetes,0,SVM,32,134,rev30_r2,untargeted,True,310,"[""insulin""]",True,True
+diabetes,0,SVM,32,134,empty,acbfi_v3,True,28,"[""insulin""]",True,True
+diabetes,0,SVM,32,134,empty,untargeted,True,305,"[""insulin""]",True,True
+diabetes,0,SVM,32,134,pc,acbfi_v3,True,28,"[""bmi""]",True,True
+diabetes,0,SVM,32,134,pc,untargeted,True,307,"[""insulin"", ""skinthickness""]",True,True
+diabetes,0,SVM,32,134,gbr,acbfi_v3,True,28,"[""insulin""]",True,True
+diabetes,0,SVM,32,134,gbr,untargeted,True,304,"[""insulin""]",True,True
+diabetes,0,SVM,33,71,llm,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,33,71,llm,untargeted,True,307,"[""glucose"", ""skinthickness""]",True,False
+diabetes,0,SVM,33,71,drop30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,33,71,drop30_r1,untargeted,True,307,"[""glucose"", ""insulin""]",True,True
+diabetes,0,SVM,33,71,rev30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,33,71,rev30_r1,untargeted,True,307,"[""glucose"", ""insulin""]",True,True
+diabetes,0,SVM,33,71,drop30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,33,71,drop30_r2,untargeted,True,307,"[""glucose"", ""skinthickness""]",True,False
+diabetes,0,SVM,33,71,rev30_r2,acbfi_v3,True,28,"[""glucose""]",False,False
+diabetes,0,SVM,33,71,rev30_r2,untargeted,True,318,"[""glucose"", ""insulin""]",False,False
+diabetes,0,SVM,33,71,empty,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,33,71,empty,untargeted,True,306,"[""bmi"", ""glucose""]",True,True
+diabetes,0,SVM,33,71,pc,acbfi_v3,True,28,"[""glucose""]",False,False
+diabetes,0,SVM,33,71,pc,untargeted,True,303,"[""glucose"", ""insulin"", ""skinthickness""]",False,False
+diabetes,0,SVM,33,71,gbr,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,33,71,gbr,untargeted,True,309,"[""glucose"", ""insulin""]",True,True
+diabetes,0,SVM,34,45,llm,acbfi_v3,True,28,"[""bloodpressure""]",True,True
+diabetes,0,SVM,34,45,llm,untargeted,True,281,"[""bmi"", ""glucose"", ""skinthickness""]",True,False
+diabetes,0,SVM,34,45,drop30_r1,acbfi_v3,True,28,"[""glucose""]",False,True
+diabetes,0,SVM,34,45,drop30_r1,untargeted,True,280,"[""glucose"", ""skinthickness""]",True,True
+diabetes,0,SVM,34,45,rev30_r1,acbfi_v3,True,28,"[""skinthickness""]",False,False
+diabetes,0,SVM,34,45,rev30_r1,untargeted,True,276,"[""bmi"", ""glucose"", ""skinthickness""]",True,False
+diabetes,0,SVM,34,45,drop30_r2,acbfi_v3,True,28,"[""bloodpressure""]",True,True
+diabetes,0,SVM,34,45,drop30_r2,untargeted,True,281,"[""bmi"", ""glucose"", ""skinthickness""]",True,False
+diabetes,0,SVM,34,45,rev30_r2,acbfi_v3,True,28,"[""glucose""]",False,False
+diabetes,0,SVM,34,45,rev30_r2,untargeted,True,285,"[""bmi"", ""glucose"", ""skinthickness""]",True,True
+diabetes,0,SVM,34,45,empty,acbfi_v3,True,28,"[""glucose""]",False,True
+diabetes,0,SVM,34,45,empty,untargeted,True,281,"[""bmi"", ""glucose""]",True,True
+diabetes,0,SVM,34,45,pc,acbfi_v3,True,28,"[""glucose""]",False,False
+diabetes,0,SVM,34,45,pc,untargeted,True,278,"[""bmi"", ""glucose"", ""skinthickness""]",True,False
+diabetes,0,SVM,34,45,gbr,acbfi_v3,True,28,"[""bloodpressure""]",True,True
+diabetes,0,SVM,34,45,gbr,untargeted,True,283,"[""bloodpressure"", ""glucose""]",False,False
+diabetes,0,SVM,35,25,llm,acbfi_v3,True,28,"[""glucose""]",True,False
+diabetes,0,SVM,35,25,llm,untargeted,True,308,"[""glucose""]",True,False
+diabetes,0,SVM,35,25,drop30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,35,25,drop30_r1,untargeted,True,307,"[""bloodpressure"", ""glucose""]",True,True
+diabetes,0,SVM,35,25,rev30_r1,acbfi_v3,True,28,"[""glucose""]",True,False
+diabetes,0,SVM,35,25,rev30_r1,untargeted,True,306,"[""glucose""]",True,False
+diabetes,0,SVM,35,25,drop30_r2,acbfi_v3,True,28,"[""glucose""]",True,False
+diabetes,0,SVM,35,25,drop30_r2,untargeted,True,308,"[""glucose""]",True,False
+diabetes,0,SVM,35,25,rev30_r2,acbfi_v3,True,28,"[""glucose""]",True,False
+diabetes,0,SVM,35,25,rev30_r2,untargeted,True,309,"[""glucose"", ""insulin""]",False,False
+diabetes,0,SVM,35,25,empty,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,35,25,empty,untargeted,True,307,"[""bloodpressure"", ""glucose""]",True,True
+diabetes,0,SVM,35,25,pc,acbfi_v3,True,28,"[""glucose""]",True,False
+diabetes,0,SVM,35,25,pc,untargeted,True,305,"[""glucose""]",True,False
+diabetes,0,SVM,35,25,gbr,acbfi_v3,True,28,"[""glucose""]",True,False
+diabetes,0,SVM,35,25,gbr,untargeted,True,308,"[""glucose""]",True,False
+diabetes,0,SVM,36,117,llm,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,36,117,llm,untargeted,True,304,"[""glucose"", ""insulin""]",True,True
+diabetes,0,SVM,36,117,drop30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,36,117,drop30_r1,untargeted,True,301,"[""glucose"", ""insulin""]",True,True
+diabetes,0,SVM,36,117,rev30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,36,117,rev30_r1,untargeted,True,306,"[""glucose"", ""insulin""]",True,True
+diabetes,0,SVM,36,117,drop30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,36,117,drop30_r2,untargeted,True,304,"[""glucose"", ""insulin""]",True,True
+diabetes,0,SVM,36,117,rev30_r2,acbfi_v3,True,28,"[""skinthickness""]",True,True
+diabetes,0,SVM,36,117,rev30_r2,untargeted,True,303,"[""bloodpressure"", ""glucose"", ""insulin""]",False,False
+diabetes,0,SVM,36,117,empty,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,36,117,empty,untargeted,True,298,"[""glucose"", ""insulin""]",True,True
+diabetes,0,SVM,36,117,pc,acbfi_v3,True,28,"[""glucose""]",False,False
+diabetes,0,SVM,36,117,pc,untargeted,True,297,"[""glucose"", ""skinthickness""]",False,False
+diabetes,0,SVM,36,117,gbr,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,36,117,gbr,untargeted,True,302,"[""bloodpressure"", ""bmi"", ""glucose"", ""insulin""]",False,False
+diabetes,0,SVM,37,94,llm,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,37,94,llm,untargeted,True,305,"[""bloodpressure"", ""glucose"", ""insulin""]",True,True
+diabetes,0,SVM,37,94,drop30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,37,94,drop30_r1,untargeted,True,304,"[""bloodpressure"", ""glucose""]",True,True
+diabetes,0,SVM,37,94,rev30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,37,94,rev30_r1,untargeted,True,305,"[""bloodpressure"", ""glucose"", ""insulin""]",True,True
+diabetes,0,SVM,37,94,drop30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,37,94,drop30_r2,untargeted,True,305,"[""bloodpressure"", ""glucose"", ""insulin""]",True,True
+diabetes,0,SVM,37,94,rev30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,37,94,rev30_r2,untargeted,True,305,"[""bmi"", ""glucose"", ""insulin"", ""skinthickness""]",True,True
+diabetes,0,SVM,37,94,empty,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,37,94,empty,untargeted,True,299,"[""bloodpressure"", ""glucose""]",True,True
+diabetes,0,SVM,37,94,pc,acbfi_v3,True,28,"[""glucose""]",False,False
+diabetes,0,SVM,37,94,pc,untargeted,True,299,"[""glucose"", ""insulin""]",False,False
+diabetes,0,SVM,37,94,gbr,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,37,94,gbr,untargeted,True,305,"[""bloodpressure"", ""glucose"", ""insulin""]",True,True
+diabetes,0,SVM,38,36,llm,acbfi_v3,True,28,"[""skinthickness""]",True,True
+diabetes,0,SVM,38,36,llm,untargeted,True,300,"[""bloodpressure"", ""bmi""]",True,False
+diabetes,0,SVM,38,36,drop30_r1,acbfi_v3,True,28,"[""bmi""]",False,False
+diabetes,0,SVM,38,36,drop30_r1,untargeted,True,300,"[""bloodpressure"", ""bmi""]",True,False
+diabetes,0,SVM,38,36,rev30_r1,acbfi_v3,True,28,"[""skinthickness""]",True,True
+diabetes,0,SVM,38,36,rev30_r1,untargeted,True,295,"[""bloodpressure"", ""bmi""]",True,True
+diabetes,0,SVM,38,36,drop30_r2,acbfi_v3,True,28,"[""skinthickness""]",True,True
+diabetes,0,SVM,38,36,drop30_r2,untargeted,True,300,"[""bloodpressure"", ""bmi""]",True,False
+diabetes,0,SVM,38,36,rev30_r2,acbfi_v3,True,28,"[""bmi""]",False,False
+diabetes,0,SVM,38,36,rev30_r2,untargeted,True,301,"[""bmi""]",False,False
+diabetes,0,SVM,38,36,empty,acbfi_v3,True,28,"[""skinthickness""]",True,True
+diabetes,0,SVM,38,36,empty,untargeted,True,295,"[""skinthickness""]",True,True
+diabetes,0,SVM,38,36,pc,acbfi_v3,True,28,"[""bmi""]",True,True
+diabetes,0,SVM,38,36,pc,untargeted,True,295,"[""bmi""]",True,True
+diabetes,0,SVM,38,36,gbr,acbfi_v3,True,28,"[""skinthickness""]",True,True
+diabetes,0,SVM,38,36,gbr,untargeted,True,307,"[""bloodpressure"", ""bmi""]",True,False
+diabetes,0,SVM,39,148,llm,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,39,148,llm,untargeted,True,305,"[""glucose"", ""insulin""]",True,True
+diabetes,0,SVM,39,148,drop30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,39,148,drop30_r1,untargeted,True,304,"[""glucose"", ""insulin""]",True,True
+diabetes,0,SVM,39,148,rev30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,39,148,rev30_r1,untargeted,True,301,"[""glucose"", ""skinthickness""]",False,False
+diabetes,0,SVM,39,148,drop30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,39,148,drop30_r2,untargeted,True,305,"[""glucose"", ""insulin""]",True,True
+diabetes,0,SVM,39,148,rev30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,39,148,rev30_r2,untargeted,True,306,"[""bmi"", ""glucose"", ""insulin"", ""skinthickness""]",True,True
+diabetes,0,SVM,39,148,empty,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,39,148,empty,untargeted,True,296,"[""bmi"", ""glucose""]",True,True
+diabetes,0,SVM,39,148,pc,acbfi_v3,True,28,"[""glucose""]",False,False
+diabetes,0,SVM,39,148,pc,untargeted,True,288,"[""bmi"", ""glucose""]",True,True
+diabetes,0,SVM,39,148,gbr,acbfi_v3,True,28,"[""glucose""]",False,False
+diabetes,0,SVM,39,148,gbr,untargeted,True,305,"[""glucose""]",False,False
+diabetes,0,SVM,40,55,llm,acbfi_v3,True,28,"[""insulin""]",True,True
+diabetes,0,SVM,40,55,llm,untargeted,True,304,"[""bloodpressure"", ""glucose"", ""insulin""]",True,True
+diabetes,0,SVM,40,55,drop30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,40,55,drop30_r1,untargeted,True,300,"[""glucose"", ""skinthickness""]",True,True
+diabetes,0,SVM,40,55,rev30_r1,acbfi_v3,True,28,"[""bmi""]",True,True
+diabetes,0,SVM,40,55,rev30_r1,untargeted,True,301,"[""bloodpressure"", ""glucose"", ""insulin""]",True,True
+diabetes,0,SVM,40,55,drop30_r2,acbfi_v3,True,28,"[""insulin""]",True,True
+diabetes,0,SVM,40,55,drop30_r2,untargeted,True,304,"[""bloodpressure"", ""glucose"", ""insulin""]",True,True
+diabetes,0,SVM,40,55,rev30_r2,acbfi_v3,True,28,"[""bmi""]",True,True
+diabetes,0,SVM,40,55,rev30_r2,untargeted,True,315,"[""bloodpressure"", ""glucose"", ""insulin"", ""skinthickness""]",True,True
+diabetes,0,SVM,40,55,empty,acbfi_v3,True,28,"[""bmi""]",True,True
+diabetes,0,SVM,40,55,empty,untargeted,True,301,"[""glucose"", ""skinthickness""]",True,True
+diabetes,0,SVM,40,55,pc,acbfi_v3,True,28,"[""bmi""]",True,True
+diabetes,0,SVM,40,55,pc,untargeted,True,306,"[""glucose"", ""insulin""]",False,False
+diabetes,0,SVM,40,55,gbr,acbfi_v3,True,28,"[""insulin""]",True,True
+diabetes,0,SVM,40,55,gbr,untargeted,True,307,"[""glucose"", ""insulin""]",True,True
+diabetes,0,SVM,41,6,llm,acbfi_v3,True,28,"[""skinthickness""]",True,True
+diabetes,0,SVM,41,6,llm,untargeted,True,305,"[""skinthickness""]",True,True
+diabetes,0,SVM,41,6,drop30_r1,acbfi_v3,True,28,"[""skinthickness""]",True,True
+diabetes,0,SVM,41,6,drop30_r1,untargeted,True,305,"[""skinthickness""]",True,True
+diabetes,0,SVM,41,6,rev30_r1,acbfi_v3,True,28,"[""insulin""]",True,True
+diabetes,0,SVM,41,6,rev30_r1,untargeted,True,306,"[""bloodpressure"", ""bmi"", ""insulin""]",True,True
+diabetes,0,SVM,41,6,drop30_r2,acbfi_v3,True,28,"[""skinthickness""]",True,True
+diabetes,0,SVM,41,6,drop30_r2,untargeted,True,305,"[""skinthickness""]",True,True
+diabetes,0,SVM,41,6,rev30_r2,acbfi_v3,True,28,"[""skinthickness""]",True,True
+diabetes,0,SVM,41,6,rev30_r2,untargeted,True,303,"[""skinthickness""]",True,True
+diabetes,0,SVM,41,6,empty,acbfi_v3,True,28,"[""bmi""]",True,True
+diabetes,0,SVM,41,6,empty,untargeted,True,305,"[""bmi""]",True,True
+diabetes,0,SVM,41,6,pc,acbfi_v3,True,28,"[""bmi""]",True,True
+diabetes,0,SVM,41,6,pc,untargeted,True,305,"[""bmi""]",True,True
+diabetes,0,SVM,41,6,gbr,acbfi_v3,True,28,"[""skinthickness""]",True,True
+diabetes,0,SVM,41,6,gbr,untargeted,True,305,"[""skinthickness""]",True,True
+diabetes,0,SVM,42,82,llm,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,42,82,llm,untargeted,True,310,"[""glucose"", ""insulin"", ""skinthickness""]",True,True
+diabetes,0,SVM,42,82,drop30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,42,82,drop30_r1,untargeted,True,310,"[""glucose"", ""skinthickness""]",False,True
+diabetes,0,SVM,42,82,rev30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,42,82,rev30_r1,untargeted,True,311,"[""glucose"", ""insulin""]",True,True
+diabetes,0,SVM,42,82,drop30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,42,82,drop30_r2,untargeted,True,310,"[""glucose"", ""insulin"", ""skinthickness""]",True,True
+diabetes,0,SVM,42,82,rev30_r2,acbfi_v3,True,28,"[""glucose""]",False,False
+diabetes,0,SVM,42,82,rev30_r2,untargeted,True,318,"[""glucose"", ""insulin""]",False,False
+diabetes,0,SVM,42,82,empty,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,42,82,empty,untargeted,True,310,"[""glucose"", ""skinthickness""]",False,True
+diabetes,0,SVM,42,82,pc,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,42,82,pc,untargeted,True,310,"[""glucose"", ""insulin"", ""skinthickness""]",True,True
+diabetes,0,SVM,42,82,gbr,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,42,82,gbr,untargeted,True,315,"[""glucose"", ""insulin"", ""skinthickness""]",True,True
+diabetes,0,SVM,43,4,llm,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,43,4,llm,untargeted,True,305,"[""bmi"", ""glucose"", ""insulin""]",True,True
+diabetes,0,SVM,43,4,drop30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,43,4,drop30_r1,untargeted,True,305,"[""glucose""]",True,True
+diabetes,0,SVM,43,4,rev30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,43,4,rev30_r1,untargeted,True,300,"[""bmi"", ""glucose"", ""insulin""]",True,True
+diabetes,0,SVM,43,4,drop30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,43,4,drop30_r2,untargeted,True,305,"[""bmi"", ""glucose"", ""insulin""]",True,True
+diabetes,0,SVM,43,4,rev30_r2,acbfi_v3,True,28,"[""glucose""]",False,False
+diabetes,0,SVM,43,4,rev30_r2,untargeted,True,309,"[""glucose"", ""insulin""]",False,False
+diabetes,0,SVM,43,4,empty,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,43,4,empty,untargeted,True,302,"[""bmi"", ""glucose"", ""insulin""]",True,True
+diabetes,0,SVM,43,4,pc,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,43,4,pc,untargeted,True,297,"[""glucose"", ""insulin"", ""skinthickness""]",False,False
+diabetes,0,SVM,43,4,gbr,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,43,4,gbr,untargeted,True,305,"[""glucose"", ""insulin""]",True,True
+diabetes,0,SVM,44,139,llm,acbfi_v3,True,28,"[""glucose""]",True,False
+diabetes,0,SVM,44,139,llm,untargeted,True,308,"[""glucose"", ""insulin""]",True,True
+diabetes,0,SVM,44,139,drop30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,44,139,drop30_r1,untargeted,True,309,"[""glucose"", ""insulin""]",True,True
+diabetes,0,SVM,44,139,rev30_r1,acbfi_v3,True,28,"[""glucose""]",True,False
+diabetes,0,SVM,44,139,rev30_r1,untargeted,True,307,"[""glucose"", ""insulin""]",True,True
+diabetes,0,SVM,44,139,drop30_r2,acbfi_v3,True,28,"[""glucose""]",True,False
+diabetes,0,SVM,44,139,drop30_r2,untargeted,True,308,"[""glucose"", ""insulin""]",True,True
+diabetes,0,SVM,44,139,rev30_r2,acbfi_v3,True,28,"[""glucose""]",True,False
+diabetes,0,SVM,44,139,rev30_r2,untargeted,True,308,"[""glucose"", ""insulin""]",True,True
+diabetes,0,SVM,44,139,empty,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,SVM,44,139,empty,untargeted,True,309,"[""glucose"", ""insulin""]",True,True
+diabetes,0,SVM,44,139,pc,acbfi_v3,True,28,"[""glucose""]",True,False
+diabetes,0,SVM,44,139,pc,untargeted,True,301,"[""bmi"", ""glucose""]",True,False
+diabetes,0,SVM,44,139,gbr,acbfi_v3,True,28,"[""glucose""]",True,False
+diabetes,0,SVM,44,139,gbr,untargeted,True,310,"[""glucose"", ""insulin""]",True,True
+diabetes,0,XGB,0,151,llm,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,0,151,llm,untargeted,True,304,"[""glucose"", ""insulin""]",True,True
+diabetes,0,XGB,0,151,drop30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,0,151,drop30_r1,untargeted,True,304,"[""glucose"", ""insulin""]",True,True
+diabetes,0,XGB,0,151,rev30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,0,151,rev30_r1,untargeted,True,304,"[""glucose"", ""insulin""]",True,True
+diabetes,0,XGB,0,151,drop30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,0,151,drop30_r2,untargeted,True,304,"[""glucose"", ""insulin""]",True,True
+diabetes,0,XGB,0,151,rev30_r2,acbfi_v3,True,28,"[""glucose""]",False,False
+diabetes,0,XGB,0,151,rev30_r2,untargeted,True,297,"[""glucose"", ""insulin"", ""skinthickness""]",False,False
+diabetes,0,XGB,0,151,empty,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,0,151,empty,untargeted,True,300,"[""glucose"", ""insulin""]",True,True
+diabetes,0,XGB,0,151,pc,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,0,151,pc,untargeted,True,302,"[""bmi"", ""glucose"", ""insulin""]",True,True
+diabetes,0,XGB,0,151,gbr,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,0,151,gbr,untargeted,True,306,"[""glucose"", ""insulin""]",True,True
+diabetes,0,XGB,1,23,llm,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,1,23,llm,untargeted,True,289,"[""glucose""]",True,True
+diabetes,0,XGB,1,23,drop30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,1,23,drop30_r1,untargeted,True,292,"[""glucose""]",True,True
+diabetes,0,XGB,1,23,rev30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,1,23,rev30_r1,untargeted,True,295,"[""glucose""]",True,True
+diabetes,0,XGB,1,23,drop30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,1,23,drop30_r2,untargeted,True,289,"[""glucose""]",True,True
+diabetes,0,XGB,1,23,rev30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,1,23,rev30_r2,untargeted,True,302,"[""glucose"", ""insulin""]",True,True
+diabetes,0,XGB,1,23,empty,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,1,23,empty,untargeted,True,291,"[""glucose""]",True,True
+diabetes,0,XGB,1,23,pc,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,1,23,pc,untargeted,True,294,"[""glucose"", ""insulin""]",False,False
+diabetes,0,XGB,1,23,gbr,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,1,23,gbr,untargeted,True,290,"[""glucose"", ""insulin""]",True,True
+diabetes,0,XGB,2,55,llm,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,2,55,llm,untargeted,True,307,"[""glucose""]",True,True
+diabetes,0,XGB,2,55,drop30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,2,55,drop30_r1,untargeted,True,305,"[""glucose""]",True,True
+diabetes,0,XGB,2,55,rev30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,2,55,rev30_r1,untargeted,True,303,"[""glucose""]",True,True
+diabetes,0,XGB,2,55,drop30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,2,55,drop30_r2,untargeted,True,307,"[""glucose""]",True,True
+diabetes,0,XGB,2,55,rev30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,2,55,rev30_r2,untargeted,True,308,"[""glucose""]",True,True
+diabetes,0,XGB,2,55,empty,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,2,55,empty,untargeted,True,290,"[""glucose""]",True,True
+diabetes,0,XGB,2,55,pc,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,2,55,pc,untargeted,True,291,"[""glucose""]",True,True
+diabetes,0,XGB,2,55,gbr,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,2,55,gbr,untargeted,True,304,"[""glucose""]",True,True
+diabetes,0,XGB,3,45,llm,acbfi_v3,True,452,"[""bmi"", ""glucose""]",True,False
+diabetes,0,XGB,3,45,llm,untargeted,True,280,"[""bmi"", ""glucose""]",True,False
+diabetes,0,XGB,3,45,drop30_r1,acbfi_v3,True,452,"[""bmi"", ""glucose""]",True,False
+diabetes,0,XGB,3,45,drop30_r1,untargeted,True,278,"[""bmi"", ""glucose""]",True,False
+diabetes,0,XGB,3,45,rev30_r1,acbfi_v3,True,452,"[""bmi"", ""glucose""]",True,False
+diabetes,0,XGB,3,45,rev30_r1,untargeted,True,281,"[""bmi"", ""glucose""]",True,False
+diabetes,0,XGB,3,45,drop30_r2,acbfi_v3,True,452,"[""bmi"", ""glucose""]",True,False
+diabetes,0,XGB,3,45,drop30_r2,untargeted,True,280,"[""bmi"", ""glucose""]",True,False
+diabetes,0,XGB,3,45,rev30_r2,acbfi_v3,True,466,"[""bloodpressure"", ""glucose""]",False,False
+diabetes,0,XGB,3,45,rev30_r2,untargeted,True,278,"[""bloodpressure"", ""bmi"", ""glucose""]",False,False
+diabetes,0,XGB,3,45,empty,acbfi_v3,True,452,"[""bmi"", ""glucose""]",True,True
+diabetes,0,XGB,3,45,empty,untargeted,True,277,"[""bloodpressure"", ""bmi"", ""glucose""]",True,True
+diabetes,0,XGB,3,45,pc,acbfi_v3,True,452,"[""bmi"", ""glucose""]",True,True
+diabetes,0,XGB,3,45,pc,untargeted,True,279,"[""bloodpressure"", ""bmi"", ""glucose""]",True,True
+diabetes,0,XGB,3,45,gbr,acbfi_v3,True,452,"[""bmi"", ""glucose""]",True,False
+diabetes,0,XGB,3,45,gbr,untargeted,True,287,"[""bloodpressure"", ""bmi"", ""glucose"", ""skinthickness""]",True,True
+diabetes,0,XGB,4,62,llm,acbfi_v3,True,28,"[""glucose""]",True,False
+diabetes,0,XGB,4,62,llm,untargeted,True,285,"[""bloodpressure"", ""bmi"", ""glucose""]",True,True
+diabetes,0,XGB,4,62,drop30_r1,acbfi_v3,True,452,"[""bmi"", ""glucose""]",True,True
+diabetes,0,XGB,4,62,drop30_r1,untargeted,True,284,"[""bloodpressure"", ""bmi"", ""glucose""]",True,True
+diabetes,0,XGB,4,62,rev30_r1,acbfi_v3,True,28,"[""glucose""]",True,False
+diabetes,0,XGB,4,62,rev30_r1,untargeted,True,284,"[""bloodpressure"", ""bmi"", ""glucose""]",True,True
+diabetes,0,XGB,4,62,drop30_r2,acbfi_v3,True,28,"[""glucose""]",True,False
+diabetes,0,XGB,4,62,drop30_r2,untargeted,True,285,"[""bloodpressure"", ""bmi"", ""glucose""]",True,True
+diabetes,0,XGB,4,62,rev30_r2,acbfi_v3,True,28,"[""glucose""]",False,False
+diabetes,0,XGB,4,62,rev30_r2,untargeted,True,295,"[""glucose""]",False,False
+diabetes,0,XGB,4,62,empty,acbfi_v3,True,452,"[""bmi"", ""glucose""]",True,True
+diabetes,0,XGB,4,62,empty,untargeted,True,279,"[""bloodpressure"", ""bmi"", ""glucose""]",True,True
+diabetes,0,XGB,4,62,pc,acbfi_v3,True,28,"[""glucose""]",False,False
+diabetes,0,XGB,4,62,pc,untargeted,True,290,"[""glucose""]",False,False
+diabetes,0,XGB,4,62,gbr,acbfi_v3,True,28,"[""glucose""]",True,False
+diabetes,0,XGB,4,62,gbr,untargeted,True,292,"[""bloodpressure"", ""glucose""]",True,True
+diabetes,0,XGB,5,122,llm,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,5,122,llm,untargeted,True,294,"[""glucose""]",True,True
+diabetes,0,XGB,5,122,drop30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,5,122,drop30_r1,untargeted,True,291,"[""glucose""]",True,True
+diabetes,0,XGB,5,122,rev30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,5,122,rev30_r1,untargeted,True,289,"[""glucose""]",True,True
+diabetes,0,XGB,5,122,drop30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,5,122,drop30_r2,untargeted,True,294,"[""glucose""]",True,True
+diabetes,0,XGB,5,122,rev30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,5,122,rev30_r2,untargeted,True,308,"[""bmi"", ""glucose""]",True,True
+diabetes,0,XGB,5,122,empty,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,5,122,empty,untargeted,True,307,"[""glucose""]",True,True
+diabetes,0,XGB,5,122,pc,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,5,122,pc,untargeted,True,301,"[""bmi"", ""glucose""]",True,True
+diabetes,0,XGB,5,122,gbr,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,5,122,gbr,untargeted,True,294,"[""glucose""]",True,True
+diabetes,0,XGB,6,34,llm,acbfi_v3,True,28,"[""bmi""]",True,False
+diabetes,0,XGB,6,34,llm,untargeted,True,316,"[""glucose"", ""insulin""]",True,True
+diabetes,0,XGB,6,34,drop30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,6,34,drop30_r1,untargeted,True,313,"[""glucose"", ""skinthickness""]",True,True
+diabetes,0,XGB,6,34,rev30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,6,34,rev30_r1,untargeted,True,314,"[""glucose"", ""insulin""]",True,True
+diabetes,0,XGB,6,34,drop30_r2,acbfi_v3,True,28,"[""bmi""]",True,False
+diabetes,0,XGB,6,34,drop30_r2,untargeted,True,316,"[""glucose"", ""insulin""]",True,True
+diabetes,0,XGB,6,34,rev30_r2,acbfi_v3,True,28,"[""bmi""]",True,False
+diabetes,0,XGB,6,34,rev30_r2,untargeted,True,315,"[""bmi""]",True,False
+diabetes,0,XGB,6,34,empty,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,6,34,empty,untargeted,True,313,"[""glucose"", ""skinthickness""]",True,True
+diabetes,0,XGB,6,34,pc,acbfi_v3,True,28,"[""glucose""]",False,False
+diabetes,0,XGB,6,34,pc,untargeted,True,314,"[""insulin"", ""skinthickness""]",False,False
+diabetes,0,XGB,6,34,gbr,acbfi_v3,True,28,"[""glucose""]",False,False
+diabetes,0,XGB,6,34,gbr,untargeted,True,315,"[""glucose"", ""skinthickness""]",False,False
+diabetes,0,XGB,7,117,llm,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,7,117,llm,untargeted,True,295,"[""bloodpressure"", ""bmi"", ""insulin"", ""skinthickness""]",True,True
+diabetes,0,XGB,7,117,drop30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,7,117,drop30_r1,untargeted,True,281,"[""bloodpressure"", ""bmi"", ""insulin"", ""skinthickness""]",True,True
+diabetes,0,XGB,7,117,rev30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,7,117,rev30_r1,untargeted,True,293,"[""bloodpressure"", ""bmi"", ""insulin""]",True,True
+diabetes,0,XGB,7,117,drop30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,7,117,drop30_r2,untargeted,True,295,"[""bloodpressure"", ""bmi"", ""insulin"", ""skinthickness""]",True,True
+diabetes,0,XGB,7,117,rev30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,7,117,rev30_r2,untargeted,True,305,"[""bmi"", ""insulin"", ""skinthickness""]",True,True
+diabetes,0,XGB,7,117,empty,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,7,117,empty,untargeted,True,289,"[""bmi"", ""insulin""]",True,True
+diabetes,0,XGB,7,117,pc,acbfi_v3,True,28,"[""insulin""]",False,False
+diabetes,0,XGB,7,117,pc,untargeted,True,293,"[""bmi"", ""insulin"", ""skinthickness""]",True,True
+diabetes,0,XGB,7,117,gbr,acbfi_v3,True,28,"[""glucose""]",False,False
+diabetes,0,XGB,7,117,gbr,untargeted,True,309,"[""glucose""]",False,False
+diabetes,0,XGB,8,94,llm,acbfi_v3,True,28,"[""skinthickness""]",True,True
+diabetes,0,XGB,8,94,llm,untargeted,True,303,"[""bmi"", ""insulin"", ""skinthickness""]",True,True
+diabetes,0,XGB,8,94,drop30_r1,acbfi_v3,True,28,"[""skinthickness""]",True,True
+diabetes,0,XGB,8,94,drop30_r1,untargeted,True,300,"[""bmi"", ""insulin"", ""skinthickness""]",True,True
+diabetes,0,XGB,8,94,rev30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,8,94,rev30_r1,untargeted,True,307,"[""bmi"", ""insulin""]",True,True
+diabetes,0,XGB,8,94,drop30_r2,acbfi_v3,True,28,"[""skinthickness""]",True,True
+diabetes,0,XGB,8,94,drop30_r2,untargeted,True,303,"[""bmi"", ""insulin"", ""skinthickness""]",True,True
+diabetes,0,XGB,8,94,rev30_r2,acbfi_v3,True,28,"[""bmi""]",False,True
+diabetes,0,XGB,8,94,rev30_r2,untargeted,True,307,"[""bmi"", ""insulin"", ""skinthickness""]",True,True
+diabetes,0,XGB,8,94,empty,acbfi_v3,True,28,"[""bmi""]",False,True
+diabetes,0,XGB,8,94,empty,untargeted,True,301,"[""bmi"", ""insulin""]",True,True
+diabetes,0,XGB,8,94,pc,acbfi_v3,True,28,"[""insulin""]",False,False
+diabetes,0,XGB,8,94,pc,untargeted,True,305,"[""bmi"", ""insulin"", ""skinthickness""]",True,True
+diabetes,0,XGB,8,94,gbr,acbfi_v3,True,28,"[""bmi""]",False,False
+diabetes,0,XGB,8,94,gbr,untargeted,True,313,"[""bmi"", ""skinthickness""]",False,False
+diabetes,0,XGB,9,134,llm,acbfi_v3,True,28,"[""bmi""]",True,False
+diabetes,0,XGB,9,134,llm,untargeted,True,317,"[""bmi""]",True,False
+diabetes,0,XGB,9,134,drop30_r1,acbfi_v3,True,28,"[""bmi""]",True,False
+diabetes,0,XGB,9,134,drop30_r1,untargeted,True,303,"[""bmi""]",True,False
+diabetes,0,XGB,9,134,rev30_r1,acbfi_v3,True,28,"[""bmi""]",True,False
+diabetes,0,XGB,9,134,rev30_r1,untargeted,True,312,"[""bloodpressure"", ""bmi""]",True,True
+diabetes,0,XGB,9,134,drop30_r2,acbfi_v3,True,28,"[""bmi""]",True,False
+diabetes,0,XGB,9,134,drop30_r2,untargeted,True,317,"[""bmi""]",True,False
+diabetes,0,XGB,9,134,rev30_r2,acbfi_v3,True,28,"[""bmi""]",True,True
+diabetes,0,XGB,9,134,rev30_r2,untargeted,True,306,"[""bmi""]",True,True
+diabetes,0,XGB,9,134,empty,acbfi_v3,True,28,"[""bmi""]",True,True
+diabetes,0,XGB,9,134,empty,untargeted,True,291,"[""bmi""]",True,True
+diabetes,0,XGB,9,134,pc,acbfi_v3,True,28,"[""bmi""]",True,True
+diabetes,0,XGB,9,134,pc,untargeted,True,307,"[""bmi""]",True,True
+diabetes,0,XGB,9,134,gbr,acbfi_v3,True,28,"[""glucose""]",True,False
+diabetes,0,XGB,9,134,gbr,untargeted,True,317,"[""insulin"", ""skinthickness""]",True,True
+diabetes,0,XGB,10,110,llm,acbfi_v3,True,28,"[""insulin""]",True,True
+diabetes,0,XGB,10,110,llm,untargeted,True,299,"[""insulin""]",True,True
+diabetes,0,XGB,10,110,drop30_r1,acbfi_v3,True,28,"[""insulin""]",True,True
+diabetes,0,XGB,10,110,drop30_r1,untargeted,True,294,"[""insulin""]",True,True
+diabetes,0,XGB,10,110,rev30_r1,acbfi_v3,True,28,"[""insulin""]",True,True
+diabetes,0,XGB,10,110,rev30_r1,untargeted,True,297,"[""insulin""]",True,True
+diabetes,0,XGB,10,110,drop30_r2,acbfi_v3,True,28,"[""insulin""]",True,True
+diabetes,0,XGB,10,110,drop30_r2,untargeted,True,299,"[""insulin""]",True,True
+diabetes,0,XGB,10,110,rev30_r2,acbfi_v3,True,28,"[""insulin""]",True,True
+diabetes,0,XGB,10,110,rev30_r2,untargeted,True,309,"[""insulin""]",True,True
+diabetes,0,XGB,10,110,empty,acbfi_v3,True,28,"[""insulin""]",True,True
+diabetes,0,XGB,10,110,empty,untargeted,True,294,"[""insulin""]",True,True
+diabetes,0,XGB,10,110,pc,acbfi_v3,True,28,"[""insulin""]",True,True
+diabetes,0,XGB,10,110,pc,untargeted,True,294,"[""insulin"", ""skinthickness""]",True,True
+diabetes,0,XGB,10,110,gbr,acbfi_v3,True,28,"[""insulin""]",True,True
+diabetes,0,XGB,10,110,gbr,untargeted,True,294,"[""insulin""]",True,True
+diabetes,0,XGB,11,100,llm,acbfi_v3,True,28,"[""bmi""]",True,False
+diabetes,0,XGB,11,100,llm,untargeted,True,306,"[""bloodpressure"", ""insulin""]",True,True
+diabetes,0,XGB,11,100,drop30_r1,acbfi_v3,True,28,"[""bmi""]",True,False
+diabetes,0,XGB,11,100,drop30_r1,untargeted,True,311,"[""bmi"", ""skinthickness""]",True,False
+diabetes,0,XGB,11,100,rev30_r1,acbfi_v3,True,28,"[""bmi""]",True,False
+diabetes,0,XGB,11,100,rev30_r1,untargeted,True,306,"[""bloodpressure"", ""bmi""]",True,True
+diabetes,0,XGB,11,100,drop30_r2,acbfi_v3,True,28,"[""bmi""]",True,False
+diabetes,0,XGB,11,100,drop30_r2,untargeted,True,306,"[""bloodpressure"", ""insulin""]",True,True
+diabetes,0,XGB,11,100,rev30_r2,acbfi_v3,True,28,"[""bmi""]",True,True
+diabetes,0,XGB,11,100,rev30_r2,untargeted,True,307,"[""bloodpressure"", ""bmi"", ""skinthickness""]",True,True
+diabetes,0,XGB,11,100,empty,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,11,100,empty,untargeted,True,307,"[""bloodpressure"", ""bmi""]",True,True
+diabetes,0,XGB,11,100,pc,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,11,100,pc,untargeted,True,309,"[""bloodpressure"", ""bmi"", ""skinthickness""]",True,True
+diabetes,0,XGB,11,100,gbr,acbfi_v3,True,28,"[""bmi""]",True,False
+diabetes,0,XGB,11,100,gbr,untargeted,True,311,"[""bloodpressure"", ""insulin""]",True,True
+diabetes,0,XGB,12,139,llm,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,12,139,llm,untargeted,True,303,"[""glucose""]",True,True
+diabetes,0,XGB,12,139,drop30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,12,139,drop30_r1,untargeted,True,303,"[""glucose""]",True,True
+diabetes,0,XGB,12,139,rev30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,12,139,rev30_r1,untargeted,True,305,"[""glucose""]",True,True
+diabetes,0,XGB,12,139,drop30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,12,139,drop30_r2,untargeted,True,303,"[""glucose""]",True,True
+diabetes,0,XGB,12,139,rev30_r2,acbfi_v3,True,28,"[""glucose""]",False,False
+diabetes,0,XGB,12,139,rev30_r2,untargeted,True,302,"[""glucose"", ""skinthickness""]",False,False
+diabetes,0,XGB,12,139,empty,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,12,139,empty,untargeted,True,304,"[""glucose""]",True,True
+diabetes,0,XGB,12,139,pc,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,12,139,pc,untargeted,True,297,"[""bmi"", ""glucose"", ""insulin""]",True,True
+diabetes,0,XGB,12,139,gbr,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,12,139,gbr,untargeted,True,302,"[""glucose"", ""insulin""]",True,True
+diabetes,0,XGB,13,24,llm,acbfi_v3,True,28,"[""bmi""]",True,True
+diabetes,0,XGB,13,24,llm,untargeted,True,312,"[""bmi"", ""insulin""]",True,True
+diabetes,0,XGB,13,24,drop30_r1,acbfi_v3,True,28,"[""bmi""]",True,True
+diabetes,0,XGB,13,24,drop30_r1,untargeted,True,312,"[""bmi""]",True,True
+diabetes,0,XGB,13,24,rev30_r1,acbfi_v3,True,28,"[""bmi""]",True,True
+diabetes,0,XGB,13,24,rev30_r1,untargeted,True,310,"[""bmi"", ""insulin""]",True,True
+diabetes,0,XGB,13,24,drop30_r2,acbfi_v3,True,28,"[""bmi""]",True,True
+diabetes,0,XGB,13,24,drop30_r2,untargeted,True,312,"[""bmi"", ""insulin""]",True,True
+diabetes,0,XGB,13,24,rev30_r2,acbfi_v3,True,28,"[""bmi""]",True,True
+diabetes,0,XGB,13,24,rev30_r2,untargeted,True,313,"[""bmi"", ""insulin""]",True,True
+diabetes,0,XGB,13,24,empty,acbfi_v3,True,28,"[""bmi""]",True,True
+diabetes,0,XGB,13,24,empty,untargeted,True,312,"[""bmi""]",True,True
+diabetes,0,XGB,13,24,pc,acbfi_v3,True,28,"[""bmi""]",True,True
+diabetes,0,XGB,13,24,pc,untargeted,True,307,"[""bmi""]",True,True
+diabetes,0,XGB,13,24,gbr,acbfi_v3,True,28,"[""insulin""]",True,True
+diabetes,0,XGB,13,24,gbr,untargeted,True,312,"[""insulin""]",True,True
+diabetes,0,XGB,14,4,llm,acbfi_v3,True,28,"[""bmi""]",True,False
+diabetes,0,XGB,14,4,llm,untargeted,True,298,"[""bmi""]",True,False
+diabetes,0,XGB,14,4,drop30_r1,acbfi_v3,True,28,"[""bmi""]",True,False
+diabetes,0,XGB,14,4,drop30_r1,untargeted,True,298,"[""bmi""]",True,False
+diabetes,0,XGB,14,4,rev30_r1,acbfi_v3,True,28,"[""bloodpressure""]",True,True
+diabetes,0,XGB,14,4,rev30_r1,untargeted,True,287,"[""bmi"", ""skinthickness""]",True,False
+diabetes,0,XGB,14,4,drop30_r2,acbfi_v3,True,28,"[""bmi""]",True,False
+diabetes,0,XGB,14,4,drop30_r2,untargeted,True,298,"[""bmi""]",True,False
+diabetes,0,XGB,14,4,rev30_r2,acbfi_v3,True,28,"[""bloodpressure""]",True,True
+diabetes,0,XGB,14,4,rev30_r2,untargeted,True,294,"[""bloodpressure"", ""bmi""]",True,False
+diabetes,0,XGB,14,4,empty,acbfi_v3,True,28,"[""bloodpressure""]",True,True
+diabetes,0,XGB,14,4,empty,untargeted,True,290,"[""bloodpressure"", ""bmi"", ""skinthickness""]",True,True
+diabetes,0,XGB,14,4,pc,acbfi_v3,True,28,"[""bloodpressure""]",True,True
+diabetes,0,XGB,14,4,pc,untargeted,True,287,"[""bloodpressure"", ""bmi"", ""skinthickness""]",True,True
+diabetes,0,XGB,14,4,gbr,acbfi_v3,True,28,"[""bmi""]",True,False
+diabetes,0,XGB,14,4,gbr,untargeted,True,299,"[""bloodpressure"", ""glucose"", ""insulin"", ""skinthickness""]",True,True
+diabetes,0,XGB,15,36,llm,acbfi_v3,True,28,"[""bmi""]",True,True
+diabetes,0,XGB,15,36,llm,untargeted,True,298,"[""bloodpressure"", ""bmi""]",True,True
+diabetes,0,XGB,15,36,drop30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,15,36,drop30_r1,untargeted,True,298,"[""bloodpressure"", ""bmi""]",True,True
+diabetes,0,XGB,15,36,rev30_r1,acbfi_v3,True,28,"[""bmi""]",True,True
+diabetes,0,XGB,15,36,rev30_r1,untargeted,True,293,"[""bloodpressure"", ""bmi""]",True,True
+diabetes,0,XGB,15,36,drop30_r2,acbfi_v3,True,28,"[""bmi""]",True,True
+diabetes,0,XGB,15,36,drop30_r2,untargeted,True,298,"[""bloodpressure"", ""bmi""]",True,True
+diabetes,0,XGB,15,36,rev30_r2,acbfi_v3,True,28,"[""bmi""]",True,True
+diabetes,0,XGB,15,36,rev30_r2,untargeted,True,302,"[""bmi""]",True,True
+diabetes,0,XGB,15,36,empty,acbfi_v3,True,28,"[""bmi""]",True,True
+diabetes,0,XGB,15,36,empty,untargeted,True,293,"[""bmi""]",True,True
+diabetes,0,XGB,15,36,pc,acbfi_v3,True,28,"[""bmi""]",True,True
+diabetes,0,XGB,15,36,pc,untargeted,True,287,"[""bmi""]",True,True
+diabetes,0,XGB,15,36,gbr,acbfi_v3,True,28,"[""bmi""]",True,True
+diabetes,0,XGB,15,36,gbr,untargeted,True,306,"[""bloodpressure"", ""bmi""]",True,True
+diabetes,0,XGB,16,97,llm,acbfi_v3,True,28,"[""bloodpressure""]",True,True
+diabetes,0,XGB,16,97,llm,untargeted,True,308,"[""bloodpressure"", ""skinthickness""]",True,True
+diabetes,0,XGB,16,97,drop30_r1,acbfi_v3,True,28,"[""bloodpressure""]",True,True
+diabetes,0,XGB,16,97,drop30_r1,untargeted,True,306,"[""bloodpressure"", ""skinthickness""]",True,True
+diabetes,0,XGB,16,97,rev30_r1,acbfi_v3,True,28,"[""skinthickness""]",False,False
+diabetes,0,XGB,16,97,rev30_r1,untargeted,True,302,"[""skinthickness""]",False,False
+diabetes,0,XGB,16,97,drop30_r2,acbfi_v3,True,28,"[""bloodpressure""]",True,True
+diabetes,0,XGB,16,97,drop30_r2,untargeted,True,308,"[""bloodpressure"", ""skinthickness""]",True,True
+diabetes,0,XGB,16,97,rev30_r2,acbfi_v3,True,28,"[""bloodpressure""]",False,False
+diabetes,0,XGB,16,97,rev30_r2,untargeted,True,309,"[""bloodpressure""]",False,False
+diabetes,0,XGB,16,97,empty,acbfi_v3,True,28,"[""bloodpressure""]",True,True
+diabetes,0,XGB,16,97,empty,untargeted,True,306,"[""bloodpressure"", ""skinthickness""]",True,True
+diabetes,0,XGB,16,97,pc,acbfi_v3,True,28,"[""bloodpressure""]",False,False
+diabetes,0,XGB,16,97,pc,untargeted,True,312,"[""bloodpressure"", ""bmi""]",False,False
+diabetes,0,XGB,16,97,gbr,acbfi_v3,True,28,"[""bloodpressure""]",True,True
+diabetes,0,XGB,16,97,gbr,untargeted,True,308,"[""bloodpressure"", ""skinthickness""]",True,True
+diabetes,0,XGB,17,82,llm,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,17,82,llm,untargeted,True,317,"[""glucose""]",True,True
+diabetes,0,XGB,17,82,drop30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,17,82,drop30_r1,untargeted,True,317,"[""glucose""]",True,True
+diabetes,0,XGB,17,82,rev30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,17,82,rev30_r1,untargeted,True,318,"[""glucose"", ""insulin""]",True,True
+diabetes,0,XGB,17,82,drop30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,17,82,drop30_r2,untargeted,True,317,"[""glucose""]",True,True
+diabetes,0,XGB,17,82,rev30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,17,82,rev30_r2,untargeted,True,317,"[""glucose""]",True,True
+diabetes,0,XGB,17,82,empty,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,17,82,empty,untargeted,True,319,"[""glucose""]",True,True
+diabetes,0,XGB,17,82,pc,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,17,82,pc,untargeted,True,320,"[""glucose"", ""insulin""]",True,True
+diabetes,0,XGB,17,82,gbr,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,17,82,gbr,untargeted,True,319,"[""glucose"", ""insulin""]",True,True
+diabetes,0,XGB,18,10,llm,acbfi_v3,True,28,"[""bloodpressure""]",True,True
+diabetes,0,XGB,18,10,llm,untargeted,True,311,"[""bloodpressure""]",True,True
+diabetes,0,XGB,18,10,drop30_r1,acbfi_v3,True,28,"[""bloodpressure""]",True,True
+diabetes,0,XGB,18,10,drop30_r1,untargeted,True,311,"[""bloodpressure""]",True,True
+diabetes,0,XGB,18,10,rev30_r1,acbfi_v3,True,28,"[""bloodpressure""]",True,True
+diabetes,0,XGB,18,10,rev30_r1,untargeted,True,311,"[""bloodpressure""]",True,True
+diabetes,0,XGB,18,10,drop30_r2,acbfi_v3,True,28,"[""bloodpressure""]",True,True
+diabetes,0,XGB,18,10,drop30_r2,untargeted,True,311,"[""bloodpressure""]",True,True
+diabetes,0,XGB,18,10,rev30_r2,acbfi_v3,True,28,"[""bloodpressure""]",True,True
+diabetes,0,XGB,18,10,rev30_r2,untargeted,True,317,"[""bloodpressure"", ""insulin"", ""skinthickness""]",True,True
+diabetes,0,XGB,18,10,empty,acbfi_v3,True,28,"[""bloodpressure""]",True,True
+diabetes,0,XGB,18,10,empty,untargeted,True,311,"[""bloodpressure""]",True,True
+diabetes,0,XGB,18,10,pc,acbfi_v3,True,28,"[""bloodpressure""]",True,True
+diabetes,0,XGB,18,10,pc,untargeted,True,311,"[""bloodpressure"", ""skinthickness""]",True,True
+diabetes,0,XGB,18,10,gbr,acbfi_v3,True,28,"[""bloodpressure""]",True,True
+diabetes,0,XGB,18,10,gbr,untargeted,True,316,"[""bloodpressure""]",True,True
+diabetes,0,XGB,19,48,llm,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,19,48,llm,untargeted,True,303,"[""glucose""]",True,True
+diabetes,0,XGB,19,48,drop30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,19,48,drop30_r1,untargeted,True,303,"[""glucose""]",True,True
+diabetes,0,XGB,19,48,rev30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,19,48,rev30_r1,untargeted,True,303,"[""glucose""]",True,True
+diabetes,0,XGB,19,48,drop30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,19,48,drop30_r2,untargeted,True,303,"[""glucose""]",True,True
+diabetes,0,XGB,19,48,rev30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,19,48,rev30_r2,untargeted,True,305,"[""glucose""]",True,True
+diabetes,0,XGB,19,48,empty,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,19,48,empty,untargeted,True,305,"[""glucose""]",True,True
+diabetes,0,XGB,19,48,pc,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,19,48,pc,untargeted,True,308,"[""bmi"", ""glucose""]",True,True
+diabetes,0,XGB,19,48,gbr,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,19,48,gbr,untargeted,True,304,"[""glucose""]",True,True
+diabetes,0,XGB,20,6,llm,acbfi_v3,True,28,"[""bmi""]",True,True
+diabetes,0,XGB,20,6,llm,untargeted,True,310,"[""glucose"", ""insulin""]",True,True
+diabetes,0,XGB,20,6,drop30_r1,acbfi_v3,True,28,"[""bmi""]",True,True
+diabetes,0,XGB,20,6,drop30_r1,untargeted,True,312,"[""glucose"", ""insulin""]",True,True
+diabetes,0,XGB,20,6,rev30_r1,acbfi_v3,True,28,"[""bmi""]",True,True
+diabetes,0,XGB,20,6,rev30_r1,untargeted,True,304,"[""glucose"", ""insulin""]",True,True
+diabetes,0,XGB,20,6,drop30_r2,acbfi_v3,True,28,"[""bmi""]",True,True
+diabetes,0,XGB,20,6,drop30_r2,untargeted,True,310,"[""glucose"", ""insulin""]",True,True
+diabetes,0,XGB,20,6,rev30_r2,acbfi_v3,True,28,"[""bmi""]",True,True
+diabetes,0,XGB,20,6,rev30_r2,untargeted,True,310,"[""glucose"", ""insulin""]",True,True
+diabetes,0,XGB,20,6,empty,acbfi_v3,True,28,"[""bmi""]",True,True
+diabetes,0,XGB,20,6,empty,untargeted,True,312,"[""glucose"", ""insulin""]",True,True
+diabetes,0,XGB,20,6,pc,acbfi_v3,True,28,"[""skinthickness""]",False,False
+diabetes,0,XGB,20,6,pc,untargeted,True,305,"[""glucose"", ""insulin""]",True,True
+diabetes,0,XGB,20,6,gbr,acbfi_v3,True,28,"[""bmi""]",False,False
+diabetes,0,XGB,20,6,gbr,untargeted,True,310,"[""glucose"", ""insulin""]",True,True
+diabetes,0,XGB,21,25,llm,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,21,25,llm,untargeted,True,292,"[""bloodpressure"", ""glucose""]",True,True
+diabetes,0,XGB,21,25,drop30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,21,25,drop30_r1,untargeted,True,300,"[""bloodpressure"", ""glucose""]",True,True
+diabetes,0,XGB,21,25,rev30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,21,25,rev30_r1,untargeted,True,288,"[""bloodpressure"", ""glucose""]",True,True
+diabetes,0,XGB,21,25,drop30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,21,25,drop30_r2,untargeted,True,292,"[""bloodpressure"", ""glucose""]",True,True
+diabetes,0,XGB,21,25,rev30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,21,25,rev30_r2,untargeted,True,311,"[""bloodpressure"", ""glucose""]",False,False
+diabetes,0,XGB,21,25,empty,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,21,25,empty,untargeted,True,296,"[""bloodpressure"", ""glucose""]",True,True
+diabetes,0,XGB,21,25,pc,acbfi_v3,True,28,"[""bloodpressure""]",False,False
+diabetes,0,XGB,21,25,pc,untargeted,True,293,"[""bloodpressure"", ""glucose""]",True,True
+diabetes,0,XGB,21,25,gbr,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,21,25,gbr,untargeted,True,297,"[""bloodpressure"", ""glucose""]",True,True
+diabetes,0,XGB,22,98,llm,acbfi_v3,True,28,"[""bloodpressure""]",True,True
+diabetes,0,XGB,22,98,llm,untargeted,True,289,"[""glucose"", ""insulin""]",True,True
+diabetes,0,XGB,22,98,drop30_r1,acbfi_v3,True,28,"[""bloodpressure""]",True,True
+diabetes,0,XGB,22,98,drop30_r1,untargeted,True,296,"[""glucose"", ""insulin""]",True,True
+diabetes,0,XGB,22,98,rev30_r1,acbfi_v3,True,28,"[""bloodpressure""]",True,True
+diabetes,0,XGB,22,98,rev30_r1,untargeted,True,284,"[""glucose"", ""skinthickness""]",False,False
+diabetes,0,XGB,22,98,drop30_r2,acbfi_v3,True,28,"[""bloodpressure""]",True,True
+diabetes,0,XGB,22,98,drop30_r2,untargeted,True,289,"[""glucose"", ""insulin""]",True,True
+diabetes,0,XGB,22,98,rev30_r2,acbfi_v3,True,28,"[""glucose""]",False,False
+diabetes,0,XGB,22,98,rev30_r2,untargeted,True,303,"[""glucose""]",False,False
+diabetes,0,XGB,22,98,empty,acbfi_v3,True,28,"[""bloodpressure""]",True,True
+diabetes,0,XGB,22,98,empty,untargeted,True,296,"[""bmi"", ""glucose""]",False,True
+diabetes,0,XGB,22,98,pc,acbfi_v3,True,28,"[""glucose""]",False,False
+diabetes,0,XGB,22,98,pc,untargeted,True,286,"[""glucose""]",False,False
+diabetes,0,XGB,22,98,gbr,acbfi_v3,True,28,"[""bloodpressure""]",True,True
+diabetes,0,XGB,22,98,gbr,untargeted,True,294,"[""glucose"", ""insulin""]",True,True
+diabetes,0,XGB,23,42,llm,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,23,42,llm,untargeted,True,294,"[""bmi"", ""insulin""]",True,False
+diabetes,0,XGB,23,42,drop30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,23,42,drop30_r1,untargeted,True,291,"[""bmi"", ""glucose""]",True,False
+diabetes,0,XGB,23,42,rev30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,23,42,rev30_r1,untargeted,True,300,"[""bmi"", ""insulin""]",True,False
+diabetes,0,XGB,23,42,drop30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,23,42,drop30_r2,untargeted,True,294,"[""bmi"", ""insulin""]",True,False
+diabetes,0,XGB,23,42,rev30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,23,42,rev30_r2,untargeted,True,297,"[""bmi"", ""glucose""]",False,False
+diabetes,0,XGB,23,42,empty,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,23,42,empty,untargeted,True,290,"[""glucose""]",True,True
+diabetes,0,XGB,23,42,pc,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,23,42,pc,untargeted,True,276,"[""bloodpressure"", ""bmi"", ""glucose""]",True,True
+diabetes,0,XGB,23,42,gbr,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,23,42,gbr,untargeted,True,281,"[""glucose""]",True,True
+diabetes,0,XGB,24,75,llm,acbfi_v3,True,28,"[""insulin""]",True,True
+diabetes,0,XGB,24,75,llm,untargeted,True,302,"[""insulin""]",True,True
+diabetes,0,XGB,24,75,drop30_r1,acbfi_v3,True,28,"[""insulin""]",True,True
+diabetes,0,XGB,24,75,drop30_r1,untargeted,True,307,"[""insulin""]",True,True
+diabetes,0,XGB,24,75,rev30_r1,acbfi_v3,True,28,"[""insulin""]",True,True
+diabetes,0,XGB,24,75,rev30_r1,untargeted,True,298,"[""insulin""]",True,True
+diabetes,0,XGB,24,75,drop30_r2,acbfi_v3,True,28,"[""insulin""]",True,True
+diabetes,0,XGB,24,75,drop30_r2,untargeted,True,302,"[""insulin""]",True,True
+diabetes,0,XGB,24,75,rev30_r2,acbfi_v3,True,28,"[""insulin""]",True,True
+diabetes,0,XGB,24,75,rev30_r2,untargeted,True,302,"[""insulin"", ""skinthickness""]",True,True
+diabetes,0,XGB,24,75,empty,acbfi_v3,True,28,"[""insulin""]",True,True
+diabetes,0,XGB,24,75,empty,untargeted,True,303,"[""insulin""]",True,True
+diabetes,0,XGB,24,75,pc,acbfi_v3,True,28,"[""insulin""]",True,True
+diabetes,0,XGB,24,75,pc,untargeted,True,305,"[""insulin"", ""skinthickness""]",True,True
+diabetes,0,XGB,24,75,gbr,acbfi_v3,True,28,"[""insulin""]",True,True
+diabetes,0,XGB,24,75,gbr,untargeted,True,301,"[""insulin"", ""skinthickness""]",True,True
+diabetes,0,XGB,25,14,llm,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,25,14,llm,untargeted,True,311,"[""bloodpressure"", ""glucose"", ""insulin""]",True,True
+diabetes,0,XGB,25,14,drop30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,25,14,drop30_r1,untargeted,True,311,"[""bloodpressure"", ""glucose""]",True,True
+diabetes,0,XGB,25,14,rev30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,25,14,rev30_r1,untargeted,True,311,"[""bloodpressure"", ""glucose"", ""insulin""]",True,True
+diabetes,0,XGB,25,14,drop30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,25,14,drop30_r2,untargeted,True,311,"[""bloodpressure"", ""glucose"", ""insulin""]",True,True
+diabetes,0,XGB,25,14,rev30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,25,14,rev30_r2,untargeted,True,305,"[""bmi"", ""insulin"", ""skinthickness""]",False,True
+diabetes,0,XGB,25,14,empty,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,25,14,empty,untargeted,True,310,"[""bloodpressure"", ""glucose""]",True,True
+diabetes,0,XGB,25,14,pc,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,25,14,pc,untargeted,True,307,"[""bmi"", ""insulin"", ""skinthickness""]",False,True
+diabetes,0,XGB,25,14,gbr,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,25,14,gbr,untargeted,True,311,"[""bloodpressure"", ""glucose"", ""insulin""]",True,True
+diabetes,0,XGB,26,96,llm,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,26,96,llm,untargeted,True,304,"[""glucose""]",True,True
+diabetes,0,XGB,26,96,drop30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,26,96,drop30_r1,untargeted,True,304,"[""glucose""]",True,True
+diabetes,0,XGB,26,96,rev30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,26,96,rev30_r1,untargeted,True,297,"[""glucose""]",True,True
+diabetes,0,XGB,26,96,drop30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,26,96,drop30_r2,untargeted,True,304,"[""glucose""]",True,True
+diabetes,0,XGB,26,96,rev30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,26,96,rev30_r2,untargeted,True,300,"[""bloodpressure"", ""glucose"", ""insulin"", ""skinthickness""]",False,False
+diabetes,0,XGB,26,96,empty,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,26,96,empty,untargeted,True,296,"[""glucose""]",True,True
+diabetes,0,XGB,26,96,pc,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,26,96,pc,untargeted,True,296,"[""glucose""]",True,True
+diabetes,0,XGB,26,96,gbr,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,26,96,gbr,untargeted,True,305,"[""glucose"", ""insulin""]",True,True
+diabetes,0,XGB,27,148,llm,acbfi_v3,True,28,"[""glucose""]",True,False
+diabetes,0,XGB,27,148,llm,untargeted,True,303,"[""glucose""]",True,False
+diabetes,0,XGB,27,148,drop30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,27,148,drop30_r1,untargeted,True,300,"[""glucose"", ""insulin""]",True,True
+diabetes,0,XGB,27,148,rev30_r1,acbfi_v3,True,28,"[""glucose""]",True,False
+diabetes,0,XGB,27,148,rev30_r1,untargeted,True,285,"[""glucose""]",True,False
+diabetes,0,XGB,27,148,drop30_r2,acbfi_v3,True,28,"[""glucose""]",True,False
+diabetes,0,XGB,27,148,drop30_r2,untargeted,True,303,"[""glucose""]",True,False
+diabetes,0,XGB,27,148,rev30_r2,acbfi_v3,True,28,"[""glucose""]",True,False
+diabetes,0,XGB,27,148,rev30_r2,untargeted,True,297,"[""bloodpressure"", ""bmi"", ""skinthickness""]",True,False
+diabetes,0,XGB,27,148,empty,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,27,148,empty,untargeted,True,303,"[""glucose"", ""insulin""]",True,True
+diabetes,0,XGB,27,148,pc,acbfi_v3,True,28,"[""glucose""]",True,False
+diabetes,0,XGB,27,148,pc,untargeted,True,302,"[""bmi"", ""glucose""]",True,False
+diabetes,0,XGB,27,148,gbr,acbfi_v3,True,28,"[""glucose""]",True,False
+diabetes,0,XGB,27,148,gbr,untargeted,True,303,"[""glucose"", ""insulin""]",True,True
+diabetes,0,XGB,28,71,llm,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,28,71,llm,untargeted,True,312,"[""bmi"", ""insulin"", ""skinthickness""]",True,True
+diabetes,0,XGB,28,71,drop30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,28,71,drop30_r1,untargeted,True,312,"[""bmi"", ""insulin"", ""skinthickness""]",True,True
+diabetes,0,XGB,28,71,rev30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,28,71,rev30_r1,untargeted,True,312,"[""bmi"", ""insulin""]",True,True
+diabetes,0,XGB,28,71,drop30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,28,71,drop30_r2,untargeted,True,312,"[""bmi"", ""insulin"", ""skinthickness""]",True,True
+diabetes,0,XGB,28,71,rev30_r2,acbfi_v3,True,28,"[""bmi""]",True,True
+diabetes,0,XGB,28,71,rev30_r2,untargeted,True,313,"[""bmi"", ""skinthickness""]",False,True
+diabetes,0,XGB,28,71,empty,acbfi_v3,True,28,"[""bmi""]",False,True
+diabetes,0,XGB,28,71,empty,untargeted,True,313,"[""bmi""]",False,True
+diabetes,0,XGB,28,71,pc,acbfi_v3,True,28,"[""bmi""]",False,True
+diabetes,0,XGB,28,71,pc,untargeted,True,314,"[""bmi""]",False,True
+diabetes,0,XGB,28,71,gbr,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,28,71,gbr,untargeted,True,313,"[""bmi"", ""insulin"", ""skinthickness""]",True,True
+diabetes,0,XGB,29,84,llm,acbfi_v3,True,28,"[""glucose""]",True,False
+diabetes,0,XGB,29,84,llm,untargeted,True,295,"[""glucose""]",True,False
+diabetes,0,XGB,29,84,drop30_r1,acbfi_v3,True,452,"[""glucose"", ""insulin""]",True,True
+diabetes,0,XGB,29,84,drop30_r1,untargeted,True,281,"[""glucose"", ""insulin""]",True,True
+diabetes,0,XGB,29,84,rev30_r1,acbfi_v3,True,28,"[""glucose""]",True,False
+diabetes,0,XGB,29,84,rev30_r1,untargeted,True,303,"[""glucose""]",True,False
+diabetes,0,XGB,29,84,drop30_r2,acbfi_v3,True,28,"[""glucose""]",True,False
+diabetes,0,XGB,29,84,drop30_r2,untargeted,True,295,"[""glucose""]",True,False
+diabetes,0,XGB,29,84,rev30_r2,acbfi_v3,True,28,"[""glucose""]",True,False
+diabetes,0,XGB,29,84,rev30_r2,untargeted,True,290,"[""glucose""]",True,False
+diabetes,0,XGB,29,84,empty,acbfi_v3,True,452,"[""glucose"", ""insulin""]",True,True
+diabetes,0,XGB,29,84,empty,untargeted,True,281,"[""glucose"", ""insulin""]",True,True
+diabetes,0,XGB,29,84,pc,acbfi_v3,True,28,"[""glucose""]",True,False
+diabetes,0,XGB,29,84,pc,untargeted,True,284,"[""bmi"", ""glucose"", ""insulin"", ""skinthickness""]",False,True
+diabetes,0,XGB,29,84,gbr,acbfi_v3,True,452,"[""glucose"", ""insulin""]",True,True
+diabetes,0,XGB,29,84,gbr,untargeted,True,292,"[""glucose"", ""insulin""]",True,True
+diabetes,0,XGB,30,93,llm,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,30,93,llm,untargeted,True,306,"[""bloodpressure"", ""glucose"", ""insulin""]",True,True
+diabetes,0,XGB,30,93,drop30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,30,93,drop30_r1,untargeted,True,303,"[""bloodpressure"", ""glucose""]",True,True
+diabetes,0,XGB,30,93,rev30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,30,93,rev30_r1,untargeted,True,302,"[""bloodpressure"", ""glucose"", ""insulin""]",True,True
+diabetes,0,XGB,30,93,drop30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,30,93,drop30_r2,untargeted,True,306,"[""bloodpressure"", ""glucose"", ""insulin""]",True,True
+diabetes,0,XGB,30,93,rev30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,30,93,rev30_r2,untargeted,True,302,"[""bloodpressure"", ""glucose"", ""insulin"", ""skinthickness""]",True,True
+diabetes,0,XGB,30,93,empty,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,30,93,empty,untargeted,True,301,"[""bloodpressure"", ""glucose""]",True,True
+diabetes,0,XGB,30,93,pc,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,30,93,pc,untargeted,True,302,"[""bloodpressure"", ""glucose"", ""insulin"", ""skinthickness""]",True,True
+diabetes,0,XGB,30,93,gbr,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,30,93,gbr,untargeted,True,306,"[""bloodpressure"", ""glucose"", ""insulin""]",True,True
+diabetes,0,XGB,31,138,llm,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,31,138,llm,untargeted,True,303,"[""glucose""]",True,True
+diabetes,0,XGB,31,138,drop30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,31,138,drop30_r1,untargeted,True,303,"[""glucose""]",True,True
+diabetes,0,XGB,31,138,rev30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,31,138,rev30_r1,untargeted,True,303,"[""glucose""]",True,True
+diabetes,0,XGB,31,138,drop30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,31,138,drop30_r2,untargeted,True,303,"[""glucose""]",True,True
+diabetes,0,XGB,31,138,rev30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,31,138,rev30_r2,untargeted,True,301,"[""bloodpressure"", ""bmi"", ""glucose""]",True,True
+diabetes,0,XGB,31,138,empty,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,31,138,empty,untargeted,True,303,"[""glucose""]",True,True
+diabetes,0,XGB,31,138,pc,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,31,138,pc,untargeted,True,297,"[""bmi"", ""glucose""]",False,True
+diabetes,0,XGB,31,138,gbr,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,31,138,gbr,untargeted,True,303,"[""glucose""]",True,True
+diabetes,0,XGB,32,127,llm,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,32,127,llm,untargeted,True,303,"[""bloodpressure"", ""glucose""]",True,True
+diabetes,0,XGB,32,127,drop30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,32,127,drop30_r1,untargeted,True,303,"[""bloodpressure"", ""glucose""]",True,True
+diabetes,0,XGB,32,127,rev30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,32,127,rev30_r1,untargeted,True,303,"[""bloodpressure"", ""glucose""]",True,True
+diabetes,0,XGB,32,127,drop30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,32,127,drop30_r2,untargeted,True,303,"[""bloodpressure"", ""glucose""]",True,True
+diabetes,0,XGB,32,127,rev30_r2,acbfi_v3,True,28,"[""glucose""]",False,False
+diabetes,0,XGB,32,127,rev30_r2,untargeted,True,299,"[""glucose""]",False,False
+diabetes,0,XGB,32,127,empty,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,32,127,empty,untargeted,True,303,"[""bloodpressure"", ""glucose""]",True,True
+diabetes,0,XGB,32,127,pc,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,32,127,pc,untargeted,True,303,"[""bloodpressure"", ""glucose"", ""skinthickness""]",True,True
+diabetes,0,XGB,32,127,gbr,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,32,127,gbr,untargeted,True,303,"[""bloodpressure"", ""glucose""]",True,True
+diabetes,0,XGB,33,44,llm,acbfi_v3,True,28,"[""glucose""]",True,False
+diabetes,0,XGB,33,44,llm,untargeted,True,285,"[""bloodpressure"", ""glucose"", ""insulin""]",True,True
+diabetes,0,XGB,33,44,drop30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,33,44,drop30_r1,untargeted,True,283,"[""bloodpressure"", ""glucose""]",False,True
+diabetes,0,XGB,33,44,rev30_r1,acbfi_v3,True,28,"[""glucose""]",True,False
+diabetes,0,XGB,33,44,rev30_r1,untargeted,True,283,"[""bloodpressure"", ""bmi"", ""glucose""]",True,True
+diabetes,0,XGB,33,44,drop30_r2,acbfi_v3,True,28,"[""glucose""]",True,False
+diabetes,0,XGB,33,44,drop30_r2,untargeted,True,285,"[""bloodpressure"", ""glucose"", ""insulin""]",True,True
+diabetes,0,XGB,33,44,rev30_r2,acbfi_v3,True,28,"[""glucose""]",False,False
+diabetes,0,XGB,33,44,rev30_r2,untargeted,True,276,"[""bloodpressure"", ""glucose"", ""insulin""]",False,False
+diabetes,0,XGB,33,44,empty,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,33,44,empty,untargeted,True,284,"[""bloodpressure"", ""glucose""]",False,True
+diabetes,0,XGB,33,44,pc,acbfi_v3,True,28,"[""glucose""]",True,False
+diabetes,0,XGB,33,44,pc,untargeted,True,283,"[""bloodpressure"", ""bmi"", ""glucose""]",True,True
+diabetes,0,XGB,33,44,gbr,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,33,44,gbr,untargeted,True,281,"[""bloodpressure"", ""glucose"", ""skinthickness""]",False,False
+diabetes,0,XGB,34,65,llm,acbfi_v3,True,28,"[""insulin""]",True,True
+diabetes,0,XGB,34,65,llm,untargeted,True,294,"[""insulin""]",True,True
+diabetes,0,XGB,34,65,drop30_r1,acbfi_v3,True,28,"[""insulin""]",True,True
+diabetes,0,XGB,34,65,drop30_r1,untargeted,True,300,"[""insulin""]",True,True
+diabetes,0,XGB,34,65,rev30_r1,acbfi_v3,True,28,"[""insulin""]",True,True
+diabetes,0,XGB,34,65,rev30_r1,untargeted,True,293,"[""insulin""]",True,True
+diabetes,0,XGB,34,65,drop30_r2,acbfi_v3,True,28,"[""insulin""]",True,True
+diabetes,0,XGB,34,65,drop30_r2,untargeted,True,294,"[""insulin""]",True,True
+diabetes,0,XGB,34,65,rev30_r2,acbfi_v3,True,28,"[""insulin""]",True,True
+diabetes,0,XGB,34,65,rev30_r2,untargeted,True,296,"[""insulin""]",True,True
+diabetes,0,XGB,34,65,empty,acbfi_v3,True,28,"[""insulin""]",True,True
+diabetes,0,XGB,34,65,empty,untargeted,True,291,"[""insulin""]",True,True
+diabetes,0,XGB,34,65,pc,acbfi_v3,True,28,"[""insulin""]",True,True
+diabetes,0,XGB,34,65,pc,untargeted,True,290,"[""bloodpressure"", ""insulin"", ""skinthickness""]",True,True
+diabetes,0,XGB,34,65,gbr,acbfi_v3,True,28,"[""insulin""]",True,True
+diabetes,0,XGB,34,65,gbr,untargeted,True,292,"[""insulin""]",True,True
+diabetes,0,XGB,35,32,llm,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,35,32,llm,untargeted,True,291,"[""bloodpressure"", ""bmi"", ""glucose"", ""insulin""]",True,False
+diabetes,0,XGB,35,32,drop30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,35,32,drop30_r1,untargeted,True,286,"[""bloodpressure"", ""bmi"", ""glucose""]",True,False
+diabetes,0,XGB,35,32,rev30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,35,32,rev30_r1,untargeted,True,287,"[""bloodpressure"", ""glucose"", ""insulin"", ""skinthickness""]",True,True
+diabetes,0,XGB,35,32,drop30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,35,32,drop30_r2,untargeted,True,291,"[""bloodpressure"", ""bmi"", ""glucose"", ""insulin""]",True,False
+diabetes,0,XGB,35,32,rev30_r2,acbfi_v3,True,28,"[""glucose""]",False,False
+diabetes,0,XGB,35,32,rev30_r2,untargeted,True,304,"[""bloodpressure"", ""glucose""]",False,False
+diabetes,0,XGB,35,32,empty,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,35,32,empty,untargeted,True,286,"[""bmi"", ""glucose""]",True,True
+diabetes,0,XGB,35,32,pc,acbfi_v3,True,28,"[""glucose""]",False,False
+diabetes,0,XGB,35,32,pc,untargeted,True,300,"[""bloodpressure"", ""bmi"", ""glucose"", ""skinthickness""]",True,False
+diabetes,0,XGB,35,32,gbr,acbfi_v3,True,28,"[""glucose""]",False,False
+diabetes,0,XGB,35,32,gbr,untargeted,True,298,"[""bloodpressure"", ""glucose"", ""insulin"", ""skinthickness""]",True,True
+diabetes,0,XGB,36,120,llm,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,36,120,llm,untargeted,True,303,"[""bmi"", ""glucose"", ""insulin""]",True,True
+diabetes,0,XGB,36,120,drop30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,36,120,drop30_r1,untargeted,True,303,"[""glucose""]",True,True
+diabetes,0,XGB,36,120,rev30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,36,120,rev30_r1,untargeted,True,299,"[""bmi"", ""glucose"", ""insulin""]",True,True
+diabetes,0,XGB,36,120,drop30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,36,120,drop30_r2,untargeted,True,303,"[""bmi"", ""glucose"", ""insulin""]",True,True
+diabetes,0,XGB,36,120,rev30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,36,120,rev30_r2,untargeted,True,301,"[""glucose"", ""insulin""]",True,True
+diabetes,0,XGB,36,120,empty,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,36,120,empty,untargeted,True,300,"[""bmi"", ""glucose"", ""insulin""]",True,True
+diabetes,0,XGB,36,120,pc,acbfi_v3,True,28,"[""bmi""]",True,True
+diabetes,0,XGB,36,120,pc,untargeted,True,292,"[""bmi"", ""glucose"", ""insulin""]",True,True
+diabetes,0,XGB,36,120,gbr,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,36,120,gbr,untargeted,True,305,"[""bmi"", ""glucose"", ""insulin"", ""skinthickness""]",True,True
+diabetes,0,XGB,37,85,llm,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,37,85,llm,untargeted,True,300,"[""glucose"", ""insulin""]",True,True
+diabetes,0,XGB,37,85,drop30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,37,85,drop30_r1,untargeted,True,300,"[""glucose""]",True,True
+diabetes,0,XGB,37,85,rev30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,37,85,rev30_r1,untargeted,True,300,"[""glucose"", ""insulin""]",True,True
+diabetes,0,XGB,37,85,drop30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,37,85,drop30_r2,untargeted,True,300,"[""glucose"", ""insulin""]",True,True
+diabetes,0,XGB,37,85,rev30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,37,85,rev30_r2,untargeted,True,295,"[""bloodpressure"", ""glucose"", ""insulin""]",False,False
+diabetes,0,XGB,37,85,empty,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,37,85,empty,untargeted,True,300,"[""glucose""]",True,True
+diabetes,0,XGB,37,85,pc,acbfi_v3,True,28,"[""glucose""]",False,False
+diabetes,0,XGB,37,85,pc,untargeted,True,302,"[""glucose"", ""skinthickness""]",False,False
+diabetes,0,XGB,37,85,gbr,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,37,85,gbr,untargeted,True,301,"[""glucose"", ""insulin""]",True,True
+diabetes,0,XGB,38,124,llm,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,38,124,llm,untargeted,True,302,"[""glucose""]",True,True
+diabetes,0,XGB,38,124,drop30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,38,124,drop30_r1,untargeted,True,302,"[""glucose""]",True,True
+diabetes,0,XGB,38,124,rev30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,38,124,rev30_r1,untargeted,True,284,"[""glucose""]",True,True
+diabetes,0,XGB,38,124,drop30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,38,124,drop30_r2,untargeted,True,302,"[""glucose""]",True,True
+diabetes,0,XGB,38,124,rev30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,38,124,rev30_r2,untargeted,True,300,"[""glucose""]",True,True
+diabetes,0,XGB,38,124,empty,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,38,124,empty,untargeted,True,282,"[""glucose""]",True,True
+diabetes,0,XGB,38,124,pc,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,38,124,pc,untargeted,True,282,"[""glucose""]",True,True
+diabetes,0,XGB,38,124,gbr,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,38,124,gbr,untargeted,True,302,"[""glucose""]",True,True
+diabetes,0,XGB,39,135,llm,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,39,135,llm,untargeted,True,311,"[""bmi"", ""glucose"", ""insulin""]",True,True
+diabetes,0,XGB,39,135,drop30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,39,135,drop30_r1,untargeted,True,306,"[""glucose""]",True,True
+diabetes,0,XGB,39,135,rev30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,39,135,rev30_r1,untargeted,True,310,"[""bmi"", ""glucose"", ""insulin""]",True,True
+diabetes,0,XGB,39,135,drop30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,39,135,drop30_r2,untargeted,True,311,"[""bmi"", ""glucose"", ""insulin""]",True,True
+diabetes,0,XGB,39,135,rev30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,39,135,rev30_r2,untargeted,True,311,"[""glucose"", ""insulin""]",True,True
+diabetes,0,XGB,39,135,empty,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,39,135,empty,untargeted,True,311,"[""glucose""]",True,True
+diabetes,0,XGB,39,135,pc,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,39,135,pc,untargeted,True,307,"[""bmi"", ""glucose"", ""insulin"", ""skinthickness""]",True,True
+diabetes,0,XGB,39,135,gbr,acbfi_v3,True,28,"[""glucose""]",False,False
+diabetes,0,XGB,39,135,gbr,untargeted,True,309,"[""glucose"", ""insulin""]",True,True
+diabetes,0,XGB,40,19,llm,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,40,19,llm,untargeted,True,318,"[""glucose"", ""insulin""]",True,True
+diabetes,0,XGB,40,19,drop30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,40,19,drop30_r1,untargeted,True,319,"[""glucose""]",True,True
+diabetes,0,XGB,40,19,rev30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,40,19,rev30_r1,untargeted,True,307,"[""glucose"", ""insulin""]",True,True
+diabetes,0,XGB,40,19,drop30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,40,19,drop30_r2,untargeted,True,318,"[""glucose"", ""insulin""]",True,True
+diabetes,0,XGB,40,19,rev30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,40,19,rev30_r2,untargeted,True,315,"[""glucose"", ""insulin""]",True,True
+diabetes,0,XGB,40,19,empty,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,40,19,empty,untargeted,True,315,"[""glucose""]",True,True
+diabetes,0,XGB,40,19,pc,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,40,19,pc,untargeted,True,313,"[""glucose"", ""insulin""]",True,True
+diabetes,0,XGB,40,19,gbr,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,40,19,gbr,untargeted,True,318,"[""glucose"", ""insulin""]",True,True
+diabetes,0,XGB,41,21,llm,acbfi_v3,True,28,"[""bloodpressure""]",True,True
+diabetes,0,XGB,41,21,llm,untargeted,True,312,"[""bloodpressure""]",True,True
+diabetes,0,XGB,41,21,drop30_r1,acbfi_v3,True,28,"[""bloodpressure""]",True,True
+diabetes,0,XGB,41,21,drop30_r1,untargeted,True,312,"[""bloodpressure""]",True,True
+diabetes,0,XGB,41,21,rev30_r1,acbfi_v3,True,28,"[""bloodpressure""]",True,True
+diabetes,0,XGB,41,21,rev30_r1,untargeted,True,295,"[""bloodpressure""]",True,True
+diabetes,0,XGB,41,21,drop30_r2,acbfi_v3,True,28,"[""bloodpressure""]",True,True
+diabetes,0,XGB,41,21,drop30_r2,untargeted,True,312,"[""bloodpressure""]",True,True
+diabetes,0,XGB,41,21,rev30_r2,acbfi_v3,True,28,"[""bloodpressure""]",True,True
+diabetes,0,XGB,41,21,rev30_r2,untargeted,True,318,"[""bloodpressure""]",True,True
+diabetes,0,XGB,41,21,empty,acbfi_v3,True,28,"[""bloodpressure""]",True,True
+diabetes,0,XGB,41,21,empty,untargeted,True,314,"[""bloodpressure""]",True,True
+diabetes,0,XGB,41,21,pc,acbfi_v3,True,28,"[""bloodpressure""]",True,True
+diabetes,0,XGB,41,21,pc,untargeted,True,306,"[""bloodpressure""]",True,True
+diabetes,0,XGB,41,21,gbr,acbfi_v3,True,28,"[""bloodpressure""]",True,True
+diabetes,0,XGB,41,21,gbr,untargeted,True,314,"[""bloodpressure""]",True,True
+diabetes,0,XGB,42,107,llm,acbfi_v3,True,28,"[""bmi""]",True,True
+diabetes,0,XGB,42,107,llm,untargeted,True,302,"[""bmi"", ""glucose"", ""insulin"", ""skinthickness""]",True,True
+diabetes,0,XGB,42,107,drop30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,42,107,drop30_r1,untargeted,True,302,"[""glucose""]",True,True
+diabetes,0,XGB,42,107,rev30_r1,acbfi_v3,True,28,"[""bmi""]",True,True
+diabetes,0,XGB,42,107,rev30_r1,untargeted,True,302,"[""bmi""]",True,True
+diabetes,0,XGB,42,107,drop30_r2,acbfi_v3,True,28,"[""bmi""]",True,True
+diabetes,0,XGB,42,107,drop30_r2,untargeted,True,302,"[""bmi"", ""glucose"", ""insulin"", ""skinthickness""]",True,True
+diabetes,0,XGB,42,107,rev30_r2,acbfi_v3,True,28,"[""bmi""]",True,True
+diabetes,0,XGB,42,107,rev30_r2,untargeted,True,302,"[""bmi""]",True,True
+diabetes,0,XGB,42,107,empty,acbfi_v3,True,28,"[""bmi""]",True,True
+diabetes,0,XGB,42,107,empty,untargeted,True,301,"[""bmi""]",True,True
+diabetes,0,XGB,42,107,pc,acbfi_v3,True,28,"[""bmi""]",True,True
+diabetes,0,XGB,42,107,pc,untargeted,True,300,"[""bmi""]",True,True
+diabetes,0,XGB,42,107,gbr,acbfi_v3,True,28,"[""bmi""]",True,True
+diabetes,0,XGB,42,107,gbr,untargeted,True,293,"[""bmi""]",True,True
+diabetes,0,XGB,43,121,llm,acbfi_v3,True,28,"[""bmi""]",True,True
+diabetes,0,XGB,43,121,llm,untargeted,True,318,"[""bmi"", ""insulin""]",True,True
+diabetes,0,XGB,43,121,drop30_r1,acbfi_v3,True,28,"[""bmi""]",True,True
+diabetes,0,XGB,43,121,drop30_r1,untargeted,True,318,"[""bmi""]",True,True
+diabetes,0,XGB,43,121,rev30_r1,acbfi_v3,True,28,"[""skinthickness""]",False,False
+diabetes,0,XGB,43,121,rev30_r1,untargeted,True,306,"[""insulin"", ""skinthickness""]",False,False
+diabetes,0,XGB,43,121,drop30_r2,acbfi_v3,True,28,"[""bmi""]",True,True
+diabetes,0,XGB,43,121,drop30_r2,untargeted,True,318,"[""bmi"", ""insulin""]",True,True
+diabetes,0,XGB,43,121,rev30_r2,acbfi_v3,True,28,"[""bmi""]",True,True
+diabetes,0,XGB,43,121,rev30_r2,untargeted,True,318,"[""bmi"", ""insulin""]",True,True
+diabetes,0,XGB,43,121,empty,acbfi_v3,True,28,"[""bmi""]",True,True
+diabetes,0,XGB,43,121,empty,untargeted,True,318,"[""bmi""]",True,True
+diabetes,0,XGB,43,121,pc,acbfi_v3,True,28,"[""skinthickness""]",False,False
+diabetes,0,XGB,43,121,pc,untargeted,True,306,"[""skinthickness""]",False,False
+diabetes,0,XGB,43,121,gbr,acbfi_v3,True,28,"[""bmi""]",True,True
+diabetes,0,XGB,43,121,gbr,untargeted,True,318,"[""bmi"", ""insulin""]",True,True
+diabetes,0,XGB,44,113,llm,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,44,113,llm,untargeted,True,278,"[""bloodpressure"", ""bmi"", ""glucose""]",True,False
+diabetes,0,XGB,44,113,drop30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,44,113,drop30_r1,untargeted,True,279,"[""glucose""]",True,True
+diabetes,0,XGB,44,113,rev30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,44,113,rev30_r1,untargeted,True,291,"[""glucose""]",True,True
+diabetes,0,XGB,44,113,drop30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,44,113,drop30_r2,untargeted,True,278,"[""bloodpressure"", ""bmi"", ""glucose""]",True,False
+diabetes,0,XGB,44,113,rev30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,44,113,rev30_r2,untargeted,True,292,"[""bmi"", ""glucose""]",True,True
+diabetes,0,XGB,44,113,empty,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,44,113,empty,untargeted,True,276,"[""bloodpressure"", ""bmi"", ""glucose"", ""insulin""]",True,True
+diabetes,0,XGB,44,113,pc,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,44,113,pc,untargeted,True,288,"[""bmi"", ""glucose""]",True,True
+diabetes,0,XGB,44,113,gbr,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,44,113,gbr,untargeted,True,277,"[""bloodpressure"", ""bmi"", ""glucose""]",True,False
+diabetes,0,XGB,45,142,llm,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,45,142,llm,untargeted,True,316,"[""glucose"", ""insulin""]",True,True
+diabetes,0,XGB,45,142,drop30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,45,142,drop30_r1,untargeted,True,316,"[""glucose""]",True,True
+diabetes,0,XGB,45,142,rev30_r1,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,45,142,rev30_r1,untargeted,True,315,"[""glucose"", ""insulin""]",True,True
+diabetes,0,XGB,45,142,drop30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,45,142,drop30_r2,untargeted,True,316,"[""glucose"", ""insulin""]",True,True
+diabetes,0,XGB,45,142,rev30_r2,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,45,142,rev30_r2,untargeted,True,316,"[""glucose"", ""insulin""]",True,True
+diabetes,0,XGB,45,142,empty,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,45,142,empty,untargeted,True,316,"[""glucose""]",True,True
+diabetes,0,XGB,45,142,pc,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,45,142,pc,untargeted,True,316,"[""glucose"", ""insulin""]",True,True
+diabetes,0,XGB,45,142,gbr,acbfi_v3,True,28,"[""glucose""]",True,True
+diabetes,0,XGB,45,142,gbr,untargeted,True,316,"[""glucose"", ""insulin""]",True,True

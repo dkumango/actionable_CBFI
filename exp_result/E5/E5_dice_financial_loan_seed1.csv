@@ -1,0 +1,140 @@
+﻿dataset,seed,model,query,test_row,method,success,cost,L0,L_active,evals_total,time,tail,cross_valid,changed
+financial_loan,1,RF,0,6930,dice_random,True,3.587225129138303,1.0,1.0,2004,0.29662561416625977,False,1.0,['home_ownership']
+financial_loan,1,RF,1,4642,dice_random,True,6.963998774434097,2.0,2.0,2004,0.13770771026611328,True,1.0,"['home_ownership', 'total_acc']"
+financial_loan,1,RF,2,6334,dice_random,True,6.216880768652441,2.0,2.0,2004,0.13394975662231445,False,1.0,"['dti', 'loan_amount']"
+financial_loan,1,RF,3,3094,dice_random,True,8.26907638043443,2.0,2.0,2004,0.12230610847473145,True,1.0,"['dti', 'total_acc']"
+financial_loan,1,RF,4,4817,dice_random,True,1.8396917832169217,1.0,1.0,2004,0.17365717887878418,False,1.0,['term']
+financial_loan,1,RF,5,7147,dice_random,True,1.892486667872977,1.0,1.0,2004,0.3398427963256836,True,1.0,['loan_amount']
+financial_loan,1,RF,6,4079,dice_random,True,2.487095284493432,1.0,1.0,2004,0.21748995780944824,False,0.5,['dti']
+financial_loan,1,RF,7,4589,dice_random,True,2.6718922825276437,1.0,1.0,2004,0.14110350608825684,True,1.0,['loan_amount']
+financial_loan,1,RF,8,7404,dice_random,True,7.218162504650294,2.0,2.0,2004,0.14264702796936035,True,1.0,"['loan_amount', 'total_acc']"
+financial_loan,1,RF,9,255,dice_random,True,0.9300826565004167,1.0,1.0,2004,0.16946172714233398,False,0.5,['loan_amount']
+financial_loan,1,RF,10,4761,dice_random,True,6.24888086005635,2.0,2.0,2004,0.28806567192077637,True,1.0,"['dti', 'loan_amount']"
+financial_loan,1,RF,11,1881,dice_random,True,1.8324679286424728,1.0,1.0,2004,0.30025291442871094,True,0.5,['loan_amount']
+financial_loan,1,RF,12,3352,dice_random,True,3.769753636232011,2.0,2.0,12004,83.37373661994934,False,1.0,"['dti', 'term']"
+financial_loan,1,RF,13,5545,dice_random,True,1.6534061340118356,1.0,1.0,2004,0.2095050811767578,False,0.5,['home_ownership']
+financial_loan,1,RF,14,5802,dice_random,True,6.717298456845604,2.0,2.0,2004,0.29013586044311523,False,1.0,"['loan_amount', 'home_ownership']"
+financial_loan,1,RF,15,721,dice_random,True,1.1101978300775368,2.0,2.0,2004,0.1828927993774414,False,1.0,"['dti', 'home_ownership']"
+financial_loan,1,RF,16,6189,dice_random,True,4.399193856517783,2.0,2.0,2004,0.1401808261871338,False,0.5,"['dti', 'loan_amount']"
+financial_loan,1,RF,17,943,dice_random,True,1.6272160832169218,1.0,1.0,2004,0.15116477012634277,False,1.0,['term']
+financial_loan,1,RF,18,4906,dice_random,True,8.753858148320678,2.0,2.0,2004,0.1787724494934082,True,0.5,"['dti', 'home_ownership']"
+financial_loan,1,RF,19,2323,dice_random,True,8.925791747940934,1.0,1.0,2004,0.29547929763793945,True,0.5,['total_acc']
+financial_loan,1,RF,20,7263,dice_random,True,2.7593687236456095,2.0,2.0,2004,0.2004408836364746,False,0.5,"['loan_amount', 'home_ownership']"
+financial_loan,1,RF,21,5402,dice_random,True,8.444962331428142,2.0,2.0,2004,0.14054179191589355,True,0.5,"['loan_amount', 'home_ownership']"
+financial_loan,1,RF,22,6993,dice_random,True,2.4816248940754013,1.0,1.0,2004,0.13540267944335938,False,0.5,['dti']
+financial_loan,1,RF,23,3395,dice_random,True,4.171256500161011,1.0,1.0,2004,0.1378951072692871,False,0.5,['loan_amount']
+financial_loan,1,RF,24,2594,dice_random,False,,,,22004,88.66336560249329,,,
+financial_loan,1,RF,25,4517,dice_random,True,8.517731943173539,2.0,2.0,2004,0.08899736404418945,True,1.0,"['loan_amount', 'total_acc']"
+financial_loan,1,RF,26,5651,dice_random,True,5.71752333080765,2.0,2.0,2004,0.09095597267150879,True,1.0,"['dti', 'loan_amount']"
+financial_loan,1,RF,27,4120,dice_random,True,2.4666585406921144,1.0,1.0,2004,0.08935260772705078,False,0.5,['dti']
+financial_loan,1,RF,28,3595,dice_random,True,1.8023258232169217,1.0,1.0,2004,0.08885717391967773,False,1.0,['term']
+financial_loan,1,RF,29,2271,dice_random,True,1.6439187475891333,1.0,1.0,2004,0.08856606483459473,False,0.5,['dti']
+financial_loan,1,RF,30,950,dice_random,True,4.390841661268092,2.0,2.0,2004,0.08722305297851562,False,1.0,"['loan_amount', 'home_ownership']"
+financial_loan,1,RF,31,2539,dice_random,True,1.657671311133467,2.0,2.0,2004,0.09046030044555664,False,1.0,"['dti', 'home_ownership']"
+financial_loan,1,RF,32,445,dice_random,True,5.626934766998172,2.0,2.0,2004,0.09125351905822754,False,0.5,"['loan_amount', 'term']"
+financial_loan,1,RF,33,1582,dice_random,True,3.102846359020341,2.0,2.0,2004,0.09022212028503418,False,0.5,"['dti', 'loan_amount']"
+financial_loan,1,RF,34,6315,dice_random,True,2.045232446001953,1.0,1.0,2004,0.08799552917480469,False,0.5,['loan_amount']
+financial_loan,1,RF,35,2712,dice_random,True,3.0665118108756904,2.0,2.0,2004,0.09041142463684082,True,0.5,"['dti', 'home_ownership']"
+financial_loan,1,RF,36,5525,dice_random,True,3.0366094990853947,2.0,2.0,12004,39.168163537979126,False,1.0,"['home_ownership', 'total_acc']"
+financial_loan,1,RF,37,4146,dice_random,True,1.7840436332169218,1.0,1.0,2004,0.09147810935974121,False,1.0,['term']
+financial_loan,1,RF,38,6823,dice_random,True,4.054325776467554,1.0,1.0,2004,0.08862709999084473,False,1.0,['loan_amount']
+financial_loan,1,XGB,0,3827,dice_random,True,5.159726532142491,2.0,2.0,2004,0.06883716583251953,False,1.0,"['term', 'total_acc']"
+financial_loan,1,XGB,1,4983,dice_random,True,4.674687772047823,2.0,2.0,2004,0.06814718246459961,True,1.0,"['term', 'total_acc']"
+financial_loan,1,XGB,2,3021,dice_random,True,1.7960733192285352,1.0,1.0,2004,0.07089114189147949,False,1.0,['dti']
+financial_loan,1,XGB,3,255,dice_random,True,1.9315935287873458,2.0,2.0,12004,11.729584217071533,False,1.0,"['dti', 'total_acc']"
+financial_loan,1,XGB,4,172,dice_random,True,3.201317963111119,2.0,2.0,2004,0.07328510284423828,True,1.0,"['dti', 'term']"
+financial_loan,1,XGB,5,2387,dice_random,True,1.900692934395752,1.0,1.0,2004,0.0683145523071289,True,1.0,['total_acc']
+financial_loan,1,XGB,6,486,dice_random,True,0.46760678321692173,1.0,1.0,12004,11.681095123291016,False,1.0,['term']
+financial_loan,1,XGB,7,4785,dice_random,True,1.0233467132169216,1.0,1.0,2004,0.06812286376953125,False,1.0,['term']
+financial_loan,1,XGB,8,1453,dice_random,True,3.27353650677419,2.0,2.0,2004,0.07065010070800781,False,1.0,"['term', 'home_ownership']"
+financial_loan,1,XGB,9,1987,dice_random,True,3.935291880725988,2.0,2.0,12004,11.461182117462158,False,1.0,"['term', 'total_acc']"
+financial_loan,1,XGB,10,1045,dice_random,True,3.18037949425876,1.0,1.0,2004,0.06914067268371582,True,1.0,['loan_amount']
+financial_loan,1,XGB,11,4838,dice_random,True,6.686660281124407,2.0,2.0,2004,0.06799626350402832,True,1.0,"['dti', 'total_acc']"
+financial_loan,1,XGB,12,1237,dice_random,True,6.574936770975092,2.0,2.0,2004,0.06824207305908203,True,1.0,"['loan_amount', 'total_acc']"
+financial_loan,1,XGB,13,2130,dice_random,True,3.616903296454447,2.0,2.0,2004,0.06821703910827637,False,1.0,"['dti', 'home_ownership']"
+financial_loan,1,XGB,14,3494,dice_random,True,3.69203707376289,2.0,2.0,12004,11.351083040237427,False,1.0,"['term', 'home_ownership']"
+financial_loan,1,XGB,15,2766,dice_random,True,6.1601387060588335,1.0,1.0,2004,0.06849408149719238,True,1.0,['total_acc']
+financial_loan,1,XGB,16,7225,dice_random,True,1.87782761827218,2.0,2.0,12004,11.35478162765503,True,1.0,"['home_ownership', 'total_acc']"
+financial_loan,1,XGB,17,6470,dice_random,True,2.4832034631728783,1.0,1.0,2004,0.06917643547058105,False,1.0,['dti']
+financial_loan,1,XGB,18,4569,dice_random,True,5.966192521184231,2.0,2.0,2004,0.06848502159118652,False,1.0,"['dti', 'term']"
+financial_loan,1,XGB,19,4621,dice_random,True,1.5521041175383192,1.0,1.0,2004,0.06972169876098633,False,1.0,['total_acc']
+financial_loan,1,XGB,20,2275,dice_random,True,0.4093476820258203,1.0,1.0,2004,0.0678398609161377,False,1.0,['loan_amount']
+financial_loan,1,XGB,21,3466,dice_random,True,2.6952981215622884,2.0,2.0,2004,0.06718659400939941,False,1.0,"['loan_amount', 'total_acc']"
+financial_loan,1,XGB,22,1800,dice_random,True,6.176410781375206,2.0,2.0,12004,11.40384316444397,True,1.0,"['term', 'total_acc']"
+financial_loan,1,XGB,23,1506,dice_random,True,3.1707247076768126,2.0,2.0,2004,0.0706791877746582,False,1.0,"['loan_amount', 'home_ownership']"
+financial_loan,1,XGB,24,7000,dice_random,True,8.960688710137717,2.0,2.0,2004,0.07136154174804688,True,1.0,"['dti', 'total_acc']"
+financial_loan,1,XGB,25,2000,dice_random,True,4.848605088451843,2.0,2.0,2004,0.07053995132446289,False,1.0,"['dti', 'home_ownership']"
+financial_loan,1,XGB,26,5071,dice_random,True,4.752039120033116,2.0,2.0,2004,0.07117199897766113,False,1.0,"['home_ownership', 'total_acc']"
+financial_loan,1,XGB,27,4729,dice_random,True,1.8984243727711538,1.0,1.0,2004,0.0712440013885498,False,1.0,['total_acc']
+financial_loan,1,XGB,28,1881,dice_random,True,7.57257056740729,2.0,2.0,2004,0.07028937339782715,True,1.0,"['home_ownership', 'total_acc']"
+financial_loan,1,XGB,29,880,dice_random,True,2.63453085193902,2.0,2.0,12004,11.409569501876831,True,1.0,"['dti', 'total_acc']"
+financial_loan,1,XGB,30,3242,dice_random,True,3.6469306662614525,2.0,2.0,2004,0.06791353225708008,True,1.0,"['dti', 'loan_amount']"
+financial_loan,1,XGB,31,3852,dice_random,True,7.684812949069536,1.0,1.0,2004,0.0671224594116211,True,1.0,['total_acc']
+financial_loan,1,XGB,32,4025,dice_random,True,1.9880883348449556,2.0,2.0,12004,11.42309308052063,False,1.0,"['dti', 'term']"
+financial_loan,1,XGB,33,642,dice_random,True,2.7541204287585197,1.0,1.0,2004,0.06787443161010742,False,1.0,['loan_amount']
+financial_loan,1,XGB,34,934,dice_random,True,0.26559371535279624,1.0,1.0,12004,11.409151792526245,False,1.0,['total_acc']
+financial_loan,1,XGB,35,1459,dice_random,True,1.8296031881734682,1.0,1.0,2004,0.06798982620239258,False,1.0,['dti']
+financial_loan,1,XGB,36,2712,dice_random,True,6.739873394149525,2.0,2.0,2004,0.0672767162322998,True,1.0,"['loan_amount', 'home_ownership']"
+financial_loan,1,XGB,37,6993,dice_random,True,1.8244122932169218,1.0,1.0,2004,0.06689095497131348,False,1.0,['term']
+financial_loan,1,XGB,38,843,dice_random,True,9.535486300649241,2.0,2.0,2004,0.06667852401733398,True,1.0,"['dti', 'total_acc']"
+financial_loan,1,XGB,39,1845,dice_random,True,3.383246858242705,1.0,1.0,2004,0.06851363182067871,False,1.0,['home_ownership']
+financial_loan,1,XGB,40,453,dice_random,True,0.3097600938483047,2.0,2.0,22004,22.853726625442505,False,1.0,"['term', 'home_ownership']"
+financial_loan,1,XGB,41,5424,dice_random,True,8.019465198190538,2.0,2.0,12004,11.560000658035278,True,1.0,"['home_ownership', 'total_acc']"
+financial_loan,1,XGB,42,4483,dice_random,True,0.7310392594980991,1.0,1.0,2004,0.06928110122680664,False,1.0,['total_acc']
+financial_loan,1,XGB,43,4528,dice_random,True,2.239525433216922,1.0,1.0,2004,0.06915116310119629,False,1.0,['term']
+financial_loan,1,XGB,44,2488,dice_random,True,1.5280492482375645,1.0,1.0,2004,0.07228851318359375,False,1.0,['dti']
+financial_loan,1,XGB,45,1318,dice_random,True,4.234260841104218,2.0,2.0,2004,0.06877493858337402,False,1.0,"['loan_amount', 'home_ownership']"
+financial_loan,1,XGB,46,2818,dice_random,True,2.4052720321130936,1.0,1.0,2004,0.06982851028442383,False,1.0,['loan_amount']
+financial_loan,1,XGB,47,4494,dice_random,True,1.496884328517192,1.0,1.0,2004,0.06861352920532227,False,1.0,['home_ownership']
+financial_loan,1,XGB,48,5170,dice_random,True,1.3048153356474443,1.0,1.0,2004,0.06817293167114258,False,1.0,['dti']
+financial_loan,1,XGB,49,3766,dice_random,True,5.53233247845403,2.0,2.0,2004,0.06830286979675293,False,1.0,"['loan_amount', 'total_acc']"
+financial_loan,1,XGB,50,6451,dice_random,True,3.4675363147272367,2.0,2.0,2004,0.06914234161376953,False,1.0,"['dti', 'total_acc']"
+financial_loan,1,XGB,51,2278,dice_random,True,4.949257004904048,2.0,2.0,2004,0.06960511207580566,True,1.0,"['dti', 'loan_amount']"
+financial_loan,1,XGB,52,4370,dice_random,True,1.2345550089877122,2.0,2.0,12004,12.754286050796509,True,1.0,"['dti', 'term']"
+financial_loan,1,XGB,53,3839,dice_random,True,5.933378297269158,1.0,1.0,2004,0.07170510292053223,True,1.0,['total_acc']
+financial_loan,1,XGB,54,2,dice_random,True,7.269225636642633,2.0,2.0,2004,0.07464027404785156,True,1.0,"['term', 'total_acc']"
+financial_loan,1,XGB,55,1513,dice_random,True,4.64096066719265,1.0,1.0,2004,0.07975006103515625,False,1.0,['total_acc']
+financial_loan,1,XGB,56,1896,dice_random,True,6.7762238247829085,2.0,2.0,2004,0.07826948165893555,True,1.0,"['dti', 'total_acc']"
+financial_loan,1,XGB,57,2824,dice_random,True,7.671687108313726,2.0,2.0,2004,0.07092595100402832,True,1.0,"['dti', 'total_acc']"
+financial_loan,1,XGB,58,1257,dice_random,True,10.000517088069,2.0,2.0,2004,0.06850457191467285,True,1.0,"['dti', 'total_acc']"
+financial_loan,1,XGB,59,4781,dice_random,True,2.348757747795014,1.0,1.0,2004,0.06987571716308594,False,1.0,['loan_amount']
+financial_loan,1,XGB,60,943,dice_random,True,5.462187905623818,2.0,2.0,12004,12.617455959320068,True,1.0,"['loan_amount', 'term']"
+financial_loan,1,XGB,61,1266,dice_random,True,1.2181935943778965,1.0,1.0,2004,0.08795285224914551,False,1.0,['dti']
+financial_loan,1,XGB,62,278,dice_random,True,4.802545274067574,2.0,2.0,12004,13.243206262588501,True,1.0,"['term', 'total_acc']"
+financial_loan,1,XGB,63,1439,dice_random,True,1.287158693304693,1.0,1.0,2004,0.08630681037902832,False,1.0,['dti']
+financial_loan,1,XGB,64,5979,dice_random,True,4.301500571587658,2.0,2.0,2004,0.08015036582946777,False,1.0,"['dti', 'total_acc']"
+financial_loan,1,XGB,65,4403,dice_random,True,1.4922212861403399,1.0,1.0,2004,0.08150196075439453,False,1.0,['dti']
+financial_loan,1,XGB,66,3723,dice_random,True,7.954169850232922,2.0,2.0,2004,0.09049654006958008,True,1.0,"['loan_amount', 'term']"
+financial_loan,1,XGB,67,461,dice_random,True,4.943512250062507,2.0,2.0,2004,0.07539534568786621,True,1.0,"['loan_amount', 'total_acc']"
+financial_loan,1,XGB,68,5545,dice_random,True,3.9461309702350507,2.0,2.0,2004,0.0833139419555664,False,1.0,"['dti', 'home_ownership']"
+financial_loan,1,XGB,69,2625,dice_random,True,3.9656093818235107,2.0,2.0,2004,0.07731342315673828,False,1.0,"['term', 'home_ownership']"
+financial_loan,1,XGB,70,3491,dice_random,True,7.922502496930882,2.0,2.0,2004,0.08258795738220215,True,1.0,"['loan_amount', 'total_acc']"
+financial_loan,1,XGB,71,2834,dice_random,True,4.368640742755125,2.0,2.0,2004,0.0849456787109375,False,0.5,"['dti', 'home_ownership']"
+financial_loan,1,XGB,72,2054,dice_random,True,5.118615228857735,2.0,2.0,2004,0.0828707218170166,False,1.0,"['home_ownership', 'total_acc']"
+financial_loan,1,XGB,73,3229,dice_random,True,1.5630511003795349,1.0,1.0,2004,0.07796740531921387,False,1.0,['dti']
+financial_loan,1,XGB,74,4120,dice_random,True,2.7972443133588416,2.0,2.0,2004,0.08037543296813965,False,1.0,"['dti', 'term']"
+financial_loan,1,XGB,75,4290,dice_random,True,0.7108918332169218,1.0,1.0,12004,13.362229824066162,False,1.0,['term']
+financial_loan,1,XGB,76,2595,dice_random,True,2.7335166153431283,2.0,2.0,2004,0.09681487083435059,False,1.0,"['dti', 'term']"
+financial_loan,1,XGB,77,118,dice_random,True,5.130803931086818,2.0,2.0,2004,0.09135770797729492,False,1.0,"['loan_amount', 'home_ownership']"
+financial_loan,1,XGB,78,2545,dice_random,True,8.375938754538579,1.0,1.0,2004,0.08216404914855957,True,1.0,['total_acc']
+financial_loan,1,XGB,79,2895,dice_random,True,5.197596555033241,1.0,1.0,2004,0.07075166702270508,True,1.0,['total_acc']
+financial_loan,1,XGB,80,1238,dice_random,True,2.778571486673918,1.0,1.0,2004,0.0907282829284668,False,1.0,['home_ownership']
+financial_loan,1,XGB,81,4478,dice_random,True,5.012162575609704,2.0,2.0,2004,0.08447670936584473,False,1.0,"['loan_amount', 'total_acc']"
+financial_loan,1,XGB,82,1033,dice_random,True,6.299753260102716,2.0,2.0,12004,13.519269466400146,True,1.0,"['term', 'total_acc']"
+financial_loan,1,XGB,83,3395,dice_random,True,3.5330327347190122,2.0,2.0,2004,0.08279156684875488,False,1.0,"['dti', 'total_acc']"
+financial_loan,1,XGB,84,6189,dice_random,True,3.7289713495662564,1.0,1.0,2004,0.08292889595031738,True,1.0,['dti']
+financial_loan,1,XGB,85,6313,dice_random,True,2.589350733408237,1.0,1.0,2004,0.0814521312713623,False,1.0,['dti']
+financial_loan,1,XGB,86,873,dice_random,True,4.737153933448518,1.0,1.0,2004,0.076385498046875,True,1.0,['dti']
+financial_loan,1,XGB,87,6194,dice_random,True,3.1560563910739896,2.0,2.0,2004,0.07809329032897949,True,1.0,"['dti', 'total_acc']"
+financial_loan,1,XGB,88,721,dice_random,True,0.20233056321692167,1.0,1.0,12004,13.208066701889038,False,0.5,['term']
+financial_loan,1,XGB,89,5363,dice_random,True,6.474870010553141,2.0,2.0,2004,0.08066010475158691,False,1.0,"['dti', 'home_ownership']"
+financial_loan,1,XGB,90,4873,dice_random,True,0.1722633907862292,1.0,1.0,12004,14.543835878372192,False,1.0,['total_acc']
+financial_loan,1,XGB,91,4595,dice_random,True,3.8534941047023574,2.0,2.0,2004,0.06801891326904297,False,1.0,"['dti', 'loan_amount']"
+financial_loan,1,XGB,92,3424,dice_random,True,4.83841474354268,2.0,2.0,2004,0.06662511825561523,False,1.0,"['term', 'total_acc']"
+financial_loan,1,XGB,93,6823,dice_random,True,2.0312755546595516,2.0,2.0,12004,12.286051273345947,False,1.0,"['term', 'total_acc']"
+financial_loan,1,XGB,94,7129,dice_random,True,1.3288071132169217,1.0,1.0,2004,0.07090282440185547,False,1.0,['term']
+financial_loan,1,XGB,95,3757,dice_random,True,1.2453099116583881,1.0,1.0,2004,0.06951713562011719,False,1.0,['loan_amount']
+financial_loan,1,XGB,96,1721,dice_random,True,7.305775495756835,2.0,2.0,2004,0.07063889503479004,True,1.0,"['loan_amount', 'total_acc']"
+financial_loan,1,XGB,97,1252,dice_random,True,3.123728792691906,1.0,1.0,2004,0.0702810287475586,True,1.0,['dti']
+financial_loan,1,XGB,98,4079,dice_random,True,8.722465296416804,2.0,2.0,2004,0.08018803596496582,True,1.0,"['home_ownership', 'total_acc']"
+financial_loan,1,XGB,99,1177,dice_random,True,10.14885028388434,2.0,2.0,2004,0.0706324577331543,True,1.0,"['dti', 'total_acc']"

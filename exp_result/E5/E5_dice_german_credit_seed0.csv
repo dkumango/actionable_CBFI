@@ -1,0 +1,97 @@
+﻿dataset,seed,model,query,test_row,method,success,cost,L0,L_active,evals_total,time,tail,cross_valid,changed
+german_credit,0,RF,0,6,dice_random,True,3.6896011622520524,2.0,2.0,2004,0.1060495376586914,False,1.0,"['existing_credits', 'installment_rate']"
+german_credit,0,RF,1,165,dice_random,True,2.486942864873598,1.0,1.0,2004,0.09760308265686035,False,0.5,['checking_balance']
+german_credit,0,RF,2,98,dice_random,True,1.6109027687817847,2.0,2.0,2004,0.10577559471130371,False,1.0,"['checking_balance', 'installment_rate']"
+german_credit,0,RF,3,4,dice_random,True,9.195995343963745,1.0,1.0,2004,0.10120916366577148,True,0.5,['months_loan_duration']
+german_credit,0,RF,4,168,dice_random,True,0.9119295044908329,1.0,1.0,2004,0.09990811347961426,False,0.5,['job']
+german_credit,0,RF,5,49,dice_random,True,3.0388704292250814,1.0,1.0,2004,0.10252571105957031,False,0.5,['other_debtors']
+german_credit,0,RF,6,162,dice_random,True,1.8996899778294454,2.0,2.0,12004,38.49859142303467,False,0.5,"['savings_balance', 'other_debtors']"
+german_credit,0,RF,7,109,dice_random,False,,,,2004,0.09803152084350586,,,
+german_credit,0,RF,8,79,dice_random,True,11.781421331687193,2.0,2.0,2004,0.09858512878417969,False,1.0,"['amount', 'installment_rate']"
+german_credit,0,RF,9,186,dice_random,True,0.7591392622569809,1.0,1.0,2004,0.09701395034790039,False,0.5,['employment_length']
+german_credit,0,RF,10,82,dice_random,False,,,,2004,0.09745502471923828,,,
+german_credit,0,RF,11,40,dice_random,True,1.681481872927134,1.0,1.0,2004,0.09612154960632324,False,0.5,['checking_balance']
+german_credit,0,RF,12,83,dice_random,True,4.693245156038387,2.0,2.0,12004,38.44922590255737,False,0.5,"['other_debtors', 'existing_credits']"
+german_credit,0,RF,13,197,dice_random,True,0.6447803087170749,1.0,1.0,2004,0.09725069999694824,False,0.5,['checking_balance']
+german_credit,0,RF,14,189,dice_random,True,1.746930628604364,1.0,1.0,2004,0.09670495986938477,False,1.0,['savings_balance']
+german_credit,0,RF,15,145,dice_random,True,2.971861731324227,1.0,1.0,2004,0.0974111557006836,False,0.5,['installment_rate']
+german_credit,0,RF,16,120,dice_random,True,2.527755265335688,1.0,1.0,2004,0.09805107116699219,False,0.5,['savings_balance']
+german_credit,0,RF,17,81,dice_random,True,3.222508053929739,2.0,2.0,2004,0.09879660606384277,False,0.5,"['amount', 'installment_rate']"
+german_credit,0,RF,18,72,dice_random,True,3.0871991377259778,2.0,2.0,2004,0.09641766548156738,False,0.0,"['checking_balance', 'job']"
+german_credit,0,RF,19,10,dice_random,False,,,,2004,0.0958712100982666,,,
+german_credit,0,RF,20,3,dice_random,True,2.521787129744312,2.0,2.0,2004,0.09715604782104492,False,0.5,"['checking_balance', 'purpose']"
+german_credit,0,RF,21,144,dice_random,False,,,,2004,0.09391188621520996,,,
+german_credit,0,SVM,0,14,dice_random,False,,,,2004,0.12323522567749023,,,
+german_credit,0,SVM,1,175,dice_random,True,5.556644215581898,2.0,2.0,2004,0.12565946578979492,True,1.0,"['other_debtors', 'amount']"
+german_credit,0,SVM,2,162,dice_random,True,3.273795142513362,2.0,2.0,2004,0.12512969970703125,True,0.0,"['housing', 'existing_credits']"
+german_credit,0,SVM,3,12,dice_random,True,2.2615660630711045,2.0,2.0,2004,0.12612533569335938,False,1.0,"['checking_balance', 'property']"
+german_credit,0,SVM,4,72,dice_random,False,,,,2004,0.12229609489440918,,,
+german_credit,0,SVM,5,116,dice_random,True,0.8881316817823189,1.0,1.0,2004,0.12566399574279785,False,1.0,['installment_rate']
+german_credit,0,SVM,6,55,dice_random,True,6.061189607195977,2.0,2.0,2004,0.12897443771362305,False,1.0,"['months_loan_duration', 'savings_balance']"
+german_credit,0,SVM,7,40,dice_random,True,4.518645691028891,2.0,2.0,2004,0.12603521347045898,False,0.0,"['employment_length', 'other_debtors']"
+german_credit,0,SVM,8,4,dice_random,True,5.539169325122835,2.0,2.0,2004,0.12866997718811035,False,0.0,"['other_debtors', 'installment_plan']"
+german_credit,0,SVM,9,168,dice_random,True,2.6410334708036776,2.0,2.0,12004,8.364559412002563,False,0.5,"['checking_balance', 'months_loan_duration']"
+german_credit,0,SVM,10,144,dice_random,True,4.7764219168113105,2.0,2.0,2004,0.12670040130615234,True,0.0,"['existing_credits', 'installment_rate']"
+german_credit,0,SVM,11,196,dice_random,True,1.462820345509167,1.0,1.0,2004,0.12773633003234863,False,1.0,['job']
+german_credit,0,SVM,12,174,dice_random,True,1.5827087314049204,1.0,1.0,2004,0.12531638145446777,False,1.0,['checking_balance']
+german_credit,0,SVM,13,165,dice_random,True,2.7469961028175764,1.0,1.0,2004,0.12608122825622559,False,0.5,['checking_balance']
+german_credit,0,SVM,14,109,dice_random,True,1.4269838879603358,1.0,1.0,2004,0.12800002098083496,False,1.0,['checking_balance']
+german_credit,0,SVM,15,27,dice_random,True,3.7933263202529024,1.0,1.0,2004,0.12786197662353516,False,1.0,['installment_plan']
+german_credit,0,SVM,16,22,dice_random,True,3.000000018637498,2.0,2.0,2004,0.12708449363708496,False,1.0,"['checking_balance', 'installment_rate']"
+german_credit,0,SVM,17,77,dice_random,True,5.7208097846598225,2.0,2.0,2004,0.12741661071777344,True,1.0,"['checking_balance', 'existing_credits']"
+german_credit,0,SVM,18,154,dice_random,True,2.377830971562568,1.0,1.0,2004,0.12787485122680664,False,0.5,['checking_balance']
+german_credit,0,SVM,19,98,dice_random,True,3.6873408027190435,1.0,1.0,2004,0.12636113166809082,False,0.0,['amount']
+german_credit,0,SVM,20,140,dice_random,True,2.9999998915573407,2.0,2.0,12004,8.270161151885986,False,1.0,"['property', 'installment_rate']"
+german_credit,0,SVM,21,97,dice_random,True,1.780784047906776,1.0,1.0,2004,0.12735533714294434,False,1.0,['checking_balance']
+german_credit,0,SVM,22,79,dice_random,True,3.024098716019666,2.0,2.0,2004,0.12659597396850586,False,1.0,"['checking_balance', 'months_loan_duration']"
+german_credit,0,SVM,23,3,dice_random,True,1.9327820541374352,1.0,1.0,2004,0.12819218635559082,False,0.5,['checking_balance']
+german_credit,0,SVM,24,166,dice_random,True,3.1790861221054962,2.0,2.0,2004,0.12975692749023438,False,1.0,"['property', 'installment_plan']"
+german_credit,0,SVM,25,189,dice_random,True,2.563709823074927,1.0,1.0,2004,0.12811684608459473,False,0.0,['property']
+german_credit,0,SVM,26,65,dice_random,True,3.25377570987129,2.0,2.0,2004,0.12709927558898926,False,1.0,"['employment_length', 'other_debtors']"
+german_credit,0,SVM,27,35,dice_random,True,3.790138916813305,1.0,1.0,2004,0.12839007377624512,True,1.0,['existing_credits']
+german_credit,0,SVM,28,125,dice_random,True,4.812877047936311,2.0,2.0,2004,0.12825846672058105,False,1.0,"['checking_balance', 'months_loan_duration']"
+german_credit,0,SVM,29,96,dice_random,False,,,,2004,0.12367081642150879,,,
+german_credit,0,SVM,30,193,dice_random,True,2.06238325841674,2.0,2.0,12004,8.342834949493408,False,1.0,"['months_loan_duration', 'other_debtors']"
+german_credit,0,SVM,31,93,dice_random,True,3.9563328871569787,2.0,2.0,12004,8.381937503814697,False,1.0,"['months_loan_duration', 'installment_plan']"
+german_credit,0,SVM,32,120,dice_random,False,,,,12004,8.404892444610596,,,
+german_credit,0,SVM,33,158,dice_random,True,1.8333572202229562,2.0,2.0,12004,8.323479413986206,False,1.0,"['savings_balance', 'installment_rate']"
+german_credit,0,SVM,34,187,dice_random,True,2.72588007809885,1.0,1.0,2004,0.12659454345703125,False,1.0,['installment_rate']
+german_credit,0,SVM,35,26,dice_random,True,2.4515378028578523,1.0,1.0,2004,0.12622833251953125,False,0.0,['employment_length']
+german_credit,0,SVM,36,1,dice_random,True,16.138389832508597,2.0,2.0,12004,8.415521621704102,True,0.5,"['other_debtors', 'amount']"
+german_credit,0,XGB,0,99,dice_random,True,14.56460802358606,2.0,2.0,2004,0.0784444808959961,True,1.0,"['checking_balance', 'amount']"
+german_credit,0,XGB,1,1,dice_random,True,4.122451566970092,2.0,2.0,2004,0.0777120590209961,False,0.5,"['employment_length', 'other_debtors']"
+german_credit,0,XGB,2,189,dice_random,True,1.6135725492250812,1.0,1.0,2004,0.07872986793518066,False,0.5,['other_debtors']
+german_credit,0,XGB,3,34,dice_random,True,4.180584770282319,2.0,2.0,2004,0.07791829109191895,False,1.0,"['installment_plan', 'job']"
+german_credit,0,XGB,4,192,dice_random,True,2.069806314944589,2.0,2.0,12004,11.22096061706543,False,1.0,"['checking_balance', 'other_debtors']"
+german_credit,0,XGB,5,36,dice_random,True,7.848939506184296,2.0,2.0,2004,0.07976031303405762,False,1.0,"['months_loan_duration', 'housing']"
+german_credit,0,XGB,6,79,dice_random,True,9.169960706807682,2.0,2.0,2004,0.07749557495117188,False,0.5,"['purpose', 'amount']"
+german_credit,0,XGB,7,4,dice_random,True,7.308982718731125,2.0,2.0,2004,0.07983613014221191,False,0.0,"['months_loan_duration', 'housing']"
+german_credit,0,XGB,8,100,dice_random,True,0.9477679686043642,1.0,1.0,2004,0.07812690734863281,False,1.0,['savings_balance']
+german_credit,0,XGB,9,49,dice_random,True,0.5887806807028694,1.0,1.0,2004,0.07793521881103516,False,1.0,['property']
+german_credit,0,XGB,10,72,dice_random,True,1.414951398644475,2.0,2.0,12004,11.21077013015747,False,0.0,"['savings_balance', 'telephone']"
+german_credit,0,XGB,11,40,dice_random,True,8.10158022252526,2.0,2.0,2004,0.07761502265930176,False,1.0,"['months_loan_duration', 'existing_credits']"
+german_credit,0,XGB,12,165,dice_random,True,9.277492801994812,1.0,1.0,2004,0.07929205894470215,False,0.5,['amount']
+german_credit,0,XGB,13,42,dice_random,True,3.5066343909839723,2.0,2.0,2004,0.07897448539733887,False,1.0,"['checking_balance', 'property']"
+german_credit,0,XGB,14,145,dice_random,True,3.2508837762356775,2.0,2.0,2004,0.07771658897399902,False,1.0,"['installment_plan', 'amount']"
+german_credit,0,XGB,15,185,dice_random,True,2.8484107250168718,2.0,2.0,2004,0.07859516143798828,False,1.0,"['savings_balance', 'telephone']"
+german_credit,0,XGB,16,139,dice_random,True,4.231376639402004,2.0,2.0,12004,11.239909648895264,False,1.0,"['amount', 'telephone']"
+german_credit,0,XGB,17,109,dice_random,True,1.9990361616710737,2.0,2.0,2004,0.07992863655090332,False,0.0,"['months_loan_duration', 'property']"
+german_credit,0,XGB,18,197,dice_random,True,9.540910800323118,1.0,1.0,2004,0.07800579071044922,False,0.5,['amount']
+german_credit,0,XGB,19,108,dice_random,True,6.011537816045124,2.0,2.0,2004,0.07835102081298828,False,1.0,"['savings_balance', 'amount']"
+german_credit,0,XGB,20,188,dice_random,True,3.0456155029393406,2.0,2.0,2004,0.07862067222595215,False,1.0,"['employment_length', 'job']"
+german_credit,0,XGB,21,83,dice_random,True,1.9658943492250813,1.0,1.0,2004,0.0782933235168457,False,1.0,['other_debtors']
+german_credit,0,XGB,22,121,dice_random,True,2.466780895624826,2.0,2.0,12004,11.351081609725952,False,1.0,"['amount', 'telephone']"
+german_credit,0,XGB,23,96,dice_random,True,3.011619097010367,1.0,1.0,2004,0.07738065719604492,False,1.0,['amount']
+german_credit,0,XGB,24,85,dice_random,True,1.9840769795419524,1.0,1.0,2004,0.07741403579711914,False,1.0,['checking_balance']
+german_credit,0,XGB,25,55,dice_random,True,2.0552381917275335,2.0,2.0,2004,0.0770571231842041,False,1.0,"['installment_rate', 'job']"
+german_credit,0,XGB,26,26,dice_random,True,1.1553540871668935,1.0,1.0,2004,0.07746505737304688,False,1.0,['checking_balance']
+german_credit,0,XGB,27,82,dice_random,True,3.2253589705155323,1.0,1.0,2004,0.0777740478515625,False,1.0,['amount']
+german_credit,0,XGB,28,162,dice_random,True,5.4453382248344075,2.0,2.0,2004,0.07621645927429199,False,1.0,"['months_loan_duration', 'property']"
+german_credit,0,XGB,29,144,dice_random,True,0.9525769568333937,1.0,1.0,2004,0.07877826690673828,False,0.0,['property']
+german_credit,0,XGB,30,77,dice_random,True,3.189231402743861,2.0,2.0,2004,0.07653307914733887,True,1.0,"['purpose', 'property']"
+german_credit,0,XGB,31,186,dice_random,True,1.3088989418719859,1.0,1.0,2004,0.08063435554504395,False,0.5,['property']
+german_credit,0,XGB,32,154,dice_random,True,1.2595228120261548,1.0,1.0,2004,0.07888078689575195,False,1.0,['employment_length']
+german_credit,0,XGB,33,81,dice_random,True,3.8089792907801314,2.0,2.0,2004,0.07859039306640625,False,1.0,"['checking_balance', 'purpose']"
+german_credit,0,XGB,34,3,dice_random,True,7.059759003974933,1.0,1.0,2004,0.07807397842407227,True,0.5,['months_loan_duration']
+german_credit,0,XGB,35,125,dice_random,True,0.9545095147855129,1.0,1.0,2004,0.07892537117004395,False,0.5,['installment_rate']
+german_credit,0,XGB,36,149,dice_random,True,2.390890780720931,2.0,2.0,2004,0.07925987243652344,False,1.0,"['employment_length', 'property']"

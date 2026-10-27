@@ -1,0 +1,127 @@
+﻿dataset,seed,model,query,test_row,method,success,cost,L0,L_active,evals_total,time,tail,cross_valid,changed
+diabetes,2,RF,0,27,dice_random,True,14.901683782730741,2.0,2.0,2004,0.07696199417114258,True,0.5,"['glucose', 'bloodpressure']"
+diabetes,2,RF,1,68,dice_random,True,7.520601784306578,2.0,2.0,2004,0.07240414619445801,True,1.0,"['bmi', 'insulin']"
+diabetes,2,RF,2,98,dice_random,True,7.448592865144728,2.0,2.0,2004,0.07322525978088379,False,0.5,"['glucose', 'bloodpressure']"
+diabetes,2,RF,3,141,dice_random,True,17.544013492622703,1.0,1.0,2004,0.07564139366149902,True,1.0,['insulin']
+diabetes,2,RF,4,123,dice_random,True,15.406542274040651,2.0,2.0,2004,0.07420706748962402,True,1.0,"['bmi', 'glucose']"
+diabetes,2,RF,5,115,dice_random,True,12.48985494243011,2.0,2.0,2004,0.07306408882141113,True,0.5,"['bmi', 'bloodpressure']"
+diabetes,2,RF,6,9,dice_random,True,8.217371178503726,2.0,2.0,2004,0.07424759864807129,True,1.0,"['skinthickness', 'glucose']"
+diabetes,2,RF,7,85,dice_random,True,7.2272833533773015,2.0,2.0,2004,0.07309603691101074,True,0.5,"['glucose', 'insulin']"
+diabetes,2,RF,8,58,dice_random,True,11.591589833172845,2.0,2.0,2004,0.07256960868835449,True,1.0,"['bmi', 'glucose']"
+diabetes,2,RF,9,15,dice_random,True,18.857255648036222,1.0,1.0,2004,0.07285666465759277,True,0.5,['insulin']
+diabetes,2,RF,10,95,dice_random,True,10.352928681543615,2.0,2.0,2004,0.07312989234924316,True,1.0,"['glucose', 'insulin']"
+diabetes,2,RF,11,72,dice_random,True,5.4660145539472875,2.0,2.0,2004,0.07622027397155762,True,1.0,"['bmi', 'bloodpressure']"
+diabetes,2,RF,12,54,dice_random,True,6.964774397624481,2.0,2.0,2004,0.07319355010986328,True,0.5,"['skinthickness', 'glucose']"
+diabetes,2,RF,13,46,dice_random,True,10.323750692841983,2.0,2.0,2004,0.07445812225341797,True,1.0,"['skinthickness', 'insulin']"
+diabetes,2,RF,14,67,dice_random,True,7.363540594316257,2.0,2.0,2004,0.0738980770111084,True,1.0,"['bmi', 'skinthickness']"
+diabetes,2,RF,15,30,dice_random,True,5.277177046507554,1.0,1.0,2004,0.07259178161621094,True,0.5,['glucose']
+diabetes,2,RF,16,92,dice_random,True,11.898594805453968,2.0,2.0,2004,0.07639265060424805,True,0.5,"['glucose', 'insulin']"
+diabetes,2,RF,17,22,dice_random,True,5.021086721618523,1.0,1.0,2004,0.0738375186920166,True,1.0,['glucose']
+diabetes,2,RF,18,132,dice_random,True,3.9629808585716675,1.0,1.0,2004,0.07153463363647461,True,0.5,['insulin']
+diabetes,2,RF,19,89,dice_random,True,5.416564145044908,2.0,2.0,2004,0.07534122467041016,False,1.0,"['bmi', 'skinthickness']"
+diabetes,2,RF,20,33,dice_random,True,6.931935187724016,1.0,1.0,2004,0.0749807357788086,True,0.5,['glucose']
+diabetes,2,RF,21,139,dice_random,True,7.925684796732257,2.0,2.0,2004,0.07269620895385742,True,1.0,"['bmi', 'insulin']"
+diabetes,2,RF,22,43,dice_random,True,13.111196657716057,2.0,2.0,2004,0.07180142402648926,True,1.0,"['bmi', 'glucose']"
+diabetes,2,RF,23,145,dice_random,True,8.0983738934338,1.0,1.0,2004,0.07195448875427246,True,1.0,['glucose']
+diabetes,2,RF,24,29,dice_random,True,2.3465286313110423,1.0,1.0,2004,0.07544755935668945,False,1.0,['skinthickness']
+diabetes,2,RF,25,13,dice_random,True,4.026713289103402,1.0,1.0,2004,0.07196593284606934,True,1.0,['glucose']
+diabetes,2,RF,26,117,dice_random,True,1.9694914616931034,1.0,1.0,2004,0.07265043258666992,False,0.5,['bloodpressure']
+diabetes,2,RF,27,28,dice_random,True,7.403094068809412,2.0,2.0,12004,36.706650495529175,True,1.0,"['glucose', 'insulin']"
+diabetes,2,RF,28,7,dice_random,True,8.511850459199211,1.0,1.0,2004,0.07224702835083008,True,0.5,['bmi']
+diabetes,2,RF,29,119,dice_random,True,7.200143580463737,1.0,1.0,2004,0.07136273384094238,True,1.0,['glucose']
+diabetes,2,RF,30,3,dice_random,True,3.341041754233752,2.0,2.0,12004,36.77420210838318,False,0.5,"['glucose', 'bloodpressure']"
+diabetes,2,RF,31,70,dice_random,True,6.155322857009625,1.0,1.0,2004,0.07389473915100098,True,0.5,['skinthickness']
+diabetes,2,RF,32,150,dice_random,False,,,,2004,0.07295894622802734,,,
+diabetes,2,RF,33,55,dice_random,False,,,,2004,0.07271552085876465,,,
+diabetes,2,RF,34,110,dice_random,True,16.271047875799535,1.0,1.0,2004,0.07381319999694824,True,1.0,['insulin']
+diabetes,2,RF,35,64,dice_random,True,1.9177704628830445,2.0,2.0,12004,36.886122703552246,False,0.0,"['glucose', 'bloodpressure']"
+diabetes,2,RF,36,88,dice_random,True,16.03048278019438,1.0,1.0,2004,0.07278847694396973,True,1.0,['insulin']
+diabetes,2,RF,37,44,dice_random,True,6.57065838669685,1.0,1.0,2004,0.0723576545715332,True,1.0,['bmi']
+diabetes,2,RF,38,133,dice_random,True,7.728615698059891,2.0,2.0,2004,0.0705418586730957,True,1.0,"['bmi', 'bloodpressure']"
+diabetes,2,RF,39,74,dice_random,True,15.895848181244418,2.0,2.0,2004,0.07052850723266602,True,1.0,"['bmi', 'glucose']"
+diabetes,2,RF,40,10,dice_random,True,5.162058221420776,2.0,2.0,2004,0.07035112380981445,False,0.0,"['bmi', 'skinthickness']"
+diabetes,2,SVM,0,117,dice_random,True,5.824496390295596,1.0,1.0,2004,0.07566237449645996,True,1.0,['bloodpressure']
+diabetes,2,SVM,1,68,dice_random,True,15.842451066543767,2.0,2.0,2004,0.0758211612701416,True,1.0,"['glucose', 'bloodpressure']"
+diabetes,2,SVM,2,2,dice_random,False,,,,2004,0.07141542434692383,,,
+diabetes,2,SVM,3,74,dice_random,True,4.944159817779517,1.0,1.0,2004,0.07386565208435059,False,1.0,['glucose']
+diabetes,2,SVM,4,141,dice_random,True,24.3300656467338,2.0,2.0,2004,0.07541251182556152,True,1.0,"['bloodpressure', 'insulin']"
+diabetes,2,SVM,5,70,dice_random,True,7.908567812414001,2.0,2.0,2004,0.07542586326599121,True,1.0,"['skinthickness', 'glucose']"
+diabetes,2,SVM,6,9,dice_random,False,,,,2004,0.07110333442687988,,,
+diabetes,2,SVM,7,40,dice_random,True,5.065938112469944,1.0,1.0,2004,0.07472419738769531,True,1.0,['glucose']
+diabetes,2,SVM,8,28,dice_random,True,6.951993079054555,2.0,2.0,2004,0.07563447952270508,True,1.0,"['skinthickness', 'glucose']"
+diabetes,2,SVM,9,106,dice_random,True,11.037070018210418,2.0,2.0,2004,0.07495903968811035,True,0.5,"['bmi', 'skinthickness']"
+diabetes,2,SVM,10,13,dice_random,True,25.866884125561334,2.0,2.0,2004,0.07476997375488281,True,0.0,"['skinthickness', 'insulin']"
+diabetes,2,SVM,11,55,dice_random,True,2.0067643976682223,2.0,2.0,2004,0.07459068298339844,False,1.0,"['bmi', 'glucose']"
+diabetes,2,SVM,12,22,dice_random,True,3.836525980602563,2.0,2.0,12004,7.792503833770752,True,0.0,"['glucose', 'bloodpressure']"
+diabetes,2,SVM,13,85,dice_random,True,10.301690548159721,2.0,2.0,2004,0.07510590553283691,True,1.0,"['glucose', 'insulin']"
+diabetes,2,SVM,14,110,dice_random,True,5.970951469402656,1.0,1.0,2004,0.07644391059875488,True,1.0,['glucose']
+diabetes,2,SVM,15,145,dice_random,True,21.963884436667218,2.0,2.0,2004,0.07525181770324707,True,0.0,"['bmi', 'insulin']"
+diabetes,2,SVM,16,98,dice_random,True,8.245317943929532,1.0,1.0,2004,0.07737159729003906,True,1.0,['glucose']
+diabetes,2,SVM,17,153,dice_random,True,2.8689521983886643,1.0,1.0,2004,0.07485842704772949,True,1.0,['skinthickness']
+diabetes,2,SVM,18,3,dice_random,True,12.335745291006507,2.0,2.0,2004,0.07868385314941406,True,1.0,"['bmi', 'glucose']"
+diabetes,2,SVM,19,92,dice_random,True,9.809442552783047,2.0,2.0,2004,0.07485389709472656,True,1.0,"['bmi', 'glucose']"
+diabetes,2,SVM,20,139,dice_random,True,4.308749277906941,1.0,1.0,2004,0.0747520923614502,True,1.0,['glucose']
+diabetes,2,SVM,21,72,dice_random,True,7.928873560060532,1.0,1.0,2004,0.07649779319763184,True,1.0,['bmi']
+diabetes,2,SVM,22,64,dice_random,True,6.658282841434943,1.0,1.0,2004,0.0763547420501709,False,1.0,['bmi']
+diabetes,2,SVM,23,43,dice_random,True,9.109330255354683,2.0,2.0,2004,0.07547259330749512,True,0.0,"['glucose', 'insulin']"
+diabetes,2,SVM,24,58,dice_random,True,17.162809942297933,2.0,2.0,2004,0.07743000984191895,True,0.0,"['skinthickness', 'insulin']"
+diabetes,2,SVM,25,15,dice_random,True,2.0650028480592275,1.0,1.0,2004,0.07531189918518066,False,1.0,['glucose']
+diabetes,2,SVM,26,115,dice_random,True,13.946990859788524,2.0,2.0,2004,0.07552170753479004,True,1.0,"['glucose', 'insulin']"
+diabetes,2,SVM,27,7,dice_random,True,8.942774470147581,2.0,2.0,2004,0.07760477066040039,True,1.0,"['bmi', 'insulin']"
+diabetes,2,SVM,28,67,dice_random,True,25.97774700199473,2.0,2.0,2004,0.07562041282653809,True,0.5,"['skinthickness', 'insulin']"
+diabetes,2,SVM,29,88,dice_random,True,3.9821757005699885,1.0,1.0,2004,0.07439446449279785,False,0.0,['bloodpressure']
+diabetes,2,SVM,30,54,dice_random,True,33.469691038944234,2.0,2.0,2004,0.07446455955505371,True,0.0,"['bloodpressure', 'insulin']"
+diabetes,2,SVM,31,133,dice_random,True,9.505171016979226,2.0,2.0,2004,0.07507944107055664,True,0.5,"['glucose', 'bloodpressure']"
+diabetes,2,SVM,32,95,dice_random,True,11.530563510712662,1.0,1.0,2004,0.07486581802368164,True,1.0,['insulin']
+diabetes,2,SVM,33,119,dice_random,True,13.422818585211783,2.0,2.0,2004,0.07549262046813965,True,1.0,"['bmi', 'glucose']"
+diabetes,2,SVM,34,10,dice_random,True,10.691581200728546,2.0,2.0,2004,0.07488679885864258,True,1.0,"['glucose', 'insulin']"
+diabetes,2,SVM,35,150,dice_random,True,4.8977492148725625,1.0,1.0,2004,0.07576441764831543,True,0.5,['bmi']
+diabetes,2,SVM,36,33,dice_random,True,8.30390635444182,1.0,1.0,2004,0.07509255409240723,True,0.5,['glucose']
+diabetes,2,SVM,37,90,dice_random,True,0.9703882156542747,1.0,1.0,2004,0.07526969909667969,False,1.0,['glucose']
+diabetes,2,SVM,38,30,dice_random,True,6.473918672856162,2.0,2.0,2004,0.07535171508789062,True,1.0,"['bmi', 'insulin']"
+diabetes,2,SVM,39,27,dice_random,True,14.880287338891117,2.0,2.0,2004,0.07617592811584473,True,0.5,"['glucose', 'bloodpressure']"
+diabetes,2,SVM,40,131,dice_random,True,7.633440014093243,2.0,2.0,2004,0.07471823692321777,True,1.0,"['bmi', 'insulin']"
+diabetes,2,SVM,41,20,dice_random,True,5.035812402473381,2.0,2.0,2004,0.07509422302246094,True,0.5,"['bmi', 'skinthickness']"
+diabetes,2,XGB,0,132,dice_random,True,10.495996723447114,2.0,2.0,2004,0.055715084075927734,False,1.0,"['glucose', 'bloodpressure']"
+diabetes,2,XGB,1,133,dice_random,True,7.813492519392077,2.0,2.0,2004,0.05421710014343262,False,1.0,"['bmi', 'insulin']"
+diabetes,2,XGB,2,92,dice_random,True,8.420392547038364,1.0,1.0,2004,0.05574798583984375,True,1.0,['glucose']
+diabetes,2,XGB,3,124,dice_random,True,0.6038671364269448,1.0,1.0,2004,0.05351567268371582,False,1.0,['insulin']
+diabetes,2,XGB,4,101,dice_random,True,14.671384568561468,2.0,2.0,2004,0.055704355239868164,True,1.0,"['bmi', 'bloodpressure']"
+diabetes,2,XGB,5,46,dice_random,True,10.751520166651218,1.0,1.0,2004,0.05540943145751953,True,1.0,['insulin']
+diabetes,2,XGB,6,143,dice_random,True,6.495528161733353,1.0,1.0,2004,0.053173065185546875,True,1.0,['glucose']
+diabetes,2,XGB,7,68,dice_random,True,18.23227439440933,2.0,2.0,2004,0.054106712341308594,True,1.0,"['bmi', 'bloodpressure']"
+diabetes,2,XGB,8,40,dice_random,True,7.836120739415665,1.0,1.0,2004,0.053741455078125,True,1.0,['glucose']
+diabetes,2,XGB,9,140,dice_random,True,3.3861027171407176,1.0,1.0,2004,0.052358388900756836,False,1.0,['bloodpressure']
+diabetes,2,XGB,10,102,dice_random,True,15.32759302889816,1.0,1.0,2004,0.05369830131530762,True,1.0,['insulin']
+diabetes,2,XGB,11,62,dice_random,True,17.135151241327865,2.0,2.0,2004,0.052536725997924805,True,0.5,"['bloodpressure', 'insulin']"
+diabetes,2,XGB,12,88,dice_random,True,6.473771748489208,1.0,1.0,2004,0.05312228202819824,True,1.0,['glucose']
+diabetes,2,XGB,13,28,dice_random,True,3.102261539772651,1.0,1.0,2004,0.053926706314086914,False,1.0,['glucose']
+diabetes,2,XGB,14,55,dice_random,True,11.719953011028034,2.0,2.0,2004,0.0559384822845459,False,0.5,"['bloodpressure', 'insulin']"
+diabetes,2,XGB,15,67,dice_random,True,17.294517166169573,1.0,1.0,2004,0.054329633712768555,True,0.5,['insulin']
+diabetes,2,XGB,16,43,dice_random,True,4.774400974281745,2.0,2.0,2004,0.05280566215515137,True,1.0,"['bmi', 'insulin']"
+diabetes,2,XGB,17,87,dice_random,True,3.2388224672249843,1.0,1.0,2004,0.053334712982177734,False,1.0,['bmi']
+diabetes,2,XGB,18,115,dice_random,True,13.298937625655023,1.0,1.0,2004,0.0534818172454834,True,0.0,['insulin']
+diabetes,2,XGB,19,119,dice_random,True,7.96319249021638,1.0,1.0,2004,0.05384469032287598,True,1.0,['glucose']
+diabetes,2,XGB,20,150,dice_random,True,7.89249609423131,1.0,1.0,2004,0.05490684509277344,False,0.0,['insulin']
+diabetes,2,XGB,21,123,dice_random,True,17.395614319078398,2.0,2.0,2004,0.052759408950805664,True,1.0,"['glucose', 'bloodpressure']"
+diabetes,2,XGB,22,110,dice_random,True,12.589192730929783,2.0,2.0,2004,0.05862545967102051,True,1.0,"['bmi', 'glucose']"
+diabetes,2,XGB,23,30,dice_random,True,3.018500622661293,1.0,1.0,2004,0.05344414710998535,True,1.0,['bmi']
+diabetes,2,XGB,24,63,dice_random,True,5.823852539814657,1.0,1.0,2004,0.05350017547607422,True,1.0,['insulin']
+diabetes,2,XGB,25,22,dice_random,True,4.255976242529357,2.0,2.0,2004,0.05350852012634277,True,1.0,"['bmi', 'skinthickness']"
+diabetes,2,XGB,26,141,dice_random,True,11.78102390231741,1.0,1.0,2004,0.05316638946533203,True,1.0,['insulin']
+diabetes,2,XGB,27,33,dice_random,True,14.224895042125013,2.0,2.0,2004,0.05326485633850098,True,1.0,"['glucose', 'bloodpressure']"
+diabetes,2,XGB,28,3,dice_random,True,9.752204106136514,2.0,2.0,2004,0.07675647735595703,True,1.0,"['skinthickness', 'glucose']"
+diabetes,2,XGB,29,95,dice_random,True,11.025260677341901,2.0,2.0,2004,0.05380606651306152,True,1.0,"['bmi', 'insulin']"
+diabetes,2,XGB,30,64,dice_random,True,15.601631469220617,1.0,1.0,2004,0.05328011512756348,True,1.0,['insulin']
+diabetes,2,XGB,31,98,dice_random,True,14.701647242583785,2.0,2.0,12004,10.617501735687256,True,0.5,"['bloodpressure', 'insulin']"
+diabetes,2,XGB,32,7,dice_random,True,10.314001080570815,2.0,2.0,2004,0.05418825149536133,False,1.0,"['bmi', 'insulin']"
+diabetes,2,XGB,33,58,dice_random,True,7.712591155328617,2.0,2.0,2004,0.05313587188720703,True,1.0,"['bmi', 'insulin']"
+diabetes,2,XGB,34,27,dice_random,True,9.227903710874891,2.0,2.0,2004,0.051813602447509766,True,1.0,"['bmi', 'glucose']"
+diabetes,2,XGB,35,10,dice_random,True,9.934562726381966,2.0,2.0,2004,0.055364370346069336,True,0.5,"['glucose', 'insulin']"
+diabetes,2,XGB,36,77,dice_random,True,11.86330299714204,2.0,2.0,12004,10.65925407409668,True,1.0,"['bloodpressure', 'insulin']"
+diabetes,2,XGB,37,74,dice_random,True,2.1511518812125465,1.0,1.0,2004,0.05350184440612793,False,0.0,['glucose']
+diabetes,2,XGB,38,90,dice_random,True,17.282685363533176,2.0,2.0,2004,0.054677486419677734,True,0.5,"['glucose', 'insulin']"
+diabetes,2,XGB,39,85,dice_random,True,9.425628237714008,1.0,1.0,2004,0.053754329681396484,True,1.0,['bmi']
+diabetes,2,XGB,40,78,dice_random,True,9.538019844906557,2.0,2.0,2004,0.05322408676147461,True,1.0,"['skinthickness', 'bloodpressure']"
+diabetes,2,XGB,41,54,dice_random,True,4.6162363322904705,1.0,1.0,2004,0.05291604995727539,False,1.0,['glucose']
+diabetes,2,XGB,42,13,dice_random,True,6.590217397932784,1.0,1.0,2004,0.05463004112243652,True,1.0,['bmi']

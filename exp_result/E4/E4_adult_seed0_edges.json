@@ -1,0 +1,189 @@
+{
+ "llm": {
+  "edges": [
+   [
+    "age",
+    "education_num"
+   ],
+   [
+    "age",
+    "hours_per_week"
+   ],
+   [
+    "age",
+    "capital_gain"
+   ],
+   [
+    "education_num",
+    "hours_per_week"
+   ],
+   [
+    "education_num",
+    "capital_gain"
+   ],
+   [
+    "hours_per_week",
+    "capital_gain"
+   ]
+  ],
+  "eq": "linear"
+ },
+ "drop30_r1": {
+  "edges": [
+   [
+    "age",
+    "hours_per_week"
+   ],
+   [
+    "age",
+    "capital_gain"
+   ],
+   [
+    "education_num",
+    "hours_per_week"
+   ],
+   [
+    "education_num",
+    "capital_gain"
+   ]
+  ],
+  "eq": "linear"
+ },
+ "rev30_r1": {
+  "edges": [
+   [
+    "education_num",
+    "age"
+   ],
+   [
+    "age",
+    "hours_per_week"
+   ],
+   [
+    "age",
+    "capital_gain"
+   ],
+   [
+    "education_num",
+    "hours_per_week"
+   ],
+   [
+    "education_num",
+    "capital_gain"
+   ],
+   [
+    "hours_per_week",
+    "capital_gain"
+   ]
+  ],
+  "eq": "linear"
+ },
+ "drop30_r2": {
+  "edges": [
+   [
+    "age",
+    "hours_per_week"
+   ],
+   [
+    "education_num",
+    "hours_per_week"
+   ],
+   [
+    "education_num",
+    "capital_gain"
+   ],
+   [
+    "hours_per_week",
+    "capital_gain"
+   ]
+  ],
+  "eq": "linear"
+ },
+ "rev30_r2": {
+  "edges": [
+   [
+    "age",
+    "education_num"
+   ],
+   [
+    "age",
+    "hours_per_week"
+   ],
+   [
+    "age",
+    "capital_gain"
+   ],
+   [
+    "hours_per_week",
+    "education_num"
+   ],
+   [
+    "education_num",
+    "capital_gain"
+   ],
+   [
+    "hours_per_week",
+    "capital_gain"
+   ]
+  ],
+  "eq": "linear"
+ },
+ "empty": {
+  "edges": [],
+  "eq": "linear"
+ },
+ "pc": {
+  "edges": [
+   [
+    "education_num",
+    "hours_per_week"
+   ],
+   [
+    "occupation",
+    "workclass"
+   ],
+   [
+    "occupation",
+    "hours_per_week"
+   ],
+   [
+    "hours_per_week",
+    "workclass"
+   ],
+   [
+    "capital_gain",
+    "hours_per_week"
+   ]
+  ],
+  "eq": "linear"
+ },
+ "gbr": {
+  "edges": [
+   [
+    "age",
+    "education_num"
+   ],
+   [
+    "age",
+    "hours_per_week"
+   ],
+   [
+    "age",
+    "capital_gain"
+   ],
+   [
+    "education_num",
+    "hours_per_week"
+   ],
+   [
+    "education_num",
+    "capital_gain"
+   ],
+   [
+    "hours_per_week",
+    "capital_gain"
+   ]
+  ],
+  "eq": "gbr"
+ }
+}

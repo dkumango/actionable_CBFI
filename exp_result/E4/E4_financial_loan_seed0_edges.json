@@ -1,0 +1,213 @@
+{
+ "llm": {
+  "edges": [
+   [
+    "annual_income",
+    "dti"
+   ],
+   [
+    "annual_income",
+    "loan_amount"
+   ],
+   [
+    "emp_length",
+    "int_rate"
+   ],
+   [
+    "loan_amount",
+    "installment"
+   ],
+   [
+    "term",
+    "installment"
+   ],
+   [
+    "loan_amount",
+    "int_rate"
+   ],
+   [
+    "dti",
+    "int_rate"
+   ]
+  ],
+  "eq": "linear"
+ },
+ "drop30_r1": {
+  "edges": [
+   [
+    "annual_income",
+    "dti"
+   ],
+   [
+    "annual_income",
+    "loan_amount"
+   ],
+   [
+    "emp_length",
+    "int_rate"
+   ],
+   [
+    "loan_amount",
+    "installment"
+   ],
+   [
+    "term",
+    "installment"
+   ]
+  ],
+  "eq": "linear"
+ },
+ "rev30_r1": {
+  "edges": [
+   [
+    "dti",
+    "annual_income"
+   ],
+   [
+    "annual_income",
+    "loan_amount"
+   ],
+   [
+    "emp_length",
+    "int_rate"
+   ],
+   [
+    "loan_amount",
+    "installment"
+   ],
+   [
+    "installment",
+    "term"
+   ],
+   [
+    "loan_amount",
+    "int_rate"
+   ],
+   [
+    "dti",
+    "int_rate"
+   ]
+  ],
+  "eq": "linear"
+ },
+ "drop30_r2": {
+  "edges": [
+   [
+    "annual_income",
+    "loan_amount"
+   ],
+   [
+    "loan_amount",
+    "installment"
+   ],
+   [
+    "term",
+    "installment"
+   ],
+   [
+    "loan_amount",
+    "int_rate"
+   ],
+   [
+    "dti",
+    "int_rate"
+   ]
+  ],
+  "eq": "linear"
+ },
+ "rev30_r2": {
+  "edges": [
+   [
+    "annual_income",
+    "dti"
+   ],
+   [
+    "annual_income",
+    "loan_amount"
+   ],
+   [
+    "int_rate",
+    "emp_length"
+   ],
+   [
+    "installment",
+    "loan_amount"
+   ],
+   [
+    "term",
+    "installment"
+   ],
+   [
+    "loan_amount",
+    "int_rate"
+   ],
+   [
+    "dti",
+    "int_rate"
+   ]
+  ],
+  "eq": "linear"
+ },
+ "empty": {
+  "edges": [],
+  "eq": "linear"
+ },
+ "pc": {
+  "edges": [
+   [
+    "term",
+    "loan_amount"
+   ],
+   [
+    "installment",
+    "loan_amount"
+   ],
+   [
+    "int_rate",
+    "dti"
+   ],
+   [
+    "home_ownership",
+    "total_acc"
+   ],
+   [
+    "total_acc",
+    "dti"
+   ]
+  ],
+  "eq": "linear"
+ },
+ "gbr": {
+  "edges": [
+   [
+    "annual_income",
+    "dti"
+   ],
+   [
+    "annual_income",
+    "loan_amount"
+   ],
+   [
+    "emp_length",
+    "int_rate"
+   ],
+   [
+    "loan_amount",
+    "installment"
+   ],
+   [
+    "term",
+    "installment"
+   ],
+   [
+    "loan_amount",
+    "int_rate"
+   ],
+   [
+    "dti",
+    "int_rate"
+   ]
+  ],
+  "eq": "gbr"
+ }
+}

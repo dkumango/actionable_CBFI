@@ -1,0 +1,1113 @@
+﻿dataset,seed,model,query,test_row,method,success,evals_diag,evals_search,evals_total,time,stage,cost,cost_action,L0,L_active,cross_valid,tail,intervened,changed
+financial_loan,1,RF,0,6930,acbfi_v2,True,251,14,265,0.12629008293151855,single,0.16541312083042464,0.1514563106796114,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,RF,0,6930,acbfi_v1,True,765,150,915,0.8460509777069092,beam,0.16541312083042461,0.1514563106796114,2,2,1.0,False,"['loan_amount', 'dti']","['dti', 'int_rate']"
+financial_loan,1,RF,0,6930,untargeted,True,0,288,288,0.7778890132904053,beam,0.16541312083042461,0.1514563106796114,2,2,1.0,False,"['loan_amount', 'dti']","['dti', 'int_rate']"
+financial_loan,1,RF,0,6930,shap_staged,True,43888,12,43900,3.936999797821045,single,1.9374513146235617,0.7999999999999999,3,1,1.0,False,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,RF,0,6930,lewis_style,True,1352,13,1365,0.4441661834716797,single,0.16541312083042464,0.1514563106796114,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,RF,0,6930,shap_ce,True,43888,343,44231,3.910101890563965,grid,1.0666666666666667,1.0666666666666667,1,1,1.0,False,['loan_amount'],['loan_amount']
+financial_loan,1,RF,0,6930,random_grid_ce,True,0,500,500,0.034117698669433594,grid,2.7485436893203885,2.7485436893203885,3,3,1.0,False,"['dti', 'loan_amount', 'total_acc']","['dti', 'loan_amount', 'total_acc']"
+financial_loan,1,RF,0,6930,acbfi_v3,True,25,0,25,0.08452749252319336,single,0.16541312083042464,0.1514563106796114,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,RF,1,4642,acbfi_v2,True,251,18,269,0.12873220443725586,single,0.6977040609385864,0.6388349514563104,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,RF,1,4642,acbfi_v1,True,765,162,927,0.8709444999694824,beam,0.6977040609385864,0.6388349514563104,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,RF,1,4642,untargeted,True,0,288,288,0.7699306011199951,beam,0.6977040609385864,0.6388349514563104,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,RF,1,4642,shap_staged,True,44096,14,44110,0.5974409580230713,single,0.6977040609385864,0.6388349514563104,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,RF,1,4642,lewis_style,True,1328,14,1342,0.4941902160644531,single,0.6977040609385864,0.6388349514563104,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,RF,1,4642,shap_ce,True,44096,343,44439,0.5652525424957275,grid,0.7055016181229768,0.7055016181229768,1,1,1.0,False,['dti'],['dti']
+financial_loan,1,RF,1,4642,random_grid_ce,True,0,500,500,0.022657394409179688,grid,3.6682522541416915,3.6682522541416915,4,4,1.0,False,"['dti', 'loan_amount', 'term', 'total_acc']","['dti', 'loan_amount', 'term', 'total_acc']"
+financial_loan,1,RF,1,4642,acbfi_v3,True,25,0,25,0.08467650413513184,single,0.6977040609385864,0.6388349514563104,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,RF,2,6334,acbfi_v2,True,251,18,269,0.13233447074890137,single,1.0249999999999986,1.0249999999999986,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,RF,2,6334,acbfi_v1,True,765,176,941,0.9494376182556152,beam,1.0249999999999986,1.0249999999999986,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,RF,2,6334,untargeted,True,0,280,280,0.8192131519317627,beam,1.0249999999999986,1.0249999999999986,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,RF,2,6334,shap_staged,True,44096,14,44110,0.5958552360534668,single,1.0249999999999986,1.0249999999999986,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,RF,2,6334,lewis_style,True,992,16,1008,0.4664311408996582,single,1.0249999999999986,1.0249999999999986,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,RF,2,6334,shap_ce,True,44096,343,44439,0.5655252933502197,grid,0.909870550161812,0.909870550161812,2,2,1.0,False,"['dti', 'total_acc']","['dti', 'total_acc']"
+financial_loan,1,RF,2,6334,random_grid_ce,True,0,500,500,0.024756908416748047,grid,3.294174757281553,3.294174757281553,3,3,1.0,True,"['dti', 'loan_amount', 'total_acc']","['dti', 'loan_amount', 'total_acc']"
+financial_loan,1,RF,2,6334,acbfi_v3,True,25,0,25,0.08892655372619629,single,1.0249999999999986,1.0249999999999986,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,RF,3,3094,acbfi_v2,True,251,18,269,0.12646102905273438,single,1.0323475284647536,0.9452427184466015,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,RF,3,3094,acbfi_v1,True,765,184,949,0.9127764701843262,beam,1.0323475284647536,0.9452427184466015,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,RF,3,3094,untargeted,True,0,292,292,0.7613050937652588,beam,1.0323475284647536,0.9452427184466015,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,RF,3,3094,shap_staged,True,46228,14,46242,0.7103815078735352,single,1.0323475284647536,0.9452427184466015,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,RF,3,3094,lewis_style,True,1160,14,1174,0.4350316524505615,single,1.0323475284647536,0.9452427184466015,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,RF,3,3094,shap_ce,True,46228,343,46571,0.6824362277984619,grid,1.0590614886731389,1.0590614886731389,2,2,1.0,True,"['dti', 'loan_amount']","['dti', 'loan_amount']"
+financial_loan,1,RF,3,3094,random_grid_ce,True,0,500,500,0.023359060287475586,grid,0.9497572815533981,0.9497572815533981,3,3,1.0,False,"['dti', 'loan_amount', 'total_acc']","['dti', 'loan_amount', 'total_acc']"
+financial_loan,1,RF,3,3094,acbfi_v3,True,25,0,25,0.08417153358459473,single,1.0323475284647536,0.9452427184466015,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,RF,4,4817,acbfi_v2,True,251,14,265,0.24404406547546387,single,1.4530884859676714,0.6,3,1,1.0,False,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,RF,4,4817,acbfi_v1,True,765,184,949,1.4611401557922363,beam,1.1511056664968529,1.0539805825242712,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,RF,4,4817,untargeted,True,0,292,292,0.9281153678894043,beam,1.1511056664968529,1.0539805825242712,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,RF,4,4817,shap_staged,True,44148,14,44162,0.6366991996765137,single,1.4530884859676714,0.6,3,1,1.0,False,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,RF,4,4817,lewis_style,True,1304,12,1316,0.528630256652832,single,1.4530884859676714,0.6,3,1,1.0,False,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,RF,4,4817,shap_ce,True,44148,343,44491,0.6167440414428711,grid,1.0333333333333337,1.0333333333333337,2,2,1.0,False,"['loan_amount', 'total_acc']","['loan_amount', 'total_acc']"
+financial_loan,1,RF,4,4817,random_grid_ce,True,0,500,500,0.0359644889831543,grid,2.1660194174757277,2.1660194174757277,4,4,1.0,False,"['dti', 'loan_amount', 'home_ownership', 'total_acc']","['dti', 'loan_amount', 'home_ownership', 'total_acc']"
+financial_loan,1,RF,4,4817,acbfi_v3,True,25,0,25,0.10500073432922363,single,1.1511056664968529,1.0539805825242712,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,RF,5,7147,acbfi_v2,True,251,14,265,0.14253950119018555,single,0.8750000000000003,0.875,1,1,0.5,False,['total_acc'],['total_acc']
+financial_loan,1,RF,5,7147,acbfi_v1,True,765,156,921,1.0329322814941406,beam,0.8750000000000003,0.875,1,1,0.5,False,['total_acc'],['total_acc']
+financial_loan,1,RF,5,7147,untargeted,True,0,294,294,0.8930602073669434,beam,0.8750000000000003,0.875,1,1,0.5,False,['total_acc'],['total_acc']
+financial_loan,1,RF,5,7147,shap_staged,True,46020,14,46034,0.6752865314483643,single,0.8750000000000003,0.875,1,1,0.5,False,['total_acc'],['total_acc']
+financial_loan,1,RF,5,7147,lewis_style,True,1400,13,1413,0.6944468021392822,single,0.9687256573117808,0.39999999999999997,3,1,0.5,True,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,RF,5,7147,shap_ce,True,46020,343,46363,0.6556868553161621,grid,0.5294498381877025,0.5294498381877025,2,2,0.5,False,"['dti', 'total_acc']","['dti', 'total_acc']"
+financial_loan,1,RF,5,7147,random_grid_ce,True,0,500,500,0.03496813774108887,grid,2.0980582524271845,2.0980582524271845,3,3,0.5,True,"['dti', 'loan_amount', 'total_acc']","['dti', 'loan_amount', 'total_acc']"
+financial_loan,1,RF,5,7147,acbfi_v3,True,25,0,25,0.1567842960357666,single,0.8750000000000003,0.875,1,1,0.5,False,['total_acc'],['total_acc']
+financial_loan,1,RF,6,4079,acbfi_v2,True,251,14,265,0.23318243026733398,single,0.8062829299965074,0.7382524271844664,2,1,0.5,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,RF,6,4079,acbfi_v1,True,765,180,945,1.3376224040985107,beam,0.6250000000000004,0.625,1,1,0.5,True,['total_acc'],['total_acc']
+financial_loan,1,RF,6,4079,untargeted,True,0,292,292,1.1214752197265625,beam,0.6250000000000004,0.625,1,1,0.5,True,['total_acc'],['total_acc']
+financial_loan,1,RF,6,4079,shap_staged,True,44928,14,44942,0.7282059192657471,single,0.6250000000000004,0.625,1,1,0.5,True,['total_acc'],['total_acc']
+financial_loan,1,RF,6,4079,lewis_style,True,1400,13,1413,0.729332447052002,single,0.6250000000000004,0.625,1,1,0.5,True,['total_acc'],['total_acc']
+financial_loan,1,RF,6,4079,shap_ce,True,44928,343,45271,0.7089197635650635,grid,0.7249999999999998,0.7249999999999998,2,2,0.5,True,"['loan_amount', 'total_acc']","['loan_amount', 'total_acc']"
+financial_loan,1,RF,6,4079,random_grid_ce,True,0,500,500,0.03447532653808594,grid,2.5406307218756137,2.5406307218756137,4,4,0.5,True,"['dti', 'loan_amount', 'term', 'total_acc']","['dti', 'loan_amount', 'term', 'total_acc']"
+financial_loan,1,RF,6,4079,acbfi_v3,True,25,0,25,0.11045718193054199,single,0.6250000000000004,0.625,1,1,0.5,True,['total_acc'],['total_acc']
+financial_loan,1,RF,7,4589,acbfi_v2,True,251,14,265,0.18435883522033691,single,1.598993501360773,1.4640776699029125,2,1,0.5,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,RF,7,4589,acbfi_v1,True,765,180,945,1.4911785125732422,beam,1.204490240254707,1.1450485436893207,3,2,0.5,True,"['dti', 'total_acc']","['dti', 'int_rate', 'total_acc']"
+financial_loan,1,RF,7,4589,untargeted,True,0,286,286,1.338688850402832,beam,1.204490240254707,1.1450485436893207,3,2,0.5,True,"['dti', 'total_acc']","['dti', 'int_rate', 'total_acc']"
+financial_loan,1,RF,7,4589,shap_staged,True,44720,14,44734,0.73114013671875,single,1.375,1.375,1,1,0.5,True,['total_acc'],['total_acc']
+financial_loan,1,RF,7,4589,lewis_style,True,1400,12,1412,0.7500476837158203,single,1.375,1.375,1,1,0.5,True,['total_acc'],['total_acc']
+financial_loan,1,RF,7,4589,shap_ce,True,44720,343,45063,0.6798117160797119,grid,1.0183333333333335,1.0183333333333335,2,2,0.5,False,"['loan_amount', 'total_acc']","['loan_amount', 'total_acc']"
+financial_loan,1,RF,7,4589,random_grid_ce,True,0,500,500,0.03319191932678223,grid,2.1771359223300966,2.1771359223300966,3,3,0.5,True,"['dti', 'loan_amount', 'total_acc']","['dti', 'loan_amount', 'total_acc']"
+financial_loan,1,RF,7,4589,acbfi_v3,True,25,0,25,0.08838677406311035,single,1.375,1.375,1,1,0.5,True,['total_acc'],['total_acc']
+financial_loan,1,RF,8,7404,acbfi_v2,True,251,14,265,0.19688630104064941,single,0.24218177434403232,0.22174757281553456,2,1,0.5,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,RF,8,7404,acbfi_v1,True,765,162,927,1.2476859092712402,beam,0.24218177434403232,0.22174757281553456,2,1,0.5,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,RF,8,7404,untargeted,True,0,290,290,1.1184735298156738,beam,0.24218177434403232,0.22174757281553456,2,1,0.5,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,RF,8,7404,shap_staged,True,44876,14,44890,0.7184553146362305,single,0.7500000000000001,0.7500000000000001,1,1,0.5,False,['total_acc'],['total_acc']
+financial_loan,1,RF,8,7404,lewis_style,True,1016,15,1031,0.7211718559265137,single,0.24218177434403232,0.22174757281553456,2,1,0.5,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,RF,8,7404,shap_ce,True,44876,343,45219,0.691046953201294,grid,0.2500000000000002,0.2500000000000002,1,1,0.5,False,['total_acc'],['total_acc']
+financial_loan,1,RF,8,7404,random_grid_ce,True,0,500,500,0.035314321517944336,grid,1.8140776699029122,1.8140776699029122,2,2,1.0,False,"['dti', 'total_acc']","['dti', 'total_acc']"
+financial_loan,1,RF,8,7404,acbfi_v3,True,25,0,25,0.15928196907043457,single,0.24218177434403232,0.22174757281553456,2,1,0.5,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,RF,9,255,acbfi_v2,True,251,18,269,0.22958898544311523,single,0.12499999999999996,0.12499999999999996,1,1,0.5,False,['total_acc'],['total_acc']
+financial_loan,1,RF,9,255,acbfi_v1,True,765,180,945,1.2816998958587646,beam,0.12499999999999996,0.12499999999999996,1,1,0.5,False,['total_acc'],['total_acc']
+financial_loan,1,RF,9,255,untargeted,True,0,278,278,1.0840580463409424,beam,0.12499999999999996,0.12499999999999996,1,1,0.5,False,['total_acc'],['total_acc']
+financial_loan,1,RF,9,255,shap_staged,True,46332,14,46346,0.7534904479980469,single,0.12499999999999996,0.12499999999999996,1,1,0.5,False,['total_acc'],['total_acc']
+financial_loan,1,RF,9,255,lewis_style,True,1400,13,1413,0.6867167949676514,single,0.6001527332693619,0.549514563106796,2,1,0.5,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,RF,9,255,shap_ce,True,46332,343,46675,0.7022573947906494,grid,1.0681229773462784,1.0681229773462784,2,2,1.0,False,"['dti', 'total_acc']","['dti', 'total_acc']"
+financial_loan,1,RF,9,255,random_grid_ce,True,0,500,500,0.038338661193847656,grid,2.450485436893204,2.450485436893204,3,3,1.0,True,"['dti', 'loan_amount', 'total_acc']","['dti', 'loan_amount', 'total_acc']"
+financial_loan,1,RF,9,255,acbfi_v3,True,25,0,25,0.09872102737426758,single,0.12499999999999996,0.12499999999999996,1,1,0.5,False,['total_acc'],['total_acc']
+financial_loan,1,RF,10,4761,acbfi_v2,True,251,14,265,0.24237561225891113,single,2.8947296145324346,2.650485436893204,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,RF,10,4761,acbfi_v1,True,765,168,933,1.6462223529815674,beam,1.235635957309837,1.1946601941747574,3,2,1.0,True,"['total_acc', 'dti']","['dti', 'int_rate', 'total_acc']"
+financial_loan,1,RF,10,4761,untargeted,True,0,268,268,1.343425989151001,beam,1.235635957309837,1.1946601941747574,3,2,1.0,True,"['total_acc', 'dti']","['dti', 'int_rate', 'total_acc']"
+financial_loan,1,RF,10,4761,shap_staged,True,44356,14,44370,0.7307324409484863,single,2.8947296145324346,2.650485436893204,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,RF,10,4761,lewis_style,True,1376,12,1388,0.69154953956604,single,1.8749999999999998,1.8749999999999998,1,1,1.0,True,['total_acc'],['total_acc']
+financial_loan,1,RF,10,4761,shap_ce,True,44356,343,44699,0.6903097629547119,grid,1.9489640552089469,1.9489640552089469,3,3,1.0,False,"['dti', 'loan_amount', 'term']","['dti', 'loan_amount', 'term']"
+financial_loan,1,RF,10,4761,random_grid_ce,True,0,500,500,0.03412032127380371,grid,3.332863731584352,3.332863731584352,4,4,1.0,False,"['dti', 'loan_amount', 'term', 'total_acc']","['dti', 'loan_amount', 'term', 'total_acc']"
+financial_loan,1,RF,10,4761,acbfi_v3,True,25,0,25,0.09896492958068848,single,1.8749999999999998,1.8749999999999998,1,1,1.0,True,['total_acc'],['total_acc']
+financial_loan,1,RF,11,1881,acbfi_v2,True,251,14,265,0.2215888500213623,single,1.75,1.75,1,1,0.5,True,['total_acc'],['total_acc']
+financial_loan,1,RF,11,1881,acbfi_v1,True,765,156,921,1.3721592426300049,beam,1.75,1.75,1,1,0.5,True,['total_acc'],['total_acc']
+financial_loan,1,RF,11,1881,untargeted,True,0,256,256,1.187450647354126,beam,1.75,1.75,1,1,0.5,True,['total_acc'],['total_acc']
+financial_loan,1,RF,11,1881,shap_staged,True,44408,14,44422,0.7388138771057129,single,1.75,1.75,1,1,0.5,True,['total_acc'],['total_acc']
+financial_loan,1,RF,11,1881,lewis_style,True,1328,13,1341,0.7834134101867676,single,1.75,1.75,1,1,0.5,True,['total_acc'],['total_acc']
+financial_loan,1,RF,11,1881,shap_ce,True,44408,343,44751,0.687248945236206,grid,1.8999999999999997,1.8999999999999997,2,2,0.5,False,"['loan_amount', 'total_acc']","['loan_amount', 'total_acc']"
+financial_loan,1,RF,11,1881,random_grid_ce,True,0,500,500,0.03525948524475098,grid,2.9194658463747,2.9194658463747,4,4,0.5,False,"['dti', 'loan_amount', 'term', 'total_acc']","['dti', 'loan_amount', 'term', 'total_acc']"
+financial_loan,1,RF,11,1881,acbfi_v3,True,25,0,25,0.15489625930786133,single,1.75,1.75,1,1,0.5,True,['total_acc'],['total_acc']
+financial_loan,1,RF,12,3352,acbfi_v2,True,251,14,265,0.18573522567749023,single,1.5226489840544233,1.3941747572815533,2,1,0.5,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,RF,12,3352,acbfi_v1,True,765,180,945,1.3384068012237549,beam,1.5226489840544233,1.3941747572815533,2,1,0.5,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,RF,12,3352,untargeted,True,0,286,286,1.1617889404296875,beam,1.5226489840544233,1.3941747572815533,2,1,0.5,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,RF,12,3352,shap_staged,True,44720,14,44734,0.7210144996643066,single,1.5226489840544233,1.3941747572815533,2,1,0.5,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,RF,12,3352,lewis_style,True,1112,14,1126,0.7218217849731445,single,1.5226489840544233,1.3941747572815533,2,1,0.5,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,RF,12,3352,shap_ce,True,44720,343,45063,0.6913084983825684,grid,1.7275080906148865,1.7275080906148865,2,2,0.5,True,"['dti', 'loan_amount']","['dti', 'loan_amount']"
+financial_loan,1,RF,12,3352,random_grid_ce,True,0,500,500,0.035349130630493164,grid,2.8191747572815533,2.8191747572815533,3,3,1.0,True,"['dti', 'loan_amount', 'total_acc']","['dti', 'loan_amount', 'total_acc']"
+financial_loan,1,RF,12,3352,acbfi_v3,True,25,0,25,0.1439523696899414,single,1.5226489840544233,1.3941747572815533,2,1,0.5,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,RF,13,5545,acbfi_v2,True,251,14,265,0.1842050552368164,single,0.9017135766294442,0.8256310679611654,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,RF,13,5545,acbfi_v1,True,765,176,941,1.3321990966796875,beam,0.5466549827983251,0.542718446601942,3,2,0.5,True,"['dti', 'total_acc']","['dti', 'int_rate', 'total_acc']"
+financial_loan,1,RF,13,5545,untargeted,True,0,288,288,1.2696242332458496,beam,0.5466549827983251,0.542718446601942,3,2,0.5,True,"['dti', 'total_acc']","['dti', 'int_rate', 'total_acc']"
+financial_loan,1,RF,13,5545,shap_staged,True,44356,14,44370,0.6780741214752197,single,0.9017135766294442,0.8256310679611654,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,RF,13,5545,lewis_style,True,1400,13,1413,0.7212638854980469,single,1.4530884859676712,0.6,3,1,0.5,True,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,RF,13,5545,shap_ce,True,44356,343,44699,0.6492760181427002,grid,1.1427184466019416,1.1427184466019416,2,2,0.5,False,"['dti', 'loan_amount']","['dti', 'loan_amount']"
+financial_loan,1,RF,13,5545,random_grid_ce,True,0,500,500,0.03330874443054199,grid,1.8927184466019413,1.8927184466019413,3,3,1.0,False,"['dti', 'loan_amount', 'total_acc']","['dti', 'loan_amount', 'total_acc']"
+financial_loan,1,RF,13,5545,acbfi_v3,True,25,0,25,0.10801219940185547,single,0.9017135766294442,0.8256310679611654,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,RF,14,5802,acbfi_v2,True,251,14,265,0.23025989532470703,single,1.6250000000000002,1.6250000000000002,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,RF,14,5802,acbfi_v1,True,765,176,941,1.412426471710205,beam,0.9029859852512164,0.8267961165048543,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,RF,14,5802,untargeted,True,0,292,292,1.127678632736206,beam,0.9029859852512164,0.8267961165048543,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,RF,14,5802,shap_staged,True,44356,14,44370,0.7208404541015625,single,1.6250000000000002,1.6250000000000002,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,RF,14,5802,lewis_style,True,1400,12,1412,0.7873177528381348,single,1.8749999999999998,1.8749999999999998,1,1,1.0,True,['total_acc'],['total_acc']
+financial_loan,1,RF,14,5802,shap_ce,True,44356,343,44699,0.6678392887115479,grid,0.6249999999999998,0.6249999999999998,2,2,1.0,False,"['loan_amount', 'total_acc']","['loan_amount', 'total_acc']"
+financial_loan,1,RF,14,5802,random_grid_ce,True,0,500,500,0.03754067420959473,grid,2.114854195889264,2.114854195889264,4,4,1.0,False,"['dti', 'loan_amount', 'term', 'total_acc']","['dti', 'loan_amount', 'term', 'total_acc']"
+financial_loan,1,RF,14,5802,acbfi_v3,True,25,0,25,0.1560044288635254,single,0.9029859852512164,0.8267961165048543,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,RF,15,721,acbfi_v2,True,251,14,265,0.23029470443725586,single,0.242181414327945,0.10000000000000002,3,1,1.0,False,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,RF,15,721,acbfi_v1,True,765,166,931,1.3732075691223145,beam,0.242181414327945,0.10000000000000002,3,1,1.0,False,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,RF,15,721,untargeted,True,0,288,288,1.0907347202301025,beam,0.242181414327945,0.10000000000000002,3,1,1.0,False,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,RF,15,721,shap_staged,True,44772,14,44786,0.7169249057769775,single,0.242181414327945,0.10000000000000002,3,1,1.0,False,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,RF,15,721,lewis_style,True,1400,13,1413,0.7994716167449951,single,0.242181414327945,0.10000000000000002,3,1,1.0,False,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,RF,15,721,shap_ce,True,44772,343,45115,0.7002720832824707,grid,1.0916666666666668,1.0916666666666668,2,2,1.0,False,"['loan_amount', 'total_acc']","['loan_amount', 'total_acc']"
+financial_loan,1,RF,15,721,random_grid_ce,True,0,500,500,0.041922807693481445,grid,1.8769901182193607,1.8769901182193607,4,4,1.0,False,"['dti', 'loan_amount', 'term', 'total_acc']","['dti', 'loan_amount', 'term', 'total_acc']"
+financial_loan,1,RF,15,721,acbfi_v3,True,25,0,25,0.15093684196472168,single,0.242181414327945,0.10000000000000002,3,1,1.0,False,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,RF,16,6189,acbfi_v2,True,251,18,269,0.2073216438293457,single,0.4983600435275622,0.4563106796116506,2,1,0.5,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,RF,16,6189,acbfi_v1,True,765,136,901,1.5452282428741455,beam,0.7500000000000001,0.7500000000000001,1,2,1.0,False,"['loan_amount', 'total_acc']",['total_acc']
+financial_loan,1,RF,16,6189,untargeted,True,0,268,268,1.121983289718628,beam,0.4983600435275622,0.4563106796116506,2,1,0.5,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,RF,16,6189,shap_staged,True,44460,14,44474,0.7329699993133545,single,0.7500000000000002,0.7500000000000001,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,RF,16,6189,lewis_style,True,1400,13,1413,0.7365086078643799,single,0.4983600435275622,0.4563106796116506,2,1,0.5,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,RF,16,6189,shap_ce,True,44460,343,44803,0.692333459854126,grid,0.4416666666666669,0.4416666666666669,2,2,1.0,False,"['loan_amount', 'total_acc']","['loan_amount', 'total_acc']"
+financial_loan,1,RF,16,6189,random_grid_ce,True,0,500,500,0.03565192222595215,grid,3.374514563106796,3.374514563106796,3,3,0.5,True,"['dti', 'loan_amount', 'total_acc']","['dti', 'loan_amount', 'total_acc']"
+financial_loan,1,RF,16,6189,acbfi_v3,True,25,0,25,0.15659260749816895,single,0.4983600435275622,0.4563106796116506,2,1,0.5,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,RF,17,943,acbfi_v2,True,251,18,269,0.21700358390808105,single,0.7500000000000001,0.7500000000000001,1,1,1.0,True,['total_acc'],['total_acc']
+financial_loan,1,RF,17,943,acbfi_v1,True,765,176,941,1.3067030906677246,beam,0.7500000000000001,0.7500000000000001,1,1,1.0,True,['total_acc'],['total_acc']
+financial_loan,1,RF,17,943,untargeted,True,0,288,288,1.0447266101837158,beam,0.7500000000000001,0.7500000000000001,1,1,1.0,True,['total_acc'],['total_acc']
+financial_loan,1,RF,17,943,shap_staged,True,44408,14,44422,0.7058165073394775,single,1.1154782250872237,1.021359223300971,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,RF,17,943,lewis_style,True,1280,13,1293,0.7865962982177734,single,0.7500000000000001,0.7500000000000001,1,1,1.0,True,['total_acc'],['total_acc']
+financial_loan,1,RF,17,943,shap_ce,True,44408,343,44751,0.6773149967193604,grid,0.5491909385113268,0.5491909385113268,2,2,1.0,False,"['dti', 'loan_amount']","['dti', 'loan_amount']"
+financial_loan,1,RF,17,943,random_grid_ce,True,0,500,500,0.03731226921081543,grid,2.7344660194174755,2.7344660194174755,3,3,1.0,True,"['dti', 'loan_amount', 'total_acc']","['dti', 'loan_amount', 'total_acc']"
+financial_loan,1,RF,17,943,acbfi_v3,True,25,0,25,0.15517830848693848,single,0.7500000000000001,0.7500000000000001,1,1,1.0,True,['total_acc'],['total_acc']
+financial_loan,1,RF,18,4906,acbfi_v2,True,251,14,265,0.23066449165344238,single,2.5249999999999995,2.5249999999999986,1,1,0.5,False,['total_acc'],['total_acc']
+financial_loan,1,RF,18,4906,acbfi_v1,True,765,184,949,1.4212286472320557,beam,0.4767290969574301,0.4365048543689321,2,1,0.5,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,RF,18,4906,untargeted,True,0,292,292,1.0586748123168945,beam,0.4767290969574301,0.4365048543689321,2,1,0.5,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,RF,18,4906,shap_staged,True,44252,14,44266,0.7418947219848633,single,0.4767290969574301,0.4365048543689321,2,1,0.5,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,RF,18,4906,lewis_style,True,872,16,888,0.692821741104126,single,0.4767290969574301,0.4365048543689321,2,1,0.5,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,RF,18,4906,shap_ce,True,44252,343,44595,0.6908645629882812,grid,1.2278317152103557,1.2278317152103557,2,2,1.0,True,"['dti', 'loan_amount']","['dti', 'loan_amount']"
+financial_loan,1,RF,18,4906,random_grid_ce,True,0,500,500,0.0353548526763916,grid,2.011165048543689,2.011165048543689,3,3,1.0,True,"['dti', 'loan_amount', 'total_acc']","['dti', 'loan_amount', 'total_acc']"
+financial_loan,1,RF,18,4906,acbfi_v3,True,25,0,25,0.13173174858093262,single,0.4767290969574301,0.4365048543689321,2,1,0.5,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,RF,19,2323,acbfi_v2,True,251,14,265,0.2170867919921875,single,3.3381738147686955,2.320581832100742,2,1,0.5,False,['term'],"['term', 'installment']"
+financial_loan,1,RF,19,2323,acbfi_v1,True,765,168,933,1.5839781761169434,beam,2.2998572941032736,2.2007281553398057,3,2,0.5,True,"['total_acc', 'dti']","['dti', 'int_rate', 'total_acc']"
+financial_loan,1,RF,19,2323,untargeted,True,0,266,266,1.1754746437072754,beam,2.2998572941032736,2.2007281553398057,3,2,0.5,True,"['total_acc', 'dti']","['dti', 'int_rate', 'total_acc']"
+financial_loan,1,RF,19,2323,shap_staged,True,44408,14,44422,0.6662924289703369,single,3.3381738147686955,2.320581832100742,2,1,0.5,False,['term'],"['term', 'installment']"
+financial_loan,1,RF,19,2323,lewis_style,True,1280,13,1293,0.7428405284881592,single,3.3381738147686955,2.320581832100742,2,1,0.5,False,['term'],"['term', 'installment']"
+financial_loan,1,RF,19,2323,shap_ce,True,44408,343,44751,0.6486818790435791,grid,1.7916666666666665,1.7916666666666665,2,2,0.5,True,"['loan_amount', 'total_acc']","['loan_amount', 'total_acc']"
+financial_loan,1,RF,19,2323,random_grid_ce,True,0,500,500,0.033252716064453125,grid,2.300728155339806,2.300728155339806,3,3,0.5,True,"['dti', 'loan_amount', 'total_acc']","['dti', 'loan_amount', 'total_acc']"
+financial_loan,1,RF,19,2323,acbfi_v3,True,25,0,25,0.12892961502075195,single,3.3381738147686955,2.320581832100742,2,1,0.5,False,['term'],"['term', 'installment']"
+financial_loan,1,RF,20,7263,acbfi_v2,True,251,14,265,0.18591713905334473,single,0.49454281766224506,0.452815533980583,2,1,0.5,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,RF,20,7263,acbfi_v1,True,765,176,941,1.2465033531188965,beam,0.49454281766224506,0.452815533980583,2,1,0.5,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,RF,20,7263,untargeted,True,0,274,274,1.1161561012268066,beam,0.49454281766224506,0.452815533980583,2,1,0.5,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,RF,20,7263,shap_staged,True,44096,14,44110,0.6993265151977539,single,0.49454281766224506,0.452815533980583,2,1,0.5,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,RF,20,7263,lewis_style,True,968,19,987,0.7662649154663086,single,0.49454281766224506,0.452815533980583,2,1,0.5,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,RF,20,7263,shap_ce,True,44096,343,44439,0.6694376468658447,grid,0.6920388349514563,0.6920388349514563,2,2,0.5,False,"['dti', 'loan_amount']","['dti', 'loan_amount']"
+financial_loan,1,RF,20,7263,random_grid_ce,True,0,500,500,0.035019874572753906,grid,2.3650483706465453,2.3650483706465453,4,4,1.0,True,"['dti', 'loan_amount', 'term', 'total_acc']","['dti', 'loan_amount', 'term', 'total_acc']"
+financial_loan,1,RF,20,7263,acbfi_v3,True,25,0,25,0.14369463920593262,single,0.49454281766224506,0.452815533980583,2,1,0.5,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,RF,21,5402,acbfi_v2,True,251,18,269,0.22831082344055176,single,1.1150540888799658,1.0209708737864072,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,RF,21,5402,acbfi_v1,True,765,162,927,1.3291196823120117,beam,1.1150540888799658,1.0209708737864072,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,RF,21,5402,untargeted,True,0,280,280,1.1881251335144043,beam,1.1150540888799658,1.0209708737864072,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,RF,21,5402,shap_staged,True,44356,14,44370,0.7427113056182861,single,1.1150540888799658,1.0209708737864072,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,RF,21,5402,lewis_style,True,968,16,984,0.7281115055084229,single,1.1150540888799658,1.0209708737864072,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,RF,21,5402,shap_ce,True,44356,343,44699,0.6927435398101807,grid,1.010275080906149,1.010275080906149,2,2,1.0,False,"['dti', 'total_acc']","['dti', 'total_acc']"
+financial_loan,1,RF,21,5402,random_grid_ce,True,0,500,500,0.034517526626586914,grid,2.399029126213592,2.399029126213592,3,3,1.0,True,"['dti', 'loan_amount', 'total_acc']","['dti', 'loan_amount', 'total_acc']"
+financial_loan,1,RF,21,5402,acbfi_v3,True,25,0,25,0.11136126518249512,single,1.1150540888799658,1.0209708737864072,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,RF,22,6993,acbfi_v2,True,251,14,265,0.22018909454345703,single,1.5249999999999984,1.5249999999999984,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,RF,22,6993,acbfi_v1,True,765,176,941,1.5835223197937012,beam,1.443759649504528,1.321941747572815,2,1,0.5,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,RF,22,6993,untargeted,True,0,280,280,1.2055373191833496,beam,1.443759649504528,1.321941747572815,2,1,0.5,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,RF,22,6993,shap_staged,True,44304,14,44318,0.6872751712799072,single,1.5249999999999984,1.5249999999999984,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,RF,22,6993,lewis_style,True,944,16,960,0.6776447296142578,single,1.443759649504528,1.321941747572815,2,1,0.5,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,RF,22,6993,shap_ce,True,44304,343,44647,0.6590797901153564,grid,0.9833333333333336,0.9833333333333336,2,2,0.5,False,"['loan_amount', 'total_acc']","['loan_amount', 'total_acc']"
+financial_loan,1,RF,22,6993,random_grid_ce,True,0,500,500,0.034911394119262695,grid,2.3048543689320384,2.3048543689320384,3,3,1.0,False,"['dti', 'loan_amount', 'total_acc']","['dti', 'loan_amount', 'total_acc']"
+financial_loan,1,RF,22,6993,acbfi_v3,True,25,0,25,0.1425931453704834,single,1.443759649504528,1.321941747572815,2,1,0.5,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,RF,23,3395,acbfi_v2,True,251,14,265,0.2287445068359375,single,0.3138607933705498,0.28737864077669906,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,RF,23,3395,acbfi_v1,True,765,72,837,0.9128923416137695,beam,0.3138607933705498,0.28737864077669906,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,RF,23,3395,untargeted,True,0,226,226,0.8055651187896729,beam,0.3138607933705498,0.28737864077669906,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,RF,23,3395,shap_staged,True,42328,18,42346,0.7166461944580078,single,0.3138607933705498,0.28737864077669906,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,RF,23,3395,lewis_style,True,1256,14,1270,0.6976077556610107,single,0.3138607933705498,0.28737864077669906,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,RF,23,3395,shap_ce,True,42328,343,42671,0.6888117790222168,grid,0.5457119741100325,0.5457119741100325,3,3,1.0,True,"['dti', 'loan_amount', 'total_acc']","['dti', 'loan_amount', 'total_acc']"
+financial_loan,1,RF,23,3395,random_grid_ce,True,0,500,500,0.034935951232910156,grid,3.0226695568270703,3.0226695568270703,4,4,1.0,True,"['dti', 'loan_amount', 'term', 'total_acc']","['dti', 'loan_amount', 'term', 'total_acc']"
+financial_loan,1,RF,23,3395,acbfi_v3,True,25,0,25,0.14391732215881348,single,0.3138607933705498,0.28737864077669906,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,RF,24,2594,acbfi_v2,True,251,14,265,0.23063349723815918,single,0.6499999999999986,0.6499999999999986,1,1,0.5,False,['total_acc'],['total_acc']
+financial_loan,1,RF,24,2594,acbfi_v1,True,765,172,937,1.370107889175415,beam,0.6499999999999986,0.6499999999999986,1,1,0.5,False,['total_acc'],['total_acc']
+financial_loan,1,RF,24,2594,untargeted,True,0,268,268,1.1291816234588623,beam,0.6499999999999986,0.6499999999999986,1,1,0.5,False,['total_acc'],['total_acc']
+financial_loan,1,RF,24,2594,shap_staged,True,44616,14,44630,0.7586157321929932,single,0.6499999999999986,0.6499999999999986,1,1,0.5,False,['total_acc'],['total_acc']
+financial_loan,1,RF,24,2594,lewis_style,True,1280,17,1297,0.6896803379058838,single,0.6499999999999986,0.6499999999999986,1,1,0.5,False,['total_acc'],['total_acc']
+financial_loan,1,RF,24,2594,shap_ce,True,44616,343,44959,0.7089459896087646,grid,0.6416666666666665,0.6416666666666665,2,2,0.5,False,"['loan_amount', 'total_acc']","['loan_amount', 'total_acc']"
+financial_loan,1,RF,24,2594,random_grid_ce,True,0,500,500,0.0342257022857666,grid,2.4322815533980586,2.4322815533980586,3,3,0.5,True,"['dti', 'loan_amount', 'total_acc']","['dti', 'loan_amount', 'total_acc']"
+financial_loan,1,RF,24,2594,acbfi_v3,True,25,0,25,0.12204957008361816,single,0.6499999999999986,0.6499999999999986,1,1,0.5,False,['total_acc'],['total_acc']
+financial_loan,1,RF,25,4517,acbfi_v2,True,251,18,269,0.22649836540222168,single,1.0000000000000002,1.0000000000000002,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,RF,25,4517,acbfi_v1,True,765,176,941,1.436142921447754,beam,1.0000000000000002,1.0000000000000002,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,RF,25,4517,untargeted,True,0,266,266,1.3152637481689453,beam,1.0000000000000002,1.0000000000000002,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,RF,25,4517,shap_staged,True,46020,14,46034,0.7132556438446045,single,2.228069011817096,0.92,3,1,1.0,False,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,RF,25,4517,lewis_style,True,1400,13,1413,0.7675559520721436,single,2.228069011817096,0.92,3,1,1.0,False,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,RF,25,4517,shap_ce,True,46020,343,46363,0.674628496170044,grid,1.6916504854368926,1.6916504854368926,2,2,1.0,False,"['dti', 'loan_amount']","['dti', 'loan_amount']"
+financial_loan,1,RF,25,4517,random_grid_ce,True,0,500,500,0.03321433067321777,grid,2.9147087378640766,2.9147087378640766,4,4,1.0,False,"['dti', 'loan_amount', 'home_ownership', 'total_acc']","['dti', 'loan_amount', 'home_ownership', 'total_acc']"
+financial_loan,1,RF,25,4517,acbfi_v3,True,25,0,25,0.11875653266906738,single,1.0000000000000002,1.0000000000000002,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,RF,26,5651,acbfi_v2,True,251,14,265,0.20693445205688477,single,0.6082113212072544,0.5568932038834951,2,1,0.5,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,RF,26,5651,acbfi_v1,True,765,176,941,1.3624227046966553,beam,0.6082113212072544,0.5568932038834951,2,1,0.5,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,RF,26,5651,untargeted,True,0,288,288,1.0831074714660645,beam,0.6082113212072544,0.5568932038834951,2,1,0.5,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,RF,26,5651,shap_staged,True,44252,14,44266,0.6594069004058838,single,0.6082113212072544,0.5568932038834951,2,1,0.5,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,RF,26,5651,lewis_style,True,1376,14,1390,0.7622220516204834,single,0.6082113212072544,0.5568932038834951,2,1,0.5,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,RF,26,5651,shap_ce,True,44252,343,44595,0.630396842956543,grid,0.7498058252427187,0.7498058252427187,2,2,1.0,False,"['dti', 'loan_amount']","['dti', 'loan_amount']"
+financial_loan,1,RF,26,5651,random_grid_ce,True,0,500,500,0.036115169525146484,grid,1.9549512832679041,1.9549512832679041,4,4,1.0,False,"['dti', 'loan_amount', 'term', 'total_acc']","['dti', 'loan_amount', 'term', 'total_acc']"
+financial_loan,1,RF,26,5651,acbfi_v3,True,25,0,25,0.1564335823059082,single,0.6082113212072544,0.5568932038834951,2,1,0.5,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,RF,27,4120,acbfi_v2,True,251,14,265,0.20750665664672852,single,1.625,1.625,1,1,0.5,True,['total_acc'],['total_acc']
+financial_loan,1,RF,27,4120,acbfi_v1,True,765,164,929,1.3013081550598145,beam,1.3308262416608496,1.3029126213592233,3,2,0.5,False,"['dti', 'home_ownership']","['dti', 'int_rate', 'home_ownership']"
+financial_loan,1,RF,27,4120,untargeted,True,0,288,288,1.2039539813995361,beam,0.5808262416608498,0.5529126213592235,3,2,0.5,False,"['dti', 'total_acc']","['dti', 'int_rate', 'total_acc']"
+financial_loan,1,RF,27,4120,shap_staged,True,46748,14,46762,0.7366626262664795,single,1.625,1.625,1,1,0.5,True,['total_acc'],['total_acc']
+financial_loan,1,RF,27,4120,lewis_style,True,1400,13,1413,0.715965986251831,single,1.625,1.625,1,1,0.5,True,['total_acc'],['total_acc']
+financial_loan,1,RF,27,4120,shap_ce,True,46748,343,47091,0.6973114013671875,grid,1.4631877022653716,1.4631877022653716,2,2,0.5,True,"['dti', 'total_acc']","['dti', 'total_acc']"
+financial_loan,1,RF,27,4120,random_grid_ce,True,0,500,500,0.0332639217376709,grid,3.396941747572815,3.396941747572815,3,3,0.5,False,"['dti', 'loan_amount', 'total_acc']","['dti', 'loan_amount', 'total_acc']"
+financial_loan,1,RF,27,4120,acbfi_v3,True,25,0,25,0.1090247631072998,single,1.625,1.625,1,1,0.5,True,['total_acc'],['total_acc']
+financial_loan,1,RF,28,3595,acbfi_v2,True,251,18,269,0.21916747093200684,single,0.625,0.625,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,RF,28,3595,acbfi_v1,True,765,180,945,1.4554834365844727,beam,0.625,0.625,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,RF,28,3595,untargeted,True,0,292,292,1.2443242073059082,beam,0.625,0.625,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,RF,28,3595,shap_staged,True,44252,14,44266,0.712609052658081,single,0.625,0.625,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,RF,28,3595,lewis_style,True,1304,13,1317,0.7380216121673584,single,1.4530884859676707,0.6,3,1,0.5,False,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,RF,28,3595,shap_ce,True,44252,343,44595,0.6616051197052002,grid,1.8583333333333332,1.8583333333333332,2,2,1.0,False,"['loan_amount', 'total_acc']","['loan_amount', 'total_acc']"
+financial_loan,1,RF,28,3595,random_grid_ce,True,0,500,500,0.03364992141723633,grid,2.46626213592233,2.46626213592233,3,3,1.0,False,"['dti', 'loan_amount', 'total_acc']","['dti', 'loan_amount', 'total_acc']"
+financial_loan,1,RF,28,3595,acbfi_v3,True,25,0,25,0.10833311080932617,single,0.625,0.625,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,RF,29,2271,acbfi_v2,True,251,14,265,0.1841888427734375,single,2.392128208932298,2.1902912621359225,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,RF,29,2271,acbfi_v1,True,765,176,941,1.2863903045654297,beam,1.3409178816224647,1.2826213592232993,3,2,0.5,True,"['total_acc', 'dti']","['dti', 'int_rate', 'total_acc']"
+financial_loan,1,RF,29,2271,untargeted,True,0,286,286,1.200775384902954,beam,1.3409178816224647,1.2826213592232993,3,2,0.5,True,"['total_acc', 'dti']","['dti', 'int_rate', 'total_acc']"
+financial_loan,1,RF,29,2271,shap_staged,True,43992,14,44006,0.6707155704498291,single,2.392128208932298,2.1902912621359225,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,RF,29,2271,lewis_style,True,1400,13,1413,0.7741842269897461,single,1.8749999999999998,1.8749999999999998,1,1,1.0,True,['total_acc'],['total_acc']
+financial_loan,1,RF,29,2271,shap_ce,True,43992,343,44335,0.6428365707397461,grid,0.8155339805825242,0.8155339805825242,2,2,1.0,False,"['dti', 'loan_amount']","['dti', 'loan_amount']"
+financial_loan,1,RF,29,2271,random_grid_ce,True,0,500,500,0.035385847091674805,grid,1.7706794386077103,1.7706794386077103,4,4,1.0,False,"['dti', 'loan_amount', 'term', 'total_acc']","['dti', 'loan_amount', 'term', 'total_acc']"
+financial_loan,1,RF,29,2271,acbfi_v3,True,25,0,25,0.13506770133972168,single,1.8749999999999998,1.8749999999999998,1,1,1.0,True,['total_acc'],['total_acc']
+financial_loan,1,RF,30,950,acbfi_v2,True,251,14,265,0.2162184715270996,single,0.3148358386263286,0.12999999999999992,3,1,1.0,False,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,RF,30,950,acbfi_v1,True,765,126,891,1.1920654773712158,beam,0.3148358386263286,0.12999999999999992,3,1,1.0,False,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,RF,30,950,untargeted,True,0,276,276,1.0700383186340332,beam,0.3148358386263286,0.12999999999999992,3,1,1.0,False,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,RF,30,950,shap_staged,True,42640,16,42656,0.7200322151184082,single,0.3148358386263286,0.12999999999999992,3,1,1.0,False,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,RF,30,950,lewis_style,True,776,17,793,0.6923823356628418,single,0.3148358386263286,0.12999999999999992,3,1,1.0,False,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,RF,30,950,shap_ce,True,42640,343,42983,0.7022454738616943,grid,0.8062459546925567,0.8062459546925567,2,2,1.0,False,"['dti', 'loan_amount']","['dti', 'loan_amount']"
+financial_loan,1,RF,30,950,random_grid_ce,True,0,500,500,0.039829254150390625,grid,2.6393200422639636,2.6393200422639636,4,4,1.0,True,"['dti', 'loan_amount', 'term', 'total_acc']","['dti', 'loan_amount', 'term', 'total_acc']"
+financial_loan,1,RF,30,950,acbfi_v3,True,25,0,25,0.1096501350402832,single,0.3148358386263286,0.12999999999999992,3,1,1.0,False,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,RF,31,2539,acbfi_v2,True,251,18,269,0.2296276092529297,single,0.39999999999999863,0.39999999999999847,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,RF,31,2539,acbfi_v1,True,765,172,937,1.4290072917938232,beam,0.39999999999999863,0.39999999999999847,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,RF,31,2539,untargeted,True,0,288,288,1.2476274967193604,beam,0.39999999999999863,0.39999999999999847,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,RF,31,2539,shap_staged,True,43732,14,43746,0.7386653423309326,single,0.8414862351988786,0.7704854368932035,2,1,0.5,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,RF,31,2539,lewis_style,True,1280,16,1296,0.7380127906799316,single,0.39999999999999863,0.39999999999999847,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,RF,31,2539,shap_ce,True,43732,343,44075,0.6867692470550537,grid,0.9867313915857606,0.9867313915857606,2,2,0.5,False,"['dti', 'loan_amount']","['dti', 'loan_amount']"
+financial_loan,1,RF,31,2539,random_grid_ce,True,0,500,500,0.035706281661987305,grid,3.224514563106796,3.224514563106796,3,3,1.0,True,"['dti', 'loan_amount', 'total_acc']","['dti', 'loan_amount', 'total_acc']"
+financial_loan,1,RF,31,2539,acbfi_v3,True,25,0,25,0.1322188377380371,single,0.39999999999999863,0.39999999999999847,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,RF,32,445,acbfi_v2,True,251,18,269,0.20716452598571777,single,1.3999999999999986,1.3999999999999986,1,1,0.5,False,['total_acc'],['total_acc']
+financial_loan,1,RF,32,445,acbfi_v1,True,765,176,941,1.478454351425171,beam,1.3999999999999986,1.3999999999999986,1,1,0.5,False,['total_acc'],['total_acc']
+financial_loan,1,RF,32,445,untargeted,True,0,292,292,1.2716608047485352,beam,1.3999999999999986,1.3999999999999986,1,1,0.5,False,['total_acc'],['total_acc']
+financial_loan,1,RF,32,445,shap_staged,True,44304,14,44318,0.7370519638061523,single,1.4484251477843613,1.3262135922330098,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,RF,32,445,lewis_style,True,1376,13,1389,0.7926385402679443,single,1.4484251477843613,1.3262135922330098,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,RF,32,445,shap_ce,True,44304,343,44647,0.6863036155700684,grid,0.6257281553398053,0.6257281553398053,2,2,1.0,False,"['dti', 'loan_amount']","['dti', 'loan_amount']"
+financial_loan,1,RF,32,445,random_grid_ce,True,0,500,500,0.03461313247680664,grid,2.431359050258195,2.431359050258195,4,4,1.0,False,"['dti', 'loan_amount', 'term', 'total_acc']","['dti', 'loan_amount', 'term', 'total_acc']"
+financial_loan,1,RF,32,445,acbfi_v3,True,25,0,25,0.14517474174499512,single,1.3999999999999986,1.3999999999999986,1,1,0.5,False,['total_acc'],['total_acc']
+financial_loan,1,RF,33,1582,acbfi_v2,True,251,14,265,0.21709108352661133,single,1.25,1.25,1,1,1.0,True,['total_acc'],['total_acc']
+financial_loan,1,RF,33,1582,acbfi_v1,True,765,176,941,1.377699851989746,beam,1.25,1.25,1,1,1.0,True,['total_acc'],['total_acc']
+financial_loan,1,RF,33,1582,untargeted,True,0,280,280,1.2401049137115479,beam,1.25,1.25,1,1,1.0,True,['total_acc'],['total_acc']
+financial_loan,1,RF,33,1582,shap_staged,True,43940,14,43954,0.7412493228912354,single,1.25,1.25,1,1,1.0,True,['total_acc'],['total_acc']
+financial_loan,1,RF,33,1582,lewis_style,True,1400,13,1413,0.7743241786956787,single,1.25,1.25,1,1,1.0,True,['total_acc'],['total_acc']
+financial_loan,1,RF,33,1582,shap_ce,True,43940,343,44283,0.6912155151367188,grid,1.7166666666666666,1.7166666666666666,2,2,1.0,True,"['loan_amount', 'total_acc']","['loan_amount', 'total_acc']"
+financial_loan,1,RF,33,1582,random_grid_ce,True,0,500,500,0.03436851501464844,grid,2.640873440322216,2.640873440322216,4,4,1.0,True,"['dti', 'loan_amount', 'term', 'total_acc']","['dti', 'loan_amount', 'term', 'total_acc']"
+financial_loan,1,RF,33,1582,acbfi_v3,True,25,0,25,0.1210639476776123,single,1.25,1.25,1,1,1.0,True,['total_acc'],['total_acc']
+financial_loan,1,RF,34,6315,acbfi_v2,True,251,14,265,0.1957545280456543,single,3.011367071528247,2.7572815533980584,2,1,0.5,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,RF,34,6315,acbfi_v1,True,765,166,931,1.4764175415039062,beam,2.379826098825308,1.4485436893203882,4,2,1.0,False,"['dti', 'loan_amount']","['dti', 'loan_amount', 'installment', 'int_rate']"
+financial_loan,1,RF,34,6315,untargeted,True,0,292,292,1.2316882610321045,beam,2.379826098825308,1.4485436893203882,4,2,1.0,False,"['dti', 'loan_amount']","['dti', 'loan_amount', 'installment', 'int_rate']"
+financial_loan,1,RF,34,6315,shap_staged,True,44512,14,44526,0.72304368019104,single,3.011367071528247,2.7572815533980584,2,1,0.5,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,RF,34,6315,lewis_style,True,1400,14,1414,0.7531778812408447,single,3.011367071528247,2.7572815533980584,2,1,0.5,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,RF,34,6315,shap_ce,True,44512,343,44855,0.6826815605163574,grid,1.353398058252427,1.353398058252427,2,2,0.5,False,"['dti', 'loan_amount']","['dti', 'loan_amount']"
+financial_loan,1,RF,34,6315,random_grid_ce,True,0,500,500,0.03392767906188965,grid,4.248543689320388,4.248543689320388,3,3,0.5,True,"['dti', 'loan_amount', 'total_acc']","['dti', 'loan_amount', 'total_acc']"
+financial_loan,1,RF,34,6315,acbfi_v3,True,25,0,25,0.13184404373168945,single,3.011367071528247,2.7572815533980584,2,1,0.5,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,RF,35,2712,acbfi_v2,True,251,18,269,0.20505857467651367,single,1.125,1.125,1,1,0.5,True,['total_acc'],['total_acc']
+financial_loan,1,RF,35,2712,acbfi_v1,True,765,164,929,1.3954496383666992,beam,1.125,1.125,1,1,0.5,True,['total_acc'],['total_acc']
+financial_loan,1,RF,35,2712,untargeted,True,0,262,262,1.1896395683288574,beam,1.125,1.125,1,1,0.5,True,['total_acc'],['total_acc']
+financial_loan,1,RF,35,2712,shap_staged,True,44668,14,44682,0.7373912334442139,single,1.125,1.125,1,1,0.5,True,['total_acc'],['total_acc']
+financial_loan,1,RF,35,2712,lewis_style,True,1400,13,1413,0.8269884586334229,single,1.125,1.125,1,1,0.5,True,['total_acc'],['total_acc']
+financial_loan,1,RF,35,2712,shap_ce,True,44668,343,45011,0.6863160133361816,grid,1.491019417475728,1.491019417475728,2,2,0.5,True,"['dti', 'total_acc']","['dti', 'total_acc']"
+financial_loan,1,RF,35,2712,random_grid_ce,True,0,500,500,0.03559470176696777,grid,2.6711648755009136,2.6711648755009136,4,4,0.5,False,"['dti', 'loan_amount', 'term', 'total_acc']","['dti', 'loan_amount', 'term', 'total_acc']"
+financial_loan,1,RF,35,2712,acbfi_v3,True,25,0,25,0.17830562591552734,single,1.125,1.125,1,1,0.5,True,['total_acc'],['total_acc']
+financial_loan,1,RF,36,5525,acbfi_v2,True,251,14,265,0.23073053359985352,single,0.9687256573117811,0.4000000000000001,3,1,1.0,False,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,RF,36,5525,acbfi_v1,True,765,184,949,1.664701223373413,beam,0.9687256573117811,0.4000000000000001,3,1,1.0,False,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,RF,36,5525,untargeted,True,0,288,288,1.4188318252563477,beam,0.9687256573117811,0.4000000000000001,3,1,1.0,False,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,RF,36,5525,shap_staged,True,44200,14,44214,0.793250560760498,single,0.9687256573117811,0.4000000000000001,3,1,1.0,False,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,RF,36,5525,lewis_style,True,1232,15,1247,0.778207540512085,single,0.9687256573117811,0.4000000000000001,3,1,1.0,False,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,RF,36,5525,shap_ce,True,44200,343,44543,0.7393505573272705,grid,0.7440129449838182,0.7440129449838182,2,2,1.0,True,"['dti', 'loan_amount']","['dti', 'loan_amount']"
+financial_loan,1,RF,36,5525,random_grid_ce,True,0,500,500,0.03435015678405762,grid,2.548349341520332,2.548349341520332,4,4,1.0,False,"['dti', 'loan_amount', 'term', 'total_acc']","['dti', 'loan_amount', 'term', 'total_acc']"
+financial_loan,1,RF,36,5525,acbfi_v3,True,25,0,25,0.15452837944030762,single,0.9687256573117811,0.4000000000000001,3,1,1.0,False,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,RF,37,4146,acbfi_v2,True,251,14,265,0.2343606948852539,single,1.333908371824836,1.221359223300971,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,RF,37,4146,acbfi_v1,True,765,162,927,1.4324641227722168,beam,0.5249999999999986,0.5249999999999986,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,RF,37,4146,untargeted,True,0,294,294,1.3143234252929688,beam,0.5249999999999986,0.5249999999999986,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,RF,37,4146,shap_staged,True,44096,14,44110,0.7293531894683838,single,0.5249999999999986,0.5249999999999986,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,RF,37,4146,lewis_style,True,1400,13,1413,0.790379524230957,single,1.333908371824836,1.221359223300971,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,RF,37,4146,shap_ce,True,44096,343,44439,0.6997787952423096,grid,0.6166666666666666,0.6166666666666666,2,2,1.0,False,"['loan_amount', 'total_acc']","['loan_amount', 'total_acc']"
+financial_loan,1,RF,37,4146,random_grid_ce,True,0,500,500,0.036348581314086914,grid,1.9213592233009709,1.9213592233009709,3,3,1.0,True,"['dti', 'loan_amount', 'total_acc']","['dti', 'loan_amount', 'total_acc']"
+financial_loan,1,RF,37,4146,acbfi_v3,True,25,0,25,0.15778493881225586,single,0.5249999999999986,0.5249999999999986,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,RF,38,6823,acbfi_v2,True,251,14,265,0.23542213439941406,single,0.27499999999999913,0.27499999999999847,1,1,0.5,False,['total_acc'],['total_acc']
+financial_loan,1,RF,38,6823,acbfi_v1,True,765,172,937,1.665163278579712,beam,0.27499999999999913,0.27499999999999847,1,1,0.5,False,['total_acc'],['total_acc']
+financial_loan,1,RF,38,6823,untargeted,True,0,272,272,1.4397740364074707,beam,0.27499999999999913,0.27499999999999847,1,1,0.5,False,['total_acc'],['total_acc']
+financial_loan,1,RF,38,6823,shap_staged,True,43784,14,43798,0.757310152053833,single,2.131284441468936,1.951456310679612,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,RF,38,6823,lewis_style,True,968,16,984,0.7921714782714844,single,0.27499999999999913,0.27499999999999847,1,1,0.5,False,['total_acc'],['total_acc']
+financial_loan,1,RF,38,6823,shap_ce,True,43784,343,44127,0.7051851749420166,grid,0.8809061488673147,0.8809061488673147,2,2,0.5,False,"['dti', 'loan_amount']","['dti', 'loan_amount']"
+financial_loan,1,RF,38,6823,random_grid_ce,True,0,500,500,0.03857874870300293,grid,3.001456310679612,3.001456310679612,3,3,1.0,True,"['dti', 'loan_amount', 'total_acc']","['dti', 'loan_amount', 'total_acc']"
+financial_loan,1,RF,38,6823,acbfi_v3,True,25,0,25,0.15798497200012207,single,0.27499999999999913,0.27499999999999847,1,1,0.5,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,0,3827,acbfi_v2,True,251,18,269,0.004775047302246094,single,0.6531697591765491,0.5980582524271844,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,0,3827,acbfi_v1,True,765,176,941,0.02639317512512207,beam,0.6531697591765491,0.5980582524271844,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,0,3827,untargeted,True,0,288,288,0.022597312927246094,beam,0.6531697591765491,0.5980582524271844,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,0,3827,shap_staged,True,44096,14,44110,0.29909300804138184,single,0.6531697591765491,0.5980582524271844,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,0,3827,lewis_style,True,1088,12,1100,0.044568538665771484,single,1.0963920957606361,1.003883495145631,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,0,3827,shap_ce,True,44096,343,44439,0.29801225662231445,grid,0.4887053862562725,0.4887053862562725,2,2,1.0,False,"['dti', 'term']","['dti', 'term']"
+financial_loan,1,XGB,0,3827,random_grid_ce,True,0,500,500,0.010241031646728516,grid,3.3820872055980016,3.3820872055980016,4,4,1.0,False,"['dti', 'loan_amount', 'term', 'total_acc']","['dti', 'loan_amount', 'term', 'total_acc']"
+financial_loan,1,XGB,0,3827,acbfi_v3,True,25,0,25,0.0035266876220703125,single,0.6531697591765491,0.5980582524271844,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,1,4983,acbfi_v2,True,251,18,269,0.004622220993041992,single,1.1324436733775238,1.0368932038834953,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,1,4983,acbfi_v1,True,765,162,927,0.026315689086914062,beam,1.1499999999999986,1.1499999999999986,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,1,4983,untargeted,True,0,288,288,0.02411365509033203,beam,1.1324436733775238,1.0368932038834953,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,1,4983,shap_staged,True,44668,14,44682,0.02492237091064453,single,1.1499999999999986,1.1499999999999986,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,1,4983,lewis_style,True,896,10,906,0.035776376724243164,single,1.1324436733775238,1.0368932038834953,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,1,4983,shap_ce,True,44668,343,45011,0.02381157875061035,grid,1.248333333333333,1.248333333333333,2,2,1.0,False,"['loan_amount', 'total_acc']","['loan_amount', 'total_acc']"
+financial_loan,1,XGB,1,4983,random_grid_ce,True,0,500,500,0.00990748405456543,grid,2.2218932038834955,2.2218932038834955,4,4,1.0,True,"['dti', 'loan_amount', 'home_ownership', 'total_acc']","['dti', 'loan_amount', 'home_ownership', 'total_acc']"
+financial_loan,1,XGB,1,4983,acbfi_v3,True,25,0,25,0.003630399703979492,single,1.1324436733775238,1.0368932038834953,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,2,3021,acbfi_v2,True,251,18,269,0.00471949577331543,single,0.9687256573117816,0.4000000000000001,3,1,1.0,False,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,XGB,2,3021,acbfi_v1,True,765,176,941,0.025543212890625,beam,0.9687256573117816,0.4000000000000001,3,1,1.0,False,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,XGB,2,3021,untargeted,True,0,282,282,0.02314281463623047,beam,0.9687256573117816,0.4000000000000001,3,1,1.0,False,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,XGB,2,3021,shap_staged,True,42172,14,42186,0.026491880416870117,single,0.9687256573117816,0.4000000000000001,3,1,1.0,False,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,XGB,2,3021,lewis_style,True,1184,9,1193,0.0683135986328125,single,0.9687256573117816,0.4000000000000001,3,1,1.0,False,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,XGB,2,3021,shap_ce,True,42172,343,42515,0.024999141693115234,grid,2.55,2.55,2,2,1.0,True,"['loan_amount', 'total_acc']","['loan_amount', 'total_acc']"
+financial_loan,1,XGB,2,3021,random_grid_ce,True,0,500,500,0.00974726676940918,grid,3.3033980582524274,3.3033980582524274,3,3,1.0,True,"['dti', 'loan_amount', 'total_acc']","['dti', 'loan_amount', 'total_acc']"
+financial_loan,1,XGB,2,3021,acbfi_v3,True,25,0,25,0.0034613609313964844,single,0.9687256573117816,0.4000000000000001,3,1,1.0,False,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,XGB,3,255,acbfi_v2,True,251,14,265,0.004408836364746094,single,1.4827801805722185,1.3576699029126214,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,3,255,acbfi_v1,True,765,176,941,0.027442455291748047,beam,0.7251527332693619,0.674514563106796,3,2,1.0,False,"['dti', 'total_acc']","['dti', 'int_rate', 'total_acc']"
+financial_loan,1,XGB,3,255,untargeted,True,0,278,278,0.024445533752441406,beam,0.7251527332693619,0.674514563106796,3,2,1.0,False,"['dti', 'total_acc']","['dti', 'int_rate', 'total_acc']"
+financial_loan,1,XGB,3,255,shap_staged,True,46332,18,46350,0.028743743896484375,single,1.4827801805722185,1.3576699029126214,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,3,255,lewis_style,True,1112,12,1124,0.045613765716552734,single,1.4827801805722185,1.3576699029126214,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,3,255,shap_ce,True,46332,343,46675,0.027550935745239258,grid,1.534789644012945,1.534789644012945,3,3,1.0,False,"['dti', 'loan_amount', 'total_acc']","['dti', 'loan_amount', 'total_acc']"
+financial_loan,1,XGB,3,255,random_grid_ce,True,0,500,500,0.01017618179321289,grid,2.450485436893204,2.450485436893204,3,3,1.0,True,"['dti', 'loan_amount', 'total_acc']","['dti', 'loan_amount', 'total_acc']"
+financial_loan,1,XGB,3,255,acbfi_v3,True,25,0,25,0.0032835006713867188,single,1.4827801805722185,1.3576699029126214,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,4,172,acbfi_v2,True,251,18,269,0.005689382553100586,single,0.6250000000000001,0.6250000000000001,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,4,172,acbfi_v1,True,765,180,945,0.02671980857849121,beam,0.6250000000000001,0.6250000000000001,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,4,172,untargeted,True,0,294,294,0.0235440731048584,beam,0.6250000000000001,0.6250000000000001,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,4,172,shap_staged,True,42172,18,42190,0.026796579360961914,single,0.6250000000000001,0.6250000000000001,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,4,172,lewis_style,True,1016,10,1026,0.04026293754577637,single,0.9687256573117806,0.39999999999999997,3,1,1.0,False,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,XGB,4,172,shap_ce,True,42172,343,42515,0.025690793991088867,grid,0.8421521035598709,0.8421521035598709,3,3,1.0,False,"['dti', 'loan_amount', 'total_acc']","['dti', 'loan_amount', 'total_acc']"
+financial_loan,1,XGB,4,172,random_grid_ce,True,0,500,500,0.009848356246948242,grid,1.5254854368932032,1.5254854368932032,3,3,1.0,False,"['dti', 'loan_amount', 'total_acc']","['dti', 'loan_amount', 'total_acc']"
+financial_loan,1,XGB,4,172,acbfi_v3,True,25,0,25,0.0033309459686279297,single,0.6250000000000001,0.6250000000000001,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,5,2387,acbfi_v2,True,251,18,269,0.005320072174072266,single,1.9858875974891503,0.82,3,1,1.0,True,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,XGB,5,2387,acbfi_v1,True,765,148,913,0.03278779983520508,beam,1.9858875974891503,0.82,3,1,1.0,True,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,XGB,5,2387,untargeted,True,0,226,226,0.029160499572753906,beam,1.9858875974891503,0.82,3,1,1.0,True,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,XGB,5,2387,shap_staged,True,44460,14,44474,0.029512405395507812,single,2.125,2.125,1,1,1.0,True,['total_acc'],['total_acc']
+financial_loan,1,XGB,5,2387,lewis_style,True,824,10,834,0.03880596160888672,single,1.9858875974891503,0.82,3,1,1.0,True,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,XGB,5,2387,shap_ce,True,44460,343,44803,0.029175758361816406,grid,2.14700647249191,2.14700647249191,2,2,1.0,True,"['dti', 'total_acc']","['dti', 'total_acc']"
+financial_loan,1,XGB,5,2387,random_grid_ce,True,0,500,500,0.010880708694458008,grid,3.7718925117123923,3.7718925117123923,4,4,1.0,True,"['dti', 'loan_amount', 'term', 'total_acc']","['dti', 'loan_amount', 'term', 'total_acc']"
+financial_loan,1,XGB,5,2387,acbfi_v3,True,25,0,25,0.0035758018493652344,single,1.9858875974891503,0.82,3,1,1.0,True,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,XGB,6,486,acbfi_v2,True,251,14,265,0.00523686408996582,single,2.125,2.125,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,6,486,acbfi_v1,True,765,174,939,0.11476588249206543,beam,0.578945922906487,0.5300970873786406,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,6,486,untargeted,True,0,294,294,0.028619766235351562,beam,0.578945922906487,0.5300970873786406,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,6,486,shap_staged,True,47008,12,47020,0.031003236770629883,single,3.3381738147686963,2.320581832100742,2,1,1.0,False,['term'],"['term', 'installment']"
+financial_loan,1,XGB,6,486,lewis_style,True,992,11,1003,0.043261051177978516,single,1.6095969065422113,1.4737864077669907,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,6,486,shap_ce,True,47008,343,47351,0.029832124710083008,grid,0.6850000000000002,0.6850000000000002,2,2,1.0,False,"['loan_amount', 'home_ownership']","['loan_amount', 'home_ownership']"
+financial_loan,1,XGB,6,486,random_grid_ce,True,0,500,500,0.010875701904296875,grid,2.4358737864077673,2.4358737864077673,3,3,1.0,False,"['dti', 'loan_amount', 'total_acc']","['dti', 'loan_amount', 'total_acc']"
+financial_loan,1,XGB,6,486,acbfi_v3,True,25,0,25,0.0034682750701904297,single,0.578945922906487,0.5300970873786406,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,7,4785,acbfi_v2,True,251,18,269,0.005666017532348633,single,0.23963695710048735,0.2194174757281554,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,7,4785,acbfi_v1,True,765,172,937,0.029980897903442383,beam,0.23963695710048735,0.2194174757281554,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,7,4785,untargeted,True,0,262,262,0.023623228073120117,beam,0.23963695710048735,0.2194174757281554,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,7,4785,shap_staged,True,44460,14,44474,0.037664175033569336,single,0.23963695710048735,0.2194174757281554,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,7,4785,lewis_style,True,920,15,935,0.04079627990722656,single,0.23963695710048735,0.2194174757281554,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,7,4785,shap_ce,True,44460,343,44803,0.03648996353149414,grid,0.7194174757281555,0.7194174757281555,2,2,1.0,True,"['dti', 'total_acc']","['dti', 'total_acc']"
+financial_loan,1,XGB,7,4785,random_grid_ce,True,0,500,500,0.011179447174072266,grid,1.9194174757281552,1.9194174757281552,3,3,1.0,True,"['dti', 'loan_amount', 'total_acc']","['dti', 'loan_amount', 'total_acc']"
+financial_loan,1,XGB,7,4785,acbfi_v3,True,25,0,25,0.0038139820098876953,single,0.23963695710048735,0.2194174757281554,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,8,1453,acbfi_v2,True,251,18,269,0.00464940071105957,single,0.7500000000000001,0.7500000000000001,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,8,1453,acbfi_v1,True,765,192,957,0.024441003799438477,beam,0.7500000000000001,0.7500000000000001,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,8,1453,untargeted,True,0,280,280,0.023226022720336914,beam,0.7500000000000001,0.7500000000000001,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,8,1453,shap_staged,True,45032,14,45046,0.027857065200805664,single,0.7500000000000001,0.7500000000000001,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,8,1453,lewis_style,True,848,11,859,0.034381866455078125,single,2.324941577548274,0.9600000000000001,3,1,1.0,False,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,XGB,8,1453,shap_ce,True,45032,343,45375,0.026702880859375,grid,1.1433333333333335,1.1433333333333335,2,2,1.0,False,"['loan_amount', 'total_acc']","['loan_amount', 'total_acc']"
+financial_loan,1,XGB,8,1453,random_grid_ce,True,0,500,500,0.010605812072753906,grid,3.014854022846487,3.014854022846487,5,5,1.0,False,"['dti', 'loan_amount', 'term', 'home_ownership', 'total_acc']","['dti', 'loan_amount', 'term', 'home_ownership', 'total_acc']"
+financial_loan,1,XGB,8,1453,acbfi_v3,True,25,0,25,0.0033998489379882812,single,0.7500000000000001,0.7500000000000001,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,9,1987,acbfi_v2,True,251,18,269,0.004896402359008789,single,0.4843628286558903,0.20000000000000004,3,1,1.0,False,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,XGB,9,1987,acbfi_v1,True,765,184,949,0.026980876922607422,beam,0.4843628286558903,0.20000000000000004,3,1,1.0,False,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,XGB,9,1987,untargeted,True,0,294,294,0.022743701934814453,beam,0.4843628286558903,0.20000000000000004,3,1,1.0,False,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,XGB,9,1987,shap_staged,True,42016,14,42030,0.03490018844604492,single,1.4526665098569358,1.3300970873786406,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,9,1987,lewis_style,True,512,13,525,0.022565841674804688,single,0.4843628286558903,0.20000000000000004,3,1,1.0,False,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,XGB,9,1987,shap_ce,True,42016,343,42359,0.033417701721191406,grid,0.6114886731391582,0.6114886731391582,2,2,1.0,True,"['dti', 'total_acc']","['dti', 'total_acc']"
+financial_loan,1,XGB,9,1987,random_grid_ce,True,0,500,500,0.009877681732177734,grid,2.4029609920057693,2.4029609920057693,4,4,1.0,True,"['dti', 'loan_amount', 'term', 'total_acc']","['dti', 'loan_amount', 'term', 'total_acc']"
+financial_loan,1,XGB,9,1987,acbfi_v3,True,25,0,25,0.0032646656036376953,single,0.4843628286558903,0.20000000000000004,3,1,1.0,False,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,XGB,10,1045,acbfi_v2,True,251,18,269,0.0061342716217041016,single,0.04665498279832508,0.042718446601941885,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,10,1045,acbfi_v1,True,765,184,949,0.03148841857910156,beam,0.04665498279832508,0.042718446601941885,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,10,1045,untargeted,True,0,294,294,0.027420520782470703,beam,0.04665498279832508,0.042718446601941885,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,10,1045,shap_staged,True,43940,14,43954,0.030297279357910156,single,0.04665498279832508,0.042718446601941885,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,10,1045,lewis_style,True,1064,11,1075,0.06625556945800781,single,0.8359724645045319,0.7654368932038835,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,10,1045,shap_ce,True,43940,343,44283,0.02899336814880371,grid,0.22588996763754068,0.22588996763754068,1,1,1.0,False,['dti'],['dti']
+financial_loan,1,XGB,10,1045,random_grid_ce,True,0,500,500,0.018578052520751953,grid,1.3228639046271276,1.3228639046271276,2,2,1.0,False,"['dti', 'term']","['dti', 'term']"
+financial_loan,1,XGB,10,1045,acbfi_v3,True,25,0,25,0.004621982574462891,single,0.04665498279832508,0.042718446601941885,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,11,4838,acbfi_v2,True,251,14,265,0.005391597747802734,single,0.9687256573117806,0.3999999999999999,3,1,1.0,False,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,XGB,11,4838,acbfi_v1,True,765,180,945,0.03228616714477539,beam,0.25,0.24999999999999992,1,1,1.0,True,['total_acc'],['total_acc']
+financial_loan,1,XGB,11,4838,untargeted,True,0,286,286,0.028995513916015625,beam,0.25,0.24999999999999992,1,1,1.0,True,['total_acc'],['total_acc']
+financial_loan,1,XGB,11,4838,shap_staged,True,44668,14,44682,0.028643131256103516,single,0.9687256573117806,0.3999999999999999,3,1,1.0,False,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,XGB,11,4838,lewis_style,True,848,12,860,0.03467059135437012,single,0.25,0.24999999999999992,1,1,1.0,True,['total_acc'],['total_acc']
+financial_loan,1,XGB,11,4838,shap_ce,True,44668,343,45011,0.027395009994506836,grid,1.3463105642498003,1.3463105642498003,3,3,1.0,False,"['dti', 'loan_amount', 'term']","['dti', 'loan_amount', 'term']"
+financial_loan,1,XGB,11,4838,random_grid_ce,True,0,500,500,0.009964466094970703,grid,1.4563590502581958,1.4563590502581958,4,4,1.0,True,"['dti', 'loan_amount', 'term', 'total_acc']","['dti', 'loan_amount', 'term', 'total_acc']"
+financial_loan,1,XGB,11,4838,acbfi_v3,True,25,0,25,0.0032806396484375,single,0.25,0.24999999999999992,1,1,1.0,True,['total_acc'],['total_acc']
+financial_loan,1,XGB,12,1237,acbfi_v2,True,251,14,265,0.004487514495849609,single,0.1989198812037673,0.18213592233009704,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,12,1237,acbfi_v1,True,765,168,933,0.024950504302978516,beam,0.1989198812037673,0.18213592233009704,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,12,1237,untargeted,True,0,262,262,0.0243222713470459,beam,0.1989198812037673,0.18213592233009704,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,12,1237,shap_staged,True,44408,14,44422,0.026259660720825195,single,0.1989198812037673,0.18213592233009704,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,12,1237,lewis_style,True,1304,10,1314,0.04982876777648926,single,0.1989198812037673,0.18213592233009704,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,12,1237,shap_ce,True,44408,343,44751,0.025270700454711914,grid,0.996925566343042,0.996925566343042,2,2,1.0,False,"['dti', 'total_acc']","['dti', 'total_acc']"
+financial_loan,1,XGB,12,1237,random_grid_ce,True,0,500,500,0.010187387466430664,grid,1.2373786407766991,1.2373786407766991,2,2,1.0,True,"['dti', 'loan_amount']","['dti', 'loan_amount']"
+financial_loan,1,XGB,12,1237,acbfi_v3,True,25,0,25,0.0040416717529296875,single,0.1989198812037673,0.18213592233009704,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,13,2130,acbfi_v2,True,251,18,269,0.0046329498291015625,single,0.5959113711967874,0.5456310679611653,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,13,2130,acbfi_v1,True,765,180,945,0.026827335357666016,beam,0.5959113711967874,0.5456310679611653,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,13,2130,untargeted,True,0,290,290,0.02441859245300293,beam,0.5959113711967874,0.5456310679611653,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,13,2130,shap_staged,True,45032,18,45050,0.024281978607177734,single,0.5959113711967874,0.5456310679611653,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,13,2130,lewis_style,True,1400,24,1424,0.05619382858276367,single,0.5959113711967874,0.5456310679611653,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,13,2130,shap_ce,True,45032,343,45375,0.02337503433227539,grid,1.2672977346278325,1.2672977346278325,3,3,1.0,False,"['dti', 'loan_amount', 'total_acc']","['dti', 'loan_amount', 'total_acc']"
+financial_loan,1,XGB,13,2130,random_grid_ce,True,0,500,500,0.010037660598754883,grid,3.0603398058252425,3.0603398058252425,3,3,1.0,True,"['dti', 'loan_amount', 'total_acc']","['dti', 'loan_amount', 'total_acc']"
+financial_loan,1,XGB,13,2130,acbfi_v3,True,25,0,25,0.0034627914428710938,single,0.5959113711967874,0.5456310679611653,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,14,3494,acbfi_v2,True,251,14,265,0.004546642303466797,single,0.4843628286558903,0.20000000000000004,3,1,1.0,False,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,XGB,14,3494,acbfi_v1,True,765,168,933,0.028717994689941406,beam,0.4843628286558903,0.20000000000000004,3,1,1.0,False,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,XGB,14,3494,untargeted,True,0,292,292,0.025074243545532227,beam,0.4843628286558903,0.20000000000000004,3,1,1.0,False,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,XGB,14,3494,shap_staged,True,43888,12,43900,0.026615619659423828,single,0.8588758196964368,0.7864077669902915,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,14,3494,lewis_style,True,632,13,645,0.028447866439819336,single,0.4843628286558903,0.20000000000000004,3,1,1.0,False,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,XGB,14,3494,shap_ce,True,43888,343,44231,0.02559661865234375,grid,0.45080906148867306,0.45080906148867306,1,1,1.0,False,['dti'],['dti']
+financial_loan,1,XGB,14,3494,random_grid_ce,True,0,500,500,0.009662628173828125,grid,2.2834951456310684,2.2834951456310684,3,3,1.0,True,"['dti', 'loan_amount', 'total_acc']","['dti', 'loan_amount', 'total_acc']"
+financial_loan,1,XGB,14,3494,acbfi_v3,True,25,0,25,0.003450155258178711,single,0.4843628286558903,0.20000000000000004,3,1,1.0,False,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,XGB,15,2766,acbfi_v2,True,251,18,269,0.004268646240234375,single,0.6535938953838072,0.5984466019417478,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,15,2766,acbfi_v1,True,765,172,937,0.060416221618652344,beam,0.6535938953838072,0.5984466019417478,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,15,2766,untargeted,True,0,264,264,0.023209095001220703,beam,0.6535938953838072,0.5984466019417478,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,15,2766,shap_staged,True,44200,14,44214,0.026845216751098633,single,0.6535938953838072,0.5984466019417478,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,15,2766,lewis_style,True,800,12,812,0.03289604187011719,single,1.8749999999999998,1.8749999999999998,1,1,1.0,True,['total_acc'],['total_acc']
+financial_loan,1,XGB,15,2766,shap_ce,True,44200,343,44543,0.025881290435791016,grid,0.9197411003236247,0.9197411003236247,2,2,1.0,False,"['dti', 'loan_amount']","['dti', 'loan_amount']"
+financial_loan,1,XGB,15,2766,random_grid_ce,True,0,500,500,0.009573698043823242,grid,3.0706794386077094,3.0706794386077094,4,4,1.0,False,"['dti', 'loan_amount', 'term', 'total_acc']","['dti', 'loan_amount', 'term', 'total_acc']"
+financial_loan,1,XGB,15,2766,acbfi_v3,True,25,0,25,0.0035538673400878906,single,0.6535938953838072,0.5984466019417478,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,16,7225,acbfi_v2,True,251,18,269,0.00615692138671875,single,0.9687256573117806,0.39999999999999997,3,1,1.0,False,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,XGB,16,7225,acbfi_v1,True,765,184,949,0.03270077705383301,beam,0.9687256573117806,0.39999999999999997,3,1,1.0,False,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,XGB,16,7225,untargeted,True,0,288,288,0.024473905563354492,beam,0.9687256573117806,0.39999999999999997,3,1,1.0,False,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,XGB,16,7225,shap_staged,True,45916,18,45934,0.02753305435180664,single,0.9687256573117806,0.39999999999999997,3,1,1.0,False,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,XGB,16,7225,lewis_style,True,1112,10,1122,0.04562854766845703,single,0.9687256573117806,0.39999999999999997,3,1,1.0,False,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,XGB,16,7225,shap_ce,True,45916,343,46259,0.02637171745300293,grid,1.5269417475728155,1.5269417475728155,3,3,1.0,True,"['dti', 'loan_amount', 'total_acc']","['dti', 'loan_amount', 'total_acc']"
+financial_loan,1,XGB,16,7225,random_grid_ce,True,0,500,500,0.010764837265014648,grid,2.1041745842387796,2.1041745842387796,4,4,1.0,True,"['dti', 'loan_amount', 'term', 'total_acc']","['dti', 'loan_amount', 'term', 'total_acc']"
+financial_loan,1,XGB,16,7225,acbfi_v3,True,25,0,25,0.0035400390625,single,0.9687256573117806,0.39999999999999997,3,1,1.0,False,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,XGB,17,6470,acbfi_v2,True,251,18,269,0.0058858394622802734,single,0.8718530915806029,0.3600000000000001,3,1,1.0,True,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,XGB,17,6470,acbfi_v1,True,765,176,941,0.030777931213378906,beam,0.8718530915806029,0.3600000000000001,3,1,1.0,True,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,XGB,17,6470,untargeted,True,0,284,284,0.028069019317626953,beam,0.8718530915806029,0.3600000000000001,3,1,1.0,True,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,XGB,17,6470,shap_staged,True,42016,18,42034,0.028644800186157227,single,0.8718530915806029,0.3600000000000001,3,1,1.0,True,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,XGB,17,6470,lewis_style,True,488,18,506,0.031801462173461914,single,0.8718530915806029,0.3600000000000001,3,1,1.0,True,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,XGB,17,6470,shap_ce,True,42016,343,42359,0.027072429656982422,grid,1.5336245954692558,1.5336245954692558,3,3,1.0,True,"['dti', 'loan_amount', 'total_acc']","['dti', 'loan_amount', 'total_acc']"
+financial_loan,1,XGB,17,6470,random_grid_ce,True,0,500,500,0.019698381423950195,grid,1.9206796116504856,1.9206796116504856,3,3,1.0,True,"['dti', 'loan_amount', 'total_acc']","['dti', 'loan_amount', 'total_acc']"
+financial_loan,1,XGB,17,6470,acbfi_v3,True,25,0,25,0.004457235336303711,single,0.8718530915806029,0.3600000000000001,3,1,1.0,True,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,XGB,18,4569,acbfi_v2,True,251,14,265,0.004975318908691406,single,0.6213595436322364,0.5689320388349512,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,18,4569,acbfi_v1,True,765,154,919,0.025365114212036133,beam,0.6213595436322364,0.5689320388349512,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,18,4569,untargeted,True,0,292,292,0.02401900291442871,beam,0.6213595436322364,0.5689320388349512,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,18,4569,shap_staged,True,44772,14,44786,0.0248870849609375,single,1.1250000000000002,1.1250000000000002,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,18,4569,lewis_style,True,992,11,1003,0.04060006141662598,single,1.567183285816461,1.43495145631068,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,18,4569,shap_ce,True,44772,343,45115,0.02402329444885254,grid,0.8184303053501236,0.8184303053501236,3,3,1.0,False,"['loan_amount', 'term', 'total_acc']","['loan_amount', 'term', 'total_acc']"
+financial_loan,1,XGB,18,4569,random_grid_ce,True,0,500,500,0.01050877571105957,grid,2.8558737864077663,2.8558737864077663,4,4,1.0,False,"['dti', 'loan_amount', 'home_ownership', 'total_acc']","['dti', 'loan_amount', 'home_ownership', 'total_acc']"
+financial_loan,1,XGB,18,4569,acbfi_v3,True,25,0,25,0.0035123825073242188,single,0.6213595436322364,0.5689320388349512,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,19,4621,acbfi_v2,True,251,18,269,0.0063419342041015625,single,0.8715999059141615,0.7980582524271844,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,19,4621,acbfi_v1,True,765,166,931,0.03151130676269531,beam,0.8715999059141615,0.7980582524271844,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,19,4621,untargeted,True,0,294,294,0.028167009353637695,beam,0.8715999059141615,0.7980582524271844,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,19,4621,shap_staged,True,44772,18,44790,0.028913497924804688,single,0.8715999059141615,0.7980582524271844,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,19,4621,lewis_style,True,1016,13,1029,0.05106043815612793,single,0.8715999059141615,0.7980582524271844,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,19,4621,shap_ce,True,44772,343,45115,0.026858091354370117,grid,0.678058252427184,0.678058252427184,3,3,1.0,False,"['dti', 'loan_amount', 'total_acc']","['dti', 'loan_amount', 'total_acc']"
+financial_loan,1,XGB,19,4621,random_grid_ce,True,0,500,500,0.009790182113647461,grid,2.678058252427184,2.678058252427184,4,4,1.0,False,"['dti', 'loan_amount', 'home_ownership', 'total_acc']","['dti', 'loan_amount', 'home_ownership', 'total_acc']"
+financial_loan,1,XGB,19,4621,acbfi_v3,True,25,0,25,0.003305196762084961,single,0.8715999059141615,0.7980582524271844,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,20,2275,acbfi_v2,True,251,18,269,0.005115509033203125,single,1.0000000000000004,1.0000000000000002,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,20,2275,acbfi_v1,True,765,194,959,0.025358200073242188,beam,0.7274812244591762,0.6956310679611666,3,2,1.0,True,"['total_acc', 'dti']","['dti', 'int_rate', 'total_acc']"
+financial_loan,1,XGB,20,2275,untargeted,True,0,270,270,0.02428269386291504,beam,0.7274812244591762,0.6956310679611666,3,2,1.0,True,"['total_acc', 'dti']","['dti', 'int_rate', 'total_acc']"
+financial_loan,1,XGB,20,2275,shap_staged,True,42640,18,42658,0.027393579483032227,single,1.0000000000000004,1.0000000000000002,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,20,2275,lewis_style,True,920,10,930,0.03734612464904785,single,1.1489849854605663,1.0520388349514562,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,20,2275,shap_ce,True,42640,343,42983,0.026495695114135742,grid,1.3039644012944984,1.3039644012944984,3,3,1.0,True,"['dti', 'loan_amount', 'total_acc']","['dti', 'loan_amount', 'total_acc']"
+financial_loan,1,XGB,20,2275,random_grid_ce,True,0,500,500,0.010135889053344727,grid,2.6007765259863502,2.6007765259863502,4,4,1.0,True,"['dti', 'loan_amount', 'term', 'total_acc']","['dti', 'loan_amount', 'term', 'total_acc']"
+financial_loan,1,XGB,20,2275,acbfi_v3,True,25,0,25,0.0038764476776123047,single,1.0000000000000004,1.0000000000000002,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,21,3466,acbfi_v2,True,251,18,269,0.00509190559387207,single,1.287253389026511,1.1786407766990292,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,21,3466,acbfi_v1,True,765,170,935,0.025714874267578125,beam,1.8749999999999998,1.8749999999999998,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,21,3466,untargeted,True,0,294,294,0.023044109344482422,beam,1.287253389026511,1.1786407766990292,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,21,3466,shap_staged,True,44668,18,44686,0.02997136116027832,single,1.287253389026511,1.1786407766990292,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,21,3466,lewis_style,True,1112,11,1123,0.0451202392578125,single,1.287253389026511,1.1786407766990292,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,21,3466,shap_ce,True,44668,343,45011,0.02881908416748047,grid,1.2883656957928804,1.2883656957928804,3,3,1.0,True,"['dti', 'loan_amount', 'total_acc']","['dti', 'loan_amount', 'total_acc']"
+financial_loan,1,XGB,21,3466,random_grid_ce,True,0,500,500,0.010353565216064453,grid,3.8692718446601937,3.8692718446601937,3,3,1.0,True,"['dti', 'loan_amount', 'total_acc']","['dti', 'loan_amount', 'total_acc']"
+financial_loan,1,XGB,21,3466,acbfi_v3,True,25,0,25,0.003604412078857422,single,1.287253389026511,1.1786407766990292,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,22,1800,acbfi_v2,True,251,18,269,0.004725933074951172,single,2.0061642603279726,1.836893203883495,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,22,1800,acbfi_v1,True,765,184,949,0.025313377380371094,beam,2.0061642603279726,1.836893203883495,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,22,1800,untargeted,True,0,262,262,0.02275824546813965,beam,2.0061642603279726,1.836893203883495,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,22,1800,shap_staged,True,44824,14,44838,0.02615952491760254,single,2.0061642603279726,1.836893203883495,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,22,1800,lewis_style,True,1016,10,1026,0.04094219207763672,single,2.0061642603279726,1.836893203883495,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,22,1800,shap_ce,True,44824,343,45167,0.025379180908203125,grid,1.9355987055016184,1.9355987055016184,2,2,1.0,False,"['dti', 'loan_amount']","['dti', 'loan_amount']"
+financial_loan,1,XGB,22,1800,random_grid_ce,True,0,500,500,0.010144472122192383,grid,2.574077496860136,2.574077496860136,4,4,1.0,False,"['dti', 'loan_amount', 'term', 'total_acc']","['dti', 'loan_amount', 'term', 'total_acc']"
+financial_loan,1,XGB,22,1800,acbfi_v3,True,25,0,25,0.0034949779510498047,single,2.0061642603279726,1.836893203883495,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,23,1506,acbfi_v2,True,251,18,269,0.005901813507080078,single,0.050896344870900584,0.04660194174757307,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,23,1506,acbfi_v1,True,765,168,933,0.03733229637145996,beam,0.050896344870900584,0.04660194174757307,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,23,1506,untargeted,True,0,296,296,0.03473782539367676,beam,0.050896344870900584,0.04660194174757307,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,23,1506,shap_staged,True,44772,18,44790,0.031435251235961914,single,0.050896344870900584,0.04660194174757307,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,23,1506,lewis_style,True,584,15,599,0.04269218444824219,single,0.050896344870900584,0.04660194174757307,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,23,1506,shap_ce,True,44772,343,45115,0.02932882308959961,grid,0.8632686084142398,0.8632686084142398,3,3,1.0,True,"['dti', 'loan_amount', 'total_acc']","['dti', 'loan_amount', 'total_acc']"
+financial_loan,1,XGB,23,1506,random_grid_ce,True,0,500,500,0.018149137496948242,grid,2.9966019417475733,2.9966019417475733,4,4,1.0,True,"['dti', 'loan_amount', 'home_ownership', 'total_acc']","['dti', 'loan_amount', 'home_ownership', 'total_acc']"
+financial_loan,1,XGB,23,1506,acbfi_v3,True,25,0,25,0.005427360534667969,single,0.050896344870900584,0.04660194174757307,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,24,7000,acbfi_v2,True,251,18,269,0.011246919631958008,single,1.0221682594905737,0.9359223300970873,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,24,7000,acbfi_v1,True,765,190,955,0.04070568084716797,beam,1.0221682594905737,0.9359223300970873,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,24,7000,untargeted,True,0,288,288,0.030670166015625,beam,1.0221682594905737,0.9359223300970873,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,24,7000,shap_staged,True,44096,18,44114,0.055098772048950195,single,1.0221682594905737,0.9359223300970873,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,24,7000,lewis_style,True,1160,9,1169,0.04710102081298828,single,1.6100210427494683,1.4741747572815536,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,24,7000,shap_ce,True,44096,343,44439,0.05437779426574707,grid,1.6673139158576047,1.6673139158576047,3,3,1.0,False,"['dti', 'loan_amount', 'total_acc']","['dti', 'loan_amount', 'total_acc']"
+financial_loan,1,XGB,24,7000,random_grid_ce,True,0,500,500,0.010581731796264648,grid,2.564126040549458,2.564126040549458,4,4,1.0,False,"['dti', 'loan_amount', 'term', 'total_acc']","['dti', 'loan_amount', 'term', 'total_acc']"
+financial_loan,1,XGB,24,7000,acbfi_v3,True,25,0,25,0.0037305355072021484,single,1.0221682594905737,0.9359223300970873,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,25,2000,acbfi_v2,True,251,18,269,0.006558656692504883,single,0.29053330197138716,0.2660194174757282,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,25,2000,acbfi_v1,True,765,192,957,0.03867483139038086,beam,0.29053330197138716,0.2660194174757282,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,25,2000,untargeted,True,0,264,264,0.03072047233581543,beam,0.29053330197138716,0.2660194174757282,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,25,2000,shap_staged,True,42692,18,42710,0.03322172164916992,single,0.29053330197138716,0.2660194174757282,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,25,2000,lewis_style,True,560,14,574,0.02877497673034668,single,0.29053330197138716,0.2660194174757282,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,25,2000,shap_ce,True,42692,343,43035,0.03160738945007324,grid,1.2993527508090617,1.2993527508090617,3,3,1.0,True,"['dti', 'loan_amount', 'total_acc']","['dti', 'loan_amount', 'total_acc']"
+financial_loan,1,XGB,25,2000,random_grid_ce,True,0,500,500,0.010025262832641602,grid,1.9461648755009135,1.9461648755009135,4,4,1.0,True,"['dti', 'loan_amount', 'term', 'total_acc']","['dti', 'loan_amount', 'term', 'total_acc']"
+financial_loan,1,XGB,25,2000,acbfi_v3,True,25,0,25,0.003569364547729492,single,0.29053330197138716,0.2660194174757282,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,26,5071,acbfi_v2,True,251,18,269,0.005593299865722656,single,0.7672623989288171,0.7025242718446603,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,26,5071,acbfi_v1,True,765,192,957,0.02710580825805664,beam,0.7672623989288171,0.7025242718446603,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,26,5071,untargeted,True,0,286,286,0.02462911605834961,beam,0.7672623989288171,0.7025242718446603,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,26,5071,shap_staged,True,43056,18,43074,0.031540632247924805,single,0.7672623989288171,0.7025242718446603,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,26,5071,lewis_style,True,872,13,885,0.03568601608276367,single,0.7672623989288171,0.7025242718446603,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,26,5071,shap_ce,True,43056,343,43399,0.030516386032104492,grid,0.8817961165048545,0.8817961165048545,3,3,1.0,True,"['dti', 'loan_amount', 'total_acc']","['dti', 'loan_amount', 'total_acc']"
+financial_loan,1,XGB,26,5071,random_grid_ce,True,0,500,500,0.009900808334350586,grid,2.5502910890931463,2.5502910890931463,4,4,0.5,True,"['dti', 'loan_amount', 'term', 'total_acc']","['dti', 'loan_amount', 'term', 'total_acc']"
+financial_loan,1,XGB,26,5071,acbfi_v3,True,25,0,25,0.0035262107849121094,single,0.7672623989288171,0.7025242718446603,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,27,4729,acbfi_v2,True,251,18,269,0.0047070980072021484,single,0.7499999999999999,0.7499999999999999,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,27,4729,acbfi_v1,True,765,180,945,0.026953935623168945,beam,0.7499999999999999,0.7499999999999999,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,27,4729,untargeted,True,0,280,280,0.02277684211730957,beam,0.7499999999999999,0.7499999999999999,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,27,4729,shap_staged,True,44200,18,44218,0.02570819854736328,single,0.7499999999999999,0.7499999999999999,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,27,4729,lewis_style,True,968,9,977,0.038988590240478516,single,2.300938924371935,2.1067961165048543,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,27,4729,shap_ce,True,44200,343,44543,0.02453017234802246,grid,1.707362459546925,1.707362459546925,3,3,1.0,False,"['dti', 'loan_amount', 'total_acc']","['dti', 'loan_amount', 'total_acc']"
+financial_loan,1,XGB,27,4729,random_grid_ce,True,0,500,500,0.010000944137573242,grid,2.3788834951456304,2.3788834951456304,3,3,1.0,True,"['dti', 'loan_amount', 'total_acc']","['dti', 'loan_amount', 'total_acc']"
+financial_loan,1,XGB,27,4729,acbfi_v3,True,25,0,25,0.003643035888671875,single,0.7499999999999999,0.7499999999999999,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,28,1881,acbfi_v2,True,251,18,269,0.0069158077239990234,single,0.8476349501478085,0.35000000000000003,3,1,0.5,True,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,XGB,28,1881,acbfi_v1,True,765,172,937,0.028716325759887695,beam,0.8476349501478085,0.35000000000000003,3,1,0.5,True,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,XGB,28,1881,untargeted,True,0,260,260,0.02298712730407715,beam,0.8476349501478085,0.35000000000000003,3,1,0.5,True,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,XGB,28,1881,shap_staged,True,44408,14,44422,0.030828475952148438,single,0.9712719146196733,0.8893203883495142,2,1,0.5,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,28,1881,lewis_style,True,1088,10,1098,0.04323148727416992,single,0.8476349501478085,0.35000000000000003,3,1,0.5,True,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,XGB,28,1881,shap_ce,True,44408,343,44751,0.02993941307067871,grid,1.9978964401294497,1.9978964401294497,2,2,0.5,True,"['dti', 'total_acc']","['dti', 'total_acc']"
+financial_loan,1,XGB,28,1881,random_grid_ce,True,0,500,500,0.009946584701538086,grid,3.149611304399886,3.149611304399886,4,4,1.0,True,"['dti', 'loan_amount', 'term', 'total_acc']","['dti', 'loan_amount', 'term', 'total_acc']"
+financial_loan,1,XGB,28,1881,acbfi_v3,True,25,0,25,0.003604412078857422,single,0.8476349501478085,0.35000000000000003,3,1,0.5,True,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,XGB,29,880,acbfi_v2,True,251,18,269,0.00466465950012207,single,0.9458237421842235,0.866019417475728,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,29,880,acbfi_v1,True,765,180,945,0.025223970413208008,beam,0.9458237421842235,0.866019417475728,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,29,880,untargeted,True,0,288,288,0.023909568786621094,beam,0.9458237421842235,0.866019417475728,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,29,880,shap_staged,True,42796,18,42814,0.02718830108642578,single,0.9458237421842235,0.866019417475728,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,29,880,lewis_style,True,1040,10,1050,0.0422825813293457,single,0.9458237421842235,0.866019417475728,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,29,880,shap_ce,True,42796,343,43139,0.02616286277770996,grid,0.827588996763755,0.827588996763755,3,3,1.0,True,"['dti', 'loan_amount', 'total_acc']","['dti', 'loan_amount', 'total_acc']"
+financial_loan,1,XGB,29,880,random_grid_ce,True,0,500,500,0.010195255279541016,grid,2.3410194174757293,2.3410194174757293,3,3,1.0,True,"['dti', 'loan_amount', 'total_acc']","['dti', 'loan_amount', 'total_acc']"
+financial_loan,1,XGB,29,880,acbfi_v3,True,25,0,25,0.0032379627227783203,single,0.9458237421842235,0.866019417475728,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,30,3242,acbfi_v2,True,251,14,265,0.0046460628509521484,single,1.7817962066887556,1.6314563106796116,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,30,3242,acbfi_v1,True,765,172,937,0.025956392288208008,beam,1.399168759385899,1.3233009708737862,3,2,1.0,False,"['dti', 'total_acc']","['dti', 'int_rate', 'total_acc']"
+financial_loan,1,XGB,30,3242,untargeted,True,0,274,274,0.023366212844848633,beam,1.399168759385899,1.3233009708737862,3,2,1.0,False,"['dti', 'total_acc']","['dti', 'int_rate', 'total_acc']"
+financial_loan,1,XGB,30,3242,shap_staged,True,44512,14,44526,0.02796006202697754,single,1.7817962066887556,1.6314563106796116,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,30,3242,lewis_style,True,1400,24,1424,0.0566866397857666,single,1.7817962066887556,1.6314563106796116,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,30,3242,shap_ce,True,44512,343,44855,0.027140140533447266,grid,0.9899676375404537,0.9899676375404537,2,2,1.0,False,"['dti', 'loan_amount']","['dti', 'loan_amount']"
+financial_loan,1,XGB,30,3242,random_grid_ce,True,0,500,500,0.010314226150512695,grid,2.3784464288989717,2.3784464288989717,4,4,1.0,True,"['dti', 'loan_amount', 'term', 'total_acc']","['dti', 'loan_amount', 'term', 'total_acc']"
+financial_loan,1,XGB,30,3242,acbfi_v3,True,25,0,25,0.0037965774536132812,single,1.7817962066887556,1.6314563106796116,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,31,3852,acbfi_v2,True,251,18,269,0.005680084228515625,single,0.24218141432794493,0.09999999999999994,3,1,1.0,False,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,XGB,31,3852,acbfi_v1,True,765,156,921,0.02800583839416504,beam,0.24218141432794493,0.09999999999999994,3,1,1.0,False,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,XGB,31,3852,untargeted,True,0,286,286,0.02745366096496582,beam,0.24218141432794493,0.09999999999999994,3,1,1.0,False,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,XGB,31,3852,shap_staged,True,42692,18,42710,0.02787184715270996,single,0.24218141432794493,0.09999999999999994,3,1,1.0,False,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,XGB,31,3852,lewis_style,True,1040,12,1052,0.06299376487731934,single,0.24218141432794493,0.09999999999999994,3,1,1.0,False,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,XGB,31,3852,shap_ce,True,42692,343,43035,0.026485919952392578,grid,0.6567152103559878,0.6567152103559878,3,3,1.0,False,"['dti', 'loan_amount', 'total_acc']","['dti', 'loan_amount', 'total_acc']"
+financial_loan,1,XGB,31,3852,random_grid_ce,True,0,500,500,0.01756453514099121,grid,3.5212132461474575,3.5212132461474575,4,4,1.0,True,"['dti', 'loan_amount', 'term', 'total_acc']","['dti', 'loan_amount', 'term', 'total_acc']"
+financial_loan,1,XGB,31,3852,acbfi_v3,True,25,0,25,0.004888296127319336,single,0.24218141432794493,0.09999999999999994,3,1,1.0,False,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,XGB,32,4025,acbfi_v2,True,251,18,269,0.005892753601074219,single,0.7749999999999987,0.7749999999999987,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,32,4025,acbfi_v1,True,765,176,941,0.033049583435058594,beam,0.7749999999999987,0.7749999999999987,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,32,4025,untargeted,True,0,288,288,0.029801368713378906,beam,0.7749999999999987,0.7749999999999987,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,32,4025,shap_staged,True,46124,14,46138,0.028922557830810547,single,0.7749999999999987,0.7749999999999987,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,32,4025,lewis_style,True,1016,9,1025,0.061046600341796875,single,2.0,2.0,1,1,1.0,True,['total_acc'],['total_acc']
+financial_loan,1,XGB,32,4025,shap_ce,True,46124,343,46467,0.02749776840209961,grid,0.9333333333333333,0.9333333333333333,2,2,1.0,False,"['loan_amount', 'total_acc']","['loan_amount', 'total_acc']"
+financial_loan,1,XGB,32,4025,random_grid_ce,True,0,500,500,0.018342971801757812,grid,3.2014563106796112,3.2014563106796112,3,3,1.0,True,"['dti', 'loan_amount', 'total_acc']","['dti', 'loan_amount', 'total_acc']"
+financial_loan,1,XGB,32,4025,acbfi_v3,True,25,0,25,0.003947257995605469,single,0.7749999999999987,0.7749999999999987,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,33,642,acbfi_v2,True,251,18,269,0.0060846805572509766,single,0.35000000000000164,0.35000000000000164,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,33,642,acbfi_v1,True,765,196,961,0.028795957565307617,beam,0.35000000000000164,0.35000000000000164,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,33,642,untargeted,True,0,272,272,0.02378225326538086,beam,0.35000000000000164,0.35000000000000164,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,33,642,shap_staged,True,42848,18,42866,0.02926802635192871,single,0.35000000000000164,0.35000000000000164,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,33,642,lewis_style,True,944,14,958,0.04063749313354492,single,0.5683425177250491,0.5203883495145628,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,33,642,shap_ce,True,42848,343,43191,0.027791738510131836,grid,1.2887216828478967,1.2887216828478967,3,3,1.0,True,"['dti', 'loan_amount', 'total_acc']","['dti', 'loan_amount', 'total_acc']"
+financial_loan,1,XGB,33,642,random_grid_ce,True,0,500,500,0.010346412658691406,grid,2.1155825242718445,2.1155825242718445,4,4,1.0,True,"['dti', 'loan_amount', 'home_ownership', 'total_acc']","['dti', 'loan_amount', 'home_ownership', 'total_acc']"
+financial_loan,1,XGB,33,642,acbfi_v3,True,25,0,25,0.003657102584838867,single,0.35000000000000164,0.35000000000000164,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,34,934,acbfi_v2,True,251,18,269,0.0044727325439453125,single,0.27950576058269255,0.2559223300970877,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,34,934,acbfi_v1,True,765,166,931,0.026320457458496094,beam,0.27950576058269255,0.2559223300970877,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,34,934,untargeted,True,0,288,288,0.023047447204589844,beam,0.27950576058269255,0.2559223300970877,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,34,934,shap_staged,True,43004,14,43018,0.02449321746826172,single,0.27950576058269255,0.2559223300970877,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,34,934,lewis_style,True,920,14,934,0.03786110877990723,single,0.27950576058269255,0.2559223300970877,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,34,934,shap_ce,True,43004,343,43347,0.023478031158447266,grid,0.6731391585760517,0.6731391585760517,2,2,1.0,False,"['dti', 'total_acc']","['dti', 'total_acc']"
+financial_loan,1,XGB,34,934,random_grid_ce,True,0,500,500,0.010300636291503906,grid,2.4011650485436897,2.4011650485436897,3,3,1.0,True,"['dti', 'loan_amount', 'total_acc']","['dti', 'loan_amount', 'total_acc']"
+financial_loan,1,XGB,34,934,acbfi_v3,True,25,0,25,0.0035872459411621094,single,0.27950576058269255,0.2559223300970877,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,35,1459,acbfi_v2,True,251,18,269,0.0057523250579833984,single,0.659531802285412,0.6038834951456312,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,35,1459,acbfi_v1,True,765,180,945,0.027369022369384766,beam,0.659531802285412,0.6038834951456312,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,35,1459,untargeted,True,0,288,288,0.024370431900024414,beam,0.659531802285412,0.6038834951456312,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,35,1459,shap_staged,True,42588,14,42602,0.027480125427246094,single,0.659531802285412,0.6038834951456312,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,35,1459,lewis_style,True,1400,24,1424,0.07416319847106934,single,0.659531802285412,0.6038834951456312,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,35,1459,shap_ce,True,42588,343,42931,0.02657604217529297,grid,0.7647249190938505,0.7647249190938505,2,2,1.0,True,"['dti', 'loan_amount']","['dti', 'loan_amount']"
+financial_loan,1,XGB,35,1459,random_grid_ce,True,0,500,500,0.011257410049438477,grid,2.7,2.7,3,3,1.0,True,"['dti', 'loan_amount', 'total_acc']","['dti', 'loan_amount', 'total_acc']"
+financial_loan,1,XGB,35,1459,acbfi_v3,True,25,0,25,0.003782033920288086,single,0.659531802285412,0.6038834951456312,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,36,2712,acbfi_v2,True,251,18,269,0.005161285400390625,single,2.773850795464047,2.5398058252427185,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,36,2712,acbfi_v1,True,765,156,921,0.026564359664916992,beam,1.8178456242091208,0.9339805825242717,4,2,0.5,False,"['loan_amount', 'dti']","['dti', 'loan_amount', 'installment', 'int_rate']"
+financial_loan,1,XGB,36,2712,untargeted,True,0,250,250,0.024068355560302734,beam,1.8178456242091208,0.9339805825242717,4,2,0.5,False,"['loan_amount', 'dti']","['dti', 'loan_amount', 'installment', 'int_rate']"
+financial_loan,1,XGB,36,2712,shap_staged,True,44668,14,44682,0.026282310485839844,single,2.773850795464047,2.5398058252427185,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,36,2712,lewis_style,True,1136,9,1145,0.04538679122924805,single,2.773850795464047,2.5398058252427185,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,36,2712,shap_ce,True,44668,343,45011,0.025359392166137695,grid,2.419449722825852,2.419449722825852,3,3,0.5,False,"['dti', 'loan_amount', 'term']","['dti', 'loan_amount', 'term']"
+financial_loan,1,XGB,36,2712,random_grid_ce,True,0,500,500,0.010144233703613281,grid,3.751310333526099,3.751310333526099,4,4,1.0,True,"['dti', 'loan_amount', 'term', 'total_acc']","['dti', 'loan_amount', 'term', 'total_acc']"
+financial_loan,1,XGB,36,2712,acbfi_v3,True,25,0,25,0.004020214080810547,single,2.773850795464047,2.5398058252427185,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,37,6993,acbfi_v2,True,251,14,265,0.004677772521972656,single,0.875,0.875,1,1,0.5,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,37,6993,acbfi_v1,True,765,176,941,0.02647542953491211,beam,0.875,0.875,1,1,0.5,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,37,6993,untargeted,True,0,276,276,0.02390766143798828,beam,0.875,0.875,1,1,0.5,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,37,6993,shap_staged,True,44304,14,44318,0.029899120330810547,single,0.875,0.875,1,1,0.5,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,37,6993,lewis_style,True,632,13,645,0.028664350509643555,single,1.5249999999999984,1.5249999999999984,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,37,6993,shap_ce,True,44304,343,44647,0.028929471969604492,grid,1.0730095933760144,1.0730095933760144,3,3,0.5,False,"['dti', 'term', 'total_acc']","['dti', 'term', 'total_acc']"
+financial_loan,1,XGB,37,6993,random_grid_ce,True,0,500,500,0.010056257247924805,grid,2.3048543689320384,2.3048543689320384,3,3,1.0,False,"['dti', 'loan_amount', 'total_acc']","['dti', 'loan_amount', 'total_acc']"
+financial_loan,1,XGB,37,6993,acbfi_v3,True,25,0,25,0.003542661666870117,single,0.875,0.875,1,1,0.5,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,38,843,acbfi_v2,True,251,18,269,0.004812717437744141,single,0.875,0.875,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,38,843,acbfi_v1,True,765,180,945,0.026323318481445312,beam,0.875,0.875,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,38,843,untargeted,True,0,292,292,0.02319025993347168,beam,0.875,0.875,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,38,843,shap_staged,True,44720,18,44738,0.025305509567260742,single,0.875,0.875,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,38,843,lewis_style,True,1040,9,1049,0.04210042953491211,single,1.7601652601186228,1.6116504854368934,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,38,843,shap_ce,True,44720,343,45063,0.024245262145996094,grid,1.909708737864078,1.909708737864078,3,3,1.0,False,"['dti', 'loan_amount', 'total_acc']","['dti', 'loan_amount', 'total_acc']"
+financial_loan,1,XGB,38,843,random_grid_ce,True,0,500,500,0.010037422180175781,grid,2.911650485436893,2.911650485436893,3,3,1.0,True,"['dti', 'loan_amount', 'total_acc']","['dti', 'loan_amount', 'total_acc']"
+financial_loan,1,XGB,38,843,acbfi_v3,True,25,0,25,0.0035729408264160156,single,0.875,0.875,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,39,1845,acbfi_v2,True,251,18,269,0.0055615901947021484,single,0.7500000000000002,0.7500000000000001,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,39,1845,acbfi_v1,True,765,190,955,0.026491641998291016,beam,0.7500000000000001,0.7500000000000001,1,2,1.0,False,"['loan_amount', 'total_acc']",['total_acc']
+financial_loan,1,XGB,39,1845,untargeted,True,0,288,288,0.02478170394897461,beam,0.7500000000000001,0.7500000000000001,1,2,1.0,False,"['loan_amount', 'total_acc']",['total_acc']
+financial_loan,1,XGB,39,1845,shap_staged,True,42796,18,42814,0.029813289642333984,single,0.7500000000000002,0.7500000000000001,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,39,1845,lewis_style,True,536,18,554,0.02385091781616211,single,0.7500000000000002,0.7500000000000001,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,39,1845,shap_ce,True,42796,343,43139,0.028824329376220703,grid,1.4490291262135921,1.4490291262135921,3,3,1.0,True,"['dti', 'loan_amount', 'total_acc']","['dti', 'loan_amount', 'total_acc']"
+financial_loan,1,XGB,39,1845,random_grid_ce,True,0,500,500,0.010230541229248047,grid,3.0077669902912625,3.0077669902912625,3,3,1.0,False,"['dti', 'loan_amount', 'total_acc']","['dti', 'loan_amount', 'total_acc']"
+financial_loan,1,XGB,39,1845,acbfi_v3,True,25,0,25,0.003737926483154297,single,0.7500000000000002,0.7500000000000001,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,40,453,acbfi_v2,True,251,14,265,0.004712820053100586,single,1.453088485967671,0.6,3,1,1.0,True,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,XGB,40,453,acbfi_v1,True,765,142,907,0.026163578033447266,beam,1.1499999999999988,1.1499999999999986,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,40,453,untargeted,True,0,266,266,0.023621559143066406,beam,1.1499999999999988,1.1499999999999986,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,40,453,shap_staged,True,44304,12,44316,0.03616619110107422,single,1.453088485967671,0.6,3,1,1.0,True,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,XGB,40,453,lewis_style,True,848,13,861,0.035100698471069336,single,1.453088485967671,0.6,3,1,1.0,True,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,XGB,40,453,shap_ce,True,44304,343,44647,0.035033226013183594,grid,0.6,0.6,1,1,1.0,True,['loan_amount'],['loan_amount']
+financial_loan,1,XGB,40,453,random_grid_ce,True,0,500,500,0.009711742401123047,grid,3.1140284340424893,3.1140284340424893,4,4,1.0,True,"['dti', 'loan_amount', 'term', 'total_acc']","['dti', 'loan_amount', 'term', 'total_acc']"
+financial_loan,1,XGB,40,453,acbfi_v3,True,25,0,25,0.003772735595703125,single,1.1499999999999988,1.1499999999999986,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,41,5424,acbfi_v2,True,251,18,269,0.005589723587036133,single,0.7150936454361441,0.6547572815533981,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,41,5424,acbfi_v1,True,765,166,931,0.032591819763183594,beam,0.7150936454361441,0.6547572815533981,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,41,5424,untargeted,True,0,280,280,0.03128528594970703,beam,0.7150936454361441,0.6547572815533981,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,41,5424,shap_staged,True,44096,14,44110,0.030965089797973633,single,0.7150936454361441,0.6547572815533981,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,41,5424,lewis_style,True,1280,9,1289,0.07692742347717285,single,0.7150936454361441,0.6547572815533981,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,41,5424,shap_ce,True,44096,343,44439,0.029265880584716797,grid,1.215064724919094,1.215064724919094,2,2,1.0,False,"['dti', 'loan_amount']","['dti', 'loan_amount']"
+financial_loan,1,XGB,41,5424,random_grid_ce,True,0,500,500,0.017598628997802734,grid,2.219514563106796,2.219514563106796,3,3,1.0,True,"['dti', 'loan_amount', 'total_acc']","['dti', 'loan_amount', 'total_acc']"
+financial_loan,1,XGB,41,5424,acbfi_v3,True,25,0,25,0.004898548126220703,single,0.7150936454361441,0.6547572815533981,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,42,4483,acbfi_v2,True,251,18,269,0.004631757736206055,single,0.22267150881018713,0.20388349514563095,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,42,4483,acbfi_v1,True,765,196,961,0.02693963050842285,beam,0.22267150881018713,0.20388349514563095,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,42,4483,untargeted,True,0,270,270,0.023672103881835938,beam,0.22267150881018713,0.20388349514563095,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,42,4483,shap_staged,True,42224,14,42238,0.029456377029418945,single,0.22267150881018713,0.20388349514563095,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,42,4483,lewis_style,True,512,18,530,0.0244293212890625,single,0.22267150881018713,0.20388349514563095,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,42,4483,shap_ce,True,42224,343,42567,0.0284574031829834,grid,0.7038834951456311,0.7038834951456311,2,2,1.0,True,"['dti', 'total_acc']","['dti', 'total_acc']"
+financial_loan,1,XGB,42,4483,random_grid_ce,True,0,500,500,0.010334253311157227,grid,1.5640289531708165,1.5640289531708165,4,4,1.0,True,"['dti', 'loan_amount', 'term', 'total_acc']","['dti', 'loan_amount', 'term', 'total_acc']"
+financial_loan,1,XGB,42,4483,acbfi_v3,True,25,0,25,0.003761768341064453,single,0.22267150881018713,0.20388349514563095,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,43,4528,acbfi_v2,True,251,14,265,0.005677700042724609,single,3.3381738147686955,2.320581832100742,2,1,1.0,False,['term'],"['term', 'installment']"
+financial_loan,1,XGB,43,4528,acbfi_v1,True,765,176,941,0.032587289810180664,beam,0.5857321022226067,0.5363106796116504,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,43,4528,untargeted,True,0,278,278,0.029348373413085938,beam,0.5857321022226067,0.5363106796116504,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,43,4528,shap_staged,True,44252,14,44266,0.032854318618774414,single,0.5857321022226067,0.5363106796116504,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,43,4528,lewis_style,True,920,11,931,0.05896282196044922,single,0.5857321022226067,0.5363106796116504,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,43,4528,shap_ce,True,44252,343,44595,0.031447649002075195,grid,0.38999988463814983,0.38999988463814983,2,2,1.0,False,"['dti', 'term']","['dti', 'term']"
+financial_loan,1,XGB,43,4528,random_grid_ce,True,0,500,500,0.019840478897094727,grid,2.6413588772154197,2.6413588772154197,3,3,1.0,False,"['dti', 'term', 'total_acc']","['dti', 'term', 'total_acc']"
+financial_loan,1,XGB,43,4528,acbfi_v3,True,25,0,25,0.004672050476074219,single,0.5857321022226067,0.5363106796116504,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,44,2488,acbfi_v2,True,251,18,269,0.005783557891845703,single,0.7884692092916912,0.721941747572815,2,1,0.5,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,44,2488,acbfi_v1,True,765,180,945,0.03433632850646973,beam,0.7884692092916912,0.721941747572815,2,1,0.5,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,44,2488,untargeted,True,0,292,292,0.12971782684326172,beam,0.7884692092916912,0.721941747572815,2,1,0.5,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,44,2488,shap_staged,True,44720,14,44734,0.03012537956237793,single,0.7884692092916912,0.721941747572815,2,1,0.5,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,44,2488,lewis_style,True,968,11,979,0.041912078857421875,single,1.6435278031228102,1.5048543689320384,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,44,2488,shap_ce,True,44720,343,45063,0.028907060623168945,grid,0.6637540453074436,0.6637540453074436,2,2,1.0,False,"['dti', 'loan_amount']","['dti', 'loan_amount']"
+financial_loan,1,XGB,44,2488,random_grid_ce,True,0,500,500,0.010548591613769531,grid,1.7730582524271847,1.7730582524271847,3,3,1.0,True,"['dti', 'loan_amount', 'total_acc']","['dti', 'loan_amount', 'total_acc']"
+financial_loan,1,XGB,44,2488,acbfi_v3,True,25,0,25,0.005380392074584961,single,0.7884692092916912,0.721941747572815,2,1,0.5,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,45,1318,acbfi_v2,True,251,18,269,0.004733085632324219,single,1.5502178375261606,1.4194174757281552,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,45,1318,acbfi_v1,True,765,180,945,0.025717735290527344,beam,0.52375162760642,0.521747572815534,3,2,1.0,False,"['dti', 'total_acc']","['dti', 'int_rate', 'total_acc']"
+financial_loan,1,XGB,45,1318,untargeted,True,0,280,280,0.029108047485351562,beam,0.52375162760642,0.521747572815534,3,2,1.0,False,"['dti', 'total_acc']","['dti', 'int_rate', 'total_acc']"
+financial_loan,1,XGB,45,1318,shap_staged,True,44096,14,44110,0.02661919593811035,single,3.1250000000000004,3.1250000000000004,1,1,1.0,True,['total_acc'],['total_acc']
+financial_loan,1,XGB,45,1318,lewis_style,True,824,10,834,0.034208059310913086,single,1.5502178375261606,1.4194174757281552,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,45,1318,shap_ce,True,44096,343,44439,0.026073932647705078,grid,0.7784303053501236,0.7784303053501236,3,3,1.0,False,"['loan_amount', 'term', 'total_acc']","['loan_amount', 'term', 'total_acc']"
+financial_loan,1,XGB,45,1318,random_grid_ce,True,0,500,500,0.009833335876464844,grid,3.094417475728155,3.094417475728155,3,3,1.0,True,"['dti', 'loan_amount', 'total_acc']","['dti', 'loan_amount', 'total_acc']"
+financial_loan,1,XGB,45,1318,acbfi_v3,True,25,0,25,0.0034110546112060547,single,1.5502178375261606,1.4194174757281552,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,46,2818,acbfi_v2,True,251,18,269,0.005036354064941406,single,0.7469038609804569,0.6838834951456311,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,46,2818,acbfi_v1,True,765,176,941,0.02737283706665039,beam,0.7469038609804567,0.6838834951456311,2,2,1.0,False,"['loan_amount', 'dti']","['dti', 'int_rate']"
+financial_loan,1,XGB,46,2818,untargeted,True,0,290,290,0.0247652530670166,beam,0.7469038609804567,0.6838834951456311,2,2,1.0,False,"['loan_amount', 'dti']","['dti', 'int_rate']"
+financial_loan,1,XGB,46,2818,shap_staged,True,42120,18,42138,0.02902817726135254,single,0.7469038609804569,0.6838834951456311,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,46,2818,lewis_style,True,512,16,528,0.023524761199951172,single,0.7469038609804569,0.6838834951456311,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,46,2818,shap_ce,True,42120,343,42463,0.027991533279418945,grid,0.786003236245955,0.786003236245955,3,3,1.0,True,"['dti', 'loan_amount', 'total_acc']","['dti', 'loan_amount', 'total_acc']"
+financial_loan,1,XGB,46,2818,random_grid_ce,True,0,500,500,0.010221719741821289,grid,2.0536407766990292,2.0536407766990292,3,3,1.0,False,"['dti', 'loan_amount', 'total_acc']","['dti', 'loan_amount', 'total_acc']"
+financial_loan,1,XGB,46,2818,acbfi_v3,True,25,0,25,0.003577709197998047,single,0.7469038609804569,0.6838834951456311,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,47,4494,acbfi_v2,True,251,18,269,0.006055116653442383,single,0.25000000000000006,0.24999999999999997,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,47,4494,acbfi_v1,True,765,192,957,0.03127765655517578,beam,0.25000000000000006,0.24999999999999997,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,47,4494,untargeted,True,0,288,288,0.030225038528442383,beam,0.25000000000000006,0.24999999999999997,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,47,4494,shap_staged,True,42848,14,42862,0.02924799919128418,single,0.25000000000000006,0.24999999999999997,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,47,4494,lewis_style,True,704,11,715,0.044455528259277344,single,0.9776339577285365,0.8951456310679612,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,47,4494,shap_ce,True,42848,343,43191,0.027928590774536133,grid,1.5749999999999997,1.5749999999999997,2,2,1.0,False,"['loan_amount', 'total_acc']","['loan_amount', 'total_acc']"
+financial_loan,1,XGB,47,4494,random_grid_ce,True,0,500,500,0.017760038375854492,grid,2.760582005143518,2.760582005143518,4,4,1.0,False,"['dti', 'loan_amount', 'term', 'total_acc']","['dti', 'loan_amount', 'term', 'total_acc']"
+financial_loan,1,XGB,47,4494,acbfi_v3,True,25,0,25,0.004622220993041992,single,0.25000000000000006,0.24999999999999997,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,48,5170,acbfi_v2,True,251,18,269,0.0046901702880859375,single,0.7500000000000001,0.7500000000000001,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,48,5170,acbfi_v1,True,765,168,933,0.02592158317565918,beam,0.7500000000000001,0.7500000000000001,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,48,5170,untargeted,True,0,294,294,0.024474382400512695,beam,0.7500000000000001,0.7500000000000001,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,48,5170,shap_staged,True,44772,16,44788,0.028187036514282227,single,0.9691512335833864,0.8873786407766989,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,48,5170,lewis_style,True,1232,11,1243,0.048575639724731445,single,1.125,1.125,1,1,1.0,True,['total_acc'],['total_acc']
+financial_loan,1,XGB,48,5170,shap_ce,True,44772,343,45115,0.0272519588470459,grid,0.5478964401294502,0.5478964401294502,2,2,1.0,False,"['dti', 'loan_amount']","['dti', 'loan_amount']"
+financial_loan,1,XGB,48,5170,random_grid_ce,True,0,500,500,0.009853839874267578,grid,2.319708564821302,2.319708564821302,4,4,1.0,False,"['dti', 'loan_amount', 'term', 'total_acc']","['dti', 'loan_amount', 'term', 'total_acc']"
+financial_loan,1,XGB,48,5170,acbfi_v3,True,25,0,25,0.003428220748901367,single,0.7500000000000001,0.7500000000000001,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,49,3766,acbfi_v2,True,251,18,269,0.005850791931152344,single,0.47036705384856664,0.4306796116504852,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,49,3766,acbfi_v1,True,765,180,945,0.029693603515625,beam,0.47036705384856664,0.4306796116504852,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,49,3766,untargeted,True,0,280,280,0.028209924697875977,beam,0.47036705384856664,0.4306796116504852,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,49,3766,shap_staged,True,42380,16,42396,0.02817559242248535,single,0.47036705384856664,0.4306796116504852,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,49,3766,lewis_style,True,1112,9,1121,0.06679964065551758,single,1.9374513146235617,0.8000000000000002,3,1,1.0,False,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,XGB,49,3766,shap_ce,True,42380,343,42723,0.02697277069091797,grid,1.0800161812297737,1.0800161812297737,2,2,1.0,True,"['dti', 'total_acc']","['dti', 'total_acc']"
+financial_loan,1,XGB,49,3766,random_grid_ce,True,0,500,500,0.017802715301513672,grid,2.714320388349515,2.714320388349515,3,3,1.0,True,"['dti', 'loan_amount', 'total_acc']","['dti', 'loan_amount', 'total_acc']"
+financial_loan,1,XGB,49,3766,acbfi_v3,True,25,0,25,0.004189252853393555,single,0.47036705384856664,0.4306796116504852,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,50,6451,acbfi_v2,True,251,14,265,0.005162715911865234,single,1.0577957009002035,0.9685436893203881,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,50,6451,acbfi_v1,True,765,180,945,0.027993202209472656,beam,1.0577957009002035,0.9685436893203881,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,50,6451,untargeted,True,0,294,294,0.023331165313720703,beam,1.0,1.0,1,1,0.5,False,['home_ownership'],['home_ownership']
+financial_loan,1,XGB,50,6451,shap_staged,True,46540,14,46554,0.03145122528076172,single,1.0577957009002035,0.9685436893203881,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,50,6451,lewis_style,True,920,13,933,0.039257049560546875,single,1.0577957009002035,0.9685436893203881,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,50,6451,shap_ce,True,46540,343,46883,0.03030705451965332,grid,0.539482200647249,0.539482200647249,1,1,1.0,False,['dti'],['dti']
+financial_loan,1,XGB,50,6451,random_grid_ce,True,0,500,500,0.012679576873779297,grid,1.4891262135922332,1.4891262135922332,2,2,1.0,True,"['dti', 'loan_amount']","['dti', 'loan_amount']"
+financial_loan,1,XGB,50,6451,acbfi_v3,True,25,0,25,0.004002809524536133,single,1.0,1.0,1,1,0.5,False,['home_ownership'],['home_ownership']
+financial_loan,1,XGB,51,2278,acbfi_v2,True,251,18,269,0.004801511764526367,single,0.43592654579030105,0.18,3,1,1.0,True,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,XGB,51,2278,acbfi_v1,True,765,184,949,0.02751016616821289,beam,0.43592654579030105,0.18,3,1,1.0,True,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,XGB,51,2278,untargeted,True,0,292,292,0.02394556999206543,beam,0.43592654579030105,0.18,3,1,1.0,True,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,XGB,51,2278,shap_staged,True,44616,18,44634,0.0274050235748291,single,0.43592654579030105,0.18,3,1,1.0,True,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,XGB,51,2278,lewis_style,True,1136,8,1144,0.05205512046813965,single,0.43592654579030105,0.18,3,1,1.0,True,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,XGB,51,2278,shap_ce,True,44616,343,44959,0.026293516159057617,grid,1.1803236245954691,1.1803236245954691,3,3,1.0,False,"['dti', 'loan_amount', 'total_acc']","['dti', 'loan_amount', 'total_acc']"
+financial_loan,1,XGB,51,2278,random_grid_ce,True,0,500,500,0.00988149642944336,grid,3.2771357492873214,3.2771357492873214,4,4,1.0,True,"['dti', 'loan_amount', 'term', 'total_acc']","['dti', 'loan_amount', 'term', 'total_acc']"
+financial_loan,1,XGB,51,2278,acbfi_v3,True,25,0,25,0.0034427642822265625,single,0.43592654579030105,0.18,3,1,1.0,True,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,XGB,52,4370,acbfi_v2,True,251,14,265,0.004506587982177734,single,0.4220155262212119,0.38640776699029117,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,52,4370,acbfi_v1,True,765,180,945,0.026067256927490234,beam,0.4220155262212119,0.38640776699029117,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,52,4370,untargeted,True,0,294,294,0.023303985595703125,beam,0.4220155262212119,0.38640776699029117,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,52,4370,shap_staged,True,46592,18,46610,0.028647184371948242,single,0.4220155262212119,0.38640776699029117,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,52,4370,lewis_style,True,1016,12,1028,0.05637717247009277,single,0.4220155262212119,0.38640776699029117,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,52,4370,shap_ce,True,46592,343,46935,0.02723860740661621,grid,1.4697411003236247,1.4697411003236247,3,3,1.0,True,"['dti', 'loan_amount', 'total_acc']","['dti', 'loan_amount', 'total_acc']"
+financial_loan,1,XGB,52,4370,random_grid_ce,True,0,500,500,0.01029348373413086,grid,2.894708564821302,2.894708564821302,4,4,1.0,True,"['dti', 'loan_amount', 'term', 'total_acc']","['dti', 'loan_amount', 'term', 'total_acc']"
+financial_loan,1,XGB,52,4370,acbfi_v3,True,25,0,25,0.0035021305084228516,single,0.4220155262212119,0.38640776699029117,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,53,3839,acbfi_v2,True,251,18,269,0.004595041275024414,single,0.6680145264305617,0.6116504854368933,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,53,3839,acbfi_v1,True,765,176,941,0.02489185333251953,beam,0.6680145264305617,0.6116504854368933,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,53,3839,untargeted,True,0,288,288,0.023075580596923828,beam,0.6680145264305617,0.6116504854368933,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,53,3839,shap_staged,True,44772,18,44790,0.026128768920898438,single,0.6680145264305617,0.6116504854368933,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,53,3839,lewis_style,True,1160,10,1170,0.04537534713745117,single,1.0815473285066237,0.9902912621359221,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,53,3839,shap_ce,True,44772,343,45115,0.02500629425048828,grid,1.0402912621359226,1.0402912621359226,2,2,1.0,True,"['dti', 'total_acc']","['dti', 'total_acc']"
+financial_loan,1,XGB,53,3839,random_grid_ce,True,0,500,500,0.010040760040283203,grid,1.0402912621359226,1.0402912621359226,2,2,1.0,True,"['dti', 'total_acc']","['dti', 'total_acc']"
+financial_loan,1,XGB,53,3839,acbfi_v3,True,25,0,25,0.0033235549926757812,single,0.6680145264305617,0.6116504854368933,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,54,2,acbfi_v2,True,251,18,269,0.005414247512817383,single,1.363597906332861,1.2485436893203883,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,54,2,acbfi_v1,True,765,190,955,0.029399633407592773,beam,1.0,1.0,1,1,1.0,False,['home_ownership'],['home_ownership']
+financial_loan,1,XGB,54,2,untargeted,True,0,288,288,0.027719497680664062,beam,1.0,1.0,1,1,1.0,False,['home_ownership'],['home_ownership']
+financial_loan,1,XGB,54,2,shap_staged,True,42276,18,42294,0.02760624885559082,single,1.363597906332861,1.2485436893203883,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,54,2,lewis_style,True,1400,24,1424,0.08251333236694336,single,1.0,1.0,1,1,1.0,False,['home_ownership'],['home_ownership']
+financial_loan,1,XGB,54,2,shap_ce,True,42276,343,42619,0.026323318481445312,grid,0.8818770226537221,0.8818770226537221,2,2,1.0,False,"['dti', 'loan_amount']","['dti', 'loan_amount']"
+financial_loan,1,XGB,54,2,random_grid_ce,True,0,500,500,0.00969386100769043,grid,1.9286891473455743,1.9286891473455743,3,3,1.0,True,"['dti', 'loan_amount', 'term']","['dti', 'loan_amount', 'term']"
+financial_loan,1,XGB,54,2,acbfi_v3,True,25,0,25,0.0035750865936279297,single,1.0,1.0,1,1,1.0,False,['home_ownership'],['home_ownership']
+financial_loan,1,XGB,55,1513,acbfi_v2,True,251,18,269,0.004412412643432617,single,0.3053780692253996,0.27961165048543685,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,55,1513,acbfi_v1,True,765,176,941,0.028496503829956055,beam,0.3053780692253996,0.27961165048543685,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,55,1513,untargeted,True,0,294,294,0.023126602172851562,beam,0.3053780692253996,0.27961165048543685,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,55,1513,shap_staged,True,42900,16,42916,0.02510523796081543,single,0.3053780692253996,0.27961165048543685,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,55,1513,lewis_style,True,608,12,620,0.027351856231689453,single,0.3053780692253996,0.27961165048543685,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,55,1513,shap_ce,True,42900,343,43243,0.02406907081604004,grid,0.4929449838187703,0.4929449838187703,2,2,1.0,True,"['dti', 'loan_amount']","['dti', 'loan_amount']"
+financial_loan,1,XGB,55,1513,random_grid_ce,True,0,500,500,0.010104894638061523,grid,3.0844173026853796,3.0844173026853796,4,4,1.0,True,"['dti', 'loan_amount', 'term', 'total_acc']","['dti', 'loan_amount', 'term', 'total_acc']"
+financial_loan,1,XGB,55,1513,acbfi_v3,True,25,0,25,0.003795146942138672,single,0.3053780692253996,0.27961165048543685,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,56,1896,acbfi_v2,True,251,18,269,0.005174160003662109,single,0.4194707089776667,0.3840776699029121,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,56,1896,acbfi_v1,True,765,176,941,0.0259549617767334,beam,0.4194707089776667,0.3840776699029121,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,56,1896,untargeted,True,0,266,266,0.024350404739379883,beam,0.4194707089776667,0.3840776699029121,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,56,1896,shap_staged,True,44200,18,44218,0.02701091766357422,single,0.4194707089776667,0.3840776699029121,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,56,1896,lewis_style,True,848,10,858,0.035921335220336914,single,2.157156750111642,1.975145631067961,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,56,1896,shap_ce,True,44200,343,44543,0.02592158317565918,grid,1.6169902912621357,1.6169902912621357,3,3,1.0,False,"['dti', 'loan_amount', 'total_acc']","['dti', 'loan_amount', 'total_acc']"
+financial_loan,1,XGB,56,1896,random_grid_ce,True,0,500,500,0.009800195693969727,grid,2.3669902912621357,2.3669902912621357,3,3,1.0,False,"['dti', 'loan_amount', 'total_acc']","['dti', 'loan_amount', 'total_acc']"
+financial_loan,1,XGB,56,1896,acbfi_v3,True,25,0,25,0.003566741943359375,single,0.4194707089776667,0.3840776699029121,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,57,2824,acbfi_v2,True,251,14,265,0.004542112350463867,single,1.375,1.375,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,57,2824,acbfi_v1,True,765,168,933,0.0316464900970459,beam,0.6488718087473828,0.6363106796116508,3,2,1.0,False,"['dti', 'total_acc']","['dti', 'int_rate', 'total_acc']"
+financial_loan,1,XGB,57,2824,untargeted,True,0,274,274,0.030445098876953125,beam,0.6488718087473828,0.6363106796116508,3,2,1.0,False,"['dti', 'total_acc']","['dti', 'int_rate', 'total_acc']"
+financial_loan,1,XGB,57,2824,shap_staged,True,44772,14,44786,0.025356531143188477,single,3.1152804423063336,2.852427184466019,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,57,2824,lewis_style,True,872,16,888,0.058319091796875,single,1.375,1.375,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,57,2824,shap_ce,True,44772,343,45115,0.024048805236816406,grid,0.6068283636025508,0.6068283636025508,3,3,1.0,False,"['dti', 'loan_amount', 'term']","['dti', 'loan_amount', 'term']"
+financial_loan,1,XGB,57,2824,random_grid_ce,True,0,500,500,0.010646820068359375,grid,2.478398058252427,2.478398058252427,4,4,1.0,True,"['dti', 'loan_amount', 'home_ownership', 'total_acc']","['dti', 'loan_amount', 'home_ownership', 'total_acc']"
+financial_loan,1,XGB,57,2824,acbfi_v3,True,25,0,25,0.0033216476440429688,single,1.375,1.375,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,58,1257,acbfi_v2,True,251,14,265,0.0043926239013671875,single,0.665893845394274,0.6097087378640773,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,58,1257,acbfi_v1,True,765,180,945,0.058290719985961914,beam,0.665893845394274,0.6097087378640773,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,58,1257,untargeted,True,0,294,294,0.022577762603759766,beam,0.665893845394274,0.6097087378640773,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,58,1257,shap_staged,True,46904,14,46918,0.0251314640045166,single,0.665893845394274,0.6097087378640773,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,58,1257,lewis_style,True,1016,9,1025,0.04078555107116699,single,1.5485212926971308,1.4178640776699027,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,58,1257,shap_ce,True,46904,343,47247,0.02377176284790039,grid,0.09029126213592252,0.09029126213592252,1,1,1.0,False,['dti'],['dti']
+financial_loan,1,XGB,58,1257,random_grid_ce,True,0,500,500,0.010158777236938477,grid,2.362621359223301,2.362621359223301,2,2,1.0,False,"['dti', 'total_acc']","['dti', 'total_acc']"
+financial_loan,1,XGB,58,1257,acbfi_v3,True,25,0,25,0.0034303665161132812,single,0.665893845394274,0.6097087378640773,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,59,4781,acbfi_v2,True,251,18,269,0.0048329830169677734,single,0.35000000000000214,0.35000000000000164,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,59,4781,acbfi_v1,True,765,176,941,0.028255939483642578,beam,0.35000000000000164,0.35000000000000164,1,2,1.0,False,"['loan_amount', 'total_acc']",['total_acc']
+financial_loan,1,XGB,59,4781,untargeted,True,0,290,290,0.025739669799804688,beam,0.35000000000000164,0.35000000000000164,1,2,1.0,False,"['loan_amount', 'total_acc']",['total_acc']
+financial_loan,1,XGB,59,4781,shap_staged,True,42796,18,42814,0.025776386260986328,single,0.35000000000000214,0.35000000000000164,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,59,4781,lewis_style,True,824,13,837,0.034792184829711914,single,0.9220721145778046,0.8442718446601943,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,59,4781,shap_ce,True,42796,343,43139,0.02482771873474121,grid,1.3735436893203887,1.3735436893203887,3,3,1.0,False,"['dti', 'loan_amount', 'total_acc']","['dti', 'loan_amount', 'total_acc']"
+financial_loan,1,XGB,59,4781,random_grid_ce,True,0,500,500,0.010816335678100586,grid,2.8085435162776125,2.8085435162776125,4,4,1.0,True,"['dti', 'loan_amount', 'term', 'total_acc']","['dti', 'loan_amount', 'term', 'total_acc']"
+financial_loan,1,XGB,59,4781,acbfi_v3,True,25,0,25,0.003530263900756836,single,0.35000000000000214,0.35000000000000164,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,60,943,acbfi_v2,True,251,14,265,0.0045108795166015625,single,0.23285077778436716,0.21320388349514566,2,1,0.5,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,60,943,acbfi_v1,True,765,176,941,0.02883458137512207,beam,0.23285077778436716,0.21320388349514566,2,1,0.5,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,60,943,untargeted,True,0,290,290,0.024136781692504883,beam,0.23285077778436716,0.21320388349514566,2,1,0.5,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,60,943,shap_staged,True,44408,14,44422,0.030077695846557617,single,0.23285077778436716,0.21320388349514566,2,1,0.5,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,60,943,lewis_style,True,1016,11,1027,0.05065560340881348,single,0.23285077778436716,0.21320388349514566,2,1,0.5,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,60,943,shap_ce,True,44408,343,44751,0.029273509979248047,grid,0.9658576051779936,0.9658576051779936,2,2,1.0,True,"['dti', 'total_acc']","['dti', 'total_acc']"
+financial_loan,1,XGB,60,943,random_grid_ce,True,0,500,500,0.018983125686645508,grid,2.7344660194174755,2.7344660194174755,3,3,1.0,True,"['dti', 'loan_amount', 'total_acc']","['dti', 'loan_amount', 'total_acc']"
+financial_loan,1,XGB,60,943,acbfi_v3,True,25,0,25,0.004197359085083008,single,0.23285077778436716,0.21320388349514566,2,1,0.5,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,61,1266,acbfi_v2,True,251,14,265,0.004815816879272461,single,0.12109070716397255,0.04999999999999997,3,1,1.0,False,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,XGB,61,1266,acbfi_v1,True,765,176,941,0.029454708099365234,beam,0.12109070716397255,0.04999999999999997,3,1,1.0,False,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,XGB,61,1266,untargeted,True,0,290,290,0.032100677490234375,beam,0.12109070716397255,0.04999999999999997,3,1,1.0,False,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,XGB,61,1266,shap_staged,True,44668,14,44682,0.03449249267578125,single,0.625,0.625,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,61,1266,lewis_style,True,680,15,695,0.049254417419433594,single,0.12109070716397255,0.04999999999999997,3,1,1.0,False,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,XGB,61,1266,shap_ce,True,44668,343,45011,0.03204464912414551,grid,0.9472814380362081,0.9472814380362081,3,3,1.0,True,"['dti', 'term', 'total_acc']","['dti', 'term', 'total_acc']"
+financial_loan,1,XGB,61,1266,random_grid_ce,True,0,500,500,0.0193636417388916,grid,3.1737864077669906,3.1737864077669906,3,3,1.0,True,"['dti', 'loan_amount', 'total_acc']","['dti', 'loan_amount', 'total_acc']"
+financial_loan,1,XGB,61,1266,acbfi_v3,True,25,0,25,0.004184246063232422,single,0.12109070716397255,0.04999999999999997,3,1,1.0,False,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,XGB,62,278,acbfi_v2,True,251,14,265,0.0059239864349365234,single,0.29061769719353453,0.11999999999999993,3,1,1.0,False,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,XGB,62,278,acbfi_v1,True,765,166,931,0.03504514694213867,beam,0.29061769719353453,0.11999999999999993,3,1,1.0,False,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,XGB,62,278,untargeted,True,0,292,292,0.029598712921142578,beam,0.29061769719353453,0.11999999999999993,3,1,1.0,False,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,XGB,62,278,shap_staged,True,44252,14,44266,0.029535293579101562,single,1.4102528891311858,1.29126213592233,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,62,278,lewis_style,True,872,13,885,0.05283856391906738,single,0.29061769719353453,0.11999999999999993,3,1,1.0,False,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,XGB,62,278,shap_ce,True,44252,343,44595,0.028347253799438477,grid,1.0209546925566346,1.0209546925566346,2,2,1.0,False,"['dti', 'total_acc']","['dti', 'total_acc']"
+financial_loan,1,XGB,62,278,random_grid_ce,True,0,500,500,0.019788503646850586,grid,1.4566504854368936,1.4566504854368936,3,3,1.0,True,"['dti', 'loan_amount', 'total_acc']","['dti', 'loan_amount', 'total_acc']"
+financial_loan,1,XGB,62,278,acbfi_v3,True,25,0,25,0.004567384719848633,single,0.29061769719353453,0.11999999999999993,3,1,1.0,False,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,XGB,63,1439,acbfi_v2,True,251,18,269,0.005054950714111328,single,1.3233049666433983,1.2116504854368928,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,63,1439,acbfi_v1,True,765,192,957,0.025960206985473633,beam,1.3233049666433983,1.2116504854368928,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,63,1439,untargeted,True,0,268,268,0.02306842803955078,beam,1.3233049666433983,1.2116504854368928,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,63,1439,shap_staged,True,44824,18,44842,0.029089689254760742,single,1.3233049666433983,1.2116504854368928,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,63,1439,lewis_style,True,992,14,1006,0.040169477462768555,single,1.3233049666433983,1.2116504854368928,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,63,1439,shap_ce,True,44824,343,45167,0.028000831604003906,grid,1.0116504854368926,1.0116504854368926,2,2,1.0,False,"['dti', 'total_acc']","['dti', 'total_acc']"
+financial_loan,1,XGB,63,1439,random_grid_ce,True,0,500,500,0.010035037994384766,grid,3.624854022846487,3.624854022846487,3,3,1.0,False,"['dti', 'term', 'total_acc']","['dti', 'term', 'total_acc']"
+financial_loan,1,XGB,63,1439,acbfi_v3,True,25,0,25,0.0034439563751220703,single,1.3233049666433983,1.2116504854368928,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,64,5979,acbfi_v2,True,251,18,269,0.00522613525390625,single,0.33930896580600006,0.31067961165048574,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,64,5979,acbfi_v1,True,765,184,949,0.02599501609802246,beam,0.33930896580600006,0.31067961165048574,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,64,5979,untargeted,True,0,292,292,0.02314925193786621,beam,0.33930896580600006,0.31067961165048574,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,64,5979,shap_staged,True,42536,18,42554,0.024497270584106445,single,0.33930896580600006,0.31067961165048574,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,64,5979,lewis_style,True,752,14,766,0.031035900115966797,single,0.33930896580600006,0.31067961165048574,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,64,5979,shap_ce,True,42536,343,42879,0.023264408111572266,grid,1.0273462783171528,1.0273462783171528,3,3,1.0,False,"['dti', 'loan_amount', 'total_acc']","['dti', 'loan_amount', 'total_acc']"
+financial_loan,1,XGB,64,5979,random_grid_ce,True,0,500,500,0.010398626327514648,grid,4.265533980582525,4.265533980582525,3,3,1.0,True,"['dti', 'loan_amount', 'total_acc']","['dti', 'loan_amount', 'total_acc']"
+financial_loan,1,XGB,64,5979,acbfi_v3,True,25,0,25,0.003485441207885742,single,0.33930896580600006,0.31067961165048574,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,65,4403,acbfi_v2,True,251,18,269,0.005156993865966797,single,0.7500000000000001,0.7500000000000001,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,65,4403,acbfi_v1,True,765,180,945,0.026719093322753906,beam,0.7500000000000001,0.7500000000000001,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,65,4403,untargeted,True,0,290,290,0.024669885635375977,beam,0.7500000000000001,0.7500000000000001,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,65,4403,shap_staged,True,42224,14,42238,0.026519060134887695,single,0.8550585938311194,0.7829126213592236,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,65,4403,lewis_style,True,896,10,906,0.036036014556884766,single,0.8826274473028567,0.8081553398058253,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,65,4403,shap_ce,True,42224,343,42567,0.025646448135375977,grid,0.735275080906149,0.735275080906149,2,2,1.0,False,"['dti', 'loan_amount']","['dti', 'loan_amount']"
+financial_loan,1,XGB,65,4403,random_grid_ce,True,0,500,500,0.00982975959777832,grid,3.0852909160503708,3.0852909160503708,4,4,1.0,True,"['dti', 'loan_amount', 'term', 'total_acc']","['dti', 'loan_amount', 'term', 'total_acc']"
+financial_loan,1,XGB,65,4403,acbfi_v3,True,25,0,25,0.0033392906188964844,single,0.7500000000000001,0.7500000000000001,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,66,3723,acbfi_v2,True,251,18,269,0.0056324005126953125,single,0.520690040805082,0.21499999999999994,3,1,1.0,False,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,XGB,66,3723,acbfi_v1,True,765,174,939,0.029158353805541992,beam,0.520690040805082,0.21499999999999994,3,1,1.0,False,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,XGB,66,3723,untargeted,True,0,296,296,0.02815079689025879,beam,0.520690040805082,0.21499999999999994,3,1,1.0,False,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,XGB,66,3723,shap_staged,True,43004,18,43022,0.028002262115478516,single,0.520690040805082,0.21499999999999994,3,1,1.0,False,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,XGB,66,3723,lewis_style,True,440,18,458,0.028451204299926758,single,0.520690040805082,0.21499999999999994,3,1,1.0,False,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,XGB,66,3723,shap_ce,True,43004,343,43347,0.026511430740356445,grid,1.2441262135922335,1.2441262135922335,2,2,1.0,True,"['dti', 'loan_amount']","['dti', 'loan_amount']"
+financial_loan,1,XGB,66,3723,random_grid_ce,True,0,500,500,0.017751216888427734,grid,1.2441262135922335,1.2441262135922335,2,2,1.0,True,"['dti', 'loan_amount']","['dti', 'loan_amount']"
+financial_loan,1,XGB,66,3723,acbfi_v3,True,25,0,25,0.0042650699615478516,single,0.520690040805082,0.21499999999999994,3,1,1.0,False,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,XGB,67,461,acbfi_v2,True,251,18,269,0.0056667327880859375,single,0.7749805258494247,0.31999999999999995,3,1,1.0,False,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,XGB,67,461,acbfi_v1,True,765,172,937,0.031365394592285156,beam,0.7749805258494247,0.31999999999999995,3,1,1.0,False,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,XGB,67,461,untargeted,True,0,264,264,0.027457475662231445,beam,0.7749805258494247,0.31999999999999995,3,1,1.0,False,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,XGB,67,461,shap_staged,True,42900,16,42916,0.031403303146362305,single,0.7749805258494247,0.31999999999999995,3,1,1.0,False,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,XGB,67,461,lewis_style,True,680,15,695,0.04158306121826172,single,0.7749805258494247,0.31999999999999995,3,1,1.0,False,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,XGB,67,461,shap_ce,True,42900,343,43243,0.030112028121948242,grid,1.8116666666666663,1.8116666666666663,3,3,1.0,False,"['loan_amount', 'home_ownership', 'total_acc']","['loan_amount', 'home_ownership', 'total_acc']"
+financial_loan,1,XGB,67,461,random_grid_ce,True,0,500,500,0.01858687400817871,grid,2.3217473997727582,2.3217473997727582,5,5,1.0,False,"['dti', 'loan_amount', 'term', 'home_ownership', 'total_acc']","['dti', 'loan_amount', 'term', 'home_ownership', 'total_acc']"
+financial_loan,1,XGB,67,461,acbfi_v3,True,25,0,25,0.004167318344116211,single,0.7749805258494247,0.31999999999999995,3,1,1.0,False,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,XGB,68,5545,acbfi_v2,True,251,18,269,0.005506038665771484,single,0.37500000000000006,0.37500000000000006,1,1,0.5,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,68,5545,acbfi_v1,True,765,192,957,0.031214475631713867,beam,0.37500000000000006,0.37500000000000006,1,1,0.5,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,68,5545,untargeted,True,0,292,292,0.029677867889404297,beam,0.37500000000000006,0.37500000000000006,1,1,0.5,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,68,5545,shap_staged,True,44356,14,44370,0.028234243392944336,single,0.9017135766294442,0.8256310679611654,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,68,5545,lewis_style,True,1160,10,1170,0.07167172431945801,single,1.1250000000000002,1.1250000000000002,1,1,0.5,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,68,5545,shap_ce,True,44356,343,44699,0.026999235153198242,grid,1.0126536063209979,1.0126536063209979,3,3,0.5,False,"['dti', 'loan_amount', 'term']","['dti', 'loan_amount', 'term']"
+financial_loan,1,XGB,68,5545,random_grid_ce,True,0,500,500,0.012951850891113281,grid,1.8927184466019413,1.8927184466019413,3,3,1.0,False,"['dti', 'loan_amount', 'total_acc']","['dti', 'loan_amount', 'total_acc']"
+financial_loan,1,XGB,68,5545,acbfi_v3,True,25,0,25,0.0033495426177978516,single,0.37500000000000006,0.37500000000000006,1,1,0.5,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,69,2625,acbfi_v2,True,251,18,269,0.00439906120300293,single,1.1250000000000002,1.1250000000000002,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,69,2625,acbfi_v1,True,765,180,945,0.030390024185180664,beam,1.1250000000000002,1.1250000000000002,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,69,2625,untargeted,True,0,296,296,0.028802871704101562,beam,1.1250000000000002,1.1250000000000002,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,69,2625,shap_staged,True,44772,14,44786,0.02674698829650879,single,1.1250000000000002,1.1250000000000002,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,69,2625,lewis_style,True,1064,12,1076,0.04144930839538574,single,1.439942423639211,1.3184466019417478,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,69,2625,shap_ce,True,44772,343,45115,0.025800704956054688,grid,1.0017636386834572,1.0017636386834572,3,3,1.0,False,"['loan_amount', 'term', 'total_acc']","['loan_amount', 'term', 'total_acc']"
+financial_loan,1,XGB,69,2625,random_grid_ce,True,0,500,500,0.009918212890625,grid,3.3296114774426626,3.3296114774426626,4,4,1.0,True,"['dti', 'loan_amount', 'term', 'total_acc']","['dti', 'loan_amount', 'term', 'total_acc']"
+financial_loan,1,XGB,69,2625,acbfi_v3,True,25,0,25,0.003295421600341797,single,1.1250000000000002,1.1250000000000002,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,70,3491,acbfi_v2,True,251,14,265,0.004421234130859375,single,0.4156534831123495,0.38058252427184475,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,70,3491,acbfi_v1,True,765,132,897,0.02335333824157715,beam,0.12500000000000003,0.12500000000000003,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,70,3491,untargeted,True,0,290,290,0.02323150634765625,beam,0.12500000000000003,0.12500000000000003,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,70,3491,shap_staged,True,42432,18,42450,0.0252838134765625,single,0.12500000000000003,0.12500000000000003,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,70,3491,lewis_style,True,536,19,555,0.024231910705566406,single,0.12500000000000003,0.12500000000000003,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,70,3491,shap_ce,True,42432,343,42775,0.0240170955657959,grid,1.0860841423948218,1.0860841423948218,3,3,1.0,False,"['dti', 'loan_amount', 'total_acc']","['dti', 'loan_amount', 'total_acc']"
+financial_loan,1,XGB,70,3491,random_grid_ce,True,0,500,500,0.010172605514526367,grid,2.7834951456310684,2.7834951456310684,3,3,1.0,True,"['dti', 'loan_amount', 'total_acc']","['dti', 'loan_amount', 'total_acc']"
+financial_loan,1,XGB,70,3491,acbfi_v3,True,25,0,25,0.0033080577850341797,single,0.12500000000000003,0.12500000000000003,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,71,2834,acbfi_v2,True,251,18,269,0.004861116409301758,single,0.4830911400662922,0.4423300970873788,2,1,0.5,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,71,2834,acbfi_v1,True,765,166,931,0.028790950775146484,beam,0.4830911400662922,0.4423300970873788,2,1,0.5,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,71,2834,untargeted,True,0,270,270,0.026964664459228516,beam,0.4830911400662922,0.4423300970873788,2,1,0.5,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,71,2834,shap_staged,True,44044,18,44062,0.026909828186035156,single,0.4830911400662922,0.4423300970873788,2,1,0.5,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,71,2834,lewis_style,True,1040,10,1050,0.06236529350280762,single,0.4830911400662922,0.4423300970873788,2,1,0.5,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,71,2834,shap_ce,True,44044,343,44387,0.025339603424072266,grid,1.079935275080906,1.079935275080906,3,3,1.0,False,"['dti', 'loan_amount', 'total_acc']","['dti', 'loan_amount', 'total_acc']"
+financial_loan,1,XGB,71,2834,random_grid_ce,True,0,500,500,0.018103837966918945,grid,2.5354852638504286,2.5354852638504286,4,4,1.0,True,"['dti', 'loan_amount', 'term', 'total_acc']","['dti', 'loan_amount', 'term', 'total_acc']"
+financial_loan,1,XGB,71,2834,acbfi_v3,True,25,0,25,0.004515886306762695,single,0.4830911400662922,0.4423300970873788,2,1,0.5,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,72,2054,acbfi_v2,True,251,18,269,0.006615877151489258,single,0.07634451730635008,0.06990291262135932,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,72,2054,acbfi_v1,True,765,176,941,0.02852010726928711,beam,0.07634451730635008,0.06990291262135932,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,72,2054,untargeted,True,0,270,270,0.023312807083129883,beam,0.07634451730635008,0.06990291262135932,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,72,2054,shap_staged,True,44668,16,44684,0.02617669105529785,single,0.07634451730635008,0.06990291262135932,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,72,2054,lewis_style,True,968,15,983,0.03899359703063965,single,0.07634451730635008,0.06990291262135932,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,72,2054,shap_ce,True,44668,343,45011,0.0250701904296875,grid,0.6570388349514564,0.6570388349514564,3,3,1.0,True,"['dti', 'home_ownership', 'total_acc']","['dti', 'home_ownership', 'total_acc']"
+financial_loan,1,XGB,72,2054,random_grid_ce,True,0,500,500,0.009758472442626953,grid,2.694902912621359,2.694902912621359,4,4,1.0,True,"['dti', 'loan_amount', 'home_ownership', 'total_acc']","['dti', 'loan_amount', 'home_ownership', 'total_acc']"
+financial_loan,1,XGB,72,2054,acbfi_v3,True,25,0,25,0.003741741180419922,single,0.07634451730635008,0.06990291262135932,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,73,3229,acbfi_v2,True,251,14,265,0.005980730056762695,single,0.2250000000000015,0.2250000000000015,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,73,3229,acbfi_v1,True,765,106,871,0.02500438690185547,beam,0.2250000000000015,0.2250000000000015,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,73,3229,untargeted,True,0,282,282,0.02700018882751465,beam,0.2250000000000015,0.2250000000000015,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,73,3229,shap_staged,True,44408,18,44426,0.027792930603027344,single,0.2250000000000015,0.2250000000000015,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,73,3229,lewis_style,True,896,13,909,0.04046058654785156,single,0.48436282865589064,0.20000000000000004,3,1,1.0,False,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,XGB,73,3229,shap_ce,True,44408,343,44751,0.02622222900390625,grid,1.0932038834951456,1.0932038834951456,3,3,1.0,False,"['dti', 'loan_amount', 'total_acc']","['dti', 'loan_amount', 'total_acc']"
+financial_loan,1,XGB,73,3229,random_grid_ce,True,0,500,500,0.00991201400756836,grid,2.50873786407767,2.50873786407767,3,3,1.0,True,"['dti', 'loan_amount', 'total_acc']","['dti', 'loan_amount', 'total_acc']"
+financial_loan,1,XGB,73,3229,acbfi_v3,True,25,0,25,0.0037336349487304688,single,0.2250000000000015,0.2250000000000015,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,74,4120,acbfi_v2,True,251,18,269,0.007028341293334961,single,2.519369071109547,2.3067961165048545,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,74,4120,acbfi_v1,True,765,154,919,0.03699016571044922,beam,2.519369071109547,2.3067961165048545,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,74,4120,untargeted,True,0,258,258,0.027173995971679688,beam,2.519369071109547,2.3067961165048545,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,74,4120,shap_staged,True,46748,14,46762,0.028779983520507812,single,2.519369071109547,2.3067961165048545,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,74,4120,lewis_style,True,1160,9,1169,0.04684901237487793,single,2.519369071109547,2.3067961165048545,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,74,4120,shap_ce,True,46748,343,47091,0.0278472900390625,grid,1.9162459546925563,1.9162459546925563,2,2,0.5,False,"['dti', 'loan_amount']","['dti', 'loan_amount']"
+financial_loan,1,XGB,74,4120,random_grid_ce,True,0,500,500,0.010057687759399414,grid,3.4588834951456313,3.4588834951456313,4,4,0.5,False,"['dti', 'loan_amount', 'home_ownership', 'total_acc']","['dti', 'loan_amount', 'home_ownership', 'total_acc']"
+financial_loan,1,XGB,74,4120,acbfi_v3,True,25,0,25,0.0033235549926757812,single,2.519369071109547,2.3067961165048545,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,75,4290,acbfi_v2,True,251,18,269,0.005472421646118164,single,0.5853079660153491,0.5359223300970871,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,75,4290,acbfi_v1,True,765,162,927,0.029540300369262695,beam,1.7500000000000004,1.7500000000000004,1,1,1.0,True,['total_acc'],['total_acc']
+financial_loan,1,XGB,75,4290,untargeted,True,0,288,288,0.02361321449279785,beam,0.5853079660153491,0.5359223300970871,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,75,4290,shap_staged,True,44876,12,44888,0.02828693389892578,single,1.7500000000000004,1.7500000000000004,1,1,1.0,True,['total_acc'],['total_acc']
+financial_loan,1,XGB,75,4290,lewis_style,True,632,19,651,0.0274808406829834,single,0.5853079660153491,0.5359223300970871,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,75,4290,shap_ce,True,44876,343,45219,0.027318239212036133,grid,0.2500000000000009,0.2500000000000009,1,1,1.0,True,['total_acc'],['total_acc']
+financial_loan,1,XGB,75,4290,random_grid_ce,True,0,500,500,0.010121822357177734,grid,2.4442231279280966,2.4442231279280966,5,5,1.0,True,"['dti', 'loan_amount', 'term', 'home_ownership', 'total_acc']","['dti', 'loan_amount', 'term', 'home_ownership', 'total_acc']"
+financial_loan,1,XGB,75,4290,acbfi_v3,True,25,0,25,0.003473043441772461,single,0.5853079660153491,0.5359223300970871,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,76,2595,acbfi_v2,True,251,18,269,0.005213022232055664,single,0.719335007508719,0.658640776699029,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,76,2595,acbfi_v1,True,765,176,941,0.025964021682739258,beam,0.719335007508719,0.658640776699029,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,76,2595,untargeted,True,0,274,274,0.023461580276489258,beam,0.719335007508719,0.658640776699029,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,76,2595,shap_staged,True,44252,14,44266,0.02948617935180664,single,0.719335007508719,0.658640776699029,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,76,2595,lewis_style,True,896,11,907,0.035802602767944336,single,0.719335007508719,0.658640776699029,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,76,2595,shap_ce,True,44252,343,44595,0.028484821319580078,grid,0.880857489816143,0.880857489816143,3,3,1.0,False,"['dti', 'term', 'total_acc']","['dti', 'term', 'total_acc']"
+financial_loan,1,XGB,76,2595,random_grid_ce,True,0,500,500,0.009793281555175781,grid,2.5745145631067965,2.5745145631067965,3,3,1.0,False,"['dti', 'loan_amount', 'total_acc']","['dti', 'loan_amount', 'total_acc']"
+financial_loan,1,XGB,76,2595,acbfi_v3,True,25,0,25,0.003475666046142578,single,0.719335007508719,0.658640776699029,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,77,118,acbfi_v2,True,251,14,265,0.005323171615600586,single,1.4123735701674736,1.2932038834951458,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,77,118,acbfi_v1,True,765,176,941,0.028494834899902344,beam,1.4123735701674736,1.2932038834951458,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,77,118,untargeted,True,0,274,274,0.026257038116455078,beam,1.4123735701674736,1.2932038834951458,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,77,118,shap_staged,True,44512,18,44530,0.027799129486083984,single,1.4123735701674736,1.2932038834951458,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,77,118,lewis_style,True,728,12,740,0.04757523536682129,single,1.4123735701674736,1.2932038834951458,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,77,118,shap_ce,True,44512,343,44855,0.026352643966674805,grid,1.3079288025889964,1.3079288025889964,3,3,1.0,True,"['dti', 'loan_amount', 'total_acc']","['dti', 'loan_amount', 'total_acc']"
+financial_loan,1,XGB,77,118,random_grid_ce,True,0,500,500,0.019634246826171875,grid,3.512621359223301,3.512621359223301,3,3,1.0,False,"['dti', 'loan_amount', 'total_acc']","['dti', 'loan_amount', 'total_acc']"
+financial_loan,1,XGB,77,118,acbfi_v3,True,25,0,25,0.004620790481567383,single,1.4123735701674736,1.2932038834951458,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,78,2545,acbfi_v2,True,251,18,269,0.004927158355712891,single,0.47291187109211197,0.4330097087378641,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,78,2545,acbfi_v1,True,765,194,959,0.0331113338470459,beam,0.47291187109211197,0.4330097087378641,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,78,2545,untargeted,True,0,286,286,0.03129458427429199,beam,0.47291187109211197,0.4330097087378641,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,78,2545,shap_staged,True,42796,18,42814,0.03198957443237305,single,0.47291187109211197,0.4330097087378641,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,78,2545,lewis_style,True,800,11,811,0.050870418548583984,single,0.47291187109211197,0.4330097087378641,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,78,2545,shap_ce,True,42796,343,43139,0.030452251434326172,grid,0.5694012944983816,0.5694012944983816,3,3,1.0,True,"['dti', 'loan_amount', 'total_acc']","['dti', 'loan_amount', 'total_acc']"
+financial_loan,1,XGB,78,2545,random_grid_ce,True,0,500,500,0.02300858497619629,grid,2.724902912621359,2.724902912621359,3,3,1.0,True,"['dti', 'loan_amount', 'total_acc']","['dti', 'loan_amount', 'total_acc']"
+financial_loan,1,XGB,78,2545,acbfi_v3,True,25,0,25,0.0070574283599853516,single,0.47291187109211197,0.4330097087378641,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,79,2895,acbfi_v2,True,251,18,269,0.006096363067626953,single,0.7500000000000001,0.7500000000000001,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,79,2895,acbfi_v1,True,765,180,945,0.04551267623901367,beam,0.7500000000000001,0.7500000000000001,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,79,2895,untargeted,True,0,294,294,0.025175809860229492,beam,0.7500000000000001,0.7500000000000001,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,79,2895,shap_staged,True,43992,14,44006,0.03273200988769531,single,0.7500000000000001,0.7500000000000001,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,79,2895,lewis_style,True,704,10,714,0.03383207321166992,single,1.8749999999999998,1.8749999999999998,1,1,1.0,True,['total_acc'],['total_acc']
+financial_loan,1,XGB,79,2895,shap_ce,True,43992,343,44335,0.031731367111206055,grid,0.9950969720167905,0.9950969720167905,3,3,1.0,False,"['loan_amount', 'term', 'total_acc']","['loan_amount', 'term', 'total_acc']"
+financial_loan,1,XGB,79,2895,random_grid_ce,True,0,500,500,0.01033473014831543,grid,2.6415048543689315,2.6415048543689315,4,4,1.0,False,"['dti', 'loan_amount', 'home_ownership', 'total_acc']","['dti', 'loan_amount', 'home_ownership', 'total_acc']"
+financial_loan,1,XGB,79,2895,acbfi_v3,True,25,0,25,0.0036423206329345703,single,0.7500000000000001,0.7500000000000001,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,80,1238,acbfi_v2,True,251,18,269,0.0050048828125,single,0.3091952950907173,0.2831067961165047,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,80,1238,acbfi_v1,True,765,148,913,0.02599620819091797,beam,0.3091952950907173,0.2831067961165047,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,80,1238,untargeted,True,0,292,292,0.02355790138244629,beam,0.3091952950907173,0.2831067961165047,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,80,1238,shap_staged,True,44668,14,44682,0.027477502822875977,single,0.3091952950907173,0.2831067961165047,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,80,1238,lewis_style,True,1040,11,1051,0.044497013092041016,single,0.3091952950907173,0.2831067961165047,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,80,1238,shap_ce,True,44668,343,45011,0.026723623275756836,grid,0.3959546925566347,0.3959546925566347,2,2,1.0,False,"['dti', 'total_acc']","['dti', 'total_acc']"
+financial_loan,1,XGB,80,1238,random_grid_ce,True,0,500,500,0.010326862335205078,grid,2.2145631067961165,2.2145631067961165,3,3,1.0,True,"['dti', 'loan_amount', 'total_acc']","['dti', 'loan_amount', 'total_acc']"
+financial_loan,1,XGB,80,1238,acbfi_v3,True,25,0,25,0.003389120101928711,single,0.3091952950907173,0.2831067961165047,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,81,4478,acbfi_v2,True,251,18,269,0.006212472915649414,single,0.36221232099790457,0.3316504854368931,2,1,0.5,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,81,4478,acbfi_v1,True,765,188,953,0.03308272361755371,beam,0.36221232099790457,0.3316504854368931,2,1,0.5,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,81,4478,untargeted,True,0,296,296,0.030204296112060547,beam,0.36221232099790457,0.3316504854368931,2,1,0.5,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,81,4478,shap_staged,True,46020,14,46034,0.03245282173156738,single,0.36221232099790457,0.3316504854368931,2,1,0.5,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,81,4478,lewis_style,True,1160,9,1169,0.05430030822753906,single,0.36221232099790457,0.3316504854368931,2,1,0.5,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,81,4478,shap_ce,True,46020,343,46363,0.031021833419799805,grid,0.3474110032362461,0.3474110032362461,2,2,1.0,False,"['dti', 'total_acc']","['dti', 'total_acc']"
+financial_loan,1,XGB,81,4478,random_grid_ce,True,0,500,500,0.010907411575317383,grid,2.5660194174757276,2.5660194174757276,3,3,1.0,True,"['dti', 'loan_amount', 'total_acc']","['dti', 'loan_amount', 'total_acc']"
+financial_loan,1,XGB,81,4478,acbfi_v3,True,25,0,25,0.003943443298339844,single,0.36221232099790457,0.3316504854368931,2,1,0.5,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,82,1033,acbfi_v2,True,251,18,269,0.005991935729980469,single,0.3750000000000001,0.37500000000000006,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,82,1033,acbfi_v1,True,765,180,945,0.02761077880859375,beam,0.3750000000000001,0.37500000000000006,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,82,1033,untargeted,True,0,292,292,0.022574663162231445,beam,0.3750000000000001,0.37500000000000006,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,82,1033,shap_staged,True,44668,14,44682,0.027503013610839844,single,0.3750000000000001,0.37500000000000006,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,82,1033,lewis_style,True,560,17,577,0.029068946838378906,single,0.3750000000000001,0.37500000000000006,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,82,1033,shap_ce,True,44668,343,45011,0.02657914161682129,grid,0.6855177993527508,0.6855177993527508,2,2,1.0,False,"['dti', 'total_acc']","['dti', 'total_acc']"
+financial_loan,1,XGB,82,1033,random_grid_ce,True,0,500,500,0.01893305778503418,grid,1.9512135922330105,1.9512135922330105,3,3,1.0,True,"['dti', 'loan_amount', 'total_acc']","['dti', 'loan_amount', 'total_acc']"
+financial_loan,1,XGB,82,1033,acbfi_v3,True,25,0,25,0.0050618648529052734,single,0.3750000000000001,0.37500000000000006,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,83,3395,acbfi_v2,True,251,18,269,0.006515026092529297,single,0.3138607933705498,0.28737864077669906,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,83,3395,acbfi_v1,True,765,184,949,0.03028082847595215,beam,0.3138607933705498,0.28737864077669906,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,83,3395,untargeted,True,0,286,286,0.02297496795654297,beam,0.3138607933705498,0.28737864077669906,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,83,3395,shap_staged,True,42328,18,42346,0.02756190299987793,single,0.3138607933705498,0.28737864077669906,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,83,3395,lewis_style,True,824,14,838,0.0347132682800293,single,0.3138607933705498,0.28737864077669906,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,83,3395,shap_ce,True,42328,343,42671,0.026474475860595703,grid,0.5457119741100325,0.5457119741100325,3,3,1.0,True,"['dti', 'loan_amount', 'total_acc']","['dti', 'loan_amount', 'total_acc']"
+financial_loan,1,XGB,83,3395,random_grid_ce,True,0,500,500,0.00997471809387207,grid,3.0226695568270703,3.0226695568270703,4,4,1.0,True,"['dti', 'loan_amount', 'term', 'total_acc']","['dti', 'loan_amount', 'term', 'total_acc']"
+financial_loan,1,XGB,83,3395,acbfi_v3,True,25,0,25,0.0033462047576904297,single,0.3138607933705498,0.28737864077669906,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,84,6189,acbfi_v2,True,251,18,269,0.004708528518676758,single,0.7500000000000002,0.7500000000000001,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,84,6189,acbfi_v1,True,765,168,933,0.025760650634765625,beam,0.7500000000000001,0.7500000000000001,1,2,1.0,False,"['loan_amount', 'total_acc']",['total_acc']
+financial_loan,1,XGB,84,6189,untargeted,True,0,268,268,0.02370166778564453,beam,0.7500000000000001,0.7500000000000001,1,2,1.0,False,"['loan_amount', 'total_acc']",['total_acc']
+financial_loan,1,XGB,84,6189,shap_staged,True,44460,14,44474,0.02674579620361328,single,0.7500000000000002,0.7500000000000001,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,84,6189,lewis_style,True,1016,10,1026,0.0408022403717041,single,1.125,1.125,1,1,1.0,True,['total_acc'],['total_acc']
+financial_loan,1,XGB,84,6189,shap_ce,True,44460,343,44803,0.02565598487854004,grid,0.4416666666666669,0.4416666666666669,2,2,1.0,False,"['loan_amount', 'total_acc']","['loan_amount', 'total_acc']"
+financial_loan,1,XGB,84,6189,random_grid_ce,True,0,500,500,0.010209083557128906,grid,3.5017473997727584,3.5017473997727584,5,5,1.0,True,"['dti', 'loan_amount', 'term', 'home_ownership', 'total_acc']","['dti', 'loan_amount', 'term', 'home_ownership', 'total_acc']"
+financial_loan,1,XGB,84,6189,acbfi_v3,True,25,0,25,0.0032896995544433594,single,0.7500000000000002,0.7500000000000001,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,85,6313,acbfi_v2,True,251,18,269,0.005834817886352539,single,0.22055082777389978,0.20194174757281544,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,85,6313,acbfi_v1,True,765,190,955,0.03159332275390625,beam,0.22055082777389978,0.20194174757281544,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,85,6313,untargeted,True,0,278,278,0.024891138076782227,beam,0.22055082777389978,0.20194174757281544,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,85,6313,shap_staged,True,44096,16,44112,0.02793145179748535,single,0.7500000000000001,0.7500000000000001,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,85,6313,lewis_style,True,1112,9,1121,0.044114112854003906,single,1.9679920016747978,1.8019417475728157,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,85,6313,shap_ce,True,44096,343,44439,0.02694249153137207,grid,0.3750000000000002,0.3750000000000002,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,85,6313,random_grid_ce,True,0,500,500,0.009543180465698242,grid,3.1769417475728154,3.1769417475728154,3,3,1.0,True,"['dti', 'home_ownership', 'total_acc']","['dti', 'home_ownership', 'total_acc']"
+financial_loan,1,XGB,85,6313,acbfi_v3,True,25,0,25,0.0036721229553222656,single,0.22055082777389978,0.20194174757281544,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,86,873,acbfi_v2,True,251,18,269,0.004572629928588867,single,1.2020020113677536,1.1005825242718448,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,86,873,acbfi_v1,True,765,176,941,0.025338172912597656,beam,1.0494641985519881,1.0220873786407778,3,2,1.0,True,"['dti', 'total_acc']","['dti', 'int_rate', 'total_acc']"
+financial_loan,1,XGB,86,873,untargeted,True,0,280,280,0.02410745620727539,beam,1.0494641985519881,1.0220873786407778,3,2,1.0,True,"['dti', 'total_acc']","['dti', 'int_rate', 'total_acc']"
+financial_loan,1,XGB,86,873,shap_staged,True,42900,18,42918,0.02562713623046875,single,1.2020020113677536,1.1005825242718448,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,86,873,lewis_style,True,848,12,860,0.04448223114013672,single,1.2020020113677536,1.1005825242718448,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,86,873,shap_ce,True,42900,343,43243,0.024024009704589844,grid,1.1970873786407767,1.1970873786407767,3,3,1.0,True,"['dti', 'loan_amount', 'total_acc']","['dti', 'loan_amount', 'total_acc']"
+financial_loan,1,XGB,86,873,random_grid_ce,True,0,500,500,0.009764909744262695,grid,3.1970873786407763,3.1970873786407763,4,4,1.0,True,"['dti', 'loan_amount', 'home_ownership', 'total_acc']","['dti', 'loan_amount', 'home_ownership', 'total_acc']"
+financial_loan,1,XGB,86,873,acbfi_v3,True,25,0,25,0.003557443618774414,single,1.2020020113677536,1.1005825242718448,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,87,6194,acbfi_v2,True,251,18,269,0.0055501461029052734,single,2.0,2.0,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,87,6194,acbfi_v1,True,765,164,929,0.031075477600097656,beam,2.0,2.0,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,87,6194,untargeted,True,0,258,258,0.025060415267944336,beam,2.0,2.0,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,87,6194,shap_staged,True,42692,18,42710,0.028093338012695312,single,2.0,2.0,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,87,6194,lewis_style,True,1184,9,1193,0.04941058158874512,single,3.5,3.5,1,1,1.0,True,['total_acc'],['total_acc']
+financial_loan,1,XGB,87,6194,shap_ce,True,42692,343,43035,0.027031898498535156,grid,0.6906148867313925,0.6906148867313925,3,3,1.0,True,"['dti', 'loan_amount', 'total_acc']","['dti', 'loan_amount', 'total_acc']"
+financial_loan,1,XGB,87,6194,random_grid_ce,True,0,500,500,0.009810209274291992,grid,2.0072815533980597,2.0072815533980597,3,3,1.0,True,"['dti', 'loan_amount', 'total_acc']","['dti', 'loan_amount', 'total_acc']"
+financial_loan,1,XGB,87,6194,acbfi_v3,True,25,0,25,0.003693819046020508,single,2.0,2.0,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,88,721,acbfi_v2,True,251,14,265,0.005571126937866211,single,0.242181414327945,0.10000000000000002,3,1,1.0,False,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,XGB,88,721,acbfi_v1,True,765,180,945,0.030890464782714844,beam,0.242181414327945,0.10000000000000002,3,1,1.0,False,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,XGB,88,721,untargeted,True,0,294,294,0.02398395538330078,beam,0.242181414327945,0.10000000000000002,3,1,1.0,False,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,XGB,88,721,shap_staged,True,44772,14,44786,0.02690863609313965,single,0.242181414327945,0.10000000000000002,3,1,1.0,False,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,XGB,88,721,lewis_style,True,1208,11,1219,0.047739267349243164,single,0.242181414327945,0.10000000000000002,3,1,1.0,False,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,XGB,88,721,shap_ce,True,44772,343,45115,0.02581644058227539,grid,0.29166666666666674,0.29166666666666674,2,2,0.5,False,"['loan_amount', 'total_acc']","['loan_amount', 'total_acc']"
+financial_loan,1,XGB,88,721,random_grid_ce,True,0,500,500,0.009908914566040039,grid,1.8769901182193607,1.8769901182193607,4,4,1.0,False,"['dti', 'loan_amount', 'term', 'total_acc']","['dti', 'loan_amount', 'term', 'total_acc']"
+financial_loan,1,XGB,88,721,acbfi_v3,True,25,0,25,0.003537416458129883,single,0.242181414327945,0.10000000000000002,3,1,1.0,False,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,XGB,89,5363,acbfi_v2,True,251,18,269,0.0047070980072021484,single,0.605453535819863,0.25,3,1,1.0,False,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,XGB,89,5363,acbfi_v1,True,765,194,959,0.025623083114624023,beam,0.605453535819863,0.25,3,1,1.0,False,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,XGB,89,5363,untargeted,True,0,300,300,0.02260422706604004,beam,0.605453535819863,0.25,3,1,1.0,False,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,XGB,89,5363,shap_staged,True,42900,12,42912,0.0271453857421875,single,1.75,1.7499999999999998,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,89,5363,lewis_style,True,680,16,696,0.027945518493652344,single,0.605453535819863,0.25,3,1,1.0,False,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,XGB,89,5363,shap_ce,True,42900,343,43243,0.026397705078125,grid,0.7500000000000007,0.7500000000000007,1,1,1.0,True,['total_acc'],['total_acc']
+financial_loan,1,XGB,89,5363,random_grid_ce,True,0,500,500,0.009774208068847656,grid,3.5878640776699045,3.5878640776699045,3,3,1.0,True,"['dti', 'loan_amount', 'total_acc']","['dti', 'loan_amount', 'total_acc']"
+financial_loan,1,XGB,89,5363,acbfi_v3,True,25,0,25,0.0034906864166259766,single,0.605453535819863,0.25,3,1,1.0,False,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,XGB,90,4873,acbfi_v2,True,251,18,269,0.0049054622650146484,single,1.25,1.25,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,90,4873,acbfi_v1,True,765,176,941,0.026257038116455078,beam,1.25,1.25,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,90,4873,untargeted,True,0,268,268,0.022875547409057617,beam,1.25,1.25,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,90,4873,shap_staged,True,44252,14,44266,0.02605295181274414,single,1.25,1.25,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,90,4873,lewis_style,True,992,11,1003,0.039679765701293945,single,2.9986429853105214,2.7456310679611646,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,90,4873,shap_ce,True,44252,343,44595,0.025066375732421875,grid,0.41019417475728104,0.41019417475728104,2,2,1.0,False,"['dti', 'total_acc']","['dti', 'total_acc']"
+financial_loan,1,XGB,90,4873,random_grid_ce,True,0,500,500,0.01040029525756836,grid,3.610194174757281,3.610194174757281,4,4,1.0,False,"['dti', 'loan_amount', 'home_ownership', 'total_acc']","['dti', 'loan_amount', 'home_ownership', 'total_acc']"
+financial_loan,1,XGB,90,4873,acbfi_v3,True,25,0,25,0.0032427310943603516,single,1.25,1.25,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,91,4595,acbfi_v2,True,251,18,269,0.005942821502685547,single,0.6319629488136741,0.5786407766990289,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,91,4595,acbfi_v1,True,765,168,933,0.03169655799865723,beam,0.6319629488136741,0.5786407766990289,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,91,4595,untargeted,True,0,294,294,0.026823997497558594,beam,0.6319629488136741,0.5786407766990289,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,91,4595,shap_staged,True,42796,18,42814,0.030120849609375,single,0.6319629488136741,0.5786407766990289,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,91,4595,lewis_style,True,752,13,765,0.03101038932800293,single,0.6319629488136741,0.5786407766990289,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,91,4595,shap_ce,True,42796,343,43139,0.0287630558013916,grid,0.9099676375404533,0.9099676375404533,2,2,1.0,True,"['dti', 'loan_amount']","['dti', 'loan_amount']"
+financial_loan,1,XGB,91,4595,random_grid_ce,True,0,500,500,0.009807348251342773,grid,1.6787862347242144,1.6787862347242144,3,3,1.0,True,"['dti', 'loan_amount', 'term']","['dti', 'loan_amount', 'term']"
+financial_loan,1,XGB,91,4595,acbfi_v3,True,25,0,25,0.0032837390899658203,single,0.6319629488136741,0.5786407766990289,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,92,3424,acbfi_v2,True,251,14,265,0.00474095344543457,single,3.338173814768696,2.320581832100742,2,1,1.0,False,['term'],"['term', 'installment']"
+financial_loan,1,XGB,92,3424,acbfi_v1,True,765,140,905,0.03008127212524414,beam,3.296814143279452,1.875,4,2,1.0,False,"['total_acc', 'loan_amount']","['loan_amount', 'installment', 'int_rate', 'total_acc']"
+financial_loan,1,XGB,92,3424,untargeted,True,0,266,266,0.028673171997070312,beam,3.296814143279452,1.875,4,2,1.0,False,"['total_acc', 'loan_amount']","['loan_amount', 'installment', 'int_rate', 'total_acc']"
+financial_loan,1,XGB,92,3424,shap_staged,True,44668,18,44686,0.024433374404907227,single,4.359265457903014,1.8,3,1,1.0,False,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,XGB,92,3424,lewis_style,True,920,10,930,0.0531003475189209,single,4.359265457903014,1.8,3,1,1.0,False,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,XGB,92,3424,shap_ce,True,44668,343,45011,0.023098230361938477,grid,3.4315533980582527,3.4315533980582527,3,3,1.0,True,"['dti', 'loan_amount', 'total_acc']","['dti', 'loan_amount', 'total_acc']"
+financial_loan,1,XGB,92,3424,random_grid_ce,True,0,500,500,0.018533706665039062,grid,4.011698856083438,4.011698856083438,4,4,1.0,True,"['dti', 'loan_amount', 'term', 'total_acc']","['dti', 'loan_amount', 'term', 'total_acc']"
+financial_loan,1,XGB,92,3424,acbfi_v3,True,25,0,25,0.00407719612121582,single,3.338173814768696,2.320581832100742,2,1,1.0,False,['term'],"['term', 'installment']"
+financial_loan,1,XGB,93,6823,acbfi_v2,True,251,18,269,0.004879474639892578,single,1.1250000000000009,1.1250000000000002,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,93,6823,acbfi_v1,True,765,168,933,0.027985334396362305,beam,1.1250000000000009,1.1250000000000002,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,93,6823,untargeted,True,0,286,286,0.02579498291015625,beam,1.1250000000000009,1.1250000000000002,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,93,6823,shap_staged,True,43784,14,43798,0.025126934051513672,single,2.131284441468936,1.951456310679612,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,93,6823,lewis_style,True,608,13,621,0.02685236930847168,single,1.5000000000000009,1.5000000000000002,1,1,1.0,True,['total_acc'],['total_acc']
+financial_loan,1,XGB,93,6823,shap_ce,True,43784,343,44127,0.024006128311157227,grid,1.2676697875507719,1.2676697875507719,3,3,1.0,False,"['dti', 'loan_amount', 'term']","['dti', 'loan_amount', 'term']"
+financial_loan,1,XGB,93,6823,random_grid_ce,True,0,500,500,0.009667396545410156,grid,3.001456310679612,3.001456310679612,3,3,1.0,True,"['dti', 'loan_amount', 'total_acc']","['dti', 'loan_amount', 'total_acc']"
+financial_loan,1,XGB,93,6823,acbfi_v3,True,25,0,25,0.0034677982330322266,single,1.1250000000000009,1.1250000000000002,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,94,7129,acbfi_v2,True,251,18,269,0.005244255065917969,single,0.37500000000000056,0.37500000000000006,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,94,7129,acbfi_v1,True,765,160,925,0.027372360229492188,beam,0.37500000000000056,0.37500000000000006,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,94,7129,untargeted,True,0,286,286,0.023794174194335938,beam,0.37500000000000056,0.37500000000000006,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,94,7129,shap_staged,True,44460,16,44476,0.025454044342041016,single,0.8126449731053699,0.744077669902913,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,94,7129,lewis_style,True,1040,14,1054,0.043657541275024414,single,0.9250410680286071,0.8469902912621359,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,94,7129,shap_ce,True,44460,343,44803,0.024373531341552734,grid,1.067443365695793,1.067443365695793,2,2,1.0,True,"['dti', 'loan_amount']","['dti', 'loan_amount']"
+financial_loan,1,XGB,94,7129,random_grid_ce,True,0,500,500,0.010430335998535156,grid,2.4211650485436893,2.4211650485436893,3,3,1.0,True,"['dti', 'loan_amount', 'home_ownership']","['dti', 'loan_amount', 'home_ownership']"
+financial_loan,1,XGB,94,7129,acbfi_v3,True,25,0,25,0.0032515525817871094,single,0.37500000000000056,0.37500000000000006,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,95,3757,acbfi_v2,True,251,18,269,0.0046770572662353516,single,0.14999999999999852,0.14999999999999852,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,95,3757,acbfi_v1,True,765,176,941,0.02486419677734375,beam,0.14999999999999852,0.14999999999999852,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,95,3757,untargeted,True,0,294,294,0.022325754165649414,beam,0.14999999999999852,0.14999999999999852,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,95,3757,shap_staged,True,44616,14,44630,0.026910066604614258,single,0.14999999999999852,0.14999999999999852,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,95,3757,lewis_style,True,944,15,959,0.03920459747314453,single,0.14999999999999852,0.14999999999999852,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,95,3757,shap_ce,True,44616,343,44959,0.025948762893676758,grid,0.2114077669902913,0.2114077669902913,2,2,1.0,False,"['dti', 'total_acc']","['dti', 'total_acc']"
+financial_loan,1,XGB,95,3757,random_grid_ce,True,0,500,500,0.00975942611694336,grid,2.6616986830406626,2.6616986830406626,4,4,1.0,True,"['dti', 'loan_amount', 'term', 'total_acc']","['dti', 'loan_amount', 'term', 'total_acc']"
+financial_loan,1,XGB,95,3757,acbfi_v3,True,25,0,25,0.003541231155395508,single,0.14999999999999852,0.14999999999999852,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,96,1721,acbfi_v2,True,251,14,265,0.004668235778808594,single,0.7499999999999999,0.7499999999999999,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,96,1721,acbfi_v1,True,765,180,945,0.04188394546508789,beam,0.7499999999999999,0.7499999999999999,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,96,1721,untargeted,True,0,294,294,0.023871421813964844,beam,0.7499999999999999,0.7499999999999999,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,96,1721,shap_staged,True,44408,14,44422,0.025774002075195312,single,2.334869820952535,2.137864077669903,2,1,1.0,True,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,96,1721,lewis_style,True,776,13,789,0.03288865089416504,single,1.5000000000000002,1.5000000000000002,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,96,1721,shap_ce,True,44408,343,44751,0.024815797805786133,grid,0.8540775545410625,0.8540775545410625,3,3,1.0,False,"['dti', 'loan_amount', 'term']","['dti', 'loan_amount', 'term']"
+financial_loan,1,XGB,96,1721,random_grid_ce,True,0,500,500,0.009772062301635742,grid,3.3532520810989146,3.3532520810989146,4,4,1.0,False,"['dti', 'loan_amount', 'term', 'total_acc']","['dti', 'loan_amount', 'term', 'total_acc']"
+financial_loan,1,XGB,96,1721,acbfi_v3,True,25,0,25,0.003426074981689453,single,0.7499999999999999,0.7499999999999999,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,97,1252,acbfi_v2,True,251,18,269,0.004943132400512695,single,0.5598597935798993,0.512621359223301,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,97,1252,acbfi_v1,True,765,184,949,0.02788567543029785,beam,0.5598597935798993,0.512621359223301,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,97,1252,untargeted,True,0,292,292,0.02307581901550293,beam,0.5598597935798993,0.512621359223301,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,97,1252,shap_staged,True,44772,14,44786,0.036379337310791016,single,0.6250000000000002,0.6250000000000001,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,97,1252,lewis_style,True,1088,9,1097,0.06153130531311035,single,1.0000000000000002,1.0,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,97,1252,shap_ce,True,44772,343,45115,0.03572392463684082,grid,1.775,1.775,2,2,1.0,False,"['loan_amount', 'total_acc']","['loan_amount', 'total_acc']"
+financial_loan,1,XGB,97,1252,random_grid_ce,True,0,500,500,0.017682552337646484,grid,2.2376213592233007,2.2376213592233007,3,3,1.0,False,"['dti', 'loan_amount', 'total_acc']","['dti', 'loan_amount', 'total_acc']"
+financial_loan,1,XGB,97,1252,acbfi_v3,True,25,0,25,0.004606723785400391,single,0.5598597935798993,0.512621359223301,2,1,1.0,False,['dti'],"['dti', 'int_rate']"
+financial_loan,1,XGB,98,4079,acbfi_v2,True,251,14,265,0.00503087043762207,single,2.6639955576073975,1.1,3,1,1.0,False,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,XGB,98,4079,acbfi_v1,True,765,172,937,0.029020309448242188,beam,2.6639955576073975,1.1,3,1,1.0,False,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,XGB,98,4079,untargeted,True,0,266,266,0.030062198638916016,beam,2.6639955576073975,1.1,3,1,1.0,False,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,XGB,98,4079,shap_staged,True,44928,14,44942,0.030199527740478516,single,2.6639955576073975,1.1,3,1,1.0,False,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,XGB,98,4079,lewis_style,True,1232,10,1242,0.05371665954589844,single,2.6639955576073975,1.1,3,1,1.0,False,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,XGB,98,4079,shap_ce,True,44928,343,45271,0.029536724090576172,grid,3.9250000000000003,3.9250000000000003,2,2,1.0,True,"['loan_amount', 'total_acc']","['loan_amount', 'total_acc']"
+financial_loan,1,XGB,98,4079,random_grid_ce,True,0,500,500,0.010149002075195312,grid,3.9754854368932033,3.9754854368932033,3,3,1.0,True,"['dti', 'loan_amount', 'total_acc']","['dti', 'loan_amount', 'total_acc']"
+financial_loan,1,XGB,98,4079,acbfi_v3,True,25,0,25,0.0034034252166748047,single,2.6639955576073975,1.1,3,1,1.0,False,['loan_amount'],"['loan_amount', 'installment', 'int_rate']"
+financial_loan,1,XGB,99,1177,acbfi_v2,True,251,18,269,0.005184173583984375,single,0.14999999999999852,0.14999999999999852,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,99,1177,acbfi_v1,True,765,184,949,0.03140425682067871,beam,0.14999999999999852,0.14999999999999852,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,99,1177,untargeted,True,0,264,264,0.02394270896911621,beam,0.14999999999999852,0.14999999999999852,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,99,1177,shap_staged,True,44356,18,44374,0.03257894515991211,single,0.14999999999999852,0.14999999999999852,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,99,1177,lewis_style,True,872,13,885,0.04046297073364258,single,0.14999999999999852,0.14999999999999852,1,1,1.0,False,['total_acc'],['total_acc']
+financial_loan,1,XGB,99,1177,shap_ce,True,44356,343,44699,0.03117966651916504,grid,0.8389158576051786,0.8389158576051786,3,3,1.0,True,"['dti', 'loan_amount', 'total_acc']","['dti', 'loan_amount', 'total_acc']"
+financial_loan,1,XGB,99,1177,random_grid_ce,True,0,500,500,0.011157989501953125,grid,2.8983009708737866,2.8983009708737866,3,3,1.0,True,"['dti', 'loan_amount', 'total_acc']","['dti', 'loan_amount', 'total_acc']"
+financial_loan,1,XGB,99,1177,acbfi_v3,True,25,0,25,0.0038475990295410156,single,0.14999999999999852,0.14999999999999852,1,1,1.0,False,['total_acc'],['total_acc']

@@ -1,0 +1,1537 @@
+﻿dataset,seed,model,query,test_row,variant,method,success,evals,actions,valid_under_llm,valid_no_prop
+german_credit,0,RF,0,6,llm,acbfi_v3,True,60,"[""amount""]",True,True
+german_credit,0,RF,0,6,llm,untargeted,True,500,"[""amount""]",True,True
+german_credit,0,RF,0,6,drop30_r1,acbfi_v3,True,60,"[""amount""]",True,True
+german_credit,0,RF,0,6,drop30_r1,untargeted,True,500,"[""amount""]",True,True
+german_credit,0,RF,0,6,rev30_r1,acbfi_v3,True,60,"[""amount""]",True,True
+german_credit,0,RF,0,6,rev30_r1,untargeted,True,500,"[""amount""]",True,True
+german_credit,0,RF,0,6,drop30_r2,acbfi_v3,True,60,"[""amount""]",True,True
+german_credit,0,RF,0,6,drop30_r2,untargeted,True,500,"[""amount""]",True,True
+german_credit,0,RF,0,6,rev30_r2,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,RF,0,6,rev30_r2,untargeted,True,500,"[""amount"", ""months_loan_duration""]",True,True
+german_credit,0,RF,0,6,empty,acbfi_v3,True,60,"[""amount""]",True,True
+german_credit,0,RF,0,6,empty,untargeted,True,500,"[""amount""]",True,True
+german_credit,0,RF,0,6,pc,acbfi_v3,True,60,"[""amount""]",True,True
+german_credit,0,RF,0,6,pc,untargeted,True,500,"[""amount"", ""months_loan_duration""]",True,True
+german_credit,0,RF,0,6,gbr,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,RF,0,6,gbr,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,RF,1,165,llm,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,RF,1,165,llm,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,RF,1,165,drop30_r1,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,RF,1,165,drop30_r1,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,RF,1,165,rev30_r1,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,RF,1,165,rev30_r1,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,RF,1,165,drop30_r2,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,RF,1,165,drop30_r2,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,RF,1,165,rev30_r2,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,RF,1,165,rev30_r2,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,RF,1,165,empty,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,RF,1,165,empty,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,RF,1,165,pc,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,RF,1,165,pc,untargeted,True,500,"[""checking_balance"", ""savings_balance""]",True,True
+german_credit,0,RF,1,165,gbr,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,RF,1,165,gbr,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,RF,2,98,llm,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,RF,2,98,llm,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,RF,2,98,drop30_r1,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,RF,2,98,drop30_r1,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,RF,2,98,rev30_r1,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,RF,2,98,rev30_r1,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,RF,2,98,drop30_r2,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,RF,2,98,drop30_r2,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,RF,2,98,rev30_r2,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,RF,2,98,rev30_r2,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,RF,2,98,empty,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,RF,2,98,empty,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,RF,2,98,pc,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,RF,2,98,pc,untargeted,True,500,"[""checking_balance"", ""months_loan_duration"", ""savings_balance""]",True,True
+german_credit,0,RF,2,98,gbr,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,RF,2,98,gbr,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,RF,3,4,llm,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,RF,3,4,llm,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,RF,3,4,drop30_r1,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,RF,3,4,drop30_r1,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,RF,3,4,rev30_r1,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,RF,3,4,rev30_r1,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,RF,3,4,drop30_r2,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,RF,3,4,drop30_r2,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,RF,3,4,rev30_r2,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,RF,3,4,rev30_r2,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,RF,3,4,empty,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,RF,3,4,empty,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,RF,3,4,pc,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,RF,3,4,pc,untargeted,True,500,"[""checking_balance"", ""savings_balance""]",True,True
+german_credit,0,RF,3,4,gbr,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,RF,3,4,gbr,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,RF,4,168,llm,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,RF,4,168,llm,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,RF,4,168,drop30_r1,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,RF,4,168,drop30_r1,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,RF,4,168,rev30_r1,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,RF,4,168,rev30_r1,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,RF,4,168,drop30_r2,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,RF,4,168,drop30_r2,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,RF,4,168,rev30_r2,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,RF,4,168,rev30_r2,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,RF,4,168,empty,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,RF,4,168,empty,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,RF,4,168,pc,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,RF,4,168,pc,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,RF,4,168,gbr,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,RF,4,168,gbr,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,RF,5,49,llm,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,RF,5,49,llm,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,RF,5,49,drop30_r1,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,RF,5,49,drop30_r1,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,RF,5,49,rev30_r1,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,RF,5,49,rev30_r1,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,RF,5,49,drop30_r2,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,RF,5,49,drop30_r2,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,RF,5,49,rev30_r2,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,RF,5,49,rev30_r2,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,RF,5,49,empty,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,RF,5,49,empty,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,RF,5,49,pc,acbfi_v3,True,60,"[""employment_length""]",True,True
+german_credit,0,RF,5,49,pc,untargeted,True,500,"[""checking_balance"", ""months_loan_duration"", ""savings_balance""]",True,True
+german_credit,0,RF,5,49,gbr,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,RF,5,49,gbr,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,RF,6,162,llm,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,RF,6,162,llm,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,RF,6,162,drop30_r1,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,RF,6,162,drop30_r1,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,RF,6,162,rev30_r1,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,RF,6,162,rev30_r1,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,RF,6,162,drop30_r2,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,RF,6,162,drop30_r2,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,RF,6,162,rev30_r2,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,RF,6,162,rev30_r2,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,RF,6,162,empty,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,RF,6,162,empty,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,RF,6,162,pc,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,RF,6,162,pc,untargeted,True,500,"[""checking_balance"", ""months_loan_duration"", ""savings_balance""]",True,True
+german_credit,0,RF,6,162,gbr,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,RF,6,162,gbr,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,RF,7,109,llm,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,RF,7,109,llm,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,RF,7,109,drop30_r1,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,RF,7,109,drop30_r1,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,RF,7,109,rev30_r1,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,RF,7,109,rev30_r1,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,RF,7,109,drop30_r2,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,RF,7,109,drop30_r2,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,RF,7,109,rev30_r2,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,RF,7,109,rev30_r2,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,RF,7,109,empty,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,RF,7,109,empty,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,RF,7,109,pc,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,RF,7,109,pc,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,RF,7,109,gbr,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,RF,7,109,gbr,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,RF,8,79,llm,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,RF,8,79,llm,untargeted,True,500,"[""purpose"", ""savings_balance""]",True,True
+german_credit,0,RF,8,79,drop30_r1,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,RF,8,79,drop30_r1,untargeted,True,500,"[""purpose"", ""savings_balance""]",True,True
+german_credit,0,RF,8,79,rev30_r1,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,RF,8,79,rev30_r1,untargeted,True,500,"[""purpose"", ""savings_balance""]",True,True
+german_credit,0,RF,8,79,drop30_r2,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,RF,8,79,drop30_r2,untargeted,True,500,"[""purpose"", ""savings_balance""]",True,True
+german_credit,0,RF,8,79,rev30_r2,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,RF,8,79,rev30_r2,untargeted,True,500,"[""purpose"", ""savings_balance""]",True,True
+german_credit,0,RF,8,79,empty,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,RF,8,79,empty,untargeted,True,500,"[""purpose"", ""savings_balance""]",True,True
+german_credit,0,RF,8,79,pc,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,RF,8,79,pc,untargeted,True,500,"[""checking_balance"", ""purpose"", ""savings_balance""]",True,True
+german_credit,0,RF,8,79,gbr,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,RF,8,79,gbr,untargeted,True,500,"[""purpose"", ""savings_balance""]",True,True
+german_credit,0,RF,9,186,llm,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,RF,9,186,llm,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,RF,9,186,drop30_r1,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,RF,9,186,drop30_r1,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,RF,9,186,rev30_r1,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,RF,9,186,rev30_r1,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,RF,9,186,drop30_r2,acbfi_v3,True,60,"[""months_loan_duration""]",False,True
+german_credit,0,RF,9,186,drop30_r2,untargeted,True,500,"[""months_loan_duration""]",False,True
+german_credit,0,RF,9,186,rev30_r2,acbfi_v3,True,60,"[""months_loan_duration""]",False,True
+german_credit,0,RF,9,186,rev30_r2,untargeted,True,500,"[""months_loan_duration""]",False,True
+german_credit,0,RF,9,186,empty,acbfi_v3,True,60,"[""months_loan_duration""]",False,True
+german_credit,0,RF,9,186,empty,untargeted,True,500,"[""months_loan_duration""]",False,True
+german_credit,0,RF,9,186,pc,acbfi_v3,True,60,"[""months_loan_duration""]",False,True
+german_credit,0,RF,9,186,pc,untargeted,True,500,"[""checking_balance"", ""months_loan_duration""]",False,True
+german_credit,0,RF,9,186,gbr,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,RF,9,186,gbr,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,RF,10,82,llm,acbfi_v3,True,60,"[""amount""]",True,True
+german_credit,0,RF,10,82,llm,untargeted,True,500,"[""amount""]",True,True
+german_credit,0,RF,10,82,drop30_r1,acbfi_v3,True,60,"[""amount""]",True,True
+german_credit,0,RF,10,82,drop30_r1,untargeted,True,500,"[""amount""]",True,True
+german_credit,0,RF,10,82,rev30_r1,acbfi_v3,True,60,"[""amount""]",True,True
+german_credit,0,RF,10,82,rev30_r1,untargeted,True,500,"[""amount""]",True,True
+german_credit,0,RF,10,82,drop30_r2,acbfi_v3,True,60,"[""amount""]",True,True
+german_credit,0,RF,10,82,drop30_r2,untargeted,True,500,"[""amount""]",True,True
+german_credit,0,RF,10,82,rev30_r2,acbfi_v3,True,60,"[""amount""]",True,True
+german_credit,0,RF,10,82,rev30_r2,untargeted,True,500,"[""amount""]",True,True
+german_credit,0,RF,10,82,empty,acbfi_v3,True,60,"[""amount""]",True,True
+german_credit,0,RF,10,82,empty,untargeted,True,500,"[""amount""]",True,True
+german_credit,0,RF,10,82,pc,acbfi_v3,True,60,"[""amount""]",True,True
+german_credit,0,RF,10,82,pc,untargeted,True,500,"[""amount""]",True,True
+german_credit,0,RF,10,82,gbr,acbfi_v3,True,60,"[""amount""]",True,True
+german_credit,0,RF,10,82,gbr,untargeted,True,500,"[""amount""]",True,True
+german_credit,0,RF,11,40,llm,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,RF,11,40,llm,untargeted,True,500,"[""checking_balance"", ""savings_balance""]",True,True
+german_credit,0,RF,11,40,drop30_r1,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,RF,11,40,drop30_r1,untargeted,True,500,"[""checking_balance"", ""savings_balance""]",True,True
+german_credit,0,RF,11,40,rev30_r1,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,RF,11,40,rev30_r1,untargeted,True,500,"[""checking_balance"", ""savings_balance""]",True,True
+german_credit,0,RF,11,40,drop30_r2,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,RF,11,40,drop30_r2,untargeted,True,500,"[""checking_balance"", ""savings_balance""]",True,True
+german_credit,0,RF,11,40,rev30_r2,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,RF,11,40,rev30_r2,untargeted,True,500,"[""checking_balance"", ""savings_balance""]",True,True
+german_credit,0,RF,11,40,empty,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,RF,11,40,empty,untargeted,True,500,"[""checking_balance"", ""savings_balance""]",True,True
+german_credit,0,RF,11,40,pc,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,RF,11,40,pc,untargeted,True,500,"[""checking_balance"", ""savings_balance""]",True,True
+german_credit,0,RF,11,40,gbr,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,RF,11,40,gbr,untargeted,True,500,"[""checking_balance"", ""savings_balance""]",True,True
+german_credit,0,RF,12,83,llm,acbfi_v3,True,60,"[""amount""]",True,True
+german_credit,0,RF,12,83,llm,untargeted,True,500,"[""amount""]",True,True
+german_credit,0,RF,12,83,drop30_r1,acbfi_v3,True,60,"[""amount""]",True,True
+german_credit,0,RF,12,83,drop30_r1,untargeted,True,500,"[""amount""]",True,True
+german_credit,0,RF,12,83,rev30_r1,acbfi_v3,True,60,"[""amount""]",True,True
+german_credit,0,RF,12,83,rev30_r1,untargeted,True,500,"[""amount""]",True,True
+german_credit,0,RF,12,83,drop30_r2,acbfi_v3,True,60,"[""amount""]",True,True
+german_credit,0,RF,12,83,drop30_r2,untargeted,True,500,"[""amount""]",True,True
+german_credit,0,RF,12,83,rev30_r2,acbfi_v3,True,60,"[""amount""]",True,True
+german_credit,0,RF,12,83,rev30_r2,untargeted,True,500,"[""amount"", ""months_loan_duration""]",True,True
+german_credit,0,RF,12,83,empty,acbfi_v3,True,60,"[""amount""]",True,True
+german_credit,0,RF,12,83,empty,untargeted,True,500,"[""amount""]",True,True
+german_credit,0,RF,12,83,pc,acbfi_v3,True,60,"[""amount""]",True,True
+german_credit,0,RF,12,83,pc,untargeted,True,500,"[""amount"", ""job"", ""months_loan_duration""]",True,True
+german_credit,0,RF,12,83,gbr,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,RF,12,83,gbr,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,RF,13,197,llm,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,RF,13,197,llm,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,RF,13,197,drop30_r1,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,RF,13,197,drop30_r1,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,RF,13,197,rev30_r1,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,RF,13,197,rev30_r1,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,RF,13,197,drop30_r2,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,RF,13,197,drop30_r2,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,RF,13,197,rev30_r2,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,RF,13,197,rev30_r2,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,RF,13,197,empty,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,RF,13,197,empty,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,RF,13,197,pc,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,RF,13,197,pc,untargeted,True,500,"[""checking_balance"", ""employment_length""]",True,True
+german_credit,0,RF,13,197,gbr,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,RF,13,197,gbr,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,RF,14,189,llm,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,RF,14,189,llm,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,RF,14,189,drop30_r1,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,RF,14,189,drop30_r1,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,RF,14,189,rev30_r1,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,RF,14,189,rev30_r1,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,RF,14,189,drop30_r2,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,RF,14,189,drop30_r2,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,RF,14,189,rev30_r2,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,RF,14,189,rev30_r2,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,RF,14,189,empty,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,RF,14,189,empty,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,RF,14,189,pc,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,RF,14,189,pc,untargeted,True,500,"[""checking_balance"", ""savings_balance""]",True,True
+german_credit,0,RF,14,189,gbr,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,RF,14,189,gbr,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,RF,15,145,llm,acbfi_v3,True,60,"[""amount""]",True,True
+german_credit,0,RF,15,145,llm,untargeted,True,500,"[""amount""]",True,True
+german_credit,0,RF,15,145,drop30_r1,acbfi_v3,True,60,"[""amount""]",True,True
+german_credit,0,RF,15,145,drop30_r1,untargeted,True,500,"[""amount""]",True,True
+german_credit,0,RF,15,145,rev30_r1,acbfi_v3,True,60,"[""amount""]",True,True
+german_credit,0,RF,15,145,rev30_r1,untargeted,True,500,"[""amount""]",True,True
+german_credit,0,RF,15,145,drop30_r2,acbfi_v3,True,60,"[""amount""]",True,True
+german_credit,0,RF,15,145,drop30_r2,untargeted,True,500,"[""amount""]",True,True
+german_credit,0,RF,15,145,rev30_r2,acbfi_v3,True,60,"[""amount""]",True,True
+german_credit,0,RF,15,145,rev30_r2,untargeted,True,500,"[""amount"", ""months_loan_duration""]",True,True
+german_credit,0,RF,15,145,empty,acbfi_v3,True,60,"[""amount""]",True,True
+german_credit,0,RF,15,145,empty,untargeted,True,500,"[""amount""]",True,True
+german_credit,0,RF,15,145,pc,acbfi_v3,True,60,"[""amount""]",True,True
+german_credit,0,RF,15,145,pc,untargeted,True,500,"[""amount"", ""months_loan_duration""]",True,True
+german_credit,0,RF,15,145,gbr,acbfi_v3,True,60,"[""amount""]",True,True
+german_credit,0,RF,15,145,gbr,untargeted,True,500,"[""amount""]",True,True
+german_credit,0,RF,16,120,llm,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,RF,16,120,llm,untargeted,True,500,"[""property"", ""purpose""]",True,True
+german_credit,0,RF,16,120,drop30_r1,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,RF,16,120,drop30_r1,untargeted,True,500,"[""property"", ""purpose""]",True,True
+german_credit,0,RF,16,120,rev30_r1,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,RF,16,120,rev30_r1,untargeted,True,500,"[""property"", ""purpose""]",True,True
+german_credit,0,RF,16,120,drop30_r2,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,RF,16,120,drop30_r2,untargeted,True,500,"[""property"", ""purpose""]",True,True
+german_credit,0,RF,16,120,rev30_r2,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,RF,16,120,rev30_r2,untargeted,True,500,"[""property"", ""purpose""]",True,True
+german_credit,0,RF,16,120,empty,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,RF,16,120,empty,untargeted,True,500,"[""property"", ""purpose""]",True,True
+german_credit,0,RF,16,120,pc,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,RF,16,120,pc,untargeted,True,500,"[""property"", ""purpose""]",True,True
+german_credit,0,RF,16,120,gbr,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,RF,16,120,gbr,untargeted,True,500,"[""property"", ""purpose""]",True,True
+german_credit,0,RF,17,81,llm,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,RF,17,81,llm,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,RF,17,81,drop30_r1,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,RF,17,81,drop30_r1,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,RF,17,81,rev30_r1,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,RF,17,81,rev30_r1,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,RF,17,81,drop30_r2,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,RF,17,81,drop30_r2,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,RF,17,81,rev30_r2,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,RF,17,81,rev30_r2,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,RF,17,81,empty,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,RF,17,81,empty,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,RF,17,81,pc,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,RF,17,81,pc,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,RF,17,81,gbr,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,RF,17,81,gbr,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,RF,18,72,llm,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,RF,18,72,llm,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,RF,18,72,drop30_r1,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,RF,18,72,drop30_r1,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,RF,18,72,rev30_r1,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,RF,18,72,rev30_r1,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,RF,18,72,drop30_r2,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,RF,18,72,drop30_r2,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,RF,18,72,rev30_r2,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,RF,18,72,rev30_r2,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,RF,18,72,empty,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,RF,18,72,empty,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,RF,18,72,pc,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,RF,18,72,pc,untargeted,True,500,"[""checking_balance"", ""savings_balance""]",True,True
+german_credit,0,RF,18,72,gbr,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,RF,18,72,gbr,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,RF,19,10,llm,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,RF,19,10,llm,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,RF,19,10,drop30_r1,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,RF,19,10,drop30_r1,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,RF,19,10,rev30_r1,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,RF,19,10,rev30_r1,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,RF,19,10,drop30_r2,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,RF,19,10,drop30_r2,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,RF,19,10,rev30_r2,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,RF,19,10,rev30_r2,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,RF,19,10,empty,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,RF,19,10,empty,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,RF,19,10,pc,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,RF,19,10,pc,untargeted,True,500,"[""checking_balance"", ""savings_balance""]",True,True
+german_credit,0,RF,19,10,gbr,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,RF,19,10,gbr,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,RF,20,3,llm,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,RF,20,3,llm,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,RF,20,3,drop30_r1,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,RF,20,3,drop30_r1,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,RF,20,3,rev30_r1,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,RF,20,3,rev30_r1,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,RF,20,3,drop30_r2,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,RF,20,3,drop30_r2,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,RF,20,3,rev30_r2,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,RF,20,3,rev30_r2,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,RF,20,3,empty,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,RF,20,3,empty,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,RF,20,3,pc,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,RF,20,3,pc,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,RF,20,3,gbr,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,RF,20,3,gbr,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,RF,21,144,llm,acbfi_v3,True,60,"[""employment_length""]",True,True
+german_credit,0,RF,21,144,llm,untargeted,True,500,"[""employment_length""]",True,True
+german_credit,0,RF,21,144,drop30_r1,acbfi_v3,True,60,"[""employment_length""]",True,True
+german_credit,0,RF,21,144,drop30_r1,untargeted,True,500,"[""employment_length""]",True,True
+german_credit,0,RF,21,144,rev30_r1,acbfi_v3,True,60,"[""employment_length""]",True,True
+german_credit,0,RF,21,144,rev30_r1,untargeted,True,500,"[""employment_length""]",True,True
+german_credit,0,RF,21,144,drop30_r2,acbfi_v3,True,60,"[""employment_length""]",True,True
+german_credit,0,RF,21,144,drop30_r2,untargeted,True,500,"[""employment_length""]",True,True
+german_credit,0,RF,21,144,rev30_r2,acbfi_v3,True,60,"[""employment_length""]",True,True
+german_credit,0,RF,21,144,rev30_r2,untargeted,True,500,"[""employment_length""]",True,True
+german_credit,0,RF,21,144,empty,acbfi_v3,True,60,"[""employment_length""]",True,True
+german_credit,0,RF,21,144,empty,untargeted,True,500,"[""employment_length""]",True,True
+german_credit,0,RF,21,144,pc,acbfi_v3,True,60,"[""employment_length""]",True,True
+german_credit,0,RF,21,144,pc,untargeted,True,500,"[""employment_length""]",True,True
+german_credit,0,RF,21,144,gbr,acbfi_v3,True,60,"[""employment_length""]",True,True
+german_credit,0,RF,21,144,gbr,untargeted,True,500,"[""employment_length""]",True,True
+german_credit,0,SVM,0,14,llm,acbfi_v3,True,60,"[""installment_rate""]",True,True
+german_credit,0,SVM,0,14,llm,untargeted,True,500,"[""installment_rate""]",True,True
+german_credit,0,SVM,0,14,drop30_r1,acbfi_v3,True,60,"[""installment_rate""]",True,True
+german_credit,0,SVM,0,14,drop30_r1,untargeted,True,500,"[""installment_rate""]",True,True
+german_credit,0,SVM,0,14,rev30_r1,acbfi_v3,True,60,"[""installment_rate""]",True,True
+german_credit,0,SVM,0,14,rev30_r1,untargeted,True,500,"[""installment_rate""]",True,True
+german_credit,0,SVM,0,14,drop30_r2,acbfi_v3,True,60,"[""installment_rate""]",True,True
+german_credit,0,SVM,0,14,drop30_r2,untargeted,True,500,"[""installment_rate""]",True,True
+german_credit,0,SVM,0,14,rev30_r2,acbfi_v3,True,60,"[""installment_rate""]",True,True
+german_credit,0,SVM,0,14,rev30_r2,untargeted,True,500,"[""installment_rate""]",True,True
+german_credit,0,SVM,0,14,empty,acbfi_v3,True,60,"[""installment_rate""]",True,True
+german_credit,0,SVM,0,14,empty,untargeted,True,500,"[""installment_rate""]",True,True
+german_credit,0,SVM,0,14,pc,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,SVM,0,14,pc,untargeted,True,500,"[""checking_balance"", ""employment_length""]",True,True
+german_credit,0,SVM,0,14,gbr,acbfi_v3,True,60,"[""installment_rate""]",True,True
+german_credit,0,SVM,0,14,gbr,untargeted,True,500,"[""installment_rate""]",True,True
+german_credit,0,SVM,1,175,llm,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,SVM,1,175,llm,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,SVM,1,175,drop30_r1,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,SVM,1,175,drop30_r1,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,SVM,1,175,rev30_r1,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,SVM,1,175,rev30_r1,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,SVM,1,175,drop30_r2,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,SVM,1,175,drop30_r2,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,SVM,1,175,rev30_r2,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,SVM,1,175,rev30_r2,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,SVM,1,175,empty,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,SVM,1,175,empty,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,SVM,1,175,pc,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,SVM,1,175,pc,untargeted,True,500,"[""checking_balance"", ""purpose""]",True,True
+german_credit,0,SVM,1,175,gbr,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,SVM,1,175,gbr,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,SVM,2,162,llm,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,SVM,2,162,llm,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,SVM,2,162,drop30_r1,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,SVM,2,162,drop30_r1,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,SVM,2,162,rev30_r1,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,SVM,2,162,rev30_r1,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,SVM,2,162,drop30_r2,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,SVM,2,162,drop30_r2,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,SVM,2,162,rev30_r2,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,SVM,2,162,rev30_r2,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,SVM,2,162,empty,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,SVM,2,162,empty,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,SVM,2,162,pc,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,SVM,2,162,pc,untargeted,True,500,"[""months_loan_duration"", ""purpose""]",True,True
+german_credit,0,SVM,2,162,gbr,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,SVM,2,162,gbr,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,SVM,3,12,llm,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,SVM,3,12,llm,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,SVM,3,12,drop30_r1,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,SVM,3,12,drop30_r1,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,SVM,3,12,rev30_r1,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,SVM,3,12,rev30_r1,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,SVM,3,12,drop30_r2,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,SVM,3,12,drop30_r2,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,SVM,3,12,rev30_r2,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,SVM,3,12,rev30_r2,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,SVM,3,12,empty,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,SVM,3,12,empty,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,SVM,3,12,pc,acbfi_v3,True,60,"[""amount""]",False,False
+german_credit,0,SVM,3,12,pc,untargeted,True,500,"[""amount"", ""checking_balance""]",False,False
+german_credit,0,SVM,3,12,gbr,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,SVM,3,12,gbr,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,SVM,4,72,llm,acbfi_v3,True,60,"[""months_loan_duration""]",True,False
+german_credit,0,SVM,4,72,llm,untargeted,True,500,"[""checking_balance"", ""housing""]",True,True
+german_credit,0,SVM,4,72,drop30_r1,acbfi_v3,True,60,"[""months_loan_duration""]",True,False
+german_credit,0,SVM,4,72,drop30_r1,untargeted,True,500,"[""checking_balance"", ""housing""]",True,True
+german_credit,0,SVM,4,72,rev30_r1,acbfi_v3,True,60,"[""months_loan_duration""]",True,False
+german_credit,0,SVM,4,72,rev30_r1,untargeted,True,500,"[""checking_balance"", ""housing""]",True,True
+german_credit,0,SVM,4,72,drop30_r2,acbfi_v3,True,578,"[""checking_balance"", ""housing""]",True,True
+german_credit,0,SVM,4,72,drop30_r2,untargeted,True,500,"[""checking_balance"", ""housing""]",True,True
+german_credit,0,SVM,4,72,rev30_r2,acbfi_v3,True,60,"[""amount""]",False,False
+german_credit,0,SVM,4,72,rev30_r2,untargeted,True,500,"[""checking_balance"", ""housing""]",True,True
+german_credit,0,SVM,4,72,empty,acbfi_v3,True,578,"[""checking_balance"", ""housing""]",True,True
+german_credit,0,SVM,4,72,empty,untargeted,True,500,"[""checking_balance"", ""housing""]",True,True
+german_credit,0,SVM,4,72,pc,acbfi_v3,True,60,"[""amount""]",False,False
+german_credit,0,SVM,4,72,pc,untargeted,True,500,"[""amount"", ""checking_balance""]",False,False
+german_credit,0,SVM,4,72,gbr,acbfi_v3,True,60,"[""months_loan_duration""]",True,False
+german_credit,0,SVM,4,72,gbr,untargeted,True,500,"[""checking_balance"", ""housing""]",True,True
+german_credit,0,SVM,5,116,llm,acbfi_v3,True,60,"[""installment_rate""]",True,True
+german_credit,0,SVM,5,116,llm,untargeted,True,500,"[""installment_rate""]",True,True
+german_credit,0,SVM,5,116,drop30_r1,acbfi_v3,True,60,"[""installment_rate""]",True,True
+german_credit,0,SVM,5,116,drop30_r1,untargeted,True,500,"[""installment_rate""]",True,True
+german_credit,0,SVM,5,116,rev30_r1,acbfi_v3,True,60,"[""installment_rate""]",True,True
+german_credit,0,SVM,5,116,rev30_r1,untargeted,True,500,"[""installment_rate""]",True,True
+german_credit,0,SVM,5,116,drop30_r2,acbfi_v3,True,60,"[""installment_rate""]",True,True
+german_credit,0,SVM,5,116,drop30_r2,untargeted,True,500,"[""installment_rate""]",True,True
+german_credit,0,SVM,5,116,rev30_r2,acbfi_v3,True,60,"[""installment_rate""]",True,True
+german_credit,0,SVM,5,116,rev30_r2,untargeted,True,500,"[""installment_rate""]",True,True
+german_credit,0,SVM,5,116,empty,acbfi_v3,True,60,"[""installment_rate""]",True,True
+german_credit,0,SVM,5,116,empty,untargeted,True,500,"[""installment_rate""]",True,True
+german_credit,0,SVM,5,116,pc,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,SVM,5,116,pc,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,SVM,5,116,gbr,acbfi_v3,True,60,"[""installment_rate""]",True,True
+german_credit,0,SVM,5,116,gbr,untargeted,True,500,"[""installment_rate""]",True,True
+german_credit,0,SVM,6,55,llm,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,SVM,6,55,llm,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,SVM,6,55,drop30_r1,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,SVM,6,55,drop30_r1,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,SVM,6,55,rev30_r1,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,SVM,6,55,rev30_r1,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,SVM,6,55,drop30_r2,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,SVM,6,55,drop30_r2,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,SVM,6,55,rev30_r2,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,SVM,6,55,rev30_r2,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,SVM,6,55,empty,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,SVM,6,55,empty,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,SVM,6,55,pc,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,SVM,6,55,pc,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,SVM,6,55,gbr,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,SVM,6,55,gbr,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,SVM,7,40,llm,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,SVM,7,40,llm,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,SVM,7,40,drop30_r1,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,SVM,7,40,drop30_r1,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,SVM,7,40,rev30_r1,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,SVM,7,40,rev30_r1,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,SVM,7,40,drop30_r2,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,SVM,7,40,drop30_r2,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,SVM,7,40,rev30_r2,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,SVM,7,40,rev30_r2,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,SVM,7,40,empty,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,SVM,7,40,empty,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,SVM,7,40,pc,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,SVM,7,40,pc,untargeted,True,500,"[""checking_balance"", ""savings_balance""]",True,True
+german_credit,0,SVM,7,40,gbr,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,SVM,7,40,gbr,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,SVM,8,4,llm,acbfi_v3,True,60,"[""installment_rate""]",True,True
+german_credit,0,SVM,8,4,llm,untargeted,True,500,"[""installment_rate""]",True,True
+german_credit,0,SVM,8,4,drop30_r1,acbfi_v3,True,60,"[""installment_rate""]",True,True
+german_credit,0,SVM,8,4,drop30_r1,untargeted,True,500,"[""installment_rate""]",True,True
+german_credit,0,SVM,8,4,rev30_r1,acbfi_v3,True,60,"[""installment_rate""]",True,True
+german_credit,0,SVM,8,4,rev30_r1,untargeted,True,500,"[""installment_rate""]",True,True
+german_credit,0,SVM,8,4,drop30_r2,acbfi_v3,True,60,"[""installment_rate""]",True,True
+german_credit,0,SVM,8,4,drop30_r2,untargeted,True,500,"[""installment_rate""]",True,True
+german_credit,0,SVM,8,4,rev30_r2,acbfi_v3,True,60,"[""installment_rate""]",True,True
+german_credit,0,SVM,8,4,rev30_r2,untargeted,True,500,"[""installment_rate""]",True,True
+german_credit,0,SVM,8,4,empty,acbfi_v3,True,60,"[""installment_rate""]",True,True
+german_credit,0,SVM,8,4,empty,untargeted,True,500,"[""installment_rate""]",True,True
+german_credit,0,SVM,8,4,pc,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,SVM,8,4,pc,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,SVM,8,4,gbr,acbfi_v3,True,60,"[""installment_rate""]",True,True
+german_credit,0,SVM,8,4,gbr,untargeted,True,500,"[""installment_rate""]",True,True
+german_credit,0,SVM,9,168,llm,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,SVM,9,168,llm,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,SVM,9,168,drop30_r1,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,SVM,9,168,drop30_r1,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,SVM,9,168,rev30_r1,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,SVM,9,168,rev30_r1,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,SVM,9,168,drop30_r2,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,SVM,9,168,drop30_r2,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,SVM,9,168,rev30_r2,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,SVM,9,168,rev30_r2,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,SVM,9,168,empty,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,SVM,9,168,empty,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,SVM,9,168,pc,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,SVM,9,168,pc,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,SVM,9,168,gbr,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,SVM,9,168,gbr,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,SVM,10,144,llm,acbfi_v3,True,60,"[""employment_length""]",True,True
+german_credit,0,SVM,10,144,llm,untargeted,True,500,"[""employment_length""]",True,True
+german_credit,0,SVM,10,144,drop30_r1,acbfi_v3,True,60,"[""employment_length""]",True,True
+german_credit,0,SVM,10,144,drop30_r1,untargeted,True,500,"[""employment_length""]",True,True
+german_credit,0,SVM,10,144,rev30_r1,acbfi_v3,True,60,"[""employment_length""]",True,True
+german_credit,0,SVM,10,144,rev30_r1,untargeted,True,500,"[""employment_length""]",True,True
+german_credit,0,SVM,10,144,drop30_r2,acbfi_v3,True,60,"[""employment_length""]",True,True
+german_credit,0,SVM,10,144,drop30_r2,untargeted,True,500,"[""employment_length""]",True,True
+german_credit,0,SVM,10,144,rev30_r2,acbfi_v3,True,60,"[""employment_length""]",True,True
+german_credit,0,SVM,10,144,rev30_r2,untargeted,True,500,"[""employment_length""]",True,True
+german_credit,0,SVM,10,144,empty,acbfi_v3,True,60,"[""employment_length""]",True,True
+german_credit,0,SVM,10,144,empty,untargeted,True,500,"[""employment_length""]",True,True
+german_credit,0,SVM,10,144,pc,acbfi_v3,True,60,"[""employment_length""]",True,True
+german_credit,0,SVM,10,144,pc,untargeted,True,500,"[""employment_length""]",True,True
+german_credit,0,SVM,10,144,gbr,acbfi_v3,True,60,"[""employment_length""]",True,True
+german_credit,0,SVM,10,144,gbr,untargeted,True,500,"[""employment_length""]",True,True
+german_credit,0,SVM,11,196,llm,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,SVM,11,196,llm,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,SVM,11,196,drop30_r1,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,SVM,11,196,drop30_r1,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,SVM,11,196,rev30_r1,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,SVM,11,196,rev30_r1,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,SVM,11,196,drop30_r2,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,SVM,11,196,drop30_r2,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,SVM,11,196,rev30_r2,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,SVM,11,196,rev30_r2,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,SVM,11,196,empty,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,SVM,11,196,empty,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,SVM,11,196,pc,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,SVM,11,196,pc,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,SVM,11,196,gbr,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,SVM,11,196,gbr,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,SVM,12,174,llm,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,SVM,12,174,llm,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,SVM,12,174,drop30_r1,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,SVM,12,174,drop30_r1,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,SVM,12,174,rev30_r1,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,SVM,12,174,rev30_r1,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,SVM,12,174,drop30_r2,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,SVM,12,174,drop30_r2,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,SVM,12,174,rev30_r2,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,SVM,12,174,rev30_r2,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,SVM,12,174,empty,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,SVM,12,174,empty,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,SVM,12,174,pc,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,SVM,12,174,pc,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,SVM,12,174,gbr,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,SVM,12,174,gbr,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,SVM,13,165,llm,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,SVM,13,165,llm,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,SVM,13,165,drop30_r1,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,SVM,13,165,drop30_r1,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,SVM,13,165,rev30_r1,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,SVM,13,165,rev30_r1,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,SVM,13,165,drop30_r2,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,SVM,13,165,drop30_r2,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,SVM,13,165,rev30_r2,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,SVM,13,165,rev30_r2,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,SVM,13,165,empty,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,SVM,13,165,empty,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,SVM,13,165,pc,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,SVM,13,165,pc,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,SVM,13,165,gbr,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,SVM,13,165,gbr,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,SVM,14,109,llm,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,SVM,14,109,llm,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,SVM,14,109,drop30_r1,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,SVM,14,109,drop30_r1,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,SVM,14,109,rev30_r1,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,SVM,14,109,rev30_r1,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,SVM,14,109,drop30_r2,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,SVM,14,109,drop30_r2,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,SVM,14,109,rev30_r2,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,SVM,14,109,rev30_r2,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,SVM,14,109,empty,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,SVM,14,109,empty,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,SVM,14,109,pc,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,SVM,14,109,pc,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,SVM,14,109,gbr,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,SVM,14,109,gbr,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,SVM,15,27,llm,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,SVM,15,27,llm,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,SVM,15,27,drop30_r1,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,SVM,15,27,drop30_r1,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,SVM,15,27,rev30_r1,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,SVM,15,27,rev30_r1,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,SVM,15,27,drop30_r2,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,SVM,15,27,drop30_r2,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,SVM,15,27,rev30_r2,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,SVM,15,27,rev30_r2,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,SVM,15,27,empty,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,SVM,15,27,empty,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,SVM,15,27,pc,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,SVM,15,27,pc,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,SVM,15,27,gbr,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,SVM,15,27,gbr,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,SVM,16,22,llm,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,SVM,16,22,llm,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,SVM,16,22,drop30_r1,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,SVM,16,22,drop30_r1,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,SVM,16,22,rev30_r1,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,SVM,16,22,rev30_r1,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,SVM,16,22,drop30_r2,acbfi_v3,True,60,"[""months_loan_duration""]",False,True
+german_credit,0,SVM,16,22,drop30_r2,untargeted,True,500,"[""months_loan_duration""]",False,True
+german_credit,0,SVM,16,22,rev30_r2,acbfi_v3,True,60,"[""months_loan_duration""]",False,True
+german_credit,0,SVM,16,22,rev30_r2,untargeted,True,500,"[""months_loan_duration""]",False,True
+german_credit,0,SVM,16,22,empty,acbfi_v3,True,60,"[""months_loan_duration""]",False,True
+german_credit,0,SVM,16,22,empty,untargeted,True,500,"[""months_loan_duration""]",False,True
+german_credit,0,SVM,16,22,pc,acbfi_v3,True,60,"[""months_loan_duration""]",False,True
+german_credit,0,SVM,16,22,pc,untargeted,True,500,"[""checking_balance"", ""months_loan_duration""]",False,True
+german_credit,0,SVM,16,22,gbr,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,SVM,16,22,gbr,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,SVM,17,77,llm,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,SVM,17,77,llm,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,SVM,17,77,drop30_r1,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,SVM,17,77,drop30_r1,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,SVM,17,77,rev30_r1,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,SVM,17,77,rev30_r1,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,SVM,17,77,drop30_r2,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,SVM,17,77,drop30_r2,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,SVM,17,77,rev30_r2,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,SVM,17,77,rev30_r2,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,SVM,17,77,empty,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,SVM,17,77,empty,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,SVM,17,77,pc,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,SVM,17,77,pc,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,SVM,17,77,gbr,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,SVM,17,77,gbr,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,SVM,18,154,llm,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,SVM,18,154,llm,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,SVM,18,154,drop30_r1,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,SVM,18,154,drop30_r1,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,SVM,18,154,rev30_r1,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,SVM,18,154,rev30_r1,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,SVM,18,154,drop30_r2,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,SVM,18,154,drop30_r2,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,SVM,18,154,rev30_r2,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,SVM,18,154,rev30_r2,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,SVM,18,154,empty,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,SVM,18,154,empty,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,SVM,18,154,pc,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,SVM,18,154,pc,untargeted,True,500,"[""checking_balance"", ""savings_balance""]",True,True
+german_credit,0,SVM,18,154,gbr,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,SVM,18,154,gbr,untargeted,True,500,"[""installment_rate"", ""savings_balance""]",True,True
+german_credit,0,SVM,19,98,llm,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,SVM,19,98,llm,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,SVM,19,98,drop30_r1,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,SVM,19,98,drop30_r1,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,SVM,19,98,rev30_r1,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,SVM,19,98,rev30_r1,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,SVM,19,98,drop30_r2,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,SVM,19,98,drop30_r2,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,SVM,19,98,rev30_r2,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,SVM,19,98,rev30_r2,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,SVM,19,98,empty,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,SVM,19,98,empty,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,SVM,19,98,pc,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,SVM,19,98,pc,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,SVM,19,98,gbr,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,SVM,19,98,gbr,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,SVM,20,140,llm,acbfi_v3,True,60,"[""existing_credits""]",True,True
+german_credit,0,SVM,20,140,llm,untargeted,True,500,"[""existing_credits""]",True,True
+german_credit,0,SVM,20,140,drop30_r1,acbfi_v3,True,60,"[""existing_credits""]",True,True
+german_credit,0,SVM,20,140,drop30_r1,untargeted,True,500,"[""existing_credits""]",True,True
+german_credit,0,SVM,20,140,rev30_r1,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,SVM,20,140,rev30_r1,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,SVM,20,140,drop30_r2,acbfi_v3,True,60,"[""existing_credits""]",True,True
+german_credit,0,SVM,20,140,drop30_r2,untargeted,True,500,"[""existing_credits""]",True,True
+german_credit,0,SVM,20,140,rev30_r2,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,SVM,20,140,rev30_r2,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,SVM,20,140,empty,acbfi_v3,True,60,"[""existing_credits""]",True,True
+german_credit,0,SVM,20,140,empty,untargeted,True,500,"[""existing_credits""]",True,True
+german_credit,0,SVM,20,140,pc,acbfi_v3,True,60,"[""existing_credits""]",True,True
+german_credit,0,SVM,20,140,pc,untargeted,True,500,"[""existing_credits""]",True,True
+german_credit,0,SVM,20,140,gbr,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,SVM,20,140,gbr,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,SVM,21,97,llm,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,SVM,21,97,llm,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,SVM,21,97,drop30_r1,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,SVM,21,97,drop30_r1,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,SVM,21,97,rev30_r1,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,SVM,21,97,rev30_r1,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,SVM,21,97,drop30_r2,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,SVM,21,97,drop30_r2,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,SVM,21,97,rev30_r2,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,SVM,21,97,rev30_r2,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,SVM,21,97,empty,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,SVM,21,97,empty,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,SVM,21,97,pc,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,SVM,21,97,pc,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,SVM,21,97,gbr,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,SVM,21,97,gbr,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,SVM,22,79,llm,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,SVM,22,79,llm,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,SVM,22,79,drop30_r1,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,SVM,22,79,drop30_r1,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,SVM,22,79,rev30_r1,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,SVM,22,79,rev30_r1,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,SVM,22,79,drop30_r2,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,SVM,22,79,drop30_r2,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,SVM,22,79,rev30_r2,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,SVM,22,79,rev30_r2,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,SVM,22,79,empty,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,SVM,22,79,empty,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,SVM,22,79,pc,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,SVM,22,79,pc,untargeted,True,500,"[""checking_balance"", ""savings_balance""]",True,True
+german_credit,0,SVM,22,79,gbr,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,SVM,22,79,gbr,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,SVM,23,3,llm,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,SVM,23,3,llm,untargeted,True,500,"[""checking_balance"", ""savings_balance""]",True,True
+german_credit,0,SVM,23,3,drop30_r1,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,SVM,23,3,drop30_r1,untargeted,True,500,"[""checking_balance"", ""savings_balance""]",True,True
+german_credit,0,SVM,23,3,rev30_r1,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,SVM,23,3,rev30_r1,untargeted,True,500,"[""checking_balance"", ""savings_balance""]",True,True
+german_credit,0,SVM,23,3,drop30_r2,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,SVM,23,3,drop30_r2,untargeted,True,500,"[""checking_balance"", ""savings_balance""]",True,True
+german_credit,0,SVM,23,3,rev30_r2,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,SVM,23,3,rev30_r2,untargeted,True,500,"[""checking_balance"", ""savings_balance""]",True,True
+german_credit,0,SVM,23,3,empty,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,SVM,23,3,empty,untargeted,True,500,"[""checking_balance"", ""savings_balance""]",True,True
+german_credit,0,SVM,23,3,pc,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,SVM,23,3,pc,untargeted,True,500,"[""checking_balance"", ""savings_balance""]",True,True
+german_credit,0,SVM,23,3,gbr,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,SVM,23,3,gbr,untargeted,True,500,"[""checking_balance"", ""savings_balance""]",True,True
+german_credit,0,SVM,24,166,llm,acbfi_v3,True,60,"[""amount""]",True,False
+german_credit,0,SVM,24,166,llm,untargeted,True,500,"[""amount""]",True,False
+german_credit,0,SVM,24,166,drop30_r1,acbfi_v3,True,60,"[""amount""]",True,False
+german_credit,0,SVM,24,166,drop30_r1,untargeted,True,500,"[""amount""]",True,False
+german_credit,0,SVM,24,166,rev30_r1,acbfi_v3,True,60,"[""amount""]",True,False
+german_credit,0,SVM,24,166,rev30_r1,untargeted,True,500,"[""amount""]",True,False
+german_credit,0,SVM,24,166,drop30_r2,acbfi_v3,True,60,"[""amount""]",True,False
+german_credit,0,SVM,24,166,drop30_r2,untargeted,True,500,"[""amount""]",True,False
+german_credit,0,SVM,24,166,rev30_r2,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,SVM,24,166,rev30_r2,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,SVM,24,166,empty,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,SVM,24,166,empty,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,SVM,24,166,pc,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,SVM,24,166,pc,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,SVM,24,166,gbr,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,SVM,24,166,gbr,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,SVM,25,189,llm,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,SVM,25,189,llm,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,SVM,25,189,drop30_r1,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,SVM,25,189,drop30_r1,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,SVM,25,189,rev30_r1,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,SVM,25,189,rev30_r1,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,SVM,25,189,drop30_r2,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,SVM,25,189,drop30_r2,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,SVM,25,189,rev30_r2,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,SVM,25,189,rev30_r2,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,SVM,25,189,empty,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,SVM,25,189,empty,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,SVM,25,189,pc,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,SVM,25,189,pc,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,SVM,25,189,gbr,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,SVM,25,189,gbr,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,SVM,26,65,llm,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,SVM,26,65,llm,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,SVM,26,65,drop30_r1,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,SVM,26,65,drop30_r1,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,SVM,26,65,rev30_r1,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,SVM,26,65,rev30_r1,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,SVM,26,65,drop30_r2,acbfi_v3,True,60,"[""months_loan_duration""]",True,True
+german_credit,0,SVM,26,65,drop30_r2,untargeted,True,500,"[""months_loan_duration""]",True,True
+german_credit,0,SVM,26,65,rev30_r2,acbfi_v3,True,60,"[""months_loan_duration""]",True,True
+german_credit,0,SVM,26,65,rev30_r2,untargeted,True,500,"[""months_loan_duration""]",True,True
+german_credit,0,SVM,26,65,empty,acbfi_v3,True,60,"[""months_loan_duration""]",True,True
+german_credit,0,SVM,26,65,empty,untargeted,True,500,"[""months_loan_duration""]",True,True
+german_credit,0,SVM,26,65,pc,acbfi_v3,True,60,"[""months_loan_duration""]",True,True
+german_credit,0,SVM,26,65,pc,untargeted,True,500,"[""checking_balance"", ""months_loan_duration""]",True,True
+german_credit,0,SVM,26,65,gbr,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,SVM,26,65,gbr,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,SVM,27,35,llm,acbfi_v3,True,60,"[""housing""]",True,True
+german_credit,0,SVM,27,35,llm,untargeted,True,500,"[""housing""]",True,True
+german_credit,0,SVM,27,35,drop30_r1,acbfi_v3,True,60,"[""housing""]",True,True
+german_credit,0,SVM,27,35,drop30_r1,untargeted,True,500,"[""housing""]",True,True
+german_credit,0,SVM,27,35,rev30_r1,acbfi_v3,True,60,"[""housing""]",True,True
+german_credit,0,SVM,27,35,rev30_r1,untargeted,True,500,"[""housing""]",True,True
+german_credit,0,SVM,27,35,drop30_r2,acbfi_v3,True,60,"[""housing""]",True,True
+german_credit,0,SVM,27,35,drop30_r2,untargeted,True,500,"[""housing""]",True,True
+german_credit,0,SVM,27,35,rev30_r2,acbfi_v3,True,60,"[""housing""]",True,True
+german_credit,0,SVM,27,35,rev30_r2,untargeted,True,500,"[""housing""]",True,True
+german_credit,0,SVM,27,35,empty,acbfi_v3,True,60,"[""housing""]",True,True
+german_credit,0,SVM,27,35,empty,untargeted,True,500,"[""housing""]",True,True
+german_credit,0,SVM,27,35,pc,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,SVM,27,35,pc,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,SVM,27,35,gbr,acbfi_v3,True,60,"[""housing""]",True,True
+german_credit,0,SVM,27,35,gbr,untargeted,True,500,"[""housing""]",True,True
+german_credit,0,SVM,28,125,llm,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,SVM,28,125,llm,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,SVM,28,125,drop30_r1,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,SVM,28,125,drop30_r1,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,SVM,28,125,rev30_r1,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,SVM,28,125,rev30_r1,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,SVM,28,125,drop30_r2,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,SVM,28,125,drop30_r2,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,SVM,28,125,rev30_r2,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,SVM,28,125,rev30_r2,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,SVM,28,125,empty,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,SVM,28,125,empty,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,SVM,28,125,pc,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,SVM,28,125,pc,untargeted,True,500,"[""checking_balance"", ""savings_balance""]",True,True
+german_credit,0,SVM,28,125,gbr,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,SVM,28,125,gbr,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,SVM,29,96,llm,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,SVM,29,96,llm,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,SVM,29,96,drop30_r1,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,SVM,29,96,drop30_r1,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,SVM,29,96,rev30_r1,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,SVM,29,96,rev30_r1,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,SVM,29,96,drop30_r2,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,SVM,29,96,drop30_r2,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,SVM,29,96,rev30_r2,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,SVM,29,96,rev30_r2,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,SVM,29,96,empty,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,SVM,29,96,empty,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,SVM,29,96,pc,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,SVM,29,96,pc,untargeted,True,500,"[""checking_balance"", ""savings_balance""]",True,True
+german_credit,0,SVM,29,96,gbr,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,SVM,29,96,gbr,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,SVM,30,193,llm,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,SVM,30,193,llm,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,SVM,30,193,drop30_r1,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,SVM,30,193,drop30_r1,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,SVM,30,193,rev30_r1,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,SVM,30,193,rev30_r1,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,SVM,30,193,drop30_r2,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,SVM,30,193,drop30_r2,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,SVM,30,193,rev30_r2,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,SVM,30,193,rev30_r2,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,SVM,30,193,empty,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,SVM,30,193,empty,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,SVM,30,193,pc,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,SVM,30,193,pc,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,SVM,30,193,gbr,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,SVM,30,193,gbr,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,SVM,31,93,llm,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,SVM,31,93,llm,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,SVM,31,93,drop30_r1,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,SVM,31,93,drop30_r1,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,SVM,31,93,rev30_r1,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,SVM,31,93,rev30_r1,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,SVM,31,93,drop30_r2,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,SVM,31,93,drop30_r2,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,SVM,31,93,rev30_r2,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,SVM,31,93,rev30_r2,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,SVM,31,93,empty,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,SVM,31,93,empty,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,SVM,31,93,pc,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,SVM,31,93,pc,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,SVM,31,93,gbr,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,SVM,31,93,gbr,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,SVM,32,120,llm,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,SVM,32,120,llm,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,SVM,32,120,drop30_r1,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,SVM,32,120,drop30_r1,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,SVM,32,120,rev30_r1,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,SVM,32,120,rev30_r1,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,SVM,32,120,drop30_r2,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,SVM,32,120,drop30_r2,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,SVM,32,120,rev30_r2,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,SVM,32,120,rev30_r2,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,SVM,32,120,empty,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,SVM,32,120,empty,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,SVM,32,120,pc,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,SVM,32,120,pc,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,SVM,32,120,gbr,acbfi_v3,True,60,"[""installment_rate""]",True,True
+german_credit,0,SVM,32,120,gbr,untargeted,True,500,"[""installment_rate""]",True,True
+german_credit,0,SVM,33,158,llm,acbfi_v3,True,60,"[""installment_rate""]",True,True
+german_credit,0,SVM,33,158,llm,untargeted,True,500,"[""installment_rate""]",True,True
+german_credit,0,SVM,33,158,drop30_r1,acbfi_v3,True,60,"[""installment_rate""]",True,True
+german_credit,0,SVM,33,158,drop30_r1,untargeted,True,500,"[""installment_rate""]",True,True
+german_credit,0,SVM,33,158,rev30_r1,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,SVM,33,158,rev30_r1,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,SVM,33,158,drop30_r2,acbfi_v3,True,60,"[""installment_rate""]",True,True
+german_credit,0,SVM,33,158,drop30_r2,untargeted,True,500,"[""installment_rate""]",True,True
+german_credit,0,SVM,33,158,rev30_r2,acbfi_v3,True,60,"[""installment_rate""]",True,True
+german_credit,0,SVM,33,158,rev30_r2,untargeted,True,500,"[""installment_rate""]",True,True
+german_credit,0,SVM,33,158,empty,acbfi_v3,True,60,"[""installment_rate""]",True,True
+german_credit,0,SVM,33,158,empty,untargeted,True,500,"[""installment_rate""]",True,True
+german_credit,0,SVM,33,158,pc,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,SVM,33,158,pc,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,SVM,33,158,gbr,acbfi_v3,True,60,"[""installment_rate""]",True,True
+german_credit,0,SVM,33,158,gbr,untargeted,True,500,"[""amount"", ""checking_balance""]",False,False
+german_credit,0,SVM,34,187,llm,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,SVM,34,187,llm,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,SVM,34,187,drop30_r1,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,SVM,34,187,drop30_r1,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,SVM,34,187,rev30_r1,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,SVM,34,187,rev30_r1,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,SVM,34,187,drop30_r2,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,SVM,34,187,drop30_r2,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,SVM,34,187,rev30_r2,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,SVM,34,187,rev30_r2,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,SVM,34,187,empty,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,SVM,34,187,empty,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,SVM,34,187,pc,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,SVM,34,187,pc,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,SVM,34,187,gbr,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,SVM,34,187,gbr,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,SVM,35,26,llm,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,SVM,35,26,llm,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,SVM,35,26,drop30_r1,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,SVM,35,26,drop30_r1,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,SVM,35,26,rev30_r1,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,SVM,35,26,rev30_r1,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,SVM,35,26,drop30_r2,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,SVM,35,26,drop30_r2,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,SVM,35,26,rev30_r2,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,SVM,35,26,rev30_r2,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,SVM,35,26,empty,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,SVM,35,26,empty,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,SVM,35,26,pc,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,SVM,35,26,pc,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,SVM,35,26,gbr,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,SVM,35,26,gbr,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,SVM,36,1,llm,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,SVM,36,1,llm,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,SVM,36,1,drop30_r1,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,SVM,36,1,drop30_r1,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,SVM,36,1,rev30_r1,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,SVM,36,1,rev30_r1,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,SVM,36,1,drop30_r2,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,SVM,36,1,drop30_r2,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,SVM,36,1,rev30_r2,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,SVM,36,1,rev30_r2,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,SVM,36,1,empty,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,SVM,36,1,empty,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,SVM,36,1,pc,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,SVM,36,1,pc,untargeted,True,500,"[""checking_balance"", ""savings_balance""]",True,True
+german_credit,0,SVM,36,1,gbr,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,SVM,36,1,gbr,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,XGB,0,99,llm,acbfi_v3,True,60,"[""amount""]",True,True
+german_credit,0,XGB,0,99,llm,untargeted,True,500,"[""amount""]",True,True
+german_credit,0,XGB,0,99,drop30_r1,acbfi_v3,True,60,"[""amount""]",True,True
+german_credit,0,XGB,0,99,drop30_r1,untargeted,True,500,"[""amount""]",True,True
+german_credit,0,XGB,0,99,rev30_r1,acbfi_v3,True,60,"[""amount""]",True,True
+german_credit,0,XGB,0,99,rev30_r1,untargeted,True,500,"[""amount""]",True,True
+german_credit,0,XGB,0,99,drop30_r2,acbfi_v3,True,60,"[""amount""]",True,True
+german_credit,0,XGB,0,99,drop30_r2,untargeted,True,500,"[""amount""]",True,True
+german_credit,0,XGB,0,99,rev30_r2,acbfi_v3,True,60,"[""amount""]",True,True
+german_credit,0,XGB,0,99,rev30_r2,untargeted,True,500,"[""amount"", ""months_loan_duration""]",True,True
+german_credit,0,XGB,0,99,empty,acbfi_v3,True,60,"[""amount""]",True,True
+german_credit,0,XGB,0,99,empty,untargeted,True,500,"[""amount""]",True,True
+german_credit,0,XGB,0,99,pc,acbfi_v3,True,60,"[""amount""]",True,True
+german_credit,0,XGB,0,99,pc,untargeted,True,500,"[""amount"", ""months_loan_duration""]",True,True
+german_credit,0,XGB,0,99,gbr,acbfi_v3,True,60,"[""amount""]",True,True
+german_credit,0,XGB,0,99,gbr,untargeted,True,500,"[""amount""]",True,True
+german_credit,0,XGB,1,1,llm,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,XGB,1,1,llm,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,XGB,1,1,drop30_r1,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,XGB,1,1,drop30_r1,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,XGB,1,1,rev30_r1,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,XGB,1,1,rev30_r1,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,XGB,1,1,drop30_r2,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,XGB,1,1,drop30_r2,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,XGB,1,1,rev30_r2,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,XGB,1,1,rev30_r2,untargeted,True,500,"[""months_loan_duration"", ""purpose""]",True,True
+german_credit,0,XGB,1,1,empty,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,XGB,1,1,empty,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,XGB,1,1,pc,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,XGB,1,1,pc,untargeted,True,500,"[""months_loan_duration"", ""purpose""]",True,True
+german_credit,0,XGB,1,1,gbr,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,XGB,1,1,gbr,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,XGB,2,189,llm,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,XGB,2,189,llm,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,XGB,2,189,drop30_r1,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,XGB,2,189,drop30_r1,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,XGB,2,189,rev30_r1,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,XGB,2,189,rev30_r1,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,XGB,2,189,drop30_r2,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,XGB,2,189,drop30_r2,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,XGB,2,189,rev30_r2,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,XGB,2,189,rev30_r2,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,XGB,2,189,empty,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,XGB,2,189,empty,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,XGB,2,189,pc,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,XGB,2,189,pc,untargeted,True,500,"[""checking_balance"", ""savings_balance""]",True,True
+german_credit,0,XGB,2,189,gbr,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,XGB,2,189,gbr,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,XGB,3,34,llm,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,XGB,3,34,llm,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,XGB,3,34,drop30_r1,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,XGB,3,34,drop30_r1,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,XGB,3,34,rev30_r1,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,XGB,3,34,rev30_r1,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,XGB,3,34,drop30_r2,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,XGB,3,34,drop30_r2,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,XGB,3,34,rev30_r2,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,XGB,3,34,rev30_r2,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,XGB,3,34,empty,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,XGB,3,34,empty,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,XGB,3,34,pc,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,XGB,3,34,pc,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,XGB,3,34,gbr,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,XGB,3,34,gbr,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,XGB,4,192,llm,acbfi_v3,True,60,"[""amount""]",True,True
+german_credit,0,XGB,4,192,llm,untargeted,True,500,"[""amount""]",True,True
+german_credit,0,XGB,4,192,drop30_r1,acbfi_v3,True,60,"[""amount""]",True,True
+german_credit,0,XGB,4,192,drop30_r1,untargeted,True,500,"[""amount""]",True,True
+german_credit,0,XGB,4,192,rev30_r1,acbfi_v3,True,60,"[""amount""]",True,True
+german_credit,0,XGB,4,192,rev30_r1,untargeted,True,500,"[""amount""]",True,True
+german_credit,0,XGB,4,192,drop30_r2,acbfi_v3,True,60,"[""amount""]",True,True
+german_credit,0,XGB,4,192,drop30_r2,untargeted,True,500,"[""amount""]",True,True
+german_credit,0,XGB,4,192,rev30_r2,acbfi_v3,True,60,"[""months_loan_duration""]",True,True
+german_credit,0,XGB,4,192,rev30_r2,untargeted,True,500,"[""amount"", ""installment_rate"", ""savings_balance""]",False,False
+german_credit,0,XGB,4,192,empty,acbfi_v3,True,60,"[""amount""]",True,True
+german_credit,0,XGB,4,192,empty,untargeted,True,500,"[""amount""]",True,True
+german_credit,0,XGB,4,192,pc,acbfi_v3,True,60,"[""amount""]",True,True
+german_credit,0,XGB,4,192,pc,untargeted,True,500,"[""amount"", ""checking_balance"", ""savings_balance""]",False,False
+german_credit,0,XGB,4,192,gbr,acbfi_v3,True,60,"[""amount""]",True,True
+german_credit,0,XGB,4,192,gbr,untargeted,True,500,"[""amount""]",True,True
+german_credit,0,XGB,5,36,llm,acbfi_v3,True,60,"[""months_loan_duration""]",True,False
+german_credit,0,XGB,5,36,llm,untargeted,True,500,"[""purpose"", ""savings_balance""]",True,True
+german_credit,0,XGB,5,36,drop30_r1,acbfi_v3,True,60,"[""months_loan_duration""]",True,False
+german_credit,0,XGB,5,36,drop30_r1,untargeted,True,500,"[""purpose"", ""savings_balance""]",True,True
+german_credit,0,XGB,5,36,rev30_r1,acbfi_v3,True,60,"[""months_loan_duration""]",True,False
+german_credit,0,XGB,5,36,rev30_r1,untargeted,True,500,"[""purpose"", ""savings_balance""]",True,True
+german_credit,0,XGB,5,36,drop30_r2,acbfi_v3,True,60,"[""months_loan_duration""]",True,True
+german_credit,0,XGB,5,36,drop30_r2,untargeted,True,500,"[""purpose"", ""savings_balance""]",True,True
+german_credit,0,XGB,5,36,rev30_r2,acbfi_v3,True,60,"[""months_loan_duration""]",True,True
+german_credit,0,XGB,5,36,rev30_r2,untargeted,True,500,"[""purpose"", ""savings_balance""]",True,True
+german_credit,0,XGB,5,36,empty,acbfi_v3,True,60,"[""months_loan_duration""]",True,True
+german_credit,0,XGB,5,36,empty,untargeted,True,500,"[""purpose"", ""savings_balance""]",True,True
+german_credit,0,XGB,5,36,pc,acbfi_v3,True,60,"[""telephone""]",False,False
+german_credit,0,XGB,5,36,pc,untargeted,True,500,"[""purpose"", ""savings_balance""]",True,True
+german_credit,0,XGB,5,36,gbr,acbfi_v3,True,60,"[""months_loan_duration""]",True,False
+german_credit,0,XGB,5,36,gbr,untargeted,True,500,"[""installment_rate"", ""months_loan_duration""]",False,False
+german_credit,0,XGB,6,79,llm,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,XGB,6,79,llm,untargeted,True,500,"[""employment_length"", ""savings_balance""]",True,True
+german_credit,0,XGB,6,79,drop30_r1,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,XGB,6,79,drop30_r1,untargeted,True,500,"[""employment_length"", ""savings_balance""]",True,True
+german_credit,0,XGB,6,79,rev30_r1,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,XGB,6,79,rev30_r1,untargeted,True,500,"[""employment_length"", ""savings_balance""]",True,True
+german_credit,0,XGB,6,79,drop30_r2,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,XGB,6,79,drop30_r2,untargeted,True,500,"[""employment_length"", ""savings_balance""]",True,True
+german_credit,0,XGB,6,79,rev30_r2,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,XGB,6,79,rev30_r2,untargeted,True,500,"[""employment_length"", ""savings_balance""]",True,True
+german_credit,0,XGB,6,79,empty,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,XGB,6,79,empty,untargeted,True,500,"[""employment_length"", ""savings_balance""]",True,True
+german_credit,0,XGB,6,79,pc,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,XGB,6,79,pc,untargeted,True,500,"[""checking_balance"", ""employment_length""]",True,True
+german_credit,0,XGB,6,79,gbr,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,XGB,6,79,gbr,untargeted,True,500,"[""employment_length"", ""savings_balance""]",True,True
+german_credit,0,XGB,7,4,llm,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,XGB,7,4,llm,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,XGB,7,4,drop30_r1,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,XGB,7,4,drop30_r1,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,XGB,7,4,rev30_r1,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,XGB,7,4,rev30_r1,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,XGB,7,4,drop30_r2,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,XGB,7,4,drop30_r2,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,XGB,7,4,rev30_r2,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,XGB,7,4,rev30_r2,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,XGB,7,4,empty,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,XGB,7,4,empty,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,XGB,7,4,pc,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,XGB,7,4,pc,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,XGB,7,4,gbr,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,XGB,7,4,gbr,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,XGB,8,100,llm,acbfi_v3,True,60,"[""amount""]",True,False
+german_credit,0,XGB,8,100,llm,untargeted,True,500,"[""amount""]",True,False
+german_credit,0,XGB,8,100,drop30_r1,acbfi_v3,True,60,"[""amount""]",True,False
+german_credit,0,XGB,8,100,drop30_r1,untargeted,True,500,"[""amount""]",True,False
+german_credit,0,XGB,8,100,rev30_r1,acbfi_v3,True,60,"[""amount""]",True,False
+german_credit,0,XGB,8,100,rev30_r1,untargeted,True,500,"[""amount""]",True,False
+german_credit,0,XGB,8,100,drop30_r2,acbfi_v3,True,60,"[""amount""]",True,False
+german_credit,0,XGB,8,100,drop30_r2,untargeted,True,500,"[""amount""]",True,False
+german_credit,0,XGB,8,100,rev30_r2,acbfi_v3,True,60,"[""amount""]",True,False
+german_credit,0,XGB,8,100,rev30_r2,untargeted,True,500,"[""amount"", ""months_loan_duration""]",True,False
+german_credit,0,XGB,8,100,empty,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,XGB,8,100,empty,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,XGB,8,100,pc,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,XGB,8,100,pc,untargeted,True,500,"[""months_loan_duration"", ""purpose""]",True,True
+german_credit,0,XGB,8,100,gbr,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,XGB,8,100,gbr,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,XGB,9,49,llm,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,XGB,9,49,llm,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,XGB,9,49,drop30_r1,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,XGB,9,49,drop30_r1,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,XGB,9,49,rev30_r1,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,XGB,9,49,rev30_r1,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,XGB,9,49,drop30_r2,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,XGB,9,49,drop30_r2,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,XGB,9,49,rev30_r2,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,XGB,9,49,rev30_r2,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,XGB,9,49,empty,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,XGB,9,49,empty,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,XGB,9,49,pc,acbfi_v3,True,60,"[""months_loan_duration""]",False,False
+german_credit,0,XGB,9,49,pc,untargeted,True,500,"[""months_loan_duration""]",False,False
+german_credit,0,XGB,9,49,gbr,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,XGB,9,49,gbr,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,XGB,10,72,llm,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,XGB,10,72,llm,untargeted,True,500,"[""employment_length"", ""savings_balance""]",True,True
+german_credit,0,XGB,10,72,drop30_r1,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,XGB,10,72,drop30_r1,untargeted,True,500,"[""employment_length"", ""savings_balance""]",True,True
+german_credit,0,XGB,10,72,rev30_r1,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,XGB,10,72,rev30_r1,untargeted,True,500,"[""employment_length"", ""savings_balance""]",True,True
+german_credit,0,XGB,10,72,drop30_r2,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,XGB,10,72,drop30_r2,untargeted,True,500,"[""employment_length"", ""savings_balance""]",True,True
+german_credit,0,XGB,10,72,rev30_r2,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,XGB,10,72,rev30_r2,untargeted,True,500,"[""employment_length"", ""savings_balance""]",True,True
+german_credit,0,XGB,10,72,empty,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,XGB,10,72,empty,untargeted,True,500,"[""employment_length"", ""savings_balance""]",True,True
+german_credit,0,XGB,10,72,pc,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,XGB,10,72,pc,untargeted,True,500,"[""checking_balance"", ""employment_length"", ""savings_balance""]",True,True
+german_credit,0,XGB,10,72,gbr,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,XGB,10,72,gbr,untargeted,True,500,"[""employment_length"", ""savings_balance""]",True,True
+german_credit,0,XGB,11,40,llm,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,XGB,11,40,llm,untargeted,True,500,"[""installment_rate"", ""savings_balance""]",True,True
+german_credit,0,XGB,11,40,drop30_r1,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,XGB,11,40,drop30_r1,untargeted,True,500,"[""installment_rate"", ""savings_balance""]",True,True
+german_credit,0,XGB,11,40,rev30_r1,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,XGB,11,40,rev30_r1,untargeted,True,500,"[""installment_rate"", ""savings_balance""]",True,True
+german_credit,0,XGB,11,40,drop30_r2,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,XGB,11,40,drop30_r2,untargeted,True,500,"[""installment_rate"", ""savings_balance""]",True,True
+german_credit,0,XGB,11,40,rev30_r2,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,XGB,11,40,rev30_r2,untargeted,True,500,"[""installment_rate"", ""savings_balance""]",True,True
+german_credit,0,XGB,11,40,empty,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,XGB,11,40,empty,untargeted,True,500,"[""installment_rate"", ""savings_balance""]",True,True
+german_credit,0,XGB,11,40,pc,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,XGB,11,40,pc,untargeted,True,500,"[""checking_balance"", ""savings_balance""]",True,True
+german_credit,0,XGB,11,40,gbr,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,XGB,11,40,gbr,untargeted,True,500,"[""installment_rate"", ""savings_balance""]",True,True
+german_credit,0,XGB,12,165,llm,acbfi_v3,True,60,"[""amount""]",True,True
+german_credit,0,XGB,12,165,llm,untargeted,True,500,"[""employment_length"", ""savings_balance""]",True,True
+german_credit,0,XGB,12,165,drop30_r1,acbfi_v3,True,60,"[""amount""]",True,True
+german_credit,0,XGB,12,165,drop30_r1,untargeted,True,500,"[""employment_length"", ""savings_balance""]",True,True
+german_credit,0,XGB,12,165,rev30_r1,acbfi_v3,True,60,"[""amount""]",True,True
+german_credit,0,XGB,12,165,rev30_r1,untargeted,True,500,"[""employment_length"", ""savings_balance""]",True,True
+german_credit,0,XGB,12,165,drop30_r2,acbfi_v3,True,60,"[""amount""]",True,True
+german_credit,0,XGB,12,165,drop30_r2,untargeted,True,500,"[""employment_length"", ""savings_balance""]",True,True
+german_credit,0,XGB,12,165,rev30_r2,acbfi_v3,True,60,"[""amount""]",False,False
+german_credit,0,XGB,12,165,rev30_r2,untargeted,True,500,"[""employment_length"", ""savings_balance""]",True,True
+german_credit,0,XGB,12,165,empty,acbfi_v3,True,60,"[""amount""]",True,True
+german_credit,0,XGB,12,165,empty,untargeted,True,500,"[""employment_length"", ""savings_balance""]",True,True
+german_credit,0,XGB,12,165,pc,acbfi_v3,True,60,"[""amount""]",False,False
+german_credit,0,XGB,12,165,pc,untargeted,True,500,"[""checking_balance"", ""savings_balance""]",True,True
+german_credit,0,XGB,12,165,gbr,acbfi_v3,True,60,"[""amount""]",True,True
+german_credit,0,XGB,12,165,gbr,untargeted,True,500,"[""employment_length"", ""savings_balance""]",True,True
+german_credit,0,XGB,13,42,llm,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,XGB,13,42,llm,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,XGB,13,42,drop30_r1,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,XGB,13,42,drop30_r1,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,XGB,13,42,rev30_r1,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,XGB,13,42,rev30_r1,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,XGB,13,42,drop30_r2,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,XGB,13,42,drop30_r2,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,XGB,13,42,rev30_r2,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,XGB,13,42,rev30_r2,untargeted,True,500,"[""installment_rate"", ""savings_balance""]",True,True
+german_credit,0,XGB,13,42,empty,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,XGB,13,42,empty,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,XGB,13,42,pc,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,XGB,13,42,pc,untargeted,True,500,"[""checking_balance"", ""savings_balance""]",True,True
+german_credit,0,XGB,13,42,gbr,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,XGB,13,42,gbr,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,XGB,14,145,llm,acbfi_v3,True,60,"[""amount""]",True,True
+german_credit,0,XGB,14,145,llm,untargeted,True,500,"[""amount""]",True,True
+german_credit,0,XGB,14,145,drop30_r1,acbfi_v3,True,60,"[""amount""]",True,True
+german_credit,0,XGB,14,145,drop30_r1,untargeted,True,500,"[""amount""]",True,True
+german_credit,0,XGB,14,145,rev30_r1,acbfi_v3,True,60,"[""amount""]",True,True
+german_credit,0,XGB,14,145,rev30_r1,untargeted,True,500,"[""amount""]",True,True
+german_credit,0,XGB,14,145,drop30_r2,acbfi_v3,True,60,"[""amount""]",True,True
+german_credit,0,XGB,14,145,drop30_r2,untargeted,True,500,"[""amount""]",True,True
+german_credit,0,XGB,14,145,rev30_r2,acbfi_v3,True,60,"[""amount""]",False,False
+german_credit,0,XGB,14,145,rev30_r2,untargeted,True,500,"[""amount""]",False,False
+german_credit,0,XGB,14,145,empty,acbfi_v3,True,60,"[""amount""]",True,True
+german_credit,0,XGB,14,145,empty,untargeted,True,500,"[""amount""]",True,True
+german_credit,0,XGB,14,145,pc,acbfi_v3,True,60,"[""amount""]",False,False
+german_credit,0,XGB,14,145,pc,untargeted,True,500,"[""amount""]",False,False
+german_credit,0,XGB,14,145,gbr,acbfi_v3,True,60,"[""amount""]",True,True
+german_credit,0,XGB,14,145,gbr,untargeted,True,500,"[""amount""]",True,True
+german_credit,0,XGB,15,185,llm,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,XGB,15,185,llm,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,XGB,15,185,drop30_r1,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,XGB,15,185,drop30_r1,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,XGB,15,185,rev30_r1,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,XGB,15,185,rev30_r1,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,XGB,15,185,drop30_r2,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,XGB,15,185,drop30_r2,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,XGB,15,185,rev30_r2,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,XGB,15,185,rev30_r2,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,XGB,15,185,empty,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,XGB,15,185,empty,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,XGB,15,185,pc,acbfi_v3,True,60,"[""employment_length""]",True,True
+german_credit,0,XGB,15,185,pc,untargeted,True,500,"[""employment_length""]",True,True
+german_credit,0,XGB,15,185,gbr,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,XGB,15,185,gbr,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,XGB,16,139,llm,acbfi_v3,True,60,"[""amount""]",True,False
+german_credit,0,XGB,16,139,llm,untargeted,True,500,"[""amount""]",True,False
+german_credit,0,XGB,16,139,drop30_r1,acbfi_v3,True,60,"[""amount""]",True,False
+german_credit,0,XGB,16,139,drop30_r1,untargeted,True,500,"[""amount""]",True,False
+german_credit,0,XGB,16,139,rev30_r1,acbfi_v3,True,60,"[""amount""]",True,False
+german_credit,0,XGB,16,139,rev30_r1,untargeted,True,500,"[""amount""]",True,False
+german_credit,0,XGB,16,139,drop30_r2,acbfi_v3,True,60,"[""amount""]",True,False
+german_credit,0,XGB,16,139,drop30_r2,untargeted,True,500,"[""amount""]",True,False
+german_credit,0,XGB,16,139,rev30_r2,acbfi_v3,True,60,"[""amount""]",True,False
+german_credit,0,XGB,16,139,rev30_r2,untargeted,True,500,"[""amount"", ""months_loan_duration""]",True,False
+german_credit,0,XGB,16,139,empty,acbfi_v3,True,60,"[""amount""]",True,True
+german_credit,0,XGB,16,139,empty,untargeted,True,500,"[""amount""]",True,True
+german_credit,0,XGB,16,139,pc,acbfi_v3,True,60,"[""amount""]",True,False
+german_credit,0,XGB,16,139,pc,untargeted,True,500,"[""amount"", ""employment_length""]",True,False
+german_credit,0,XGB,16,139,gbr,acbfi_v3,True,60,"[""amount""]",True,True
+german_credit,0,XGB,16,139,gbr,untargeted,True,500,"[""amount""]",True,True
+german_credit,0,XGB,17,109,llm,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,XGB,17,109,llm,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,XGB,17,109,drop30_r1,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,XGB,17,109,drop30_r1,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,XGB,17,109,rev30_r1,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,XGB,17,109,rev30_r1,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,XGB,17,109,drop30_r2,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,XGB,17,109,drop30_r2,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,XGB,17,109,rev30_r2,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,XGB,17,109,rev30_r2,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,XGB,17,109,empty,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,XGB,17,109,empty,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,XGB,17,109,pc,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,XGB,17,109,pc,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,XGB,17,109,gbr,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,XGB,17,109,gbr,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,XGB,18,197,llm,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,XGB,18,197,llm,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,XGB,18,197,drop30_r1,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,XGB,18,197,drop30_r1,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,XGB,18,197,rev30_r1,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,XGB,18,197,rev30_r1,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,XGB,18,197,drop30_r2,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,XGB,18,197,drop30_r2,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,XGB,18,197,rev30_r2,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,XGB,18,197,rev30_r2,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,XGB,18,197,empty,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,XGB,18,197,empty,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,XGB,18,197,pc,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,XGB,18,197,pc,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,XGB,18,197,gbr,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,XGB,18,197,gbr,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,XGB,19,108,llm,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,XGB,19,108,llm,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,XGB,19,108,drop30_r1,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,XGB,19,108,drop30_r1,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,XGB,19,108,rev30_r1,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,XGB,19,108,rev30_r1,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,XGB,19,108,drop30_r2,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,XGB,19,108,drop30_r2,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,XGB,19,108,rev30_r2,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,XGB,19,108,rev30_r2,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,XGB,19,108,empty,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,XGB,19,108,empty,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,XGB,19,108,pc,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,XGB,19,108,pc,untargeted,True,500,"[""checking_balance"", ""months_loan_duration"", ""savings_balance""]",True,True
+german_credit,0,XGB,19,108,gbr,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,XGB,19,108,gbr,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,XGB,20,188,llm,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,XGB,20,188,llm,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,XGB,20,188,drop30_r1,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,XGB,20,188,drop30_r1,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,XGB,20,188,rev30_r1,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,XGB,20,188,rev30_r1,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,XGB,20,188,drop30_r2,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,XGB,20,188,drop30_r2,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,XGB,20,188,rev30_r2,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,XGB,20,188,rev30_r2,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,XGB,20,188,empty,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,XGB,20,188,empty,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,XGB,20,188,pc,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,XGB,20,188,pc,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,XGB,20,188,gbr,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,XGB,20,188,gbr,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,XGB,21,83,llm,acbfi_v3,True,60,"[""amount""]",True,True
+german_credit,0,XGB,21,83,llm,untargeted,True,500,"[""amount""]",True,True
+german_credit,0,XGB,21,83,drop30_r1,acbfi_v3,True,60,"[""amount""]",True,True
+german_credit,0,XGB,21,83,drop30_r1,untargeted,True,500,"[""amount""]",True,True
+german_credit,0,XGB,21,83,rev30_r1,acbfi_v3,True,60,"[""amount""]",True,True
+german_credit,0,XGB,21,83,rev30_r1,untargeted,True,500,"[""amount""]",True,True
+german_credit,0,XGB,21,83,drop30_r2,acbfi_v3,True,60,"[""amount""]",True,True
+german_credit,0,XGB,21,83,drop30_r2,untargeted,True,500,"[""amount""]",True,True
+german_credit,0,XGB,21,83,rev30_r2,acbfi_v3,True,60,"[""amount""]",True,True
+german_credit,0,XGB,21,83,rev30_r2,untargeted,True,500,"[""amount""]",True,True
+german_credit,0,XGB,21,83,empty,acbfi_v3,True,60,"[""amount""]",True,True
+german_credit,0,XGB,21,83,empty,untargeted,True,500,"[""amount""]",True,True
+german_credit,0,XGB,21,83,pc,acbfi_v3,True,60,"[""amount""]",True,True
+german_credit,0,XGB,21,83,pc,untargeted,True,500,"[""amount""]",True,True
+german_credit,0,XGB,21,83,gbr,acbfi_v3,True,60,"[""amount""]",True,True
+german_credit,0,XGB,21,83,gbr,untargeted,True,500,"[""amount""]",True,True
+german_credit,0,XGB,22,121,llm,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,XGB,22,121,llm,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,XGB,22,121,drop30_r1,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,XGB,22,121,drop30_r1,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,XGB,22,121,rev30_r1,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,XGB,22,121,rev30_r1,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,XGB,22,121,drop30_r2,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,XGB,22,121,drop30_r2,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,XGB,22,121,rev30_r2,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,XGB,22,121,rev30_r2,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,XGB,22,121,empty,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,XGB,22,121,empty,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,XGB,22,121,pc,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,XGB,22,121,pc,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,XGB,22,121,gbr,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,XGB,22,121,gbr,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,XGB,23,96,llm,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,XGB,23,96,llm,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,XGB,23,96,drop30_r1,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,XGB,23,96,drop30_r1,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,XGB,23,96,rev30_r1,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,XGB,23,96,rev30_r1,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,XGB,23,96,drop30_r2,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,XGB,23,96,drop30_r2,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,XGB,23,96,rev30_r2,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,XGB,23,96,rev30_r2,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,XGB,23,96,empty,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,XGB,23,96,empty,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,XGB,23,96,pc,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,XGB,23,96,pc,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,XGB,23,96,gbr,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,XGB,23,96,gbr,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,XGB,24,85,llm,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,XGB,24,85,llm,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,XGB,24,85,drop30_r1,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,XGB,24,85,drop30_r1,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,XGB,24,85,rev30_r1,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,XGB,24,85,rev30_r1,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,XGB,24,85,drop30_r2,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,XGB,24,85,drop30_r2,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,XGB,24,85,rev30_r2,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,XGB,24,85,rev30_r2,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,XGB,24,85,empty,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,XGB,24,85,empty,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,XGB,24,85,pc,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,XGB,24,85,pc,untargeted,True,500,"[""months_loan_duration"", ""purpose""]",True,True
+german_credit,0,XGB,24,85,gbr,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,XGB,24,85,gbr,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,XGB,25,55,llm,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,XGB,25,55,llm,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,XGB,25,55,drop30_r1,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,XGB,25,55,drop30_r1,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,XGB,25,55,rev30_r1,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,XGB,25,55,rev30_r1,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,XGB,25,55,drop30_r2,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,XGB,25,55,drop30_r2,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,XGB,25,55,rev30_r2,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,XGB,25,55,rev30_r2,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,XGB,25,55,empty,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,XGB,25,55,empty,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,XGB,25,55,pc,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,XGB,25,55,pc,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,XGB,25,55,gbr,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,XGB,25,55,gbr,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,XGB,26,26,llm,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,XGB,26,26,llm,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,XGB,26,26,drop30_r1,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,XGB,26,26,drop30_r1,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,XGB,26,26,rev30_r1,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,XGB,26,26,rev30_r1,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,XGB,26,26,drop30_r2,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,XGB,26,26,drop30_r2,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,XGB,26,26,rev30_r2,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,XGB,26,26,rev30_r2,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,XGB,26,26,empty,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,XGB,26,26,empty,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,XGB,26,26,pc,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,XGB,26,26,pc,untargeted,True,500,"[""checking_balance""]",True,True
+german_credit,0,XGB,26,26,gbr,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,XGB,26,26,gbr,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,XGB,27,82,llm,acbfi_v3,True,60,"[""amount""]",True,True
+german_credit,0,XGB,27,82,llm,untargeted,True,500,"[""amount""]",True,True
+german_credit,0,XGB,27,82,drop30_r1,acbfi_v3,True,60,"[""amount""]",True,True
+german_credit,0,XGB,27,82,drop30_r1,untargeted,True,500,"[""amount""]",True,True
+german_credit,0,XGB,27,82,rev30_r1,acbfi_v3,True,60,"[""amount""]",True,True
+german_credit,0,XGB,27,82,rev30_r1,untargeted,True,500,"[""amount""]",True,True
+german_credit,0,XGB,27,82,drop30_r2,acbfi_v3,True,60,"[""amount""]",True,True
+german_credit,0,XGB,27,82,drop30_r2,untargeted,True,500,"[""amount""]",True,True
+german_credit,0,XGB,27,82,rev30_r2,acbfi_v3,True,60,"[""amount""]",True,True
+german_credit,0,XGB,27,82,rev30_r2,untargeted,True,500,"[""amount""]",True,True
+german_credit,0,XGB,27,82,empty,acbfi_v3,True,60,"[""amount""]",True,True
+german_credit,0,XGB,27,82,empty,untargeted,True,500,"[""amount""]",True,True
+german_credit,0,XGB,27,82,pc,acbfi_v3,True,60,"[""amount""]",True,True
+german_credit,0,XGB,27,82,pc,untargeted,True,500,"[""amount""]",True,True
+german_credit,0,XGB,27,82,gbr,acbfi_v3,True,60,"[""amount""]",True,True
+german_credit,0,XGB,27,82,gbr,untargeted,True,500,"[""amount""]",True,True
+german_credit,0,XGB,28,162,llm,acbfi_v3,True,60,"[""months_loan_duration""]",True,False
+german_credit,0,XGB,28,162,llm,untargeted,True,500,"[""purpose"", ""savings_balance""]",True,True
+german_credit,0,XGB,28,162,drop30_r1,acbfi_v3,True,60,"[""months_loan_duration""]",True,False
+german_credit,0,XGB,28,162,drop30_r1,untargeted,True,500,"[""purpose"", ""savings_balance""]",True,True
+german_credit,0,XGB,28,162,rev30_r1,acbfi_v3,True,60,"[""months_loan_duration""]",True,False
+german_credit,0,XGB,28,162,rev30_r1,untargeted,True,500,"[""purpose"", ""savings_balance""]",True,True
+german_credit,0,XGB,28,162,drop30_r2,acbfi_v3,True,620,"[""months_loan_duration"", ""savings_balance""]",True,True
+german_credit,0,XGB,28,162,drop30_r2,untargeted,True,500,"[""purpose"", ""savings_balance""]",True,True
+german_credit,0,XGB,28,162,rev30_r2,acbfi_v3,True,620,"[""months_loan_duration"", ""savings_balance""]",True,True
+german_credit,0,XGB,28,162,rev30_r2,untargeted,True,500,"[""purpose"", ""savings_balance""]",True,True
+german_credit,0,XGB,28,162,empty,acbfi_v3,True,620,"[""months_loan_duration"", ""savings_balance""]",True,True
+german_credit,0,XGB,28,162,empty,untargeted,True,500,"[""purpose"", ""savings_balance""]",True,True
+german_credit,0,XGB,28,162,pc,acbfi_v3,True,604,"[""installment_rate"", ""months_loan_duration""]",False,False
+german_credit,0,XGB,28,162,pc,untargeted,True,500,"[""purpose"", ""savings_balance""]",True,True
+german_credit,0,XGB,28,162,gbr,acbfi_v3,True,60,"[""months_loan_duration""]",True,False
+german_credit,0,XGB,28,162,gbr,untargeted,True,500,"[""purpose"", ""savings_balance""]",True,True
+german_credit,0,XGB,29,144,llm,acbfi_v3,True,60,"[""employment_length""]",True,True
+german_credit,0,XGB,29,144,llm,untargeted,True,500,"[""employment_length""]",True,True
+german_credit,0,XGB,29,144,drop30_r1,acbfi_v3,True,60,"[""employment_length""]",True,True
+german_credit,0,XGB,29,144,drop30_r1,untargeted,True,500,"[""employment_length""]",True,True
+german_credit,0,XGB,29,144,rev30_r1,acbfi_v3,True,60,"[""employment_length""]",True,True
+german_credit,0,XGB,29,144,rev30_r1,untargeted,True,500,"[""employment_length""]",True,True
+german_credit,0,XGB,29,144,drop30_r2,acbfi_v3,True,60,"[""employment_length""]",True,True
+german_credit,0,XGB,29,144,drop30_r2,untargeted,True,500,"[""employment_length""]",True,True
+german_credit,0,XGB,29,144,rev30_r2,acbfi_v3,True,60,"[""employment_length""]",True,True
+german_credit,0,XGB,29,144,rev30_r2,untargeted,True,500,"[""employment_length""]",True,True
+german_credit,0,XGB,29,144,empty,acbfi_v3,True,60,"[""employment_length""]",True,True
+german_credit,0,XGB,29,144,empty,untargeted,True,500,"[""employment_length""]",True,True
+german_credit,0,XGB,29,144,pc,acbfi_v3,True,60,"[""employment_length""]",True,True
+german_credit,0,XGB,29,144,pc,untargeted,True,500,"[""employment_length""]",True,True
+german_credit,0,XGB,29,144,gbr,acbfi_v3,True,60,"[""employment_length""]",True,True
+german_credit,0,XGB,29,144,gbr,untargeted,True,500,"[""employment_length""]",True,True
+german_credit,0,XGB,30,77,llm,acbfi_v3,True,60,"[""months_loan_duration""]",True,False
+german_credit,0,XGB,30,77,llm,untargeted,True,500,"[""months_loan_duration""]",True,False
+german_credit,0,XGB,30,77,drop30_r1,acbfi_v3,True,60,"[""months_loan_duration""]",True,False
+german_credit,0,XGB,30,77,drop30_r1,untargeted,True,500,"[""months_loan_duration""]",True,False
+german_credit,0,XGB,30,77,rev30_r1,acbfi_v3,True,60,"[""months_loan_duration""]",True,False
+german_credit,0,XGB,30,77,rev30_r1,untargeted,True,500,"[""months_loan_duration""]",True,False
+german_credit,0,XGB,30,77,drop30_r2,acbfi_v3,True,60,"[""amount""]",True,False
+german_credit,0,XGB,30,77,drop30_r2,untargeted,True,500,"[""amount"", ""months_loan_duration""]",True,False
+german_credit,0,XGB,30,77,rev30_r2,acbfi_v3,True,60,"[""amount""]",True,False
+german_credit,0,XGB,30,77,rev30_r2,untargeted,True,500,"[""amount"", ""months_loan_duration""]",True,False
+german_credit,0,XGB,30,77,empty,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,XGB,30,77,empty,untargeted,True,500,"[""months_loan_duration"", ""purpose""]",True,True
+german_credit,0,XGB,30,77,pc,acbfi_v3,True,60,"[""installment_rate""]",False,False
+german_credit,0,XGB,30,77,pc,untargeted,True,500,"[""checking_balance"", ""months_loan_duration"", ""purpose""]",True,True
+german_credit,0,XGB,30,77,gbr,acbfi_v3,True,60,"[""months_loan_duration""]",True,False
+german_credit,0,XGB,30,77,gbr,untargeted,True,500,"[""months_loan_duration"", ""purpose""]",True,True
+german_credit,0,XGB,31,186,llm,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,XGB,31,186,llm,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,XGB,31,186,drop30_r1,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,XGB,31,186,drop30_r1,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,XGB,31,186,rev30_r1,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,XGB,31,186,rev30_r1,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,XGB,31,186,drop30_r2,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,XGB,31,186,drop30_r2,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,XGB,31,186,rev30_r2,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,XGB,31,186,rev30_r2,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,XGB,31,186,empty,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,XGB,31,186,empty,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,XGB,31,186,pc,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,XGB,31,186,pc,untargeted,True,500,"[""checking_balance"", ""savings_balance""]",True,True
+german_credit,0,XGB,31,186,gbr,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,XGB,31,186,gbr,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,XGB,32,154,llm,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,XGB,32,154,llm,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,XGB,32,154,drop30_r1,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,XGB,32,154,drop30_r1,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,XGB,32,154,rev30_r1,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,XGB,32,154,rev30_r1,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,XGB,32,154,drop30_r2,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,XGB,32,154,drop30_r2,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,XGB,32,154,rev30_r2,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,XGB,32,154,rev30_r2,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,XGB,32,154,empty,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,XGB,32,154,empty,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,XGB,32,154,pc,acbfi_v3,True,60,"[""employment_length""]",True,True
+german_credit,0,XGB,32,154,pc,untargeted,True,500,"[""employment_length""]",True,True
+german_credit,0,XGB,32,154,gbr,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,XGB,32,154,gbr,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,XGB,33,81,llm,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,XGB,33,81,llm,untargeted,True,500,"[""checking_balance"", ""purpose""]",True,True
+german_credit,0,XGB,33,81,drop30_r1,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,XGB,33,81,drop30_r1,untargeted,True,500,"[""checking_balance"", ""purpose""]",True,True
+german_credit,0,XGB,33,81,rev30_r1,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,XGB,33,81,rev30_r1,untargeted,True,500,"[""checking_balance"", ""purpose""]",True,True
+german_credit,0,XGB,33,81,drop30_r2,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,XGB,33,81,drop30_r2,untargeted,True,500,"[""checking_balance"", ""purpose""]",True,True
+german_credit,0,XGB,33,81,rev30_r2,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,XGB,33,81,rev30_r2,untargeted,True,500,"[""checking_balance"", ""purpose""]",True,True
+german_credit,0,XGB,33,81,empty,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,XGB,33,81,empty,untargeted,True,500,"[""checking_balance"", ""purpose""]",True,True
+german_credit,0,XGB,33,81,pc,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,XGB,33,81,pc,untargeted,True,500,"[""checking_balance"", ""purpose""]",True,True
+german_credit,0,XGB,33,81,gbr,acbfi_v3,True,60,"[""checking_balance""]",True,True
+german_credit,0,XGB,33,81,gbr,untargeted,True,500,"[""checking_balance"", ""purpose""]",True,True
+german_credit,0,XGB,34,3,llm,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,XGB,34,3,llm,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,XGB,34,3,drop30_r1,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,XGB,34,3,drop30_r1,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,XGB,34,3,rev30_r1,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,XGB,34,3,rev30_r1,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,XGB,34,3,drop30_r2,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,XGB,34,3,drop30_r2,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,XGB,34,3,rev30_r2,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,XGB,34,3,rev30_r2,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,XGB,34,3,empty,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,XGB,34,3,empty,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,XGB,34,3,pc,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,XGB,34,3,pc,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,XGB,34,3,gbr,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,XGB,34,3,gbr,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,XGB,35,125,llm,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,XGB,35,125,llm,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,XGB,35,125,drop30_r1,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,XGB,35,125,drop30_r1,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,XGB,35,125,rev30_r1,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,XGB,35,125,rev30_r1,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,XGB,35,125,drop30_r2,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,XGB,35,125,drop30_r2,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,XGB,35,125,rev30_r2,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,XGB,35,125,rev30_r2,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,XGB,35,125,empty,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,XGB,35,125,empty,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,XGB,35,125,pc,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,XGB,35,125,pc,untargeted,True,500,"[""checking_balance"", ""savings_balance""]",True,True
+german_credit,0,XGB,35,125,gbr,acbfi_v3,True,60,"[""savings_balance""]",True,True
+german_credit,0,XGB,35,125,gbr,untargeted,True,500,"[""savings_balance""]",True,True
+german_credit,0,XGB,36,149,llm,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,XGB,36,149,llm,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,XGB,36,149,drop30_r1,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,XGB,36,149,drop30_r1,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,XGB,36,149,rev30_r1,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,XGB,36,149,rev30_r1,untargeted,True,500,"[""purpose""]",True,True
+german_credit,0,XGB,36,149,drop30_r2,acbfi_v3,True,60,"[""months_loan_duration""]",True,True
+german_credit,0,XGB,36,149,drop30_r2,untargeted,True,500,"[""months_loan_duration""]",True,True
+german_credit,0,XGB,36,149,rev30_r2,acbfi_v3,True,60,"[""months_loan_duration""]",True,True
+german_credit,0,XGB,36,149,rev30_r2,untargeted,True,500,"[""months_loan_duration""]",True,True
+german_credit,0,XGB,36,149,empty,acbfi_v3,True,60,"[""months_loan_duration""]",True,True
+german_credit,0,XGB,36,149,empty,untargeted,True,500,"[""months_loan_duration""]",True,True
+german_credit,0,XGB,36,149,pc,acbfi_v3,True,60,"[""months_loan_duration""]",True,True
+german_credit,0,XGB,36,149,pc,untargeted,True,500,"[""checking_balance"", ""months_loan_duration""]",True,True
+german_credit,0,XGB,36,149,gbr,acbfi_v3,True,60,"[""purpose""]",True,True
+german_credit,0,XGB,36,149,gbr,untargeted,True,500,"[""purpose""]",True,True

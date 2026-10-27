@@ -1,0 +1,145 @@
+﻿dataset,seed,model,query,test_row,method,success,evals_diag,evals_search,evals_total,time,stage,cost,cost_action,L0,L_active,cross_valid,tail,intervened,changed
+student_perf,0,RF,0,87,acbfi_v2,True,501,4,505,0.20855927467346191,single,1.0,1.0,1.0,1.0,0.5,False,['studytime'],['studytime']
+student_perf,0,RF,0,87,acbfi_v1,True,2805,133,2938,3.1026642322540283,beam,1.0,1.0,1.0,1.0,0.5,False,['studytime'],['studytime']
+student_perf,0,RF,0,87,untargeted,True,0,154,154,1.7740211486816406,beam,1.0,1.0,1.0,1.0,0.5,False,['studytime'],['studytime']
+student_perf,0,RF,0,87,shap_staged,True,25254,3,25257,3.763399362564087,single,1.0,1.0,1.0,1.0,0.5,False,['studytime'],['studytime']
+student_perf,0,RF,0,87,lewis_style,True,1864,1,1865,0.9386160373687744,pair,7.619534913221792,5.000000000000001,6.0,2.0,0.5,True,"['studytime', 'goout']","['studytime', 'goout', 'dalc', 'walc', 'health', 'absences']"
+student_perf,0,RF,0,87,shap_ce,True,25254,343,25597,3.7480225563049316,grid,0.5000000000000003,0.5000000000000003,1.0,1.0,0.5,False,['studytime'],['studytime']
+student_perf,0,RF,0,87,random_grid_ce,True,0,500,500,0.03179168701171875,grid,1.838666222747196,1.838666222747196,3.0,3.0,0.5,False,"['schoolsup', 'activities', 'studytime']","['schoolsup', 'activities', 'studytime']"
+student_perf,0,RF,0,87,acbfi_v3,True,13,0,13,0.13605093955993652,single,1.0,1.0,1.0,1.0,0.5,False,['studytime'],['studytime']
+student_perf,0,RF,1,46,acbfi_v2,True,501,7,508,0.21234917640686035,single,1.0,1.0,1.0,1.0,0.0,False,['studytime'],['studytime']
+student_perf,0,RF,1,46,acbfi_v1,True,2805,107,2912,2.5668933391571045,beam,1.0,1.0,1.0,1.0,0.0,False,['studytime'],['studytime']
+student_perf,0,RF,1,46,untargeted,True,0,107,107,0.9226372241973877,beam,1.0,1.0,1.0,1.0,0.0,False,['studytime'],['studytime']
+student_perf,0,RF,1,46,shap_staged,True,24120,5,24125,0.2631824016571045,single,1.0,1.0,1.0,1.0,0.0,False,['studytime'],['studytime']
+student_perf,0,RF,1,46,lewis_style,True,1266,9,1275,0.7474503517150879,pair,2.0000000000000004,2.0000000000000004,1.0,2.0,0.5,False,"['studytime', 'activities']",['studytime']
+student_perf,0,RF,1,46,shap_ce,True,24120,343,24463,0.24808979034423828,grid,0.5000000000000003,0.5000000000000003,1.0,1.0,0.0,False,['studytime'],['studytime']
+student_perf,0,RF,1,46,random_grid_ce,True,0,500,500,0.031647443771362305,grid,1.498890913701905,1.498890913701905,1.0,1.0,0.0,False,['activities'],['activities']
+student_perf,0,RF,1,46,acbfi_v3,True,11,0,11,0.10764932632446289,single,1.0,1.0,1.0,1.0,0.0,False,['studytime'],['studytime']
+student_perf,0,RF,2,56,acbfi_v2,True,501,6,507,0.20612049102783203,single,1.288300872129576,1.0,3.0,1.0,1.0,True,['walc'],"['walc', 'health', 'absences']"
+student_perf,0,RF,2,56,acbfi_v1,True,2805,149,2954,3.059812068939209,beam,1.288300872129576,1.0,3.0,1.0,1.0,True,['walc'],"['walc', 'health', 'absences']"
+student_perf,0,RF,2,56,untargeted,True,0,149,149,1.3951199054718018,beam,1.288300872129576,1.0,3.0,1.0,1.0,True,['walc'],"['walc', 'health', 'absences']"
+student_perf,0,RF,2,56,shap_staged,True,25884,2,25886,0.1645958423614502,single,1.288300872129576,1.0,3.0,1.0,1.0,True,['walc'],"['walc', 'health', 'absences']"
+student_perf,0,RF,2,56,lewis_style,False,3200,0,3200,1.1387851238250732,,,,,,,,,
+student_perf,0,RF,2,56,shap_ce,True,25884,343,26227,0.14943289756774902,grid,1.0,1.0,1.0,1.0,1.0,False,['walc'],['walc']
+student_perf,0,RF,2,56,random_grid_ce,True,0,500,500,0.03119039535522461,grid,0.999260609134603,0.999260609134603,1.0,1.0,0.5,False,['activities'],['activities']
+student_perf,0,RF,2,56,acbfi_v3,True,13,0,13,0.11765766143798828,single,1.288300872129576,1.0,3.0,1.0,1.0,True,['walc'],"['walc', 'health', 'absences']"
+student_perf,0,SVM,0,39,acbfi_v2,True,501,6,507,0.011110782623291016,single,2.0,2.0,1.0,1.0,1.0,False,['studytime'],['studytime']
+student_perf,0,SVM,0,39,acbfi_v1,True,2805,147,2952,0.07731962203979492,beam,2.0,2.0,1.0,1.0,1.0,False,['studytime'],['studytime']
+student_perf,0,SVM,0,39,untargeted,True,0,147,147,0.0179443359375,beam,2.0,2.0,1.0,1.0,1.0,False,['studytime'],['studytime']
+student_perf,0,SVM,0,39,shap_staged,True,25992,3,25995,0.4181208610534668,single,2.0,2.0,1.0,1.0,1.0,False,['studytime'],['studytime']
+student_perf,0,SVM,0,39,lewis_style,True,668,1,669,0.04947614669799805,single,3.000000000000001,3.000000000000001,1.0,1.0,1.0,False,['studytime'],['studytime']
+student_perf,0,SVM,0,39,shap_ce,True,25992,343,26335,0.4235868453979492,grid,2.0000000000000004,2.0000000000000004,1.0,1.0,1.0,False,['studytime'],['studytime']
+student_perf,0,SVM,0,39,random_grid_ce,True,0,500,500,0.024779796600341797,grid,2.2500000000000004,2.2500000000000004,1.0,1.0,1.0,False,['studytime'],['studytime']
+student_perf,0,SVM,0,39,acbfi_v3,True,13,0,13,0.002032756805419922,single,2.0,2.0,1.0,1.0,1.0,False,['studytime'],['studytime']
+student_perf,0,SVM,1,125,acbfi_v2,True,501,6,507,0.011948823928833008,single,1.9985212182692063,1.998521218269206,1.0,1.0,1.0,False,['activities'],['activities']
+student_perf,0,SVM,1,125,acbfi_v1,True,2805,196,3001,0.08350682258605957,beam,1.9985212182692063,1.998521218269206,1.0,1.0,1.0,False,['activities'],['activities']
+student_perf,0,SVM,1,125,untargeted,True,0,217,217,0.026514768600463867,beam,1.9985212182692063,1.998521218269206,1.0,1.0,1.0,False,['activities'],['activities']
+student_perf,0,SVM,1,125,shap_staged,True,27954,5,27959,0.4794275760650635,single,1.9985212182692063,1.998521218269206,1.0,1.0,1.0,False,['activities'],['activities']
+student_perf,0,SVM,1,125,lewis_style,True,965,1,966,0.07856369018554688,single,3.0000000000000013,3.000000000000001,1.0,1.0,1.0,False,['studytime'],['studytime']
+student_perf,0,SVM,1,125,shap_ce,True,27954,343,28297,0.48412466049194336,grid,1.3323474788461374,1.3323474788461374,1.0,1.0,1.0,False,['activities'],['activities']
+student_perf,0,SVM,1,125,random_grid_ce,True,0,500,500,0.025411605834960938,grid,3.5645635351173013,3.5645635351173013,3.0,3.0,1.0,False,"['famsup', 'activities', 'goout']","['famsup', 'activities', 'goout']"
+student_perf,0,SVM,1,125,acbfi_v3,True,18,0,18,0.002300739288330078,single,1.9985212182692063,1.998521218269206,1.0,1.0,1.0,False,['activities'],['activities']
+student_perf,0,SVM,2,126,acbfi_v2,True,501,5,506,0.010981321334838867,single,3.3561436727195764,3.3561436727195764,1.0,1.0,0.5,False,['schoolsup'],['schoolsup']
+student_perf,0,SVM,2,126,acbfi_v1,True,2805,118,2923,0.07631468772888184,beam,3.3561436727195764,3.3561436727195764,1.0,1.0,0.5,False,['schoolsup'],['schoolsup']
+student_perf,0,SVM,2,126,untargeted,True,0,118,118,0.01754164695739746,beam,3.3561436727195764,3.3561436727195764,1.0,1.0,0.5,False,['schoolsup'],['schoolsup']
+student_perf,0,SVM,2,126,shap_staged,False,26532,15,26547,0.43206191062927246,,,,,,,,,
+student_perf,0,SVM,2,126,lewis_style,True,2189,9,2198,0.19778943061828613,pair,3.3561436727195764,3.3561436727195764,1.0,2.0,0.5,False,"['schoolsup', 'activities']",['schoolsup']
+student_perf,0,SVM,2,126,shap_ce,False,26532,343,26875,0.4362761974334717,,,,,,,,,
+student_perf,0,SVM,2,126,random_grid_ce,True,0,500,500,0.02553844451904297,grid,5.266738059106984,5.266738059106984,3.0,3.0,0.5,False,"['schoolsup', 'activities', 'studytime']","['schoolsup', 'activities', 'studytime']"
+student_perf,0,SVM,2,126,acbfi_v3,True,12,0,12,0.0020513534545898438,single,3.3561436727195764,3.3561436727195764,1.0,1.0,0.5,False,['schoolsup'],['schoolsup']
+student_perf,0,SVM,3,30,acbfi_v2,True,501,8,509,0.011193275451660156,single,1.0000000000000002,1.0,1.0,1.0,1.0,False,['studytime'],['studytime']
+student_perf,0,SVM,3,30,acbfi_v1,True,2805,125,2930,0.07233715057373047,beam,1.0000000000000002,1.0,1.0,1.0,1.0,False,['studytime'],['studytime']
+student_perf,0,SVM,3,30,untargeted,True,0,125,125,0.012365341186523438,beam,1.0000000000000002,1.0,1.0,1.0,1.0,False,['studytime'],['studytime']
+student_perf,0,SVM,3,30,shap_staged,True,26280,3,26283,0.42748475074768066,single,1.0000000000000002,1.0,1.0,1.0,1.0,False,['studytime'],['studytime']
+student_perf,0,SVM,3,30,lewis_style,True,800,1,801,0.061277151107788086,single,3.000000000000001,3.000000000000001,1.0,1.0,1.0,False,['studytime'],['studytime']
+student_perf,0,SVM,3,30,shap_ce,True,26280,343,26623,0.43275952339172363,grid,1.0000000000000002,1.0000000000000002,1.0,1.0,1.0,False,['studytime'],['studytime']
+student_perf,0,SVM,3,30,random_grid_ce,True,0,500,500,0.02510213851928711,grid,2.8386662227471957,2.8386662227471957,3.0,3.0,1.0,False,"['schoolsup', 'activities', 'studytime']","['schoolsup', 'activities', 'studytime']"
+student_perf,0,SVM,3,30,acbfi_v3,True,13,0,13,0.001953125,single,1.0000000000000002,1.0,1.0,1.0,1.0,False,['studytime'],['studytime']
+student_perf,0,SVM,4,127,acbfi_v2,True,501,5,506,0.010991096496582031,single,3.000000000000001,3.000000000000001,1.0,1.0,1.0,False,['studytime'],['studytime']
+student_perf,0,SVM,4,127,acbfi_v1,True,2805,136,2941,0.07651257514953613,beam,3.000000000000001,3.000000000000001,1.0,1.0,1.0,False,['studytime'],['studytime']
+student_perf,0,SVM,4,127,untargeted,True,0,171,171,0.021706342697143555,beam,3.000000000000001,3.000000000000001,1.0,1.0,1.0,False,['studytime'],['studytime']
+student_perf,0,SVM,4,127,shap_staged,True,26046,4,26050,0.4169754981994629,single,3.000000000000001,3.000000000000001,1.0,1.0,1.0,False,['studytime'],['studytime']
+student_perf,0,SVM,4,127,lewis_style,True,2161,11,2172,0.22891926765441895,pair,4.000000000000001,4.000000000000001,2.0,2.0,1.0,False,"['studytime', 'absences']","['studytime', 'absences']"
+student_perf,0,SVM,4,127,shap_ce,True,26046,343,26389,0.4221382141113281,grid,3.000000000000001,3.000000000000001,1.0,1.0,1.0,False,['studytime'],['studytime']
+student_perf,0,SVM,4,127,random_grid_ce,True,0,500,500,0.027854442596435547,grid,4.9034509784997855,4.9034509784997855,2.0,2.0,1.0,False,"['paid', 'studytime']","['paid', 'studytime']"
+student_perf,0,SVM,4,127,acbfi_v3,True,14,0,14,0.0027511119842529297,single,3.000000000000001,3.000000000000001,1.0,1.0,1.0,False,['studytime'],['studytime']
+student_perf,0,SVM,5,4,acbfi_v2,True,501,9,510,0.011342048645019531,single,1.9985212182692065,1.998521218269206,1.0,1.0,1.0,False,['activities'],['activities']
+student_perf,0,SVM,5,4,acbfi_v1,True,2805,232,3037,0.07896804809570312,beam,1.9985212182692065,1.998521218269206,1.0,1.0,1.0,False,['activities'],['activities']
+student_perf,0,SVM,5,4,untargeted,True,0,274,274,0.025867938995361328,beam,1.9985212182692065,1.998521218269206,1.0,1.0,1.0,False,['activities'],['activities']
+student_perf,0,SVM,5,4,shap_staged,True,24390,9,24399,0.39664220809936523,single,1.9985212182692065,1.998521218269206,1.0,1.0,1.0,False,['activities'],['activities']
+student_perf,0,SVM,5,4,lewis_style,True,800,1,801,0.06389284133911133,single,3.0000000000000018,3.000000000000001,1.0,1.0,1.0,False,['studytime'],['studytime']
+student_perf,0,SVM,5,4,shap_ce,True,24390,343,24733,0.4014005661010742,grid,1.5000000000000004,1.5000000000000004,1.0,1.0,1.0,False,['studytime'],['studytime']
+student_perf,0,SVM,5,4,random_grid_ce,True,0,500,500,0.02527761459350586,grid,3.5645635351173013,3.5645635351173013,3.0,3.0,1.0,False,"['famsup', 'activities', 'goout']","['famsup', 'activities', 'goout']"
+student_perf,0,SVM,5,4,acbfi_v3,True,21,0,21,0.0030128955841064453,single,1.9985212182692065,1.998521218269206,1.0,1.0,1.0,False,['activities'],['activities']
+student_perf,0,SVM,6,46,acbfi_v2,True,501,5,506,0.011806964874267578,single,1.998521218269206,1.998521218269206,1.0,1.0,0.5,False,['activities'],['activities']
+student_perf,0,SVM,6,46,acbfi_v1,True,2805,109,2914,0.07407712936401367,beam,1.998521218269206,1.998521218269206,1.0,1.0,0.5,False,['activities'],['activities']
+student_perf,0,SVM,6,46,untargeted,True,0,109,109,0.01473689079284668,beam,1.998521218269206,1.998521218269206,1.0,1.0,0.5,False,['activities'],['activities']
+student_perf,0,SVM,6,46,shap_staged,True,24120,2,24122,0.3914971351623535,single,1.998521218269206,1.998521218269206,1.0,1.0,0.5,False,['activities'],['activities']
+student_perf,0,SVM,6,46,lewis_style,True,440,1,441,0.028238773345947266,single,2.0000000000000004,2.0000000000000004,1.0,1.0,0.5,False,['studytime'],['studytime']
+student_perf,0,SVM,6,46,shap_ce,True,24120,343,24463,0.396747350692749,grid,1.6654343485576717,1.6654343485576717,1.0,1.0,0.5,False,['activities'],['activities']
+student_perf,0,SVM,6,46,random_grid_ce,True,0,500,500,0.02580857276916504,grid,1.7496303045673025,1.7496303045673025,2.0,2.0,0.5,False,"['activities', 'studytime']","['activities', 'studytime']"
+student_perf,0,SVM,6,46,acbfi_v3,True,11,0,11,0.001798868179321289,single,1.998521218269206,1.998521218269206,1.0,1.0,0.5,False,['activities'],['activities']
+student_perf,0,XGB,0,63,acbfi_v2,True,501,6,507,0.007598876953125,single,1.288300872129576,1.0000000000000002,3.0,1.0,1.0,False,['walc'],"['walc', 'health', 'absences']"
+student_perf,0,XGB,0,63,acbfi_v1,True,2805,145,2950,0.09525418281555176,beam,1.288300872129576,1.0000000000000002,3.0,1.0,1.0,False,['walc'],"['walc', 'health', 'absences']"
+student_perf,0,XGB,0,63,untargeted,True,0,180,180,0.05653667449951172,beam,1.288300872129576,1.0000000000000002,3.0,1.0,1.0,False,['walc'],"['walc', 'health', 'absences']"
+student_perf,0,XGB,0,63,shap_staged,True,23472,5,23477,0.30846452713012695,single,1.288300872129576,1.0000000000000002,3.0,1.0,1.0,False,['walc'],"['walc', 'health', 'absences']"
+student_perf,0,XGB,0,63,lewis_style,True,1708,2,1710,0.1605701446533203,pair,4.45848392685838,4.0,3.0,2.0,1.0,False,"['walc', 'absences']","['walc', 'health', 'absences']"
+student_perf,0,XGB,0,63,shap_ce,True,23472,343,23815,0.3073689937591553,grid,1.6666666666666667,1.6666666666666667,1.0,1.0,1.0,False,['walc'],['walc']
+student_perf,0,XGB,0,63,random_grid_ce,True,0,500,500,0.022102832794189453,grid,2.8375571364491003,2.8375571364491003,2.0,2.0,1.0,False,"['schoolsup', 'activities']","['schoolsup', 'activities']"
+student_perf,0,XGB,0,63,acbfi_v3,True,13,0,13,0.004893064498901367,single,1.288300872129576,1.0000000000000002,3.0,1.0,1.0,False,['walc'],"['walc', 'health', 'absences']"
+student_perf,0,XGB,1,123,acbfi_v2,True,501,2,503,0.007588386535644531,single,1.2883008721295754,1.0,3.0,1.0,1.0,True,['walc'],"['walc', 'health', 'absences']"
+student_perf,0,XGB,1,123,acbfi_v1,True,2805,68,2873,0.1630115509033203,beam,1.2883008721295754,1.0,3.0,1.0,1.0,True,['walc'],"['walc', 'health', 'absences']"
+student_perf,0,XGB,1,123,untargeted,True,0,68,68,0.027252912521362305,beam,1.2883008721295754,1.0,3.0,1.0,1.0,True,['walc'],"['walc', 'health', 'absences']"
+student_perf,0,XGB,1,123,shap_staged,False,26010,12,26022,0.013095855712890625,,,,,,,,,
+student_perf,0,XGB,1,123,lewis_style,False,1416,0,1416,0.1197669506072998,,,,,,,,,
+student_perf,0,XGB,1,123,shap_ce,False,26010,343,26353,0.0117340087890625,,,,,,,,,
+student_perf,0,XGB,1,123,random_grid_ce,True,0,500,500,0.01929926872253418,grid,1.999260609134603,1.999260609134603,2.0,2.0,1.0,False,"['activities', 'walc']","['activities', 'walc']"
+student_perf,0,XGB,1,123,acbfi_v3,True,9,0,9,0.003376007080078125,single,1.2883008721295754,1.0,3.0,1.0,1.0,True,['walc'],"['walc', 'health', 'absences']"
+student_perf,0,XGB,2,46,acbfi_v2,False,1252,81,1333,0.01734328269958496,,,,,,,,,
+student_perf,0,XGB,2,46,acbfi_v1,False,2805,105,2910,0.08700942993164062,,,,,,,,,
+student_perf,0,XGB,2,46,untargeted,False,0,105,105,0.034842729568481445,,,,,,,,,
+student_perf,0,XGB,2,46,shap_staged,False,24120,33,24153,0.015142679214477539,,,,,,,,,
+student_perf,0,XGB,2,46,lewis_style,False,1084,2,1086,0.09133601188659668,,,,,,,,,
+student_perf,0,XGB,2,46,shap_ce,False,24120,343,24463,0.01097726821899414,,,,,,,,,
+student_perf,0,XGB,2,46,random_grid_ce,True,0,500,500,0.01809096336364746,grid,6.1777021409270905,6.1777021409270905,5.0,5.0,1.0,False,"['schoolsup', 'activities', 'studytime', 'goout', 'walc']","['schoolsup', 'activities', 'studytime', 'goout', 'walc']"
+student_perf,0,XGB,2,46,acbfi_v3,False,462,75,537,0.014052629470825195,,,,,,,,,
+student_perf,0,XGB,3,126,acbfi_v2,True,1252,29,1281,0.017368555068969727,pair,3.0,3.0,2.0,2.0,0.5,False,"['studytime', 'absences']","['studytime', 'absences']"
+student_perf,0,XGB,3,126,acbfi_v1,True,2805,126,2931,0.09504008293151855,beam,3.0,3.0,2.0,2.0,0.5,False,"['absences', 'studytime']","['studytime', 'absences']"
+student_perf,0,XGB,3,126,untargeted,True,0,126,126,0.04399275779724121,beam,3.0,3.0,2.0,2.0,0.5,False,"['absences', 'studytime']","['studytime', 'absences']"
+student_perf,0,XGB,3,126,shap_staged,False,26532,12,26544,0.017279624938964844,,,,,,,,,
+student_perf,0,XGB,3,126,lewis_style,False,2036,0,2036,0.1803433895111084,,,,,,,,,
+student_perf,0,XGB,3,126,shap_ce,False,26532,343,26875,0.014579534530639648,,,,,,,,,
+student_perf,0,XGB,3,126,random_grid_ce,True,0,500,500,0.018682479858398438,grid,7.533691855155659,7.533691855155659,4.0,4.0,1.0,False,"['schoolsup', 'activities', 'studytime', 'internet']","['schoolsup', 'activities', 'studytime', 'internet']"
+student_perf,0,XGB,3,126,acbfi_v3,True,463,23,486,0.014135360717773438,pair,3.0,3.0,2.0,2.0,0.5,False,"['studytime', 'absences']","['studytime', 'absences']"
+student_perf,0,XGB,4,87,acbfi_v2,True,1252,29,1281,0.016472816467285156,pair,2.873178304407264,2.0,6.0,2.0,0.5,True,"['goout', 'studytime']","['studytime', 'goout', 'dalc', 'walc', 'health', 'absences']"
+student_perf,0,XGB,4,87,acbfi_v1,True,2805,143,2948,0.09659767150878906,beam,2.873178304407264,2.0,6.0,2.0,0.5,True,"['goout', 'studytime']","['studytime', 'goout', 'dalc', 'walc', 'health', 'absences']"
+student_perf,0,XGB,4,87,untargeted,True,0,164,164,0.05603384971618652,beam,2.873178304407264,2.0,6.0,2.0,0.5,True,"['goout', 'studytime']","['studytime', 'goout', 'dalc', 'walc', 'health', 'absences']"
+student_perf,0,XGB,4,87,shap_staged,True,25254,14,25268,0.014402151107788086,pair,3.2883008721295757,3.0000000000000004,4.0,2.0,1.0,True,"['walc', 'studytime']","['studytime', 'walc', 'health', 'absences']"
+student_perf,0,XGB,4,87,lewis_style,False,1608,0,1608,0.15181183815002441,,,,,,,,,
+student_perf,0,XGB,4,87,shap_ce,False,25254,343,25597,0.011844635009765625,,,,,,,,,
+student_perf,0,XGB,4,87,random_grid_ce,True,0,500,500,0.01952981948852539,grid,11.541642798881082,11.541642798881082,7.0,7.0,1.0,False,"['schoolsup', 'paid', 'activities', 'studytime', 'internet', 'goout', 'walc']","['schoolsup', 'paid', 'activities', 'studytime', 'internet', 'goout', 'walc']"
+student_perf,0,XGB,4,87,acbfi_v3,True,464,23,487,0.014100790023803711,pair,2.873178304407264,2.0,6.0,2.0,0.5,True,"['goout', 'studytime']","['studytime', 'goout', 'dalc', 'walc', 'health', 'absences']"
+student_perf,0,XGB,5,101,acbfi_v2,True,501,6,507,0.007509469985961914,single,1.0,1.0,1.0,1.0,1.0,False,['studytime'],['studytime']
+student_perf,0,XGB,5,101,acbfi_v1,True,2805,152,2957,0.09630680084228516,beam,1.0,1.0,1.0,1.0,1.0,False,['studytime'],['studytime']
+student_perf,0,XGB,5,101,untargeted,True,0,174,174,0.05484175682067871,beam,1.0,1.0,1.0,1.0,1.0,False,['studytime'],['studytime']
+student_perf,0,XGB,5,101,shap_staged,True,24444,6,24450,0.013734817504882812,single,1.0,1.0,1.0,1.0,1.0,False,['studytime'],['studytime']
+student_perf,0,XGB,5,101,lewis_style,False,1280,0,1280,0.11227583885192871,,,,,,,,,
+student_perf,0,XGB,5,101,shap_ce,True,24444,343,24787,0.012863636016845703,grid,0.6666666666666665,0.6666666666666665,1.0,1.0,1.0,False,['walc'],['walc']
+student_perf,0,XGB,5,101,random_grid_ce,True,0,500,500,0.018082618713378906,grid,3.3390359181798948,3.3390359181798948,3.0,3.0,1.0,False,"['schoolsup', 'studytime', 'walc']","['schoolsup', 'studytime', 'walc']"
+student_perf,0,XGB,5,101,acbfi_v3,True,13,0,13,0.004807949066162109,single,1.0,1.0,1.0,1.0,1.0,False,['studytime'],['studytime']
+student_perf,0,XGB,6,56,acbfi_v2,True,501,6,507,0.007370471954345703,single,1.288300872129576,1.0,3.0,1.0,1.0,True,['walc'],"['walc', 'health', 'absences']"
+student_perf,0,XGB,6,56,acbfi_v1,True,2805,154,2959,0.09722280502319336,beam,1.288300872129576,1.0,3.0,1.0,1.0,True,['walc'],"['walc', 'health', 'absences']"
+student_perf,0,XGB,6,56,untargeted,True,0,154,154,0.046968698501586914,beam,1.288300872129576,1.0,3.0,1.0,1.0,True,['walc'],"['walc', 'health', 'absences']"
+student_perf,0,XGB,6,56,shap_staged,True,25884,5,25889,0.011929988861083984,single,1.998521218269206,1.998521218269206,1.0,1.0,1.0,False,['activities'],['activities']
+student_perf,0,XGB,6,56,lewis_style,False,2000,0,2000,0.17151784896850586,,,,,,,,,
+student_perf,0,XGB,6,56,shap_ce,True,25884,343,26227,0.011811494827270508,grid,1.998521218269206,1.998521218269206,1.0,1.0,1.0,False,['activities'],['activities']
+student_perf,0,XGB,6,56,random_grid_ce,True,0,500,500,0.018511295318603516,grid,1.9992606091346032,1.9992606091346032,2.0,2.0,1.0,False,"['activities', 'goout']","['activities', 'goout']"
+student_perf,0,XGB,6,56,acbfi_v3,True,13,0,13,0.004320383071899414,single,1.288300872129576,1.0,3.0,1.0,1.0,True,['walc'],"['walc', 'health', 'absences']"
+student_perf,0,XGB,7,73,acbfi_v2,True,501,7,508,0.007117748260498047,single,1.9985212182692065,1.998521218269206,1.0,1.0,1.0,False,['activities'],['activities']
+student_perf,0,XGB,7,73,acbfi_v1,True,2805,123,2928,0.09244537353515625,beam,1.9985212182692065,1.998521218269206,1.0,1.0,1.0,False,['activities'],['activities']
+student_perf,0,XGB,7,73,untargeted,True,0,162,162,0.058975934982299805,beam,1.9985212182692065,1.998521218269206,1.0,1.0,1.0,False,['activities'],['activities']
+student_perf,0,XGB,7,73,shap_staged,True,26892,7,26899,0.01260995864868164,single,1.9985212182692065,1.998521218269206,1.0,1.0,1.0,False,['activities'],['activities']
+student_perf,0,XGB,7,73,lewis_style,False,1626,0,1626,0.15127110481262207,,,,,,,,,
+student_perf,0,XGB,7,73,shap_ce,True,26892,343,27235,0.011672019958496094,grid,1.3333333333333333,1.3333333333333333,1.0,1.0,1.0,False,['walc'],['walc']
+student_perf,0,XGB,7,73,random_grid_ce,True,0,500,500,0.019425392150878906,grid,2.999260609134603,2.999260609134603,2.0,2.0,1.0,False,"['activities', 'walc']","['activities', 'walc']"
+student_perf,0,XGB,7,73,acbfi_v3,True,14,0,14,0.004904270172119141,single,1.9985212182692065,1.998521218269206,1.0,1.0,1.0,False,['activities'],['activities']
