@@ -1,0 +1,2573 @@
+{
+ "datasets": [
+  {
+   "dataset": "HELOC",
+   "domain": "Credit",
+   "n": 9871,
+   "d": 23,
+   "actionable": 7,
+   "edges": 12,
+   "adverse": "RiskPerformance = Bad",
+   "source": "FICO / OpenML 45553",
+   "constrained": true
+  },
+  {
+   "dataset": "German Credit",
+   "domain": "Credit",
+   "n": 1000,
+   "d": 20,
+   "actionable": 14,
+   "edges": 5,
+   "adverse": "default = bad",
+   "source": "UCI",
+   "constrained": false
+  },
+  {
+   "dataset": "Taiwan Default",
+   "domain": "Credit",
+   "n": 30000,
+   "d": 13,
+   "actionable": 4,
+   "edges": 9,
+   "adverse": "default next month",
+   "source": "UCI 350",
+   "constrained": true
+  },
+  {
+   "dataset": "Give Me Some Credit",
+   "domain": "Credit",
+   "n": 150000,
+   "d": 10,
+   "actionable": 4,
+   "edges": 6,
+   "adverse": "distress within 2 years",
+   "source": "OpenML 46929",
+   "constrained": true
+  },
+  {
+   "dataset": "Adult Income",
+   "domain": "Income",
+   "n": 48842,
+   "d": 10,
+   "actionable": 5,
+   "edges": 6,
+   "adverse": "income <= 50K",
+   "source": "UCI",
+   "constrained": false
+  },
+  {
+   "dataset": "Lending Loan",
+   "domain": "Credit",
+   "n": 37478,
+   "d": 9,
+   "actionable": 5,
+   "edges": 7,
+   "adverse": "Charged Off",
+   "source": "Kaggle",
+   "constrained": false
+  },
+  {
+   "dataset": "CDC Diabetes",
+   "domain": "Health",
+   "n": 253680,
+   "d": 21,
+   "actionable": 5,
+   "edges": 20,
+   "adverse": "diabetes",
+   "source": "UCI 891",
+   "constrained": true
+  },
+  {
+   "dataset": "Pima Diabetes",
+   "domain": "Health",
+   "n": 768,
+   "d": 8,
+   "actionable": 5,
+   "edges": 7,
+   "adverse": "Outcome = 1",
+   "source": "UCI",
+   "constrained": false
+  },
+  {
+   "dataset": "Student Dropout",
+   "domain": "Education",
+   "n": 4424,
+   "d": 24,
+   "actionable": 5,
+   "edges": 8,
+   "adverse": "Dropout",
+   "source": "UCI 697",
+   "constrained": true
+  },
+  {
+   "dataset": "Student Performance",
+   "domain": "Education",
+   "n": 649,
+   "d": 25,
+   "actionable": 10,
+   "edges": 12,
+   "adverse": "final grade G3 < 10",
+   "source": "UCI 320",
+   "constrained": true
+  }
+ ],
+ "main": [
+  {
+   "dataset": "HELOC",
+   "n_queries": 900,
+   "succ_acbfi_v3": 0.6244444444444445,
+   "Lact_acbfi_v3": 1.4288256227758007,
+   "evals_acbfi_v3": 349.3088888888889,
+   "cost_acbfi_v3": 6.112226456017529,
+   "costact_acbfi_v3": 3.7805646955035788,
+   "succ_acbfi_v1": 0.5933333333333334,
+   "Lact_acbfi_v1": 1.7602996254681649,
+   "evals_acbfi_v1": 1560.2044444444443,
+   "cost_acbfi_v1": 5.207027153773461,
+   "costact_acbfi_v1": 3.4261878882665395,
+   "succ_untargeted": 0.5833333333333334,
+   "Lact_untargeted": 1.7752380952380953,
+   "evals_untargeted": 180.13888888888889,
+   "cost_untargeted": 4.827890938499762,
+   "costact_untargeted": 3.176182151182151,
+   "succ_lewis_style": 0.33444444444444443,
+   "Lact_lewis_style": 1.451827242524917,
+   "evals_lewis_style": 4087.9344444444446,
+   "cost_lewis_style": 6.536033615431716,
+   "costact_lewis_style": 3.6730534499926386,
+   "succ_shap_staged": 0.5344444444444445,
+   "Lact_shap_staged": 1.3305613305613306,
+   "evals_shap_staged": 39115.98888888889,
+   "cost_shap_staged": 6.147141812708879,
+   "costact_shap_staged": 3.6982127517244576,
+   "succ_shap_ce": 0.3333333333333333,
+   "Lact_shap_ce": 1.57,
+   "evals_shap_ce": 39396.066666666666,
+   "cost_shap_ce": 4.463754141390011,
+   "costact_shap_ce": 4.463754141390011,
+   "succ_dice": 0.43333333333333335,
+   "Lact_dice": 2.017948717948718,
+   "evals_dice": 6446.328888888889,
+   "mc_untargeted": [
+    49,
+    12,
+    1.969878418086636e-06
+   ],
+   "mc_acbfi_v1": [
+    43,
+    15,
+    0.000306947015546566
+   ],
+   "mc_lewis_style": [
+    263,
+    2,
+    1.1890249878627297e-75
+   ],
+   "mc_shap_staged": [
+    91,
+    10,
+    1.6977475366916752e-17
+   ],
+   "mc_shap_ce": [
+    269,
+    7,
+    3.7908888928479976e-70
+   ],
+   "mc_dice": [
+    203,
+    31,
+    3.619002557663427e-32
+   ],
+   "step3_share": 0.35231316725978645
+  },
+  {
+   "dataset": "German Credit",
+   "n_queries": 334,
+   "succ_acbfi_v3": 1.0,
+   "Lact_acbfi_v3": 1.0149700598802396,
+   "evals_acbfi_v3": 68.25149700598803,
+   "cost_acbfi_v3": 1.4676061544092875,
+   "costact_acbfi_v3": 1.3172773402378892,
+   "succ_acbfi_v1": 0.9970059880239521,
+   "Lact_acbfi_v1": 1.2792792792792793,
+   "evals_acbfi_v1": 5855.0,
+   "cost_acbfi_v1": 1.214967694476087,
+   "costact_acbfi_v1": 1.1777396091212553,
+   "succ_untargeted": 0.9970059880239521,
+   "Lact_untargeted": 1.2042042042042043,
+   "evals_untargeted": 500.0,
+   "cost_untargeted": 1.1600225828397315,
+   "costact_untargeted": 1.1453062050714817,
+   "succ_lewis_style": 1.0,
+   "Lact_lewis_style": 1.062874251497006,
+   "evals_lewis_style": 4228.889221556886,
+   "cost_lewis_style": 2.9802576348591967,
+   "costact_lewis_style": 2.387830604898328,
+   "succ_shap_staged": 1.0,
+   "Lact_shap_staged": 1.029940119760479,
+   "evals_shap_staged": 29530.75748502994,
+   "cost_shap_staged": 1.8531718717991321,
+   "costact_shap_staged": 1.667614299970904,
+   "succ_shap_ce": 0.9970059880239521,
+   "Lact_shap_ce": 1.942942942942943,
+   "evals_shap_ce": 29856.02994011976,
+   "cost_shap_ce": 1.8144190149137585,
+   "costact_shap_ce": 1.8144190149137585,
+   "succ_dice": 0.9281437125748503,
+   "Lact_dice": 1.6225806451612903,
+   "evals_dice": 3426.3263473053894,
+   "mc_untargeted": [
+    1,
+    0,
+    1.0
+   ],
+   "mc_acbfi_v1": [
+    1,
+    0,
+    1.0
+   ],
+   "mc_lewis_style": [
+    0,
+    0,
+    null
+   ],
+   "mc_shap_staged": [
+    0,
+    0,
+    null
+   ],
+   "mc_shap_ce": [
+    1,
+    0,
+    1.0
+   ],
+   "mc_dice": [
+    24,
+    0,
+    1.1920928955078125e-07
+   ],
+   "step3_share": 0.014970059880239521
+  },
+  {
+   "dataset": "Taiwan Default",
+   "n_queries": 900,
+   "succ_acbfi_v3": 0.9988888888888889,
+   "Lact_acbfi_v3": 1.0478309232480534,
+   "evals_acbfi_v3": 26.383333333333333,
+   "cost_acbfi_v3": 5.693122974198816,
+   "costact_acbfi_v3": 5.406179082041237,
+   "succ_acbfi_v1": 0.9911111111111112,
+   "Lact_acbfi_v1": 1.2466367713004485,
+   "evals_acbfi_v1": 566.6911111111111,
+   "cost_acbfi_v1": 5.346524471293865,
+   "costact_acbfi_v1": 5.1343179971089965,
+   "succ_untargeted": 0.9922222222222222,
+   "Lact_untargeted": 1.3135498320268757,
+   "evals_untargeted": 103.68555555555555,
+   "cost_untargeted": 4.764468211095888,
+   "costact_untargeted": 4.6022022548278425,
+   "succ_lewis_style": 0.9933333333333333,
+   "Lact_lewis_style": 1.104026845637584,
+   "evals_lewis_style": 1193.5455555555557,
+   "cost_lewis_style": 7.643347309284861,
+   "costact_lewis_style": 7.205355426931018,
+   "succ_shap_staged": 0.9988888888888889,
+   "Lact_shap_staged": 1.064516129032258,
+   "evals_shap_staged": 40365.625555555554,
+   "cost_shap_staged": 6.66654607680666,
+   "costact_shap_staged": 6.33660982341111,
+   "succ_shap_ce": 0.9866666666666667,
+   "Lact_shap_ce": 1.322072072072072,
+   "evals_shap_ce": 40693.16,
+   "cost_shap_ce": 4.879592741701489,
+   "costact_shap_ce": 4.879592741701489,
+   "succ_dice": null,
+   "Lact_dice": null,
+   "evals_dice": null,
+   "mc_untargeted": [
+    6,
+    0,
+    0.03125
+   ],
+   "mc_acbfi_v1": [
+    8,
+    1,
+    0.0390625
+   ],
+   "mc_lewis_style": [
+    5,
+    0,
+    0.0625
+   ],
+   "mc_shap_staged": [
+    1,
+    1,
+    1.0
+   ],
+   "mc_shap_ce": [
+    12,
+    1,
+    0.00341796875
+   ],
+   "step3_share": 0.047830923248053395
+  },
+  {
+   "dataset": "Give Me Some Credit",
+   "n_queries": 900,
+   "succ_acbfi_v3": 0.9711111111111111,
+   "Lact_acbfi_v3": 1.040045766590389,
+   "evals_acbfi_v3": 33.336666666666666,
+   "cost_acbfi_v3": 2.4499321357798522,
+   "costact_acbfi_v3": 2.088001229962343,
+   "succ_acbfi_v1": 0.9611111111111111,
+   "Lact_acbfi_v1": 1.1815028901734104,
+   "evals_acbfi_v1": 565.8166666666667,
+   "cost_acbfi_v1": 2.2433005065793155,
+   "costact_acbfi_v1": 2.043326475297046,
+   "succ_untargeted": 0.9666666666666667,
+   "Lact_untargeted": 1.267816091954023,
+   "evals_untargeted": 102.92111111111112,
+   "cost_untargeted": 2.0087727838669176,
+   "costact_untargeted": 1.9109793534759407,
+   "succ_lewis_style": 0.9666666666666667,
+   "Lact_lewis_style": 1.0333333333333334,
+   "evals_lewis_style": 789.9755555555555,
+   "cost_lewis_style": 2.6412706729416384,
+   "costact_lewis_style": 2.2645959888604636,
+   "succ_shap_staged": 0.9611111111111111,
+   "Lact_shap_staged": 1.038150289017341,
+   "evals_shap_staged": 40388.061111111114,
+   "cost_shap_staged": 2.515202933049196,
+   "costact_shap_staged": 2.1457284357555095,
+   "succ_shap_ce": 0.9422222222222222,
+   "Lact_shap_ce": 1.1061320754716981,
+   "evals_shap_ce": 40707.79555555555,
+   "cost_shap_ce": 1.9602017956953557,
+   "costact_shap_ce": 1.9602017956953557,
+   "succ_dice": null,
+   "Lact_dice": null,
+   "evals_dice": null,
+   "mc_untargeted": [
+    5,
+    1,
+    0.21875
+   ],
+   "mc_acbfi_v1": [
+    9,
+    0,
+    0.00390625
+   ],
+   "mc_lewis_style": [
+    4,
+    0,
+    0.125
+   ],
+   "mc_shap_staged": [
+    10,
+    1,
+    0.01171875
+   ],
+   "mc_shap_ce": [
+    27,
+    1,
+    2.1606683731079102e-07
+   ],
+   "step3_share": 0.036613272311212815
+  },
+  {
+   "dataset": "Adult Income",
+   "n_queries": 900,
+   "succ_acbfi_v3": 0.8733333333333333,
+   "Lact_acbfi_v3": 1.1208651399491094,
+   "evals_acbfi_v3": 116.60555555555555,
+   "cost_acbfi_v3": 10.44754841348961,
+   "costact_acbfi_v3": 10.44058026234426,
+   "succ_acbfi_v1": 0.8411111111111111,
+   "Lact_acbfi_v1": 1.439894319682959,
+   "evals_acbfi_v1": 888.3822222222223,
+   "cost_acbfi_v1": 9.594643686866213,
+   "costact_acbfi_v1": 9.590120178869231,
+   "succ_untargeted": 0.8622222222222222,
+   "Lact_untargeted": 1.559278350515464,
+   "evals_untargeted": 193.8411111111111,
+   "cost_untargeted": 8.861247017462821,
+   "costact_untargeted": 8.856952509368561,
+   "succ_lewis_style": 0.8477777777777777,
+   "Lact_lewis_style": 1.1310615989515072,
+   "evals_lewis_style": 2714.8088888888888,
+   "cost_lewis_style": 12.042290231279727,
+   "costact_lewis_style": 12.036806952229586,
+   "succ_shap_staged": 0.8744444444444445,
+   "Lact_shap_staged": 1.1346886912325287,
+   "evals_shap_staged": 27969.303333333333,
+   "cost_shap_staged": 11.328597113284196,
+   "costact_shap_staged": 11.321885325783217,
+   "succ_shap_ce": 0.9444444444444444,
+   "Lact_shap_ce": 2.3058823529411763,
+   "evals_shap_ce": 28259.786666666667,
+   "cost_shap_ce": 3.1375116878052207,
+   "costact_shap_ce": 3.1375116878052207,
+   "succ_dice": 0.9444444444444444,
+   "Lact_dice": 1.5952941176470588,
+   "evals_dice": 2705.0344444444445,
+   "mc_untargeted": [
+    21,
+    11,
+    0.11018416518345475
+   ],
+   "mc_acbfi_v1": [
+    39,
+    10,
+    3.845911694355664e-05
+   ],
+   "mc_lewis_style": [
+    32,
+    9,
+    0.000430857042374555
+   ],
+   "mc_shap_staged": [
+    18,
+    19,
+    1.0
+   ],
+   "mc_shap_ce": [
+    13,
+    77,
+    3.175275355987434e-12
+   ],
+   "mc_dice": [
+    13,
+    77,
+    3.175275355987434e-12
+   ],
+   "step3_share": 0.09796437659033079
+  },
+  {
+   "dataset": "Lending Loan",
+   "n_queries": 468,
+   "succ_acbfi_v3": 1.0,
+   "Lact_acbfi_v3": 1.0021367521367521,
+   "evals_acbfi_v3": 25.891025641025642,
+   "cost_acbfi_v3": 0.7320612313427903,
+   "costact_acbfi_v3": 0.6401889507269908,
+   "succ_acbfi_v1": 1.0,
+   "Lact_acbfi_v1": 1.1282051282051282,
+   "evals_acbfi_v1": 934.4358974358975,
+   "cost_acbfi_v1": 0.7073232597274005,
+   "costact_acbfi_v1": 0.608210004439454,
+   "succ_untargeted": 1.0,
+   "Lact_untargeted": 1.141025641025641,
+   "evals_untargeted": 281.0854700854701,
+   "cost_untargeted": 0.6771137434759924,
+   "costact_untargeted": 0.5878944287059753,
+   "succ_lewis_style": 1.0,
+   "Lact_lewis_style": 1.0021367521367521,
+   "evals_lewis_style": 1017.5491452991453,
+   "cost_lewis_style": 0.9594816291453724,
+   "costact_lewis_style": 0.8028227915960329,
+   "succ_shap_staged": 1.0,
+   "Lact_shap_staged": 1.0021367521367521,
+   "evals_shap_staged": 44174.18803418803,
+   "cost_shap_staged": 0.8920262218968265,
+   "costact_shap_staged": 0.7595866639589254,
+   "succ_shap_ce": 1.0,
+   "Lact_shap_ce": 2.1965811965811968,
+   "evals_shap_ce": 44502.22222222222,
+   "cost_shap_ce": 0.9716531969620609,
+   "costact_shap_ce": 0.9716531969620609,
+   "succ_dice": 0.9914529914529915,
+   "Lact_dice": 1.5603448275862069,
+   "evals_dice": 3838.2991452991455,
+   "mc_untargeted": [
+    0,
+    0,
+    null
+   ],
+   "mc_acbfi_v1": [
+    0,
+    0,
+    null
+   ],
+   "mc_lewis_style": [
+    0,
+    0,
+    null
+   ],
+   "mc_shap_staged": [
+    0,
+    0,
+    null
+   ],
+   "mc_shap_ce": [
+    0,
+    0,
+    null
+   ],
+   "mc_dice": [
+    4,
+    0,
+    0.125
+   ],
+   "step3_share": 0.002136752136752137
+  },
+  {
+   "dataset": "CDC Diabetes",
+   "n_queries": 900,
+   "succ_acbfi_v3": 0.9866666666666667,
+   "Lact_acbfi_v3": 1.0045045045045045,
+   "evals_acbfi_v3": 11.057777777777778,
+   "cost_acbfi_v3": 2.6065539891715006,
+   "costact_acbfi_v3": 1.8356512578338275,
+   "succ_acbfi_v1": 0.9866666666666667,
+   "Lact_acbfi_v1": 1.0168918918918919,
+   "evals_acbfi_v1": 774.2822222222222,
+   "cost_acbfi_v1": 2.59757486175731,
+   "costact_acbfi_v1": 1.8372114408130487,
+   "succ_untargeted": 0.9866666666666667,
+   "Lact_untargeted": 1.0168918918918919,
+   "evals_untargeted": 9.282222222222222,
+   "cost_untargeted": 2.59757486175731,
+   "costact_untargeted": 1.8372114408130487,
+   "succ_lewis_style": 0.98,
+   "Lact_lewis_style": 1.010204081632653,
+   "evals_lewis_style": 374.13,
+   "cost_lewis_style": 3.3537676299822907,
+   "costact_lewis_style": 2.3244807645911094,
+   "succ_shap_staged": 0.9822222222222222,
+   "Lact_shap_staged": 1.005656108597285,
+   "evals_shap_staged": 23846.948888888888,
+   "cost_shap_staged": 2.675936870323621,
+   "costact_shap_staged": 1.8942308190306387,
+   "succ_shap_ce": 0.9788888888888889,
+   "Lact_shap_ce": 1.0533484676503972,
+   "evals_shap_ce": 24185.597777777777,
+   "cost_shap_ce": 2.931273595025679,
+   "costact_shap_ce": 2.931273595025679,
+   "succ_dice": 0.9488888888888889,
+   "Lact_dice": 1.1697892271662764,
+   "evals_dice": 3933.97,
+   "mc_untargeted": [
+    0,
+    0,
+    null
+   ],
+   "mc_acbfi_v1": [
+    0,
+    0,
+    null
+   ],
+   "mc_lewis_style": [
+    6,
+    0,
+    0.03125
+   ],
+   "mc_shap_staged": [
+    4,
+    0,
+    0.125
+   ],
+   "mc_shap_ce": [
+    13,
+    6,
+    0.1670684814453125
+   ],
+   "mc_dice": [
+    41,
+    7,
+    6.240408438884516e-07
+   ],
+   "step3_share": 0.0045045045045045045
+  },
+  {
+   "dataset": "Pima Diabetes",
+   "n_queries": 388,
+   "succ_acbfi_v3": 1.0,
+   "Lact_acbfi_v3": 1.0257731958762886,
+   "evals_acbfi_v3": 39.0,
+   "cost_acbfi_v3": 3.069737056335051,
+   "costact_acbfi_v3": 2.2794299667781615,
+   "succ_acbfi_v1": 1.0,
+   "Lact_acbfi_v1": 1.8221649484536082,
+   "evals_acbfi_v1": 951.6572164948453,
+   "cost_acbfi_v1": 2.390103075752177,
+   "costact_acbfi_v1": 2.010569865949646,
+   "succ_untargeted": 1.0,
+   "Lact_untargeted": 2.1211340206185567,
+   "evals_untargeted": 299.99226804123714,
+   "cost_untargeted": 2.2556421783462857,
+   "costact_untargeted": 2.002117204873692,
+   "succ_lewis_style": 1.0,
+   "Lact_lewis_style": 1.0489690721649485,
+   "evals_lewis_style": 2189.0515463917527,
+   "cost_lewis_style": 4.345708335769813,
+   "costact_lewis_style": 3.0431590506331587,
+   "succ_shap_staged": 1.0,
+   "Lact_shap_staged": 1.0257731958762886,
+   "evals_shap_staged": 46162.74484536082,
+   "cost_shap_staged": 3.3028967884747247,
+   "costact_shap_staged": 2.3436991006818646,
+   "succ_shap_ce": 0.9974226804123711,
+   "Lact_shap_ce": 2.669250645994832,
+   "evals_shap_ce": 46485.58762886598,
+   "cost_shap_ce": 3.15340555476224,
+   "costact_shap_ce": 3.15340555476224,
+   "succ_dice": 0.9639175257731959,
+   "Lact_dice": 1.63903743315508,
+   "evals_dice": 2519.463917525773,
+   "mc_untargeted": [
+    0,
+    0,
+    null
+   ],
+   "mc_acbfi_v1": [
+    0,
+    0,
+    null
+   ],
+   "mc_lewis_style": [
+    0,
+    0,
+    null
+   ],
+   "mc_shap_staged": [
+    0,
+    0,
+    null
+   ],
+   "mc_shap_ce": [
+    1,
+    0,
+    1.0
+   ],
+   "mc_dice": [
+    14,
+    0,
+    0.0001220703125
+   ],
+   "step3_share": 0.02577319587628866
+  },
+  {
+   "dataset": "Student Dropout",
+   "n_queries": 900,
+   "succ_acbfi_v3": 0.3288888888888889,
+   "Lact_acbfi_v3": 1.337837837837838,
+   "evals_acbfi_v3": 278.5588888888889,
+   "cost_acbfi_v3": 6.345145385738159,
+   "costact_acbfi_v3": 5.156776374938016,
+   "succ_acbfi_v1": 0.32222222222222224,
+   "Lact_acbfi_v1": 1.3620689655172413,
+   "evals_acbfi_v1": 805.04,
+   "cost_acbfi_v1": 5.590589221442036,
+   "costact_acbfi_v1": 4.563195177893987,
+   "succ_untargeted": 0.3288888888888889,
+   "Lact_untargeted": 1.3918918918918919,
+   "evals_untargeted": 47.04,
+   "cost_untargeted": 5.886928761773604,
+   "costact_untargeted": 4.801677195991305,
+   "succ_lewis_style": 0.07333333333333333,
+   "Lact_lewis_style": 1.6818181818181819,
+   "evals_lewis_style": 1357.3177777777778,
+   "cost_lewis_style": 9.67125639670385,
+   "costact_lewis_style": 7.510435027501485,
+   "succ_shap_staged": 0.28444444444444444,
+   "Lact_shap_staged": 1.24609375,
+   "evals_shap_staged": 32617.515555555554,
+   "cost_shap_staged": 5.824800842495915,
+   "costact_shap_staged": 4.5682892741074514,
+   "succ_shap_ce": 0.2544444444444444,
+   "Lact_shap_ce": 1.2532751091703056,
+   "evals_shap_ce": 32925.11111111111,
+   "cost_shap_ce": 2.884954534469105,
+   "costact_shap_ce": 2.884954534469105,
+   "succ_dice": null,
+   "Lact_dice": null,
+   "evals_dice": null,
+   "mc_untargeted": [
+    6,
+    6,
+    1.0
+   ],
+   "mc_acbfi_v1": [
+    9,
+    3,
+    0.14599609375
+   ],
+   "mc_lewis_style": [
+    230,
+    0,
+    1.1591269220898192e-69
+   ],
+   "mc_shap_staged": [
+    41,
+    1,
+    1.9554136088117957e-11
+   ],
+   "mc_shap_ce": [
+    81,
+    14,
+    1.2402507363468661e-12
+   ],
+   "step3_share": 0.27702702702702703
+  },
+  {
+   "dataset": "Student Performance",
+   "n_queries": 67,
+   "succ_acbfi_v3": 0.8955223880597015,
+   "Lact_acbfi_v3": 1.25,
+   "evals_acbfi_v3": 167.7462686567164,
+   "cost_acbfi_v3": 2.475442096663263,
+   "costact_acbfi_v3": 2.1925930534276463,
+   "succ_acbfi_v1": 0.9253731343283582,
+   "Lact_acbfi_v1": 1.3548387096774193,
+   "evals_acbfi_v1": 2954.6417910447763,
+   "cost_acbfi_v1": 2.64030710903639,
+   "costact_acbfi_v1": 2.3777670287608568,
+   "succ_untargeted": 0.9253731343283582,
+   "Lact_untargeted": 1.3548387096774193,
+   "evals_untargeted": 162.01492537313433,
+   "cost_untargeted": 2.64030710903639,
+   "costact_untargeted": 2.3777670287608568,
+   "succ_lewis_style": 0.5522388059701493,
+   "Lact_lewis_style": 1.6756756756756757,
+   "evals_lewis_style": 2337.686567164179,
+   "cost_lewis_style": 3.942045466953006,
+   "costact_lewis_style": 3.420646998184705,
+   "succ_shap_staged": 0.7611940298507462,
+   "Lact_shap_staged": 1.196078431372549,
+   "evals_shap_staged": 26145.253731343284,
+   "cost_shap_staged": 2.5593448964850527,
+   "costact_shap_staged": 2.227491923285528,
+   "succ_shap_ce": 0.7014925373134329,
+   "Lact_shap_ce": 1.1914893617021276,
+   "evals_shap_ce": 26465.567164179105,
+   "cost_shap_ce": 2.1723563672555315,
+   "costact_shap_ce": 2.1723563672555315,
+   "succ_dice": null,
+   "Lact_dice": null,
+   "evals_dice": null,
+   "mc_untargeted": [
+    0,
+    2,
+    0.5
+   ],
+   "mc_acbfi_v1": [
+    0,
+    2,
+    0.5
+   ],
+   "mc_lewis_style": [
+    24,
+    1,
+    1.5497207641601562e-06
+   ],
+   "mc_shap_staged": [
+    10,
+    1,
+    0.01171875
+   ],
+   "mc_shap_ce": [
+    14,
+    1,
+    0.0009765625
+   ],
+   "step3_share": 0.21666666666666667
+  }
+ ],
+ "main_total": {
+  "n_queries": 6657,
+  "succ_acbfi_v3": 0.8344599669520805,
+  "evals_acbfi_v3": 119.42466576535978,
+  "Lact_acbfi_v3": 1.0988298829882988,
+  "succ_acbfi_v1": 0.8227429773171098,
+  "evals_acbfi_v1": 1142.3261228781735,
+  "Lact_acbfi_v1": 1.3158663501917107,
+  "succ_untargeted": 0.8260477692654349,
+  "evals_untargeted": 150.07030193780983,
+  "Lact_untargeted": 1.3775231860338244,
+  "succ_lewis_style": 0.7515397326122878,
+  "evals_lewis_style": 1856.7793300285414,
+  "Lact_lewis_style": 1.0955426743953627,
+  "succ_shap_staged": 0.8131290371038005,
+  "evals_shap_staged": 35161.90010515247,
+  "Lact_shap_staged": 1.084056900055422,
+  "succ_shap_ce": 0.7857893946222022,
+  "evals_shap_ce": 35475.33738921436,
+  "Lact_shap_ce": 1.6291340087937296,
+  "step3_abs": 0.06985128436232538,
+  "single_share_of_solved": 0.9162916291629163,
+  "cheaper_than_untargeted": [
+   "Adult Income",
+   "German Credit",
+   "Give Me Some Credit",
+   "Lending Loan",
+   "Pima Diabetes",
+   "Taiwan Default"
+  ],
+  "costlier_than_untargeted": [
+   "CDC Diabetes",
+   "HELOC",
+   "Student Dropout",
+   "Student Performance"
+  ],
+  "cheaper_than_v1_all": true,
+  "cheaper_than_lewis_all": true,
+  "shap_lower": [
+   "Give Me Some Credit",
+   "HELOC",
+   "Student Dropout",
+   "Student Performance"
+  ],
+  "sig_worse_causal": [],
+  "sig_worse_noncausal": [
+   "Adult Income|dice",
+   "Adult Income|shap_ce"
+  ],
+  "v1_costlier_than_untargeted_all": true,
+  "Lact_fewest": false,
+  "succ_dice": 0.8334190231362468,
+  "cost_below_lewis": 10,
+  "costact_higher_sig": [
+   "Adult Income",
+   "German Credit",
+   "Give Me Some Credit",
+   "HELOC",
+   "Lending Loan",
+   "Pima Diabetes",
+   "Taiwan Default"
+  ]
+ },
+ "paired": {
+  "HELOC": {
+   "untargeted|cost": [
+    5.2644,
+    4.6925,
+    0.0,
+    513
+   ],
+   "untargeted|cost_action": [
+    3.1011,
+    3.0711,
+    0.0003,
+    513
+   ],
+   "lewis_style|cost": [
+    4.2894,
+    6.4155,
+    0.0,
+    299
+   ],
+   "lewis_style|cost_action": [
+    2.378,
+    3.5689,
+    0.0,
+    299
+   ],
+   "acbfi_v1|cost": [
+    5.3569,
+    4.9907,
+    0.0,
+    519
+   ],
+   "acbfi_v1|cost_action": [
+    3.1612,
+    3.2544,
+    0.0,
+    519
+   ]
+  },
+  "German Credit": {
+   "untargeted|cost": [
+    1.4561,
+    1.16,
+    0.0,
+    333
+   ],
+   "untargeted|cost_action": [
+    1.3053,
+    1.1453,
+    0.0,
+    333
+   ],
+   "lewis_style|cost": [
+    1.4676,
+    2.9803,
+    0.0,
+    334
+   ],
+   "lewis_style|cost_action": [
+    1.3173,
+    2.3878,
+    0.0,
+    334
+   ],
+   "acbfi_v1|cost": [
+    1.4561,
+    1.215,
+    0.0071,
+    333
+   ],
+   "acbfi_v1|cost_action": [
+    1.3053,
+    1.1777,
+    0.1622,
+    333
+   ]
+  },
+  "Taiwan Default": {
+   "untargeted|cost": [
+    5.6026,
+    4.7645,
+    0.0,
+    893
+   ],
+   "untargeted|cost_action": [
+    5.3218,
+    4.6022,
+    0.0,
+    893
+   ],
+   "lewis_style|cost": [
+    5.618,
+    7.6433,
+    0.0,
+    894
+   ],
+   "lewis_style|cost_action": [
+    5.3333,
+    7.2054,
+    0.0,
+    894
+   ],
+   "acbfi_v1|cost": [
+    5.5802,
+    5.3278,
+    0.0898,
+    891
+   ],
+   "acbfi_v1|cost_action": [
+    5.2965,
+    5.1155,
+    1.0,
+    891
+   ]
+  },
+  "Give Me Some Credit": {
+   "untargeted|cost": [
+    2.3817,
+    1.9947,
+    0.0,
+    869
+   ],
+   "untargeted|cost_action": [
+    2.0383,
+    1.8968,
+    0.0,
+    869
+   ],
+   "lewis_style|cost": [
+    2.3664,
+    2.6413,
+    0.0,
+    870
+   ],
+   "lewis_style|cost_action": [
+    2.012,
+    2.2646,
+    0.0,
+    870
+   ],
+   "acbfi_v1|cost": [
+    2.3602,
+    2.2433,
+    0.0017,
+    865
+   ],
+   "acbfi_v1|cost_action": [
+    2.025,
+    2.0433,
+    1.0,
+    865
+   ]
+  },
+  "Adult Income": {
+   "untargeted|cost": [
+    10.2769,
+    8.8136,
+    0.0,
+    765
+   ],
+   "untargeted|cost_action": [
+    10.2704,
+    8.8093,
+    0.0,
+    765
+   ],
+   "lewis_style|cost": [
+    10.3306,
+    12.0129,
+    0.0,
+    754
+   ],
+   "lewis_style|cost_action": [
+    10.324,
+    12.0073,
+    0.0,
+    754
+   ],
+   "acbfi_v1|cost": [
+    10.2181,
+    9.5442,
+    0.0,
+    747
+   ],
+   "acbfi_v1|cost_action": [
+    10.2114,
+    9.5398,
+    0.0,
+    747
+   ]
+  },
+  "Lending Loan": {
+   "untargeted|cost": [
+    0.7321,
+    0.6771,
+    0.0,
+    468
+   ],
+   "untargeted|cost_action": [
+    0.6402,
+    0.5879,
+    0.0,
+    468
+   ],
+   "lewis_style|cost": [
+    0.7321,
+    0.9595,
+    0.0,
+    468
+   ],
+   "lewis_style|cost_action": [
+    0.6402,
+    0.8028,
+    0.0,
+    468
+   ],
+   "acbfi_v1|cost": [
+    0.7321,
+    0.7073,
+    0.15,
+    468
+   ],
+   "acbfi_v1|cost_action": [
+    0.6402,
+    0.6082,
+    0.0385,
+    468
+   ]
+  },
+  "CDC Diabetes": {
+   "untargeted|cost": [
+    2.6066,
+    2.5976,
+    0.1606,
+    888
+   ],
+   "untargeted|cost_action": [
+    1.8357,
+    1.8372,
+    1.0,
+    888
+   ],
+   "lewis_style|cost": [
+    2.6074,
+    3.3538,
+    0.0,
+    882
+   ],
+   "lewis_style|cost_action": [
+    1.8331,
+    2.3245,
+    0.0,
+    882
+   ],
+   "acbfi_v1|cost": [
+    2.6066,
+    2.5976,
+    0.1606,
+    888
+   ],
+   "acbfi_v1|cost_action": [
+    1.8357,
+    1.8372,
+    1.0,
+    888
+   ]
+  },
+  "Pima Diabetes": {
+   "untargeted|cost": [
+    3.0697,
+    2.2556,
+    0.0,
+    388
+   ],
+   "untargeted|cost_action": [
+    2.2794,
+    2.0021,
+    0.0,
+    388
+   ],
+   "lewis_style|cost": [
+    3.0697,
+    4.3457,
+    0.0,
+    388
+   ],
+   "lewis_style|cost_action": [
+    2.2794,
+    3.0432,
+    0.0,
+    388
+   ],
+   "acbfi_v1|cost": [
+    3.0697,
+    2.3901,
+    0.0,
+    388
+   ],
+   "acbfi_v1|cost_action": [
+    2.2794,
+    2.0106,
+    0.0001,
+    388
+   ]
+  },
+  "Student Dropout": {
+   "untargeted|cost": [
+    5.8061,
+    5.6479,
+    0.1153,
+    290
+   ],
+   "untargeted|cost_action": [
+    4.6412,
+    4.621,
+    1.0,
+    290
+   ],
+   "lewis_style|cost": [
+    3.9108,
+    9.6713,
+    0.0,
+    66
+   ],
+   "lewis_style|cost_action": [
+    3.2547,
+    7.5104,
+    0.0,
+    66
+   ],
+   "acbfi_v1|cost": [
+    5.5743,
+    5.4574,
+    0.5131,
+    287
+   ],
+   "acbfi_v1|cost_action": [
+    4.4993,
+    4.4604,
+    1.0,
+    287
+   ]
+  },
+  "Student Performance": {
+   "untargeted|cost": [
+    2.4754,
+    2.4493,
+    1.0,
+    60
+   ],
+   "untargeted|cost_action": [
+    2.1926,
+    2.2147,
+    1.0,
+    60
+   ],
+   "lewis_style|cost": [
+    1.8938,
+    3.8561,
+    0.0001,
+    36
+   ],
+   "lewis_style|cost_action": [
+    1.7276,
+    3.3202,
+    0.0001,
+    36
+   ],
+   "acbfi_v1|cost": [
+    2.4754,
+    2.4493,
+    1.0,
+    60
+   ],
+   "acbfi_v1|cost_action": [
+    2.1926,
+    2.2147,
+    1.0,
+    60
+   ]
+  }
+ },
+ "S1": [
+  {
+   "mechanism": "(a) model interaction",
+   "x1": 0.0,
+   "x2": 0.0,
+   "C_G4 manuscript (est.)": 0.006,
+   "C_G4 closed form": -0.0,
+   "C_G4 positive-part (est.)": 0.634,
+   "best-response interaction (est.)": 21.461,
+   "SHAP interaction index (gain sign)": 0.027,
+   "SHAP phi_x1": 0.014,
+   "SHAP phi_x2": 0.014
+  },
+  {
+   "mechanism": "(a) model interaction",
+   "x1": 1.0,
+   "x2": 0.8,
+   "C_G4 manuscript (est.)": -1.59,
+   "C_G4 closed form": -1.6,
+   "C_G4 positive-part (est.)": 0.412,
+   "best-response interaction (est.)": 4.684,
+   "SHAP interaction index (gain sign)": -1.586,
+   "SHAP phi_x1": 0.865,
+   "SHAP phi_x2": 0.762
+  },
+  {
+   "mechanism": "(a) model interaction",
+   "x1": -1.0,
+   "x2": 0.8,
+   "C_G4 manuscript (est.)": 1.61,
+   "C_G4 closed form": 1.6,
+   "C_G4 positive-part (est.)": 2.014,
+   "best-response interaction (est.)": 8.704,
+   "SHAP interaction index (gain sign)": 1.524,
+   "SHAP phi_x1": -0.78,
+   "SHAP phi_x2": -0.793
+  },
+  {
+   "mechanism": "(b) path blocking",
+   "x1": 0.0,
+   "x2": 0.0,
+   "C_G4 manuscript (est.)": -0.008,
+   "C_G4 closed form": -0.0,
+   "C_G4 positive-part (est.)": 0.474,
+   "best-response interaction (est.)": -6.237,
+   "SHAP interaction index (gain sign)": -0.0,
+   "SHAP phi_x1": 0.012,
+   "SHAP phi_x2": 0.078
+  },
+  {
+   "mechanism": "(b) path blocking",
+   "x1": 1.0,
+   "x2": 0.8,
+   "C_G4 manuscript (est.)": -1.208,
+   "C_G4 closed form": -1.2,
+   "C_G4 positive-part (est.)": 0.1,
+   "best-response interaction (est.)": -7.437,
+   "SHAP interaction index (gain sign)": 0.0,
+   "SHAP phi_x1": 1.012,
+   "SHAP phi_x2": 1.278
+  },
+  {
+   "mechanism": "(b) path blocking",
+   "x1": -1.0,
+   "x2": 0.8,
+   "C_G4 manuscript (est.)": 1.192,
+   "C_G4 closed form": 1.2,
+   "C_G4 positive-part (est.)": 1.293,
+   "best-response interaction (est.)": -5.037,
+   "SHAP interaction index (gain sign)": 0.0,
+   "SHAP phi_x1": -0.988,
+   "SHAP phi_x2": 1.278
+  },
+  {
+   "mechanism": "(c) shared descendant",
+   "x1": 0.0,
+   "x2": 0.0,
+   "C_G4 manuscript (est.)": 0.026,
+   "C_G4 closed form": -0.0,
+   "C_G4 positive-part (est.)": 0.652,
+   "best-response interaction (est.)": 21.064,
+   "SHAP interaction index (gain sign)": -0.0,
+   "SHAP phi_x1": 0.0,
+   "SHAP phi_x2": 0.0
+  },
+  {
+   "mechanism": "(c) shared descendant",
+   "x1": 1.0,
+   "x2": 0.8,
+   "C_G4 manuscript (est.)": -1.545,
+   "C_G4 closed form": -1.6,
+   "C_G4 positive-part (est.)": 0.421,
+   "best-response interaction (est.)": 5.474,
+   "SHAP interaction index (gain sign)": -0.0,
+   "SHAP phi_x1": 0.0,
+   "SHAP phi_x2": 0.0
+  },
+  {
+   "mechanism": "(c) shared descendant",
+   "x1": -1.0,
+   "x2": 0.8,
+   "C_G4 manuscript (est.)": 1.63,
+   "C_G4 closed form": 1.6,
+   "C_G4 positive-part (est.)": 2.04,
+   "best-response interaction (est.)": 8.854,
+   "SHAP interaction index (gain sign)": -0.0,
+   "SHAP phi_x1": 0.0,
+   "SHAP phi_x2": 0.0
+  }
+ ],
+ "S2": {
+  "true|k=2": {
+   "acbfi_node": 0.10891089108910891,
+   "acbfi_node_pos": 0.13861386138613863,
+   "br_pair": 0.8613861386138614,
+   "br_single": 0.2871287128712871,
+   "cg1": 0.1485148514851485,
+   "random": 0.0891089108910891,
+   "shap_abs": 0.07920792079207921
+  },
+  "true|k=3": {
+   "acbfi_node": 0.3559322033898305,
+   "acbfi_node_pos": 0.4576271186440678,
+   "br_pair": 0.8898305084745762,
+   "br_single": 0.5847457627118644,
+   "cg1": 0.4915254237288136,
+   "random": 0.3813559322033898,
+   "shap_abs": 0.2966101694915254
+  },
+  "xgb|k=2": {
+   "acbfi_node": 0.3565217391304348,
+   "acbfi_node_pos": 0.4260869565217391,
+   "br_pair": 0.9217391304347826,
+   "br_single": 0.4782608695652174,
+   "cg1": 0.3826086956521739,
+   "random": 0.11304347826086956,
+   "shap_abs": 0.20869565217391303
+  },
+  "xgb|k=3": {
+   "acbfi_node": 0.725,
+   "acbfi_node_pos": 0.7583333333333333,
+   "br_pair": 0.9333333333333333,
+   "br_single": 0.7833333333333333,
+   "cg1": 0.725,
+   "random": 0.4166666666666667,
+   "shap_abs": 0.475
+  }
+ },
+ "S2_cause": {
+  "true|k=2": {
+   "acbfi_node": 1.0,
+   "acbfi_node_pos": 0.9642857142857143,
+   "br_pair": 1.0,
+   "br_single": 0.8928571428571429,
+   "cg1": 0.9642857142857143,
+   "random": 0.35714285714285715,
+   "shap_abs": 0.9285714285714286
+  },
+  "true|k=3": {
+   "acbfi_node": 1.0,
+   "acbfi_node_pos": 1.0,
+   "br_pair": 1.0,
+   "br_single": 1.0,
+   "cg1": 1.0,
+   "random": 0.8571428571428571,
+   "shap_abs": 1.0
+  },
+  "xgb|k=2": {
+   "acbfi_node": 0.9565217391304348,
+   "acbfi_node_pos": 0.9565217391304348,
+   "br_pair": 0.9565217391304348,
+   "br_single": 0.9347826086956522,
+   "cg1": 0.9130434782608695,
+   "random": 0.5869565217391305,
+   "shap_abs": 0.8913043478260869
+  },
+  "xgb|k=3": {
+   "acbfi_node": 1.0,
+   "acbfi_node_pos": 1.0,
+   "br_pair": 1.0,
+   "br_single": 1.0,
+   "cg1": 1.0,
+   "random": 0.8478260869565217,
+   "shap_abs": 1.0
+  }
+ },
+ "E6": {
+  "n": 742,
+  "by_dataset": {
+   "adult": 191,
+   "diabetes": 10,
+   "german_credit": 5,
+   "heloc": 536
+  },
+  "rules": {
+   "br_cg4": {
+    "success": 0.3908355795148248,
+    "evals": 705.1590296495957
+   },
+   "mean_cg4": {
+    "success": 0.33423180592991913,
+    "evals": 737.667115902965,
+    "mc": [
+     59,
+     17,
+     1.3968718113140028e-06
+    ]
+   },
+   "additive": {
+    "success": 0.3423180592991914,
+    "evals": 113.1900269541779,
+    "mc": [
+     45,
+     9,
+     7.288430776686282e-07
+    ]
+   },
+   "shap": {
+    "success": 0.3086253369272237,
+    "evals": 36870.522911051215,
+    "mc": [
+     90,
+     29,
+     1.8572197619267014e-08
+    ]
+   },
+   "random": {
+    "success": 0.20619946091644206,
+    "evals": 116.50269541778975,
+    "mc": [
+     152,
+     15,
+     1.0384614835804017e-29
+    ]
+   },
+   "topM_all": {
+    "success": 0.4636118598382749,
+    "evals": 602.4986522911051,
+    "mc": [
+     0,
+     54,
+     1.1102230246251565e-16
+    ]
+   },
+   "all_pairs": {
+    "success": 0.477088948787062,
+    "evals": 780.0471698113207,
+    "mc": [
+     0,
+     64,
+     1.0842021724855044e-19
+    ]
+   }
+  }
+ },
+ "E7_seeds": [
+  0,
+  1,
+  2
+ ],
+ "E7_seeds_by_dataset": {
+  "adult": 3,
+  "cdc_diabetes": 3,
+  "diabetes": 3,
+  "financial_loan": 3,
+  "german_credit": 3,
+  "gmsc": 3,
+  "heloc": 3,
+  "student_dropout": 3,
+  "student_perf": 3,
+  "taiwan_default": 3
+ },
+ "E7": {
+  "n_cells": 80,
+  "sig_better": 33,
+  "sig_worse": 0,
+  "neg_cells": 6,
+  "min_gain": -0.02985074626865669,
+  "sig_datasets": [
+   "Adult Income",
+   "German Credit",
+   "Give Me Some Credit",
+   "HELOC",
+   "Lending Loan",
+   "Pima Diabetes",
+   "Taiwan Default"
+  ],
+  "mean_gain": {
+   "all|0.2": 0.039177490746252604,
+   "all|0.3": 0.03282088415874822,
+   "all|0.4": 0.012818020316754811,
+   "all|0.5": 0.0036476599040724533,
+   "half|0.2": 0.027937944359760526,
+   "half|0.3": 0.034391160786046024,
+   "half|0.4": 0.017513985297718034,
+   "half|0.5": 0.007848948151806343
+  },
+  "mean_esc": {
+   "all|0.2": 0.18975240096660712,
+   "all|0.3": 0.1603581828889398,
+   "all|0.4": 0.11129399331778603,
+   "all|0.5": 0.07213543030839933,
+   "half|0.2": 0.12118542454349805,
+   "half|0.3": 0.12386813829976528,
+   "half|0.4": 0.09465513781697202,
+   "half|0.5": 0.06265695000646579
+  },
+  "mean_topM_gain": {
+   "all|0.2": 0.012123731917608072,
+   "all|0.3": 0.014215298080046516,
+   "all|0.4": 0.009416935938862387,
+   "all|0.5": 0.011922056384742957,
+   "half|0.2": 0.004037258815701925,
+   "half|0.3": 0.0037378576180971484,
+   "half|0.4": 0.0007099135063206973,
+   "half|0.5": 0.0006666666666666655
+  },
+  "evals": {
+   "all|0.2": {
+    "acbfi_v3": 284.65945621150667,
+    "untargeted": 152.87531921285864,
+    "v3_single": 17.003905663211658,
+    "v3_topM": 318.75920084121975
+   },
+   "all|0.3": {
+    "acbfi_v3": 211.83521105603126,
+    "untargeted": 152.90596364728856,
+    "v3_single": 17.003905663211658,
+    "v3_topM": 210.9499774673276
+   },
+   "all|0.4": {
+    "acbfi_v3": 157.88718642030946,
+    "untargeted": 152.3542136097341,
+    "v3_single": 17.003905663211658,
+    "v3_topM": 146.19663512092535
+   },
+   "all|0.5": {
+    "acbfi_v3": 119.42466576535978,
+    "untargeted": 150.07090280907315,
+    "v3_single": 17.003905663211658,
+    "v3_topM": 103.37299083671323
+   },
+   "half|0.2": {
+    "acbfi_v3": 161.50398077211958,
+    "untargeted": 56.818086225026285,
+    "v3_single": 9.879375093886136,
+    "v3_topM": 141.54949677031695
+   },
+   "half|0.3": {
+    "acbfi_v3": 129.42181162685895,
+    "untargeted": 56.631065044314255,
+    "v3_single": 9.879375093886136,
+    "v3_topM": 88.37659606429322
+   },
+   "half|0.4": {
+    "acbfi_v3": 101.35676731260328,
+    "untargeted": 56.35811927294577,
+    "v3_single": 9.879375093886136,
+    "v3_topM": 54.24410395072856
+   },
+   "half|0.5": {
+    "acbfi_v3": 77.77812828601472,
+    "untargeted": 55.42932251765059,
+    "v3_single": 9.879375093886136,
+    "v3_topM": 37.99759651494667
+   }
+  },
+  "grow_all": 8,
+  "grow_half": 5,
+  "max_esc": [
+   {
+    "dataset": "German Credit",
+    "act_frac": "all",
+    "tau": 0.2,
+    "esc": 0.515
+   },
+   {
+    "dataset": "German Credit",
+    "act_frac": "half",
+    "tau": 0.2,
+    "esc": 0.395
+   },
+   {
+    "dataset": "Pima Diabetes",
+    "act_frac": "all",
+    "tau": 0.2,
+    "esc": 0.379
+   }
+  ],
+  "no_sig_datasets": [
+   "CDC Diabetes",
+   "Student Dropout",
+   "Student Performance"
+  ],
+  "max_topM_ratio": {
+   "ratio": 2.8721965581451556,
+   "dataset": "German Credit",
+   "act_frac": "half",
+   "v3": 545.0688622754491,
+   "topM": 1565.5449101796407
+  }
+ },
+ "E4": {
+  "adult|drop30_r1|acbfi_v3": {
+   "success": 0.8666666666666667,
+   "same": 0.9807692307692307,
+   "valid_llm": 1.0,
+   "valid_np": 1.0
+  },
+  "adult|drop30_r1|untargeted": {
+   "success": 0.8533333333333334,
+   "same": 0.8828125,
+   "valid_llm": 0.95703125,
+   "valid_np": 1.0
+  },
+  "adult|drop30_r2|acbfi_v3": {
+   "success": 0.87,
+   "same": 1.0,
+   "valid_llm": 1.0,
+   "valid_np": 0.9885057471264368
+  },
+  "adult|drop30_r2|untargeted": {
+   "success": 0.8533333333333334,
+   "same": 0.99609375,
+   "valid_llm": 0.99609375,
+   "valid_np": 0.98828125
+  },
+  "adult|empty|acbfi_v3": {
+   "success": 0.8666666666666667,
+   "same": 0.9807692307692307,
+   "valid_llm": 1.0,
+   "valid_np": 1.0
+  },
+  "adult|empty|untargeted": {
+   "success": 0.8533333333333334,
+   "same": 0.87890625,
+   "valid_llm": 0.95703125,
+   "valid_np": 1.0
+  },
+  "adult|gbr|acbfi_v3": {
+   "success": 0.87,
+   "same": 0.9846743295019157,
+   "valid_llm": 0.9923371647509579,
+   "valid_np": 0.9885057471264368
+  },
+  "adult|gbr|untargeted": {
+   "success": 0.85,
+   "same": 0.984313725490196,
+   "valid_llm": 0.996078431372549,
+   "valid_np": 0.996078431372549
+  },
+  "adult|llm|acbfi_v3": {
+   "success": 0.87,
+   "same": 1.0,
+   "valid_llm": 1.0,
+   "valid_np": 0.9885057471264368
+  },
+  "adult|llm|untargeted": {
+   "success": 0.8533333333333334,
+   "same": 1.0,
+   "valid_llm": 1.0,
+   "valid_np": 0.9921875
+  },
+  "adult|pc|acbfi_v3": {
+   "success": 0.8633333333333333,
+   "same": 0.9034749034749034,
+   "valid_llm": 0.9305019305019305,
+   "valid_np": 0.9305019305019305
+  },
+  "adult|pc|untargeted": {
+   "success": 0.8366666666666667,
+   "same": 0.350597609561753,
+   "valid_llm": 0.8844621513944223,
+   "valid_np": 0.9243027888446215
+  },
+  "adult|rev30_r1|acbfi_v3": {
+   "success": 0.87,
+   "same": 1.0,
+   "valid_llm": 1.0,
+   "valid_np": 0.9885057471264368
+  },
+  "adult|rev30_r1|untargeted": {
+   "success": 0.8533333333333334,
+   "same": 1.0,
+   "valid_llm": 1.0,
+   "valid_np": 0.9921875
+  },
+  "adult|rev30_r2|acbfi_v3": {
+   "success": 0.8833333333333333,
+   "same": 0.9622641509433962,
+   "valid_llm": 0.9471698113207547,
+   "valid_np": 0.939622641509434
+  },
+  "adult|rev30_r2|untargeted": {
+   "success": 0.87,
+   "same": 0.9310344827586207,
+   "valid_llm": 0.9310344827586207,
+   "valid_np": 0.9233716475095786
+  },
+  "cdc_diabetes|drop30_r1|acbfi_v3": {
+   "success": 0.9966666666666667,
+   "same": 0.9899665551839465,
+   "valid_llm": 0.9933110367892977,
+   "valid_np": 0.6822742474916388
+  },
+  "cdc_diabetes|drop30_r1|untargeted": {
+   "success": 0.9966666666666667,
+   "same": 0.9765886287625418,
+   "valid_llm": 0.9899665551839465,
+   "valid_np": 0.6722408026755853
+  },
+  "cdc_diabetes|drop30_r2|acbfi_v3": {
+   "success": 0.99,
+   "same": 0.9562289562289562,
+   "valid_llm": 0.9932659932659933,
+   "valid_np": 0.7542087542087542
+  },
+  "cdc_diabetes|drop30_r2|untargeted": {
+   "success": 0.99,
+   "same": 0.9393939393939394,
+   "valid_llm": 0.9932659932659933,
+   "valid_np": 0.7441077441077442
+  },
+  "cdc_diabetes|empty|acbfi_v3": {
+   "success": 0.97,
+   "same": 0.8487972508591065,
+   "valid_llm": 0.9862542955326461,
+   "valid_np": 1.0
+  },
+  "cdc_diabetes|empty|untargeted": {
+   "success": 0.97,
+   "same": 0.8350515463917526,
+   "valid_llm": 0.9862542955326461,
+   "valid_np": 1.0
+  },
+  "cdc_diabetes|gbr|acbfi_v3": {
+   "success": 0.9966666666666667,
+   "same": 0.9364548494983278,
+   "valid_llm": 0.9498327759197325,
+   "valid_np": 0.68561872909699
+  },
+  "cdc_diabetes|gbr|untargeted": {
+   "success": 0.9966666666666667,
+   "same": 0.919732441471572,
+   "valid_llm": 0.9464882943143813,
+   "valid_np": 0.6822742474916388
+  },
+  "cdc_diabetes|llm|acbfi_v3": {
+   "success": 0.9966666666666667,
+   "same": 1.0,
+   "valid_llm": 1.0,
+   "valid_np": 0.6622073578595318
+  },
+  "cdc_diabetes|llm|untargeted": {
+   "success": 0.9966666666666667,
+   "same": 1.0,
+   "valid_llm": 1.0,
+   "valid_np": 0.6555183946488294
+  },
+  "cdc_diabetes|pc|acbfi_v3": {
+   "success": 0.9666666666666667,
+   "same": 0.8551724137931035,
+   "valid_llm": 0.9862068965517241,
+   "valid_np": 0.996551724137931
+  },
+  "cdc_diabetes|pc|untargeted": {
+   "success": 0.9666666666666667,
+   "same": 0.8413793103448276,
+   "valid_llm": 0.9862068965517241,
+   "valid_np": 0.996551724137931
+  },
+  "cdc_diabetes|rev30_r1|acbfi_v3": {
+   "success": 0.99,
+   "same": 0.9562289562289562,
+   "valid_llm": 0.9696969696969697,
+   "valid_np": 0.6801346801346801
+  },
+  "cdc_diabetes|rev30_r1|untargeted": {
+   "success": 0.99,
+   "same": 0.9528619528619529,
+   "valid_llm": 0.9730639730639731,
+   "valid_np": 0.6835016835016835
+  },
+  "cdc_diabetes|rev30_r2|acbfi_v3": {
+   "success": 0.9966666666666667,
+   "same": 0.9966555183946488,
+   "valid_llm": 1.0,
+   "valid_np": 0.6622073578595318
+  },
+  "cdc_diabetes|rev30_r2|untargeted": {
+   "success": 0.9966666666666667,
+   "same": 0.9966555183946488,
+   "valid_llm": 1.0,
+   "valid_np": 0.6555183946488294
+  },
+  "diabetes|drop30_r1|acbfi_v3": {
+   "success": 1.0,
+   "same": 0.8769230769230769,
+   "valid_llm": 0.9692307692307692,
+   "valid_np": 0.9538461538461539
+  },
+  "diabetes|drop30_r1|untargeted": {
+   "success": 1.0,
+   "same": 0.43846153846153846,
+   "valid_llm": 0.9538461538461539,
+   "valid_np": 0.9153846153846154
+  },
+  "diabetes|drop30_r2|acbfi_v3": {
+   "success": 1.0,
+   "same": 1.0,
+   "valid_llm": 1.0,
+   "valid_np": 0.8307692307692308
+  },
+  "diabetes|drop30_r2|untargeted": {
+   "success": 1.0,
+   "same": 1.0,
+   "valid_llm": 1.0,
+   "valid_np": 0.8153846153846154
+  },
+  "diabetes|empty|acbfi_v3": {
+   "success": 1.0,
+   "same": 0.8307692307692308,
+   "valid_llm": 0.9461538461538461,
+   "valid_np": 1.0
+  },
+  "diabetes|empty|untargeted": {
+   "success": 1.0,
+   "same": 0.35384615384615387,
+   "valid_llm": 0.9307692307692308,
+   "valid_np": 1.0
+  },
+  "diabetes|gbr|acbfi_v3": {
+   "success": 1.0,
+   "same": 0.9,
+   "valid_llm": 0.9,
+   "valid_np": 0.8
+  },
+  "diabetes|gbr|untargeted": {
+   "success": 1.0,
+   "same": 0.6153846153846154,
+   "valid_llm": 0.9076923076923077,
+   "valid_np": 0.8769230769230769
+  },
+  "diabetes|llm|acbfi_v3": {
+   "success": 1.0,
+   "same": 1.0,
+   "valid_llm": 1.0,
+   "valid_np": 0.8307692307692308
+  },
+  "diabetes|llm|untargeted": {
+   "success": 1.0,
+   "same": 1.0,
+   "valid_llm": 1.0,
+   "valid_np": 0.8153846153846154
+  },
+  "diabetes|pc|acbfi_v3": {
+   "success": 1.0,
+   "same": 0.7615384615384615,
+   "valid_llm": 0.7615384615384615,
+   "valid_np": 0.7
+  },
+  "diabetes|pc|untargeted": {
+   "success": 1.0,
+   "same": 0.26153846153846155,
+   "valid_llm": 0.7846153846153846,
+   "valid_np": 0.7538461538461538
+  },
+  "diabetes|rev30_r1|acbfi_v3": {
+   "success": 1.0,
+   "same": 0.9,
+   "valid_llm": 0.9615384615384616,
+   "valid_np": 0.8
+  },
+  "diabetes|rev30_r1|untargeted": {
+   "success": 1.0,
+   "same": 0.676923076923077,
+   "valid_llm": 0.9461538461538461,
+   "valid_np": 0.8076923076923077
+  },
+  "diabetes|rev30_r2|acbfi_v3": {
+   "success": 1.0,
+   "same": 0.8538461538461538,
+   "valid_llm": 0.7384615384615385,
+   "valid_np": 0.6692307692307692
+  },
+  "diabetes|rev30_r2|untargeted": {
+   "success": 1.0,
+   "same": 0.2923076923076923,
+   "valid_llm": 0.6692307692307692,
+   "valid_np": 0.6384615384615384
+  },
+  "financial_loan|drop30_r1|acbfi_v3": {
+   "success": 1.0,
+   "same": 0.912751677852349,
+   "valid_llm": 0.9798657718120806,
+   "valid_np": 0.9463087248322147
+  },
+  "financial_loan|drop30_r1|untargeted": {
+   "success": 1.0,
+   "same": 0.8859060402684564,
+   "valid_llm": 0.9731543624161074,
+   "valid_np": 0.9328859060402684
+  },
+  "financial_loan|drop30_r2|acbfi_v3": {
+   "success": 1.0,
+   "same": 1.0,
+   "valid_llm": 1.0,
+   "valid_np": 0.87248322147651
+  },
+  "financial_loan|drop30_r2|untargeted": {
+   "success": 1.0,
+   "same": 1.0,
+   "valid_llm": 1.0,
+   "valid_np": 0.8590604026845637
+  },
+  "financial_loan|empty|acbfi_v3": {
+   "success": 1.0,
+   "same": 0.7718120805369127,
+   "valid_llm": 0.959731543624161,
+   "valid_np": 1.0
+  },
+  "financial_loan|empty|untargeted": {
+   "success": 1.0,
+   "same": 0.7181208053691275,
+   "valid_llm": 0.9395973154362416,
+   "valid_np": 1.0
+  },
+  "financial_loan|gbr|acbfi_v3": {
+   "success": 1.0,
+   "same": 0.8590604026845637,
+   "valid_llm": 0.9261744966442953,
+   "valid_np": 0.8389261744966443
+  },
+  "financial_loan|gbr|untargeted": {
+   "success": 1.0,
+   "same": 0.8120805369127517,
+   "valid_llm": 0.9194630872483222,
+   "valid_np": 0.8322147651006712
+  },
+  "financial_loan|llm|acbfi_v3": {
+   "success": 1.0,
+   "same": 1.0,
+   "valid_llm": 1.0,
+   "valid_np": 0.87248322147651
+  },
+  "financial_loan|llm|untargeted": {
+   "success": 1.0,
+   "same": 1.0,
+   "valid_llm": 1.0,
+   "valid_np": 0.8590604026845637
+  },
+  "financial_loan|pc|acbfi_v3": {
+   "success": 1.0,
+   "same": 0.6845637583892618,
+   "valid_llm": 0.87248322147651,
+   "valid_np": 0.9060402684563759
+  },
+  "financial_loan|pc|untargeted": {
+   "success": 1.0,
+   "same": 0.5973154362416108,
+   "valid_llm": 0.8791946308724832,
+   "valid_np": 0.912751677852349
+  },
+  "financial_loan|rev30_r1|acbfi_v3": {
+   "success": 1.0,
+   "same": 0.7516778523489933,
+   "valid_llm": 0.7583892617449665,
+   "valid_np": 0.6577181208053692
+  },
+  "financial_loan|rev30_r1|untargeted": {
+   "success": 1.0,
+   "same": 0.2483221476510067,
+   "valid_llm": 0.7315436241610739,
+   "valid_np": 0.6442953020134228
+  },
+  "financial_loan|rev30_r2|acbfi_v3": {
+   "success": 1.0,
+   "same": 0.8389261744966443,
+   "valid_llm": 0.9395973154362416,
+   "valid_np": 0.8456375838926175
+  },
+  "financial_loan|rev30_r2|untargeted": {
+   "success": 1.0,
+   "same": 0.785234899328859,
+   "valid_llm": 0.9261744966442953,
+   "valid_np": 0.8322147651006712
+  },
+  "german_credit|drop30_r1|acbfi_v3": {
+   "success": 1.0,
+   "same": 1.0,
+   "valid_llm": 1.0,
+   "valid_np": 0.9270833333333334
+  },
+  "german_credit|drop30_r1|untargeted": {
+   "success": 1.0,
+   "same": 1.0,
+   "valid_llm": 1.0,
+   "valid_np": 0.9583333333333334
+  },
+  "german_credit|drop30_r2|acbfi_v3": {
+   "success": 1.0,
+   "same": 0.9270833333333334,
+   "valid_llm": 0.9791666666666666,
+   "valid_np": 0.9583333333333334
+  },
+  "german_credit|drop30_r2|untargeted": {
+   "success": 1.0,
+   "same": 0.9479166666666666,
+   "valid_llm": 0.9791666666666666,
+   "valid_np": 0.9583333333333334
+  },
+  "german_credit|empty|acbfi_v3": {
+   "success": 1.0,
+   "same": 0.90625,
+   "valid_llm": 0.9791666666666666,
+   "valid_np": 1.0
+  },
+  "german_credit|empty|untargeted": {
+   "success": 1.0,
+   "same": 0.9270833333333334,
+   "valid_llm": 0.9791666666666666,
+   "valid_np": 1.0
+  },
+  "german_credit|gbr|acbfi_v3": {
+   "success": 1.0,
+   "same": 0.9375,
+   "valid_llm": 1.0,
+   "valid_np": 0.9583333333333334
+  },
+  "german_credit|gbr|untargeted": {
+   "success": 1.0,
+   "same": 0.8958333333333334,
+   "valid_llm": 0.9791666666666666,
+   "valid_np": 0.9791666666666666
+  },
+  "german_credit|llm|acbfi_v3": {
+   "success": 1.0,
+   "same": 1.0,
+   "valid_llm": 1.0,
+   "valid_np": 0.9270833333333334
+  },
+  "german_credit|llm|untargeted": {
+   "success": 1.0,
+   "same": 1.0,
+   "valid_llm": 1.0,
+   "valid_np": 0.9583333333333334
+  },
+  "german_credit|pc|acbfi_v3": {
+   "success": 1.0,
+   "same": 0.625,
+   "valid_llm": 0.8958333333333334,
+   "valid_np": 0.90625
+  },
+  "german_credit|pc|untargeted": {
+   "success": 1.0,
+   "same": 0.4479166666666667,
+   "valid_llm": 0.9270833333333334,
+   "valid_np": 0.9375
+  },
+  "german_credit|rev30_r1|acbfi_v3": {
+   "success": 1.0,
+   "same": 0.9791666666666666,
+   "valid_llm": 1.0,
+   "valid_np": 0.9270833333333334
+  },
+  "german_credit|rev30_r1|untargeted": {
+   "success": 1.0,
+   "same": 0.9791666666666666,
+   "valid_llm": 1.0,
+   "valid_np": 0.9583333333333334
+  },
+  "german_credit|rev30_r2|acbfi_v3": {
+   "success": 1.0,
+   "same": 0.8854166666666666,
+   "valid_llm": 0.9479166666666666,
+   "valid_np": 0.9375
+  },
+  "german_credit|rev30_r2|untargeted": {
+   "success": 1.0,
+   "same": 0.8333333333333334,
+   "valid_llm": 0.9583333333333334,
+   "valid_np": 0.9479166666666666
+  },
+  "heloc|drop30_r1|acbfi_v3": {
+   "success": 0.5733333333333334,
+   "same": 0.6686046511627907,
+   "valid_llm": 0.8662790697674418,
+   "valid_np": 0.32558139534883723
+  },
+  "heloc|drop30_r1|untargeted": {
+   "success": 0.5633333333333334,
+   "same": 0.4556213017751479,
+   "valid_llm": 0.834319526627219,
+   "valid_np": 0.3136094674556213
+  },
+  "heloc|drop30_r2|acbfi_v3": {
+   "success": 0.63,
+   "same": 0.8201058201058201,
+   "valid_llm": 0.7724867724867724,
+   "valid_np": 0.2275132275132275
+  },
+  "heloc|drop30_r2|untargeted": {
+   "success": 0.6033333333333334,
+   "same": 0.6629834254143646,
+   "valid_llm": 0.7182320441988951,
+   "valid_np": 0.24861878453038674
+  },
+  "heloc|empty|acbfi_v3": {
+   "success": 0.43,
+   "same": 0.4263565891472868,
+   "valid_llm": 0.8294573643410853,
+   "valid_np": 1.0
+  },
+  "heloc|empty|untargeted": {
+   "success": 0.41,
+   "same": 0.34959349593495936,
+   "valid_llm": 0.8292682926829268,
+   "valid_np": 1.0
+  },
+  "heloc|gbr|acbfi_v3": {
+   "success": 0.64,
+   "same": 0.6979166666666666,
+   "valid_llm": 0.6666666666666666,
+   "valid_np": 0.1875
+  },
+  "heloc|gbr|untargeted": {
+   "success": 0.6166666666666667,
+   "same": 0.518918918918919,
+   "valid_llm": 0.6486486486486487,
+   "valid_np": 0.1945945945945946
+  },
+  "heloc|llm|acbfi_v3": {
+   "success": 0.6466666666666666,
+   "same": 1.0,
+   "valid_llm": 1.0,
+   "valid_np": 0.20618556701030927
+  },
+  "heloc|llm|untargeted": {
+   "success": 0.5933333333333334,
+   "same": 1.0,
+   "valid_llm": 1.0,
+   "valid_np": 0.20224719101123595
+  },
+  "heloc|pc|acbfi_v3": {
+   "success": 0.46,
+   "same": 0.4927536231884058,
+   "valid_llm": 0.782608695652174,
+   "valid_np": 0.5289855072463768
+  },
+  "heloc|pc|untargeted": {
+   "success": 0.42,
+   "same": 0.3333333333333333,
+   "valid_llm": 0.8174603174603174,
+   "valid_np": 0.6666666666666666
+  },
+  "heloc|rev30_r1|acbfi_v3": {
+   "success": 0.4666666666666667,
+   "same": 0.5785714285714286,
+   "valid_llm": 0.8642857142857143,
+   "valid_np": 0.5285714285714286
+  },
+  "heloc|rev30_r1|untargeted": {
+   "success": 0.4533333333333333,
+   "same": 0.4338235294117647,
+   "valid_llm": 0.8676470588235294,
+   "valid_np": 0.5588235294117647
+  },
+  "heloc|rev30_r2|acbfi_v3": {
+   "success": 0.65,
+   "same": 0.8769230769230769,
+   "valid_llm": 0.8205128205128205,
+   "valid_np": 0.2
+  },
+  "heloc|rev30_r2|untargeted": {
+   "success": 0.6033333333333334,
+   "same": 0.7513812154696132,
+   "valid_llm": 0.7900552486187845,
+   "valid_np": 0.20441988950276244
+  }
+ },
+ "E4_neverworse": true,
+ "E4_stability_mean": {
+  "Adult Income": {
+   "acbfi_v3": 0.9731359779226681,
+   "untargeted": 0.8605369025443671
+  },
+  "CDC Diabetes": {
+   "acbfi_v3": 0.9342149285981494,
+   "untargeted": 0.9230947625173194
+  },
+  "Pima Diabetes": {
+   "acbfi_v3": 0.8747252747252746,
+   "untargeted": 0.5197802197802198
+  },
+  "Lending Loan": {
+   "acbfi_v3": 0.8312559923298178,
+   "untargeted": 0.7209971236816874
+  },
+  "German Credit": {
+   "acbfi_v3": 0.8943452380952381,
+   "untargeted": 0.8616071428571429
+  },
+  "HELOC": {
+   "acbfi_v3": 0.6516045508236393,
+   "untargeted": 0.5008078886083004
+  }
+ },
+ "cases": {
+  "heloc": {
+   "dataset": "HELOC",
+   "model": "RF",
+   "p_before": 0.75,
+   "p_after": 0.49,
+   "stage": "pair",
+   "untargeted_success": false,
+   "evals": 502,
+   "direct": [
+    {
+     "feature": "netfractionrevolvingburden",
+     "from": 37.0,
+     "to": 0.0
+    },
+    {
+     "feature": "numrevolvingtradeswbalance",
+     "from": 7.0,
+     "to": 2.0
+    }
+   ],
+   "downstream": [
+    {
+     "feature": "numbank2natltradeswhighutilization",
+     "from": 1.0,
+     "to": -0.15
+    },
+    {
+     "feature": "externalriskestimate",
+     "from": 66.0,
+     "to": 72.06
+    },
+    {
+     "feature": "percenttradeswbalance",
+     "from": 90.0,
+     "to": 75.78
+    }
+   ],
+   "top_F1": [
+    [
+     "netfractionrevolvingburden",
+     0.19999999999999996
+    ],
+    [
+     "numbank2natltradeswhighutilization",
+     0.10999999999999999
+    ],
+    [
+     "netfractioninstallburden",
+     0.06999999999999995
+    ],
+    [
+     "numrevolvingtradeswbalance",
+     0.06000000000000005
+    ]
+   ],
+   "menu": []
+  },
+  "cdc": {
+   "dataset": "CDC Diabetes",
+   "model": "RF",
+   "p_before": 0.57,
+   "p_after": 0.49,
+   "stage": "single",
+   "untargeted_success": true,
+   "evals": 7,
+   "direct": [
+    {
+     "feature": "bmi",
+     "from": 30.0,
+     "to": 26.0
+    }
+   ],
+   "downstream": [
+    {
+     "feature": "highbp",
+     "from": 1.0,
+     "to": 0.93
+    },
+    {
+     "feature": "highchol",
+     "from": 1.0,
+     "to": 0.96
+    },
+    {
+     "feature": "heartdiseaseorattack",
+     "from": 1.0,
+     "to": 0.99
+    },
+    {
+     "feature": "genhlth",
+     "from": 4.0,
+     "to": 3.85
+    },
+    {
+     "feature": "physhlth",
+     "from": 15.0,
+     "to": 14.37
+    },
+    {
+     "feature": "diffwalk",
+     "from": 1.0,
+     "to": 0.95
+    }
+   ],
+   "top_F1": [
+    [
+     "physactivity",
+     0.17999999999999994
+    ],
+    [
+     "fruits",
+     0.11999999999999994
+    ],
+    [
+     "veggies",
+     0.10999999999999993
+    ],
+    [
+     "bmi",
+     0.10999999999999993
+    ]
+   ],
+   "menu": [
+    {
+     "feature": "bmi",
+     "from": 30.0,
+     "to": 26.0,
+     "cost": 1.923390365815903,
+     "p_after": 0.49
+    },
+    {
+     "feature": "fruits",
+     "from": 0.0,
+     "to": 1.0,
+     "cost": 2.0877034657801152,
+     "p_after": 0.45
+    },
+    {
+     "feature": "veggies",
+     "from": 0.0,
+     "to": 1.0,
+     "cost": 2.5901732268328574,
+     "p_after": 0.46
+    },
+    {
+     "feature": "physactivity",
+     "from": 0.0,
+     "to": 1.0,
+     "cost": 4.049571895608857,
+     "p_after": 0.39
+    }
+   ]
+  }
+ },
+ "E8a": [
+  {
+   "structure": "AND",
+   "beta": 1.0,
+   "pg3": 0.0,
+   "pg4": 0.243,
+   "br_cg4": -0.754,
+   "acc_pg": 1.0,
+   "single_ok": 1.0,
+   "n_single_ok": 2.0,
+   "pair_ok": 1.0,
+   "acc_br": 1.0
+  },
+  {
+   "structure": "AND",
+   "beta": 2.0,
+   "pg3": 0.0,
+   "pg4": 0.231,
+   "br_cg4": -0.907,
+   "acc_pg": 1.0,
+   "single_ok": 1.0,
+   "n_single_ok": 2.0,
+   "pair_ok": 1.0,
+   "acc_br": 1.0
+  },
+  {
+   "structure": "AND",
+   "beta": 4.0,
+   "pg3": 0.0,
+   "pg4": 0.217,
+   "br_cg4": -0.989,
+   "acc_pg": 1.0,
+   "single_ok": 1.0,
+   "n_single_ok": 2.0,
+   "pair_ok": 1.0,
+   "acc_br": 1.0
+  },
+  {
+   "structure": "OR",
+   "beta": 1.0,
+   "pg3": 0.438,
+   "pg4": 0.0,
+   "br_cg4": 0.463,
+   "acc_pg": 0.85,
+   "single_ok": 0.15,
+   "n_single_ok": 0.15,
+   "pair_ok": 1.0,
+   "acc_br": 1.0
+  },
+  {
+   "structure": "OR",
+   "beta": 2.0,
+   "pg3": 0.447,
+   "pg4": 0.0,
+   "br_cg4": 0.566,
+   "acc_pg": 0.662,
+   "single_ok": 0.338,
+   "n_single_ok": 0.338,
+   "pair_ok": 1.0,
+   "acc_br": 1.0
+  },
+  {
+   "structure": "OR",
+   "beta": 4.0,
+   "pg3": 0.506,
+   "pg4": 0.0,
+   "br_cg4": 0.632,
+   "acc_pg": 0.75,
+   "single_ok": 0.25,
+   "n_single_ok": 0.25,
+   "pair_ok": 1.0,
+   "acc_br": 1.0
+  }
+ ],
+ "E8": {
+  "n_hard": 1567,
+  "n_single": 5090,
+  "hard": {
+   "additive": {
+    "success": 0.27121888959795787,
+    "evals": 89.27121888959796
+   },
+   "br_cg4": {
+    "success": 0.2967453733248245,
+    "evals": 593.895979578813
+   },
+   "pg3": {
+    "success": 0.28462029355456286,
+    "evals": 592.7275047862157
+   },
+   "topM_all": {
+    "success": 0.3414167198468411,
+    "evals": 366.9170389278877
+   }
+  },
+  "mc": {
+   "br_cg4": [
+    17,
+    36,
+    0.012660335802414213
+   ],
+   "additive": [
+    22,
+    1,
+    5.7220458984375e-06
+   ],
+   "topM_all": [
+    0,
+    89,
+    3.2311742677852644e-27
+   ]
+  },
+  "share_ge2": 0.6819253438113949,
+  "median_alt": 2.0,
+  "median_premium": 1.9115027128432596,
+  "by_dataset": {
+   "Adult Income": {
+    "n": 709,
+    "ge2": 0.385049365303244,
+    "med": 1.0,
+    "prem": 2.1177322711028137
+   },
+   "CDC Diabetes": {
+    "n": 884,
+    "ge2": 0.45361990950226244,
+    "med": 1.0,
+    "prem": 1.8624794364032475
+   },
+   "Pima Diabetes": {
+    "n": 378,
+    "ge2": 0.8359788359788359,
+    "med": 2.0,
+    "prem": 2.302323803036473
+   },
+   "Lending Loan": {
+    "n": 467,
+    "ge2": 0.9978586723768736,
+    "med": 4.0,
+    "prem": 1.9374513146235612
+   },
+   "German Credit": {
+    "n": 329,
+    "ge2": 0.939209726443769,
+    "med": 6.0,
+    "prem": 1.3511234722177863
+   },
+   "Give Me Some Credit": {
+    "n": 842,
+    "ge2": 0.838479809976247,
+    "med": 3.0,
+    "prem": 1.9488815789782408
+   },
+   "HELOC": {
+    "n": 364,
+    "ge2": 0.42032967032967034,
+    "med": 1.0,
+    "prem": 1.6822727951316532
+   },
+   "Student Dropout": {
+    "n": 214,
+    "ge2": 0.3411214953271028,
+    "med": 1.0,
+    "prem": 1.797351116891679
+   },
+   "Student Performance": {
+    "n": 47,
+    "ge2": 0.7659574468085106,
+    "med": 3.0,
+    "prem": 1.453991334579227
+   },
+   "Taiwan Default": {
+    "n": 856,
+    "ge2": 0.8621495327102804,
+    "med": 3.0,
+    "prem": 1.8446477635251814
+   }
+  },
+  "auc_pg4": 0.8652004011274349,
+  "E8d": {
+   "auc_single_from_maxPG1": 0.9719676957082659,
+   "auc_single_from_maxF1": 0.8954594579007351,
+   "auc_escalation_vs_unsolved_from_maxPG3": 0.7693191697457074,
+   "auc_escalation_vs_unsolved_from_meanPG3": 0.7689351952474099,
+   "label_counts": {
+    "single": 5090,
+    "unsolved": 1032,
+    "escalation": 535
+   }
+  }
+ }
+}
